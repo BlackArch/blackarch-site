@@ -1,1 +1,1 @@
-rsync -avzl --exclude="{sync.sh,generators,.git}" . blackarch.org:/nginx/var/www/.new-site/.
+rsync -avzl --exclude={sync.sh,generators,.git,.gitignore} . blackarch.org:/nginx/var/www/.new-site/.
