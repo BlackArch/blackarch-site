@@ -5,6 +5,16 @@ body {
 
 body {
     padding-top: 50px;
+    background-color: #1d1d1d;
+    color: #bbb;
+}
+
+a {
+    color: #ff0000;
+}
+
+a:hover {
+    color: #a40000;
 }
 
 .img-portfolio {
@@ -102,7 +112,7 @@ footer {
 .code-block {
     padding: 10px;
     margin-top: 10px;
-    background: #eee;
+    background: #000;
     border: 1px solid #999;
     border-radius: 4px;
     line-height: 1.42857143;
@@ -121,7 +131,7 @@ codecomment {
 codecmd {
     font-family: inherit;
     font-size: inherit;
-    color: darkblue;
+    color: green;
 }
 
 codevar {
@@ -145,3 +155,5 @@ codevar {
 #tbl-minimalist tbody tr:hover td {
   color: #C40000;
 }
+
+
