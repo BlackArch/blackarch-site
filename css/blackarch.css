@@ -121,11 +121,27 @@ codecomment {
 codecmd {
     font-family: inherit;
     font-size: inherit;
-    color: blue;
+    color: darkblue;
 }
 
 codevar {
     font-family: inherit;
     font-size: inherit;
     color: green;
+}
+
+#tbl-minimalist {
+    margin: 10px;
+    font-size: 13px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+#tbl-minimalist td {
+  border-bottom: 1px solid #ccc;
+  padding: 2px 2px;
+}
+
+#tbl-minimalist tbody tr:hover td {
+  color: #C40000;
 }

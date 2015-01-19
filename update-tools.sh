@@ -32,12 +32,17 @@ parse_db() {
 	done > "$out"
 }
 
+split() {
+    sed -i 's/\t/\|/g' $out
+}
+
 main() {
 	trap cleanup EXIT
 
 	make_tmp
 	get_db
 	parse_db
+    split
 }
 
 main "$@"
