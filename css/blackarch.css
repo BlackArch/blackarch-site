@@ -14,7 +14,7 @@ a {
 }
 
 a:hover {
-    color: #a40000;
+    color: #c40000;
 }
 
 .img-portfolio {
@@ -89,16 +89,17 @@ footer {
     margin-bottom: 20px;
     width: 730px;
     height: 30px;
-    background-color: #f5f5f5;
-    border: 1px solid transparent;
+    background-color: #555;
+    border: 1px solid #ccc;
     border-radius: 4px;
 }
 
 .community-body {
-    padding: 10px 15px 10px 15px;
+    padding: 25px 15px 25px 15px;
     margin-bottom: 20px;
     width: 730px;
-    background-color: #ffffff;
+    background-color: #555;
+    border: 1px solid #ccc;
 }
 
 .community-body-right {
@@ -125,7 +126,7 @@ footer {
 codecomment {
     font-family: inherit;
     font-size: inherit;
-    color: #c40000;
+    color: #555;
 }
 
 codecmd {
@@ -141,10 +142,11 @@ codevar {
 }
 
 #tbl-minimalist {
-    margin: 10px;
+    margin: 15px;
     font-size: 13px;
     border-collapse: collapse;
     text-align: left;
+    background-color: #333;
 }
 
 #tbl-minimalist td {
@@ -155,5 +157,3 @@ codevar {
 #tbl-minimalist tbody tr:hover td {
   color: #C40000;
 }
-
-

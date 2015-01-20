@@ -4362,8 +4362,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #555;
   border-radius: 4px;
+  border: 1px solid #ccc;
 }
 .breadcrumb > li {
   display: inline-block;
@@ -4374,7 +4375,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   content: "/\00a0";
 }
 .breadcrumb > .active {
-  color: #777;
+  color: #ccc;
 }
 .pagination {
   display: inline-block;
@@ -4909,7 +4910,7 @@ a.thumbnail.active {
   border-bottom-left-radius: 4px;
 }
 a.list-group-item {
-  color: #555;
+  color: #aaa;
 }
 a.list-group-item .list-group-item-heading {
   color: #333;
@@ -4918,7 +4919,7 @@ a.list-group-item:hover,
 a.list-group-item:focus {
   color: #555;
   text-decoration: none;
-  background-color: #f5f5f5;
+  background-color: #aaa;
 }
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
@@ -4942,8 +4943,8 @@ a.list-group-item:focus {
 .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #c40000;
-  border-color: #c40000;
+  background-color: #555;
+  border-color: #aaa;
 }
 .list-group-item.active .list-group-item-heading,
 .list-group-item.active:hover .list-group-item-heading,
@@ -5059,7 +5060,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #fff;
+  background-color: #333;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
@@ -5286,22 +5287,22 @@ a.list-group-item-danger.active:focus {
   border-bottom: 1px solid #ddd;
 }
 .panel-default {
-  border-color: #940000;
+  border-color: #ccc;
 }
 .panel-default > .panel-heading {
   color: #ccc;
-  background-color: #940000;
-  border-color: #940000;
+  background-color: #555;
+  border-color: #ccc;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #940000;
+  border-top-color: #ccc;
 }
 .panel-default > .panel-heading .badge {
   color: #f5f5f5;
-  background-color: #940000;
+  background-color: #555;
 }
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #940000;
+  border-bottom-color: #ccc;
 }
 .panel-primary {
   border-color: #337ab7;
