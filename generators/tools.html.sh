@@ -1,4 +1,4 @@
-cat common/start
+cat common/start-tools
 
 cat << EOF
 
@@ -72,4 +72,4 @@ cat <<\EOF
         <hr>
 EOF
 
-cat common/end
+cat common/end-tools
