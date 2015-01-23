@@ -9,17 +9,17 @@ cat <<EOF
             <div class="col-lg-12">
                 <h2 class="page-header">About BlackArch Linux</h2>
                 <p>
-                    BlackArch Linux is a lightweight expansion to <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a> for penetration testers
+                    BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based distribution for penetration testers
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups. BlackArch Linux is compatible
                     with existing Arch installs. For more information, see the <a href="downloads.html#install-repo">installation instructions</a>.
                 </p>
                 <p>
-                    Please note that although BlackArch is past the beta stage, it is still a relatively new project. To report bugs and request new tools,
+                    Please note that BlackArch is a relatively new project. To report bugs and request new tools,
                     please visit the <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by
                     <a href="community.html">IRC</a>, or <a href="mailto:blackarchlinux@gmail.com">email</a> us.
                 </p>
                 <p>
-                    The BlackArch Live ISO contains multiple window managers. Here are screenshots of a few of them, of the lxdm display manager and of the syslinux bootloader:
+                    The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.
                     <br /><br />
                 </p>
             </div>
@@ -79,13 +79,12 @@ cat <<EOF
                                 <col width="260px" />
                                 <col width="150px" />
                                 <tr>
-                                    <td align="left"><b>Name</b></td>
+                                    <td  style="padding-bottom: 5px;" align="left"><b>Name</b></td>
                                     <td align="left"><b>Nickname</b></td>
                                     <td align="left"><b>E-Mail</b></td>
                                     <td align="left"><b>GPG Key</b></td>
                                     <td align="left"><b>Role</b></td>
                                 </tr>
-                                <tr><td><br /></td></tr>
 		                        <tr>
 			                        <td>Evan Teitelman</td>
 			                        <td>paraxor</td>
