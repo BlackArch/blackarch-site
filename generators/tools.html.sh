@@ -68,8 +68,6 @@ cat <<\EOF
             </div>
         </div>
         <!-- /.row -->
-
-        <hr>
 EOF
 
 cat common/end-tools
