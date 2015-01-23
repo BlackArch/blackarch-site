@@ -1,6 +1,6 @@
 cat common/start-index
 
-cat <<\EOF
+cat <<EOF
     <!-- Page Content -->
     <div class="container">
 
@@ -10,7 +10,7 @@ cat <<\EOF
                 <h2 class="page-header">About BlackArch Linux</h2>
                 <p>
                     BlackArch Linux is a lightweight expansion to <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a> for penetration testers
-                    and security researchers. The repository contains <a href="tools.html">1140</a> tools. You can install tools individually or in groups. BlackArch Linux is compatible
+                    and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups. BlackArch Linux is compatible
                     with existing Arch installs. For more information, see the <a href="downloads.html#install-repo">installation instructions</a>.
                 </p>
                 <p>
