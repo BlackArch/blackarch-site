@@ -24,7 +24,7 @@ cat <<EOF
                 </p>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/fluxbox.pmg">
+                <a href="/images/screenshots/fluxbox.png">
                     <img class="img-responsive img-portfolio img-hover" src="/images/screenshots/fluxbox.png" alt="BlackArch Linux with fluxbox">
                 </a>
             </div>
