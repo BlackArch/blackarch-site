@@ -50,7 +50,7 @@ cat <<\EOF
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/syslinux.png">
-                    <img class="img-responsive img-portfolio img-hover" style="height:224px;" src="/images/screenshots/syslinux.png" alt="BlackArch Linux wallpaper">
+                    <img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="/images/screenshots/syslinux.png" alt="BlackArch Linux wallpaper">
                 </a>
             </div>
         </div>
