@@ -1,4 +1,4 @@
-cat common/start-donate
+cat common/start
 
 cat <<\EOF
     <!-- Page Content -->
@@ -52,4 +52,4 @@ cat <<\EOF
 
 EOF
 
-cat common/end-donate
+cat common/end

@@ -1,4 +1,4 @@
-cat common/start-community
+cat common/start
 
 cat <<\EOF
     <!-- Page Content -->
@@ -106,4 +106,4 @@ cat <<\EOF
         <!-- /.row -->
 EOF
 
-cat common/end-community
+cat common/end

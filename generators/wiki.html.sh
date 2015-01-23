@@ -1,4 +1,4 @@
-cat common/start-wiki
+cat common/start
 
 cat <<\EOF
     <!-- Page Content -->
@@ -31,4 +31,4 @@ cat <<\EOF
 
 EOF
 
-cat common/end-wiki
+cat common/end

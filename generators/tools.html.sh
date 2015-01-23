@@ -1,4 +1,4 @@
-cat common/start-tools
+cat common/start
 
 cat << EOF
 
@@ -70,4 +70,4 @@ cat <<\EOF
         <!-- /.row -->
 EOF
 
-cat common/end-tools
+cat common/end

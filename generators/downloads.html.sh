@@ -1,4 +1,4 @@
-cat common/start-downloads
+cat common/start
 
 cat <<\EOF
     <!-- Page Content -->
@@ -399,4 +399,4 @@ cat <<\EOF
 
 EOF
 
-cat common/end-downloads
+cat common/end

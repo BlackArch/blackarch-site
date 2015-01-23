@@ -1,4 +1,4 @@
-cat common/start-blog
+cat common/start
 
 cat <<\EOF
     <!-- Page Content -->
@@ -435,4 +435,4 @@ cat <<\EOF
 
 EOF
 
-cat common/end-blog
+cat common/end
