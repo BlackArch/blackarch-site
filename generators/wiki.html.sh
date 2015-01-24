@@ -23,7 +23,11 @@ cat <<\EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-                    coming soon...
+                    Coming soon...
+					<br />
+					<br />
+
+					We're looking for translators. Please contact us if you would like to translate the wiki from English to any other language.
                 </p>
             </div>
         </div>
