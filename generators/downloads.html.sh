@@ -24,86 +24,85 @@ cat <<\EOF
             <!-- Sidebar Column -->
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#iso-download" class="list-group-item active">BlackArch Linux ISOs</a>
-                    <a href="#install-repo" class="list-group-item">Install from Repository</a>
-                    <a href="#install-iso" class="list-group-item">Install from ISO</a>
-                    <a href="#blackarch-arm" class="list-group-item">BlackArch Linux on ARM</a>
-                    <a href="#mirror-list" class="list-group-item">Mirror Lists</a>
+                    <a href="#iso-download" class="list-group-item active">Live ISOs</a>
+                    <a href="#install-repo" class="list-group-item">Installing on top of Arch</a>
+                    <a href="#install-iso" class="list-group-item">Installing from ISO</a>
+                    <a href="#blackarch-arm" class="list-group-item">ARM</a>
+                    <a href="#mirror-list" class="list-group-item">Mirrors</a>
                 </div>
             </div>
             <!-- Content Column -->
             <div class="col-md-9">
                 <p>
-                    Here you will find official BlackArch Linux </b>ISOs</b>, <b>images</b>, <b>mirror list</b> and instructions on how to setup
-                    BlackArch Linux, e.g. <b>quick start</b>. If you download ISOs or Images try to use a mirror near to you instead of the main site.
-                    You can find a list of <a href="#mirror-list">mirrors</a> below.
+				Here you will find official BlackArch Linux downloads and installation instructions.
                 </p>
                 <hr />
                 <br />
                 <div class="panel panel-default text-left">
                     <a name="iso-download"></a>
                     <div class="panel-heading">
-                        <b>Download BlackArch Linux ISO Files</b>
+                        <b>Live ISOs</b>
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
                             <p>
-                                The following list contains official BlackArch live-ISO and netinstall-ISO images. The images can be burned to a DVD,
-                                mounted as an ISO file, or be directly written to a USB stick using a utility like `dd`.
+								The following list contains official BlackArch
+								live and netinstall ISO images. You can burn
+								these images to DVDs and flashdrives.
                             </p>
+							<p>
+								The live ISO contains a complete, functional
+								BlackArch Linux system. The netinstall ISO is a
+								lightweight image for bootstrapping machines.
+							</p>
+							<p>
+							If possible, please try to use a mirror near you to download the ISOs.
+							You can find a <a href="#mirror-list">list of mirrors</a> below.
+							</p>
                             <hr />
-                            <table width="850px">
+                            <table width="600px">
                                 <tr>
-                                    <td align="left"><b>IMAGE</b></td>
-                                    <td align="left"><b>VERSION</b></td>
-                                    <td align="left"><b>TORRENT</b></td>
-                                    <td align="left"><b>SIZE</b></td>
-                                    <td align="left"><b>SHA1SUM</b></td>
+                                    <td style="padding-bottom: 5px;" align="left"><b>Image</b></td>
+                                    <td align="left"><b>Version</b></td>
+                                    <td align="left"><b>Torrent</b></td>
+                                    <td align="left"><b>Size</b></td>
                                 </tr>
-                                <tr><td><br /></td></tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2014.10.07-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-x86_64.iso.torrent">Torrent</a></td>
                                     <td align="left">3.9 GB</td>
-                                    <td align="left">8831f3387a3a40dcdf79ff00f023e6f7657bf8f2</td>
                                 </tr>
-                                <tr><td><br /></td></tr>
-                                <tr>
+                                <tr>.
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2014.10.07-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-i686.iso.torrent">Torrent</a></td>
                                     <td align="left">3.6 GB</td>
-                                    <td align="left">24151410fa653d62cd50e542fdc75ad9e7d80d1d</td>
                                 </tr>
-                                <tr><td><br /></td></tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-netinst-2014.10.07-x86_64.iso">BlackArch Linux 64 bit Netinstall ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2014.10.07-x86_64.iso.torrent">Torrent</a></td>
                                     <td align="left">328 MB</td>
-                                    <td align="left">54b8ec465c42e8c5ed26184c637c8807a3452eb5</td>
                                 </tr>
-                                <tr><td><br /></td></tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-netinst-2014.10.07-i686.iso">BlackArch Linux 32 bit Netinstall ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2014.10.07-i686.iso.torrent">Torrent</a></td>
                                     <td align="left">292 MB</td>
-                                    <td align="left">9dc8ca298320d72f7347fd3e1a108b9bd9ba32d7</td>
                                 </tr>
                             </table>
                             <hr />
                             <p>
-                                Do not use UNetBootIn to write the ISO file to a disk. UNetBootIn modifies the bootloader configuration, which is bad.
-                                You can use this instead (where /dev/sdX is your flashdrive).
+                                Do not use UNetBootIn to write ISO files to flashdrives. UNetBootIn modifies the bootloader configuration, which is bad.
+									You can use this instead (where /dev/sdX is your flashdrive and file.iso is a BlackArch ISO):
                             </p>
                             <div class="code-block">
                                 <codecomment># Example</codecomment>
                                 <br />
                                 $
                                 <codecmd>
-                                    sudo dd bs=512M if=file.iso of=/dev/sde
+                                    sudo dd bs=512M if=file.iso of=/dev/sdX
                                 </codecmd>
                             </div>
                             <br />
@@ -118,15 +117,13 @@ cat <<\EOF
                 <div class="panel panel-default text-left">
                     <a name="install-repo"></a>
                     <div class="panel-heading">
-                        <b>Install BlackArch Linux From Repository</b>
+                        <b>Installing on top of Arch</b>
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
                             <p>
-                                BlackArch Linux is compatible with normal Arch installations. It acts as an unofficial user repository.
-                                If you want an ISO instead, see the <a href="#iso-download">ISO</a> section. If you wish to install BlackArch on an ARM device,
-                                see the <a href="#blackarch-arm">ARM</a> section.
-                            </p>
+							BlackArch Linux is compatible with existing/normal Arch installations. It acts as an unofficial user repository. Below you will find instructions on how to install BlackArch in this manner.
+                                </p>
                             <div class="code-block">
                                 <codecomment>
                                     # Run http://blackarch.org/strap.sh as root and follow the instructions.
@@ -248,7 +245,7 @@ cat <<\EOF
                 <div class="panel panel-default text-left">
                     <a name="install-iso"></a>
                     <div class="panel-heading">
-                        <b>Install BlackArch Linux From ISO</b>
+                        <b>Installing from ISO</b>
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
@@ -279,19 +276,19 @@ cat <<\EOF
                 <div class="panel panel-default text-left">
                     <a name="blackarch-arm"></a>
                     <div class="panel-heading">
-                        <b>BlackArch Linux On ARM</b>
+                        <b>ARM</b>
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
                             <p>
-                                BlackArch is compatible with ArchLinuxARM, meaning it effectively supports all of the platforms listed
+                                BlackArch is compatible with Arch Linux ARM. It effectively supports all of the ARMv6 and ARMv7 platforms listed
                                 <a href="http://archlinuxarm.org/platforms" target="_blank">here</a>.
                             </p>
                             <p>
                                 In order to install BlackArch on an ARM platform, follow the install instructions for your device on
                                 <a href="http://archlinuxarm.org/" target="_blank">archlinuxarm.org</a> and install BlackArch
                                 <a href="#install-repo">as an unofficial user repository</a>.
-                                Soon we will release adaptations of the ArchLinuxARM images with BlackArch packages pre-installed.
+                                Soon we will release adaptations of the Arch Linux ARM images with BlackArch packages pre-installed.
                             </p>
                         </li>
                     </ul>
