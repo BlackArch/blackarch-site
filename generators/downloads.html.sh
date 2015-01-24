@@ -25,7 +25,7 @@ cat <<\EOF
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="#iso-download" class="list-group-item active">Live ISOs</a>
-                    <a href="#install-repo" class="list-group-item">Installingon top of ArchLinux</a>
+                    <a href="#install-repo" class="list-group-item">Installing on top of ArchLinux</a>
                     <a href="#install-iso" class="list-group-item">Installing from ISO</a>
                     <a href="#blackarch-arm" class="list-group-item">ARM</a>
                     <a href="#mirror-list" class="list-group-item">Mirrors</a>
@@ -55,40 +55,46 @@ cat <<\EOF
 							                  If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#mirror-list">list of mirrors</a> below.
 							              </p>
                             <hr />
-                            <table style="table-layout:fixed;width:600px">
-                                <col width="280px" />
-                                <col width="130px" />
-                                <col width="110px" />
-                                <col width="140px" />
+                            <table style="table-layout:fixed;overflow:hidden">
+                                <col width="260px" />
+                                <col width="100px" />
+                                <col width="80px" />
+                                <col width="80px" />
+                                <col />
                                 <tr>
                                     <td style="padding-bottom:5px" align="left"><b>Image</b></td>
                                     <td align="left"><b>Version</b></td>
                                     <td align="left"><b>Torrent</b></td>
                                     <td align="left"><b>Size</b></td>
+                                    <td align="left"><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2014.10.07-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-x86_64.iso.torrent">Torrent</a></td>
                                     <td align="left">3.9 GB</td>
+                                    <td align="left" style="font-size:13px">8831f3387a3a40dcdf79ff00f023e6f7657bf8f2</td>
                                 </tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2014.10.07-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-i686.iso.torrent">Torrent</a></td>
                                     <td align="left">3.6 GB</td>
+                                    <td align="left" style="font-size:13px">24151410fa653d62cd50e542fdc75ad9e7d80d1d</td>
                                 </tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-netinst-2014.10.07-x86_64.iso">BlackArch Linux 64 bit Netinstall ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2014.10.07-x86_64.iso.torrent">Torrent</a></td>
                                     <td align="left">328 MB</td>
+                                    <td align="left" style="font-size:13px">54b8ec465c42e8c5ed26184c637c8807a3452eb5</td>
                                 </tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-netinst-2014.10.07-i686.iso">BlackArch Linux 32 bit Netinstall ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2014.10.07-i686.iso.torrent">Torrent</a></td>
                                     <td align="left">292 MB</td>
+                                    <td align="left" style="font-size:13px">9dc8ca298320d72f7347fd3e1a108b9bd9ba32d7</td>
                                 </tr>
                             </table>
                             <hr />
