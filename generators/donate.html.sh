@@ -21,12 +21,16 @@ cat <<\EOF
 
         <!-- Content Row -->
         <p>
-            BlackArch Linux survives because of the tireless efforts of many people in the community and the core development circle. None of us are paid
-            for our work, and we don't have the personal funds to sustain server costs ourselves.
+			BlackArch Linux survives thanks to the tireless efforts of the
+			core development team. None of us are paid for our work and we do
+			not have the personal funds to sustain server costs ourselves.
         </p>
         <p>
-            There are many ways to help support BlackArch Linux. If technical development, documentation, or support aren't your strong points, you
-            could certainly help us by dropping a few bucks our way. Many thanks!
+			There are many ways to help support BlackArch Linux.
+
+			If you are unable to provide technical development, documentation,
+				or support, you could certainly help us by sending some fiat
+				currency or bitcoins our way. Many thanks!
         </p>
         <br />
         <div class="row">
