@@ -25,7 +25,7 @@ cat <<\EOF
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="#iso-download" class="list-group-item active">Live ISOs</a>
-                    <a href="#install-repo" class="list-group-item">Installing on top of Arch</a>
+                    <a href="#install-repo" class="list-group-item">Installingon top of ArchLinux</a>
                     <a href="#install-iso" class="list-group-item">Installing from ISO</a>
                     <a href="#blackarch-arm" class="list-group-item">ARM</a>
                     <a href="#mirror-list" class="list-group-item">Mirrors</a>
@@ -34,7 +34,7 @@ cat <<\EOF
             <!-- Content Column -->
             <div class="col-md-9">
                 <p>
-				Here you will find official BlackArch Linux downloads and installation instructions.
+				          Here you will find official BlackArch Linux downloads and installation instructions.
                 </p>
                 <hr />
                 <br />
@@ -46,21 +46,20 @@ cat <<\EOF
                     <ul class="list-group">
                         <li class="list-group-item">
                             <p>
-								The following list contains official BlackArch
-								live and netinstall ISO images. You can burn
-								these images to DVDs and flashdrives.
+								                The following list contains official BlackArch live and netinstall ISO images. You can burn these images to DVDs and flashdrives.
                             </p>
-							<p>
-								The live ISO contains a complete, functional
-								BlackArch Linux system. The netinstall ISO is a
-								lightweight image for bootstrapping machines.
-							</p>
-							<p>
-							If possible, please try to use a mirror near you to download the ISOs.
-							You can find a <a href="#mirror-list">list of mirrors</a> below.
-							</p>
+							              <p>
+                                The live ISO contains a complete, functional BlackArch Linux system. The netinstall ISO is a lightweight image for bootstrapping machines.
+							              </p>
+							              <p>
+							                  If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#mirror-list">list of mirrors</a> below.
+							              </p>
                             <hr />
-                            <table width="600px">
+                            <table style="table-layout:fixed;width:600">
+                                <col width="280px" />
+                                <col width="130px" />
+                                <col width="110px" />
+                                <col width="140px" />
                                 <tr>
                                     <td style="padding-bottom: 5px;" align="left"><b>Image</b></td>
                                     <td align="left"><b>Version</b></td>
@@ -95,7 +94,7 @@ cat <<\EOF
                             <hr />
                             <p>
                                 Do not use UNetBootIn to write ISO files to flashdrives. UNetBootIn modifies the bootloader configuration, which is bad.
-									You can use this instead (where /dev/sdX is your flashdrive and file.iso is a BlackArch ISO):
+                                You can use this instead (where /dev/sdX is your flashdrive and file.iso is a BlackArch ISO):
                             </p>
                             <div class="code-block">
                                 <codecomment># Example</codecomment>
@@ -117,13 +116,14 @@ cat <<\EOF
                 <div class="panel panel-default text-left">
                     <a name="install-repo"></a>
                     <div class="panel-heading">
-                        <b>Installing on top of Arch</b>
+                        <b>Installing on top of ArchLinux</b>
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
                             <p>
-							BlackArch Linux is compatible with existing/normal Arch installations. It acts as an unofficial user repository. Below you will find instructions on how to install BlackArch in this manner.
-                                </p>
+							                  BlackArch Linux is compatible with existing/normal Arch installations. It acts as an unofficial user repository. Below you will find instructions
+                                on how to install BlackArch in this manner.
+                            </p>
                             <div class="code-block">
                                 <codecomment>
                                     # Run http://blackarch.org/strap.sh as root and follow the instructions.
