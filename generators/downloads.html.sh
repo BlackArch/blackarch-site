@@ -72,7 +72,7 @@ cat <<\EOF
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-x86_64.iso.torrent">Torrent</a></td>
                                     <td align="left">3.9 GB</td>
                                 </tr>
-                                <tr>.
+                                <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2014.10.07-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td align="left">2014.10.07</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-i686.iso.torrent">Torrent</a></td>
