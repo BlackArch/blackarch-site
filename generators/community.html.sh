@@ -23,7 +23,7 @@ cat <<\EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-				You can find the BlackArch Linux community in several places.
+				            You can find the BlackArch Linux community in several places.
                 </p>
                 <p>
                     If you need to contact the core development team directly, you can email <a href="mailto:blackarchlinux [at] gmail [dot] com">blackarchlinux[at]gmail.com</a>.
@@ -37,17 +37,11 @@ cat <<\EOF
                             <a href="https://github.com/BlackArch" target="_blank"><img src="images/icons/github.png" /></a>
                         </div>
                     <p>
-					You can find all BlackArch Linux code (including build
-					scripts and website source) on our <a
-						href="https://github.com/BlackArch"
-						target="_blank">github</a>.
-					</p>
+					              You can find all BlackArch Linux code (including build scripts and website source) on our <a href="https://github.com/BlackArch" target="_blank">github</a>.
+					          </p>
                     <p>
-						If you have any questions, suggestions, or bugs to
-							report, feel free to post on the <a
-							href="https://github.com/BlackArch/blackarch/issues"
-							target="_blank">issue tracker</a>. We also accept
-							pull requests of all sizes and importance.
+						            If you have any questions, suggestions, or bugs to report, feel free to post on the
+                        <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a>. We also accept pull requests of all sizes and importance.
                     </p>
                 </div>
                 <br />
@@ -59,14 +53,12 @@ cat <<\EOF
                             <a href="https://twitter.com/blackarchlinux" target="_blank"><img src="images/icons/twitter.png" /></a>
                         </div>
                         <p>
-							We use mainly tweet about <b>new tools</b>, <b>new
-							mirrors</b>, and major <b>project changes</b>. We also
-							accept bug reports and suggestions through Twitter.
-							Just mention us. We'll respond.
+                            We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>. We also accept bug reports and suggestions through Twitter.
+							              Just mention us. We'll respond.
                         </p>
-						<p>
-							
-						</p>
+						            <p>
+                            foo bar foobar
+						            </p>
                 </div>
                 <br />
                 <div class="community-head">
@@ -77,12 +69,8 @@ cat <<\EOF
                         <a href="irc://irc.freenode.net/blackarch" target="_blank"><img src="images/icons/irc.png" /></a>
                     </div>
                     <p>
-						We use IRC to discuss about BlackArch but also about
-						social things. Also, you would see any changes made on
-						our github repositories through
-						<b>notification-bot</b>. That way, you would
-						immediately see if a new tool has been released or any
-						upgrades has been performed, etc.
+                        We use IRC to discuss about BlackArch but also about social things. Also, you would see any changes made on our github repositories through
+						            <b>notification-bot</b>. That way, you would immediately see if a new tool has been released or any upgrades has been performed, etc.
                     </p>
                     <p>
                         You can find the official BlackArch Internet Relay Chat channel here:
