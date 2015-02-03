@@ -41,11 +41,8 @@ cat <<\EOF
 									  target="_blank">github</a>.
 					          </p>
                     <p>
-									If you have any questions, suggestions, or
-									bugs to report, feel free to post on the
-						<a href="https://github.com/BlackArch/blackarch/issues"
-							target="_blank">issue tracker</a>. We also accept
-						pull requests of all sizes and importance.
+									      If you have any questions, suggestions, or bugs to report, feel free to post on the
+                        <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a>. We also accept pull requests of all sizes and importance.
                     </p>
                 </div>
                 <br />
@@ -57,10 +54,11 @@ cat <<\EOF
                             <a href="https://twitter.com/blackarchlinux" target="_blank"><img src="images/icons/twitter.png" /></a>
                         </div>
                         <p>
-                            We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>. We also accept bug reports and suggestions through Twitter.
-							              Just mention us. We'll respond.
+                            Follow us on Twitter! We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>.
                         </p>
-						<br />
+                        <p>
+                            We also accept bug reports and suggestions through Twitter. Just mention us. We'll respond.
+                        </p>
                 </div>
                 <br />
                 <div class="community-head">
@@ -71,18 +69,13 @@ cat <<\EOF
                         <a href="irc://irc.freenode.net/blackarch" target="_blank"><img src="images/icons/irc.png" /></a>
                     </div>
                     <p>
-					Come keep us company. We have a little community here.
-					Anything is on topic but the large majority of discusision
-					is related to security and/or BlackArch.
-					</p>
-
+                        Come keep us company. We have a little community here. Anything is on topic but the large majority of discusision is related to security and/or BlackArch.
+					          </p>
                     <p>
-					If you need help, this is the best place to ask.
-					</p>
-
+					              If you need help, this is the best place to ask.
+					          </p>
                     <p>
-					We also have a little bot that notifies the channel of git
-					commits and package updates/additions.
+					              We also have a little bot that notifies the channel of git commits and package updates/additions.
                     </p>
                     <p>
                         You can find the official BlackArch IRC channel here:
@@ -98,16 +91,11 @@ cat <<\EOF
                         <a href="blog.html"><img src="images/icons/blog.png" /></a>
                     </div>
                     <p>
-						We have an on-site <a href="blog.html">blog</a>. The
-						posts are usually more detailed than our Twitter posts
-						and focus on more big project issues.
-					</p>
+						            We have an on-site <a href="blog.html">blog</a>. The posts are usually more detailed than our Twitter posts and focus on more big project issues.
+					          </p>
                     <p>
-						We also release interesting blog entries about
-						BlackArch Linux, hacking, and security written by
-						users. If you wish to add a blog entry please open a
-						pull request on
-						<a href="https://github.com/BlackArch/blackarch-site" target="_blank">Github</a>.
+                        We also release interesting blog entries about BlackArch Linux, hacking, and security written by users. If you wish to add a blog entry please open a
+						            pull request on <a href="https://github.com/BlackArch/blackarch-site" target="_blank">Github</a>.
                     </p>
                 </div>
             </div>
