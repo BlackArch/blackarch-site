@@ -100,7 +100,7 @@ get_mirror()
                     ;;
             esac
         fi
-    done
+    done < /dev/tty
 }
 
 # update pacman.conf
