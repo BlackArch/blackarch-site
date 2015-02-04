@@ -88,25 +88,26 @@ get_mirror()
 {
     printf '    -> enter a BlackArch Linux mirror url: '
     while read line ; do
-        if [ ! -z "$line" ] ; then
-            case "$line" in
-                http*|ftp*)
-                    mirror=$line
-                    break
-                    ;;
-                *)
-                    warn 'please specify a correct mirror url'
-                    printf '    -> enter a BlackArch Linux mirror url: '
-                    ;;
-            esac
-        fi
+        case "$line" in
+            http://*|ftp://*)
+                mirror=$line
+                break
+                ;;
+            *)
+                warn 'please specify a correct mirror url'
+                printf '    -> enter a BlackArch Linux mirror url: '
+                ;;
+        esac
     done < /dev/tty
 }
 
 # update pacman.conf
 update_pacman_conf()
 {
-    cat >> "/etc/pacman.conf" <<EOF
+    # delete blackarch related entries if existing
+    sed -ie '/blackarch/{N;d}' /etc/pacman.conf
+
+    cat >> "/etc/pacman.conf" << EOF
 [blackarch]
 Server = $mirror/\$repo/os/\$arch
 EOF
