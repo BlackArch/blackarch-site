@@ -81,6 +81,8 @@ install_keyring()
     then
         err 'keyring installation failed'
     fi
+	# just in case
+	pacman-key --populate
 }
 
 # ask user for mirror
@@ -123,7 +125,7 @@ pacman_update()
 pacman_upgrade()
 {
     echo 'perform full system upgrade? (pacman -Su) [Yn]:'
-    read conf
+    read conf < /dev/tty
     case "$conf" in
         ''|y|Y) pacman -Su ;;
         n|N) warn 'some blackarch packages may not work without an up-to-date system.' ;;
