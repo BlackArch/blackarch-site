@@ -88,16 +88,23 @@ install_keyring()
 # ask user for mirror
 get_mirror()
 {
-    printf '    -> enter a BlackArch Linux mirror url: '
-    while read line ; do
+    while read -p '    -> enter a BlackArch Linux mirror url: ' line ; do
         case "$line" in
             http://*|ftp://*)
                 mirror=$line
-                break
+				# check for blackarch.db on mirror
+				msg 'checking mirror...'
+				if ! curl -sI "$mirror/blackarch/os/i686/blackarch.db" |
+				     head -n1 | grep -q 200
+				then
+					warn 'blackarch.db not found on mirror. please try another mirror.'
+				else
+					msg 'mirror is good'
+					break
+				fi
                 ;;
             *)
                 warn 'please specify a correct mirror url'
-                printf '    -> enter a BlackArch Linux mirror url: '
                 ;;
         esac
     done < /dev/tty
