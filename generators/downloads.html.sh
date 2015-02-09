@@ -307,6 +307,9 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <img src="/images/flags/au.png" /> Australia<br />
+                            <a href="http://blackarch.hexnoia.org/" target="_blank">http://blackarch.hexnoia.org/</a><br />
+                            <br /><br />
                             <img src="/images/flags/ca.png" /> Canada<br />
                             <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank">http://mirror.clibre.uqam.ca/blackarch/</a><br />
                             <a href="http://blackarch.dropswitch.net/blackarch/" target="_blank">http://blackarch.dropswitch.net/blackarch/</a>
