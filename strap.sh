@@ -1,6 +1,9 @@
 #!/bin/sh
 # strap.sh - install and setup BlackArch Linux keyring
 
+# default mirror url
+MIRROR="http://mirror.team-cymru.org/blackarch/"
+
 # simple error message wrapper
 err()
 {
@@ -17,7 +20,7 @@ warn()
 # simple echo wrapper
 msg()
 {
-    echo `tput bold; tput setaf 2`"[*] ${*}"`tput sgr0`
+    echo `tput bold; tput setaf 2`"[+] ${*}"`tput sgr0`
 }
 
 # check for root privilege
@@ -88,23 +91,26 @@ install_keyring()
 # ask user for mirror
 get_mirror()
 {
-    while read -p '    -> enter a BlackArch Linux mirror url: ' line ; do
+    printf "    -> enter a BlackArch Linux mirror url (default: $MIRROR): "
+    while read line ; do
         case "$line" in
             http://*|ftp://*)
-                mirror=$line
-				# check for blackarch.db on mirror
-				msg 'checking mirror...'
-				if ! curl -sI "$mirror/blackarch/os/i686/blackarch.db" |
-				     head -n1 | grep -q 200
-				then
-					warn 'blackarch.db not found on mirror. please try another mirror.'
-				else
-					msg 'mirror is good'
-					break
-				fi
+                msg 'checking mirror...'
+                if ! curl -sI "$line/blackarch/os/i686/blackarch.db" |
+                    head -n1 | grep -q 200
+                then
+                    warn 'blackarch.db not found on given mirror'
+                    warn "using default mirror $MIRROR"
+                else
+                    MIRROR=$line
+                    msg "using mirror $MIRROR"
+                fi
+                break
                 ;;
             *)
-                warn 'please specify a correct mirror url'
+                warn 'you did not specify a correct mirror url'
+                msg "using default mirror $MIRROR"
+                return
                 ;;
         esac
     done < /dev/tty
@@ -118,7 +124,7 @@ update_pacman_conf()
 
     cat >> "/etc/pacman.conf" << EOF
 [blackarch]
-Server = $mirror/\$repo/os/\$arch
+Server = $MIRROR/\$repo/os/\$arch
 EOF
 }
 
@@ -158,8 +164,7 @@ blackarch_setup()
     update_pacman_conf
     msg 'updating package databases'
     pacman_update
-    echo
-    msg 'success. blackarch is ready!'
+    msg 'BlackArch Linux is ready!'
 }
 
 
