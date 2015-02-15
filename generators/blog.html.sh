@@ -30,7 +30,19 @@ cat <<\EOF
                     <ul class="list-group">
                         <li class="list-group-item">
 
-                            <h4>New Ecuador mirror added! <d>12 Jan 2015</d></h4>
+                            <h4>Major upgrade of BlackArch Linux repository! <d>15 Feb 2015</d></h4>
+                            <hr />
+                            <p>
+                                We walked through the BlackArch Linux repository and upgraded almost every single package.<br />
+                                In order to get the updated packages, run: <br /><br />
+                                <code>pacman -Syyu --needed --force blackarch</code>
+                                <br /><br />
+                                Thanks for all supporters and contributors!
+                            </p>
+
+                            <br />
+
+                            <h4>New Ecuador mirror added! <d>12 Feb 2015</d></h4>
                             <hr />
                             <p>
                                 We would like to thank <a href="http://mirror.uta.edu.ec" target="_blank">mirror.uta.edu.ec</a> for becoming a mirror.
