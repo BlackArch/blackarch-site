@@ -2,7 +2,7 @@
 # strap.sh - install and setup BlackArch Linux keyring
 
 # default mirror url
-MIRROR="http://mirror.team-cymru.org/blackarch/"
+MIRROR="http://mirror.team-cymru.org/blackarch"
 
 # simple error message wrapper
 err()
@@ -158,10 +158,13 @@ blackarch_setup()
     install_keyring
     echo
     msg 'keyring installed successfully'
-    msg 'configuring pacman'
-    get_mirror
-    msg 'updating pacman.conf'
-    update_pacman_conf
+    # check if pacman.conf has already a mirror
+    if ! grep -q "\[blackarch\]" /etc/pacman.conf; then
+        msg 'configuring pacman'
+        get_mirror
+        msg 'updating pacman.conf'
+        update_pacman_conf
+    fi
     msg 'updating package databases'
     pacman_update
     msg 'BlackArch Linux is ready!'
