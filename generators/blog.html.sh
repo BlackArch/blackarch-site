@@ -29,6 +29,15 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New Turkey mirror added! <d>08 Mar 2015</d></h4>
+                            <hr />
+                            <p>
+                                We would like to thank <a href="http://linux.org.tr/">linux.org.tr</a> for becoming a mirror.
+                                <br />
+                                They are offering the following access: <a href="http://ftp.linux.org.tr/blackarch/" target="_blank">http</a>
+                            </p>
+
+                            <br />
 
                             <h4>Major upgrade of BlackArch Linux repository! <d>15 Feb 2015</d></h4>
                             <hr />
