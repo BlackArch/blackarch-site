@@ -376,6 +376,8 @@ cat <<\EOF
                             <br /><br />
                             <img src="/images/flags/tr.png" /> Turkey<br />
                             <a href="http://ftp.linux.org.tr/blackarch/" target="_blank">http://ftp.linux.org.tr/blackarch/</a<br />
+                            <a href="ftp://ftp.linux.org.tr/blackarch/" target="_blank">ftp://ftp.linux.org.tr/blackarch/</a<br />
+                            <a href="rsync://rsync.linux.org.tr/blackarch/" target="_blank">rsync://rsync.linux.org.tr/blackarch/</a
                             <br /><br />
                             <img src="/images/flags/tw.png" /> Taiwan<br />
                             <a href="http://blackarch.cs.nctu.edu.tw/" target="_blank">http://blackarch.cs.nctu.edu.tw/</a><br />
