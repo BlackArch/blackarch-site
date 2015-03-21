@@ -32,16 +32,16 @@ cat <<\EOF
                             <h4>Tool count breaks 1200 & upcoming ISOs... <d>21 Mar 2015</d></h4>
                             <hr />
                             <p>
-                                BlackArch Linux now serves more than 1200 tools. All the tools will be included in the upcoming ISOs. If you want to become a beta tester
-                                simply join our <a href="irc://irc.freenode.net/blackarch" target="_blank">IRC channel</a> on Freenode.
+                                BlackArch Linux now contains more than 1200 tools. We will add the new tools to the next version of the ISO.
+                                If you wish to become a beta tester join our <a href="irc://irc.freenode.net/blackarch" target="_blank">IRC channel</a> on Freenode.
                             </p>
                             <p>
-                                Apart from from more than 150 new tools and many improvements, the new BlackArch Linux ISOs will include bugfixes for the current installer.
+                                In addition to over 150 new tools and a number of features, the new BlackArch Linux ISOs will include bugfixes for the current installer.
                                 They will be released in a couple of days.
                             </p>
                             <p>
-                                Also, in parallel we are working on a new installer written in Python which will have a text and a curses based installer mode.
-                                We will then relase new ISOs again along with the new installer.
+                                Also, in parallel, we are working on a new installer written in Python which will have a text- and a curses-based installer modes.
+                                Once the new installer is finished, we will release new ISOs yet again.
                             </p>
                             <p>
                                 Stay tuned...
