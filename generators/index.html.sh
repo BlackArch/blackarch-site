@@ -139,7 +139,7 @@ cat <<EOF
 			                        <td>Halit Alptekin</td>
 			                        <td>diqit4ll</td>
 			                        <td>info[at]halitalptekin.com</td>
-			                        <td><a href="gpgkeys/halit.asc" target="_blank">628061A0</a></td>
+			                        <td><a href="gpgkeys/halit.asc" target="_blank">0x628061A0</a></td>
 			                        <td>Contributor</td>
 		                        </tr>
 		                        <tr>
