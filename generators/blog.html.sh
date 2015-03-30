@@ -29,6 +29,31 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New ISOs and BlackArch Linux installer... <d>30 Mar 2015</d></h4>
+                            <p>
+                                Today we released new BlackArch Linux ISOs. The new ISOs include over 1200 tools for i686 and x86_64 and over 1000 tools for armv6h and armv7h.
+                            </p>
+                            <p>
+                                Here's a short ChangeLog:
+                                <ul>
+                                    <li>lot's of bugfixes</li>
+                                    <li>change splash for boot loader (syslinux / grub)</li>
+                                    <li>updated pacman.conf settings</li>
+                                    <li>updated /etc/motd</li>
+                                    <li>updated /etc/issue</li>
+                                    <li>updated blackarch-install-scripts (version bump: 0.8)</li>
+                                    <li>minor tweaks related to ISO builds</li>
+                                    <li>updated menu entries for fluxbox, awesome and openbox</li>
+                                    <li>updated all tools</li>
+                                    <li>added more than 150 new tools</li>
+                                </ul>
+                            </p>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+
+                            <br />
+
                             <h4>Tool count breaks 1200 & upcoming ISOs... <d>21 Mar 2015</d></h4>
                             <hr />
                             <p>
