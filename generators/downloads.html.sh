@@ -69,18 +69,18 @@ cat <<\EOF
                                     <td align="left"><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2014.10.07-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
-                                    <td align="left">2014.10.07</a></td>
-                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-x86_64.iso.torrent">Torrent</a></td>
-                                    <td align="left">3.9 GB</td>
-                                    <td align="left" style="font-size:13px">8831f3387a3a40dcdf79ff00f023e6f7657bf8f2</td>
+                                    <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2015.03.29-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td align="left">2015.03.29</a></td>
+                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2015.03.29-x86_64.iso.torrent">Torrent</a></td>
+                                    <td align="left">3.6 GB</td>
+                                    <td align="left" style="font-size:13px">35d91ede78d53a41b97583f118f0aaf2c27479e7</td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2014.10.07-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
-                                    <td align="left">2014.10.07</a></td>
-                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2014.10.07-i686.iso.torrent">Torrent</a></td>
-                                    <td align="left">3.6 GB</td>
-                                    <td align="left" style="font-size:13px">24151410fa653d62cd50e542fdc75ad9e7d80d1d</td>
+                                    <td align="left"><a href="/blackarch/iso/blackarchlinux-live-2015.03.29-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td align="left">2015.03.29</a></td>
+                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2015.03.29-i686.iso.torrent">Torrent</a></td>
+                                    <td align="left">4.1 GB</td>
+                                    <td align="left" style="font-size:13px">e4c85e2c31e4a0e1c657e8633c9366f307acb8e7</td>
                                 </tr>
                                 <tr>
                                     <td align="left"><a href="/blackarch/iso/blackarchlinux-netinst-2015.03.29-x86_64.iso">BlackArch Linux 64 bit Netinstall ISO</a></td>
