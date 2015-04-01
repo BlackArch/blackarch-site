@@ -29,6 +29,17 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New Greece mirrors added! <d>01 Apr 2015</d></h4>
+                            <hr />
+                            <p>
+                                We would like to thank <a href="http://www.cc.uoc.gr/">University of Crete / Computer Center</a> for becoming a mirror.
+                                <br />
+                                They are offering the following access: <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">http</a> |
+                                <a href="ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">ftp</a>
+                            </p>
+
+                            <br />
+
                             <h4>New France mirrors added! <d>01 Apr 2015</d></h4>
                             <hr />
                             <p>
