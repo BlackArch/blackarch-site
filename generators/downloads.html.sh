@@ -324,16 +324,17 @@ cat <<\EOF
                             <a href="http://mirror.cedia.org.ec/blackarch/" target="_blank">http://mirror.cedia.org.ec/blackarch/</a><br />
                             <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank">http://mirror.espoch.edu.ec/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/fr.png" /> France<br />
-                            <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank">http://blackarch.leneveu.fr/blackarch/</a><br />
-                            <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank">http://blackarch.pi3rrot.net/blackarch/</a><br />
-                            <a href="http://mirror.adversec.com/blackarch/" target="_blank">http://mirror.adversec.com/blackarch/</a>
-                            <br /><br />
                             <img src="/images/flags/de.png" /> Germany<br />
                             <a href="http://www.blackarch.org/blackarch/" target="_blank">http://www.blackarch.org/blackarch/</a><br />
                             <a href="http://blackarch.nullsecurity.net/blackarch/" target="_blank">http://blackarch.nullsecurity.net/blackarch/</a><br />
                             <a href="http://blackarch1.curesec.com/blackarch/" target="_blank">http://blackarch1.curesec.com/blackarch/</a><br />
                             <a href="http://blackarch2.curesec.com/blackarch/" target="_blank">http://blackarch2.curesec.com/blackarch/</a>
+                            <br /><br />
+                            <img src="/images/flags/fr.png" /> France<br />
+                            <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank">http://blackarch.leneveu.fr/blackarch/</a><br />
+                            <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank">http://blackarch.pi3rrot.net/blackarch/</a><br />
+                            <a href="http://mirror.adversec.com/blackarch/" target="_blank">http://mirror.adversec.com/blackarch/</a>
+                            <a href="http://blackarch.uteditor.de/" target="_blank">http://blackarch.uteditor.de</a>
                             <br /><br />
                             <img src="/images/flags/gb.png" /> Great Britain<br />
                             <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a>
