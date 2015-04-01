@@ -51,6 +51,20 @@ cat <<\EOF
                     </ul>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="panel panel-default text-center">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><b>Bitcoin</b></h3>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                        Address: 1F8bki2f45q9vXwhyV65vD5Zt4iLw8SpBx
+                        <br />
+                        <img src=/images/bt.png />
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         <!-- /.row -->
 
