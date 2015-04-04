@@ -29,6 +29,16 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New Belgium mirrors added! <d>04 Apr 2015</d></h4>
+                            <hr />
+                            <p>
+                                We would like to thank <a href="http://alexiobash.com/">alexiobash.com</a> for becoming a mirror.
+                                <br />
+                                They are offering the following access: <a href="http://mirror.alexiobash.com/blackarch/" target="_blank">http</a>
+                            </p>
+
+                            <br />
+
                             <h4>New US mirrors added! <d>02 Apr 2015</d></h4>
                             <hr />
                             <p>
