@@ -309,7 +309,7 @@ cat <<\EOF
                         <li class="list-group-item">
                             <img src="/images/flags/au.png" /> Australia<br />
                             <a href="http://blackarch.mirror.digitalpacific.com.au/" target="_blank">http://blackarch.mirror.digitalpacific.com.au/</a><br />
-                            <a href="rsync://mirror.digitalpacific.com.au/blackarch/" target="_blank">rsync://mirror.digitalpacific.com.au/blackarch/</a><br />
+                            <a href="rsync://mirror.digitalpacific.com.au/blackarch/" target="_blank">rsync://mirror.digitalpacific.com.au/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/be.png" /> Belgium<br />
                             <a href="http://mirror.alexiobash.com/blackarch/" target="_blank">http://mirror.alexiobash.com/blackarch/</a>
