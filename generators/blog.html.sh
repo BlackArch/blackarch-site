@@ -29,6 +29,17 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New Denmark mirrors added! <d>15 Apr 2015</d></h4>
+                            <hr />
+                            <p>
+                                We would like to thank <a href="http://dotsrc.org">dotsrc.org</a> for becoming a mirror.
+                                <br />
+                                They are offering the following access: <a href="http://mirrors.dotsrc.org/blackarch/" target="_blank">http</a> |
+                                <a href="ftp://mirrors.dotsrc.org/blackarch/" target="_blank">ftp</a>
+                            </p>
+
+                            <br />
+
                             <h4>New Australia mirrors added! <d>10 Apr 2015</d></h4>
                             <hr />
                             <p>
