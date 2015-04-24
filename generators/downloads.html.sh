@@ -307,32 +307,32 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <img src="/images/flags/au.png" /> Australia<br />
+                            <img src="/images/flags/au.png" alt="Australia" /> Australia<br />
                             <a href="http://blackarch.mirror.digitalpacific.com.au/" target="_blank">http://blackarch.mirror.digitalpacific.com.au/</a><br />
                             <a href="rsync://mirror.digitalpacific.com.au/blackarch/" target="_blank">rsync://mirror.digitalpacific.com.au/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/be.png" /> Belgium<br />
+                            <img src="/images/flags/be.png" alt="Belgium" /> Belgium<br />
                             <a href="http://mirror.alexiobash.com/blackarch/" target="_blank">http://mirror.alexiobash.com/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/ca.png" /> Canada<br />
+                            <img src="/images/flags/ca.png" alt="Canada" /> Canada<br />
                             <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank">http://mirror.clibre.uqam.ca/blackarch/</a><br />
                             <a href="http://blackarch.dropswitch.net/blackarch/" target="_blank">http://blackarch.dropswitch.net/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/cn.png" /> China<br />
+                            <img src="/images/flags/cn.png" alt="China" /> China<br />
                             <a href="http://mirrors.hustunique.com/blackarch/" target="_blank">http://mirrors.hustunique.com/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/dk.png" /> Denmark<br />
+                            <img src="/images/flags/dk.png" alt="Denmark" /> Denmark<br />
                             <a href="http://mirrors.dotsrc.org/blackarch/" target="_blank">http://mirrors.dotsrc.org/blackarch/</a><br />
                             <a href="ftp://mirrors.dotsrc.org/blackarch/" target="_blank">ftp://mirrors.dotsrc.org/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/ec.png" /> Ecuador<br />
-                            <a href="http://mirror.uta.edu.ec/blackarch/ target="_blank">http://mirror.uta.edu.ec/blackarch/</a><br />
+                            <img src="/images/flags/ec.png" alt="Ecuador" /> Ecuador<br />
+                            <a href="http://mirror.uta.edu.ec/blackarch/" target="_blank">http://mirror.uta.edu.ec/blackarch/</a><br />
                             <a href="ftp://mirror.uta.edu.ec/blackarch/" target="_blank">ftp://mirror.uta.edu.ec/blackarch/</a><br />
                             <a href="rsync://mirror.uta.edu.ec/blackarch/" target="_blank">rsync://mirror.uta.edu.ec/blackarch/</a><br />
                             <a href="http://mirror.cedia.org.ec/blackarch/" target="_blank">http://mirror.cedia.org.ec/blackarch/</a><br />
                             <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank">http://mirror.espoch.edu.ec/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/fr.png" /> France<br />
+                            <img src="/images/flags/fr.png" alt="France" /> France<br />
                             <a href="http://www.blackarch.org/blackarch/" target="_blank">http://www.blackarch.org/blackarch/</a><br />
                             <a href="http://blackarch.tamcore.eu/" target="_blank">http://blackarch.tamcore.eu/</a><br />
                             <a href="https://blackarch.tamcore.eu/" target="_blank">https://blackarch.tamcore.eu/</a><br />
@@ -342,76 +342,76 @@ cat <<\EOF
                             <a href="http://mirror.adversec.com/blackarch/" target="_blank">http://mirror.adversec.com/blackarch/</a><br />
                             <a href="http://blackarch.uteditor.de/" target="_blank">http://blackarch.uteditor.de/</a>
                             <br /><br />
-                            <img src="/images/flags/de.png" /> Germany<br />
+                            <img src="/images/flags/de.png" alt="Germany" /> Germany<br />
                             <a href="http://blackarch.nullsecurity.net/blackarch/" target="_blank">http://blackarch.nullsecurity.net/blackarch/</a><br />
                             <a href="http://blackarch1.curesec.com/blackarch/" target="_blank">http://blackarch1.curesec.com/blackarch/</a><br />
                             <a href="http://blackarch2.curesec.com/blackarch/" target="_blank">http://blackarch2.curesec.com/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/gr.png" /> Greece<br />
+                            <img src="/images/flags/gr.png" alt="Greece" /> Greece<br />
                             <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">http://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br />
                             <a href="ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br />
                             <a href="rsync://blackarch@blackarch.org/blackarch/" target="_blank">rsync://blackarch@blackarch.org/blackarch </a>
                             <br /><br />
-                            <img src="/images/flags/gb.png" /> Great Britain<br />
+                            <img src="/images/flags/gb.png" alt="Great Britain" /> Great Britain<br />
                             <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br />
                             <a href="ftp://ftp.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank">ftp://ftp.mirrorservice.org/sites/blackarch.org/blackarch/</a><br />
                             <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/ie.png" /> Ireland<br />
+                            <img src="/images/flags/ie.png" alt="Ireland" /> Ireland<br />
                             <a href="http://blackarch.org/ftp.heanet.ie/mirrors/blackarch/" target="_blank">http://blackarch.org/ftp.heanet.ie/mirrors/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/it.png" /> Italy<br />
+                            <img src="/images/flags/it.png" alt="Italy" /> Italy<br />
                             <a href="http://blackarch.mirror.garr.it/mirrors/blackarch/" target="_blank">http://blackarch.mirror.garr.it/mirrors/blackarch/</a><br />
                             <a href="rsync://blackarch.mirror.garr.it/blackarch/" target="_blank">rsync://blackarch.mirror.garr.it/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/jp.png" /> Japan<br />
+                            <img src="/images/flags/jp.png" alt="Japan" /> Japan<br />
                             <a href="http://www.ftp.ne.jp/Linux/packages/blackarch/" target="_blank">http://www.ftp.ne.jp/Linux/packages/blackarch/</a><br />
                             <a href="ftp://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank">ftp://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/nl.png" /> Netherlands<br />
+                            <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br />
                             <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank">http://blackarch.pr0s3c.nl/blackarch/</a><br />
                             <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank">https://blackarch.pr0s3c.nl/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/pl.png" /> Poland<br />
+                            <img src="/images/flags/pl.png" alt="Poland" /> Poland<br />
                             <a href="http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank">http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br />
                             <a href="ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank">ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br />
                             <a href="rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank">rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br />
                             <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/" target="_blank">gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/ru.png" /> Russia<br />
+                            <img src="/images/flags/ru.png" alt="Russia" /> Russia<br />
                             <a href="http://mirror.yandex.ru/mirrors/blackarch/" target="_blank">http://mirror.yandex.ru/mirrors/blackarch/</a><br />
                             <a href="ftp://mirror.yandex.ru/mirrors/blackarch/" target="_blank">ftp://mirror.yandex.ru/mirrors/blackarch/</a><br />
                             <a href="rsync://mirror.yandex.ru/mirrors/blackarch/" target="_blank">rsync://mirror.yandex.ru/mirrors/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/za.png" /> South Africa<br />
+                            <img src="/images/flags/za.png" alt="South Africa" /> South Africa<br />
                             <a href="http://blackarch.co.za/blackarch/" target="_blank">http://blackarch.co.za/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/es.png" /> Spain<br />
+                            <img src="/images/flags/es.png" alt="Spain" /> Spain<br />
                             <a href="http://blackarch.smartdefence.cl/blackarch/" target="_blank">http://blackarch.smartdefence.cl/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/se.png" /> Sweden<br />
+                            <img src="/images/flags/se.png" alt="Sweden" /> Sweden<br />
                             <a href="http://mirror.zetup.net/blackarch/" target="_blank">http://mirror.zetup.net/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/ch.png" /> Switzerland<br />
+                            <img src="/images/flags/ch.png" alt="Switzerland" /> Switzerland<br />
                             <a href="https://mirror.tillo.ch/ftp/blackarch/" target="_blank">https://mirror.tillo.ch/ftp/blackarch/</a><br />
                             <a href="http://mirror.tillo.ch/ftp/blackarch/" target="_blank">http://mirror.tillo.ch/ftp/blackarch/</a><br />
                             <a href="ftpes://mirror.tillo.ch/blackarch/" target="_blank">ftpes://mirror.tillo.ch/blackarch/</a><br />
                             <a href="ftp://mirror.tillo.ch/blackarch/" target="_blank">ftp://mirror.tillo.ch/blackarch/</a><br />
                             <a href="rsync://mirror.tillo.ch/blackarch/" target="_blank">rsync://mirror.tillo.ch/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/tr.png" /> Turkey<br />
+                            <img src="/images/flags/tr.png" alt="Turkey" /> Turkey<br />
                             <a href="http://ftp.linux.org.tr/blackarch/" target="_blank">http://ftp.linux.org.tr/blackarch/</a><br />
                             <a href="ftp://ftp.linux.org.tr/blackarch/" target="_blank">ftp://ftp.linux.org.tr/blackarch/</a><br />
                             <a href="rsync://rsync.linux.org.tr/blackarch/" target="_blank">rsync://rsync.linux.org.tr/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/tw.png" /> Taiwan<br />
+                            <img src="/images/flags/tw.png" alt="Taiwan" /> Taiwan<br />
                             <a href="http://blackarch.cs.nctu.edu.tw/" target="_blank">http://blackarch.cs.nctu.edu.tw/</a><br />
                             <a href="rsync://blackarch.cs.nctu.edu.tw/blackarch/" target="_blank">rsync://blackarch.cs.nctu.edu.tw/blackarch/</a><br />
                             <a href="http://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank">http://ftp.yzu.edu.tw/Linux/blackarch/</a><br />
                             <a href="ftp://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank">ftp://ftp.yzu.edu.tw/Linux/blackarch/</a><br />
                             <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank">rsync://ftp.yzu.edu.tw/Linux/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/us.png" /> USA<br />
+                            <img src="/images/flags/us.png" alt="USA" /> USA<br />
                             <a href="http://mirror2.tscinc.co/blackarch" target="_blank">http://mirror2.tscinc.co/blackarch/</a><br />
                             <a href="rsync://mirror2.tscinc.co/blackarch" target="_blank">rsync://mirror2.tscinc.co/blackarch</a><br />
                             <a href="https://blackarch.cdndepo.com/" target="_blank">https://blackarch.cdndepo.com/</a><br />

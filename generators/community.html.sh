@@ -23,7 +23,7 @@ cat <<\EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-				            You can find the BlackArch Linux community in several places. If you need to contact the core development team directly, you can email
+				    You can find the BlackArch Linux community in several places. If you need to contact the core development team directly, you can email
                     <a href="mailto:blackarchlinux [at] gmail [dot] com">blackarchlinux[at]gmail.com</a>.
                 </p>
                 <hr />
@@ -32,16 +32,14 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://github.com/BlackArch" target="_blank"><img src="images/icons/github.png" /></a>
+                            <a href="https://github.com/BlackArch" target="_blank"><img src="images/icons/github.png" alt="github logo" /></a>
                         </div>
                     <p>
-								  You can find all BlackArch Linux code
-								  (including build scripts and website source)
-								  on our <a href="https://github.com/BlackArch"
-									  target="_blank">github</a>.
-					          </p>
+					    You can find all BlackArch Linux code (including build scripts and website source) on our
+                        <a href="https://github.com/BlackArch" target="_blank">github</a>.
+					</p>
                     <p>
-									      If you have any questions, suggestions, or bugs to report, feel free to post on the
+						If you have any questions, suggestions, or bugs to report, feel free to post on the
                         <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a>. We also accept pull requests of all sizes and importance.
                     </p>
                 </div>
@@ -51,7 +49,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://twitter.com/blackarchlinux" target="_blank"><img src="images/icons/twitter.png" /></a>
+                            <a href="https://twitter.com/blackarchlinux" target="_blank"><img src="images/icons/twitter.png" alt="twitter logo" /></a>
                         </div>
                         <p>
                             Follow us on Twitter! We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>.
@@ -66,16 +64,16 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="irc://irc.freenode.net/blackarch" target="_blank"><img src="images/icons/irc.png" /></a>
+                        <a href="irc://irc.freenode.net/blackarch" target="_blank"><img src="images/icons/irc.png" alt="irc logo" /></a>
                     </div>
                     <p>
                         Come keep us company. We have a little community here. Anything is on topic but the large majority of discusision is related to security and/or BlackArch.
-					          </p>
+					</p>
                     <p>
-					              If you need help, this is the best place to ask.
-					          </p>
+					    If you need help, this is the best place to ask.
+					</p>
                     <p>
-					              We also have a little bot that notifies the channel of git commits and package updates/additions.
+					    We also have a little bot that notifies the channel of git commits and package updates/additions.
                     </p>
                     <p>
                         You can find the official BlackArch IRC channel here:
@@ -88,14 +86,14 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="blog.html"><img src="images/icons/blog.png" /></a>
+                        <a href="blog.html"><img src="images/icons/blog.png" alt="blog logo" /></a>
                     </div>
                     <p>
-						            We have an on-site <a href="blog.html">blog</a>. The posts are usually more detailed than our Twitter posts and focus on more big project issues.
-					          </p>
+					    We have an on-site <a href="blog.html">blog</a>. The posts are usually more detailed than our Twitter posts and focus on more big project issues.
+					</p>
                     <p>
                         We also release interesting blog entries about BlackArch Linux, hacking, and security written by users. If you wish to add a blog entry please open a
-						            pull request on <a href="https://github.com/BlackArch/blackarch-site" target="_blank">Github</a>.
+                        pull request on <a href="https://github.com/BlackArch/blackarch-site" target="_blank">Github</a>.
                     </p>
                 </div>
             </div>

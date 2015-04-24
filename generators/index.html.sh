@@ -76,11 +76,12 @@ cat <<EOF
                         <li class="list-group-item">
                             <table style="table-layout:fixed;width=600">
                                 <col width="180px" />
-                                <col width="140px" />
+                                <col width="150px" />
                                 <col width="260px" />
                                 <col width="150px" />
+                                <col width="150px" />
                                 <tr>
-                                    <td  style="padding-bottom: 5px;" align="left"><b>Name</b></td>
+                                    <td style="padding-bottom: 5px;" align="left"><b>Name</b></td>
                                     <td align="left"><b>Nickname</b></td>
                                     <td align="left"><b>E-Mail</b></td>
                                     <td align="left"><b>GPG Key</b></td>
