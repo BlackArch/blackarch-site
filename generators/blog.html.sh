@@ -208,7 +208,7 @@ cat <<\EOF
                                 <br />
                                 They are offering the following access: <a href="http://mirror.uta.edu.ec/blackarch/" target="_blank">http</a> |
                                 <a href="ftp://mirror.uta.edu.ec/blackarch/" target="_blank">ftp</a> |
-                                <a href="rsync://mirror.uta.edu.ec/blackarch/ target="_blank">rsync</a>
+                                <a href="rsync://mirror.uta.edu.ec/blackarch/" target="_blank">rsync</a>
                             </p>
 
                             <br />
