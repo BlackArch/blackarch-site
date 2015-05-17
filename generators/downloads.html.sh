@@ -192,7 +192,7 @@ cat <<\EOF
                                 <br />
                                 $
                                 <codecmd>
-                                    sudo pacman -S blackarch
+                                    sudo pacman -S blackman
                                 </codecmd>
                                 <br /><br />
                                 <codecomment>
