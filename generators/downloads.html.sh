@@ -311,6 +311,11 @@ cat <<\EOF
                             <a href="http://blackarch.mirror.digitalpacific.com.au/" target="_blank">http://blackarch.mirror.digitalpacific.com.au/</a><br />
                             <a href="rsync://mirror.digitalpacific.com.au/blackarch/" target="_blank">rsync://mirror.digitalpacific.com.au/blackarch/</a>
                             <br /><br />
+                            <img src="/images/flags/at.png" alt="Austria" /> Austria<br />
+                            <a href="http://mirror.easyname.at/blackarch/" target="_blank">http://mirror.easyname.at/blackarch/</a><br />
+                            <a href="ftp://mirror.easyname.at/blackarch/" target="_blank">ftp://mirror.easyname.at/blackarch/</a><br />
+                            <a href="rsync://mirror.easyname.at/blackarch/" target="_blank">rsync://mirror.easyname.at/blackarch/</a>
+                            <br /><br />
                             <img src="/images/flags/be.png" alt="Belgium" /> Belgium<br />
                             <a href="http://mirror.alexiobash.com/blackarch/" target="_blank">http://mirror.alexiobash.com/blackarch/</a>
                             <br /><br />
@@ -394,6 +399,9 @@ cat <<\EOF
                             <a href="http://mirror.zetup.net/blackarch/" target="_blank">http://mirror.zetup.net/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/ch.png" alt="Switzerland" /> Switzerland<br />
+                            <a href="http://mirror.easyname.ch/blackarch/" target="_blank">http://mirror.easyname.ch/blackarch/</a><br />
+                            <a href="ftp://mirror.easyname.ch/blackarch/" target="_blank">ftp://mirror.easyname.ch/blackarch/</a><br />
+                            <a href="rsync://mirror.easyname.ch/blackarch/" target="_blank">rsync://mirror.easyname.ch/blackarch/</a><br />
                             <a href="https://mirror.tillo.ch/ftp/blackarch/" target="_blank">https://mirror.tillo.ch/ftp/blackarch/</a><br />
                             <a href="http://mirror.tillo.ch/ftp/blackarch/" target="_blank">http://mirror.tillo.ch/ftp/blackarch/</a><br />
                             <a href="ftpes://mirror.tillo.ch/blackarch/" target="_blank">ftpes://mirror.tillo.ch/blackarch/</a><br />
