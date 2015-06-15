@@ -29,6 +29,17 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>We did it! <d>15 Jun 2015</d></h4>
+                            <hr />
+                            <p>
+                            We went over the BlackArch Linux repository and updated all <a href="https://www.blackarch.org/tools.html" target="_blank">tools</a>.
+                            Soon, we will release the new ISOs and the BlackArch Linux Wiki, stay tuned!
+                            <br /><br />
+                            A big &quot;Thank you&quot; to all BlackArch Linux users, supporters and contributors.
+                            </p>
+
+                            <br />
+
                             <h4>New Austria mirrors added! <d>21 May 2015</d></h4>
                             <hr />
                             <p>
