@@ -29,6 +29,16 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New Vietnam mirror added! <d>17 Jun 2015</d></h4>
+                            <hr />
+                            <p>
+                                We would like to thank <a href="archlinuxvn.org">archlinuxvn.org</a> for becoming a mirror.
+                                <br />
+                                They are offering the following access: <a href="http://f.archlinuxvn.org/blackarch/" target="_blank">http</a>
+                            </p>
+
+                            <br />
+
                             <h4>We did it! <d>15 Jun 2015</d></h4>
                             <hr />
                             <p>

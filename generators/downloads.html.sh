@@ -440,6 +440,9 @@ cat <<\EOF
                             <a href="ftp://mirror.oss.maxcdn.com/blackarch/" target="_blank">ftp://mirror.oss.maxcdn.com/blackarch/</a><br />
                             <a href="rsync://mirror.oss.maxcdn.com/mirrors/blackarch/" target="_blank">rsync://mirror.oss.maxcdn.com/mirrors/blackarch/</a><br />
                             <a href="http://arch.localmsp.org/blackarch/" target="_blank">http://arch.localmsp.org/blackarch/</a>
+                            <br /><br />
+                            <img src="/images/flags/vn.png" alt="Vietnam" /> Vietnam<br />
+                            <a href="http://f.archlinuxvn.org/blackarch/" target="_blank">http://f.archlinuxvn.org/blackarch/</a>
                         </li>
                     </ul>
                 </div>
