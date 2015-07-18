@@ -132,13 +132,16 @@ cat <<\EOF
                             </p>
                             <div class="code-block">
                                 <codecomment>
-                                    # Run http://blackarch.org/strap.sh as root and follow the instructions.
+                                    # Run https://blackarch.org/strap.sh as root and follow the instructions:
                                     <br />
-                                    # Example:
-                                    <br /><br />
                                 </codecomment>
-                                $ <codecmd>curl -s http://blackarch.org/strap.sh | sudo sh</codecmd>
+                                $ <codecmd>curl -O http://blackarch.org/strap.sh && sha1sum strap.sh </codecmd>
+                                <br /><br />
+                                <codecomment>
+                                    # SHA1 sum should match: f8456229463718c097cf70ed06a806f981be7423
+                                </codecomment>
                                 <br />
+                                $ <codecmd>sudo ./strap.sh</codecmd>
                             </div>
                             <br />
                             You may now install tools from the blackarch repository.
