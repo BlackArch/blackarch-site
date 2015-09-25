@@ -21,9 +21,16 @@ cat <<\EOF
 
         <!-- Content Row -->
         <div class="row">
-            <div class="col-lg-12">
+            <!-- Sidebar Column -->
+            <div class="col-md-3">
+                <div class="list-group">
+                    <a href="#mirror-list" class="list-group-item">Test</a>
+                </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-md-9">
                 <p>
-                    Coming soon...
+                Coming soon...
 					<br />
 					<br />
 
