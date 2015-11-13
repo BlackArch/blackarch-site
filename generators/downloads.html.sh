@@ -69,28 +69,28 @@ cat <<\EOF
                                     <td align="left"><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://blackarch.pi3rrot.net/blackarch/iso/blackarchlinux-live-2015.07.31-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2015.07.31-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
                                     <td align="left">2015.07.31</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2015.07.31-x86_64.iso.torrent">Torrent</a></td>
                                     <td align="left">4.4 GB</td>
                                     <td align="left" style="font-size:13px">cc9993cb4fae4c6674301d3440ef5b7c8cfdd9d6</td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://blackarch.pi3rrot.net/blackarch/iso/blackarchlinux-live-2015.07.31-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2015.07.31-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td align="left">2015.07.31</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2015.07.31-i686.iso.torrent">Torrent</a></td>
                                     <td align="left">4.1 GB</td>
                                     <td align="left" style="font-size:13px">92f36757a50a6b685804fc2701f5c546b54d342d</td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://blackarch.pi3rrot.net/blackarch/iso/blackarchlinux-netinst-2015.07.31-x86_64.iso">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2015.07.31-x86_64.iso">BlackArch Linux 64 bit Netinstall ISO</a></td>
                                     <td align="left">2015.07.31</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2015.07.31-x86_64.iso.torrent">Torrent</a></td>
                                     <td align="left">365 MB</td>
                                     <td align="left" style="font-size:13px">823e29759b0af69bfa21ef260e518dfa2206a4b9</td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://blackarch.pi3rrot.net/blackarch/iso/blackarchlinux-netinst-2015.07.31-i686.iso">BlackArch Linux 32 bit Netinstall ISO</a></td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2015.07.31-i686.iso">BlackArch Linux 32 bit Netinstall ISO</a></td>
                                     <td align="left">2015.07.31</a></td>
                                     <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2015.07.31-i686.iso.torrent">Torrent</a></td>
                                     <td align="left">328 MB</td>
@@ -350,10 +350,6 @@ cat <<\EOF
                             <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank">http://blackarch.pi3rrot.net/blackarch/</a><br />
                             <a href="http://mirror.adversec.com/blackarch/" target="_blank">http://mirror.adversec.com/blackarch/</a><br />
                             <a href="http://blackarch.uteditor.de/" target="_blank">http://blackarch.uteditor.de/</a>
-                            <br /><br />
-                            <img src="/images/flags/de.png" alt="Germany" /> Germany<br />
-                            <a href="http://blackarch1.curesec.com/blackarch/" target="_blank">http://blackarch1.curesec.com/blackarch/</a><br />
-                            <a href="http://blackarch2.curesec.com/blackarch/" target="_blank">http://blackarch2.curesec.com/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/gr.png" alt="Greece" /> Greece<br />
                             <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">http://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br />
