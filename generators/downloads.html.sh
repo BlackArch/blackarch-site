@@ -387,9 +387,6 @@ cat <<\EOF
                             <a href="ftp://mirror.yandex.ru/mirrors/blackarch/" target="_blank">ftp://mirror.yandex.ru/mirrors/blackarch/</a><br />
                             <a href="rsync://mirror.yandex.ru/mirrors/blackarch/" target="_blank">rsync://mirror.yandex.ru/mirrors/blackarch/</a>
                             <br /><br />
-                            <img src="/images/flags/za.png" alt="South Africa" /> South Africa<br />
-                            <a href="http://blackarch.co.za/blackarch/" target="_blank">http://blackarch.co.za/blackarch/</a>
-                            <br /><br />
                             <img src="/images/flags/es.png" alt="Spain" /> Spain<br />
                             <a href="http://blackarch.smartdefence.cl/blackarch/" target="_blank">http://blackarch.smartdefence.cl/blackarch/</a>
                             <br /><br />
