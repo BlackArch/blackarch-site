@@ -362,7 +362,7 @@ cat <<\EOF
                             <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/ie.png" alt="Ireland" /> Ireland<br />
-                            <a href="http://blackarch.org/ftp.heanet.ie/mirrors/blackarch/" target="_blank">http://blackarch.org/ftp.heanet.ie/mirrors/blackarch/</a>
+                            <a href="http://ftp.heanet.ie/mirrors/blackarch/" target="_blank">ftp.heanet.ie/mirrors/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/it.png" alt="Italy" /> Italy<br />
                             <a href="http://blackarch.mirror.garr.it/mirrors/blackarch/" target="_blank">http://blackarch.mirror.garr.it/mirrors/blackarch/</a><br />
