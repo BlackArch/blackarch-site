@@ -2,7 +2,7 @@
 # strap.sh - install and setup BlackArch Linux keyring
 
 # default mirror url
-MIRROR="http://mirror.team-cymru.org/blackarch"
+MIRROR='http://www.mirrorservice.org/sites/blackarch.org/blackarch/'
 
 # simple error message wrapper
 err()
