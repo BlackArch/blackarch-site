@@ -138,7 +138,7 @@ cat <<\EOF
                                 $ <codecmd>curl -O http://blackarch.org/strap.sh && sha1sum strap.sh </codecmd>
                                 <br /><br />
                                 <codecomment>
-                                    # SHA1 sum should match: f8456229463718c097cf70ed06a806f981be7423
+                                    # SHA1 sum should match: 86eb4efb68918dbfdd1e22862a48fda20a8145ff
                                 </codecomment>
                                 <br />
                                 $ <codecmd>sudo ./strap.sh</codecmd>
