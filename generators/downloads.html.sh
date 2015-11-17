@@ -103,15 +103,13 @@ cat <<\EOF
                                 You can use this instead (where /dev/sdX is your flashdrive and file.iso is a BlackArch ISO):
                             </p>
                             <div class="code-block">
-                                <codecomment># Example</codecomment>
-                                <br />
-                                $
-                                <codecmd>
-                                    sudo dd bs=512M if=file.iso of=/dev/sdX
-                                </codecmd>
+                                <codecomment># Example Image writing<br /></codecomment>
+                                $ <codecmd> sudo dd bs=512 if=file.iso of=/dev/sdX </codecmd>
                             </div>
                             <br />
                             <p>
+                                <b>Default Login</b>
+                                <br />
                                 The default login for all ISOs is:
                                 <strong>root:blackarch</strong>
                             </p>
