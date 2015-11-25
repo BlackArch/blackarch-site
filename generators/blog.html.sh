@@ -29,6 +29,30 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New ISOs released! <d>25 Nov 2015</d></h4>
+                            <hr />
+                            <p>
+                                Today we released new BlackArch Linux ISOs. The new ISOs include over 1300 tools. For more details see the ChangeLog below.
+                            </p>
+                            <p>
+                                Here's the ChangeLog:
+                                <ul>
+                                    <li>added more than 100 new tools</li>
+                                    <li>updated system packages</li>
+                                    <li>include linux kernel 4.2.5</li>
+                                    <li>updated all tools</li>
+                                    <li>updated menu entries for window managers</li>
+                                    <li>added (correct) multilib support</li>
+                                    <li>added more fonts</li>
+                                    <li>added missing group 'vboxsf'</li>
+                                </ul>
+                            </p>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+
+                            <br />
+
                             <h4>We did it! <d>14 Nov 2015</d></h4>
                             <hr />
                             <p>
