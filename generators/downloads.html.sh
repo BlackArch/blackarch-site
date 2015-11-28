@@ -104,7 +104,7 @@ cat <<\EOF
                             </p>
                             <div class="code-block">
                                 <codecomment># Example Image writing<br /></codecomment>
-                                $ <codecmd> sudo dd bs=512 if=file.iso of=/dev/sdX </codecmd>
+                                $ <codecmd> sudo dd bs=512M if=file.iso of=/dev/sdX </codecmd>
                             </div>
                             <br />
                             <p>
@@ -321,6 +321,9 @@ cat <<\EOF
                             <a href="http://mirror.alexiobash.com/blackarch/" target="_blank">http://mirror.alexiobash.com/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/ca.png" alt="Canada" /> Canada<br />
+                            <a href="http://www.blackarch.org/blackarch/" target="_blank">http://www.blackarch.org/blackarch/</a><br />
+                            <a href="https://www.blackarch.org/blackarch/" target="_blank">https://www.blackarch.org/blackarch/</a><br />
+                            <a href="rsync://blackarch.org/blackarch/" target="_blank">rsync://blackarch.org/blackarch/</a><br />
                             <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank">http://mirror.clibre.uqam.ca/blackarch/</a><br />
                             <a href="http://blackarch.dropswitch.net/blackarch/" target="_blank">http://blackarch.dropswitch.net/blackarch/</a>
                             <br /><br />
@@ -340,7 +343,6 @@ cat <<\EOF
                             <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank">http://mirror.espoch.edu.ec/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/fr.png" alt="France" /> France<br />
-                            <a href="http://www.blackarch.org/blackarch/" target="_blank">http://www.blackarch.org/blackarch/</a><br />
                             <a href="http://blackarch.tamcore.eu/" target="_blank">http://blackarch.tamcore.eu/</a><br />
                             <a href="https://blackarch.tamcore.eu/" target="_blank">https://blackarch.tamcore.eu/</a><br />
                             <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank">rsync://blackarch.tamcore.eu/blackarch/</a><br />
@@ -352,7 +354,7 @@ cat <<\EOF
                             <img src="/images/flags/gr.png" alt="Greece" /> Greece<br />
                             <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">http://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br />
                             <a href="ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br />
-                            <a href="rsync://blackarch@blackarch.org/blackarch/" target="_blank">rsync://blackarch@blackarch.org/blackarch </a>
+                            <a href="rsync://blackarch@ftp.cc.uoc.gr/blackarch/" target="_blank">rsync://blackarch@cc.uoc.gr/blackarch </a>
                             <br /><br />
                             <img src="/images/flags/gb.png" alt="Great Britain" /> Great Britain<br />
                             <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br />
