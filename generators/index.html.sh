@@ -126,7 +126,7 @@ cat <<EOF
                                     <td>Jeremy Marlow</td>
                                     <td>i3_Arch</td>
                                     <td>jamarlow410[at]st.nashcc.edu</td>
-                                    <td><a href="gpgkeys/i3_arch.asc" target="_blank">0xC8173B68</a></td>
+                                    <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
                                     <td>Contributor</td>
                                 </tr>
 			                    <tr>
@@ -147,7 +147,7 @@ cat <<EOF
 			                        <td>Anon Anon</td>
 			                        <td>sudokode</td>
 			                        <td>sudokode[at]gmail.com</td>
-			                        <td><a href="gpgkeys/sudokode.asc" target="_blank">0x8B0554C7</a></td>
+			                        <td>0x8B0554C7</td>
 			                        <td>Contributor</td>
 		                        </tr>
                                 <tr>
