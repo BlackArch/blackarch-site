@@ -34,8 +34,8 @@ cat <<\EOF
                             <p>
                                 We would like to thank <a href="http://ftp.halifax.rwth-aachen.de/">RWTH Aachen University</a> for becoming a mirror.
                                 <br />
-                                They are offering the following access: <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">http</a>|
-                                <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">ftp</a>|
+                                They are offering the following access: <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">http</a> |
+                                <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">rsync</a>
                             </p>
 
