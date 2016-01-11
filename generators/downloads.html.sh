@@ -69,32 +69,32 @@ cat <<\EOF
                                     <td align="left"><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2015.11.24-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
-                                    <td align="left">2015.11.24</a></td>
-                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2015.11.24-x86_64.iso.torrent">Torrent</a></td>
-                                    <td align="left">4.7 GB</td>
-                                    <td align="left" style="font-size:13px">73a4cf3835129413ef022c2e390eeecbe981d095</td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.01.10-x86_64.iso">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td align="left">2016.01.10</a></td>
+                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2015.01.10-x86_64.iso.torrent">Torrent</a></td>
+                                    <td align="left">4.6 GB</td>
+                                    <td align="left" style="font-size:13px">e113231bc0cd7d33219f9374f763ecd0887b6e5a</td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2015.11.24-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
-                                    <td align="left">2015.11.24</a></td>
-                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2015.11.24-i686.iso.torrent">Torrent</a></td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.01.10-i686.iso">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td align="left">2016.01.10</a></td>
+                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-live-2016.01.10-i686.iso.torrent">Torrent</a></td>
                                     <td align="left">4.5 GB</td>
-                                    <td align="left" style="font-size:13px">51186bf461f9c3e7a1a56bf95e2cfd7cfab2285e</td>
+                                    <td align="left" style="font-size:13px">7e6b3b69b18c63d552f6614b2720a0224ecfe6d6</td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2015.11.24-x86_64.iso">BlackArch Linux 64 bit Netinstall ISO</a></td>
-                                    <td align="left">2015.11.24</a></td>
-                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2015.11.24-x86_64.iso.torrent">Torrent</a></td>
-                                    <td align="left">363 MB</td>
-                                    <td align="left" style="font-size:13px">63974351fe293128189b0336dece5f4a655fd781</td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.01.10-x86_64.iso">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                                    <td align="left">2016.01.10</a></td>
+                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2016.01.10-x86_64.iso.torrent">Torrent</a></td>
+                                    <td align="left">378 MB</td>
+                                    <td align="left" style="font-size:13px">c089a5cd788c28fba0f6b6bdcfcee64c310182d0</td>
                                 </tr>
                                 <tr>
-                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2015.11.24-i686.iso">BlackArch Linux 32 bit Netinstall ISO</a></td>
-                                    <td align="left">2015.11.24</a></td>
-                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2015.11.24-i686.iso.torrent">Torrent</a></td>
-                                    <td align="left">325 MB</td>
-                                    <td align="left" style="font-size:13px">a726b2d09b415d651abfe02df6d4c99346f9012e</td>
+                                    <td align="left"><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.01.10-i686.iso">BlackArch Linux 32 bit Netinstall ISO</a></td>
+                                    <td align="left">2016.01.10</a></td>
+                                    <td align="left"><a href="/blackarch/torrent/blackarchlinux-netinst-2016.01.10-i686.iso.torrent">Torrent</a></td>
+                                    <td align="left">340 MB</td>
+                                    <td align="left" style="font-size:13px">9e55bf164cd6738e4134783ff4351d1cff43dbfc</td>
                                 </tr>
                             </table>
                             <hr />
