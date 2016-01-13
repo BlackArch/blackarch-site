@@ -152,9 +152,9 @@ cat <<EOF
 		                        </tr>
                                 <tr>
                                     <td>Guy Marquez</td>
-                                    <td>w4rk3n</td>
-                                    <td>guy[at]smartdefence.cl</td>
-                                    <td><a href="gpgkeys/w4rk3n.asc" target="_blank">0x27F4E268</a></td>
+                                    <td>eserror</td>
+                                    <td>guy.marquez[at]yandex.com</td>
+                                    <td><a href="gpgkeys/eserror.asc" target="_blank">0x1DDA1182</a></td>
                                     <td>Contributor</td>
                                 </tr>
                                 <tr>
