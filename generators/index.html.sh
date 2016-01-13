@@ -138,7 +138,7 @@ cat <<EOF
 		                        </tr>
 		                        <tr>
 			                        <td>Halit Alptekin</td>
-			                        <td>diqit4ll</td>
+			                        <td>thedavorin</td>
 			                        <td>info[at]halitalptekin.com</td>
 			                        <td><a href="gpgkeys/halit.asc" target="_blank">0x628061A0</a></td>
 			                        <td>Contributor</td>
