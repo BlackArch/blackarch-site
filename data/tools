@@ -128,6 +128,7 @@ brutex|32.0420df0|Automatically brute force all services running on a target.|ht
 brutus|2|One of the fastest, most flexible remote password crackers you can get your hands on.|http://www.hoobie.net/brutus/
 bsdiff|4.3|bsdiff and bspatch are tools for building and applying patches to binary files.|http://www.daemonology.net/bsdiff/
 bsqlbf|2.7|Blind SQL Injection Brute Forcer.|http://code.google.com/p/bsqlbf-v2/
+bsqlinjector|2.37f29a6|Blind SQL injection exploitation tool written in ruby.|https://github.com/enjoiz/BSQLinjector
 bss|0.8|Bluetooth stack smasher / fuzzer|http://www.secuobs.com/news/15022006-bss_0_8.shtml
 bt_audit|0.1.1|Bluetooth audit|http://www.betaversion.net/btdsd/download/
 btcrack|1.1|The world's first Bluetooth Pass phrase (PIN) bruteforce tool. Bruteforces the Passkey and the Link key from captured Pairing exchanges.|http://www.nruns.com/_en/security_tools_btcrack.php
@@ -160,7 +161,7 @@ check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker
 checkiban|0.2|Checks the validity of an International Bank Account Number (IBAN).|http://kernel.embedromix.ro/us/
 checkpwd|1.23|Oracle Password Checker (Cracker).|http://www.red-database-security.com/software/checkpwd.html
 checksec|1.5|Tool designed to test which standard Linux OS and PaX security features are being used|http://www.trapkit.de/tools/checksec.html
-cheetah|21.2364713|Complete penetration testing suite (port scanning, brute force attacks, services discovery, common vulnerabilities searching, reporting etc.)|https://github.com/bl4de/Cheetah
+cheetah-suite|21.2364713|Complete penetration testing suite (port scanning, brute force attacks, services discovery, common vulnerabilities searching, reporting etc.)|https://github.com/bl4de/Cheetah
 chiron|0.8.1|An all-in-one IPv6 Penetration Testing Framework.|http://www.secfu.net/tools-scripts/
 chkrootkit|0.50|Checks for rootkits on a system|http://www.chkrootkit.org/
 chntpw|140201|Offline NT Password Editor - reset passwords in a Windows NT SAM user database file|http://pogostick.net/~pnh/ntpasswd/
@@ -213,6 +214,7 @@ crackmapexec|172.86ca7e4|A swiss army knife for pentesting Windows/Active Direct
 crackq|47.c5b8c5e|Hashcrack.org GPU-accelerated password cracker.|https://github.com/vnik5287/Crackq
 crackserver|33.e5763ab|An XMLRPC server for password cracking.|https://github.com/averagesecurityguy/crack
 crawlic|39.bd59441|Web recon tool (find temporary files, parse robots.txt, search folders, google dorks and search domains hosted on same server).|https://github.com/Ganapati/Crawlic
+creak|17.e367b9f|Poison, reset, spoof, redirect MITM script.|https://github.com/codepr/creak
 create_ap|189.000f6a2|This script creates a NATed or Bridged WiFi Access Point.|https://github.com/oblique/create_ap
 creddump|0.3|A python tool to extract various credentials and secrets from Windows registry hives.|https://code.google.com/p/creddump/
 credmap|59.0456a8d|The Credential mapper - Tool that was created to bring awareness to the dangers of credential reuse.|https://github.com/lightos/credmap
@@ -302,7 +304,11 @@ dripper|v1.r1.gc9bb0c9|A fast, asynchronous DNS scanner; it can be used for enum
 droopescan|1.33.1|A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.|https://github.com/droope/droopescan
 dscanner|768.c5392e7|Swiss-army knife for D source code.|https://github.com/Hackerpilot/Dscanner
 dsd|91.7ee04e5|Digital Speech Decoder|https://github.com/szechyjs/dsd
+dsfs|32.e27d6cb|A fully functional File inclusion vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.|https://github.com/stamparm/DSFS
+dsjs|21.79cb2c4|A fully functional JavaScript library vulnerability scanner written in under 100 lines of code.|https://github.com/stamparm/DSJS
 dsniff|2.4b1|Collection of tools for network auditing and penetration testing|http://www.monkey.org/~dugsong/dsniff/
+dsss|116.6d14edb|A fully functional SQL injection vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.|https://github.com/stamparm/DSSS
+dsxs|116.21427d6|A fully functional Cross-site scripting vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.|https://github.com/stamparm/DSXS
 dumb0|19.1493e74|A simple tool to dump users in popular forums and CMS.|https://github.com/0verl0ad/Dumb0
 dump1090|386.bff92c4|A simple Mode S decoder for RTLSDR devices.|https://github.com/MalcolmRobb/dump1090
 dumpacl|0.0|Dumps NTs ACLs and audit settings.|http://www.systemtools.com/cgi-bin/download.pl?DumpAcl
@@ -319,6 +325,7 @@ edb|0.9.20|A QT4-based binary mode debugger with the goal of having usability on
 eindeutig|20050628_1|Examine the contents of Outlook Express DBX email repository files (forensic purposes)|http://www.jonesdykstra.com/
 elettra|1.0|Encryption utility by Julia Identity|http://www.winstonsmith.info/julia/elettra/
 elettra-gui|1.0|Gui for the elettra crypto application.|http://www.winstonsmith.info/julia/elettra/
+elfkickers|3.0a|Collection of ELF utilities (includes sstrip)|http://www.muppetlabs.com/~breadbox/software/elfkickers.html
 elfparser|7.39d21ca|Cross Platform ELF analysis.|https://github.com/jacob-baines/elfparser
 elite-proxy-finder|49.589a76d|Finds public elite anonymity proxies and concurrently tests them.|https://github.com/DanMcInerney/elite-proxy-finder
 enabler|1|Attempts to find the enable password on a cisco system via brute force.|http://packetstormsecurity.org/cisco/enabler.c
@@ -568,7 +575,7 @@ joomlascan|1.2|Joomla scanner scans for known vulnerable remote file inclusion p
 joomlavs|197.3e217d5|A black box, Ruby powered, Joomla vulnerability scanner.|https://github.com/rastating/joomlavs
 joomscan|2012.03.10|Detects file inclusion, sql injection, command execution vulnerabilities of a target Joomla! web site.|http://joomscan.sourceforge.net/
 js-beautify|1.5.10|This little beautifier will reformat and reindent bookmarklets, ugly JavaScript, unpack scripts packed by Dean Edward?s popular packer, as well as deobfuscate scripts processed by javascriptobfuscator.com.|https://github.com/einars/js-beautify
-jsql|0.6|A lightweight application used to find database information from a distant server.|https://code.google.com/p/jsql-injection/
+jsql|0.73|A lightweight application used to find database information from a distant server.|https://code.google.com/p/jsql-injection/
 junkie|1365.70a83d6|A modular packet sniffer and analyzer.|https://github.com/securactive/junkie
 jwscan|6.b0306f0|Scanner for Jar to EXE wrapper like Launch4j, Exe4j, JSmooth, Jar2Exe.|https://github.com/katjahahn/JWScan
 jynx2|2.0|An expansion of the original Jynx LD_PRELOAD rootkit|http://www.blackhatlibrary.net/Jynx2
@@ -999,7 +1006,7 @@ shellme|3.8c7919d|Because sometimes you just need shellcode and opcodes quickly.
 shellnoob|2.1|A toolkit that eases the writing and debugging of shellcode|https://github.com/reyammer/shellnoob
 sherlocked|1.f190c2b|Universal script packer-- transforms any type of script into a protected ELF executable, encrypted with anti-debugging.|https://github.com/elfmaster/sherlocked
 shocker|54.f5e7886|A tool to find and exploit servers vulnerable to Shellshock.|https://github.com/nccgroup/shocker
-shodan|1.3.8|Python library for Shodan (https://developer.shodan.io).|http://github.com/achillean/shodan-python
+shodan|1.4.2|Python library for Shodan (https://developer.shodan.io).|http://github.com/achillean/shodan-python
 shortfuzzy|0.1|A web fuzzing script written in perl.|http://packetstormsecurity.com/files/104872/Short-Fuzzy-Rat-Scanner.html
 sidguesser|1.0.5|Guesses sids/instances against an Oracle database according to a predefined dictionary file.|http://www.cqure.net/wp/tools/database/sidguesser/
 siege|3.1.1|An http regression testing and benchmarking utility|http://www.joedog.org/JoeDog/Siege
@@ -1122,6 +1129,7 @@ suricata|2.0.11|An Open Source Next Generation Intrusion Detection and Preventio
 svn-extractor|28.3af00fb|A simple script to extract all web resources by means of .SVN folder exposed over network.|https://github.com/anantshri/svn-extractor
 swaks|20130209.0|Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH|http://jetmore.org/john/code/swaks/
 swfintruder|0.9.1|First tool for testing security in Flash movies. A runtime analyzer for SWF external movies. It helps to find flaws in Flash.|http://code.google.com/p/swfintruder/
+swftools|0.9.2|A collection of SWF manipulation and creation utilities|http://www.swftools.org/
 synflood|0.1|A very simply script to illustrate DoS SYN Flooding attack.|http://thesprawl.org/projects/syn-flooder/
 synner|1.1|A custom eth->ip->tcp packet generator (spoofer) for testing firewalls and dos attacks.|http://packetstormsecurity.com/files/69802/synner.c.html
 synscan|5.02|fast asynchronous half-open TCP portscanner|http://www.digit-labs.org/files/tools/synscan/
