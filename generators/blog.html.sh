@@ -673,7 +673,7 @@ cat <<\EOF
                                 <a href="https://github.com/BlackArch/sploitctl/blob/master/sploitctl.sh">sploitctl</a>. The
                                 <a href="http://www.nullsecurity.net/" target="_blank">nullsecurity</a> team is an official supporter of BlackArch Linux.
                                 We have a relaxed development structure. We welcome pull requests of all sizes through
-                                <a href="https://github.com/BlackArch" target="_blank">Github</a> and <a href="mailto:blackarchlinux@gmail.com">email</a>.
+                                <a href="https://github.com/BlackArch" target="_blank">Github</a> and <a href="mailto:team@blackarch.org">email</a>.
                                 Also see our <a href="http://www.blackarch.org">website</a>,
                                 <a href="https://twitter.com/blackarchlinux" target="_blank">Twitter account</a>, and
                                 <a href="irc://irc.freenode.net/blackarch" target="_blank">IRC channel</a>.

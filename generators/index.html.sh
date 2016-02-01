@@ -17,7 +17,7 @@ cat <<EOF
                 <p>
                     Please note that BlackArch is a relatively new project. To report bugs and request new tools, please visit the
                     <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by <a href="community.html">IRC</a>, or
-                    <a href="mailto:blackarchlinux@gmail.com">email</a> us.
+                    <a href="mailto:team@blackarch.org">email</a> us.
                 </p>
                 <p>
                     The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.
