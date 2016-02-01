@@ -24,7 +24,7 @@ cat <<\EOF
             <div class="col-lg-12">
                 <p>
 				    You can find the BlackArch Linux community in several places. If you need to contact the core development team directly, you can email
-                    <a href="mailto:blackarchlinux [at] gmail [dot] com">blackarchlinux[at]gmail.com</a>.
+                    <a href="mailto:team@blackarch.org">team@blackarch.org</a>.
                 </p>
                 <hr />
                 <div class="community-head">
