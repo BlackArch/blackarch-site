@@ -17,7 +17,8 @@ make_tmp() {
 }
 
 get_db() {
-	curl "http://$site/blackarch/$repo/os/$arch/$repo.db.tar.gz" | tar xz -C "$tmp"
+	curl "https://$site/blackarch/$repo/os/$arch/$repo.db.tar.gz" |
+  tar xz -C "$tmp"
 }
 
 parse_db() {
@@ -42,7 +43,7 @@ main() {
 	make_tmp
 	get_db
 	parse_db
-    split
+  split
 }
 
 main "$@"
