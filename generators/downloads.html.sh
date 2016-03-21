@@ -130,13 +130,24 @@ cat <<\EOF
                             </p>
                             <div class="code-block">
                                 <codecomment>
-                                    # Run https://blackarch.org/strap.sh as root and follow the instructions:
-                                    <br />
+                                    # Run https://blackarch.org/strap.sh as root and follow the instructions.
+                                <br />
                                 </codecomment>
-                                $ <codecmd>curl -O https://blackarch.org/strap.sh && sha1sum strap.sh </codecmd>
+                                $ <codecmd>curl -O https://blackarch.org/strap.sh</codecmd>
                                 <br /><br />
                                 <codecomment>
-                                    # SHA1 sum should match: 86eb4efb68918dbfdd1e22862a48fda20a8145ff
+                                    # The SHA1 sum should match: 86eb4efb68918dbfdd1e22862a48fda20a8145ff
+                                <br />
+                                $ <codecmd>sha1sum strap.sh</codecmd>
+                                <br /><br />
+                                <codecomment>
+                                    # Set execute bit
+                                </codecomment>
+                                <br />
+                                $ <codecmd>chmod +x strap.sh</codecmd>
+                                <br /><br />
+                                <codecomment>
+                                    # Run strap.sh
                                 </codecomment>
                                 <br />
                                 $ <codecmd>sudo ./strap.sh</codecmd>
