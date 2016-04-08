@@ -144,10 +144,10 @@ cat <<EOF
 			                        <td>Contributor</td>
 		                        </tr>
 		                        <tr>
-			                        <td>Anon Anon</td>
+			                        <td>Ano Nymous</td>
 			                        <td>sudokode</td>
 			                        <td>sudokode[at]gmail.com</td>
-			                        <td>0x8B0554C7</td>
+			                        <td><a href="gpgkeys/sudokode.asc" target="_blank">0xBADC0DE</td>
 			                        <td>Contributor</td>
 		                        </tr>
                                 <tr>
@@ -169,6 +169,13 @@ cat <<EOF
                                     <td>abby</td>
                                     <td>aricart[at]gmail.com</td>
                                     <td><a href="gpgkeys/abby.asc" target="_blank">0xF126259B</a></td>
+                                    <td>Contributor</td>
+                                </tr>
+                                <tr>
+                                    <td>Alexander Rothenberg</td>
+                                    <td>EisWiesel</td>
+                                    <td>unreal436[at]gmail.com</td>
+                                    <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADC0DE</a></td>
                                     <td>Contributor</td>
                                 </tr>
                             </table>
