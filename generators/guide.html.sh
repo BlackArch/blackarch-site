@@ -35,12 +35,20 @@ cat <<\EOF
                     To download the guide, please use the links below.
                 </p>
                 <p>
-                    <img src="/images/flags/us.png" alt="United States" /> <a href="blackarch-guide-en.pdf" target="_blank">English</a>
-                    <br />
-                    <img src="/images/flags/fr.png" alt="France" /> <a href="blackarch-guide-fr.pdf" target="_blank">French</a>
-                    <br />
-                    <img src="/images/flags/tr.png" alt="Turkey" /> <a href="blackarch-guide-tr.pdf" target="_blank">Turkish</a>
-                    <br />
+                    <table width="100px">
+                    <tr>
+                    <td><img src="/images/flags/us.png" alt="United States" /></td>
+                    <td><a href="blackarch-guide-en.pdf" target="_blank">English</a></td>
+                    <tr />
+                    <tr>
+                    <td><img src="/images/flags/fr.png" alt="France" /></td>
+                    <td><a href="blackarch-guide-fr.pdf" target="_blank">French</a></td>
+                    <tr />
+                    <tr>
+                    <td><img src="/images/flags/tr.png" alt="Turkey" /></td>
+                    <td><a href="blackarch-guide-tr.pdf" target="_blank">Turkish</a></td>
+                    <tr />
+                    </table>
                 </p>
 EOF
 
