@@ -29,6 +29,17 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New BlackArch Linux installer released! <d>28 Apr 2016</d></h4>
+                            <hr />
+                            <p>
+                                We have released the new (improved) BlackArch Linux installer today. It is built and released in our
+                                <a href="https://www.blackarch.org/blackarch/blackarch/os/" target="_blank">repository</a> and can be installed via pacman:<br /><br />
+                                <code>pacman -S blackarch-installer</code><br /><br /> The source code and documentation is available on github:
+                                <a href="https://github.com/BlackArch/blackarch-installer" target="_blank">blackarch-installer</a>
+                            </p>
+
+                            <br />
+
                             <h4>New mirror added in Singapore! <d>12 Mar 2016</d></h4>
                             <hr />
                             <p>
