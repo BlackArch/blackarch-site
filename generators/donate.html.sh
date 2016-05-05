@@ -55,8 +55,8 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
-                        Address: 1F8bki2f45q9vXwhyV65vD5Zt4iLw8SpBx
-                        <br />
+                        1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn
+                        <br /><br />
                         <img src=/images/bt.png />
                         </li>
                     </ul>
