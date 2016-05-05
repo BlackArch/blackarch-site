@@ -29,6 +29,17 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
+                            <h4>New mirror added in USA! <d>05 Mar 2016</d></h4>
+                            <hr />
+                            <p>
+                                We would like to thank <a href="http://distro.ibiblio.org" target="_blank">Ibiblio / University of North Carolina </a> for becoming a BlackArch Linux mirror.
+                                <br />
+                                They are offering the following access: <a href="http://distro.ibiblio.org/blackarch/" target="_blank">http</a> |
+                                <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank">ftp</a>
+                            </p>
+
+                            <br />
+
                             <h4>New ISOs released! <d>29 Apr 2016</d></h4>
                             <hr />
                             <p>
