@@ -389,6 +389,7 @@ cat <<\EOF
                             <a href="ftp://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank">ftp://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
                             <br /><br />
                             <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br />
+                            <a href="http://blackarch.wawa-mania.ec/" target="_blank">http://blackarch.wawa-mania.ec/</a><br />
                             <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank">http://blackarch.pr0s3c.nl/blackarch/</a><br />
                             <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank">https://blackarch.pr0s3c.nl/blackarch/</a>
                             <br /><br />
