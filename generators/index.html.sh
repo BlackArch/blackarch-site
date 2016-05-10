@@ -3,15 +3,15 @@ cat common/start-index
 cat <<EOF
     <!-- Page Content -->
     <div class="container">
-
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">About BlackArch Linux</h2>
                 <p>
                     BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based distribution for penetration testers
-                    and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
-                    BlackArch Linux is compatible with existing Arch installs. For more information, see the <a href="downloads.html#install-repo">installation instructions</a>.
+                    and security researchers. The repository contains <a href="tools.html">1410</a> tools. You can install tools individually or in groups.
+                    BlackArch Linux is compatible with existing Arch installs. For more information, see the 
+					<a href="downloads.html#install-repo">installation instructions</a>.
                     Also, news are published on our <a href="blog.html">blog</a> site.
                 </p>
                 <p>
@@ -51,21 +51,16 @@ cat <<EOF
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/syslinux.png">
-                    <img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="/images/screenshots/syslinux.png" alt="BlackArch Linux wallpaper">
+					<img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="/images/screenshots/syslinux.png" alt="BlackArch Linux wallpaper">
                 </a>
             </div>
         </div>
         <!-- /.row -->
-
         <!-- developers -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">
-                    About BlackArch Linux Developers & Contributors
-                </h2>
-                <p>
-                    BlackArch Linux is backed by a team of volunteers. Some of them have chosen to appear in the following list.
-                </p>
+                <h2 class="page-header">About BlackArch Linux Developers & Contributors</h2>
+                <p>BlackArch Linux is backed by a team of volunteers. Some of them have chosen to appear in the following list.</p>
             </div>
             <div class="col-md-12">
                 <div class="panel panel-default text-left">
@@ -74,120 +69,108 @@ cat <<EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <table style="table-layout:fixed;width=600">
-                                <col width="180px" />
-                                <col width="150px" />
-                                <col width="260px" />
-                                <col width="150px" />
-                                <col width="150px" />
+                            <table id=developers itemscope itemtype="https://www.schema.org/Person">
                                 <tr>
-                                    <td style="padding-bottom: 5px;" align="left"><b>Name</b></td>
-                                    <td align="left"><b>Nickname</b></td>
-                                    <td align="left"><b>E-Mail</b></td>
-                                    <td align="left"><b>GPG Key</b></td>
-                                    <td align="left"><b>Role</b></td>
+                                    <td><b>Name</b></td>
+                                    <td><b>Nickname</b></td>
+                                    <td><b>E-Mail</b></td>
+                                    <td><b>GPG Key</b></td>
+                                    <td><b>Role</b></td>
                                 </tr>
 		                        <tr>
-			                        <td>Evan Teitelman</td>
+			                        <td itemprop="givenName">Evan Teitelman</td>
 			                        <td>paraxor</td>
-			                        <td>teitelmanevan[at]gmail.com</td>
+			                        <td itemprop="email">teitelmanevan@gmail.com</td>
 			                        <td><a href="gpgkeys/paraxor.asc" target="_blank">0xEA87E4E3</a></td>
-			                        <td>Founder, Developer</td>
+			                        <td itemprop="jobTitle">Founder, Developer</td>
 		                        </tr>
 		                        <tr>
-			                        <td>Levon Kayan</td>
+			                        <td itemprop="givenName">Levon Kayan</td>
 			                        <td>noptrix</td>
-			                        <td>noptrix[at]nullsecurity.net</td>
+			                        <td itemprop="email">noptrix@]nullsecurity.net</td>
 			                        <td><a href="gpgkeys/noptrix.asc" target="_blank">0x7A747D10</a></td>
-			                        <td>Developer</td>
+			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
 		                        <tr>
-			                        <td>Javier</td>
+			                        <td itemprop="givenName">Javier</td>
 			                        <td>nrz</td>
-			                        <td>nrz[at]nullsecurity.net</td>
+			                        <td itemprop="email">nrz@nullsecurity.net</td>
 			                        <td><a href="gpgkeys/nrz.asc" target="_blank">0x7C03DD86</a></td>
-			                        <td>Developer</td>
+			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
 		                        <tr>
-			                        <td>Ellis Kenyo</td>
+			                        <td itemprop="givenName">Ellis Kenyo</td>
 			                        <td>elken</td>
-			                        <td>elken.tdos[at]gmail.com</td>
+			                        <td itemprop="email">elken.tdos@gmail.com</td>
 			                        <td><a href="gpgkeys/elken.asc" target="_blank">0x0F4093D1</a></td>
-			                        <td>Developer</td>
+			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
                                 <tr>
-                                    <td>Louis Dion-Marcil</td>
+                                    <td itemprop="givenName">Louis Dion-Marcil</td>
                                     <td>ldionmarcil</td>
-                                    <td>louis.dionmarcil[at]gmail.com</td>
+                                    <td itemprop="email">louis.dionmarcil@gmail.com</td>
                                     <td><a href="gpgkeys/ldionmarcil.asc" target="_blank">0x0E61E739</a></td>
-                                    <td>Developer</td>
+                                    <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
-                                    <td>Jeremy Marlow</td>
+                                    <td itemprop="givenName">Jeremy Marlow</td>
                                     <td>i3_Arch</td>
-                                    <td>jamarlow410[at]st.nashcc.edu</td>
+                                    <td itemprop="email">jamarlow410@st.nashcc.edu</td>
                                     <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
-                                    <td>Contributor</td>
+                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
 			                    <tr>
-                                    <td>Pierre B.</td>
+                                    <td itemprop="givenName">Pierre B.</td>
 			                        <td>Pi3rrot</td>
-			                        <td>pierre[at]pi3rrot.net</td>
+			                        <td itemprop="email">pierre@pi3rrot.net</td>
 			                        <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x0B694394</a></td>
-			                        <td>Contributor</td>
+			                        <td itemprop="jobTitle">Contributor</td>
 		                        </tr>
 		                        <tr>
-			                        <td>Halit Alptekin</td>
+			                        <td itemprop="givenName">Halit Alptekin</td>
 			                        <td>rapt0r</td>
-			                        <td>me[at]halitalptekin.com</td>
+			                        <td itemprop="email">me@halitalptekin.com</td>
 			                        <td><a href="gpgkeys/rapt0r.asc" target="_blank">0x17F838F9</a></td>
-			                        <td>Contributor</td>
+			                        <td itemprop="jobTitle">Contributor</td>
 		                        </tr>
 		                        <tr>
-			                        <td>Ano Nymous</td>
+			                        <td itemprop="givenName">Ano Nymous</td>
 			                        <td>sudokode</td>
-			                        <td>sudokode[at]gmail.com</td>
-			                        <td><a href="gpgkeys/sudokode.asc" target="_blank">0xBADC0DE</td>
-			                        <td>Contributor</td>
+			                        <td itemprop="email">sudokode@gmail.com</td>
+			                        <td><a href="gpgkeys/sudokode.asc" target="_blank">0xBADC0DE</a></td>
+			                        <td itemprop="jobTitle">Contributor</td>
 		                        </tr>
                                 <tr>
-                                    <td>Guy Marquez</td>
+                                    <td itemprop="givenName">Guy Marquez</td>
                                     <td>eserror</td>
-                                    <td>guy.marquez[at]yandex.com</td>
+                                    <td itemprop="email">guy.marquez@yandex.com</td>
                                     <td><a href="gpgkeys/eserror.asc" target="_blank">0x1DDA1182</a></td>
-                                    <td>Contributor</td>
+                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
-                                    <td>Felipe Montes</td>
+                                    <td itemprop="givenName">Felipe Montes</td>
                                     <td>GudwaL</td>
-                                    <td>felipe[at]smartdefence.cl</td>
+                                    <td itemprop="email">felipe@smartdefence.cl</td>
                                     <td><a href="gpgkeys/gudwal.asc" target="_blank">0x9548C879</a></td>
-                                    <td>Contributor</td>
+                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
-                                    <td>Abelardo Ricart</td>
+                                    <td itemprop="givenName">Abelardo Ricart</td>
                                     <td>abby</td>
-                                    <td>aricart[at]gmail.com</td>
+                                    <td itemprop="email">aricart@gmail.com</td>
                                     <td><a href="gpgkeys/abby.asc" target="_blank">0xF126259B</a></td>
-                                    <td>Contributor</td>
+                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
-                                    <td>Alexander Rothenberg</td>
+                                    <td itemprop="givenName">Alexander Rothenberg</td>
                                     <td>EisWiesel</td>
-                                    <td>unreal436[at]gmail.com</td>
+                                    <td itemprop="email">unreal436@gmail.com</td>
                                     <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADC0DE</a></td>
-                                    <td>Contributor</td>
+                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                             </table>
                         </li>
                     </ul>
-                    <!-- <ul class="list-group">
-                        <li class="list-group-item">
-                            <p>
-                                foo
-                            </p>
-                        </li>
-                        </ul> -->
                 </div>
             </div>
         </div>

@@ -111,28 +111,33 @@ footer {
 }
 
 .code-block {
-    padding: 10px;
-    margin-top: 10px;
-    background: #000;
-    border: 1px solid #999;
-    border-radius: 4px;
-    line-height: 1.42857143;
-    word-break: break-all;
-    word-wrap: break-word;
-    font-family: monospace, monospace;
-    font-size: 13px;
+padding: 10px;
+margin:10px 0 4px 0;
+background: #000;
+border: 1px solid #999;
+border-radius: 4px;
+line-height: 1.42857143;
+word-break: break-all;
+word-wrap: break-word;
+font-family: monospace, monospace;
+font-size: 13px;
 }
 
-codecomment {
-    font-family: inherit;
-    font-size: inherit;
-    color: #aaa;
+.code-block p:first-child {
+margin:0;
+}
+.code-block p {
+font-family: inherit;
+font-size: inherit;
+color: #aaa;
+margin:15px 0 0 0;
 }
 
-codecmd {
-    font-family: inherit;
-    font-size: inherit;
-    color: #f40000;
+.code-block span {
+font-family:inherit;
+font-size:inherit;
+color:#f40000;
+margin:0;
 }
 
 codevar {
@@ -157,7 +162,75 @@ codevar {
 #tbl-minimalist tbody tr:hover td {
     color: #C40000;
 }
-
-d {
-    float: right;
+#developers {
+table-layout:fixed;
+width:600;
+}
+#developers tr td:nth-of-type(1) {
+width:180px;
+padding:0 0 5px 0;
+text-align:left;
+}
+#developers tr td:nth-of-type(2), #developers tr td:nth-of-type(4), #developers tr td:nth-of-type(5) {
+width:150px;
+text-align:left;
+}
+#developers tr td:nth-of-type(3) {
+width:260px;
+text-align:left;
+}
+#download {
+table-layout:fixed;
+overflow:hidden;
+}
+#download tr td:nth-of-type(1) {
+width:260px;
+padding:0 0 5px 0;
+text-align:left;
+}
+#download tr td:nth-of-type(2) {
+width:100px;
+text-align:left;
+}
+#download tr td:nth-of-type(3) {
+width:80px;
+text-align:left;
+}
+#download tr td:nth-of-type(4) {
+width:80px;
+font-size:13px;
+text-align:left;
+}
+#guide {
+width:100px;
+margin:0 0 8px 0;
+}
+#baLogo {
+width:60px;
+height:70px;
+}
+#paypal input:nth-of-type(3) {
+border:0;
+}
+#paypal img {
+border:0;
+height:1px;
+width:1px;
+}
+article:first-child {
+margin:10px 0 0 0;
+}
+article {
+margin:50px 0 0 0;
+}
+article h4 {
+display:inline;
+margin:5px 0 0 0;
+}
+article time {
+font-size:18px;
+float:right;
+}
+.twitter-timeline {
+height:420px;
 }

@@ -3,9 +3,8 @@ cat common/start
 cat <<\EOF
     <!-- Page Content -->
     <div class="container">
-
-        <!-- Page Heading/Breadcrumbs -->
-        <div class="row">
+    	<!-- Page Heading/Breadcrumbs -->
+		<div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">
                     <a>Donation<small> for BlackArch Linux</small></a>
@@ -18,7 +17,6 @@ cat <<\EOF
             </div>
         </div>
         <!-- /.row -->
-
         <!-- Content Row -->
         <p>
             BlackArch Linux survives thanks to the tireless efforts of the core development team. None of us are paid for our work and we do not have the personal funds to
@@ -38,11 +36,11 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <form id=paypal action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                 <input type="hidden" name="cmd" value="_s-xclick">
                                 <input type="hidden" name="hosted_button_id" value="UPSCCPXHY8EBQ">
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                                <img src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" alt="Paypal" />
                             </form>
                         </li>
                     </ul>
@@ -57,14 +55,13 @@ cat <<\EOF
                         <li class="list-group-item">
                         1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn
                         <br /><br />
-                        <img src=/images/bt.png />
+                        <img src="/images/bt.png" alt="Bitcoin" />
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
         <!-- /.row -->
-
 EOF
 
 cat common/end
