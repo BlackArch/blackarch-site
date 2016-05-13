@@ -1,4 +1,4 @@
-cat common/start
+cat common/start-guide
 
 cat <<\EOF
     <!-- Page Content -->

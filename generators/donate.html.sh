@@ -1,4 +1,4 @@
-cat common/start
+cat common/start-donate
 
 cat <<\EOF
     <!-- Page Content -->
@@ -53,9 +53,7 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item">
-                        1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn
-                        <br /><br />
-                        <img src="/images/bt.png" alt="Bitcoin" />
+                       <i class="fa fa-btc fa-lg"></i>1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn
                         </li>
                     </ul>
                 </div>

@@ -1,4 +1,4 @@
-cat common/start
+cat common/start-blog
 
 cat <<\EOF
     <!-- Page Content -->
