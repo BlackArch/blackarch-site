@@ -83,7 +83,9 @@ footer {
         height: 70%;
     }
 }
-
+.nav li a {
+display:inline;
+}
 .community-head {
     padding: 4px 15px 4px 15px;
     margin-bottom: 20px;
@@ -103,13 +105,18 @@ footer {
 }
 
 .community-body-right {
-    float: right;
-    margin-left: 30px;
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
+float:right;
+margin:0 0 0 30px;
+padding:0;
+font-size:20px;
+background-repeat: no-repeat;
 }
-
+.community-body-right i {
+color:#C9C9C9;
+}
+.community-body-right i:hover {
+color:#555555;
+}
 .code-block {
 padding: 10px;
 margin:10px 0 4px 0;
@@ -216,6 +223,11 @@ border:0;
 border:0;
 height:1px;
 width:1px;
+}
+.list-group i {
+display:block;
+padding:0;
+margin:0;
 }
 article:first-child {
 margin:10px 0 0 0;

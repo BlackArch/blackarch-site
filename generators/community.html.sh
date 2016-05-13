@@ -1,4 +1,4 @@
-cat common/start
+cat common/start-community
 
 cat <<\EOF
     <!-- Page Content -->
@@ -32,7 +32,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://github.com/BlackArch" target="_blank"><img src="images/icons/github.png" alt="github logo" /></a>
+                            <a href="https://github.com/BlackArch" target="_blank"><i class="fa fa-github fa-5x"></i></a>
                         </div>
                     <p>
 					    You can find all BlackArch Linux code (including build scripts and website source) on our
@@ -40,7 +40,8 @@ cat <<\EOF
 					</p>
                     <p>
 						If you have any questions, suggestions, or bugs to report, feel free to post on the
-                        <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a>. We also accept pull requests of all sizes and importance.
+                        <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a>. 
+						We also accept pull requests of all sizes and importance.
                     </p>
                 </div>
                 <br />
@@ -49,7 +50,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://twitter.com/blackarchlinux" target="_blank"><img src="images/icons/twitter.png" alt="twitter logo" /></a>
+                            <a href="https://twitter.com/blackarchlinux" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
                         </div>
                         <p>
                             Follow us on Twitter! We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>.
@@ -64,10 +65,11 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="irc://irc.freenode.net/blackarch" target="_blank"><img src="images/icons/irc.png" alt="irc logo" /></a>
+                        <a href="irc://irc.freenode.net/blackarch" target="_blank"><i class="fa fa-comment fa-5x"></i></a>
                     </div>
                     <p>
-                        Come keep us company. We have a little community here. Anything is on topic but the large majority of discusision is related to security and/or BlackArch.
+                        Come keep us company. We have a little community here. 
+						Anything is on topic but the large majority of discusision is related to security and/or BlackArch.
 					</p>
                     <p>
 					    If you need help, this is the best place to ask.
@@ -86,7 +88,7 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="blog.html"><img src="images/icons/blog.png" alt="blog logo" /></a>
+                        <a href="blog.html"><i class="fa fa-newspaper-o fa-5x"></i></a>
                     </div>
                     <p>
 					    We have an on-site <a href="blog.html">blog</a>. The posts are usually more detailed than our Twitter posts and focus on more big project issues.

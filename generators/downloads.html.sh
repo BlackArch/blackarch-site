@@ -1,4 +1,4 @@
-cat common/start
+cat common/start-downloads
 
 cat <<\EOF
     <!-- Page Content -->
