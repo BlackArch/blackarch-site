@@ -45,7 +45,7 @@ cat <<\EOF
                         <li class="list-group-item">
                             <p itemprop="about">
 							    The following list contains official BlackArch live and netinstall ISO images. You can burn these images to DVDs and flashdrives.
-                            	<br><br>	
+                            	<br><br>
                                 The live ISO contains a complete, functional BlackArch Linux system. The netinstall ISO is a lightweight image for bootstrapping machines.
 								<br><br>
 							    If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#mirror-list">list of mirrors</a> below.
@@ -150,7 +150,7 @@ cat <<\EOF
                                 <p># First, you must install blackman. If the BlackArch package repository is setup on your machine,<br>
                                    # you can install blackman like:</p>
                                 $ <span>sudo pacman -S blackman</span>
-                                <p># Download, compile and install package:</p>                      
+                                <p># Download, compile and install package:</p>
                                 $ <span> sudo blackman -i &lt;package&gt;</span>
                                 <p># Download, compile and install whole category</p>
                                 $ <span>sudo blackman -g &lt;group&gt;</span>
@@ -248,7 +248,7 @@ cat <<\EOF
                             <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank" itemprop="url">rsync://blackarch.tamcore.eu/blackarch/</a><br>
                             <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank" itemprop="url">http://blackarch.leneveu.fr/blackarch/</a><br>
                             <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
-                            <a href="http://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">http://mirror.adversec.com/blackarch/</a><br>
+                            <a href="https://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">https://mirror.adversec.com/blackarch/</a><br>
                             <a href="http://blackarch.uteditor.de/" target="_blank" itemprop="url">http://blackarch.uteditor.de/</a>
                             <br><br>
                             <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
