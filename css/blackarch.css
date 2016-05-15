@@ -249,3 +249,40 @@ float:right;
 .twitter-timeline {
 height:420px;
 }
+/* Loading */
+#loadGen {
+position:absolute;
+bottom:0;
+right:0;
+font-size:20px;
+background-color:black;
+color:white;
+max-width:220px;
+padding:6px;
+border-radius:2px;
+}
+#loadGen p {
+position:inline-block;
+margin:0 0 0 3px;
+}
+#loadGen i {
+position:inline-block;
+margin:0 9px 0 0;
+}
+	@media (max-width: 810px) {
+
+		#loadGen {
+			width: 40px;
+			height:26px;
+			text-align:center;
+		}
+
+		#loadGen p { visibility: hidden; }
+
+		#loadGen i {
+			font-size: 23px;
+			visibility: visible;
+			margin:0;
+		}
+	}
+
