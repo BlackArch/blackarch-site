@@ -33,7 +33,7 @@ function pop() {
 	//If null, set the homepage, otherwise get the value indicated
 	gTo = (subUrl === undefined || subUrl === null) ? '' : subUrl[1];
 
-	if(gTo === '' || gTo === 'index') {
+	if(gTo === 'index') {
 		home.trigger('click');
 		home.addClass('lock');
 	}
