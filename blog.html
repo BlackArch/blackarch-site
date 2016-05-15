@@ -41,23 +41,23 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
-                    <li itemprop="name">
-                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home menu-lnk"> Home</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download menu-lnk"> Downloads</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="guide.html" class="fa-li fa fa-question"> Guide</a>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-question menu-lnk"> Guide</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users menu-lnk"> Community</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o menu-lnk"> Blog</a>
                     </li>
-                    <li itemprop="name">
-     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart menu-lnk"> Donate</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +97,7 @@
         </a>
     </header>
     <!-- Page Content -->
-    <div class="container">
+    <div class="container result">
        <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
@@ -853,8 +853,10 @@
     </div>
     <!-- /.container -->
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- General js blackarch -->
+	<script type="text/javascript" src="js/blackarch.js"></script>
 </body>
 </html>
