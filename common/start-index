@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>BlackArch Linux | Penetration Testing Distribution</title>
-    <meta name="description" content="A lightweight, pentest distribution: BlackArch Linux is a lightweight expansion to Arch Linux for penetration testers.">
+	<title>BlackArch Linux - Penetration Testing Distribution</title>
+    <meta name="description" content="BlackArch Linux is a lightweight expansion to Arch Linux for penetration testers.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <!-- Bootstrap Core CSS -->
@@ -41,23 +41,23 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
-                    <li itemprop="name">
-                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home menu-lnk"> Home</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download menu-lnk"> Downloads</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="guide.html" class="fa-li fa fa-question"> Guide</a>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-question menu-lnk"> Guide</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users menu-lnk"> Community</a>
                     </li>
-                    <li itemprop="name">
-                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o menu-lnk"> Blog</a>
                     </li>
-                    <li itemprop="name">
-     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart menu-lnk"> Donate</a>
                     </li>
                 </ul>
             </div>
@@ -83,7 +83,7 @@
             <div class="item">
                 <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
                 <div class="carousel-caption">
-                    <h2>Over 1400 tools</h2>
+                    <h2>Over 1410 tools</h2>
                 </div>
             </div>
         </div>
