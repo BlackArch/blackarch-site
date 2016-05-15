@@ -14,10 +14,10 @@ function spawnLoad(TrigLoad) {
 		return TrigLoad;
 	}
 
-	else if(TrigLoad === 'kill') 
+	else if(TrigLoad === 'kill')
 		$('#loadGen').remove();
 
-	else 
+	else
 		return;
 }
 
@@ -33,7 +33,7 @@ function pop() {
 	//If null, set the homepage, otherwise get the value indicated
 	gTo = (subUrl === undefined || subUrl === null) ? '' : subUrl[1];
 
-	if(gTo === '' || gTo === 'index') {
+	if(gTo === 'index') {
 		home.trigger('click');
 		home.addClass('lock');
 	}
@@ -76,8 +76,8 @@ $(window).bind('popstate', pop);
 /* On load */
 $(document).ready(function() {
 	//Push the url load (popstate)
-	if(popped) 
-		pop();	
+	if(popped)
+		pop();
 });
 
 //Cancel anchors on the menu link
@@ -122,7 +122,7 @@ $(document).on('click', '#home', function(e) {
 	//Get the target content
 	$.get('index.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'index.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -179,7 +179,7 @@ $(document).on('click', '#downloads', function(e) {
 	//Get the target content
 	$.get('downloads.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'downloads.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -237,7 +237,7 @@ $(document).on('click', '#guide', function(e) {
 	//Get the target content
 	$.get('guide.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'guide.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -295,7 +295,7 @@ $(document).on('click', '#community', function(e) {
 	//Get the target content
 	$.get('community.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'community.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -353,7 +353,7 @@ $(document).on('click', '#blog', function(e) {
 	//Get the target content
 	$.get('blog.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'blog.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -408,7 +408,7 @@ $(document).on('click', '#donate', function(e) {
 	//Get the target content
 	$.get('donate.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'donate.html');
 
 		//Push the result in the DOM, into a hidden temp container
