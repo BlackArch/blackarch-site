@@ -2,7 +2,7 @@ cat common/start-index
 
 cat <<EOF
     <!-- Page Content -->
-    <div class="container">
+    <div class="container result">
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-lg-12">
@@ -87,7 +87,7 @@ cat <<EOF
 		                        <tr>
 			                        <td itemprop="givenName">Levon Kayan</td>
 			                        <td>noptrix</td>
-			                        <td itemprop="email">noptrix@]nullsecurity.net</td>
+			                        <td itemprop="email">noptrix@nullsecurity.net</td>
 			                        <td><a href="gpgkeys/noptrix.asc" target="_blank">0x7A747D10</a></td>
 			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
@@ -111,6 +111,13 @@ cat <<EOF
                                     <td itemprop="email">louis.dionmarcil@gmail.com</td>
                                     <td><a href="gpgkeys/ldionmarcil.asc" target="_blank">0x0E61E739</a></td>
                                     <td itemprop="jobTitle">Developer</td>
+                                </tr>
+								<tr>
+                                    <td itemprop="givenName">Dimitri Mader</td>
+                                    <td>anyon3</td>
+                                    <td itemprop="email">dimitri@linux.com</td>
+                                    <td><a href="gpgkeys/anyon3.asc" target="_blank">0x8B8E3622</a></td>
+                                    <td itemprop="jobTitle">WebDeveloper</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Jeremy Marlow</td>
