@@ -6,6 +6,21 @@ community 	= $('#community');
 blog		= $('#blog');
 donate		= $('#donate');
 
+//Function - spawnLoad
+function spawnLoad(TrigLoad) {
+
+	if(TrigLoad === 'load') {
+		TrigLoad = $('body').append('<div id=loadGen><p><i class="fa fa-cog fa-spin"></i>Loading...</p></div>');
+		return TrigLoad;
+	}
+
+	else if(TrigLoad === 'kill') 
+		$('#loadGen').remove();
+
+	else 
+		return;
+}
+
 //Regex url
 regUrl = /^http:\/\/blackarch\.org\/([a-z]+)\.html/;
 
@@ -98,6 +113,9 @@ $(document).on('click', '#home', function(e) {
 	//Push the new url
 	history.pushState({}, null, 'index.html');
 
+	//Loading
+	spawnLoad('load');
+
 	//Empty the container
 	$('.result').empty().hide();
 
@@ -118,6 +136,9 @@ $(document).on('click', '#home', function(e) {
 
 		//Remove the temp container
 		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
 
 		document.title = 'BlackArch Linux - Penetration Testing Distribution';
 	});
@@ -149,6 +170,9 @@ $(document).on('click', '#downloads', function(e) {
 	//Push the new url
 	history.pushState({}, null, 'downloads.html');
 
+	//Loading
+	spawnLoad('load');
+
 	//Empty the container
 	$('.result').empty().hide();
 
@@ -169,6 +193,9 @@ $(document).on('click', '#downloads', function(e) {
 
 		//Remove the temp container
 		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
 
 		//Change the title (<title>)
 		document.title = 'Downloads BlackArch';
@@ -201,6 +228,9 @@ $(document).on('click', '#guide', function(e) {
 	//Push the new url
 	history.pushState({}, null, 'guide.html');
 
+	//Loading
+	spawnLoad('load');
+
 	//Empty the container
 	$('.result').empty().hide();
 
@@ -221,6 +251,9 @@ $(document).on('click', '#guide', function(e) {
 
 		//Remove the temp container
 		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
 
 		//Change the title (<title>)
 		document.title = 'Guide of BlackArch';
@@ -253,6 +286,9 @@ $(document).on('click', '#community', function(e) {
 	//Push the new url
 	history.pushState({}, null, 'community.html');
 
+	//Loading
+	spawnLoad('load');
+
 	//Empty the container
 	$('.result').empty().hide();
 
@@ -273,6 +309,9 @@ $(document).on('click', '#community', function(e) {
 
 		//Remove the temp container
 		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
 
 		//Change the title (<title>)
 		document.title = 'Community of BlackArch';
@@ -305,6 +344,9 @@ $(document).on('click', '#blog', function(e) {
 	//Push the new url
 	history.pushState({}, null, 'blog.html');
 
+	//Loading
+	spawnLoad('load');
+
 	//Empty the container
 	$('.result').empty().hide();
 
@@ -325,6 +367,9 @@ $(document).on('click', '#blog', function(e) {
 
 		//Remove the temp container
 		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
 
 		//Change the title (<title>)
 		document.title = 'Get the last news';
@@ -357,6 +402,9 @@ $(document).on('click', '#donate', function(e) {
 	//Empty the container
 	$('.result').empty().hide();
 
+	//Loading
+	spawnLoad('load');
+
 	//Get the target content
 	$.get('donate.html', function(msg) {
 
@@ -374,6 +422,9 @@ $(document).on('click', '#donate', function(e) {
 
 		//Remove the temp container
 		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
 
 		//Change the title (<title>)
 		document.title = 'Donate to BlackArch';
