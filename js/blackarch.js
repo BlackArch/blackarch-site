@@ -430,3 +430,58 @@ $(document).on('click', '#donate', function(e) {
 		document.title = 'Donate to BlackArch';
 	});
 });
+
+//Tools
+$(document).off('click', '#tools');
+$(document).on('click', '#tools', function(e) {
+
+	//Check if isn't lock
+	if($('#tools').hasClass('lock'))
+		return;
+
+	//Load by url, return (don't need to execute the code)
+	if(e.target.tagName.toLowerCase() === 'li')
+		return;
+
+	//Drop anchors follow
+	if(e.target.tagName.toLowerCase() === 'a')
+		e.preventDefault();
+
+	//Remove any possible lock
+	if($('.lock').length > 0)
+		$('.lock').removeClass();
+
+	//Add lock class for avoid any double load (fast clic or whatever...)
+	$('#tools').addClass('lock');
+
+	//Empty the container
+	$('.result').empty().hide();
+
+	//Loading
+	spawnLoad('load');
+
+	//Get the target content
+	$.get('tools.html', function(msg) {
+
+		//Replace the new url
+		history.replaceState({}, null, 'tools.html');
+
+		//Push the result in the DOM, into a hidden temp container
+		$('<div id=tmp hidden>'+ msg +'</div>').appendTo('body');
+
+		//Extract only the required html
+		ctn = $('#tmp').find('.result').html();
+
+		//Push the required into the result container
+		$('.result').append(ctn).fadeIn('slow');
+
+		//Remove the temp container
+		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
+
+		//Change the title (<title>)
+		document.title = 'Tools in BlackArch';
+	});
+});

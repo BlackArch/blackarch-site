@@ -1,10 +1,9 @@
-cat common/start
+cat common/start-tools
 
 cat << EOF
 
     <!-- Page Content -->
-    <div class="container">
-
+    <div class="container result">
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
