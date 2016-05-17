@@ -66,7 +66,29 @@ header.carousel .fill {
 footer {
     margin: 50px 0;
 }
-
+.carousel-caption h2 {
+font-size:32px;
+}
+@media(max-width:1700px) {
+	.carousel-caption h2 {
+	font-size:27px;
+	}
+}
+@media(max-width:1400px) {
+	.carousel-caption h2 {
+	font-size:24px;
+	}
+}
+@media(max-width:1000px) {
+	.carousel-caption h2 {
+	font-size:19px;
+	}
+}
+@media(max-width:800px) {
+	.carousel-caption h2 {
+	font-size:16px;
+	}
+}
 @media(max-width:991px) {
     .customer-img,
     .img-related {
@@ -83,12 +105,48 @@ footer {
         height: 70%;
     }
 }
-.nav {
-margin:17px 0 0 0;
+/* Top menu */
+.top-logo {
+height:60px;
+width:70px;
 }
-.nav li a {
+.top-fond {
+width:300px;
+}
+.menu-lnk {
+margin:9px 0 0 0;
+}
+.menu-lnk li a {
 display:inline;
 }
+@media(max-width:1300px) {
+	.top-fond {
+	width:280px;
+	}
+}
+@media(max-width:1200px) {
+	.top-logo {
+	height:50px;
+	width:60px;
+	}
+	.top-fond {
+	display:none;
+	}
+	.menu-lnk {
+	margin:8.5px 0 0 0;
+	}
+}
+
+@media(max-width:1000px) {
+	.top-logo {
+	height:40px;
+	width:50px;
+	}
+	.menu-lnk li, .menu-lnk li a {
+	font-size:12px;
+	}
+}
+/* End top menu */
 .community-head {
     padding: 4px 15px 4px 15px;
     margin-bottom: 20px;
@@ -155,7 +213,12 @@ codevar {
     font-size: inherit;
     color: green;
 }
-
+.panel:first-child {
+margin:0 0 20px 0;
+}
+.panel {
+margin:20px 0 20px 0;
+}
 #tbl-minimalist {
     margin: 15px;
     font-size: 12px;
