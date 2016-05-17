@@ -15,5 +15,11 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<!-- General js blackarch -->
 	<script type="text/javascript" src="js/blackarch.js"></script>
+	   <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
 </body>
 </html>
