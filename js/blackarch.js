@@ -14,10 +14,10 @@ function spawnLoad(TrigLoad) {
 		return TrigLoad;
 	}
 
-	else if(TrigLoad === 'kill') 
+	else if(TrigLoad === 'kill')
 		$('#loadGen').remove();
 
-	else 
+	else
 		return;
 }
 
@@ -76,8 +76,8 @@ $(window).bind('popstate', pop);
 /* On load */
 $(document).ready(function() {
 	//Push the url load (popstate)
-	if(popped) 
-		pop();	
+	if(popped)
+		pop();
 });
 
 //Cancel anchors on the menu link
@@ -122,7 +122,7 @@ $(document).on('click', '#home', function(e) {
 	//Get the target content
 	$.get('index.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'index.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -179,7 +179,7 @@ $(document).on('click', '#downloads', function(e) {
 	//Get the target content
 	$.get('downloads.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'downloads.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -237,7 +237,7 @@ $(document).on('click', '#guide', function(e) {
 	//Get the target content
 	$.get('guide.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'guide.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -295,7 +295,7 @@ $(document).on('click', '#community', function(e) {
 	//Get the target content
 	$.get('community.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'community.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -353,7 +353,7 @@ $(document).on('click', '#blog', function(e) {
 	//Get the target content
 	$.get('blog.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'blog.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -408,7 +408,7 @@ $(document).on('click', '#donate', function(e) {
 	//Get the target content
 	$.get('donate.html', function(msg) {
 
-		//Replace the new url 
+		//Replace the new url
 		history.replaceState({}, null, 'donate.html');
 
 		//Push the result in the DOM, into a hidden temp container
@@ -428,5 +428,60 @@ $(document).on('click', '#donate', function(e) {
 
 		//Change the title (<title>)
 		document.title = 'Donate to BlackArch';
+	});
+});
+
+//Tools
+$(document).off('click', '#tools');
+$(document).on('click', '#tools', function(e) {
+
+	//Check if isn't lock
+	if($('#tools').hasClass('lock'))
+		return;
+
+	//Load by url, return (don't need to execute the code)
+	if(e.target.tagName.toLowerCase() === 'li')
+		return;
+
+	//Drop anchors follow
+	if(e.target.tagName.toLowerCase() === 'a')
+		e.preventDefault();
+
+	//Remove any possible lock
+	if($('.lock').length > 0)
+		$('.lock').removeClass();
+
+	//Add lock class for avoid any double load (fast clic or whatever...)
+	$('#tools').addClass('lock');
+
+	//Empty the container
+	$('.result').empty().hide();
+
+	//Loading
+	spawnLoad('load');
+
+	//Get the target content
+	$.get('tools.html', function(msg) {
+
+		//Replace the new url
+		history.replaceState({}, null, 'tools.html');
+
+		//Push the result in the DOM, into a hidden temp container
+		$('<div id=tmp hidden>'+ msg +'</div>').appendTo('body');
+
+		//Extract only the required html
+		ctn = $('#tmp').find('.result').html();
+
+		//Push the required into the result container
+		$('.result').append(ctn).fadeIn('slow');
+
+		//Remove the temp container
+		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
+
+		//Change the title (<title>)
+		document.title = 'Tools in BlackArch';
 	});
 });
