@@ -348,17 +348,6 @@ cat <<\EOF
            </div>
         </div>
         <!-- /.row -->
-	   <hr />
-        <!-- Footer -->
-      	<footer>
-            <div class="row">
-                <div class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
-                <p>Copyright &copy; <span itemprop="legalName">BlackArch Linux</span> 2013-2016</p>
-                </div>
-            </div>
-        </footer>
-    </div>
-        <!-- /.row -->
 EOF
 
 cat common/end
