@@ -26,38 +26,48 @@ cat <<\EOF
                     <div class="panel-heading">
                         <b>News</b>
                     </div>
-                    <ul class="list-group">
+                    <ul class="list-group nblog">
                         <li class="list-group-item">
-							<article> 
-		                        <h4>New mirror added in Ukraine !</h4><time> 2016-05-07</time>
-		                        <hr />
-		                        <p>
-		                        We would like to thank <a href="https://forum.wawa-mania.ec/" target="_blank">
-								Dimitri of Wawa-Mania (dimitri@linux.com)</a> for becoming a BlackArch Linux mirror.
-		                        <br />
-		                        He offer the following access: <a href="http://blackarch.wawa-mania.to/" target="_blank">http</a>
-		                        </p>
+
+							<article itemscope itemtype="http://schema.org/NewsArticle">
+								<header>
+		                        	<time itemprop="datePublished">2016-05-07</time>
+		                        	<h4 itemprop="name">New mirror added in Ukraine !</h4>
+		                        </header>
+		                        <div itemprop="description">
+			                        We would like to thank <a href="https://forum.wawa-mania.ec/" target="_blank">
+									Dimitri of Wawa-Mania (dimitri@linux.com)</a> for becoming a BlackArch Linux mirror.
+			                        <br />
+			                        He offer the following access: <a href="http://blackarch.wawa-mania.to/" target="_blank">http</a>
+                           		 </div>
                             </article>
-							<article><h4>New mirror added in Netherland!</h4><time> 2016-05-05</time>
-                            <hr />
-                            <p>
-                            We would like to thank <a href="https://forum.wawa-mania.ec/" target="_blank">Dimitri of Wawa-Mania (dimitri@linux.com)</a> 
-							for becoming a BlackArch Linux mirror.
-                            <br />
-                            They are offering the following access: <a href="http://blackarch.wawa-mania.ec/" target="_blank">http</a>
-                            </p>
+
+							<article itemscope itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-05-05</time>
+									<h4 itemprop="name">New mirror added in Netherland!</h4>
+								</header>
+		                        <div itemprop="description">
+	                            We would like to thank <a href="https://forum.wawa-mania.ec/" target="_blank">Dimitri of Wawa-Mania (dimitri@linux.com)</a>
+								for becoming a BlackArch Linux mirror.
+	                            <br />
+	                            They are offering the following access: <a href="http://blackarch.wawa-mania.ec/" target="_blank">http</a>
+	                            </div>
                             </article>
-							<article><h4>New mirror added in USA! </h4><time> 2016-05-05</time>
-                            <hr />
-                            <p>
+
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<time itemprop="datePublished">2016-05-05</time>
+							<h4 itemprop="name">New mirror added in USA! </h4></header>
+							<div itemprop="description">
                                 We would like to thank <a href="http://distro.ibiblio.org" target="_blank">Ibiblio / University of North Carolina </a> for becoming a BlackArch Linux mirror.
                                 <br />
                                 They are offering the following access: <a href="http://distro.ibiblio.org/blackarch/" target="_blank">http</a> |
                                 <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank">ftp</a>
-                            </p>
-                            </article>
-							<article><h4>New ISOs released! </h4><time>2016-04-29</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<time itemprop="datePublished">2016-04-29</time>
+							<h4 itemprop="name">New ISOs released! </h4></header>
+                          <div itemprop="description">
                             <p>
                                 Today we released new BlackArch Linux ISOs along with the new installer. The new ISOs include over 1400 tools. For more details see the ChangeLog below.
                             </p>
@@ -76,27 +86,29 @@ cat <<\EOF
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
-                            </article>
-							<article><h4>New BlackArch Linux installer released! </h4><time> 2016-04-28</time>
-                            <hr />
-                            <p>
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+								<time itemprop="datePublished"> 2016-04-28</time>
+								<h4 itemprop="name">New BlackArch Linux installer released! </h4></header>
+                            <div itemprop="description">
                                 We have released the new (improved) BlackArch Linux installer today. It is built and released in our
                                 <a href="https://www.blackarch.org/blackarch/blackarch/os/" target="_blank">repository</a> and can be installed via pacman:<br /><br />
                                 <code>pacman -S blackarch-installer</code><br /><br /> The source code and documentation is available on github:
                                 <a href="https://github.com/BlackArch/blackarch-installer" target="_blank">blackarch-installer</a>
-                            </p>
-                            </article>
-							<article><h4>New mirror added in Singapore! </h4><time> 2016-03-12</time>
-                            <hr />
-                            <p>
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+								<time itemprop="datePublished"> 2016-03-12</time>
+								<h4 itemprop="name">New mirror added in Singapore!</h4></header>
+							<div itemprop="description">
                                 We would like to thank <a href="http://nus.edu.sg//">National University of Singapore</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://download.nus.edu.sg/mirror/blackarch/" target="_blank">http</a> |
                                 <a href="https://download.nus.edu.sg/mirror/blackarch/" target="_blank">https</a>
-                            </p>
-                            </article>
-							<article><h4>New ISOs released! </h4><time> 2016-01-11</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<time itemprop="datePublished"> 2016-01-11</time>
+							<h4 itemprop="name">New ISOs released!</h4></header>
+                            <div itemprop="description">
                             <p>
                                 Today we released new BlackArch Linux ISOs. The new ISOs include over 1330 tools. For more details see the ChangeLog below.
                             </p>
@@ -115,53 +127,57 @@ cat <<\EOF
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
-                            </article>
-							<article><h4>New mirror added in Germany! </h4><time> 2015-12-05</time>
-		                        <hr />
-		                        <p>
-		                            We would like to thank <a href="http://ftp.halifax.rwth-aachen.de/">RWTH Aachen University</a> for becoming a mirror.
-		                            <br />
-		                            They are offering the following access: <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">http</a> |
-		                            <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">ftp</a> |
-		                            <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">rsync</a>
-		                        </p>
-                            </article>
-							<article><h4>New ISOs released! </h4><time> 2015-11-15</time>
-                            <hr />
-                            <p>
-                                Today we released new BlackArch Linux ISOs. The new ISOs include over 1300 tools. For more details see the ChangeLog below.
-                            </p>
-                                <p>Here's the ChangeLog :</p>
-                                <ul>
-                                    <li>added more than 100 new tools</li>
-                                    <li>updated system packages</li>
-                                    <li>include linux kernel 4.2.5</li>
-                                    <li>updated all tools</li>
-                                    <li>updated menu entries for window managers</li>
-                                    <li>added (correct) multilib support</li>
-                                    <li>added more fonts</li>
-                                    <li>added missing group 'vboxsf'</li>
-                                </ul>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
-                            </article>
-							<article><h4>We did it! </h4><time> 2015-11-14</time>
-                            <hr />
-                            <p>
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+								<time itemprop="datePublished">2015-12-05</time>
+								<h4 itemprop="name">New mirror added in Germany!</h4></header>
+			                    <div itemprop="description">
+			                            We would like to thank <a href="http://ftp.halifax.rwth-aachen.de/">RWTH Aachen University</a> for becoming a mirror.
+			                            <br />
+			                            They are offering the following access: <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">http</a> |
+			                            <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">ftp</a> |
+			                            <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">rsync</a>
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+								<time itemprop="datePublished">2015-11-15</time>
+								<h4 itemprop="name">New ISOs released!</h4></header>
+	                          	<div itemprop="description">
+									<p>
+		                                Today we released new BlackArch Linux ISOs. The new ISOs include over 1300 tools. For more details see the ChangeLog below.
+		                            </p>
+	                                <p>Here's the ChangeLog :</p>
+	                                <ul>
+	                                    <li>added more than 100 new tools</li>
+	                                    <li>updated system packages</li>
+	                                    <li>include linux kernel 4.2.5</li>
+	                                    <li>updated all tools</li>
+	                                    <li>updated menu entries for window managers</li>
+	                                    <li>added (correct) multilib support</li>
+	                                    <li>added more fonts</li>
+	                                    <li>added missing group 'vboxsf'</li>
+	                                </ul>
+	                            <p>
+	                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+	                            </p>
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<time itemprop="datePublished">2015-11-14</time>
+							<h4 itemprop="name">We did it!</h4></header>
+                       		<div itemprop="description">
                             We went over the BlackArch Linux repository and updated all <a href="https://www.blackarch.org/tools.html" target="_blank">tools</a>.
                             Soon, we will release the new ISOs and the BlackArch Linux Guide, stay tuned!
                             <br /><br />
                             A big &quot;Thank you&quot; to all BlackArch Linux users, supporters and contributors.
-                            </p>
-                            </article>
-							<article><h4>New ISOs released! </h4><time> 2015-08-02</time>
-                            <hr />
-                            <p>
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<time itemprop="datePublished"> 2015-08-02</time>
+							<h4 itemprop="name">New ISOs released! </h4></header>
+                            <div itemprop="description">
+                            	<p>
                                 Today we released new BlackArch Linux ISOs. The
                                 new ISOs include over 1230 tools for i686 and
                                 x86_64 and over 1010 tools. For more details see the ChangeLog below.
-                            </p>
+                            	</p>
                                 <p>Here's the ChangeLog :</p>
                                 <ul>
                                     <li>added more than 30 new tools</li>
@@ -176,26 +192,28 @@ cat <<\EOF
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
-                            </article>
-							<article><h4>New Vietnam mirror added! </h4><time> 2015-06-17</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<time itemprop="datePublished"> 2015-06-17</time>
+							<h4 itemprop="name">New Vietnam mirror added! </h4></header>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="archlinuxvn.org">archlinuxvn.org</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://f.archlinuxvn.org/blackarch/" target="_blank">http</a>
                             </p>
-                            </article>
-							<article><h4>We did it! </h4><time> 2015-06-15</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">We did it! </h4></header><time itemprop="datePublished"> 2015-06-15</time>
+                            <div itemprop="description">
                             <p>
                             We went over the BlackArch Linux repository and updated all <a href="https://www.blackarch.org/tools.html" target="_blank">tools</a>.
                             Soon, we will release the new ISOs and the BlackArch Linux Wiki, stay tuned!
                             <br /><br />
                             A big &quot;Thank you&quot; to all BlackArch Linux users, supporters and contributors.
                             </p>
-                            </article>
-							<article><h4>New Austria mirrors added! </h4><time> 2015-05-21</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Austria mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-21</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="easyname.at">easyname.at</a> and <a href="nessus.at">nessus.at</a> for becoming a mirror.
                                 <br />
@@ -203,9 +221,9 @@ cat <<\EOF
                                 <a href="ftp://mirror.easyname.at/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://mirror.easyname.at/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New Switzerland mirrors added! </h4><time> 2015-05-21</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Switzerland mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-21</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="easyname.at">easyname.at</a> and <a href="nessus.at">nessus.at</a> for becoming a mirror.
                                 <br />
@@ -213,35 +231,35 @@ cat <<\EOF
                                 <a href="ftp://mirror.easyname.ch/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://mirror.easyname.ch/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New China mirrors added! </h4><time> 2015-05-01</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New China mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-01</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="ustc.edu.cn">ustc.edu.cn</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank">https</a>
                             </p>
-                            </article>
-							<article><h4>New Denmark mirrors added! </h4><time> 2015-04-15</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Denmark mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-15</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://dotsrc.org">dotsrc.org</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://mirrors.dotsrc.org/blackarch/" target="_blank">http</a> |
                                 <a href="ftp://mirrors.dotsrc.org/blackarch/" target="_blank">ftp</a>
                             </p>
-                            </article>
-							<article><h4>New Australia mirrors added! </h4><time> 2015-04-10</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Australia mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-10</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="digitalpacific.com.au">digitalpacific.com.au</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://blackarch.mirror.digitalpacific.com.au/" target="_blank">http</a> |
                                 <a href="rsync://mirror.digitalpacific.com.au/blackarch" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New ISOs released (Bugfixes) </h4><time> 2015-04-08</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs released (Bugfixes) </h4></header><time itemprop="datePublished"> 2015-04-08</time>
+                            <div itemprop="description">
                             <p>
                                 Today we released new BlackArch Linux ISOs. The new ISOs include over 1200 tools for i686 and x86_64 and over 1000 tools
                                 for armv6h and armv7h. This release includes bugfixes and SHA1 sum checks for our strap.sh script in the installer.
@@ -258,26 +276,26 @@ cat <<\EOF
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
-                            </article>
-							<article><h4>New Belgium mirrors added! </h4><time> 2015-04-04</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Belgium mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-04</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://alexiobash.com/">alexiobash.com</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://mirror.alexiobash.com/blackarch/" target="_blank">http</a>
                             </p>
-                            </article>
-							<article><h4>New US mirrors added! </h4><time> 2015-04-02</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-02</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://tspitzconsulting.com/">TSpitz Consulting, Inc</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://mirror2.tscinc.co/blackarch" target="_blank">http</a> |
                                 <a href="rsync://mirror2.tscinc.co/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New Poland mirrors added! </h4><time> 2015-04-02</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Poland mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-02</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.icm.edu.pl/">ICM Warsaw University</a> for becoming a mirror.
                                 <br />
@@ -286,18 +304,18 @@ cat <<\EOF
                                 <a href="rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch" target="_blank">rsync</a> |
                                 <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch" target="_blank">gopher</a>
                             </p>
-                            </article>
-							<article><h4>New Greece mirrors added! </h4><time> 2015-04-01</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Greece mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-01</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.cc.uoc.gr/">University of Crete / Computer Center</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">http</a> |
                                 <a href="ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">ftp</a>
                             </p>
-                            </article>
-							<article><h4>New France mirrors added! </h4><time> 2015-04-01</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New France mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-01</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://tamcore.eu/">tamcore.eu</a> and <a href="http://uteditor.de/">uteditor.de</a> for becoming a mirror.
                                 <br />
@@ -305,9 +323,9 @@ cat <<\EOF
                                 <a href="https://blackarch.tamcore.eu/" target="_blank">https</a> |
                                 <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New ISOs and BlackArch Linux installer... </h4><time> 2015-03-30</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs and BlackArch Linux installer... </h4></header><time itemprop="datePublished"> 2015-03-30</time>
+                            <div itemprop="description">
                             <p>
                                 Today we released new BlackArch Linux ISOs. The new ISOs include over 1200 tools for i686 and x86_64 and over 1000 tools for armv6h and armv7h.
                             </p>
@@ -327,9 +345,9 @@ cat <<\EOF
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
-                           </article>
-							<article><h4>Tool count breaks 1200 & upcoming ISOs... </h4><time> 2015-03-21</time>
-                            <hr />
+                           </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Tool count breaks 1200 & upcoming ISOs... </h4></header><time itemprop="datePublished"> 2015-03-21</time>
+                            <div itemprop="description">
                             <p>
                                 BlackArch Linux now contains more than 1200 tools. We will add the new tools to the next version of the ISO.
                                 If you wish to become a beta tester join our <a href="irc://irc.freenode.net/blackarch" target="_blank">IRC channel</a> on Freenode.
@@ -345,9 +363,9 @@ cat <<\EOF
                             <p>
                                 Stay tuned...
                             </p>
-                            </article>
-							<article><h4>New Turkey mirror added! </h4><time> 2015-03-08</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Turkey mirror added! </h4></header><time itemprop="datePublished"> 2015-03-08</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://linux.org.tr/">linux.org.tr</a> for becoming a mirror.
                                 <br />
@@ -355,9 +373,9 @@ cat <<\EOF
                                 <a href="ftp://ftp.linux.org.tr/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://rsync.linux.org.tr/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>Major upgrade of BlackArch Linux repository! </h4><time> 2015-02-15</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Major upgrade of BlackArch Linux repository! </h4></header><time itemprop="datePublished"> 2015-02-15</time>
+                            <div itemprop="description">
                             <p>
                                 We walked through the BlackArch Linux repository and upgraded almost every single package.<br />
                                 In order to get the updated packages, run: <br /><br />
@@ -365,9 +383,9 @@ cat <<\EOF
                                 <br /><br />
                                 Thanks for all supporters and contributors!
                             </p>
-                            </article>
-							<article><h4>New Ecuador mirror added! </h4><time> 2015-02-12</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Ecuador mirror added! </h4></header><time itemprop="datePublished"> 2015-02-12</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://mirror.uta.edu.ec" target="_blank">mirror.uta.edu.ec</a> for becoming a mirror.
                                 <br />
@@ -375,26 +393,26 @@ cat <<\EOF
                                 <a href="ftp://mirror.uta.edu.ec/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://mirror.uta.edu.ec/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New Australia mirror added! </h4><time> 2015-01-13</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Australia mirror added! </h4></header><time itemprop="datePublished"> 2015-01-13</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://hexnoia.org/">hexnoia.org</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://blackarch.hexnoia.org/" target="_blank">http</a>
                             </p>
-                            </article>
-							<article><h4>New Italy mirror added! </h4><time> 2015-01-09</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Italy mirror added! </h4></header><time itemprop="datePublished"> 2015-01-09</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://mirror.garr.it">garr.it</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://blackarch.mirror.garr.it/mirrors/blackarch/" target="_blank">http</a> |
                                 <a href="rsync://blackarch.mirror.garr.it/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New Switzerland mirror added! </h4><time> 2015-01-05</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Switzerland mirror added! </h4></header><time itemprop="datePublished"> 2015-01-05</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://mirror.tillo.ch" target="_blank">tillo.ch</a> for becoming a mirror.
                                 <br />
@@ -404,9 +422,9 @@ cat <<\EOF
                                 <a href="ftp://mirror.tillo.ch/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://mirror.tillo.ch/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New US mirror added! </h4><time> 2015-01-04</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2015-01-04</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://mirrors.cdndepo.com/">CDN Depot</a> for becoming a mirror.
                                 <br />
@@ -415,9 +433,9 @@ cat <<\EOF
                                 <a href="http://blackarch.cdndepo.com/">http</a> |
                                 <a href="rsync://blackarch.cdndepo.com/">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New US mirror added! </h4><time> 2014-12-29</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-12-29</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://packetfire.org/">Packetfire</a> for becoming a mirror.
                                 <br />
@@ -425,9 +443,9 @@ cat <<\EOF
                                 <a href="http://blackarch.mirror.packetfire.org/" target="_blank">http</a> |
                                 <a href="rsync://blackarch.mirror.packetfire.org/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New Taiwan mirror added! </h4><time> 2014-11-12</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Taiwan mirror added! </h4></header><time itemprop="datePublished"> 2014-11-12</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.cse.yzu.edu.tw/" target="_blank">Dept of CSE, Yuan Ze University</a> for becoming a mirror.
                                 <br />
@@ -435,17 +453,17 @@ cat <<\EOF
                                 <a href="ftp://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New US mirror added! </h4><time> 2014-10-13</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-10-13</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://deadbeef.ninja" target="_blank">deadbeef.ninja</a>for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="https://deadbeef.ninja/blackarch/">https</a>
                             </p>
-                            </article>
-							<article><h4>New ISOs! </h4><time> 2014-10-07</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-10-07</time>
+                            <div itemprop="description">
                             <p>
                                 Today, we released new BlackArch Linux ISOs including more than 1000 tools and lot's of improvements.
                                 Also, armv6h and armv7h repositories are filled with more than 1050 tools.
@@ -470,9 +488,9 @@ cat <<\EOF
                                 We wanted to say "thank you" to all users and supporters of BlackArch Linux who contributed, donated and
                                 motivated us for testings, fixes and improvements.
                             	</p>
-                            </article>
-							<article><h4>New Turkey mirror added! </h4><time> 2014-08-21</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Turkey mirror added! </h4></header><time itemprop="datePublished"> 2014-08-21</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://knuth.mirrortr.com/blackarch" target="_blank">knuth.mirrortr.com</a> for becoming a mirror.
                                 <br />
@@ -480,17 +498,17 @@ cat <<\EOF
                                 <a href="ftp://knuth.mirrortr.com/blackarch" target="_blank">ftp</a> |
                                 <a href="rsync://knuth.mirrortr.com/blackarch" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>Torrent files for new ISOs! </h4><time> 2014-07-02</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Torrent files for new ISOs! </h4></header><time itemprop="datePublished"> 2014-07-02</time>
+                            <div itemprop="description">
                             <p>
                                 Torrent files for new ISOs have been added.
                                 <br />
                                 You can get them <a href="">here</a> or on our <a href="">mirror sites</a>.
                             </p>
-                            </article>
-							<article><h4>New ISOs! </h4><time> 2014-07-01</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-07-01</time>
+                            <div itemprop="description">
                             <p>
                                 Today, we released new BlackArch Linux ISOs including more than 1000 tools and lot's of improvements. Also,
                                 armv6h and armv7h repositories are filled with about 950 tools.
@@ -512,26 +530,26 @@ cat <<\EOF
                                 We wanted to say "thank you" to all users and supporters of BlackArch Linux who contributed, donated and motivated us
                                 for testings, fixes and improvements.
                             </p>
-                            </article>
-							<article><h4>New Taiwan mirror added! </h4><time> 2014-06-30</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Taiwan mirror added! </h4></header><time itemprop="datePublished"> 2014-06-30</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://cs.nctu.edu.tw/" target="_blank">cs.nctu.edu.tw</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://blackarch.cs.nctu.edu.tw/" target="_blank">http</a> |
                                 <a href="rsync://blackarch.cs.nctu.edu.tw/blackarch" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New Canada mirror added! </h4><time> 2014-06-30</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Canada mirror added! </h4></header><time itemprop="datePublished"> 2014-06-30</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://clibre.uqam.ca/" target="_blank">clibre.uqam.ca</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank">http</a>
                             </p>
-                            </article>
-							<article><h4>New Ecuador mirrors added! </h4><time> 2014-06-03</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Ecuador mirrors added! </h4></header><time itemprop="datePublished"> 2014-06-03</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://cedia.org.ec/" target="_blank">cedia.org.ec</a> and
                                 <a href="http://espoch.edu.ec/" target="_blank">espoch.edu.ec</a> for becoming a mirror.
@@ -539,18 +557,18 @@ cat <<\EOF
                                 They are offering the following access: <a href="http://mirror.cedia.org.ec/blackarch/" target="_blank">http</a> |
                                 <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank">http</a>
                             </p>
-                            </article>
-							<article><h4>New Germany mirrors added! </h4><time> 2014-06-02</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Germany mirrors added! </h4></header><time itemprop="datePublished"> 2014-06-02</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.curesec.com/" target="_blank">Curesec Team</a> for becoming a mirror.
                                 <br />
                                 They are offering the following access: <a href="http://blackarch1.curesec.com/blackarch/" target="_blank">http</a> |
                                 <a href="http://blackarch2.curesec.com/blackarch/" target="_blank">http</a>
                             </p>
-                            </article>
-							<article><h4>New US mirror added! </h4><time> 2014-05-17</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-05-17</time>
+                            <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.team-cymru.org/" target="_blank">Team Cymru</a> for becoming a mirror.
                                 <br />
@@ -558,9 +576,9 @@ cat <<\EOF
                                 <a href="ftp://mirror.team-cymru.org/blackarch/" target="_blank">ftp</a> |
                                 <a href="rsync://mirror.team-cymru.org/blackarch/" target="_blank">rsync</a>
                             </p>
-                            </article>
-							<article><h4>New ISOs! </h4><time> 2014-04-21</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-04-21</time>
+                            <div itemprop="description">
                             <p>
                                 Today, we released new BlackArch Linux ISOs including more than 750 tools and lot's of improvements. Also, armv6h
                                 and armv7h repositories are filled with about 650 tools.
@@ -583,9 +601,9 @@ cat <<\EOF
                                 We wanted to say "thank you" to all users and supporters of BlackArch Linux who contributed, donated and motivated us
                                 for testings, fixes and improvements.
                             </p>
-                            </article>
-							<article><h4>ARM Support and New ISOs! </h4><time> 2014-03-03</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">ARM Support and New ISOs! </h4></header><time itemprop="datePublished"> 2014-03-03</time>
+                            <div itemprop="description">
                             <p>
                                 BlackArch now has ARM support. Currently, there are 570 tools in the armv6h repo and 580 tools in the armv7h repo.
                                 We are working to close the gap between the ARM repos and the x86_64 and i686 repos. Expect to see over 600 tools in
@@ -605,9 +623,9 @@ cat <<\EOF
                                     <li>vim: disabled remap of ':'</li>
                                     <li>vim: set ttimeoutlen=100</li>
                                 </ul>
-                            </article>
-							<article><h4>New tools: netcon.sh and strap.sh </h4><time> 2014-02-20</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New tools: netcon.sh and strap.sh </h4></header><time itemprop="datePublished"> 2014-02-20</time>
+                            <div itemprop="description">
                             <p>
                                 BlackArch now comes with <a href="https://github.com/BlackArch/netcon" target="_blank">netcon.sh</a>, a script to establish
                                 network connections with the option to spoof MAC addresses, hostnames, clientids, etc.
@@ -615,16 +633,16 @@ cat <<\EOF
                                 Also, we simplified the <a href="http://blackarch.org/downloads.html">installation instructions</a> with a new script:
                                 <a href="/strap.sh">strap.sh</a>.
                             </p>
-                            </article>
-							<article><h4>New keyring </h4><time> 2014-01-12</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New keyring </h4></header><time itemprop="datePublished"> 2014-01-12</time>
+                            <div itemprop="description">
                             <p>
                                 All existing users must follow the <a href="http://blackarch.org/downloads.html">new installation instructions</a>, including step 0.
                                 We switched to a more robust keyring. The new keyring is a modification of the keyring used by the Arch Linux developers.
                             </p>
-                            </article>
-							<article><h4>Live ISOs, Status, and Futures! </h4><time> 2014-01-01</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Live ISOs, Status, and Futures! </h4></header><time itemprop="datePublished"> 2014-01-01</time>
+                            <div itemprop="description">
                             <p>
                                 BlackArch Linux is an Arch-based GNU/Linux distribution for pentesters and security researchers. The BlackArch package
                                 repository is compatible with existing Arch installs.
@@ -658,16 +676,16 @@ cat <<\EOF
                                 Please report bugs and feature/tool requests through Github, email, twitter, or IRC. Feel free to post requests for your
                                 own tools.
                             </p>
-                            </article>
-							<article><h4>Major release and site redesign! </h4><time> 2013-12-28</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Major release and site redesign! </h4></header><time itemprop="datePublished"> 2013-12-28</time>
+                            <div itemprop="description">
                             <p>
                                 We redesigned our website. We hope you like the new style. We also released a bunch of new tools. There are over 600 tools
                                 in the repo now. The full list of tools is <a href="tools.html">here</a>.
                             </p>
-                            </article>
-							<article><h4>Updates to Pacman.conf! </h4><time> 2013-12-20</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Updates to Pacman.conf! </h4></header><time itemprop="datePublished"> 2013-12-20</time>
+                            <div itemprop="description">
                             <p>
                                 We changed the directory structure of the repository. Please modify your pacman.conf files like so:</p>
                                 <ul>
@@ -679,9 +697,9 @@ cat <<\EOF
                                 The repository directory structure now resembles that of the official Arch repositories. The new structure will make it easier
                                 for mirrors to sync with our repository.
 								</p>
-                            </article>
-							<article><h4>We did it! </h4><time> 2013-11-24</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">We did it! </h4></header><time itemprop="datePublished"> 2013-11-24</time>
+                            <div itemprop="description">
                             <p>
                                 Thanks to everyone's interest in this project we finally pissed off our ISP! It makes us happy to know that so many people
                                 appreciate our hard work and are using BlackArch Linux. We have managed to push a record 1.2TB a month of traffic and downloads.
@@ -689,9 +707,9 @@ cat <<\EOF
                                 to help with any potential future disruptions. For the latest updates please come back and visit us or follow us on twitter.
                                 Thanks everyone!
                             </p>
-                            </article>
-							<article><h4>Securabit Podcast! </h4><time> 2013-09-16</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Securabit Podcast! </h4></header><time itemprop="datePublished"> 2013-09-16</time>
+                            <div itemprop="description">
                             <p>
                                 We're on <a href="http://securabit.com/" target="_blank">Securabit Podcast</a>. Thanks to
                                 <a href="https://twitter.com/secbitchris" target="_blank">Chris Gerling</a>,
@@ -703,26 +721,26 @@ cat <<\EOF
                                 to help grow a more secure internet. Their philosphy is screw all the "hats", Gh0st Networks is about learning, exploring,
                                 exploiting and connecting in a world where finance and politics are now a few of the motives behind the creation of malware today.
                                 Research and reverse engineer these plagues towards the common goal of a secure internet.
-                            </p>                    
-                            </article>
-							<article><h4>Extended downtime! </h4><time> 2013-08-25</time>
-                            <hr />
+                            </p>
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Extended downtime! </h4></header><time itemprop="datePublished"> 2013-08-25</time>
+                            <div itemprop="description">
                             <p>
                                 We're continuing work to upgrade our infrastructure, as a part of this improvement our domain service provider experienced some
                                 issues which resulted in slow proprogation of our DNS records across the globe. This was the root cause of our extended downtime.
                                 This issue has now been corrected, we apologize for the inconvenience.
                             </p>
 
-                            </article>
-							<article><h4>Speak candidly! </h4><time> 2013-08-24</time>
-                            <hr />
+                            </div></article>
+							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Speak candidly! </h4></header><time itemprop="datePublished"> 2013-08-24</time>
+                            <div itemprop="description">
                             <p>
                                 We have recently relocated all tools in the repository to comply with <a href="http://www.pathname.com/fhs/" target="_blank">FHS</a>.
                                 We would like to hear from anyone that was familiar with the <i>/pentest</i> path structure and how they feel about the current format.
                                 Did anyone depend on <i>/pentest</i> to remember what tools you have in your arsenal? Do you prefer having all tools available to you
                                 in your <i>$PATH</i>? Please feel free to comment below and speak your mind!
                             </p>
-							</article>
+							</div></article>
                         </li>
                     </ul>
                 </div>
