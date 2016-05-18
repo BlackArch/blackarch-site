@@ -29,7 +29,7 @@ cat <<\EOF
                     To download the guide, please use the links below.
                 </p>
 
-                <table id=guide>
+                <table class=guide>
                     <tr>
 		                <td><img src="/images/flags/us.png" alt="United States" /></td>
 		                <td><a href="blackarch-guide-en.pdf" target="_blank">English</a></td>
@@ -48,6 +48,9 @@ cat <<\EOF
                     <a href="https://github.com/BlackArch/blackarch-guide/tree/master/latex" target="_blank">blackarch-guide</a> at <a href="https://github.com/" target="_blank">github</a>
                     and send us your changes or open a pull request if you would like to translate the guide from English to any other language.</i>
                 </p>
+           </div>
+        </div>
+        <!-- /.row -->
 EOF
 
 cat common/end
