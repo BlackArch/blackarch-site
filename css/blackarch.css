@@ -141,6 +141,7 @@ display:inline;
 	.top-logo {
 	height:40px;
 	width:50px;
+	margin:5px 0 0 0;
 	}
 	.menu-lnk li, .menu-lnk li a {
 	font-size:12px;
@@ -274,7 +275,7 @@ width:80px;
 font-size:13px;
 text-align:left;
 }
-#guide {
+.guide {
 width:100px;
 margin:0 0 8px 0;
 }
@@ -295,17 +296,17 @@ display:block;
 padding:0;
 margin:0;
 }
-article:first-child {
-margin:10px 0 0 0;
+.nblog article{
+margin:0 0 40px 0;
 }
-article {
-margin:50px 0 0 0;
+.nblog header {
+padding:5px 0 8px 0;
+border-bottom:1px solid #EEEEEE;
 }
-article h4 {
-display:inline;
-margin:5px 0 0 0;
+.nblog div {
+margin:15px 0 0 0;
 }
-article time {
+.nblog article time {
 font-size:18px;
 float:right;
 }
