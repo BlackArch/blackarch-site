@@ -6,7 +6,9 @@ cat <<EOF
         <!-- Portfolio Section -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">About BlackArch Linux</h2>
+               	<div class="page-header page-header-title">
+	                <h1>BlackArch</h1> <h2>Homepage</h2>
+                </div>
                 <p>
                     BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based distribution for penetration testers
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
@@ -181,7 +183,8 @@ cat <<EOF
                 </div>
             </div>
         </div>
+     </div>
         <!-- /.row -->
 EOF
 
-cat common/end-index
+cat common/end
