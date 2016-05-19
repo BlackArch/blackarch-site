@@ -87,6 +87,11 @@ $(document).on('click', '.nav', function(e) {
 		e.preventDefault();
 });
 
+//Slider
+$('.carousel').carousel({
+    interval: 5000 //changes the speed
+})
+
 //Home
 $(document).off('click', '#home');
 $(document).on('click', '#home', function(e) {

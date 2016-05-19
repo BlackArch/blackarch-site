@@ -7,9 +7,9 @@ cat <<\EOF
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <a>Community <small> of BlackArch Linux</small></a>
-                </h1>
+        		<div class="page-header page-header-title">
+	            <h1>Community</h1> <h2>Join us</h2>
+                </div>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
@@ -40,7 +40,7 @@ cat <<\EOF
 					</p>
                     <p>
 						If you have any questions, suggestions, or bugs to report, feel free to post on the
-                        <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a>. 
+                        <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a>.
 						We also accept pull requests of all sizes and importance.
                     </p>
                 </div>
@@ -68,7 +68,7 @@ cat <<\EOF
                         <a href="irc://irc.freenode.net/blackarch" target="_blank"><i class="fa fa-comment fa-5x"></i></a>
                     </div>
                     <p>
-                        Come keep us company. We have a little community here. 
+                        Come keep us company. We have a little community here.
 						Anything is on topic but the large majority of discusision is related to security and/or BlackArch.
 					</p>
                     <p>
@@ -100,6 +100,7 @@ cat <<\EOF
                 </div>
             </div>
         </div>
+      </div>
         <!-- /.row -->
 EOF
 

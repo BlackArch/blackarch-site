@@ -34,30 +34,33 @@
                     <span class="icon-bar"></span>
                 </button>
 				<a href="index.html">
-					<img src="/images/logo/ba-logo.png" style="width:60px;height:70px" alt="BlackArch Linux Logo" />
-					<img src="/images/logo/ba-font.png" style="" alt="BlackArch Linux Font" />
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
 				</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
                     <li id=home itemprop="name">
-                        <a itemprop="url" href="index.html" class="fa-li fa fa-home menu-lnk"> Home</a>
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
                     </li>
                     <li id=downloads itemprop="name">
-                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download menu-lnk"> Downloads</a>
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
                     </li>
                     <li id=guide itemprop="name">
-                        <a itemprop="url" href="guide.html" class="fa-li fa fa-question menu-lnk"> Guide</a>
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
                     </li>
                     <li id=community itemprop="name">
-                        <a itemprop="url" href="community.html" class="fa-li fa fa-users menu-lnk"> Community</a>
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
                     </li>
                     <li id=blog itemprop="name">
-                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o menu-lnk"> Blog</a>
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
                     </li>
                     <li id=donate itemprop="name">
-     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart menu-lnk"> Donate</a>
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
                     </li>
                 </ul>
             </div>
@@ -96,14 +99,13 @@
             <span class="icon-next"></span>
         </a>
     </header>
-    <!-- Page Content -->
-    <div class="container result">
+   <div class="container result">
         <!-- Page Heading/Breadcrumbs -->
           <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <a>Download <small>BlackArch Linux Resources</small></a>
-                </h1>
+               <div class="page-header page-header-title">
+	           <h1>Downloads</h1> <h2>BlackArch iso</h2>
+               </div>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
@@ -131,12 +133,11 @@
 				    Here you will find official BlackArch Linux downloads and installation instructions.
                 </p>
                 <hr />
-                <br>
-                <div class="panel panel-default text-left" itemscope itemtype="https://schema.org/CreativeWork">
-                    <div class="panel-heading">
+                <div class="panel panel-default text-left">
+                    <div id=iso-download class="panel-heading">
                         <b>Live ISOs</b>
                     </div>
-                    <ul class="list-group">
+                    <ul class="list-group" itemscope itemtype="https://schema.org/CreativeWork">
                         <li class="list-group-item">
                             <p itemprop="about">
 							    The following list contains official BlackArch live and netinstall ISO images. You can burn these images to DVDs and flashdrives.
@@ -155,30 +156,30 @@
                                     <td><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.04.28-x86_64.iso" itemprop="fileFormat" content="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.04.28-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                                     <td itemprop="datePublished">2016.04.28</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.04.28-x86_64.iso.torrent" itemprop="fileFormat" content="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.04.28-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td><span>4.5 GB</span></td>
                                     <td>3ed5132820d17b5fa3b234b127f266d47741ec99</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.04.28-i686.iso" itemprop="fileFormat" content="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.04.28-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td itemprop="datePublished">2016.04.28</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.04.28-i686.iso.torrent" itemprop="fileFormat" content="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.04.28-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>4.3 GB</td>
                                     <td>b3bd77af14eb6264067560bdfba0692bea42ace6</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.04.28-x86_64.iso" itemprop="fileFormat" content="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.04.28-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                                     <td itemprop="datePublished">2016.04.28</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.04.28-x86_64.iso.torrent" itemprop="fileFormat" content="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.04.28-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>383 MB</td>
                                     <td>36d424f42542d189281199651a5fc3d0e4e71ad1</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.04.28-i686.iso" itemprop="fileFormat" content="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
+                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.04.28-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
                                     <td itemprop="datePublished">2016.04.28</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.04.28-i686.iso.torrent" itemprop="fileFormat" content="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.04.28-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>345 MB</td>
                                     <td>5e6cb462cc3ec637c7f02a21a709df15456c5751</td>
                                 </tr>
@@ -202,9 +203,8 @@
                         </li>
                     </ul>
                 </div>
-                <br>
                 <div class="panel panel-default text-left">
-                    <div class="panel-heading">
+                    <div id=install-repo class="panel-heading">
                         <b>Installing on top of ArchLinux</b>
                     </div>
                     <ul class=list-group>
@@ -260,9 +260,8 @@
                         </li>
                     </ul>
                 </div>
-                <br>
                 <div class="panel panel-default text-left">
-                    <div class="panel-heading">
+                    <div id=install-iso class="panel-heading">
                         <b>Installing from ISO</b>
                     </div>
                     <ul class="list-group">
@@ -277,9 +276,8 @@
                         </li>
                     </ul>
                 </div>
-                <br>
                 <div class="panel panel-default text-left">
-                    <div class="panel-heading">
+                    <div id=blackarch-arm class="panel-heading">
                         <b>ARM</b>
                     </div>
                     <ul class="list-group">
@@ -297,9 +295,8 @@
                         </li>
                     </ul>
                 </div>
-                <br>
                 <div class="panel panel-default text-left">
-                    <div class="panel-heading">
+                    <div id=mirror-list class="panel-heading">
                         <b>Official BlackArch Linux Mirror Sites</b>
                     </div>
                     <ul class="list-group">
@@ -448,8 +445,8 @@
                 </div>
            </div>
         </div>
+     </div>
         <!-- /.row -->
-	   <hr />
         <!-- Footer -->
       	<footer>
             <div class="row">
@@ -458,8 +455,6 @@
                 </div>
             </div>
         </footer>
-    </div>
-    <!-- /.container -->
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->

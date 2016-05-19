@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>BlackArch Linux | Penetration Testing Distribution</title>
-    <meta name="description" content="A lightweight, pentest distribution: BlackArch Linux is a lightweight expansion to Arch Linux for penetration testers.">
+	<title>Tools in BlackArch</title>
+    <meta name="description" content="List of all tools available on BlackArch, update in real time">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
@@ -34,30 +34,33 @@
                     <span class="icon-bar"></span>
                 </button>
 				<a href="index.html">
-					<img src="/images/logo/ba-logo.png" style="width:60px;height:70px" alt="BlackArch Linux Logo" />
-					<img src="/images/logo/ba-font.png" style="" alt="BlackArch Linux Font" />
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo">
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font">
 				</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            	 <ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
                     <li id=home itemprop="name">
-                        <a itemprop="url" href="index.html" class="fa-li fa fa-home menu-lnk"> Home</a>
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
                     </li>
                     <li id=downloads itemprop="name">
-                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download menu-lnk"> Downloads</a>
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
                     </li>
                     <li id=guide itemprop="name">
-                        <a itemprop="url" href="guide.html" class="fa-li fa fa-question menu-lnk"> Guide</a>
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
                     </li>
                     <li id=community itemprop="name">
-                        <a itemprop="url" href="community.html" class="fa-li fa fa-users menu-lnk"> Community</a>
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
                     </li>
                     <li id=blog itemprop="name">
-                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o menu-lnk"> Blog</a>
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
                     </li>
                     <li id=donate itemprop="name">
-     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart menu-lnk"> Donate</a>
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
                     </li>
                 </ul>
             </div>
@@ -65,16 +68,46 @@
         </div>
         <!-- /.container -->
     </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1400 tools</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
 
     <!-- Page Content -->
-    <div class="container">
-
+    <div class="container result">
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <a>Tools <small>BlackArch Linux Tools List</small></a>
-                </h1>
+                <div class="page-header page-header-title">
+	            <h1>Tools</h1> <h2>The list</h2>
+                </div>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
@@ -95,7 +128,7 @@
                 </p>
                 <br />
                 <p>
-                    <b>Tool count:</b> <a href="">1414</a>
+                    <b>Tool count:</b> <a href="">1416</a>
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">
@@ -203,7 +236,7 @@
                             </tr>
                             <tr>
                                 <td>afl</td>
-                                <td>2.12b</td>
+                                <td>2.13b</td>
                                 <td>Security-oriented fuzzer using compile-time instrumentation and genetic algorithms</td>
                                 <td><a href="http://lcamtuf.coredump.cx/afl/" target="_blank">http://lcamtuf.coredump.cx/afl/</a></td>
                             </tr>
@@ -617,7 +650,7 @@
                             </tr>
                             <tr>
                                 <td>beef</td>
-                                <td>0.4.7.0.185.gad21b4b</td>
+                                <td>0.4.7.0.188.g16da11e</td>
                                 <td>The Browser Exploitation Framework that focuses on the web browser</td>
                                 <td><a href="http://beefproject.com/" target="_blank">http://beefproject.com/</a></td>
                             </tr>
@@ -778,6 +811,12 @@
                                 <td><a href="https://code.google.com/p/bletchley/" target="_blank">https://code.google.com/p/bletchley/</a></td>
                             </tr>
                             <tr>
+                                <td>blind-sql-bitshifting</td>
+                                <td>51.ad190ec</td>
+                                <td>A blind SQL injection module that uses bitshfting to calculate characters.</td>
+                                <td><a href="https://github.com/libeclipse/blind-sql-bitshifting" target="_blank">https://github.com/libeclipse/blind-sql-bitshifting</a></td>
+                            </tr>
+                            <tr>
                                 <td>blindelephant</td>
                                 <td>7</td>
                                 <td>A web application fingerprinter. Attempts to discover the version of a (known) web application by comparing static files at known locations</td>
@@ -929,7 +968,7 @@
                             </tr>
                             <tr>
                                 <td>bsqlinjector</td>
-                                <td>7.e1be4cf</td>
+                                <td>8.5dc3f27</td>
                                 <td>Blind SQL injection exploitation tool written in ruby.</td>
                                 <td><a href="https://github.com/enjoiz/BSQLinjector" target="_blank">https://github.com/enjoiz/BSQLinjector</a></td>
                             </tr>
@@ -1367,7 +1406,7 @@
                             </tr>
                             <tr>
                                 <td>commix</td>
-                                <td>522.852b0b6</td>
+                                <td>526.23d03f0</td>
                                 <td>Automated All-in-One OS Command Injection and Exploitation Tool.</td>
                                 <td><a href="https://github.com/stasinopoulos/commix" target="_blank">https://github.com/stasinopoulos/commix</a></td>
                             </tr>
@@ -1475,7 +1514,7 @@
                             </tr>
                             <tr>
                                 <td>create_ap</td>
-                                <td>205.5c3e2d9</td>
+                                <td>206.a7fa8b5</td>
                                 <td>This script creates a NATed or Bridged WiFi Access Point.</td>
                                 <td><a href="https://github.com/oblique/create_ap" target="_blank">https://github.com/oblique/create_ap</a></td>
                             </tr>
@@ -2501,7 +2540,7 @@
                             </tr>
                             <tr>
                                 <td>flashscanner</td>
-                                <td>8.72c7933</td>
+                                <td>10.c88c156</td>
                                 <td>Flash XSS Scanner.</td>
                                 <td><a href="https://github.com/riusksk/FlashScanner" target="_blank">https://github.com/riusksk/FlashScanner</a></td>
                             </tr>
@@ -3113,7 +3152,7 @@
                             </tr>
                             <tr>
                                 <td>honssh</td>
-                                <td>86.0843542</td>
+                                <td>88.82e1aeb</td>
                                 <td>A high-interaction Honey Pot solution designed to log all SSH communications between a client and server.</td>
                                 <td><a href="https://code.google.com/p/honssh/" target="_blank">https://code.google.com/p/honssh/</a></td>
                             </tr>
@@ -4373,7 +4412,7 @@
                             </tr>
                             <tr>
                                 <td>metasploit</td>
-                                <td>38243.993709e</td>
+                                <td>38382.c40b8ea</td>
                                 <td>An open source platform that supports vulnerability research, exploit development and the creation of custom security tools representing the largest collection of quality-assured exploits.</td>
                                 <td><a href="http://www.metasploit.com" target="_blank">http://www.metasploit.com</a></td>
                             </tr>
@@ -4979,7 +5018,7 @@
                             </tr>
                             <tr>
                                 <td>o-saft</td>
-                                <td>1152.37a1aca</td>
+                                <td>1191.821f6b6</td>
                                 <td>A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.</td>
                                 <td><a href="https://www.owasp.org/index.php/O-Saft" target="_blank">https://www.owasp.org/index.php/O-Saft</a></td>
                             </tr>
@@ -5993,7 +6032,7 @@
                             </tr>
                             <tr>
                                 <td>responder</td>
-                                <td>157.4906e7d</td>
+                                <td>166.448db12</td>
                                 <td>A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication.</td>
                                 <td><a href="https://github.com/SpiderLabs/Responder/" target="_blank">https://github.com/SpiderLabs/Responder/</a></td>
                             </tr>
@@ -6101,7 +6140,7 @@
                             </tr>
                             <tr>
                                 <td>ropper</td>
-                                <td>1.8.6</td>
+                                <td>1.8.7</td>
                                 <td>Show information about binary files and find gadgets to build rop chains for different architectures</td>
                                 <td><a href="https://github.com/sashs/Ropper" target="_blank">https://github.com/sashs/Ropper</a></td>
                             </tr>
@@ -6431,7 +6470,7 @@
                             </tr>
                             <tr>
                                 <td>shellsploit-framework</td>
-                                <td>214.5cdcf90</td>
+                                <td>221.3aafcc5</td>
                                 <td>New Generation Exploit Development Kit.</td>
                                 <td><a href="https://github.com/b3mb4m/shellsploit-framework" target="_blank">https://github.com/b3mb4m/shellsploit-framework</a></td>
                             </tr>
@@ -6719,7 +6758,7 @@
                             </tr>
                             <tr>
                                 <td>sn1per</td>
-                                <td>69.f365872</td>
+                                <td>74.8911da7</td>
                                 <td>Automated Pentest Recon Scanner.</td>
                                 <td><a href="https://github.com/1N3/Sn1per" target="_blank">https://github.com/1N3/Sn1per</a></td>
                             </tr>
@@ -7151,7 +7190,7 @@
                             </tr>
                             <tr>
                                 <td>striptls</td>
-                                <td>45.443b517</td>
+                                <td>48.65a7078</td>
                                 <td>Proxy PoC implementation of STARTTLS stripping attacks.</td>
                                 <td><a href="https://github.com/tintinweb/striptls" target="_blank">https://github.com/tintinweb/striptls</a></td>
                             </tr>
@@ -8111,7 +8150,7 @@
                             </tr>
                             <tr>
                                 <td>weeman</td>
-                                <td>85.2c0a131</td>
+                                <td>87.e4720de</td>
                                 <td>HTTP Server for phishing in Python.</td>
                                 <td><a href="https://github.com/Hypsurus/weeman" target="_blank">https://github.com/Hypsurus/weeman</a></td>
                             </tr>
@@ -8186,6 +8225,12 @@
                                 <td>202.892c177</td>
                                 <td>Fast automated phishing attacks against WPA networks.</td>
                                 <td><a href="https://github.com/sophron/wifiphisher" target="_blank">https://github.com/sophron/wifiphisher</a></td>
+                            </tr>
+                            <tr>
+                                <td>wifiscanmap</td>
+                                <td>95.ed5f442</td>
+                                <td>Another wifi mapping tool.</td>
+                                <td><a href="https://github.com/mehdilauters/wifiScanMap" target="_blank">https://github.com/mehdilauters/wifiScanMap</a></td>
                             </tr>
                             <tr>
                                 <td>wifitap</td>
@@ -8471,7 +8516,7 @@
                             </tr>
                             <tr>
                                 <td>xxeinjector</td>
-                                <td>50.a76fac9</td>
+                                <td>51.55015d1</td>
                                 <td>Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.</td>
                                 <td><a href="https://github.com/enjoiz/XXEinjector" target="_blank">https://github.com/enjoiz/XXEinjector</a></td>
                             </tr>
@@ -8561,7 +8606,7 @@
                             </tr>
                             <tr>
                                 <td>zgrab</td>
-                                <td>451.972573e</td>
+                                <td>453.257e50e</td>
                                 <td>Grab banners (optionally over TLS).</td>
                                 <td><a href="https://github.com/zmap/zgrab" target="_blank">https://github.com/zmap/zgrab</a></td>
                             </tr>
@@ -8600,8 +8645,8 @@
                 </div>
             </div>
         </div>
+     </div>
         <!-- /.row -->
-	   <hr />
         <!-- Footer -->
       	<footer>
             <div class="row">
@@ -8610,8 +8655,6 @@
                 </div>
             </div>
         </footer>
-    </div>
-    <!-- /.container -->
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->

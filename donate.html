@@ -5,7 +5,7 @@
 	<title>Donate to BlackArch</title>
     <meta name="description" content="Help us to build the project by giving a donation today">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Bootstrap Core CSS -->
@@ -34,32 +34,36 @@
                     <span class="icon-bar"></span>
                 </button>
 				<a href="index.html">
-					<img src="/images/logo/ba-logo.png" style="width:60px;height:70px" alt="BlackArch Linux Logo" />
-					<img src="/images/logo/ba-font.png" style="" alt="BlackArch Linux Font" />
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo">
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font">
 				</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
                     <li id=home itemprop="name">
-                        <a itemprop="url" href="index.html" class="fa-li fa fa-home menu-lnk"> Home</a>
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
                     </li>
                     <li id=downloads itemprop="name">
-                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download menu-lnk"> Downloads</a>
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
                     </li>
                     <li id=guide itemprop="name">
-                        <a itemprop="url" href="guide.html" class="fa-li fa fa-question menu-lnk"> Guide</a>
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
                     </li>
                     <li id=community itemprop="name">
-                        <a itemprop="url" href="community.html" class="fa-li fa fa-users menu-lnk"> Community</a>
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
                     </li>
                     <li id=blog itemprop="name">
-                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o menu-lnk"> Blog</a>
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
                     </li>
                     <li id=donate itemprop="name">
-     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart menu-lnk"> Donate</a>
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
                     </li>
                 </ul>
+
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -101,9 +105,9 @@
     	<!-- Page Heading/Breadcrumbs -->
 		<div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">
-                    <a>Donation<small> for BlackArch Linux</small></a>
-                </h1>
+               <div class="page-header page-header-title">
+	           <h1>Donation</h1> <h2>Help us today</h2>
+               </div>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
@@ -154,8 +158,8 @@
                 </div>
             </div>
         </div>
+     </div>
         <!-- /.row -->
-	   <hr />
         <!-- Footer -->
       	<footer>
             <div class="row">
@@ -164,8 +168,6 @@
                 </div>
             </div>
         </footer>
-    </div>
-    <!-- /.container -->
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
