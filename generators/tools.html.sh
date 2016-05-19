@@ -66,7 +66,6 @@ cat <<\EOF
                 </div>
             </div>
         </div>
-     </div>
         <!-- /.row -->
 EOF
 
