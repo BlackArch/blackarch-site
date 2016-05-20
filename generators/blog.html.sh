@@ -35,6 +35,7 @@ cat <<\EOF
 									<h4 itemprop="name">Newest tools added!</h4>
 								</header>
 		                        <div itemprop="description">
+                                    Following newest tools have been added:<br />
                                     <ul>
                                         <li><a href="" target="_blank">det</a> - (extensible) Data Exfiltration Toolkit.</li>
                                         <li><a href="" target="_blank">firmwalker</a> - Script for searching the extracted firmware file system for goodies.</li>
