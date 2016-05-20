@@ -29,17 +29,34 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                            <article itemscope itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-05-20</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <ul>
+                                        <li><a href="" target="_blank">det</a> - (extensible) Data Exfiltration Toolkit.</li>
+                                        <li><a href="" target="_blank">firmwalker</a> - Script for searching the extracted firmware file system for goodies.</li>
+                                        <li><a href="" target="_blank">onionscan</a> - Scan Onion Services for Security Issues.</li>
+                                        <li><a href="" target="_blank">profuzz</a> - Simple PROFINET fuzzer based on Scapy.</li>
+                                        <li><a href="" target="_blank">cjexploiter</a> - Drag and Drop ClickJacking exploit development assistance tool.</li>
+                                        <li><a href="" target="_blank">blind-sql-bitshifting</a> - A blind SQL injection module that uses bitshfting to calculate characters.</li>
+                                    </ul>
+	                            </div>
+                            </article>
+
 							<article itemscope itemtype="http://schema.org/NewsArticle">
 								<header>
-		                        	<time itemprop="datePublished">2016-05-07</time>
-		                        	<h4 itemprop="name">New mirror added in Ukraine !</h4>
+                                    <time itemprop="datePublished">2016-05-07</time>
+                                    <h4 itemprop="name">New mirror added in Ukraine !</h4>
 		                        </header>
 		                        <div itemprop="description">
 			                        We would like to thank <a href="https://forum.wawa-mania.ec/" target="_blank">
 									Dimitri of Wawa-Mania (dimitri@linux.com)</a> for becoming a BlackArch Linux mirror.
 			                        <br />
 			                        He offer the following access: <a href="http://blackarch.wawa-mania.to/" target="_blank">http</a>
-                           		 </div>
+                                </div>
                             </article>
 
 							<article itemscope itemtype="http://schema.org/NewsArticle">
@@ -64,6 +81,7 @@ cat <<\EOF
                                 They are offering the following access: <a href="http://distro.ibiblio.org/blackarch/" target="_blank">http</a> |
                                 <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank">ftp</a>
                             </div></article>
+
 							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished">2016-04-29</time>
 							<h4 itemprop="name">New ISOs released! </h4></header>
@@ -86,8 +104,10 @@ cat <<\EOF
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
-                            </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+                            </div>
+                            </article>
+
+                            <article itemscope itemtype="http://schema.org/NewsArticle"><header>
 								<time itemprop="datePublished"> 2016-04-28</time>
 								<h4 itemprop="name">New BlackArch Linux installer released! </h4></header>
                             <div itemprop="description">
@@ -96,7 +116,8 @@ cat <<\EOF
                                 <code>pacman -S blackarch-installer</code><br /><br /> The source code and documentation is available on github:
                                 <a href="https://github.com/BlackArch/blackarch-installer" target="_blank">blackarch-installer</a>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+
+                            <article itemscope itemtype="http://schema.org/NewsArticle"><header>
 								<time itemprop="datePublished"> 2016-03-12</time>
 								<h4 itemprop="name">New mirror added in Singapore!</h4></header>
 							<div itemprop="description">
@@ -104,8 +125,10 @@ cat <<\EOF
                                 <br />
                                 They are offering the following access: <a href="http://download.nus.edu.sg/mirror/blackarch/" target="_blank">http</a> |
                                 <a href="https://download.nus.edu.sg/mirror/blackarch/" target="_blank">https</a>
-                            </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+                            </div>
+                            </article>
+
+                            <article itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished"> 2016-01-11</time>
 							<h4 itemprop="name">New ISOs released!</h4></header>
                             <div itemprop="description">
