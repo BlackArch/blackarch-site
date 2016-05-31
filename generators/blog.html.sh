@@ -31,6 +31,29 @@ cat <<\EOF
 
                             <article itemscope itemtype="http://schema.org/NewsArticle">
 								<header>
+									<time itemprop="datePublished">2016-05-31</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/eik00d/CANToolz" target="_blank">cantoolz</a> - Framework for black-box CAN network analysis.</li>
+                                        <li><a href="https://github.com/waytoalpit/ManOnTheSideAttack-DNS-Spoofing" target="_blank">motsa-dns-spoofing</a> - ManOnTheSideAttack-DNS Spoofing.</li>
+                                        <li><a href="https://github.com/takeshixx/webfixy" target="_blank">webfixy</a> - On-the-fly decryption proxy for MikroTik RouterOS WebFig sessions.</li>
+                                        <li><a href="https://github.com/hgascon/pulsar" target="_blank">pulsar</a> - Protocol Learning and Stateful Fuzzing.</li>
+                                        <li><a href="https://github.com/Betawolf/social-vuln-scanner" target="_blank">social-vuln-scanner</a> - Gathers public information on companies to highlight social engineering risk.</li>
+                                        <li><a href="https://github.com/Hadesy2k/sqlivulscan" target="_blank">sqlivulscan</a> - This will give you the SQLi Vulnerable Website Just by Adding the Dork.</li>
+                                        <li><a href="https://github.com/reverse-shell/routersploit" target="_blank">routersploit</a> - The Router Exploitation Framework.</li>
+                                        <li><a href="https://github.com/ST2Labs/SIPI" target="_blank">sipi</a> - Simple IP Information Tools for Reputation Data Analysis.</li>
+                                        <li><a href="https://github.com/Raikia/SMBCrunch" target="_blank">smbcrunch</a> - 3 tools that work together to simplify reconaissance of Windows File Shares.</li>
+                                    </ul>
+	                            </div>
+                            </article>
+
+                            <article itemscope itemtype="http://schema.org/NewsArticle">
+								<header>
 									<time itemprop="datePublished">2016-05-20</time>
 									<h4 itemprop="name">Newest tools added!</h4>
 								</header>
