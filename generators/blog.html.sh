@@ -29,7 +29,23 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
-                            <article itemscope itemtype="http://schema.org/NewsArticle">
+							<article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-06-02</time>
+									<h4 itemprop="name">Website update</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following improvement have been added :
+                                    </p>
+                                    <ul>
+                         				<li>- On the tools section, the categorie for each tools are displayed</li>
+                         				<li>- Improved listing tools array for small resolution size</li>
+                                    </ul>
+	                            </div>
+                            </article>
+
+							<article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-05-31</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -796,7 +812,7 @@ cat <<\EOF
             </div>
             <div class="col-md-4">
                 <div style="border: 1px solid #aaa; border-radius:4px; height:420px;">
-                    <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" height="418" data-widget-id="368746180060004352" data-theme="dark">Tweets by @blackarchlinux</a>
+                    <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" data-widget-id="368746180060004352" data-theme="dark">Tweets by @blackarchlinux</a>
                     <script>
                         !function(d,s,id) {
                             var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';

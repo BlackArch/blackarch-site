@@ -36,26 +36,28 @@ cat << EOF
                     <div class="panel-heading">
                         <b>BlackArch Linux Complete Tools List</b>
                     </div>
-                    <table id="tbl-minimalist" summary="Package List">
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
                         <thead>
                             <tr>
-                                <th scope="col">Name</th>
-                                <th scope="col">Version</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Homepage</th>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-categorie>Categorie</th>
+                                <th class=tbl-homepage>Homepage</th>
                             </tr>
                         </thead>
                         <tbody>
 EOF
 
 
-while IFS='|' read -r pkgname pkgver pkgdesc url ; do
+while IFS='|' read -r pkgname pkgver pkgdesc groups url ; do
 cat << EOF
                             <tr>
-                                <td>${pkgname}</td>
-                                <td>${pkgver}</td>
-                                <td>${pkgdesc}</td>
-                                <td><a href="${url}" target="_blank">${url}</a></td>
+                                <td class=tbl-name itemprop="name">${pkgname}</td>
+                                <td class=tbl-version>${pkgver}</td>
+                                <td class=tbl-description itemprop="description">${pkgdesc}</td>
+                                <td class=tbl-categorie itemprop="category">${groups}</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank">${url}</a></td>
                             </tr>
 EOF
 done < data/tools
