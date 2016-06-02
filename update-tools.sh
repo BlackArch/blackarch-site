@@ -61,6 +61,7 @@ split() {
 main() {
 	trap cleanup EXIT
 
+  rm -f $out
 	make_tmp
 	get_db
 	parse_db
