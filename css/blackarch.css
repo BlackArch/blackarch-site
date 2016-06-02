@@ -229,6 +229,29 @@ margin:20px 0 20px 0;
 #tbl-minimalist tbody tr:hover td {
     color: #C40000;
 }
+@media (max-width: 1000px) {
+	.tbl-categorie {
+	display:none;
+	}
+}
+@media (max-width:750px) {
+	.tbl-version {
+	display:none;
+	}
+}
+@media (max-width:625px) {
+	.tbl-description {
+	display:none;
+	}
+}
+@media (max-width:450px) {
+	.tbl-homepage {
+	font-size:10px;
+	}
+	.tbl-name {
+	font-size:10px;
+	}
+}
 #developers {
 table-layout:fixed;
 width:600;
@@ -302,6 +325,11 @@ margin:15px 0 0 0;
 .nblog article time {
 font-size:18px;
 float:right;
+}
+.nblog article ul {
+list-style-type:square;
+margin:0 0 0 14px;
+padding:0;
 }
 .twitter-timeline {
 height:420px;
