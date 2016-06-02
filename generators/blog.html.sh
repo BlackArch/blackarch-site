@@ -812,7 +812,7 @@ cat <<\EOF
             </div>
             <div class="col-md-4">
                 <div style="border: 1px solid #aaa; border-radius:4px; height:420px;">
-                    <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" data-widget-id="368746180060004352" data-theme="dark">Tweets by @blackarchlinux</a>
+                    <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" data-widget-id="368746180060004352" data-theme="dark" height="418">Tweets by @blackarchlinux</a>
                     <script>
                         !function(d,s,id) {
                             var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
