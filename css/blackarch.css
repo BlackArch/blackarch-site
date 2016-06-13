@@ -215,7 +215,7 @@ margin:20px 0 20px 0;
 }
 #tbl-minimalist {
     margin: 15px;
-    font-size: 12px;
+    font-size: 14px;
     border-collapse: collapse;
     text-align: left;
     background-color: #333;
@@ -223,12 +223,19 @@ margin:20px 0 20px 0;
 
 #tbl-minimalist td {
     border-bottom: 1px solid #ccc;
-    padding: 2px 2px;
 }
-
 #tbl-minimalist tbody tr:hover td {
     color: #C40000;
 }
+.tbl-description:not(:first-child), .tbl-category:not(:first-child) {
+padding:0 13px 0 0;
+box-sizing:border-box;
+}
+.tbl-homepage:not(:first-child) {
+text-align:center;
+margin:3 0 3px 0;
+}
+
 @media (max-width: 1000px) {
 	.tbl-categorie {
 	display:none;
