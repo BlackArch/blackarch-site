@@ -29,6 +29,24 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+						<article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-06-13</time>
+									<h4 itemprop="name">Website update</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following improvement and features have been added :
+                                    </p>
+                                    <ul>
+                         				<li>- Raise the font size of the tools list</li>
+                         				<li>- Improved visual of the tools list</li>
+                         				<li>- Tools can now be listed by category</li>
+                         				<li>- Each category are sync in real time</li>
+                                    </ul>
+	                            </div>
+                            </article>
+
 							<article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-06-02</time>

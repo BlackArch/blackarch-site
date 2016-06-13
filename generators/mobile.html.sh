@@ -1,4 +1,4 @@
-cat common/start-tools
+cat common/start-mobile
 
 cat << EOF
 
@@ -8,12 +8,13 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header page-header-title">
-	            <h1>Tools</h1> <h2>The list</h2>
+	            <h1>Mobile</h1> <h2>The list</h2>
                 </div>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">Tools</li>
+                    <li class="active"><a href="tools.html">tools</a></li>
+                     <li class="active">mobile</li>
                 </ol>
             </div>
         </div>
@@ -22,19 +23,14 @@ cat << EOF
         <!-- Content Row -->
         <div class="row">
             <div class="col-lg-12">
-                <p>
-                    Every package of the BlackArch Linux repository is listed in the following table. If you don't find your needed tool in this list simply open an
-                    <a href="https://github.com/BlackArch/blackarch/issues/new" target="_blank">issue</a> or better do a
-                    <a href="https://github.com/BlackArch/blackarch/pulls" target="_blank">pull request</a> for the tool you want to be in our repository.
-                    We are fast by packaging and releasing tools.
-                </p>
+                <p>Packages that manipulate mobile platforms.</p>
                 <br />
                 <p>
-                    <b>Tool count:</b> <a href="">${TOOL_COUNT}</a>
+                    <b>Tool count:</b> <a href="">${MOBILE_COUNT}</a>
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">
-                        <b>BlackArch Linux Complete Tools List</b>
+                        <b>BlackArch mobile</b>
                     </div>
                     <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
                         <thead>
@@ -42,7 +38,6 @@ cat << EOF
                                 <th class=tbl-name itemprop="item">Name</th>
                                 <th class=tbl-version>Version</th>
                                 <th class=tbl-description>Description</th>
-                                <th class=tbl-categorie>Categorie</th>
                                 <th class=tbl-homepage>Homepage</th>
                             </tr>
                         </thead>
@@ -50,18 +45,16 @@ cat << EOF
 EOF
 
 
-while IFS='|' read -r pkgname pkgver pkgdesc groups url ; do
-suburl=`echo "$groups" | sed -e 's/blackarch-//g' -e 's/ //g'`
+while IFS='|' read -r pkgname pkgver pkgdesc url ; do
 cat << EOF
                             <tr>
                                 <td class=tbl-name itemprop="name">${pkgname}</td>
                                 <td class=tbl-version>${pkgver}</td>
                                 <td class=tbl-description itemprop="description">${pkgdesc}</td>
-                                <td class=tbl-categorie itemprop="category"><a href="${suburl}.html" title="${groups}">${groups}</a></td>
                                 <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
                             </tr>
 EOF
-done < data/tools
+done < data/mobile
 
 cat <<\EOF
                         </tbody>
