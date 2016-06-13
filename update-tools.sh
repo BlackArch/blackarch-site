@@ -8,9 +8,7 @@ repo=blackarch
 arch=x86_64
 out=data/tools
 
-cleanup() {
-	rm -rf "$tmp"
-}
+rm data/*
 
 make_tmp() {
     tmp=`mktemp -d /tmp/blackarch.XXXXXXXXXXX`
@@ -47,9 +45,11 @@ parse_db() {
         url="`grep --no-group-separator -A2 '^%URL%$' ${d}/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%URL%$'`"
 
+		fgroup=`echo "$group" | sed -e 's/blackarch-//g' -e 's/ //g' -e "s/'//g"`
 		#Do not insert the current package if the $group variable is empty
 		if [[ "$group" ]]; then
         	echo "$name|$vers|$desc|$group|$url" >> $out
+        	echo "$name|$vers|$desc|$url" >> data/"$fgroup"
         fi
 	done
 }
@@ -59,8 +59,8 @@ split() {
 }
 
 main() {
-	trap cleanup EXIT
 
+  rm -f $out
 	make_tmp
 	get_db
 	parse_db
