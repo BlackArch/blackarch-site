@@ -10,7 +10,7 @@ cat <<EOF
 	                <h1>BlackArch</h1> <h2>Homepage</h2>
                 </div>
                 <p>
-                    BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based distribution for penetration testers
+                    BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based penetration testing distribution for penetration testers
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
                     BlackArch Linux is compatible with existing Arch installs. For more information, see the
 					<a href="downloads.html#install-repo">installation instructions</a>.
