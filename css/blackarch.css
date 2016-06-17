@@ -7,7 +7,7 @@ body {
     background-color: #1d1d1d;
     color: #bbb;
 }
-a {
+a:not(:.hcat) {
     color: #f40000;
 }
 a:hover {
@@ -213,13 +213,12 @@ margin:0 0 20px 0;
 .panel {
 margin:20px 0 20px 0;
 }
+#idx-tool {
+margin:0 0 10px 0;
+}
 #tbl-minimalist {
-    margin: 15px;
-<<<<<<< HEAD
-    font-size: 11px;
-=======
-    font-size: 14px;
->>>>>>> 302864e033609c45cff44c585b4620d4f9e362ac
+    margin:15px;
+    font-size:16px;
     border-collapse: collapse;
     text-align: left;
     background-color: #333;
@@ -231,15 +230,28 @@ margin:20px 0 20px 0;
 #tbl-minimalist tbody tr:hover td {
     color: #C40000;
 }
-.tbl-description:not(:first-child), .tbl-category:not(:first-child) {
-padding:0 13px 0 0;
+.tbl-version:not(:first-child) {
+margin:0 20px 0 0;
+}
+.tbl-description:not(:first-child) {
+padding:0 30px 0 0;
 box-sizing:border-box;
 }
 .tbl-homepage:not(:first-child) {
 text-align:center;
 margin:3 0 3px 0;
 }
-
+a.hcat {
+color:#e1e111;
+font-size:14px;
+}
+.vcat {
+color:#6ae400;
+font-size:14px;
+}
+.dcat {
+color:#aeaeeb;
+}
 @media (max-width: 1000px) {
 	.tbl-categorie {
 	display:none;
