@@ -11,7 +11,7 @@ cat <<\EOF
 	         	</div>
                 <ol class="breadcrumb">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a class=home href="index.html">Home</a>
                     </li>
                     <li>
                         <a href="community.html">Community</a>

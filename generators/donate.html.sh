@@ -10,7 +10,7 @@ cat <<\EOF
 	           <h1>Donation</h1> <h2>Help us today</h2>
                </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
                     <li class="active">Donate</li>
                 </ol>

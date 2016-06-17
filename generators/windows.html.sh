@@ -11,9 +11,9 @@ cat << EOF
 	            <h1>Windows</h1> <h2>The list</h2>
                 </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
-                    <li class="active"><a href="tools.html">tools</a></li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
                      <li class="active">windows</li>
                 </ol>
             </div>
@@ -23,9 +23,7 @@ cat << EOF
         <!-- Content Row -->
         <div class="row">
             <div class="col-lg-12">
-                <p>
-This group is for any native Windows package that runs via wine.</p>
-                <br />
+                <p>This group is for any native Windows package that runs via wine.</p>
                 <p>
                     <b>Tool count:</b> <a href="">${WINDOWS_COUNT}</a>
                 </p>
