@@ -9,7 +9,7 @@ cat <<\EOF
 	           <h1>Downloads</h1> <h2>BlackArch iso</h2>
                </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
                     <li class="active">Downloads</li>
                 </ol>

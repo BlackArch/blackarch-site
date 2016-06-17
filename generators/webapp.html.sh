@@ -11,9 +11,9 @@ cat << EOF
 	            <h1>Webapp</h1> <h2>The list</h2>
                 </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
-                    <li class="active"><a href="tools.html">tools</a></li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
                      <li class="active">webapp</li>
                 </ol>
             </div>
@@ -23,10 +23,8 @@ cat << EOF
         <!-- Content Row -->
         <div class="row">
             <div class="col-lg-12">
-                <p>
-Packages that primarily attack social networking sites.</p>
-                <br />
-                <p>
+                <p>Packages that primarily attack social networking sites.</p>
+				<p>
                     <b>Tool count:</b> <a href="">${WEBAPP_COUNT}</a>
                 </p>
                 <div class="panel panel-default text-left">

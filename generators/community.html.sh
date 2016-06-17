@@ -11,7 +11,7 @@ cat <<\EOF
 	            <h1>Community</h1> <h2>Join us</h2>
                 </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
                     <li class="active">Community</li>
                 </ol>

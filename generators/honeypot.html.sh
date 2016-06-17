@@ -11,9 +11,9 @@ cat << EOF
 	            <h1>Honeypot</h1> <h2>The list</h2>
                 </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
-                    <li class="active"><a href="tools.html">tools</a></li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
                      <li class="active">hardware</li>
                 </ol>
             </div>

@@ -10,7 +10,7 @@ cat <<\EOF
 	                <h1>Guide</h1> <h2>BlackArch Documentation</h2>
                 </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
                     <li class="active">Guide</li>
                 </ol>

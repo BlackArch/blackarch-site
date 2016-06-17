@@ -11,9 +11,9 @@ cat << EOF
 	            <h1>Backdoor</h1> <h2>The list</h2>
                 </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
-                    <li class="active"><a href="tools.html">tools</a></li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
                      <li class="active">Backdoor</li>
                 </ol>
             </div>
@@ -52,7 +52,7 @@ cat << EOF
                                 <td class=tbl-name itemprop="name">${pkgname}</td>
                                 <td class=tbl-version>${pkgver}</td>
                                 <td class=tbl-description itemprop="description">${pkgdesc}</td>
-                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank">${url}</a></td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
                             </tr>
 EOF
 done < data/backdoor

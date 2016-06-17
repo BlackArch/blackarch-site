@@ -11,7 +11,7 @@ cat << EOF
 	            <h1>Tools</h1> <h2>The list</h2>
                 </div>
                 <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
+                    <li><a class=home href="index.html">Home</a>
                     </li>
                     <li class="active">Tools</li>
                 </ol>
@@ -38,7 +38,7 @@ cat << EOF
                     </div>
                     <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
                         <thead>
-                            <tr>
+                            <tr id=idx-tool>
                                 <th class=tbl-name itemprop="item">Name</th>
                                 <th class=tbl-version>Version</th>
                                 <th class=tbl-description>Description</th>
@@ -55,9 +55,9 @@ suburl=`echo "$groups" | sed -e 's/blackarch-//g' -e 's/ //g'`
 cat << EOF
                             <tr>
                                 <td class=tbl-name itemprop="name">${pkgname}</td>
-                                <td class=tbl-version>${pkgver}</td>
-                                <td class=tbl-description itemprop="description">${pkgdesc}</td>
-                                <td class=tbl-categorie itemprop="category"><a href="${suburl}.html" title="${groups}">${groups}</a></td>
+                                <td class="tbl-version vcat">${pkgver}</td>
+                                <td class="tbl-description dcat" itemprop="description">${pkgdesc}</td>
+                                <td class=tbl-categorie itemprop="category"><a class=hcat href="${suburl}.html" title="${groups}">${groups}</a></td>
                                 <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
                             </tr>
 EOF
