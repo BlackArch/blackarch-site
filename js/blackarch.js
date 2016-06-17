@@ -93,8 +93,8 @@ $('.carousel').carousel({
 })
 
 //Home
-$(document).off('click', '#home');
-$(document).on('click', '#home', function(e) {
+$(document).off('click', '#home, .home');
+$(document).on('click', '#home, .home', function(e) {
 
 	//Check if isn't lock
 	if($('#home').hasClass('lock'))
@@ -437,8 +437,8 @@ $(document).on('click', '#donate', function(e) {
 });
 
 //Tools
-$(document).off('click', '#tools');
-$(document).on('click', '#tools', function(e) {
+$(document).off('click', '#tools, .tools');
+$(document).on('click', '#tools, .tools', function(e) {
 
 	//Check if isn't lock
 	if($('#tools').hasClass('lock'))
