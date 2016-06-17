@@ -39,10 +39,10 @@ cat <<\EOF
                                     Following improvement and features have been added :
                                     </p>
                                     <ul>
-                         				<li>- Raise the font size of the tools list</li>
-                         				<li>- Improved visual of the tools list</li>
-                         				<li>- Tools can now be listed by category</li>
-                         				<li>- Each category are sync in real time</li>
+                         				<li>Raise the font size of the tools list</li>
+                         				<li>Improved visual of the tools list</li>
+                         				<li>Tools can now be listed by category</li>
+                         				<li>Each category are sync in real time</li>
                                     </ul>
 	                            </div>
                             </article>
@@ -57,8 +57,8 @@ cat <<\EOF
                                     Following improvement have been added :
                                     </p>
                                     <ul>
-                         				<li>- On the tools section, the categorie for each tools are displayed</li>
-                         				<li>- Improved listing tools array for small resolution size</li>
+                         				<li>On the tools section, the categorie for each tools are displayed</li>
+                         				<li>Improved listing tools array for small resolution size</li>
                                     </ul>
 	                            </div>
                             </article>
