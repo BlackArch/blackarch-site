@@ -112,6 +112,12 @@ margin:9px 0 0 0;
 .menu-lnk li a {
 display:inline;
 }
+#donate a {
+color:#FFB2F0;
+}
+#donate:hover a {
+color:#ffddf9;
+}
 @media(max-width:1300px) {
 	.top-fond {
 	width:280px;
@@ -218,7 +224,7 @@ margin:0 0 10px 0;
 }
 #tbl-minimalist {
     margin:15px;
-    font-size:16px;
+    font-size:14px;
     border-collapse: collapse;
     text-align: left;
     background-color: #333;
@@ -227,27 +233,42 @@ margin:0 0 10px 0;
 #tbl-minimalist td {
     border-bottom: 1px solid #ccc;
 }
-#tbl-minimalist tbody tr:hover td {
-    color: #C40000;
+#tbl-minimalist tbody tr:hover > .tbl-name, #tbl-minimalist tbody tr:hover > .tbl-homepage {
+color:#C40000;
 }
-.tbl-version:not(:first-child) {
-margin:0 20px 0 0;
+#tbl-minimalist tbody tr:hover > .vcat {
+color:#c8eea7;
+}
+#tbl-minimalist tbody tr:hover .dcat{
+color:#dadaff;
+}
+#tbl-minimalist tbody tr:hover > .tbl-categorie > a.hcat {
+color:#ffffab;
+}
+.tbl-name, .tbl-version {
+max-width:140px;
+}
+.tbl-version {
+padding:0 10px 0 0;
+box-sizing:border-box;
 }
 .tbl-description:not(:first-child) {
 padding:0 30px 0 0;
 box-sizing:border-box;
 }
+.tbl-homepage:first-child {
+
+}
 .tbl-homepage:not(:first-child) {
 text-align:center;
-margin:3 0 3px 0;
+margin:3px 0 3px 0;
+max-width:60px;
 }
 a.hcat {
 color:#e1e111;
-font-size:14px;
 }
 .vcat {
 color:#6ae400;
-font-size:14px;
 }
 .dcat {
 color:#aeaeeb;
