@@ -43,7 +43,7 @@ cat << EOF
                                 <th class=tbl-version>Version</th>
                                 <th class=tbl-description>Description</th>
                                 <th class=tbl-categorie>Categorie</th>
-                                <th class=tbl-homepage>Homepage</th>
+                                <th class=tbl-homepage>Website</th>
                             </tr>
                         </thead>
                         <tbody>

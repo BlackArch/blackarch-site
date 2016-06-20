@@ -31,6 +31,24 @@ cat <<\EOF
 
 						<article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
+									<time itemprop="datePublished">2016-06-20</time>
+									<h4 itemprop="name">Website update</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following improvement and features have been added :
+                                    </p>
+                                    <ul>
+                         				<li>- Align of the tools array element</li>
+                         				<li>- Add color on the tools list and category list</li>
+                         				<li>- Fixed some wrong text</li>
+                         				<li>- Blackarch got now more than 1435 tools</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
+						<article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
 									<time itemprop="datePublished">2016-06-13</time>
 									<h4 itemprop="name">Website update</h4>
 								</header>

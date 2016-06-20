@@ -50,8 +50,8 @@ while IFS='|' read -r pkgname pkgver pkgdesc url ; do
 cat << EOF
                             <tr>
                                 <td class=tbl-name itemprop="name">${pkgname}</td>
-                                <td class=tbl-version>${pkgver}</td>
-                                <td class=tbl-description itemprop="description">${pkgdesc}</td>
+                                <td class="tbl-version vcat">${pkgver}</td>
+                                <td class="tbl-description dcat" itemprop="description">${pkgdesc}</td>
                                 <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank">${url}</a></td>
                             </tr>
 EOF
