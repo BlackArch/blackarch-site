@@ -29,6 +29,26 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-07-04</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                    <li><a href="https://github.com/glv2/bruteforce-wallet" target="_blank">bruteforce-wallet</a> - Try to find the password of an encrypted Peercoin (or Bitcoin,Litecoin, etc...) wallet file.</li>
+                                        <li><a href="https://github.com/Caleb1994/peach" target="_blank">peach-fuzz</a> - Simple vulnerability scanning framewor.</li>
+                                        <li><a href="https://github.com/Danladi/HttpPwnly" target="_blank">httpwnly</a> - "Repeater" style XSS post-exploitation tool for mass browser control".</li>
+                                        <li><a href="https://github.com/faizann24/XssPy" target="_blank">xsspy</a> - Web Application XSS Scanner.</li>
+                                        <li><a href="https://github.com/ANSSI-FR/tabi" target="_blank">tabi</a> - BGP Hijack Detection.</li>
+                                        <li><a href="https://github.com/RubenRocha/ftpscout" target="_blank">ftpscout</a> - Scans ftps for anonymous access.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
 						<article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-06-20</time>
