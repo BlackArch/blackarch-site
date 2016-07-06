@@ -208,8 +208,8 @@ $(document).on('click', '#downloads', function(e) {
 });
 
 //Guide
-$(document).off('click', '#guide');
-$(document).on('click', '#guide', function(e) {
+$(document).off('click', '#guide, .guide');
+$(document).on('click', '#guide, .guide', function(e) {
 
 	//Check if isn't lock
 	if($('#guide').hasClass('lock'))
@@ -382,8 +382,8 @@ $(document).on('click', '#blog', function(e) {
 });
 
 //Donate
-$(document).off('click', '#donate');
-$(document).on('click', '#donate', function(e) {
+$(document).off('click', '#donate, .donate');
+$(document).on('click', '#donate, .donate', function(e) {
 
 	//Check if isn't lock
 	if($('#donate').hasClass('lock'))
