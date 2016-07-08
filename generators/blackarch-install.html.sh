@@ -131,7 +131,7 @@ cat <<\EOF
             </p>
 			<img src="images/bl-install/28.png" alt="28">
     	    <p>
-            Next, you will have to create an user for your system and as well, his password (which will not have the permission root), it's recommanded to create it
+            Next, you will have to create an user for your system and as well, his password (which will not have the permission root), it's recommanded to create one
             </p>
             <img src="images/bl-install/29.png" alt="29">
             <p>
@@ -143,19 +143,19 @@ cat <<\EOF
             </p>
             <img src="images/bl-install/31.png" alt="31">
             <p>
-            You are almost at the end, the installer will ask you if you want the linux tools package (recommanded) and after the virutalbox tools (optional).
+            You are almost at the end, the installer will ask you if you want the linux tools package (recommanded) and for finish, the virutalbox tools (optional).
             </p>
             <img src="images/bl-install/33.png" alt="33">
             <p>
-            If you ever wonder what the meaning of that, in a word, "Joke" made from the dev, Blackarch is made open source and the dev doesn't work for the NSA. You can now reboot and access to your new Blackarch system.
+            If you ever wonder what the meaning of that, in a word, "Joke" made from the dev, in other words, this mean the end of the installation. You can now reboot and access to your new Blackarch system.
             </p>
             <img src="images/bl-install/34.png" alt="34">
             <p>
-            If you made the choice for an encrypt root partition, it will prompt a each boot the prompt requesting the password
+            If you made the choice for an encrypt root partition, it will spawn on each boot, a prompt requesting the password for uncrypt your system
        		</p>
        		<img src="images/bl-install/35.png" alt="35">
        		<p>
-       		Enjoy your system and remember, the developer of blackarch work hard and for free to maintain update and secure Blackarch, you can help us by making a <a class=donate href="donate.html" title="Donate to Blackarch">donate</a> which will be entirely using for pay the cost of the website hosting and mirror and the different hardware used for test and develope Blackarch.
+       		Enjoy your system and remember, the developer of blackarch are volontary, all the work provided is free and any work are made from their free time. Everything is made to maintain as possible, update and secure Blackarch, you can help us by making a <a class=donate href="donate.html" title="Donate to Blackarch">donate</a> which will be entirely using for the project.
        		</p>
             </div>
        	</div>
