@@ -21,10 +21,13 @@ cat <<\EOF
         <div class="list-group-item row row-header-title">
             <!-- Content Column -->
             <div class="col-md-12">
+            	<p>
+            	You can find the online tutoriel for the <a class=blinstall href="blackarch-install.html">Blackarch install here</a> base on the netinstall. It was written for the beginner only and have for main goal to be simple.
+            	</p>
                 <p>
                 This is the official guide to BlackArch Linux. It is quite new. Kindly excuse all typos and errors. Soon, this guide will contain all of the information
                 about BlackArch Linux you could possible imagine. We offer the guide chapiter by chapiter online or in PDF format
-                <p>
+                </p>
                 <p>
                 To download the guide, please use the links below.
                 </p>
