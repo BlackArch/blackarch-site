@@ -22,7 +22,7 @@ cat <<\EOF
             <!-- Content Column -->
             <div class="col-md-12">
             	<p>
-            	You can find the online tutoriel for the <a class=blinstall href="blackarch-install.html">Blackarch install here</a> base on the netinstall. It was written for the beginner only and have for main goal to be simple.
+            	You can find the online tutorial for the <a class=blinstall href="blackarch-install.html">Blackarch Linux Install here</a> based on the netinstall ISO. It is written for beginners and has the goal to keep it simple.
             	</p>
                 <p>
                 This is the official guide to BlackArch Linux. It is quite new. Kindly excuse all typos and errors. Soon, this guide will contain all of the information
