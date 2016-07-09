@@ -28,6 +28,20 @@ cat <<\EOF
                     </div>
                     <ul class="list-group nblog">
                         <li class="list-group-item">
+						   <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-07-09</time>
+									<h4 itemprop="name">Newest "How to" and several upgraded tools</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    In the goal to make Blackarch more accessible to the public, we have made an easy tutorials for the <a class=blinstall href="blackarch-install.html">Blackarch Linux Install </a>
+                                    </p>
+                                    <p>
+                                    The typo isn't totally finish, it will the next following days. We're planning to make more docs of this kind soon, keeping the way : Easy and complete with the goal to create an online Documentation of the Blackarch project
+                                    </p>
+	                            </div>
+                        </article>
 
                         <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
