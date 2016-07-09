@@ -31,14 +31,15 @@ cat <<\EOF
 						   <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-09</time>
-									<h4 itemprop="name">Newest "How to" and several upgraded tools</h4>
+									<h4 itemprop="name">BlackArch Linux Installation "Quick How to" added</h4>
 								</header>
 		                        <div itemprop="description">
                                     <p>
-                                    In the goal to make Blackarch more accessible to the public, we have made an easy tutorials for the <a class=blinstall href="blackarch-install.html">Blackarch Linux Install </a>
+                                    We have released a simple BlackArch Linux Installation <a class=blinstall href="blackarch-install.html">tutorial</a> for beginners. </a>
                                     </p>
                                     <p>
-                                    The typo isn't totally finish, it will the next following days. We're planning to make more docs of this kind soon, keeping the way : Easy and complete with the goal to create an online Documentation of the Blackarch project
+                                    Please excuse for any typos and wrong wordings left. We will fix those soon. Also, it is planned to make more tutorials of this kind, using the the way: Easy and complete with the goal to create an online Documentation repository of the
+                                    Blackarch Linux project.
                                     </p>
 	                            </div>
                         </article>
