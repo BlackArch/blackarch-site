@@ -438,14 +438,43 @@ margin:0 0 10px 0;
 /* End Guide */
 /* Tutoriel */
 #tutobi img {
-margin:5px 0 5px 0;
+margin:0 0 10px 0;
+max-width:100%;
+height:auto;
+}
+#tutobi p {
+margin:0 0 10px 0;
+}
+#tutobi .info {
+max-width:500px;
+width:98%;
+margin:0 0 10px 0;
+padding:5px 2px 5px 2px;
+background-color:black;
+border:1px solid #e5e5e5;
+border-radius:3px;
+color:white;
+}
+#tutobi .info p {
+margin:0 7px 3px 7px;
+}
+
+#tutobi hr {
+margin:5px 0 15px 0;
 }
 .blgreen {
 font-style:normal;
 color:#6ae400;
+font-weight:bold;
 }
 .blyellow {
 font-style:normal;
 color:#e1e111;
+font-weight:bold;
+}
+.blblue {
+font-style:normal;
+color:#6ACEFF;
+font-weight:bold;
 }
 /* End Tutoriel */
