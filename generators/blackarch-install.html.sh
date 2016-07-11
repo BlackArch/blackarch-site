@@ -196,7 +196,7 @@ cat <<\EOF
             <img src="images/bl-install/33.png" alt="33">
             <hr>
             <p>
-            If you ever wonder what the meaning of that is, in a word: Just a "Joke" made from by a dev. In other words, this mean the end of the installation. You can now reboot and access your new Blackarch Linux system.
+            If you ever wonder what the meaning of that is, in a word: Just a "Joke" made from by a dev. In other words, this mean the end of the installation. You can now reboot and access your new BlackArch Linux system.
             </p>
             <img src="images/bl-install/34.png" alt="34">
             <hr>
