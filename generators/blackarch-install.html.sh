@@ -63,7 +63,7 @@ cat <<\EOF
         	<img src="images/bl-install/5.png" alt="5">
         	<hr>
       		<p>
-        	Write the keymap to use (mostly, the 2 letter of your country code, for exemple, a French azerty keyboard would be <i class=blyellow>fr</i>.
+        	Write the keymap to use (mostly, the 2 letter of your country code, for exemple, a French azerty keyboard would be <i class=blyellow>fr</i>).
       		</p>
         	<img src="images/bl-install/6.png" alt="6">
         	<hr>
