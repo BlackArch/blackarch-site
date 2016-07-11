@@ -88,7 +88,7 @@ cat <<\EOF
       		<img src="images/bl-install/10.png" alt="10">
       		<hr>
       		<p>
-      		Once the update finished, the list of the storage device available will show up. Choose the one where you wish to install Blackarch.
+      		Once the update finished, the list of the storage device available will show up. Choose the one where you wish to install BlackArch.
       		In case if the display show more than 1 device and you aren't sure which is the one you should pickup, use <i class=blyellow>fdisk</i>
       		for list the information of all the storage device, the following example will display <i class=blgreen>sda</i> as a ssd disk and <i class=blgreen>sdb</i> as a usb device stoarage
       		</p>
