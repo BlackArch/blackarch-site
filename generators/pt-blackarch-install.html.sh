@@ -46,10 +46,10 @@ cat <<\EOF
 			O comando é <i class=blgreen>loadkeys</i> seguido das duas letras de seu país, exemplo:
 			</p>
         	<div class=info>
-        	<p>Francês : <i class=blblue>keymaps fr</i> (azerty keymap)</p>
-        	<p>Russo : <i class=blblue>keymaps ru</i> (cyrillic keymap)</p>
-        	<p>Espanhol : <i class=blblue>keymaps es</i> (spanish keymap)</p>
-        	<p>Brasileiro : <i class=blblue>keymaps br</i> (qwerty-abnt keymap)</p>
+        	<p>Francês : <i class=blblue>loadkeys fr</i> (azerty keymap)</p>
+        	<p>Russo : <i class=blblue>loadkeys ru</i> (cyrillic keymap)</p>
+        	<p>Espanhol : <i class=blblue>loadkeys es</i> (spanish keymap)</p>
+        	<p>Brasileiro : <i class=blblue>loadkeys br</i> (qwerty-abnt keymap)</p>
         	</div>
         	<img src="images/bl-install/3.png" alt="3">
         	<hr>
