@@ -28,8 +28,31 @@ cat <<\EOF
                     </div>
                     <ul class="list-group nblog">
                         <li class="list-group-item">
-						   <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
+									<time itemprop="datePublished">2016-07-12</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="http://www.security-projects.com/?Anti_Ransom___Download" target="_blank">antiransom</a> - A tool capable of detect and stop attacks of Ransomware using honeypots.</li>
+                                        <li><a href="https://github.com/graniet/riwifshell" target="_blank">riwifshell</a> - Web backdoor - infector - explorer.</li>
+                                        <li><a href="https://github.com/conorpp/btproxy" target="_blank">btproxy-mitm</a> - Man in the Middle analysis tool for Bluetooth.</li>
+                                        <li><a href="https://github.com/Hello71/udpastcp" target="_blank">udpastcp</a> - This program hides UDP traffic as TCP traffic in order to bypass certain firewalls.</li>
+                                        <li><a href="https://github.com/Arvin-X/swarm" target="_blank">swarm</a> - A distributed penetration testing tool.</li>
+                                        <li><a href="https://github.com/m4n3dw0lf/PytheM" target="_blank">pythem</a> - Python penetration testing framework.</li>
+                                        <li><a href="https://github.com/z0noxz/smplshllctrlr" target="_blank">smplshllctrlr</a> - PHP Command Injection exploitation tool.</li>
+                                        <li><a href="https://github.com/epinna/tplmap" target="_blank">tplmap</a> - utomatic Server-Side Template Injection Detection and Exploitation Tool.</li>
+                                        <li><a href="https://github.com/lorenzog/NetworkMap" target="_blank">networkmap</a> - Post-exploitation network mapper.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
+						<article itemscope="" itemtype="http://schema.org/NewsArticle">
+							    <header>
 									<time itemprop="datePublished">2016-07-09</time>
 									<h4 itemprop="name">BlackArch Linux Installation "Quick How to" added</h4>
 								</header>
