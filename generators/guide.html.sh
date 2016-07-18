@@ -25,6 +25,9 @@ cat <<\EOF
                 This is the official guide to BlackArch Linux. It is quite new. Kindly excuse all typos and errors. Soon, this guide will contain all of the information
                 about BlackArch Linux you could possible imagine. We offer the guide chapter by chapter in PDF format.
                 </p>
+            	<p>
+                We also offer an online quick-guide on how to install BlackArch Linux using the live or netinstall ISOs. You can find the tutorial <a class=blinstall href="blackarch-install.html">here</a>. It is written for beginners and has the goal to keep it simple.
+            	</p>
                 <p>
                 To download the guide, please use the links below.
                 </p>
@@ -41,9 +44,6 @@ cat <<\EOF
                     </tr>
                 </table>
                 <p>
-            	<p>
-                We also offer an online quick-guide on how to install BlackArch Linux using the live or netinstall ISOs. You can find the tutorial <a class=blinstall href="blackarch-install.html">here</a>. It is written for beginners and has the goal to keep it simple.
-            	</p>
                 <i>We're looking for translators. Please use the latex file from <a href="https://github.com/BlackArch/blackarch-guide/tree/master/latex" title="Guide" target="_blank">blackarch-guide</a> at <a href="https://github.com/" title="github" target="_blank">github</a>
                 and send us your changes or open a pull request if you would like to translate the guide from English to any other language.</i>
                 </p>
