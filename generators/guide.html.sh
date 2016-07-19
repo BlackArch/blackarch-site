@@ -34,13 +34,16 @@ cat <<\EOF
 
                 <table class=tab-guide>
                     <tr>
-		    	<td><img src="/images/flags/us.png" alt="US"> <a href="blackarch-guide-en.pdf" target="_blank">English</a></td>
+                        <td><img src="/images/flags/br.png" alt="Brasil"> <a href="blackarch-guide-pt-br.pdf" target="_blank">Brazilian</a></td>
                     </tr>
                     <tr>
-			 <td><img src="/images/flags/fr.png" alt="FR"> <a href="blackarch-guide-fr.pdf" target="_blank">French</a></td>
+                        <td><img src="/images/flags/us.png" alt="United States"> <a href="blackarch-guide-en.pdf" target="_blank">English</a></td>
                     </tr>
                     <tr>
-			<td><img src="/images/flags/tr.png" alt="TR" ><a href="blackarch-guide-tr.pdf" target="_blank">Turkish</a></td>
+			            <td><img src="/images/flags/fr.png" alt="France"> <a href="blackarch-guide-fr.pdf" target="_blank">French</a></td>
+                    </tr>
+                    <tr>
+			            <td><img src="/images/flags/tr.png" alt="Turkey" > <a href="blackarch-guide-tr.pdf" target="_blank">Turkish</a></td>
                     </tr>
                 </table>
                 <p>

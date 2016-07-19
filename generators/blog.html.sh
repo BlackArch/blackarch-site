@@ -31,6 +31,21 @@ cat <<\EOF
                         <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-19</time>
+									<h4 itemprop="name">Brazilian Translation added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    We have released the brazilian translation of the BlackArch Linux Guide.
+                                    </p>
+                                    <p>
+                                    Thanks a lot to <a href="https://twitter.com/teixeirazeus" target="_blank">teixeirazeus</a> for the translation.
+                                    </p>
+	                            </div>
+                        </article>
+
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-07-19</time>
 									<h4 itemprop="name">Newest tools added!</h4>
 								</header>
 		                        <div itemprop="description">
