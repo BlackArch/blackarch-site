@@ -30,6 +30,30 @@ cat <<\EOF
                         <li class="list-group-item">
                         <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
+									<time itemprop="datePublished">2016-07-19</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/philwantsfish/shard" target="_blank">shard</a> - A command line tool to detect shared passwords.</li>
+                                        <li><a href="https://github.com/mgeeky/tomcatWarDeployer" target="_blank">tomcatwardeployer</a> - Apache Tomcat auto WAR deployment & pwning penetration testing tool.</li>
+                                        <li><a href="https://github.com/epinna/Stegosip" target="_blank">stegosip</a> - TCP tunnel over RTP/SIP.</li>
+                                        <li><a href="https://github.com/olivo/BluPhish" target="_blank">bluphish</a> - Bluetooth device and service discovery tool that can be used for security assessment and penetration testing.</li>
+                                        <li><a href="https://github.com/st9140927/BOF_Detector" target="_blank">bof-detector</a> - A simple detector of BOF vulnerabilities by source-code-level check.</li>
+                                        <li><a href="https://github.com/chamli/CyberCrowl" target="_blank">cybercrowl</a> - A Python Web path scanner tool.</li>
+                                        <li><a href="https://github.com/xtiankisutsa/MARA_Framework" target="_blank">mara-framework</a> - A Mobile Application Reverse engineering and Analysis Framework.</li>
+                                        <li><a href="https://github.com/muhammad-bouabid/Vulnerabilities-spider" target="_blank">vulnerabilities-spider</a> - A tool to scan for web vulnerabilities.</li>
+                                        <li><a href="http://www.security-projects.com/?SigSpotter" target="_blank">sigspotter</a> - A tool that search in your HD to find wich publishers has been signed binaries in your PC..</li>
+                                        <li><a href="http://www.security-projects.com/?Brute12" target="_blank">brute12</a> - A tool designed for auditing the cryptography container security in PKCS12 format.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
 									<time itemprop="datePublished">2016-07-12</time>
 									<h4 itemprop="name">Newest tools added!</h4>
 								</header>
