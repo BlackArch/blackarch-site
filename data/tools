@@ -184,6 +184,7 @@ cheetah-suite|21.2364713|Complete penetration testing suite (port scanning, brut
 chiron|0.9|An all-in-one IPv6 Penetration Testing Framework.| blackarch-scanner |http://www.secfu.net/tools-scripts/
 chkrootkit|0.50|Checks for rootkits on a system| blackarch-defensive |http://www.chkrootkit.org/
 chntpw|140201|Offline NT Password Editor - reset passwords in a Windows NT SAM user database file| blackarch-forensic |http://pogostick.net/~pnh/ntpasswd/
+choronzon|3.71a46b9|An evolutionary knowledge-based fuzzer.| blackarch-fuzzer |https://github.com/CENSUS/choronzon
 chownat|0.08b|Allows two peers behind two separate NATs with no port forwarding and no DMZ setup on their routers to directly communicate with each other| blackarch-tunnel |http://samy.pl/chownat/
 chrome-decode|0.1|Chrome web browser decoder tool that demonstrates recovering passwords.| blackarch-windows |http://packetstormsecurity.com/files/119153/Chrome-Web-Browser-Decoder.html
 chromefreak|24.12745b1|A Cross-Platform Forensic Framework for Google Chrome| blackarch-forensic |http://osandamalith.github.io/ChromeFreak/
@@ -405,6 +406,7 @@ fgscanner|11.893372c|An advanced, opensource URL scanner.| blackarch-scanner |ht
 fhttp|1.3|This is a framework for HTTP related attacks. It is written in Perl with a GTK interface, has a proxy for debugging and manipulation, proxy chaining, evasion rules, and more.| blackarch-webapp |http://packetstormsecurity.com/files/104315/FHTTP-Attack-Tool.3.html
 fierce|0.9.9|A DNS scanner| blackarch-scanner |http://ha.ckers.org/fierce/
 fiked|0.0.5|Fake IDE daemon| blackarch-honeypot |http://www.roe.ch/FakeIKEd
+filefuzz|1.0|A binary file fuzzer for Windows with several options.| blackarch-windows |http://www.fuzzing.org/
 filibuster|164.f343308|A Egress filter mapping application with additional functionality.| blackarch-networking |https://github.com/subinacls/Filibuster
 fimap|1.00|A little tool for local and remote file inclusion auditing and exploitation| blackarch-exploitation |http://code.google.com/p/fimap/
 find-dns|0.1|A tool that scans networks looking for DNS servers.| blackarch-scanner |https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html
@@ -570,6 +572,7 @@ icmpquery|1.0|Send and receive ICMP queries for address mask and current time.| 
 icmptx|0.2|IP over ICMP tunnel.| blackarch-tunnel |http://thomer.com/icmptx/
 idswakeup|1.0|A collection of tools that allows to test network intrusion detection systems.| blackarch-recon |http://www.hsc.fr/ressources/outils/idswakeup/index.html.en
 ifchk|1.0.4|A network interface promiscuous mode detection tool.| blackarch-defensive |http://www.noorg.org/ifchk/
+ifuzz|1.0|A binary file fuzzer with several options.| blackarch-fuzzer |http://www.fuzzing.org/
 iheartxor|0.01|A tool for bruteforcing encoded strings within a boundary defined by a regular expression. It will bruteforce the key value range of 0x1 through 0x255.| blackarch-cracker |http://hooked-on-mnemonics.blogspot.com.es/p/iheartxor.html
 iis-shortname-scanner|4.b92772a|An IIS shortname Scanner.| blackarch-scanner |https://github.com/lijiejie/IIS_shortname_Scanner
 iisbruteforcer|15|HTTP authentication cracker. It's a tool that launchs an online dictionary attack to test for weak or simple passwords against protected areas on an IIS Web server.| blackarch-cracker |http://www.open-labs.org/
@@ -1006,6 +1009,7 @@ recstudio|4.0_20130717|Cross platform interactive decompiler| blackarch-decompil
 redfang|2.5|Finds non-discoverable Bluetooth devices by brute-forcing the last six bytes of the devices' Bluetooth addresses and calling read_remote_name().| blackarch-bluetooth |http://packetstormsecurity.com/files/31864/redfang.2.5.tar.gz.html
 redirectpoison|1.1|A tool to poison a targeted issuer of SIP INVITE requests with 301 (i.e. Moved Permanently) redirection responses.| blackarch-voip |http://www.hackingexposedvoip.com/
 redpoint|123.23ef36b|Digital Bond's ICS Enumeration Tools.| blackarch-misc |https://github.com/digitalbond/Redpoint3
+redsocks|196.da0f774|Transparent redirector of any TCP connection to proxy.| blackarch-proxy |https://github.com/darkk/redsocks
 regeorg|29.f4db171|The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.| blackarch-automation |https://github.com/sensepost/reGeorg
 reglookup|1.0.1|Command line utility for reading and querying Windows NT registries| blackarch-forensic |http://projects.sentinelchicken.org/reglookup
 relay-scanner|1.7|An SMTP relay scanner.| blackarch-scanner |http://www.cirt.dk
@@ -1155,6 +1159,7 @@ snoopy-ng|128.eac73f5|A distributed, sensor, data collection, interception, anal
 snort|2.9.8.2|A lightweight network intrusion detection system.| blackarch-defensive |http://www.snort.org
 snow|20130616|Steganography program for concealing messages in text files.| blackarch-crypto |http://darkside.com.au/snow/index.html
 snscan|1.05|A Windows based SNMP detection utility that can quickly and accurately identify SNMP enabled devices on a network.| blackarch-windows |http://www.mcafee.com/uk/downloads/free-tools/snscan.aspx
+soapui|5.2.1|The Swiss-Army Knife for SOAP Testing.| blackarch-proxy |https://www.soapui.org/downloads/soapui/source-forge.html
 socat|1.7.3.1|Multipurpose relay| blackarch-networking |http://www.dest-unreach.org/socat/
 social-vuln-scanner|11.91794c6|Gathers public information on companies to highlight social engineering risk.| blackarch-social |https://github.com/Betawolf/social-vuln-scanner
 sockstat|0.3|A tool to let you view information about open connections. It is similar to the tool of the same name that is included in FreeBSD, trying to faithfully reproduce as much functionality as is possible.| blackarch-networking |https://packages.debian.org/unstable/main/sockstat
