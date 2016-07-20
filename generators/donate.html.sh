@@ -29,7 +29,9 @@ cat <<\EOF
         <p>
         	There is many way to help us, money is of course a must but in case you can't give a financial contributing, you may help by translating, offering support to the other users in need, give some of your time to improve Blackarch or, by a simple star of our repo on github...
         </p>
-   		<p>We also welcome any organisation/company interested for be an official sponsor of BlackArch, to contact us by our IRC channel or by email. We are flexible and easy to talk with, give a shot !</p>
+   		<p>
+            We also welcome any organisation/company interested in to become an official sponsor of BlackArch. You can contact us by IRC or by email.
+        </p>
         <hr />
         <div id=givenow>
 		<span class="fa-stack fa-2x" title="Paypal">
