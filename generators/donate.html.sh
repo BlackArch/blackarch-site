@@ -19,8 +19,8 @@ cat <<\EOF
         <!-- /.row -->
         <!-- Content Row -->
         <p>
-            BlackArch Linux is entirely free and open source, the members of team work on their free time as volontary in the goal to maintain Blackarch update and secure.
-            Despite the large amount of the time spend, every day, for the general interest, the hosting of the website, domain name, download mirror, testing hardware... aren't free.
+            BlackArch Linux is entirely free and open source. The team-members work in their free time (voluntary). Despite the large amount of the time spend, every day, for the general interest, the hosting of the website, domain name, download mirror,
+            testing hardware... aren't free.
         </p>
         <p>
             Every donate, even the most modest, is a great help and will be use only for pay our actual bill and fund the future features of the project. We appreciate your interest
@@ -32,7 +32,7 @@ cat <<\EOF
    		<p>
             We also welcome any organisation/company interested in to become an official sponsor of BlackArch. You can contact us by IRC or by email.
         </p>
-        <hr />
+        <br />
         <div id=givenow>
 		<span class="fa-stack fa-2x" title="Paypal">
 		<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPSCCPXHY8EBQ">
