@@ -436,6 +436,28 @@ $(document).on('click', '#donate, .donate', function(e) {
 	});
 });
 
+$(document).off('click', '.act-bitcoin');
+$(document).on('click', '.act-bitcoin', function() {
+
+	$('.act-display').hide().empty();
+	$('.act-display').html('1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn').fadeIn();
+});
+
+$(document).off('click', '.act-cash');
+$(document).on('click', '.act-cash', function() {
+
+	$('.act-display').hide().empty();
+	$('.act-display').html('Available soon').fadeIn();
+});
+
+$(document).off('click', '.act-cc');
+$(document).on('click', '.act-cc', function() {
+
+	$('.act-display').hide().empty();
+	$('.act-display').html('Available soon').fadeIn();
+});
+
+
 //Tools
 $(document).off('click', '#tools, .tools');
 $(document).on('click', '#tools, .tools', function(e) {

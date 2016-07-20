@@ -29,6 +29,9 @@ cat <<\EOF
         	<p>
         	We suppose you already burned the iso into a USB or DVD and you are ready for the installation. The boot shall display something similar as the following screen. Select the first entry for a new installation
      		</p>
+     		<div class=info>
+        	If you attempt to install BlackArch on VirtualBox, make sure to choice the right ISO. Check if your motherboard support the virtualisation, if not, you must use the 32 bits ISO, otherwise, it can support the 64 bits as the 32 bits.
+        	</div>
         	<img src="images/bl-install/1.png" alt="1">
         	<hr>
         	<p>
@@ -46,9 +49,9 @@ cat <<\EOF
         	The command <i class=blgreen>loadkeys</i> following the 2 letters of your country code will do, here few examples
         	</p>
         	<div class=info>
-        	<p>French : <i class=blblue>keymaps fr</i> (azerty keymap)</p>
-        	<p>Russian : <i class=blblue>keymaps ru</i> (cyrillic keymap)</p>
-        	<p>Spanish : <i class=blblue>keymaps es</i> (spanish keymap)</p>
+        	<p>French : <i class=blblue>loadkeys fr</i> (azerty keymap)</p>
+        	<p>Russian : <i class=blblue>loadkeys ru</i> (cyrillic keymap)</p>
+        	<p>Spanish : <i class=blblue>loadkeys es</i> (spanish keymap)</p>
         	</div>
         	<img src="images/bl-install/3.png" alt="3">
         	<hr>

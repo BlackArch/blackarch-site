@@ -19,45 +19,38 @@ cat <<\EOF
         <!-- /.row -->
         <!-- Content Row -->
         <p>
-            BlackArch Linux survives thanks to the tireless efforts of the core development team. None of us are paid for our work and we do not have the personal funds to
-            sustain server costs ourselves.
+            BlackArch Linux is entirely free and open source, the members of team work on their free time as volontary in the goal to maintain Blackarch update and secure.
+            Despite the large amount of the time spend, every day, for the general interest, the hosting of the website, domain name, download mirror, testing hardware... aren't free.
         </p>
         <p>
-            There are many ways to help support BlackArch Linux. If you are unable to provide technical development, documentation, or support, you could certainly help us by sending
-            some fiat currency or bitcoins our way. Many thanks!
+            Every donate, even the most modest, is a great help and will be use only for pay our actual bill and fund the future features of the project. We appreciate your interest
+            for our work and hope you will always find satisfaction.
         </p>
+        <p>
+        	There is many way to help us, money is of course a must but in case you can't give a financial contributing, you may help by translating, offering support to the other users in need, give some of your time to improve Blackarch or, by a simple star of our repo on github...
+        </p>
+   		<p>We also welcome any organisation/company interested for be an official sponsor of BlackArch, to contact us by our IRC channel or by email. We are flexible and easy to talk with, give a shot !</p>
         <hr />
-        <br />
-        <div class="row">
-            <div class="col-md-4">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <h3 class="panel-title"><b>PayPal</b></h3>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <form id=paypal action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="UPSCCPXHY8EBQ">
-                                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                <img src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" alt="Paypal" />
-                            </form>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="panel panel-default text-center">
-                    <div class="panel-heading">
-                        <h3 class="panel-title"><b>Bitcoin</b></h3>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                       <i class="fa fa-btc fa-lg"></i>1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div id=givenow>
+		<span class="fa-stack fa-2x" title="Paypal">
+		<a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPSCCPXHY8EBQ">
+		  <i class="fa fa-square fa-stack-2x"></i>
+		  <i class="paypal fa fa-paypal fa-stack-1x fa-inverse"></i>
+		  </a>
+		</span>
+          <span class="act-bitcoin fa-stack fa-2x" title="Bitcoin">
+		  <i class="fa fa-square fa-stack-2x"></i>
+		  <i class="bitcoin fa fa-btc fa-stack-1x fa-inverse"></i>
+		</span>
+		<span class="act-cash fa-stack fa-2x" title="Cash">
+		  <i class="fa fa-square fa-stack-2x"></i>
+		  <i class="cash fa fa-dollar fa-stack-1x fa-inverse"></i>
+		</span>
+		<span class="act-cc fa-stack fa-2x" title="Credit Card">
+		  <i class="fa fa-square fa-stack-2x"></i>
+		  <i class="cc fa fa-credit-card fa-stack-1x fa-inverse"></i>
+		</span>
+		<p class=act-display></p>
         </div>
         <!-- /.row -->
 EOF
