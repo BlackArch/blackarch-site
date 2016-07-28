@@ -661,7 +661,7 @@ kerbcrack|1.3d3|Kerberos sniffer and cracker for Windows.| blackarch-windows |ht
 khc|0.2|A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents.| blackarch-cracker |http://packetstormsecurity.com/files/87003/Known-Host-Cracker.2.html
 killerbee|99|Framework and tools for exploiting ZigBee and IEEE 802.15.4 networks.| blackarch-exploitation |https://code.google.com/p/killerbee/
 kippo|0.9|A medium interaction SSH honeypot designed to log brute force attacks and most importantly, the entire shell interaction by the attacker.| blackarch-honeypot |https://github.com/desaster/kippo
-kismet|2013_03_R1b|802.11 layer2 wireless network detector, sniffer, and intrusion detection system| blackarch-wireless |http://www.kismetwireless.net/
+kismet|2016_07_R1|802.11 layer2 wireless network detector, sniffer, and intrusion detection system| blackarch-wireless |https://www.kismetwireless.net/
 kismet-earth|0.1|Various scripts to convert kismet logs to kml file to be used in Google Earth.| blackarch-wireless |https://www.blackarch.org/
 kismet2earth|1.0|A set of utilities that convert from Kismet logs to Google Earth .kml format| blackarch-wireless |http://code.google.com/p/kismet2earth/
 kismon|0.8.1|GUI client for kismet (wireless scanner/sniffer/monitor).| blackarch-wireless |https://www.salecker.org/software/kismon.html
@@ -752,6 +752,7 @@ medusa|2.2|Speedy, massively parallel and modular login brute-forcer for network
 melkor|1.0|An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does not change values randomly (dumb fuzzing), instead, it fuzzes certain metadata with semi-valid values through the use of fuzzing rules (knowledge base).| blackarch-fuzzer |http://packetstormsecurity.com/files/127924/Melkor-ELF-Fuzzer.0.html
 memdump|1.01|Dumps system memory to stdout, skipping over holes in memory maps.| blackarch-forensic |http://www.porcupine.org/forensics/tct.html
 memfetch|0.05b|Dumps any userspace process memory without affecting its execution.| blackarch-forensic |http://lcamtuf.coredump.cx/
+memimager|1.0|Performs a memory dump using NtSystemDebugControl.| blackarch-windows |http://ntsecurity.nu/toolbox/memimager/
 metacoretex|0.8.0|MetaCoretex is an entirely JAVA vulnerability scanning framework for databases.| blackarch-database |http://metacoretex.sourceforge.net/
 metagoofil|1.4b|An information gathering tool designed for extracting metadata of public documents| blackarch-recon |http://www.edge-security.com/metagoofil.php
 metasploit|39050.f2a608b|An open source platform that supports vulnerability research, exploit development and the creation of custom security tools representing the largest collection of quality-assured exploits.| blackarch-exploitation |http://www.metasploit.com
@@ -936,6 +937,7 @@ peframe|90.c9dba76|Tool to perform static analysis on (portable executable) malw
 pemcrack|11.a0fecd7|Cracks SSL PEM files that hold encrypted private keys. Brute forces or dictionary cracks.| blackarch-cracker |https://github.com/robertdavidgraham/pemcrack
 pemcracker|9.a741c93|Tool to crack encrypted PEM files.| blackarch-cracker |https://github.com/bwall/pemcracker.git
 pentbox|1.8|A security suite that packs security and stability testing oriented tools for networks and systems.| blackarch-fuzzer |http://www.pentbox.net
+periscope|3.2|A PE file inspection tool.| blackarch-windows |http://ntsecurity.nu/toolbox/periscope/
 pev|0.70|Command line based tool for PE32/PE32+ file analysis.| blackarch-forensic |http://pev.sourceforge.net/
 pextractor|0.18b|A forensics tool that can extract all files from an executable file created by a joiner or similar.| blackarch-windows |http://packetstormsecurity.com/files/62977/PExtractor_v0.18b_binary_and_src.rar.html
 pfff|0.29|Tools and APIs for code analysis, visualization and transformation| blackarch-code-audit |https://github.com/facebook/pfff
@@ -959,6 +961,7 @@ plecost|88.149fd34|Wordpress finger printer Tool.| blackarch-webapp |https://git
 plown|13.ccf998c|A security scanner for Plone CMS.| blackarch-webapp |https://github.com/unweb/plown
 pmap|1.10|Passively discover, scan, and fingerprint link-local peers by the background noise they generate (i.e. their broadcast and multicast traffic).| blackarch-windows |http://www.hellfiresecurity.com/tools.htm
 pmcma|1.00|Automated exploitation of invalid memory writes (being them the consequences of an overflow in a writable section, of a missing format string, integer overflow, variable misuse, or any other type of memory corruption).| blackarch-exploitation |http://packetstormsecurity.com/files/104724/Post-Memory-Corruption-Memory-Analyzer.00.html
+pmdump|1.2|A tool that lets you dump the memory contents of a process to a file without stopping the process.| blackarch-windows |http://ntsecurity.nu/toolbox/pmdump/
 pnscan|1.11|A parallel network scanner that can be used to survey TCP network services.| blackarch-scanner |http://www.lysator.liu.se/~pen/pnscan/
 poison|1.5.41|A fast, asynchronous syn and udp scanner.| blackarch-scanner |http://nologin.org/main.pl?action=codeList&
 pompem|85.a2dc2bb|A python exploit tool finder.| blackarch-exploitation |https://github.com/rfunix/Pompem
@@ -975,6 +978,7 @@ princeprocessor|115.26cefc9|Standalone password candidate generator using the PR
 procyon|0.5.30|A suite of Java metaprogramming tools focused on code generation and analysis.| blackarch-decompiler |https://bitbucket.org/mstrobel/procyon/
 profuzz|9.aa6dded|Simple PROFINET fuzzer based on Scapy.| blackarch-fuzzer |https://github.com/HSASec/ProFuzz
 prometheus|176.a316d66|A Firewall analyzer written in ruby| blackarch-networking |https://github.com/averagesecurityguy/prometheus
+promiscdetect|1.0|Checks if your network adapter(s) is running in promiscuous mode, which may be a sign that you have a sniffer running on your computer.| blackarch-windows |http://ntsecurity.nu/toolbox/promisdetect/
 propecia|2|A fast class scanner that scans for a specified open port with banner grabbing| blackarch-fingerprint |http://www.redlevel.org
 protos-sip|2|SIP test suite.| blackarch-voip |https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-sip
 proxenet|705.29901be|THE REAL hacker friendly proxy for web application pentests.| blackarch-webapp |https://github.com/hugsy/proxenet
@@ -1058,6 +1062,7 @@ roputils|190.0a2df19|A Return-oriented Programming toolkit.| blackarch-exploitat
 routerhunter|19.0c9cb3c|Tool used to find vulnerable routers and devices on the Internet and perform tests.| blackarch-scanner |https://github.com/jh00nbr/Routerhunter.0
 routersploit|349.ae5d4ea|The Router Exploitation Framework.| blackarch-exploitation |https://github.com/reverse-shell/routersploit
 rp|136.5f0841c|A full-cpp written tool that aims to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries.| blackarch-exploitation |https://github.com/0vercl0k/rp
+rpak|1.0|A collection of tools that can be useful for doing attacks on routing protocols.| blackarch-windows |http://ntsecurity.nu/toolbox/promisdetect/
 rpcsniffer|7.9fab095|Sniffs WINDOWS RPC messages in a given RPC server process.| blackarch-windows |https://github.com/AdiKo/RPCSniffer
 rpdscan|2.a71b0f3|Remmina Password Decoder and scanner.| blackarch-cracker |https://github.com/freakyclown/RPDscan
 rr|4.2.0|A Record and Replay Framework.| blackarch-debugger |https://github.com/mozilla/rr
@@ -1106,6 +1111,7 @@ sees|67.cd741aa|Increase the success rate of phishing attacks by sending emails 
 sergio-proxy|0.2.1|A multi-threaded transparent HTTP proxy for manipulating web traffic| blackarch-proxy |https://github.com/darkoperator/dnsrecon
 sessionlist|1.0|Sniffer that intents to sniff HTTP packets and attempts to reconstruct interesting authentication data from websites that do not employ proper secure cookie auth.| blackarch-networking |http://www.0xrage.com/
 set|7.0.3.5|Social-engineer toolkit. Aimed at penetration testing around Social-Engineering.| blackarch-social |https://www.trustedsec.com/downloads/social-engineer-toolkit
+setowner|1.1|Allows you to set file ownership to any account, as long as you have the "Restore files and directories" user right.| blackarch-windows |http://ntsecurity.nu/toolbox/setowner/
 sfuzz|0.7.0|A simple fuzzer.| blackarch-fuzzer |http://aconole.brad-x.com/programs/sfuzz.html
 shard|1.4|A command line tool to detect shared passwords.| blackarch-recon |https://github.com/philwantsfish/shard
 shareenum|46.3bfa81d|Tool to enumerate shares from Windows hosts.| blackarch-scanner |https://github.com/CroweCybersecurity/shareenum
@@ -1170,6 +1176,7 @@ sn1per|87.fc22d62|Automated Pentest Recon Scanner.| blackarch-recon |https://git
 snapception|8.c156f9e|Intercept and decrypt all snapchats received over your network.| blackarch-sniffer |https://github.com/thebradbain/snapception
 snarf-mitm|40.49cc8cb|SMB Man in the Middle Attack Engine / relay suite.| blackarch-exploitation |https://github.com/purpleteam/snarf
 sniffjoke|0.4.1|Injects packets in the transmission flow that are able to seriously disturb passive analysis like sniffing, interception and low level information theft.| blackarch-defensive |http://www.delirandom.net/sniffjoke/
+snitch|1.2|Turn back the asterisks in password fields to plaintext passwords.| blackarch-windows |http://ntsecurity.nu/toolbox/snitch/
 snmp-brute|15.64ec0ce|SNMP brute force, enumeration, CISCO config downloader and password cracking script.| blackarch-cracker |https://github.com/SECFORCE/SNMP-Brute
 snmp-fuzzer|0.1.1|SNMP fuzzer uses Protos test cases with an entirely new engine written in Perl.| blackarch-fuzzer |http://www.arhont.com/en/category/resources/tools-utilities/
 snmpattack|1.8|SNMP scanner and attacking tool.| blackarch-networking |http://www.c0decafe.de/
@@ -1438,6 +1445,7 @@ windows-exploit-suggester|26.493f96a|This tool compares a targets patch levels a
 windows-privesc-check|181.9f304fd|Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems.| blackarch-windows |https://github.com/pentestmonkey/windows-privesc-check
 winexe|1.00|Remotely execute commands on Windows NT/2000/XP/2003 systems.| blackarch-misc |http://sourceforge.net/projects/winexe/
 winfo|2.0|Uses null sessions to remotely try to retrieve lists of and information about user accounts, workstation/interdomain/server trust accounts, shares (also hidden), sessions, logged in users, and password/lockout policy, from Windows NT/2000/XP.| blackarch-windows |http://www.ntsecurity.nu/toolbox/winfo/
+winrelay|2.0|A TCP/UDP forwarder/redirector that works with both IPv4 and IPv6.| blackarch-windows |http://ntsecurity.nu/toolbox/winrelay/
 wireless-ids|24.b132071|Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets.| blackarch-wireless |https://github.com/SYWorks/wireless-ids
 wireshark-cli|2.0.4|a free network protocol analyzer for Unix/Linux and Windows - CLI version| blackarch-sniffer |http://www.wireshark.org/
 wireshark-gtk|2.0.4|a free network protocol analyzer for Unix/Linux and Windows - GTK frontend| blackarch-sniffer |http://www.wireshark.org/
@@ -1455,9 +1463,11 @@ wpa2-halfhandshake-crack|27.6ed850f|A POC to show it is possible to capture enou
 wpbf|7.11b6ac1|Multithreaded WordPress brute forcer.| blackarch-cracker |https://github.com/dejanlevaja/wpbf
 wpbrute-rpc|3.e7d8145|Tool for amplified bruteforce attacks on wordpress based website via xmlrcp API.| blackarch-cracker |https://github.com/zendoctor/wpbrute-rpc
 wpscan|2057.d270391|A vulnerability scanner which checks the security of WordPress installations using a black box approach.| blackarch-scanner |http://wpscan.org
+wpsweep|1.0|A simple ping sweeper, that is, it pings a range of IP addresses and lists the ones that reply.| blackarch-windows |http://ntsecurity.nu/toolbox/wpsweep/
 ws-attacker|1.7|A modular framework for web services penetration testing.| blackarch-webapp |http://ws-attacker.sourceforge.net/
 wsfuzzer|1.9.5|A Python tool written to automate SOAP pentesting of web services.| blackarch-fuzzer |https://www.owasp.org/index.php/Category:OWASP_WSFuzzer_Project
 wsuspect-proxy|22.0f79a2f|A tool for MITM'ing insecure WSUS connections.| blackarch-exploitation |https://github.com/ctxis/wsuspect-proxy
+wups|1.4|An UDP port scanner for Windows.| blackarch-windows |http://ntsecurity.nu/toolbox/wups/
 wyd|0.2|Gets keywords from personal files. IT security/forensic tool.| blackarch-cracker |http://www.remote-exploit.org/?page_id=418
 x-scan|3.3|A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.| blackarch-windows |http://www.xfocus.org/
 xcat|0.7.1|A command line tool to automate the exploitation of blind XPath injection vulnerabilities.| blackarch-exploitation |https://github.com/orf/xcat
