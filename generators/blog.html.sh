@@ -30,6 +30,28 @@ cat <<\EOF
                         <li class="list-group-item">
                         <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
+									<time itemprop="datePublished">2016-07-29</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/lewangbtcc/anti-XSS" target="_blank">anti-xss</a> - A XSS vulnerability scanner.</li>
+                                        <li><a href="https://github.com/ewilded/shelling" target="_blank">shelling</a> - An offensive approach to the anatomy of improperly written OS command injection sanitisers.</li>
+                                        <li><a href="https://github.com/ShotokanZH/Pa-th-zuzu" target="_blank">pathzuzu</a> - Checks for PATH substitution vulnerabilities and logs the commands executed by the vulnerable executables.</li>
+                                        <li><a href="https://github.com/hugsy/gef" target="_blank">gef</a> - Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.</li>
+                                        <li><a href="http://www.caida.org/tools/measurement/scamper/" target="_blank">scamper</a> - A tool that actively probes the Internet in order to analyze topology and performance.</li>
+                                        <li><a href="https://github.com/Crapworks/wolpertinger" target="_blank">wolpertinger</a> - A distributed portscanner.</li>
+                                        <li><a href="https://github.com/l0gan/backHack" target="_blank">backhack</a> - Tool to perform Android app analysis by backing up and extracting apps, allowing you to analyze and modify file system contents for apps.</li>
+                                        <li><a href="https://github.com/MooseDojo/apt2" target="_blank">apt2</a> - Automated penetration toolkit.</li>
+                                        <li><a href="https://github.com/Markus-Go/bonesi" target="_blank">bonesi</a> - The DDoS Botnet Simulator.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
 									<time itemprop="datePublished">2016-07-20</time>
 									<h4 itemprop="name">Newest tools added!</h4>
 								</header>
