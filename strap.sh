@@ -2,7 +2,7 @@
 # strap.sh - install and setup BlackArch Linux keyring
 
 # default mirror url
-MIRROR='http://www.mirrorservice.org/sites/blackarch.org/blackarch/'
+MIRROR='https://www.mirrorservice.org/sites/blackarch.org/blackarch/'
 
 # simple error message wrapper
 err()
@@ -43,7 +43,7 @@ make_tmp_dir()
 fetch_keyring()
 {
     curl -s -O \
-        'http://blackarch.org/keyring/blackarch-keyring.pkg.tar.xz{,.sig}'
+        'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz{,.sig}'
 }
 
 # verify the keyring signature
@@ -51,7 +51,7 @@ fetch_keyring()
 verify_keyring()
 {
     gpg \
-        --keyserver hkp://pgp.mit.edu \
+        --keyserver http://pgp.mit.edu \
         --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
 
     if ! gpg \
@@ -94,7 +94,7 @@ get_mirror()
     printf "    -> enter a BlackArch Linux mirror url (default: $MIRROR): "
     while read line ; do
         case "$line" in
-            http://*|ftp://*)
+            http://*|https://*|ftp://*)
                 msg 'checking mirror...'
                 if ! curl -sI "$line/blackarch/os/i686/blackarch.db" |
                     head -n1 | grep -q 200

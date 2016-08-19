@@ -28,6 +28,30 @@ cat <<\EOF
                     </div>
                     <ul class="list-group nblog">
                         <li class="list-group-item">
+
+                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
+                            <time itemprop="datePublished"> 2016-08-19</time>
+						    <h4 itemprop="name">New ISOs released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Today we released new BlackArch Linux ISOs. The new ISOs include over 1500 tools. For more details see the ChangeLog below.
+                            </p>
+                            <p>Here's the ChangeLog :</p>
+                                <ul>
+                                    <li>include linux kernel 4.7.1</li>
+                                    <li>updated BlackArch Linux installer</li>
+                                    <li>added more than 100 new tools</li>
+                                    <li>updated all blackarch tools</li>
+                                    <li>updated all system packages</li>
+                                    <li>updated menu entries for window managers (awesome, fluxbox, openbox)</li>
+                                </ul>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div></article>
+
                         <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-29</time>
