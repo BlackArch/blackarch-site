@@ -118,7 +118,7 @@ cat <<\EOF
                             <div class=code-block>
                                 <p># Run https://blackarch.org/strap.sh as root and follow the instructions.</p>
                                 $ <span>curl -O https://blackarch.org/strap.sh</span>
-                                <p># The SHA1 sum should match: 86eb4efb68918dbfdd1e22862a48fda20a8145ff</p>
+                                <p># The SHA1 sum should match: c7012b890bb6043a2b39ca749cf0dbb9daac606c</p>
                                 $ <span>sha1sum strap.sh</span>
                                 <p># Set execute bit</p>
                                 $ <span>chmod +x strap.sh</span>
