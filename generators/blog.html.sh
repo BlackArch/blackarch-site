@@ -29,6 +29,17 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+						    <time itemprop="datePublished">2016-08-24</time>
+							<h4 itemprop="name">New mirror added in USA! </h4></header>
+							<div itemprop="description">
+                                We would like to thank <a href="http://www.princeton.edu/main/" target="_blank">Princeton University </a> for becoming a BlackArch Linux mirror.
+                                <br />
+                                They are offering the following access: <a href="http://mirror.math.princeton.edu/pub/blackarch/" target="_blank">http</a> |
+                                <a href="rsync://mirror.math.princeton.edu/pub/blackarch/" target="_blank">rsync</a>
+                            </div>
+                        </article>
+
                         <article itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-08-19</time>

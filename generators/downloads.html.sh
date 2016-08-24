@@ -321,6 +321,8 @@ cat <<\EOF
                             <a href="http://blackarch.wawa-mania.to/" target="_blank" itemprop="url">http://blackarch.wawa-mania.to/</a>
                             <br><br>
                             <img src="/images/flags/us.png" alt="USA" />USA<br>
+                            <a href="http://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">http://mirror.math.princeton.edu/pub/blackarch/</a><br>
+                            <a href="rsync://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">rsync://mirror.math.princeton.edu/pub/blackarch/</a><br>
                             <a href="http://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">http://distro.ibiblio.org/blackarch/</a><br>
                             <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">ftp://distro.ibiblio.org/blackarch/</a><br>
                             <a href="http://mirror2.tscinc.co/blackarch" target="_blank" itemprop="url">http://mirror2.tscinc.co/blackarch/</a><br>
