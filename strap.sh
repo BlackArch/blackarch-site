@@ -120,7 +120,7 @@ get_mirror()
 update_pacman_conf()
 {
     # delete blackarch related entries if existing
-    sed -ie '/blackarch/{N;d}' /etc/pacman.conf
+    sed -i '/blackarch/{N;d}' /etc/pacman.conf
 
     cat >> "/etc/pacman.conf" << EOF
 [blackarch]
