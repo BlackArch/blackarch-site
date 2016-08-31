@@ -31,6 +31,28 @@ cat <<\EOF
 
                         <article itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
+                            <time itemprop="datePublished"> 2016-08-31</time>
+						    <h4 itemprop="name">New ISOs released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Today we released new BlackArch Linux ISOs. This is just a Bugfix release and shrinks the ISO size for DVD-R. For more details see the ChangeLog below.
+                            </p>
+                            <p>Here's the ChangeLog :</p>
+                                <ul>
+                                    <li>Bugfix: blackarch-installer</li>
+                                    <li>shrink ISO size (DVD-R support)</li>
+                                    <li>updated all blackarch tools</li>
+                                    <li>updated all system packages</li>
+                                </ul>
+                            </p>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div></article>
+
+                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
                             <time itemprop="datePublished"> 2016-08-30</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
                         </header>
