@@ -100,6 +100,13 @@ cat <<EOF
 			                        <td><a href="gpgkeys/nrz.asc" target="_blank">0x7C03DD86</a></td>
 			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
+                                <tr>
+                                    <td itemprop="givenName">Hannes Eichblatt</td>
+                                    <td>heichblatt</td>
+                                    <td itemprop="email">blackarch@hanneseichblatt.de</td>
+                                    <td><a href="gpgkeys/heichblatt.asc" target="_blank">0x31B0AF0E</a></td>
+                                    <td>Developer</td>
+                                </tr>
 		                        <tr>
 			                        <td itemprop="givenName">Ellis Kenyo</td>
 			                        <td>elken</td>
