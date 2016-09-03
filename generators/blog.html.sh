@@ -146,7 +146,7 @@ cat <<\EOF
                                         <li><a href="https://github.com/BishopFox/spfmap" target="_blank">spfmap</a> - A program to map out SPF and DKIM records for a large number of domains.</li>
                                         <li><a href="https://github.com/BishopFox/firecat" target="_blank">firecat</a> - A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.</li>
                                         <li><a href="https://github.com/bishopfox/spoofcheck" target="_blank">spoofcheck</a> - Simple script that checks a domain for email protections.</li>
-                                        <li><a href="https://github.com/lunarca/SimpleEmailSpoofer" target="_blank">waybackpack</a> - A simple Python CLI to spoof emails.</li>
+                                        <li><a href="https://github.com/lunarca/SimpleEmailSpoofer" target="_blank">SimpleEmailSpoofer</a> - A simple Python CLI to spoof emails.</li>
                                         <li><a href="https://github.com/jsvine/waybackpack" target="_blank">waybackpack</a> - Download the entire Wayback Machine archive for a given URL.</li>
                                         <li><a href="https://github.com/GDSSecurity/Windows-Exploit-Suggester" target="_blank">windows-exploit-suggester</a> - This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target.</li>
                                         <li><a href="https://github.com/cysinfo/Exescan" target="_blank">exescan</a> - A tool to detect anomalies in PE (Portable Executable) files).</li>
