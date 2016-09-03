@@ -66,7 +66,7 @@ cat <<\EOF
         	<img src="images/bl-install/5.png" alt="5">
         	<hr>
       		<p>
-        	Write the keymap to use (mostly, the 2 letter of your country code, for exemple, a French azerty keyboard would be <i class=blyellow>fr</i>.
+        	Write the keymap to use (mostly, the 2 letter of your country code, for exemple, a French azerty keyboard would be <i class=blyellow>fr</i>).
       		</p>
         	<img src="images/bl-install/6.png" alt="6">
         	<hr>
@@ -91,7 +91,7 @@ cat <<\EOF
       		<img src="images/bl-install/10.png" alt="10">
       		<hr>
       		<p>
-      		Once the update finished, the list of the storage device available will show up. Choose the one where you wish to install Blackarch.
+      		Once the update finished, the list of the storage device available will show up. Choose the one where you wish to install BlackArch.
       		In case if the display show more than 1 device and you aren't sure which is the one you should pickup, use <i class=blyellow>fdisk</i>
       		for list the information of all the storage device, the following example will display <i class=blgreen>sda</i> as a ssd disk and <i class=blgreen>sdb</i> as a usb device stoarage
       		</p>
@@ -199,7 +199,7 @@ cat <<\EOF
             <img src="images/bl-install/33.png" alt="33">
             <hr>
             <p>
-            If you ever wonder what the meaning of that is, in a word: Just a "Joke" made from by a dev. In other words, this mean the end of the installation. You can now reboot and access your new Blackarch Linux system.
+            If you ever wonder what the meaning of that is, in a word: Just a "Joke" made from by a dev. In other words, this mean the end of the installation. You can now reboot and access your new BlackArch Linux system.
             </p>
             <img src="images/bl-install/34.png" alt="34">
             <hr>
