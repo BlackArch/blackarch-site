@@ -62,14 +62,14 @@ cat <<\EOF
                                     <td itemprop="datePublished">2016.08.31</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-live-2016.08.31-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td><span>4.3 GB</span></td>
-                                    <td>d17aaad09003f53e79dcc3668c64367d8fc83676</td>
+                                    <td>364bfeb24373e26adf0184736c066cb9e9e76213</td>
                                 </tr>
                                 <tr>
                                     <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.08.31-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td itemprop="datePublished">2016.08.31</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-live-2016.08.31-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>4.2 GB</td>
-                                    <td>d08c1ac024b98881f030827e87887153f63ff6cd</td>
+                                    <td>98d448586567ed047eee84d4218bd232c4ac98b6</td>
                                 </tr>
                                 <tr>
                                     <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.08.31-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
