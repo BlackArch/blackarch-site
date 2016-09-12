@@ -44,15 +44,8 @@ cat <<\EOF
 		  <i class="fa fa-square fa-stack-2x"></i>
 		  <i class="bitcoin fa fa-btc fa-stack-1x fa-inverse"></i>
 		</span>
-		<span class="act-cash fa-stack fa-2x" title="Cash">
-		  <i class="fa fa-square fa-stack-2x"></i>
-		  <i class="cash fa fa-dollar fa-stack-1x fa-inverse"></i>
-		</span>
-		<span class="act-cc fa-stack fa-2x" title="Credit Card">
-		  <i class="fa fa-square fa-stack-2x"></i>
-		  <i class="cc fa fa-credit-card fa-stack-1x fa-inverse"></i>
-		</span>
 		<p class=act-display></p>
+		<noscript><p class=ns>1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn</p></noscript>
         </div>
         <!-- /.row -->
 EOF
