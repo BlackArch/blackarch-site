@@ -46,7 +46,7 @@ cat <<\EOF
      		</div>
       		<hr>
         	<p>
-        	For start the installation, you must execute the Blackarch install script. In order to avoid any problem that can cost you to restart the installation from the beginning, make sure to have internet available on the machine where you want to install Blackarch. You can list the available network interface with the command <i class=green>ifconfig</i>. If you want or have only the wifi available as option, you may read the arch wiki to know how to settings a wireless connection. If your keyboard differ from the default one, the <i class=blgreen>qwerty us</i>,
+        	For start the installation, you must execute the Blackarch install script. In order to avoid any problem that can cost you to restart the installation from the beginning, make sure to have internet available on the machine where you want to install Blackarch. You can list the available network interface with the command <i class=blgreen>ifconfig</i>. If you want or have only the wifi available as option, you may read the arch wiki to know how to settings a wireless connection. If your keyboard differ from the default one, the <i class=blgreen>qwerty us</i>,
         	you can set the keymap corresponding to your language / country.
         	The command <i class=blyellow>loadkeys</i> following the 2 letters of your country code. Execute the command <i class=blyellow>blackarch-install</i> to start the Blackarch install
         	</p>
@@ -61,7 +61,7 @@ cat <<\EOF
         	3 options should now be displayed
         	</p>
         	<span class=sb>1. Install from repository using pacman</span> <p> This is the recommanded option to select for the netinstall iso, it will fetch the required package online trough the different base arch repository and the blackarch repo as well.</p>
-        	<span class=sb>2. Install from Live-ISO</span> <p> If you have download the live ISO (4go<) instead to download from internet the needed package, you can use it as source for the install of Blackarch. You will not need internet for during all the process, however, in order to have a update system, you should after the install, once you reach your install environment start a general update using <i class=blyellow>pacman</i>  .</p>
+        	<span class=sb>2. Install from Live-ISO</span> <p> If you have download the live ISO instead to download from internet the needed package, you can use it as source for the install of Blackarch. You will not need internet for during all the process, however, in order to have a update system, you should after the install, once you reach your install environment start a general update using <i class=blyellow>pacman</i>  .</p>
         	<span class=sb>3. Install from sources using blackman</span> <p> This is not a recommanded option for beginner, instead of fetching the prebuild package as pacman do, this will get the sources code and make the build in your machine. It's similar of emerge available Gentoo system (blackman simply build from source, emerge is infinitively more advanced and offer a ton of features)</p>
         	<img src="images/bl-install/4.png" alt="4">
         	<hr>
@@ -112,19 +112,19 @@ cat <<\EOF
      		<p>* The swap partition is optional and can be avoid on a virtual system. It's still recommended to make a small one for avoid any crash due to a potential problem with your ram.</p>
      		</div>
 
-			<p>In case more than 2 device get listed and you are not sure witch is the right one you want to use for the install system, you can use <i class=blyellow>fdisk</i> for display the size of the target device, for exemple, if you have sda listed and want to know the size of it and optionaly, the filesystem if any, enter
-			<i class=blyellow>fdisk -l -o device,size /dev/sda</i></p>
+			<div>In case more than 2 device get listed and you are not sure witch is the right one you want to use for the install system, you can use <i class=blyellow>fdisk</i> for display the size of the target device, for exemple, if you have sda listed and want to know the size of it and optionaly, the filesystem if any, enter
+			<i class=blyellow>fdisk -l -o device,size /dev/sda</i></div>
 
       		<img src="images/bl-install/11.png" alt="11">
       		<hr>
-      		<p>
+      		<div>
 			Select <i class=blyellow>y</i> when the script will ask you if you want to create your partition with <i class=blgreen>cfdisk</i>, selecting <i class=blyellow>n</i> will stop the install.
-			</p>
+			</div>
       		<img src="images/bl-install/12.png" alt="12">
       		<hr>
-			<p>
+			<div>
 			If your storage device already got a label type, you won't see this, otherwise set it to <i class=blgreen>dos</i>.
-			</p>
+			</div>
 			<img src="images/bl-install/13.png" alt="13">
 			<hr>
 			<p>
@@ -132,45 +132,45 @@ cat <<\EOF
 			</p>
 			<img src="images/bl-install/14.png" alt="14">
 			<hr>
-			<p>
+			<div>
 			Using the arrow, go to <i class=blyellow>New</i>, push enter and write <i class=blyellow>500M</i>, it's enough for most of the user since you won't have more than 3 different kernel at the same time.
-			</p>
+			</div>
 			<img src="images/bl-install/15.png" alt="15">
 			<hr>
-			<p>
+			<div>
 			Select <i class=blyellow>primary</i> and press enter.
-			</p>
+			</div>
 			<img src="images/bl-install/16.png" alt="16">
 			<hr>
-			<p>
+			<div>
 			You need to mark this partition as bootable. Go to the option <i class=blgreen>bootable</i> and press enter. The * should appear as on the screen, afterwards go for the second partition, press the down arrow to select the free space then select <i class=blgreen>New</i>.
-			</p>
+			</div>
 			<img src="images/bl-install/17.png" alt="17">
 			<hr>
-			<p>
+			<div>
 			This will be our swap partition. Press enter and write this time <i class=blyellow>512M</i>. Press enter again and select <i class=blgreen>primary</i> as early.
-			</p>
+			</div>
 			<img src="images/bl-install/18.png" alt="18">
 			<hr>
-			<p>
-			For this partition you need a different type. Using the arrow, go to <i class=blgreenType</i> and press enter. A list will be displayed.
-			</p>
-			<p>
+			<div>
+			For this partition you need a different type. Using the arrow, go to <i class=blgreen>Type</i> and press enter. A list will be displayed.
+			</div>
+			<div>
 			Select <i class=blyellow>Linux swap, solaris</i> and press enter. Let's go for the last partition. Same process, as previously select the last free space in green, go to <i class=blyellow>New</i> and press enter. This time you don't need to write anything. We want to take all the free space available. Simply press enter twice.
-			</p>
+			</div>
 			<img src="images/bl-install/20.png" alt="20">
 			<hr>
-			<p>
+			<div>
 			Before quit <i class=blgreen>cfdisk</i> you must save this partition table. Go to <i class=blgreen>Write</i> and press enter. It will ask you to confirm your changes. Write <i class=blyellow>yes</i> and press enter and you may now exit.
-			</p>
+			</div>
 			<img src="images/bl-install/20.png" alt="20">
 			<hr>
-			<p>
-			You have the choice to full encrypt with <i class=blgreen>LUKS</i> your root partition. It's recommanded to set <i class=blyellow>y</i> as your data may be sensitive and you want to keep it private from anyone <i>(in case your computer get stolen or is taken by some agency...)</i>. Do not make something too easy as it can be bruteforce, a good and easy password can be to make a little sentence with some number witch sound familiar to you, for example : <i class=blgreen>myredhouseinthecornerof21street</i> or <i class=blgreen>myfirstbeerwasonmy15yearsold</i> ... Only use a uniq password and <b>NEVER use the same password as ROOT or for one user system</b> </p>
-			<p>Be aware that in case you forgot the password for unlock your <i class=blgreen>LUKS</i> partition, the data nor the password can be recovered, a good move will be to write down on a white paper the password and hide it somewhere safe. This can save you from trouble in case you can't remember it.</p>
+			<div>
+			You have the choice to full encrypt with <i class=blgreen>LUKS</i> your root partition. It's recommanded to set <i class=blyellow>y</i> as your data may be sensitive and you want to keep it private from anyone <i>(in case your computer get stolen or is taken by some agency...)</i>. Do not make something too easy as it can be bruteforce, a good and easy password can be to make a little sentence with some number witch sound familiar to you, for example : <i class=blgreen>myredhouseinthecornerof21street</i> or <i class=blgreen>myfirstbeerwasonmy15yearsold</i> ... Only use a uniq password and <b>NEVER use the same password as ROOT or for one user system</b> </div>
+			<div>Be aware that in case you forgot the password for unlock your <i class=blgreen>LUKS</i> partition, the data nor the password can be recovered, a good move will be to write down on a white paper the password and hide it somewhere safe. This can save you from trouble in case you can't remember it.</div>
 			<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>
-     		<p>If you have a SSD hard drive, encrypt the data with luks will drastically reduce the lifetime of the device. Encrypt the stored data require a lot of disk writing (uncrypt as well), you can fix this problem by adding <span class=bgreen>root_trim=yes</span> as option in your bootloader.</p>
+     		<div>If you have a SSD hard drive, encrypt the data with luks will drastically reduce the lifetime of the device. Encrypt the stored data require a lot of disk writing (uncrypt as well), you can fix this problem by adding <span class=bgreen>root_trim=yes</span> as option in your bootloader.</div>
      		For grub, look for the line of the current used kernel, similar of the following : <span class=blgreen>linux /vmlinuz ...  root=/dev/mapper/ ... root_trim=yes</span> (add it at the end of the line)
      		</div>
 			<img src="images/bl-install/21.png" alt="21">
@@ -180,10 +180,9 @@ cat <<\EOF
 			</p>
 			<img src="images/bl-install/22.png" alt="22">
 			<hr>
-			<p>
+			<div>
 			The script will ask you 3 times to confirm. The last one must be confirmed with <i class=blyellow>YES</i> (caps letter required).
-			</p>
-			<p>
+			</div>
 			<p>If you have made the choice for the full encrypted root partition, you will have to define the password. A prompt asking for it at each boot will be displayed soon after the bootloader.</p>
 			<p>When the password will be confirmed, the root partition will immediately be encrypt. After the fully encrypt, since the install is not yet finish, and the script haven't retain it in order to make it secure and private, you will see a prompt asking for the password of the newly encrypt partition.</p>
 		    <img src="images/bl-install/25.png" alt="26">
