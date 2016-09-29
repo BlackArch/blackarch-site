@@ -131,7 +131,7 @@ cat <<EOF
                                 <tr>
                                     <td itemprop="givenName">Jeremy Marlow</td>
                                     <td>i3_Arch</td>
-                                    <td itemprop="email">jamarlow410@st.nashcc.edu</td>
+                                    <td itemprop="email">jamarlow410@gmail.com</td>
                                     <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
