@@ -83,6 +83,7 @@ backfuzz|36.8e54ed6|A network protocol fuzzing toolkit.| blackarch-fuzzer |https
 backhack|26.6e1e5e0|Tool to perform Android app analysis by backing up and extracting apps, allowing you to analyze and modify file system contents for apps.| blackarch-mobile |https://github.com/l0gan/backHack
 balbuzard|67.d6349ef1bc55|A package of malware analysis tools in python to extract patterns of interest from suspicious files (IP addresses, domain names, known file headers, interesting strings, etc).| blackarch-malware |https://bitbucket.org/decalage/balbuzard/
 bamf-framework|35.30d2b4b|A modular framework designed to be a platform to launch attacks against botnets.| blackarch-malware |https://github.com/bwall/BAMF
+bandicoot|0.5.3|A toolbox to analyze mobile phone metadata.| blackarch-mobile |https://github.com/yvesalexandre/bandicoot
 barf|506.da74a98|A multiplatform open source Binary Analysis and Reverse engineering Framework.| blackarch-binary |https://github.com/programa-stic/barf-project
 base64dump|0.0.4|Extract and decode base64 strings from files.| blackarch-misc |http://blog.didierstevens.com/2015/10/12/update-base64dump-py-version-0-3/
 basedomainname|0.1|Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.| blackarch-recon |http://www.morningstarsecurity.com/research
@@ -222,6 +223,7 @@ ciscos|1.3|Scans class A, B, and C networks for cisco routers which have telnet 
 cjexploiter|6.72b08d8|Drag and Drop ClickJacking exploit development assistance tool.| blackarch-webapp |https://github.com/enddo/CJExploiter
 clamscanlogparser|1|This is a utility to parse a Clam Anti Virus log file, in order to sort them into a malware archive for easier maintanence of your malware collection.| blackarch-malware |http://magikh0e.xyz/
 climber|30.5530a78|Check UNIX/Linux systems for privilege escalation.| blackarch-scanner |https://github.com/raffaele-forte/climber
+cloakify|60.ada555c|Data Exfiltration In Plain Sight; Evade DLP/MLS Devices; Social Engineering of Analysts; Evade AV Detection.| blackarch-misc |https://github.com/trycatchhcf/cloakify
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.| blackarch-scanner |https://github.com/mandatoryprogrammer/cloudflare_enum
 cloudget|53.807d08e|Python script to bypass cloudflare from command line. Built upon cfscrape module.| blackarch-webapp |https://github.com/eudemonics/cloudget
 clusterd|143.d190b2c|Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.| blackarch-automation |https://github.com/hatRiot/clusterd
@@ -446,6 +448,7 @@ flasm|1.62|Disassembler tool for SWF bytecode| blackarch-reversing |http://www.n
 flawfinder|1.31|Searches through source code for potential security flaws.| blackarch-code-audit |http://www.dwheeler.com/flawfinder
 flowinspect|96.1f62b3b|A network traffic inspection tool.| blackarch-networking |https://github.com/7h3rAm/flowinspect
 flunym0us|2.0|A Vulnerability Scanner for Wordpress and Moodle.| blackarch-scanner |http://code.google.com/p/flunym0us/
+forager|2.0.3|Multithreaded threat Intelligence gathering utilizing.| blackarch-recon |https://github.com/byt3smith/Forager
 foremost|1.5.7|A console program to recover files based on their headers, footers, and internal data structures| blackarch-forensic |http://foremost.sourceforge.net/
 forkingportscanner|1|Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1. Has the ability to scan UDP or TCP, defaults to tcp.| blackarch-scanner |http://magikh0e.xyz/
 formatstringexploiter|29.8d64a56|Helper script for working with format string bugs.| blackarch-exploitation |https://github.com/Owlz/formatStringExploiter
@@ -913,6 +916,7 @@ outguess|0.2|A universal steganographic tool.| blackarch-crypto |http://www.outg
 outlook-webapp-brute|1.61d7177|Microsoft Outlook WebAPP Brute.| blackarch-cracker |https://github.com/lijiejie/OutLook_WebAPP_Brute
 owabf|1.3|Outlook Web Access bruteforcer tool.| blackarch-cracker |http://netsec.rs/70/tools.html
 owasp-bywaf|26.e730d1b|A web application penetration testing framework (WAPTF).| blackarch-webapp |https://github.com/depasonico/OWASP-ByWaf
+owasp-zsc|272.c89a9b2|Shellcode/Obfuscate Code Generator.| blackarch-exploitation |https://github.com/zscproject/OWASP-ZSC
 owtf|1017.0bbeea1|The Offensive (Web) Testing Framework.| blackarch-webapp |https://www.owasp.org/index.php/OWASP_OWTF
 p0f|3.09b|Purely passive TCP/IP traffic fingerprinting tool| blackarch-fingerprint |http://lcamtuf.coredump.cx/p0f3/
 pack|0.0.4|Password Analysis and Cracking Kit| blackarch-cracker |http://thesprawl.org/projects/pack/
@@ -940,6 +944,7 @@ patator|122.96eb9f9|A multi-purpose bruteforcer.| blackarch-cracker |https://git
 patchkit|15.592a17a|Powerful binary patching from Python.| blackarch-binary |https://github.com/lunixbochs/patchkit
 pathzuzu|64.4f4533c|Checks for PATH substitution vulnerabilities and logs the commands executed by the vulnerable executables.| blackarch-exploitation |https://github.com/ShotokanZH/Pa-th-zuzu
 pblind|1.0|Little utility to help exploiting blind sql injection vulnerabilities.| blackarch-webapp |http://www.edge-security.com/pblind.php
+pcapfex|1.0|Packet CAPture Forensic Evidence eXtractor.| blackarch-networking |https://github.com/vikwin/pcapfex
 pcapfix|1.1.0|Tries to repair your broken pcap and pcapng files.| blackarch-networking |http://f00l.de/pcapfix/
 pcapsipdump|0.2|A tool for dumping SIP sessions (+RTP traffic, if available) to disk in a fashion similar to 'tcpdump -w' (format is exactly the same), but one file per sip session (even if there is thousands of concurrect SIP sessions).| blackarch-voip |http://pcapsipdump.sourceforge.net/
 pcapteller|1.1|A tool designed for traffic manipulation and replay.| blackarch-sniffer |https://www.encripto.no/nb/downloads/tools/
@@ -987,6 +992,7 @@ pmap|1.10|Passively discover, scan, and fingerprint link-local peers by the back
 pmcma|1.00|Automated exploitation of invalid memory writes (being them the consequences of an overflow in a writable section, of a missing format string, integer overflow, variable misuse, or any other type of memory corruption).| blackarch-exploitation |http://packetstormsecurity.com/files/104724/Post-Memory-Corruption-Memory-Analyzer.00.html
 pmdump|1.2|A tool that lets you dump the memory contents of a process to a file without stopping the process.| blackarch-windows |http://ntsecurity.nu/toolbox/pmdump/
 pnscan|1.11|A parallel network scanner that can be used to survey TCP network services.| blackarch-scanner |http://www.lysator.liu.se/~pen/pnscan/
+pocsuite|2.0.4.2|An open-sourced remote vulnerability testing framework developed by the Knownsec Security Team.| blackarch-exploitation |https://github.com/knownsec/Pocsuite
 poison|1.5.41|A fast, asynchronous syn and udp scanner.| blackarch-scanner |http://nologin.org/main.pl?action=codeList&
 pompem|137.8d75d5b|A python exploit tool finder.| blackarch-exploitation |https://github.com/rfunix/Pompem
 portmanteau|1.0|An experimental unix driver IOCTL security tool that is useful for fuzzing and discovering device driver attack surface.| blackarch-fuzzer |https://packetstormsecurity.com/files/134230/Portmanteau-Unix-Driver-IOCTL-Security-Tool.html
