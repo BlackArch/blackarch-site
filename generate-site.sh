@@ -39,6 +39,7 @@ export RADIO_COUNT=`wc -l < data/radio`
 export RECON_COUNT=`wc -l < data/recon`
 export REVERSING_COUNT=`wc -l < data/reversing`
 export SCANNER_COUNT=`wc -l < data/scanner`
+export STEGO_COUNT=`wc -l < data/stego`
 export SNIFFER_COUNT=`wc -l < data/sniffer`
 export SOCIAL_COUNT=`wc -l < data/social`
 export SPOOF_COUNT=`wc -l < data/spoof`
