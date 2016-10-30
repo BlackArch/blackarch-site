@@ -685,6 +685,7 @@ klogger|1.0|A keystroke logger for the NT-series of Windows.| blackarch-windows 
 knock|224.cef6d2e|Subdomain scanner.| blackarch-scanner |https://github.com/guelfoweb/knock
 kolkata|3.0|A web application fingerprinting engine written in Perl that combines cryptography with IDS evasion.| blackarch-webapp |http://www.blackhatlibrary.net/Kolkata
 kraken|32.368a837|A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.| blackarch-crypto |http://opensource.srlabs.de/projects/a51-decrypt
+l0l|285.fb62a17|The Exploit Development Kit.| blackarch-exploitation |https://github.com/roissy/l0l
 laf|12.7a456b3|Login Area Finder: scans host/s for login panels.| blackarch-scanner |https://github.com/takeshixx/laf
 lanmap2|127.1197999|Passive network mapping tool.| blackarch-recon |http://github.com/rflynn/lanmap2
 lans|168.4ad2333|A Multithreaded asynchronous packet parsing/injecting arp spoofer.| blackarch-spoof |https://github.com/DanMcInerney/LANs.py
@@ -756,6 +757,7 @@ masscan|1.0.3|TCP port scanner, spews SYN packets asynchronously, scanning entir
 masscan-automation|24.2df3467|Masscan integrated with Shodan API.| blackarch-automation |https://github.com/trevordavenport/MasscanAutomation
 mat|0.6.1|Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library.| blackarch-defensive |https://mat.boum.org/
 matahari|0.1.30|A reverse HTTP shell to execute commands on remote machines behind firewalls.| blackarch-tunnel |http://matahari.sourceforge.net
+matroschka|52.0345a5e|Python steganography tool to hide images or text in images.| blackarch-stego |https://github.com/fgrimme/Matroschka
 mausezahn|0.40|A free fast traffic generator written in C which allows you to send nearly every possible and impossible packet.| blackarch-dos |http://www.perihel.at/sec/mz/
 mbenum|1.5.0|Queries the master browser for whatever information it has registered.| blackarch-windows |http://www.cqure.net/wp/mbenum/
 mboxgrep|0.7.9|A small, non-interactive utility that scans mail folders for messages matching regular expressions. It does matching against basic and extended POSIX regular expressions, and reads and writes a variety of mailbox formats.| blackarch-forensic |http://mboxgrep.sourceforge.net
@@ -1271,9 +1273,10 @@ stackflow|2.2af525d|Universal stack-based buffer overfow exploitation tool.| bla
 starttls-mitm|7.b257756|A mitm proxy that will transparently proxy and dump both plaintext and TLS traffic.| blackarch-proxy |https://github.com/ipopov/starttls-mitm
 statsprocessor|0.11|A high-performance word-generator based on per-position Markov-attack.| blackarch-automation |http://hashcat.net/wiki/doku.php?id=statsprocessor
 steghide|0.5.1|Embeds a message in a file by replacing some of the least significant bits| blackarch-anti-forensic |http://steghide.sourceforge.net
-stegolego|8.85354f6|Simple program for using stegonography to hide data within BMP images.| blackarch-backdoor |https://github.com/razc411/StegoLeggo
+stegolego|8.85354f6|Simple program for using stegonography to hide data within BMP images.| blackarch-stego |https://github.com/razc411/StegoLeggo
 stegosip|7.64d5491|TCP tunnel over RTP/SIP.| blackarch-tunnel |https://github.com/epinna/Stegosip
 stenographer|437.933121e|A packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets.| blackarch-sniffer |https://github.com/google/stenographer
+stepic|0.3|A python image steganography tool.| blackarch-stego |http://domnit.org/stepic/doc/
 stompy|0.0.4|An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.| blackarch-misc |http://lcamtuf.coredump.cx/
 storm-ring|0.1|This simple tool is useful to test a PABX with "allow guest" parameter set to "yes" (in this scenario an anonymous caller could place a call).| blackarch-voip |http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html
 striptls|48.65a7078|Proxy PoC implementation of STARTTLS stripping attacks.| blackarch-proxy |https://github.com/tintinweb/striptls
@@ -1334,6 +1337,7 @@ timegen|0.4|This program generates a *.wav file to "send" an own time signal to 
 tinc|1.0.29|VPN (Virtual Private Network) daemon| blackarch-networking |http://www.tinc-vpn.org/
 tinfoleak|3.6469eb3|Get detailed information about a Twitter user activity.| blackarch-recon |https://github.com/technoskald/tinfoleak/
 tinyproxy|1.8.4|A light-weight HTTP proxy daemon for POSIX operating systems.| blackarch-proxy |https://banu.com/tinyproxy/
+tls-prober|235.c19a8e6|A tool to fingerprint SSL/TLS servers.| blackarch-fingerprint |https://github.com/WestpointLtd/tls_prober
 tlsenum|77.b60e2c8|A command line tool to enumerate TLS cipher-suites supported by a server.| blackarch-crypto |https://github.com/Ayrx/tlsenum
 tlspretense|0.6.2|SSL/TLS client testing framework| blackarch-crypto |https://github.com/iSECPartners/tlspretense
 tlssled|1.3|A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.| blackarch-automation |http://blog.taddong.com/2011/05/tlssled-v10.html
@@ -1351,6 +1355,7 @@ traceroute|2.1.0|Tracks the route taken by packets over an IP network| blackarch
 treasure|6.a91d52b|Hunt for sensitive information through githubs code search.| blackarch-recon |https://github.com/GuerrillaWarfare/Treasure
 trid|2.24|An utility designed to identify file types from their binary signatures.| blackarch-forensic |http://mark0.net/soft-trid-e.html
 trinity|4778.83edf1e|A Linux System call fuzzer.| blackarch-fuzzer |http://codemonkey.org.uk/projects/trinity/
+triton|1674.ee68963|A Dynamic Binary Analysis (DBA) framework.| blackarch-binary |https://github.com/JonathanSalwan/Triton
 trixd00r|0.0.1|An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.| blackarch-backdoor |http://nullsecurity.net/tools/backdoor.html
 truecrack|35|Password cracking for truecrypt(c) volumes.|-gpu |http://code.google.com/p/truecrack/
 truecrypt|7.1a|Free open-source cross-platform disk encryption software| blackarch |http://www.truecrypt.org/
