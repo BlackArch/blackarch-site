@@ -31,7 +31,31 @@ cat <<\EOF
 
                         <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
-									<time itemprop="datePublished">2016-07-29</time>
+									<time itemprop="datePublished">2016-11-06</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/manwhoami/findmyiphone" target="_blank">findmyiphone</a> - Locates all devices associated with an iCloud account.</li>
+                                        <li><a href="https://github.com/Ekultek/whitewidow" target="_blank">whitewidow</a> - SQL Vulnerability Scanner.</li>
+                                        <li><a href="https://github.com/steverobbins/magescan" target="_blank">magescan</a> - Scan a Magento site for information.</li>
+                                        <li><a href="https://github.com/rednaga/APKiD" target="_blank">apkid</a> - Android Application Identifier for Packers, Protectors, Obfuscators and Oddities.</li>
+                                        <li><a href="https://github.com/maaaaz/androwarn" target="_blank">androwarn</a> - Yet another static code analyzer for malicious Android applications.</li>
+                                        <li><a href="https://github.com/moheshmohan/pyssltes" target="_blank">pyssltest</a> - A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.</li>
+                                        <li><a href="https://github.com/trailofbits/grr" target="_blank">grr</a> - High-throughput fuzzer and emulator of DECREE binaries.</li>
+                                        <li><a href="https://github.com/sensepost/ruler" target="_blank">ruler</a> - A tool to abuse Exchange services.</li>
+                                        <li><a href="https://github.com/x3omdax/PenBox" target="_blank">penbox</a> - A Penetration Testing Framework - The Tool With All The Tools.</li>
+                                        <li><a href="https://github.com/darkeyepy/blackbox" target="_blank">blackbox-scanner</a> - Dork scanner & bruteforcing & hash cracker tool with blackbox penetration testing framework.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-10-29</time>
 									<h4 itemprop="name">Newest tools added!</h4>
 								</header>
 		                        <div itemprop="description">
