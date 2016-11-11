@@ -24,18 +24,18 @@ cat <<\EOF
             <div id=tutobi class="col-md-12">
             <hr>
             <p>
-        	This tutorial will show you how to install Blackarch Linux using the ISO and the blackarch-installer. It was used on VirtualBox but it can be also used on any other device.
+        	This tutorial will show you how to install Blackarch Linux using the ISO with the blackarch-installer. This example uses VirtualBox but it can be used on VMware and other options as well.
         	</p>
         	<p>
-        	We suppose you already burned the iso into a USB or DVD and you are ready for the installation. The boot shall display something similar as the following screen. Select the first entry for a new installation
+        	We assume you already burned the ISO onto a USB or DVD and you are ready for the installation. When you boot to the image you should see something similar to the following screen. Select your architecture and press enter to begin. (Example: Blackarch Linux (x86_64) for 64bit)
      		</p>
      		<div class=info>
-        	If you attempt to install BlackArch on VirtualBox, make sure to choice the right ISO. Check if your motherboard support the virtualisation, if not, you must use the 32 bits ISO, otherwise, it can support the 64 bits as the 32 bits.
+        	If you attempt to install BlackArch on VirtualBox, make sure to choose the right ISO. Check if your device supports virtualization. If it does, enable it. If not, you must use the 32 bit ISO. Qemu with KVM has also been tested, and can be used instead of virtualbox if desired.
         	</div>
         	<img src="images/bl-install/1.png" alt="1">
         	<hr>
         	<p>
-        	Wait until the login prompt appears, requesting the <i class=blgreen>Blackarch login</i>. The default BlackArch Linux credentials are
+        	Wait until the login prompt appears, <i class=blgreen>Blackarch login</i>. The default BlackArch Linux credentials are
         	</p>
         	<div class=info>
         	<p>Login : <i class=blblue>root</i></p>
@@ -44,9 +44,9 @@ cat <<\EOF
         	<img src="images/bl-install/2.png" alt="2">
       		<hr>
         	<p>
-        	For start the installation, you must execute the script, the command to enter is <i class=blyellow>blackarch-install</i>. If your keyboard differ from the default one, <i class=blgreen>qwerty us</i>,
+        	To start the installation, you must execute the script, the command to enter is <i class=blyellow>blackarch-install</i>. If your keyboard differs from the default one, <i class=blgreen>qwerty us</i>,
         	you may want to setup the keymap corresponding to your language / country.
-        	The command <i class=blgreen>loadkeys</i> following the 2 letters of your country code will do, here few examples
+        	The command you can use is <i class=blgreen>loadkeys</i> following the 2 letters of your country code, here few examples
         	</p>
         	<div class=info>
         	<p>French : <i class=blblue>loadkeys fr</i> (azerty keymap)</p>
@@ -56,12 +56,12 @@ cat <<\EOF
         	<img src="images/bl-install/3.png" alt="3">
         	<hr>
         	<p>
-        	It's recommended for new users to select the option 1 "pacman", blackman is similar to pacman but instead to install the requested package it will get the source code and make the build from the scratch (as Gentoo's emerge can do).
+        	It's recommended for new users to select option 1 "pacman", blackman is similar to pacman but instead of installing the requested package from the repository it will get the source code and make the build from the scratch (as Gentoo's emerge can do).
         	</p>
         	<img src="images/bl-install/4.png" alt="4">
         	<hr>
    			<p>
-        	Select the option 1 if you know what keymap you are using (otherwise you may consult the list with the option 2).
+        	Select option 1 if you know what keymap you are using (otherwise you may consult the list with the option 2).
         	</p>
         	<img src="images/bl-install/5.png" alt="5">
         	<hr>
@@ -76,24 +76,24 @@ cat <<\EOF
       		<img src="images/bl-install/7.png" alt="7">
       		<hr>
       		<p>
-      		At this point, it will show the available network interface detected. It's recommanded for the netinstall-ISO to connect your device with an ethernet cable to avoid any problems (in case you must stick on the wifi, consult the arch wiki about WiFi setup).
+      		At this point, it will show the available network interface detected. It's recommended when using the netinstall-ISO to connect your device with an ethernet cable to avoid any problems (in case you must stick on the wifi, consult the arch wiki about WiFi setup - wifi-menu/netctl).
       		</p>
       		<img src="images/bl-install/8.png" alt="8">
       		<hr>
       		<p>
-      		The DHCP will care about the network connection information (otherwise you should know what to set and use the manual option).
+      		The DHCP option will request/lease a local address from the dhcp server for your device to use.  (otherwise you should know what to set and use the manual option).
       		</p>
       		<img src="images/bl-install/9.png" alt="9">
       		<hr>
       		<p>
-      		The repository will now sync and get the last update available.
+      		The repository will now sync and get the lastest updates available.
       		</p>
       		<img src="images/bl-install/10.png" alt="10">
       		<hr>
       		<p>
-      		Once the update finished, the list of the storage device available will show up. Choose the one where you wish to install Blackarch.
-      		In case if the display show more than 1 device and you aren't sure which is the one you should pickup, use <i class=blyellow>fdisk</i>
-      		for list the information of all the storage device, the following example will display <i class=blgreen>sda</i> as a ssd disk and <i class=blgreen>sdb</i> as a usb device stoarage
+      		Once the update has finished, a list of the storage devices available will show up. Choose the one where you want to install Blackarch.
+      		In case the display shows more than 1 device and you aren't sure which is the one you should pickup, use <i class=blyellow>fdisk</i>
+      		to list the information of all the storage devices, the following example will display <i class=blgreen>sda</i> as a ssd disk and <i class=blgreen>sdb</i> as a usb device stoarage
       		</p>
       		<div class=info>
         	<p><i class=blblue>fdisk -l</i></p>
@@ -105,22 +105,22 @@ cat <<\EOF
       		<img src="images/bl-install/11.png" alt="11">
       		<hr>
       		<p>
-			Select <i class=blyellow>y</i> when the script will ask you if you want to create your partition with <i class=blgreen>cfdisk</i>.
+			Select <i class=blyellow>y</i> when the script asks you if you want to create your partition with <i class=blgreen>cfdisk</i>.
 			</p>
       		<img src="images/bl-install/12.png" alt="12">
       		<hr>
 			<p>
-			If your storage device already got a label type, you won't see this, otherwise set it to <i class=blyellow>dos</i>.
+			If your storage device already has a label type, you won't see this, otherwise set it to <i class=blyellow>dos</i>.
 			</p>
 			<img src="images/bl-install/13.png" alt="13">
 			<hr>
 			<p>
-            You have now to set the partitions. The example given is a basic one and should work in most of the cases. You will need to create at least 2 partitions (/boot + /) but we will use 3 in this example including the swap partition. Let's start with the first one, boot.
+            You now have to create/setup the partitions. The example given is a basic one and should work in most cases. You will need to create at least 2 partitions (/boot + /) but we will use 3 in this example including the swap partition. Let's start with the first one, boot.
 			</p>
 			<img src="images/bl-install/14.png" alt="14">
 			<hr>
 			<p>
-			Using the arrow, go to <i class=blyellow>New</i>, push enter and write <i class=blyellow>500M</i>, it's enough for most of the user since you won't have more than 3 different kernel at the same time.
+			Using the arrow, go to <i class=blyellow>New</i>, push enter and write <i class=blyellow>500M</i>, it's enough space for most users since you won't have more than 3 different kernel at the same time.
 			</p>
 			<img src="images/bl-install/15.png" alt="15">
 			<hr>
@@ -135,7 +135,7 @@ cat <<\EOF
 			<img src="images/bl-install/17.png" alt="17">
 			<hr>
 			<p>
-			This will be our swap partition. Press enter and write this time <i class=blyellow>512M</i>. Press enter again and select <i class=blyellow>primary</i> as early.
+			This will be our swap partition. Press enter and this time write <i class=blyellow>512M</i>. Press enter again and select <i class=blyellow>primary</i>.
 			</p>
 			<img src="images/bl-install/18.png" alt="18">
 			<hr>
@@ -148,7 +148,7 @@ cat <<\EOF
 			<img src="images/bl-install/20.png" alt="20">
 			<hr>
 			<p>
-			Before quit <i class=blgreen>cfdisk</i> you must save this partition table. Go to <i class=blyellow>Write</i> and press enter. It will ask you to confirm your changes. Write <i class=blyellow>yes</i> and press enter and you may now exit.
+			Before you quit <i class=blgreen>cfdisk</i> you must save this partition table. Go to <i class=blyellow>Write</i> and press enter. It will ask you to confirm your changes. Write <i class=blyellow>yes</i> and press enter. Then you may quit/exit.
 			</p>
 			<img src="images/bl-install/20.png" alt="20">
 			<hr>
@@ -158,15 +158,15 @@ cat <<\EOF
 			<img src="images/bl-install/21.png" alt="21">
 			<hr>
 			<p>
-			The filesystem for each of those partition must be defined. First, boot will be <i class=blyellow>/dev/sda1</i> and choice <i class=blyellow>ext4</i> for the filesystem, second partition will be the root, write <i class=blyellow>/dev/sda3</i> and choice <i class=blyellow>ext4</i> as filesystem. The last will be the swap, write <i class=blyellow>/dev/sda2</i>.
+			The filesystem for each of those partitions must be defined. First, boot will be <i class=blyellow>/dev/sda1</i> and choice <i class=blyellow>ext4</i> for the filesystem, second partition will be the root, write <i class=blyellow>/dev/sda3</i> and choice <i class=blyellow>ext4</i> as filesystem. The last will be the swap, write <i class=blyellow>/dev/sda2</i>.
 			</p>
 			<img src="images/bl-install/22.png" alt="22">
 			<hr>
 			<p>
-			The script will ask you 3 times to confirm. The last one must be confirmed with <i class=blyellow>YES</i> (caps letter required).
+			The script will ask you 3 times to confirm. The last one must be confirmed with <i class=blyellow>YES</i> (capital letters required).
 			</p>
 			<p>
-			If you have made the choice for the full encrypted root partition, you will have to enter the desired password to decrypt your partition.
+			If you have selected the choice for the full encrypted root partition, you will have to enter the desired password to decrypt your partition.
 		    </p>
 		    <img src="images/bl-install/25.png" alt="26">
 		    <hr>
@@ -174,7 +174,7 @@ cat <<\EOF
             Now the script will download all the necessary packages for your system. This will take a little time (grab a coffee). Once this task is done, you will have to set the password for the root account.
 			</p>
 		    <p>
-			You need now to set the password of the root account.
+			You now need to set the password for the root account.
             </p>
 			<img src="images/bl-install/28.png" alt="28">
 			<hr>
@@ -184,12 +184,12 @@ cat <<\EOF
             <img src="images/bl-install/29.png" alt="29">
             <hr>
             <p>
-            When the script ask you to choose a mirror  just press enter (you can later set a different mirror near your location).
+            When the script asks you to choose a mirror, just press enter (you can later set a different mirror near your location).
             </p>
             <img src="images/bl-install/30.png" alt="30">
             <hr>
             <p>
-            The script will now ask you if you want a X display (graphical environment, a desktop), before to set <i class=blyellow>y</i>, make sure nobody is looking at your screen, this is very important.
+            The script will now ask you if you want a X display (graphical environment, a desktop), before you set <i class=blyellow>y</i>, make sure nobody is looking at your screen, this is very important. (You'll see why)
             </p>
             <img src="images/bl-install/31.png" alt="31">
             <hr>
@@ -199,17 +199,17 @@ cat <<\EOF
             <img src="images/bl-install/33.png" alt="33">
             <hr>
             <p>
-            If you ever wonder what the meaning of that is, in a word: Just a "Joke" made from by a dev. In other words, this mean the end of the installation. You can now reboot and access your new Blackarch Linux system.
+            If you ever wonder what the meaning of that is, in a word: Just a "Joke" made by a dev. In other words, this means the end of the installation. You can now reboot and access your new Blackarch Linux system.
             </p>
             <img src="images/bl-install/34.png" alt="34">
             <hr>
             <p>
-            If you made the choice for an encrypted root partition, it will spawn on each boot a prompt requesting the password to decrypt your system.
+            If you made the choice for an encrypted root partition, it will request the password to decrypt your partition (before being able to mount) every time you boot.
        		</p>
        		<img src="images/bl-install/35.png" alt="35">
        		<hr>
        		<p>
-       		Enjoy your system and remember, the developer of BlackArch Linux  are volontary. All the work provided is free and any work are made from their free time. Everything is made to maintain as possible, update and secure Blackarch Linux. You can help us by making a <a class=donate href="donate.html" title="Donate to Blackarch">donate</a> which will be entirely used for this project.
+       		Enjoy and remember, the developers of BlackArch Linux are volunteers. All the work provided is free and was done in their free time. You can help us by making a <a class=donate href="donate.html" title="Donatation to Blackarch">donate</a> which will be used for this project only.
        		</p>
             </div>
        	</div>
