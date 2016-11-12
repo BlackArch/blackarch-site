@@ -29,6 +29,17 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+						    <time itemprop="datePublished">2016-11-12</time>
+							<h4 itemprop="name">New mirror added in USA! </h4></header>
+							<div itemprop="description">
+                                We would like to thank <a href="mirrors.tuxns.net" target="_blank">tuxns.net </a> for becoming a BlackArch Linux mirror.
+                                <br />
+                                They are offering the following access: <a href="https://mirrors.tuxns.net/blackarch" target="_blank">https</a> |
+                                <a href="http://mirrors.tuxns.net/blackarch/" target="_blank">http</a> | <a href="rsync://mirrors.tuxns.net/blackarch" target="_blank">rsync</a>
+                            </div>
+                        </article>
+
                         <article itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-11-06</time>
