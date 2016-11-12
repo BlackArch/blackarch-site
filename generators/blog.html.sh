@@ -29,6 +29,29 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-11-12</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/screetsec/Dracnmap" target="_blank">dracnmap</a> - ool to exploit the network and gathering information with nmap help.</li>
+                                        <li><a href="https://github.com/stanislav-web/OpenDoor" target="_blank">opendoor</a> - OWASP Directory Access scanner.</li>
+                                        <li><a href="https://github.com/khalilbijjou/WAFNinja" target="_blank">wafninja</a> - A tool which contains two functions to attack Web Application Firewalls.</li>
+                                        <li><a href="https://github.com/gabamnml/hoper" target="_blank">hoper</a> - Trace URL's jumps across the rel links to obtain the last URL'.</li>
+                                        <li><a href="https://github.com/dorneanu/smalisca" target="_blank">smalisca</a> - Static Code Analysis for Smali files.</li>
+                                        <li><a href="https://github.com/ch0psticks/Smali-CFGs" target="_blank">smali-cfgs</a> - Smali Control Flow Graph's'.</li>
+                                        <li><a href="https://github.com/yarox24/evtkit" target="_blank">evtkit</a> - Fix acquired .evt - Windows Event Log files (Forensics).</li>
+                                        <li><a href="https://github.com/williballenthin/LfLe" target="_blank">lfle</a> - Recover event log entries from an image by heurisitically looking for record structures.</li>
+                                        <li><a href="https://github.com/chrisallenlane/novahot" target="_blank">novahot</a> - A webshell framework for penetration testers.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
                         <article itemscope itemtype="http://schema.org/NewsArticle"><header>
 						    <time itemprop="datePublished">2016-11-12</time>
 							<h4 itemprop="name">New mirror added in USA! </h4></header>
