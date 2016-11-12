@@ -449,33 +449,46 @@ margin:0 0 10px 0;
 max-width:500px;
 width:98%;
 margin:0 0 10px 0;
-padding:5px 2px 5px 2px;
+padding:5px 5px 0px 5px;
 background-color:black;
 border:1px solid #e5e5e5;
-border-radius:3px;
+border-radius:2px;
+box-sizing:border-box;
 color:white;
 }
 #tutobi .info p {
-margin:0 7px 3px 7px;
+max-width:95%;
+margin:0 0 5px 0;
 }
-
+#tutobi .info i {
+float:right;
+font-size:22px;
+}
 #tutobi hr {
 margin:5px 0 15px 0;
 }
 .blgreen {
 font-style:normal;
+font-size:14px;
 color:#6ae400;
-font-weight:bold;
+background-color:black;
+padding:0px 3px 0px 3px;
+border-radius:1px;
 }
 .blyellow {
 font-style:normal;
+font-size:14px;
 color:#e1e111;
-font-weight:bold;
+background-color:black;
+padding:0px 3px 0px 3px;
+border-radius:1px;
 }
-.blblue {
-font-style:normal;
-color:#6ACEFF;
-font-weight:bold;
+#tutobi .sb {
+font-size:14px;
+color:#ff2c2c;
+background-color:black;
+padding:0px 3px 0px 3px;
+border-radius:1px;
 }
 /* End Tutoriel */
 /* Donate */
@@ -486,6 +499,16 @@ text-align:center;
 #givenow p {
 max-width:300px;
 display:none;
+margin:7px auto 0 auto;
+padding:5px 2px 5px 2px;
+background-color:black;
+border:1px solid #e5e5e5;
+border-radius:3px;
+color:white;
+}
+#givenow p.ns {
+max-width:300px;
+display:block;
 margin:7px auto 0 auto;
 padding:5px 2px 5px 2px;
 background-color:black;

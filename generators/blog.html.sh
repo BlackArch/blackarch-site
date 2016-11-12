@@ -29,6 +29,67 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-11-06</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/manwhoami/findmyiphone" target="_blank">findmyiphone</a> - Locates all devices associated with an iCloud account.</li>
+                                        <li><a href="https://github.com/Ekultek/whitewidow" target="_blank">whitewidow</a> - SQL Vulnerability Scanner.</li>
+                                        <li><a href="https://github.com/steverobbins/magescan" target="_blank">magescan</a> - Scan a Magento site for information.</li>
+                                        <li><a href="https://github.com/rednaga/APKiD" target="_blank">apkid</a> - Android Application Identifier for Packers, Protectors, Obfuscators and Oddities.</li>
+                                        <li><a href="https://github.com/maaaaz/androwarn" target="_blank">androwarn</a> - Yet another static code analyzer for malicious Android applications.</li>
+                                        <li><a href="https://github.com/moheshmohan/pyssltes" target="_blank">pyssltest</a> - A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.</li>
+                                        <li><a href="https://github.com/trailofbits/grr" target="_blank">grr</a> - High-throughput fuzzer and emulator of DECREE binaries.</li>
+                                        <li><a href="https://github.com/sensepost/ruler" target="_blank">ruler</a> - A tool to abuse Exchange services.</li>
+                                        <li><a href="https://github.com/x3omdax/PenBox" target="_blank">penbox</a> - A Penetration Testing Framework - The Tool With All The Tools.</li>
+                                        <li><a href="https://github.com/darkeyepy/blackbox" target="_blank">blackbox-scanner</a> - Dork scanner & bruteforcing & hash cracker tool with blackbox penetration testing framework.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2016-10-29</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/anarcoder/google_explorer" target="_blank">google-explorer</a> - Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.</li>
+                                        <li><a href="https://github.com/vikwin/pcapfex" target="_blank">pcapfex</a> - Packet CAPture Forensic Evidence eXtractor.</li>
+                                        <li><a href="https://github.com/byt3smith/Forager" target="_blank">forager</a> - Multithreaded threat Intelligence gathering utilizing.</li>
+                                        <li><a href="https://github.com/yvesalexandre/bandicoot" target="_blank">bandicoot</a> - A toolbox to analyze mobile phone metadata.</li>
+                                        <li><a href="https://github.com/knownsec/Pocsuite" target="_blank">pocsuite</a> - An open-sourced remote vulnerability testing framework developed by the Knownsec Security Team.</li>
+                                        <li><a href="https://github.com/zscproject/OWASP-ZSC" target="_blank">owasp-zsc</a> - Shellcode/Obfuscate Code Generator.</li>
+                                        <li><a href="https://github.com/trycatchhcf/cloakify" target="_blank">cloakify</a> - Data Exfiltration In Plain Sight; Evade DLP/MLS Devices; Social Engineering of Analysts; Evade AV Detection.</li>
+                                        <li><a href="https://github.com/roissy/l0l" target="_blank">l0l</a> - The Exploit Development Kit.</li>
+                                        <li><a href="http://domnit.org/stepic/doc/" target="_blank">stepic</a> - A python image steganography tool.</li>
+                                        <li><a href="https://github.com/fgrimme/Matroschka" target="_blank">matroschka</a> - Python steganography tool to hide images or text in images.</li>
+                                        <li><a href="https://github.com/JonathanSalwan/Triton" target="_blank">triton</a> - A Dynamic Binary Analysis (DBA) framework.</li>
+                                        <li><a href="https://github.com/WestpointLtd/tls_prober" target="_blank">tls-prober</a> - A tool to fingerprint SSL/TLS servers.</li>
+                                        <li><a href="https://github.com/rastating/wordpress-exploit-framework" target="_blank">wordpress-exploit-framework</a> - A Ruby framework for developing and using modules which aid in the penetration testing of WordPress powered websites and systems.</li>
+                                        <li><a href="https://github.com/Miserlou/omnihash" target="_blank">omnihash</a> - Hash files, strings, input streams and network resources in various common algorithms simultaneously.</li>
+                                        <li><a href="https://github.com/programa-stic/barf-project" target="_blank">barf</a> - A multiplatform open source Binary Analysis and Reverse engineering Framework.</li>
+                                        <li><a href="https://github.com/bdcht/amoco" target="_blank">amoco</a> - Yet another tool for analysing binaries.</li>
+                                        <li><a href="https://github.com/whoot/Typo-Enumerator" target="_blank">typo-enumerator</a> - Enumerate Typo3 version and extensions.</li>
+                                        <li><a href="https://github.com/mschwager/gitem" target="_blank">gitem</a> - A Github organization reconnaissance tool.</li>
+                                        <li><a href="https://github.com/dripcap/dripcap" target="_blank">dripcap</a> - Caffeinated Packet Analyzer.</li>
+                                        <li><a href="https://github.com/SideChannelMarvels/Daredevil" target="_blank">daredevil</a> - A tool to perform (higher-order) correlation power analysis attacks (CPA).</li>
+                                        <li><a href="https://github.com/SideChannelMarvels/JeanGrey" target="_blank">jeangrey</a> - A tool to perform differential fault analysis attacks (DFA).</li>
+                                        <li><a href="https://github.com/danigargu/syms2elf" target="_blank">sysm2elf</a> - A plugin for Hex-Ray's IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.</li>
+                                        <li><a href="https://github.com/quarkslab/arybo" target="_blank">arybo</a> - Manipulation, canonicalization and identification of mixed boolean-arithmetic symbolic expressions.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
                         <article itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-08-31</time>
