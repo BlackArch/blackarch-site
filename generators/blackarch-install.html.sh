@@ -61,15 +61,15 @@ cat <<\EOF
         	3 options should now be displayed
         	</p>
         	<span class=sb>1. Install from repository using pacman</span> <p> This is the recommended option to select for the netinstall iso, it 
-will fetch the required package online trough the different base arch repository and the blackarch repo as well.</p>
-        	<span class=sb>2. Install from Live-ISO</span> <p> If you downloaded the live ISO. If you choose this option you will not need internet during the install process. However, in order to have an updated system, after the installation has finished, once you reach your install environment (after boot into fresh install) start a general update using <i class=blyellow>pacman -Syyu</i> .</p>
+will fetch the required packages from official arch repositories and the blackarch repositories as well.</p>
+        	<span class=sb>2. Install from Live-ISO</span> <p> If you downloaded the live ISO. If you choose this option you will not need internet during the install process. However, in order to have an updated system, after the installation has finished, once you reach your install environment (after you boot into the fresh install) start a general update using <i class=blyellow>pacman -Syyu</i> .</p>
         	<span class=sb>3. Install from source using blackman</span> <p> This is not a recommended option for beginners, instead of fetching the 
 prebuilt package from a repository as pacman does, this will get the source code and compile from source. It's similar to emerge available on a Gentoo system (blackman simply builds from source, emerge is infinitively more advanced and offers a ton of features)</p>
         	<img src="images/bl-install/4.png" alt="4">
         	<hr>
    			<p>
         	You now have to select the <i class=blgreen>keymap</i> you want. If you have a qwerty based keyboard, you can stick with the <i class=blgreen>us</i> keycode, however, this may be not always be the case. If you are unsure, you may <i class=blgreen>List available keymaps</i> on Blackarch by selecting 2.
-            Most of the time, the english country code is used : For a french azerty, the keymap will be <i class=blgreen>fr</i>, for a spanish <i class=blgreen>es</i> etc... If you know the keymap, set 1
+            Most of the time, the english country code is used. For a french azerty, the keymap will be <i class=blgreen>fr</i>, for a spanish <i class=blgreen>es</i> etc... If you know the keymap, set 1
         	</p>
         	<img src="images/bl-install/5.png" alt="5">
         	<hr>
@@ -79,21 +79,21 @@ prebuilt package from a repository as pacman does, this will get the source code
         	<img src="images/bl-install/6.png" alt="6">
         	<hr>
      		<p>
-      		The hostname is basically the name you want to give to your computer on your local network. It will resolve as the name given. You may choose whatever you like and this can be changed any time by editing the <i class=blyellow>/etc/hostname</i> file.
+      		The hostname is basically the name you want to give to your computer on your local network. It will resolve as the name given. You may choose whatever you like and this can be changed at any time by editing the <i class=blyellow>/etc/hostname</i> file.
       		</p>
       		<img src="images/bl-install/7.png" alt="7">
       		<hr>
       		<p>
-			A list of the available network interface will be displayed, as explained earlier, you should select your ethernet interface if possible, the script doesn't provide any support for the wifi. It's still possible to use wifi, but you will have to set it up by yourself.
+			A list of the available network interfaces will be displayed. As explained earlier, you should select your ethernet interface if possible, the script doesn't provide any support for wifi. It's still possible to use wifi, but you will have to set it up by yourself.
       		</p>
       		<img src="images/bl-install/8.png" alt="8">
       		<hr>
       		<span class=sb>1. Auto DHCP (use this if you work in the kitchen)</span> <p> The easy and recommended way to automatically setup your network information. (This will request/lease a local IP from your dhcp server/router for your device.)</p>
-      		<span class=sb>2. Manual (use this if you are 1337)</span> <p> If you choose the manual way, you will have to know the information of your network (your gateway, IP, mask, etc...)</p>
+      		<span class=sb>2. Manual (use this if you are 1337)</span> <p> If you choose the manual way, you will have to know the information of your network (your gateway, LAN IP address, subnet mask, etc...)</p>
       		<span class=sb>3. Skip (use this if you are already connected)</span> <p> In case your network interface is already setup and can reach the internet, use this option.</p>
       		<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>
-     		In some cases involving, a virtual environment such as VirtualBox or Qemu, some rules of your firewall may reject ICMP, wich will deny the <span class=blyellow>ping</span> and will block the install at this step since the script will exit, thinking your network interface is misconfigured. You can solve by this problem by editing the script located in <span class=blgreen>/usr/bin/blackarch-install</span> at the line 545 witch start as
+     		In some cases involving, a virtual environment such as VirtualBox or Qemu, some rules in your firewall may drop ICMP, wich will deny the <span class=blyellow>ping</span> and will block the install at this step since the script will exit, thinking your network interface is misconfigured. You can solve by this problem by editing the script located in <span class=blgreen>/usr/bin/blackarch-install</span> at the line 545 witch start as
 
      		<span class=blgreen>if ! ping -c 1 github.com > /dev/null 2>&1</span> until the next fi (line 548), you have to comment each line of the block condition or remove it. Once the edit made and save, run the <span class=blyellow>blackarch-install</span> and repeat the install.
      	    </div>
@@ -106,7 +106,7 @@ you have a slow download speed, this can take some time. Go grab a coffee!
       		</p>
       		<img src="images/bl-install/10.png" alt="10">
       		<hr>
-      		<p>Once the install of the basic system is done, you will have to setup partitions on the device where Blackarch will be installed. You 
+      		<p>Once the script is done getting things ready, you will have to setup partitions on the device where Blackarch will be installed. You 
 will have to choose between having 2 or 3 partitions</p>
       		<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>
@@ -116,7 +116,7 @@ will have to choose between having 2 or 3 partitions</p>
      		<p>* The swap partition is optional and can be avoided on a virtual machine. It's still recommended to make a small one to avoid any crash due to a potential problem with your ram.</p>
      		</div>
 
-			<div>In case more than 2 devices get listed and you are not sure wich is the right one you want to install to, you can use <i class=blyellow>fdisk</i> to display the size of the target device, for exemple, if you have sda listed and want to know the size of it and optionaly, the filesystem if any, enter
+			<div>In case more than 2 devices get listed and you are not sure which is the right one you want to install to, you can use <i class=blyellow>fdisk</i> to display the size of the target device, for exemple, if you have sda listed and want to know the size of it and optionally, the filesystem if any, enter
 			<i class=blyellow>fdisk -l -o device,size /dev/sda</i></div>
 
       		<img src="images/bl-install/11.png" alt="11">
@@ -152,7 +152,7 @@ will have to choose between having 2 or 3 partitions</p>
 			<img src="images/bl-install/17.png" alt="17">
 			<hr>
 			<div>
-			This will be our swap partition. Press enter and write this time <i class=blyellow>512M</i>. Press enter again and select <i class=blgreen>primary</i>.
+			This will be our swap partition. Press enter and write <i class=blyellow>512M</i>. Press enter again and select <i class=blgreen>primary</i>.
 			</div>
 			<img src="images/bl-install/18.png" alt="18">
 			<hr>
@@ -170,11 +170,11 @@ will have to choose between having 2 or 3 partitions</p>
 			<img src="images/bl-install/20.png" alt="20">
 			<hr>
 			<div>
-			You have the choice to fully encrypt your root partition with <i class=blgreen>LUKS</i>. It's recommended to set <i class=blyellow>y</i> as your data may be sensitive and you want to keep it private from anyone <i>(in case your computer gets stolen or is taken by some agency...)</i>. Do not make something too easy as it can be bruteforced, a good and easy password can be to make a little sentence with some number wich sound familiar to you, for example : <i class=blgreen>myRedhouse&intheCornerof21s*tr33t</i> or <i class=blgreen>myfirst*beerwas&onWhen15yearsOld</i> ... Only use a uniq password and <b>NEVER use the same password as ROOT or for one user system</b> </div>
+			You have the choice to fully encrypt your root partition with <i class=blgreen>LUKS</i>. It's recommended to set <i class=blyellow>y</i> as your data may be sensitive and you want to keep it private from anyone <i>(in case your computer gets stolen or is taken by some agency...)</i>. Do not make something too easy as it can be bruteforced. </div>
 			<div>Be aware that if you forget the password to unlock your <i class=blgreen>LUKS</i> partition, the data nor the password can be recovered, a good move would be to write down the password on a piece of paper, and hide it somewhere safe. This can save you from trouble in case you can't remember it.</div>
 			<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>
-     		<div>If you have a SSD hard drive, encrypt the data with luks will drastically reduce the lifetime of the device. Encrypt the stored data require a lot of disk writing (uncrypt as well), you can fix this problem by adding <span class=bgreen>root_trim=yes</span> as option in your bootloader.</div>
+     		<div>If you have an SSD, if you encrypt the data with luks it will drastically reduce the lifetime of the SSD. Encrypting the stored data requires a lot of disk writing (uncrypt as well), you can fix this problem by adding <span class=bgreen>root_trim=yes</span> as option in your bootloader.</div>
      		For grub, look for the line of the current used kernel, similar of the following : <span class=blgreen>linux /vmlinuz ...  root=/dev/mapper/ ... root_trim=yes</span> (add it at the end of the line)
      		</div>
 			<img src="images/bl-install/21.png" alt="21">
@@ -185,10 +185,10 @@ will have to choose between having 2 or 3 partitions</p>
 			<img src="images/bl-install/22.png" alt="22">
 			<hr>
 			<div>
-			The script will ask you 3 times to confirm. The last one must be confirmed with <i class=blyellow>YES</i> (caps letter required).
+			(If you choose to use LUKS) The script will ask you 3 times to confirm. The last one must be confirmed with <i class=blyellow>YES</i> (capital letters required).
 			</div>
 			<p>If you have chose the full encrypted root option, you will have to define the password. A prompt asking for it at each boot will be displayed soon after the bootloader.</p>
-			<p>When you confirm the password, the root partition will immediately be encrypted. After it fully encrypts the partition, the install script needs to mount the device, enter you password again to unclock the root partition so the install script can mount it and complete the installation.</p>
+			<p>When you confirm the password, the root partition will immediately be encrypted. After it fully encrypts the partition, the install script needs to mount the device, enter your password again to unclock the root partition so the install script can mount it and complete the installation.</p>
 		    <img src="images/bl-install/25.png" alt="26">
 		    <hr>
 			<p>
@@ -213,12 +213,12 @@ will have to choose between having 2 or 3 partitions</p>
             <img src="images/bl-install/31.png" alt="31">
             <hr>
             <p>
-            You will have the choice to download the VirtualBox guest additions/tools, if you are not interested, press <i class=blyellow>n</i> and hit enter. If you want the Blackarch tools, saying <i class=blyellow>y</i> will download more than 1500 tools of the Blackarch repo, you can fetch those later if you want, this can be passed.
+            You will have the choice to download the VirtualBox guest additions/tools, if you are not interested, press <i class=blyellow>n</i> and hit enter. If you want the Blackarch tools, saying <i class=blyellow>y</i> will download and install more than 1500 tools from the Blackarch repo, you can fetch those later if you want. This is an option that can be skipped.
             </p>
             <img src="images/bl-install/33.png" alt="33">
             <hr>
             <p>
-            If you ever wonder what the meaning of that is, Just a "Joke" made by a dev. In other words, this means that its the end of the installation. You can now reboot and access your new Blackarch Linux system.
+            If you ever wonder what the meaning of that is. It's just a "Joke" made by a developer. In other words, this means that its the end of the installation. You can now reboot and access your new Blackarch Linux system.
             </p>1
             <img src="images/bl-install/34.png" alt="34">
             <hr>
@@ -228,7 +228,7 @@ will have to choose between having 2 or 3 partitions</p>
        		<img src="images/bl-install/35.png" alt="35">
        		<hr>
        		<p>
-       		Enjoy Blackarch Linux, and remember the developers/contributors of BlackArch Linux are volunteers. All the work provided is free and was done in their free time. You can help us by making a <a class=donate href="donate.html" title="Donatation to Blackarch">donate</a> which will be used for this project only.
+       		Enjoy Blackarch Linux, and remember the developers/contributors of BlackArch Linux are volunteers. All the work provided is free and was done in their free time. You can help us by making a <a class=donate href="donate.html" title="Donate to Blackarch">donation</a> which will be used for this project only.
        		</p>
             </div>
        	</div>
