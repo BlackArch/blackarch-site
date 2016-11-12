@@ -60,9 +60,11 @@ cat <<\EOF
         	<p>
         	3 options should now be displayed
         	</p>
-        	<span class=sb>1. Install from repository using pacman</span> <p> This is the recommanded option to select for the netinstall iso, it will fetch the required package online trough the different base arch repository and the blackarch repo as well.</p>
+        	<span class=sb>1. Install from repository using pacman</span> <p> This is the recommended option to select for the netinstall iso, it 
+will fetch the required package online trough the different base arch repository and the blackarch repo as well.</p>
         	<span class=sb>2. Install from Live-ISO</span> <p> If you downloaded the live ISO. If you choose this option you will not need internet during the install process. However, in order to have an updated system, after the installation has finished, once you reach your install environment (after boot into fresh install) start a general update using <i class=blyellow>pacman -Syyu</i> .</p>
-        	<span class=sb>3. Install from source using blackman</span> <p> This is not a recommanded option for beginners, instead of fetching the prebuilt package from a repository as pacman does, this will get the source code and compile from source. It's similar to emerge available on a Gentoo system (blackman simply builds from source, emerge is infinitively more advanced and offers a ton of features)</p>
+        	<span class=sb>3. Install from source using blackman</span> <p> This is not a recommended option for beginners, instead of fetching the 
+prebuilt package from a repository as pacman does, this will get the source code and compile from source. It's similar to emerge available on a Gentoo system (blackman simply builds from source, emerge is infinitively more advanced and offers a ton of features)</p>
         	<img src="images/bl-install/4.png" alt="4">
         	<hr>
    			<p>
@@ -99,11 +101,13 @@ cat <<\EOF
       		<img src="images/bl-install/9.png" alt="9">
       		<hr>
       		<p>
-      		Pacman will now update each repo, download and install some basic system packages needed for the next step of the Blackarch install. If you have low speed connection, it can take some time. Go grab a coffee!
+      		Pacman will now update each repo, download and install some basic system packages needed for the next step of the Blackarch install. If 
+you have a slow download speed, this can take some time. Go grab a coffee!
       		</p>
       		<img src="images/bl-install/10.png" alt="10">
       		<hr>
-      		<p>Once the install of the basic system done, you will have to setup partitions on the device where Blackarch will be installed. You will have to choose between 2 or 3 partition</p>
+      		<p>Once the install of the basic system is done, you will have to setup partitions on the device where Blackarch will be installed. You 
+will have to choose between having 2 or 3 partitions</p>
       		<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>
      		<p>1) Boot partition</p>
@@ -133,7 +137,7 @@ cat <<\EOF
 			<img src="images/bl-install/14.png" alt="14">
 			<hr>
 			<div>
-			Using the arrow, go to <i class=blyellow>New</i>, push enter and write <i class=blyellow>500M</i>, This is enough space for most users since you won't have more than 3 different kernel at the same time.
+			Using the arrow, go to <i class=blyellow>New</i>, push enter and write <i class=blyellow>500M</i>, This is enough space for most users since you won't have more than 3 different kernels at the same time.
 			</div>
 			<img src="images/bl-install/15.png" alt="15">
 			<hr>
@@ -166,7 +170,7 @@ cat <<\EOF
 			<img src="images/bl-install/20.png" alt="20">
 			<hr>
 			<div>
-			You have the choice to fully encrypt your root partition with <i class=blgreen>LUKS</i>. It's recommanded to set <i class=blyellow>y</i> as your data may be sensitive and you want to keep it private from anyone <i>(in case your computer gets stolen or is taken by some agency...)</i>. Do not make something too easy as it can be bruteforced, a good and easy password can be to make a little sentence with some number wich sound familiar to you, for example : <i class=blgreen>myRedhouse&intheCornerof21s*tr33t</i> or <i class=blgreen>myfirst*beerwas&onWhen15yearsOld</i> ... Only use a uniq password and <b>NEVER use the same password as ROOT or for one user system</b> </div>
+			You have the choice to fully encrypt your root partition with <i class=blgreen>LUKS</i>. It's recommended to set <i class=blyellow>y</i> as your data may be sensitive and you want to keep it private from anyone <i>(in case your computer gets stolen or is taken by some agency...)</i>. Do not make something too easy as it can be bruteforced, a good and easy password can be to make a little sentence with some number wich sound familiar to you, for example : <i class=blgreen>myRedhouse&intheCornerof21s*tr33t</i> or <i class=blgreen>myfirst*beerwas&onWhen15yearsOld</i> ... Only use a uniq password and <b>NEVER use the same password as ROOT or for one user system</b> </div>
 			<div>Be aware that if you forget the password to unlock your <i class=blgreen>LUKS</i> partition, the data nor the password can be recovered, a good move would be to write down the password on a piece of paper, and hide it somewhere safe. This can save you from trouble in case you can't remember it.</div>
 			<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>
@@ -176,7 +180,7 @@ cat <<\EOF
 			<img src="images/bl-install/21.png" alt="21">
 			<hr>
 			<p>
-			The filesystem for each of those partitions must be defined. Ext4 is the default choice since it's the latest made and is very reliable. First, boot will be <i class=blyellow>/dev/sda1</i> and choose <i class=blyellow>ext4</i> for the filesystem, second partition will be the root, write <i class=blyellow>/dev/sda3</i> and choose <i class=blyellow>ext4</i> as filesystem. The last one will be the swap, write <i class=blyellow>/dev/sda2</i> or just push enter if you haven't created one.
+			The filesystem for each of those partitions must be defined. Ext4 is the default choice since it's the most recent. First, boot will be <i class=blyellow>/dev/sda1</i> and choose <i class=blyellow>ext4</i> for the filesystem, second partition will be the root, write <i class=blyellow>/dev/sda3</i> and choose <i class=blyellow>ext4</i> as filesystem. The last one will be the swap, write <i class=blyellow>/dev/sda2</i> or just push enter if you haven't created one.
 			</p>
 			<img src="images/bl-install/22.png" alt="22">
 			<hr>
