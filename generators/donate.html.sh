@@ -19,18 +19,18 @@ cat <<\EOF
         <!-- /.row -->
         <!-- Content Row -->
         <p>
-            BlackArch Linux is entirely free and open source. The team-members work in their free time (voluntary). Despite the large amount of the time spend, every day, for the general interest, the hosting of the website, domain name, download mirror,
-            testing hardware... aren't free.
+            BlackArch Linux is entirely free and open source. The team-members work in their free time (voluntary). Despite the large amount of the time spent every day. Another thing that this project requires to keep moving forward is donations. For instance, the hosting of the website, domain name, download mirror,
+            testing hardware... isn't free.
         </p>
         <p>
-            Every donate, even the most modest, is a great help and will be use only for pay our actual bill and fund the future features of the project. We appreciate your interest
-            for our work and hope you will always find satisfaction.
+            Every donation, even the most modest, is a great help and will be used only to pay for Blackarch expenses, and fund the future developemnt of the project. We appreciate your interest
+            in this project as we continue to develop Blackarch Linux.
         </p>
         <p>
-        	There is many way to help us, money is of course a must but in case you can't give a financial contributing, you may help by translating, offering support to the other users in need, give some of your time to improve Blackarch or, by a simple star of our repo on github...
+        	There are many ways to help us. Money is of course a must. But, if you can't give a financial contribution, you may help by in another way. For example: translating, offering support to users in need (in IRC), or anything that can help improve Blackarch. Also, a simple star of the Blackarch repository on Github goes a long way... :D
         </p>
    		<p>
-            We also welcome any organisation/company interested in to become an official sponsor of BlackArch. You can contact us by IRC or by email.
+            We also welcome any organisation/company interested in becoming an official sponsor of BlackArch Linux. You can contact us by IRC or by email.
         </p>
         <br />
         <div id=givenow>
