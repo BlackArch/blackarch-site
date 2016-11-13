@@ -30,7 +30,7 @@ cat <<\EOF
         	There are many ways to help us. Money is of course a must. But, if you can't give a financial contribution, you may help in another way. For example: translating, offering support to users in need (in IRC), or anything that can help improve Blackarch. Also, a simple star of the Blackarch repository on Github goes a long way... :D
         </p>
    		<p>
-            We also welcome any organisation/company interested in becoming an official sponsor of BlackArch Linux. You can contact us by IRC or by email.
+            We also welcome any organization/company interested in becoming an official sponsor of BlackArch Linux. You can contact us by IRC or by email.
         </p>
         <br />
         <div id=givenow>
