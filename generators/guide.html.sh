@@ -23,7 +23,7 @@ cat <<\EOF
             <div class="col-md-12">
                 <p>
                 This is the official guide to BlackArch Linux. It is quite new. Kindly excuse all typos and errors. Soon, this guide will contain all of the information
-                about BlackArch Linux you could possible imagine. We offer the guide chapter by chapter in PDF format.
+                about BlackArch Linux you could possibly imagine. We offer the guide chapter by chapter in PDF format.
                 </p>
             	<p>
                 We also offer an online quick-guide on how to install BlackArch Linux using the live or netinstall ISOs. You can find the tutorial <a class=blinstall href="blackarch-install.html">here</a>. It is written for beginners and has the goal to keep it simple.
