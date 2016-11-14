@@ -14,7 +14,7 @@ cat <<EOF
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
                     BlackArch Linux is compatible with existing Arch installs. For more information, see the
 					<a href="downloads.html#install-repo">installation instructions</a>.
-                    Also, news is published on our <a href="blog.html">blog</a> site.
+                    Also, news is published on our <a href="blog.html">blog</a>.
                 </p>
                 <p>
                     Please note that BlackArch is a relatively new project. To report bugs and request new tools, please visit the
