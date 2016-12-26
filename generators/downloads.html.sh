@@ -23,6 +23,7 @@ cat <<\EOF
             <div class="col-md-3">
                 <div class="list-group">
                     <a href="#iso-download" class="list-group-item active">Live ISOs</a>
+                    <a href="#ova-download" class="list-group-item">OVA Images</a>
                     <a href="#install-repo" class="list-group-item">Installing on top of ArchLinux</a>
                     <a href="#install-iso" class="list-group-item">Installing from ISO</a>
                     <a href="#blackarch-arm" class="list-group-item">ARM</a>
@@ -100,6 +101,44 @@ cat <<\EOF
                                 <b>Default Login</b>
                                 <br>
                                 The default login for all ISOs is:
+                                <strong>root:blackarch</strong>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel panel-default text-left">
+                    <div id=ova-download class="panel-heading">
+                        <b>OVA Images</b>
+                    </div>
+                    <ul class="list-group" itemscope itemtype="https://schema.org/CreativeWork">
+                        <li class="list-group-item">
+                            <p itemprop="about">
+                            The following list contains official BlackArch (x86_64) OVA images. You can run these images in Virtualbox, VMware and QEMU.
+								<br><br>
+							    If possible, please try to use a mirror near you to download the OVA images. You can find a <a href="#mirror-list">list of mirrors</a> below.
+						    </p>
+                            <hr />
+                            <table id=download>
+                                <tr>
+                                    <td><b>Image</b></td>
+                                    <td><b>Version</b></td>
+                                    <td><b>Torrent</b></td>
+                                    <td><b>Size</b></td>
+                                    <td><b>SHA1sum</b></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.blackarch.org/blackarch/ova/blackarchlinux-2016.12.24-x86_64.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                                    <td itemprop="datePublished">2016.12.24</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-2016.12.24-x86_64.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>13 GB</td>
+                                    <td>891bd7a8c47a23209491d8ca04eadb30db8f79f2</td>
+                                </tr>
+                            </table>
+                            <hr />
+                            <p>
+                                <b>Default Login</b>
+                                <br>
+                                The default login for all OVA images is:
                                 <strong>root:blackarch</strong>
                             </p>
                         </li>
