@@ -127,9 +127,9 @@ cat <<\EOF
                                     <td><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://www.blackarch.org/blackarch/ova/blackarchlinux-2016.12.24-x86_64.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                                    <td><a href="https://www.blackarch.org/blackarch/ova/blackarch-linux-2016.12.24-x86_64.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
                                     <td itemprop="datePublished">2016.12.24</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-2016.12.24-x86_64.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarch-linux-2016.12.24-x86_64.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>13 GB</td>
                                     <td>891bd7a8c47a23209491d8ca04eadb30db8f79f2</td>
                                 </tr>
