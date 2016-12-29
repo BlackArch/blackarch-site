@@ -61,28 +61,28 @@ cat <<\EOF
                                 <tr>
                                     <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.12.20-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                                     <td itemprop="datePublished">2016.12.20</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.12.20-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.12.29-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>6.3 GB</td>
                                     <td>93010d1a5c01b6873df71be6c0436c474fd5ee7b</td>
                                 </tr>
                                 <tr>
                                     <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-live-2016.12.20-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td itemprop="datePublished">2016.12.20</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.12.20-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2016.12.29-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>6.0 GB</td>
                                     <td>5a2e200142ddc509faa6f74be40050f35b62e27a</td>
                                 </tr>
                                 <tr>
                                     <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.12.20-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                                     <td itemprop="datePublished">2016.12.20</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.12.20-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.12.29-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>459 MB</td>
                                     <td>55d7c9632070300239d7dfc26231b6463c07f220</td>
                                 </tr>
                                 <tr>
                                     <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarchlinux-netinst-2016.12.20-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
                                     <td itemprop="datePublished">2016.12.20</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.12.20-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2016.12.29-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>387 MB</td>
                                     <td>f07b3add0802cd3ad593769519ed23ecf76c5bb8</td>
                                 </tr>
