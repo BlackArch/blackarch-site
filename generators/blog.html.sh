@@ -31,6 +31,27 @@ cat <<\EOF
 
                         <article itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
+                            <time itemprop="datePublished"> 2016-12-29</time>
+						    <h4 itemprop="name">New ISOs released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
+                            </p>
+                            <p>Here's the ChangeLog:</p>
+                                <ul>
+                                    <li>include linux kernel 4.8.13</li>
+                                    <li>include new installer version 0.3.1</li>
+                                    <li>updated all blackarch tools</li>
+                                </ul>
+                            </p>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div></article>
+
+                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
                             <time itemprop="datePublished"> 2016-12-20</time>
 						    <h4 itemprop="name">New BlackArch Linux OVA Image released!</h4>
                         </header>
