@@ -31,6 +31,44 @@ cat <<\EOF
 
                         <article itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
+                            <time itemprop="datePublished"> 2017-01-15</time>
+						    <h4 itemprop="name">BlackArch aarch64 repository released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                <p>We're happy to announce the release of aarch64 repository. All packages were build on a Raspberry Pi3 system.</p>
+                                <p> You can find the repository <a href="https://blackarch.org/blackarch/blackarch/os/aarch64/" target="_blank">here</a>.
+                            </p>
+                        </div>
+                        </article>
+
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2017-01-15</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    Following newest tools have been added:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/arxsys/dff" target="_blank">dff</a> - A Forensics Framework coming with command line and graphical interfaces.</li>
+                                        <li><a href="https://github.com/adaptivethreat/Empire" target="_blank">empire</a> - A PowerShell and Python post-exploitation agent.</li>
+                                        <li><a href="https://github.com/tylabs/quicksand_lite" target="_blank">quicksand-lite</a> - Command line tool for scanning streams within office documents plus xor db attack.</li>
+                                        <li><a href="https://github.com/NullHypothesis/exitmap" target="_blank">exitmap</a> - A fast and modular scanner for Tor exit relays.</li>
+                                        <li><a href="https://github.com/EgeBalci/Cminer/" target="_blank">cminer</a> - A tool for enumerating the code caves in PE files.</li>
+                                        <li><a href="https://codisec.com/veles/" target="_blank">veles</a> - New open source tool for binary data analysis.</li>
+                                        <li><a href="https://github.com/emptymonkey/revsh/" target="_blank">revsh</a> - A reverse shell with terminal support, data tunneling, and advanced pivoting capabilities.</li>
+                                        <li><a href="https://github.com/v1s1t0r1sh3r3/airgeddon" target="_blank">airgeddon</a> - Multi-use bash script for Linux systems to audit wireless networks.</li>
+                                        <li><a href="https://github.com/iagox86/poracle" target="_blank">poracle</a> - A tool for demonstrating padding oracle attacks.</li>
+                                        <li><a href="https://github.com/iagox86/hash_extender" target="_blank">hash-extender</a> - A hash length extension attack tool.</li>
+                                        <li><a href="https://github.com/daniel-araujo/proctal" target="_blank">proctal</a> - Provides a command line interface and a C library to manipulate the address space of a running program on Linux.</li>
+                                    </ul>
+	                            </div>
+                        </article>
+
+                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
                             <time itemprop="datePublished"> 2016-12-29</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
                         </header>
