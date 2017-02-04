@@ -175,6 +175,7 @@ burpsuite|1.7.15|An integrated platform for attacking web applications (free edi
 buttinsky|138.1a2a1b2|Provide an open source framework for automated botnet monitoring.| blackarch-networking |https://github.com/buttinsky/buttinsky
 bvi|1.4.0|A display-oriented editor for binary files operate like "vi" editor.| blackarch-binary |http://bvi.sourceforge.net/
 bytecode-viewer|222.42caddf|A Java 8/Android APK Reverse Engineering Suite.| blackarch-binary |https://github.com/Konloch/bytecode-viewer
+cachedump|1.1|A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).| blackarch-windows |https://packetstormsecurity.com/files/36781/cachedump.1.zip.html
 cadaver|0.23.3|Command-line WebDAV client for Unix| blackarch-networking |http://www.webdav.org/cadaver
 camscan|1.0057215|A tool which will analyze the CAM table of Cisco switches to look for anamolies.| blackarch-scanner |https://github.com/securestate/camscan
 canari|3.0|A transform framework for maltego| blackarch-forensic |http://www.canariproject.com/
@@ -749,6 +750,7 @@ lightbulb|24.96bf628|Python framework for auditing web applications firewalls.| 
 linenum|22.f7b184b|Scripted Local Linux Enumeration & Privilege Escalation Checks| blackarch-scanner |https://github.com/rebootuser/LinEnum
 linset|9.8746b1f|Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.| blackarch-automation |https://github.com/vk496/linset
 linux-exploit-suggester|32.9db2f5a|A Perl script that tries to suggest exploits based OS version number.| blackarch-recon |https://github.com/PenturaLabs/Linux_Exploit_Suggester
+linux-exploit-suggester.sh|24.02a0f6b|Linux privilege escalation auditing tool.| blackarch-recon |https://github.com/mzet-/linux-exploit-suggester
 lisa.py|37.5ded49d|An Exploit Dev Swiss Army Knife.| blackarch-exploitation |https://github.com/ant4g0nist/lisa.py
 list-urls|0.1|Extracts links from webpage| blackarch-misc |http://www.whoppix.net
 littleblackbox|0.1.3|Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.| blackarch-scanner |http://code.google.com/p/littleblackbox/wiki/FAQ
@@ -816,6 +818,7 @@ mibble|2.9.4|An open-source SNMP MIB parser (or SMI parser) written in Java. It 
 middler|1.0|A Man in the Middle tool to demonstrate protocol middling attacks.| blackarch-networking |http://code.google.com/p/middler/
 mikrotik-npk|11.d54e97c|Python tools for manipulating Mikrotik NPK format.| blackarch-reversing |https://github.com/kost/mikrotik-npk
 mimikatz|2.1.0_20161126|A little tool to play with Windows security.| blackarch-windows |https://github.com/gentilkiwi/mimikatz
+mingsweeper|1.00|A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.| blackarch-windows |http://www.hoobie.net/mingsweeper/
 minimodem|334.d4ce821|A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing protocols.| blackarch-misc |https://github.com/kamalmostafa/minimodem
 minimysqlator|0.5|A multi-platform application used to audit web sites in order to discover and exploit SQL injection vulnerabilities.| blackarch-exploitation |http://www.scrt.ch/en/attack/downloads/mini-mysqlat0r
 miranda-upnp|1.3|A Python-based Universal Plug-N-Play client application designed to discover, query and interact with UPNP devices| blackarch-exploitation |http://code.google.com/p/miranda-upnp/
@@ -889,6 +892,7 @@ netscan|1.0|Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5
 netscan2|43.c225f25|Active / passive network scanner.| blackarch-scanner |https://github.com/walchko/netscan2
 netsed|1.2|Small and handful utility design to alter the contents of packets forwarded thru network in real time.| blackarch-networking |http://silicone.homelinux.org/projects/netsed/
 netsniff-ng|0.6.2|A high performance Linux network sniffer for packet inspection.| blackarch-sniffer |http://netsniff-ng.org/
+netstumbler|0.4.0|Well-known wireless AP scanner and sniffer.| blackarch-windows |http://www.netstumbler.com/downloads/
 network-app-stress-tester|19.df75391|Network Application Stress Testing Yammer.| blackarch-dos |https://github.com/PherricOxide/Network-App-Stress-Tester
 networkmap|58.f5faf17|Post-exploitation network mapper.| blackarch-networking |https://github.com/lorenzog/NetworkMap
 netzob|1.0rc1|An open source tool for reverse engineering, traffic generation and fuzzing of communication protocols.| blackarch-reversing |http://www.netzob.org/
@@ -1313,6 +1317,7 @@ sqlmap|1.1|Automatic SQL injection and database takeover tool| blackarch-webapp 
 sqlninja|0.2.999|A tool targeted to exploit SQL Injection vulnerabilities on a web application that uses Microsoft SQL Server as its back-end.| blackarch-exploitation |http://sqlninja.sourceforge.net/
 sqlpat|1.0.1|This tool should be used to audit the strength of Microsoft SQL Server passwords offline.| blackarch-cracker |http://www.cqure.net/wp/sqlpat/
 sqlping|4|SQL Server scanning tool that also checks for weak passwords using wordlists.| blackarch-windows |http://www.sqlsecurity.com/downloads
+sqlpowerinjector|1.2|Application created in .Net 1.1 that helps the penetration tester to find and exploit SQL injections on a web page.| blackarch-windows |http://www.sqlpowerinjector.com/download.htm
 sqlsus|0.7.2|An open source MySQL injection and takeover tool, written in perl| blackarch-exploitation |http://sqlsus.sourceforge.net/
 ssdp-scanner|1.0|SSDP amplification scanner written in Python. Makes use of Scapy.| blackarch-scanner |http://packetstormsecurity.com/files/127994/SSDP-Amplification-Scanner.html
 ssh-privkey-crack|0.4|A SSH private key cracker.| blackarch-cracker |https://code.google.com/p/lusas/
@@ -1536,6 +1541,7 @@ weevely|708.115c265|Weaponized web shell.| blackarch-backdoor |http://epinna.git
 wepbuster|1.0_beta_0.7|script for automating aircrack-ng| blackarch-wireless |http://code.google.com/p/wepbuster/
 wfuzz|50.a589195|Utility to bruteforce web applications to find their not linked resources.| blackarch-fuzzer |https://github.com/xmendez/wfuzz
 whatportis|34.66a04b2|A command to search port names and numbers.| blackarch-misc |https://github.com/ncrocfer/whatportis
+whatsmyname|199.9b3d9c0|Tool to perform user and username enumeration on various websites.| blackarch-webapp |https://github.com/WebBreacher/WhatsMyName
 whatweb|4194.039768f4|Next generation web scanner that identifies what websites are running.| blackarch-recon |http://www.morningstarsecurity.com/research/whatweb
 whitewidow|562.feb511f|SQL Vulnerability Scanner.| blackarch-scanner |https://github.com/Ekultek/whitewidow
 wi-feye|1.1|An automated wireless penetration testing tool written in python, its designed to simplify common attacks that can be performed on wifi networks so that they can be executed quickly and easily.| blackarch-wireless |http://wi-feye.za1d.com/download.php
