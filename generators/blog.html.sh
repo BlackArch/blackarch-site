@@ -29,6 +29,30 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+								<header>
+									<time itemprop="datePublished">2017-02-05</time>
+									<h4 itemprop="name">Newest tools added!</h4>
+								</header>
+		                        <div itemprop="description">
+                                    <p>
+                                    More than 20 new tools have been added to the repository. Some of them are listed here:
+                                    </p>
+                                    <ul>
+                                        <li><a href="https://github.com/r00t-3xp10it/backdoorppt" target="_blank">backdoorppt</a> - Transform your payload.exe into one fake word doc (.ppt).</li>
+                                        <li><a href="https://github.com/EgeBalci/HERCULES" target="_blank">hercules-payload</a> - A special payload generator that can bypass all antivirus software.</li>
+                                        <li><a href="https://github.com/4w4k3/Insanity-Framework" target="_blank">insanity</a> - enerate Payloads and Control Remote Machines.</li>
+                                        <li><a href="https://github.com/mauro-g/snuck" target="_blank">snuck</a> - Automatic XSS filter bypass.</li>
+                                        <li><a href="https://github.com/mzet-/linux-exploit-suggester" target="_blank">linux-exploit-suggester.sh</a> - Linux privilege escalation auditing tool.</li>
+                                        <li><a href="http://www.vicenteaguileradiaz.com/tools/" target="_blank">tinfoleak2</a> - Get detailed information about a Twitter user activity.</li>
+                                        <li><a href="https://github.com/Hackplayers/iptodomain" target="_blank">iptodomain</a> - This tool extract domains from IP address based in the information saved in virustotal.</li>
+                                    </ul>
+                                    <p>
+                                    In order to install all newest tools, please run: 'pacman -Syyu --needed --force blackarch`
+                                    </p>
+	                            </div>
+                        </article>
+
                         <article itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2017-01-28</time>
