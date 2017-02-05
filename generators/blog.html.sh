@@ -38,6 +38,7 @@ cat <<\EOF
                                     <p>
                                     More than 20 new tools have been added to the repository. Some of them are listed here:
                                     </p>
+                                    <p>
                                     <ul>
                                         <li><a href="https://github.com/r00t-3xp10it/backdoorppt" target="_blank">backdoorppt</a> - Transform your payload.exe into one fake word doc (.ppt).</li>
                                         <li><a href="https://github.com/EgeBalci/HERCULES" target="_blank">hercules-payload</a> - A special payload generator that can bypass all antivirus software.</li>
@@ -47,6 +48,7 @@ cat <<\EOF
                                         <li><a href="http://www.vicenteaguileradiaz.com/tools/" target="_blank">tinfoleak2</a> - Get detailed information about a Twitter user activity.</li>
                                         <li><a href="https://github.com/Hackplayers/iptodomain" target="_blank">iptodomain</a> - This tool extract domains from IP address based in the information saved in virustotal.</li>
                                     </ul>
+                                    </p>
                                     <p>
                                     In order to install all newest tools, please run: 'pacman -Syyu --needed --force blackarch`
                                     </p>
