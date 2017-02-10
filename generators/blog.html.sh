@@ -31,7 +31,7 @@ cat <<\EOF
 
                         <article itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
-                            <time itemprop="datePublished"> 2017-01-28</time>
+                            <time itemprop="datePublished"> 2017-02-10</time>
 						    <h4 itemprop="name">Server Migration, DNS Changes and HTTPS!</h4>
                         </header>
                         <div itemprop="description">
