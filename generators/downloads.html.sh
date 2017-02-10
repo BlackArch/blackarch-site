@@ -255,10 +255,7 @@ cat <<\EOF
                             <a href="http://mirror.alexiobash.com/blackarch/" target="_blank" itemprop="url">http://mirror.alexiobash.com/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
-                            <a href="http://www.blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.blackarch.org/blackarch/</a><br>
-                            <a href="https://www.blackarch.org/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/</a><br>
-                            <a href="rsync://blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.org/blackarch/</a><br>
-                            <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a><br>
+                                                        <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a><br>
                             <a href="http://blackarch.dropswitch.net/blackarch/" target="_blank" itemprop="url">http://blackarch.dropswitch.net/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/cn.png" alt="China" /> China<br>
@@ -276,6 +273,8 @@ cat <<\EOF
                             <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank" itemprop="url">http://mirror.espoch.edu.ec/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/fr.png" alt="France" /> France<br>
+                            <a href="https://www.blackarch.org/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/</a><br>
+                            <a href="rsync://blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.org/blackarch/</a><br>
                             <a href="http://blackarch.tamcore.eu/" target="_blank" itemprop="url">http://blackarch.tamcore.eu/</a><br>
                             <a href="https://blackarch.tamcore.eu/" target="_blank" itemprop="url">https://blackarch.tamcore.eu/</a><br>
                             <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank" itemprop="url">rsync://blackarch.tamcore.eu/blackarch/</a><br>
