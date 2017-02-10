@@ -41,23 +41,6 @@ cat <<\EOF
                             <p>
                                 If you used HTTP please make sure to update this to HTTPS!
                             </p>
-                            <p>Here's the ChangeLog:</p>
-                                <ul>
-                                    <li>add 20 new tools</li>
-                                    <li>update blackarch installer to 0.3.2 (bugfixes)</li>
-                                    <li>fix shadow permissions (thx to ldionmarcil)</li>
-                                    <li>fix f*cking ruby tools (wpscan, metasploit, etc.)</li>
-                                    <li>include linux kernel 4.9.6</li>
-                                    <li>add vmware support (installer)</li>
-                                    <li>updated locale.gen list</li>
-                                    <li>updated all system packages</li>
-                                    <li>updated all blackarch tools</li>
-                                    <li>updated menu entries for windows managers (awesome, fluxbox, openbox)</li>
-                                </ul>
-                            </p>
-                            <p>
-                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
-                            </p>
                         </div>
                         </article>
 
