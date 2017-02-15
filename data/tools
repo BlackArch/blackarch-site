@@ -19,7 +19,7 @@ afl|2.39b|Security-oriented fuzzer using compile-time instrumentation and geneti
 afpfs-ng|0.8.1|A client for the Apple Filing Protocol (AFP)| blackarch-networking |http://alexthepuffin.googlepages.com/
 against|0.2|A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possible targets and a multithreaded brute-forcing module which attacks parallel all discovered hosts or given ip addresses from a list.| blackarch-cracker |http://nullsecurity.net/tools/cracker.html
 aggroargs|50.d56728a|Bruteforce commandline buffer overflows, linux, aggressive arguments.| blackarch-exploitation |https://github.com/tintinweb/aggroArgs
-aiengine|609.99e5b80|A packet inspection engine with capabilities of learning without any human intervention.| blackarch-networking |https://bitbucket.org/camp0/aiengine/
+aiengine|610.673392e|A packet inspection engine with capabilities of learning without any human intervention.| blackarch-networking |https://bitbucket.org/camp0/aiengine/
 aimage|3.2.5|A program to create aff-images.| blackarch-forensic |http://www.afflib.org
 air|2.0.0|A GUI front-end to dd/dc3dd designed for easily creating forensic images.| blackarch-forensic |http://air-imager.sourceforge.net/
 aircrack-ng|1.2rc4|Key cracker for the 802.11 WEP and WPA-PSK protocols| blackarch-wireless |http://www.aircrack-ng.org
@@ -78,6 +78,7 @@ atscan|1501.a1ee0c2|Server, Site and Dork Scanner.| blackarch-scanner |https://g
 atstaketools|0.1|This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.| blackarch-windows |http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html
 auto-xor-decryptor|7.2eb176d|Automatic XOR decryptor tool.| blackarch-crypto |http://www.blog.mrg-effitas.com/publishing-of-mrg-effitas-automatic-xor-decryptor-tool/
 automato|3.52dfd5f|Should help with automating some of the user-focused enumeration tasks during an internal penetration test.| blackarch-automation |https://github.com/skahwah/automato
+autonessus|22.d3dbe8d|This script communicates with the Nessus API in an attempt to help with automating scans.| blackarch-automation |https://github.com/redteamsecurity/AutoNessus
 autopsy|2.24|A GUI for The Sleuth Kit.| blackarch-forensic |http://www.sleuthkit.org/autopsy
 autopwn|177.2f3f605|Specify targets and run sets of tools against them.| blackarch-automation |https://github.com/nccgroup/autopwn
 autosint|78.432b2ae|Tool to automate common osint tasks.| blackarch-recon |https://github.com/bharshbarger/AutOSINT
@@ -276,6 +277,7 @@ creds|17.1ec8297|Harvest FTP/POP/IMAP/HTTP/IRC credentials along with interestin
 creepy|137.9f60449|A geolocation information gatherer. Offers geolocation information gathering through social networking platforms.| blackarch-scanner |http://github.com/ilektrojohn/creepy.git
 crosstool-ng|1.22.0|Versatile (cross-)toolchain generator.| blackarch-misc |http://crosstool-ng.org/
 crowbar|77.67293cc|A brute forcing tool that can be used during penetration tests. It is developed to support protocols that are not currently supported by thc-hydra and other popular brute forcing tools.| blackarch-cracker |https://github.com/galkan/crowbar
+crozono|18.853bdd7|A modular framework designed to automate the penetration testing of wireless networks from drones and such unconventional devices.| blackarch-drone |https://github.com/crozono/crozono-free
 crunch|3.6|A wordlist generator for all combinations/permutations of a given character set.| blackarch-automation |http://sourceforge.net/projects/crunch-wordlist/
 crypthook|17.0728cd1|TCP/UDP symmetric encryption tunnel wrapper.| blackarch-crypto |https://github.com/chokepoint/CryptHook
 cryptohazemultiforcer|1.31a|High performance multihash brute forcer with CUDA support.|-crypto blackarch-cracker |http://www.cryptohaze.com/multiforcer.php
@@ -864,7 +866,7 @@ mousejack|5.58b69c1|Wireless mouse/keyboard attack with replay/transmit poc.| bl
 mp3nema|0.4|A tool aimed at analyzing and capturing data that is hidden between frames in an MP3 file or stream, otherwise noted as "out of band" data.| blackarch-forensic |http://packetstormsecurity.com/files/76432/MP3nema-Forensic-Analysis-Tool.html
 mptcp|1.9.0|A tool for manipulation of raw packets that allows a large number of options.| blackarch-networking |http://packetstormsecurity.com/files/119132/Mptcp-Packet-Manipulator.9.0.html
 mptcp-abuse|6.b0eeb27|A collection of tools and resources to explore MPTCP on your network. Initially released at Black Hat USA 2014.| blackarch-networking |https://github.com/Neohapsis/mptcp-abuse
-mrtparse|453.99e8c5b|A module to read and analyze the MRT format data.| blackarch-misc |https://github.com/YoshiyukiYamauchi/mrtparse
+mrtparse|454.d2077b7|A module to read and analyze the MRT format data.| blackarch-misc |https://github.com/YoshiyukiYamauchi/mrtparse
 ms-sys|2.5.3|A tool to write Win9x-.. master boot records (mbr) under linux - RTM!| blackarch-backdoor |http://ms-sys.sourceforge.net/
 msf-mpc|23.eb2279a|Msfvenom payload creator.| blackarch-automation |https://github.com/g0tmi1k/mpc
 mssqlscan|0.8.4|A small multi-threaded tool that scans for Microsoft SQL Servers.| blackarch-scanner |http://www.cqure.net/wp/mssqlscan/
@@ -982,7 +984,7 @@ pack|0.0.4|Password Analysis and Cracking Kit| blackarch-cracker |http://thespra
 packerid|1.4|Script which uses a PEiD database to identify which packer (if any) is being used by a binary.| blackarch-binary |http://handlers.sans.org/jclausing/
 packet-o-matic|351|A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.| blackarch-networking |http://www.packet-o-matic.org/
 packeth|1.8.1|A Linux GUI packet generator tool for ethernet.| blackarch-networking |http://packeth.sourceforge.net/
-packetsender|170.61b3a32|An open source utility to allow sending and receiving TCP and UDP packets.| blackarch-networking |https://github.com/dannagle/PacketSender
+packetsender|171.92e47a1|An open source utility to allow sending and receiving TCP and UDP packets.| blackarch-networking |https://github.com/dannagle/PacketSender
 packit|1.0|A network auditing tool. Its value is derived from its ability to customize, inject, monitor, and manipulate IP traffic.| blackarch-networking |http://packit.sourceforge.net/
 pacumen|1.92a0884|Packet Acumen - Analyse encrypted network traffic and more (side-channel attacks).| blackarch-crypto |https://github.com/bniemczyk/pacumen
 padbuster|0.3.3|Automated script for performing Padding Oracle attacks.| blackarch-exploitation |http://www.gdssecurity.com/l/t.php
@@ -1046,7 +1048,7 @@ pip3line|92.5e27195|The Swiss army knife of byte manipulation.| blackarch-crypto
 pipal|1.1|A password analyser.| blackarch-cracker |http://www.digininja.org/projects/pipal.php
 pipeline|18.d90fc65|Designed to aid in targeted brute force password cracking attacks.| blackarch-cracker |https://github.com/hirnschallsebastian/Pipeline2
 pirana|0.3.1|Exploitation framework that tests the security of a email content filter.| blackarch-exploitation |http://www.guay-leroux.com/projects.html
-pixiewps|62.fd62b81|An offline WPS bruteforce utility.| blackarch-wireless |https://github.com/wiire/pixiewps
+pixiewps|67.f723d50|An offline WPS bruteforce utility.| blackarch-wireless |https://github.com/wiire/pixiewps
 pkcrack|1.2.2|A PkZip encryption cracker.| blackarch-cracker |https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/download1.html
 pkt2flow|1.3|A simple utility to classify packets into flows.| blackarch-networking |https://github.com/caesar0301/pkt2flow
 plasma|859.2ab2387|An interactive disassembler for x86/ARM/MIPS. It can generates indented pseudo-code with colored syntax.| blackarch-disassembler |https://github.com/joelpx/plasma
@@ -1112,7 +1114,7 @@ pyrit|0.5.0|The famous WPA precomputed cracker| blackarch-cracker |https://githu
 pyssltest|9.d7703f0|A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.| blackarch-scanner |https://github.com/moheshmohan/pyssltest
 pytacle|alpha2|Automates the task of sniffing GSM frames| blackarch-sniffer |http://packetstormsecurity.com/files/124299/pytacle-alpha2.tar.gz
 pytbull|2.0|A python based flexible IDS/IPS testing framework shipped with more than 300 tests.| blackarch-scanner |http://pytbull.sourceforge.net/
-pythem|341.553a513|Python penetration testing framework.| blackarch-scanner |https://github.com/m4n3dw0lf/PytheM
+pythem|343.87d0f27|Python penetration testing framework.| blackarch-scanner |https://github.com/m4n3dw0lf/PytheM
 python-capstone|3.0.4|A lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |http://www.capstone-engine.org/index.html
 python-jsbeautifier|1.6.9|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python-utidylib|0.2|Python bindings for Tidy HTML parser/cleaner.| blackarch-misc |http://utidylib.berlios.de
@@ -1380,7 +1382,7 @@ stompy|0.0.4|An advanced utility to test the quality of WWW session identifiers 
 storm-ring|0.1|This simple tool is useful to test a PABX with "allow guest" parameter set to "yes" (in this scenario an anonymous caller could place a call).| blackarch-voip |http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html
 striptls|51.c677483|Proxy PoC implementation of STARTTLS stripping attacks.| blackarch-proxy |https://github.com/tintinweb/striptls
 strutscan|4.8712c12|Apache Struts2 vulnerability scanner written in Perl.| blackarch-scanner |https://github.com/riusksk/StrutScan
-stunnel|5.39|A program that allows you to encrypt arbitrary TCP connections inside SSL| blackarch-networking |https://www.stunnel.org/
+stunnel|5.40|A program that allows you to encrypt arbitrary TCP connections inside SSL| blackarch-networking |https://www.stunnel.org/
 sub7|2.2|A remote administration tool. No further comments ;-)| blackarch-windows |https://dl.packetstormsecurity.net/trojans/Subseven.2.2.zip
 subbrute|1.2.1|A DNS meta-query spider that enumerates DNS records and subdomains| blackarch-scanner |https://github.com/TheRook/subbrute
 subdomainer|1.2|A tool designed for obtaining subdomain names from public sources.| blackarch-recon |http://www.edge-security.com/subdomainer.php
