@@ -219,7 +219,7 @@ will have to choose between having 2 or 3 partitions</p>
             <hr>
             <p>
             If you ever wonder what the meaning of that is. It's just a "Joke" made by a developer. In other words, this means that its the end of the installation. You can now reboot and access your new Blackarch Linux system.
-            </p>1
+            </p>
             <img src="images/bl-install/34.png" alt="34">
             <hr>
             <p>
