@@ -53,7 +53,6 @@ cat <<\EOF
                                     <p>
                                     More than 20 new tools have been added to the repository. Some of them are listed here:
                                     </p>
-                                    <p>
                                     <ul>
                                         <li><a href="https://github.com/r00t-3xp10it/backdoorppt" target="_blank">backdoorppt</a> - Transform your payload.exe into one fake word doc (.ppt).</li>
                                         <li><a href="https://github.com/EgeBalci/HERCULES" target="_blank">hercules-payload</a> - A special payload generator that can bypass all antivirus software.</li>
@@ -63,7 +62,6 @@ cat <<\EOF
                                         <li><a href="http://www.vicenteaguileradiaz.com/tools/" target="_blank">tinfoleak2</a> - Get detailed information about a Twitter user activity.</li>
                                         <li><a href="https://github.com/Hackplayers/iptodomain" target="_blank">iptodomain</a> - This tool extract domains from IP address based in the information saved in virustotal.</li>
                                     </ul>
-                                    </p>
                                     <p>
                                     In order to install all newest tools, please run: 'pacman -Syyu --needed --force blackarch`
                                     </p>
@@ -92,7 +90,6 @@ cat <<\EOF
                                     <li>updated all blackarch tools</li>
                                     <li>updated menu entries for windows managers (awesome, fluxbox, openbox)</li>
                                 </ul>
-                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -152,7 +149,6 @@ cat <<\EOF
                                     <li>include new installer version 0.3.1</li>
                                     <li>updated all blackarch tools</li>
                                 </ul>
-                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -191,7 +187,6 @@ cat <<\EOF
                                     <li>updated all system packages</li>
                                     <li>updated menus for window managers (awesome, fluxbox, openbox)</li>
                                 </ul>
-                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -308,7 +303,6 @@ cat <<\EOF
                                     <li>updated all blackarch tools</li>
                                     <li>updated all system packages</li>
                                 </ul>
-                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -331,7 +325,6 @@ cat <<\EOF
                                     <li>updated all blackarch tools</li>
                                     <li>updated all system packages</li>
                                 </ul>
-                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -366,7 +359,6 @@ cat <<\EOF
                                     <li>updated all system packages</li>
                                     <li>updated menu entries for window managers (awesome, fluxbox, openbox)</li>
                                 </ul>
-                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -488,7 +480,7 @@ cat <<\EOF
 								</header>
 		                        <div itemprop="description">
                                     <p>
-                                    We have released a simple BlackArch Linux Installation <a class=blinstall href="blackarch-install.html">tutorial</a> for beginners. </a>
+                                    We have released a simple BlackArch Linux Installation <a class=blinstall href="blackarch-install.html">tutorial</a> for beginners.
                                     </p>
                                     <p>
                                     Please excuse for any typos and wrong wordings left. We will fix those soon. Also, it is planned to make more tutorials of this kind, using the the way: Easy and complete with the goal to create an online Documentation repository of the
@@ -1336,7 +1328,7 @@ cat <<\EOF
             </div>
             <div class="col-md-4">
                 <div style="border: 1px solid #aaa; border-radius:4px; height:420px;">
-                    <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" data-widget-id="368746180060004352" data-theme="dark" height="418">Tweets by @blackarchlinux</a>
+                    <a class="twitter-timeline" href="https://twitter.com/blackarchlinux" data-widget-id="368746180060004352" data-theme="dark">Tweets by @blackarchlinux</a>
                     <script>
                         !function(d,s,id) {
                             var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
