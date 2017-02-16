@@ -9,6 +9,10 @@ cat <<EOF
                	<div class="page-header page-header-title">
 	                <h1>BlackArch</h1> <h2>Homepage</h2>
                 </div>
+        <div class="panel panel-default text-left">
+        <div class="panel-heading">
+            <b>About</b>
+        </div>
 		<div class=list-group-item>
                 <p>BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based penetration testing distribution for penetration testers
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
@@ -19,7 +23,8 @@ cat <<EOF
                     <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by <a href="community.html">IRC</a>, or
                     <a href="mailto:team@blackarch.org">email</a> us.</p>
                 <p>The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.</p>
-		</div>		
+		</div>
+        </div>
 	    <br><br><br>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/fluxbox.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/fluxbox.png" alt="BlackArch Linux with fluxbox"></a>
