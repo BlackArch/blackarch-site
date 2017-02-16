@@ -10,8 +10,11 @@ body {
 a:not(:.hcat) {
     color: #f40000;
 }
+.breadcrumb a {
+color: #FF0000;
+}
 a:hover {
-    color: #c40000;
+    color: #E53A2D;
 }
 .img-portfolio {
     margin-bottom: 30px;
@@ -234,16 +237,19 @@ margin:0 0 10px 0;
     border-bottom: 1px solid #ccc;
 }
 #tbl-minimalist tbody tr:hover > .tbl-name, #tbl-minimalist tbody tr:hover > .tbl-homepage {
-color:#C40000;
+color:white;
 }
 #tbl-minimalist tbody tr:hover > .vcat {
 color:#c8eea7;
 }
 #tbl-minimalist tbody tr:hover .dcat{
-color:#dadaff;
+color:#74BDF2;
 }
 #tbl-minimalist tbody tr:hover > .tbl-categorie > a.hcat {
-color:#ffffab;
+color:#FCBB41;
+}
+#tbl-minimalist tbody tr:hover {
+background-color:#3F3F3F;
 }
 .tbl-name, .tbl-version {
 max-width:140px;
@@ -256,22 +262,19 @@ box-sizing:border-box;
 padding:0 30px 0 0;
 box-sizing:border-box;
 }
-.tbl-homepage:first-child {
-
-}
 .tbl-homepage:not(:first-child) {
 text-align:center;
 margin:3px 0 3px 0;
 max-width:60px;
 }
 a.hcat {
-color:#e1e111;
+color:#F9B22A;
 }
 .vcat {
-color:#6ae400;
+color:#9ED035;
 }
 .dcat {
-color:#aeaeeb;
+color:#4BA6E7;
 }
 @media (max-width: 1000px) {
 	.tbl-categorie {

@@ -18,6 +18,7 @@ cat <<\EOF
         </div>
         <!-- /.row -->
         <!-- Content Row -->
+	<div class=list-group-item>
         <p>
             BlackArch Linux is entirely free and open source. The team-members work in their free time (voluntary). Despite the large amount of the time spent every day. Another thing that this project requires to keep moving forward is donations. For instance, the hosting of the website, domain name, download mirror,
             testing hardware... isn't free.
@@ -46,6 +47,7 @@ cat <<\EOF
 		</span>
 		<p class=act-display></p>
 		<noscript><p class=ns>1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn</p></noscript>
+	</div>
         </div>
         <!-- /.row -->
 EOF

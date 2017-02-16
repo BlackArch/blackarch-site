@@ -9,54 +9,38 @@ cat <<EOF
                	<div class="page-header page-header-title">
 	                <h1>BlackArch</h1> <h2>Homepage</h2>
                 </div>
-                <p>
-                    BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based penetration testing distribution for penetration testers
+		<div class=list-group-item>
+                <p>BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based penetration testing distribution for penetration testers
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
                     BlackArch Linux is compatible with existing Arch installs. For more information, see the
-					<a href="downloads.html#install-repo">installation instructions</a>.
-                    Also, news is published on our <a href="blog.html">blog</a>.
-                </p>
-                <p>
-                    Please note that BlackArch is a relatively new project. To report bugs and request new tools, please visit the
+		<a href="downloads.html#install-repo">installation instructions</a>.
+		Also, news is published on our <a href="blog.html">blog</a>.</p>
+                <p>Please note that BlackArch is a relatively new project. To report bugs and request new tools, please visit the
                     <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by <a href="community.html">IRC</a>, or
-                    <a href="mailto:team@blackarch.org">email</a> us.
-                </p>
-                <p>
-                    The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.
-                    <br /><br />
-                </p>
+                    <a href="mailto:team@blackarch.org">email</a> us.</p>
+                <p>The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.</p>
+		</div>		
+	    <br><br><br>
+            <div class="col-md-4 col-sm-6">
+                <a href="/images/screenshots/fluxbox.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/fluxbox.png" alt="BlackArch Linux with fluxbox"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/fluxbox.png">
-                    <img class="img-responsive img-portfolio img-hover" src="/images/screenshots/fluxbox.png" alt="BlackArch Linux with fluxbox">
-                </a>
+                <a href="/images/screenshots/openbox.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/openbox.png" alt="BlackArch Linux with openbox"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/openbox.png">
-                    <img class="img-responsive img-portfolio img-hover" src="/images/screenshots/openbox.png" alt="BlackArch Linux with openbox">
-                </a>
+                <a href="/images/screenshots/awesome.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/awesome.png" alt="BlackArch Linux with awesome wm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/awesome.png">
-                    <img class="img-responsive img-portfolio img-hover" src="/images/screenshots/awesome.png" alt="BlackArch Linux with awesome wm">
-                </a>
+                <a href="/images/screenshots/spectrwm.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/spectrwm.png" alt="BlackArch Linux with spectrwm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/spectrwm.png">
-                    <img class="img-responsive img-portfolio img-hover" src="/images/screenshots/spectrwm.png" alt="BlackArch Linux with spectrwm">
-                </a>
+                <a href="/images/screenshots/lxdm.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;" src="images/screenshots/lxdm.png" alt="BlackArch Linux with lxdm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/lxdm.png">
-                    <img class="img-responsive img-portfolio img-hover" style="height:224px;" src="/images/screenshots/lxdm.png" alt="BlackArch Linux with lxdm">
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/syslinux.png">
-					<img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="/images/screenshots/syslinux.png" alt="BlackArch Linux wallpaper">
-                </a>
+                <a href="/images/screenshots/syslinux.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="images/screenshots/syslinux.png" alt="BlackArch Linux wallpaper"></a>
             </div>
         </div>
+	</div>
         <!-- /.row -->
         <!-- developers -->
         <div class="row">
