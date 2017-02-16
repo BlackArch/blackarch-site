@@ -24,23 +24,32 @@ parse_db() {
 
     for d in "$tmp"/*
     do
-		#Name
+	#Name
         name="`grep --no-group-separator -A2 '^%NAME%$' ${d}/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%NAME%$'`"
 
-		#Version
+	#Version
         vers="`grep --no-group-separator -A2 '^%VERSION%$' ${d}/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%VERSION%$'`"
 
-		#Description
+	#Description
         desc="`grep --no-group-separator -A2 '^%DESC%$' ${d}/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%DESC%$'`"
 
-		#Categorie (add '0,/blackarch/s///' for remove first occurence only
+	#Categorie
+	# Add exception for the following package
+	if [[ "$name" == "truecrack" || "$name" == "cudahashcat" || "$name" == "cryptohazemultiforcer" ]]; then
+	       group=blackarch-cracker
+
+	elif [[ "$name" == "vmcloak" ]]; then
+	       group=blackarch-malware
+
+	else 
+	#All the other package (add '0,/blackarch/s///' for remove first occurence only
         group="`grep --no-group-separator -A2 '^%GROUPS%$' ${d}/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' -e '0,/blackarch/s///' | grep -v '^%GROUPS%$' |
         tr -s '\n' ' '`"
-
+	fi
 		#Website url
         url="`grep --no-group-separator -A2 '^%URL%$' ${d}/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%URL%$'`"
