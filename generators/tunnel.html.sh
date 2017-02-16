@@ -27,7 +27,7 @@ cat << EOF
 Packages that are used to tunnel network traffic on a given network.</p>
                 <br />
                 <p>
-                    <b>Tool count:</b> <a href="">${VOIP_COUNT}</a>
+                    <b>Tool count:</b> <a href="">${TUNNEL_COUNT}</a>
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">
@@ -55,7 +55,7 @@ cat << EOF
                                 <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
                             </tr>
 EOF
-done < data/voip
+done < data/tunnel
 
 cat <<\EOF
                         </tbody>
