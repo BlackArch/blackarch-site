@@ -29,7 +29,7 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p84 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2017-02-10</time>
 						    <h4 itemprop="name">Server Migration, DNS Changes and HTTPS!</h4>
@@ -44,7 +44,7 @@ cat <<\EOF
                         </div>
                         </article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p83 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2017-02-05</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -68,7 +68,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2017-01-28</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -96,7 +96,7 @@ cat <<\EOF
                         </div>
                         </article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p81 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2017-01-15</time>
 						    <h4 itemprop="name">BlackArch aarch64 repository released!</h4>
@@ -109,7 +109,7 @@ cat <<\EOF
                         </div>
                         </article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p80 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2017-01-15</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -134,7 +134,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p79 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-12-29</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -154,7 +154,7 @@ cat <<\EOF
                             </p>
                         </div></article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p78 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-12-20</time>
 						    <h4 itemprop="name">New BlackArch Linux OVA Image released!</h4>
@@ -168,7 +168,7 @@ cat <<\EOF
                             </p>
                         </div></article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p77 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-12-20</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -192,7 +192,7 @@ cat <<\EOF
                             </p>
                         </div></article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p76 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-11-12</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -215,7 +215,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+                        <article id=p75 itemscope itemtype="http://schema.org/NewsArticle"><header>
 						    <time itemprop="datePublished">2016-11-12</time>
 							<h4 itemprop="name">New mirror added in USA! </h4></header>
 							<div itemprop="description">
@@ -226,7 +226,7 @@ cat <<\EOF
                             </div>
                         </article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p74 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-11-06</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -250,7 +250,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p73 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-10-29</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -287,7 +287,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p72 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-08-31</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -308,7 +308,7 @@ cat <<\EOF
                             </p>
                         </div></article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p71 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-08-30</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -330,7 +330,7 @@ cat <<\EOF
                             </p>
                         </div></article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+                        <article id=p70 itemscope itemtype="http://schema.org/NewsArticle"><header>
 						    <time itemprop="datePublished">2016-08-24</time>
 							<h4 itemprop="name">New mirror added in USA! </h4></header>
 							<div itemprop="description">
@@ -341,7 +341,7 @@ cat <<\EOF
                             </div>
                         </article>
 
-                        <article itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p69 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2016-08-19</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -364,7 +364,7 @@ cat <<\EOF
                             </p>
                         </div></article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p68 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-29</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -386,7 +386,7 @@ cat <<\EOF
                                     </ul>
 	                            </div>
                         </article>
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p67 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-20</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -411,7 +411,7 @@ cat <<\EOF
                         </article>
 
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p66 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-19</time>
 									<h4 itemprop="name">Brazilian Translation added!</h4>
@@ -426,7 +426,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p65 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-19</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -450,7 +450,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p64 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-12</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -473,7 +473,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-						<article itemscope="" itemtype="http://schema.org/NewsArticle">
+						<article id=p63 itemscope="" itemtype="http://schema.org/NewsArticle">
 							    <header>
 									<time itemprop="datePublished">2016-07-09</time>
 									<h4 itemprop="name">BlackArch Linux Installation "Quick How to" added</h4>
@@ -489,7 +489,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-                        <article itemscope="" itemtype="http://schema.org/NewsArticle">
+                        <article id=p62 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-07-04</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -509,7 +509,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-						<article itemscope="" itemtype="http://schema.org/NewsArticle">
+						<article id=p61 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-06-20</time>
 									<h4 itemprop="name">Website update</h4>
@@ -527,7 +527,7 @@ cat <<\EOF
 	                            </div>
                         </article>
 
-						<article itemscope="" itemtype="http://schema.org/NewsArticle">
+						<article id=p60 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-06-13</time>
 									<h4 itemprop="name">Website update</h4>
@@ -545,7 +545,7 @@ cat <<\EOF
 	                            </div>
                             </article>
 
-							<article itemscope="" itemtype="http://schema.org/NewsArticle">
+							<article id=p59 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-06-02</time>
 									<h4 itemprop="name">Website update</h4>
@@ -561,7 +561,7 @@ cat <<\EOF
 	                            </div>
                             </article>
 
-							<article itemscope="" itemtype="http://schema.org/NewsArticle">
+							<article id=p58 itemscope="" itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-05-31</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -584,7 +584,7 @@ cat <<\EOF
 	                            </div>
                             </article>
 
-                            <article itemscope itemtype="http://schema.org/NewsArticle">
+                            <article id=p57 itemscope itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-05-20</time>
 									<h4 itemprop="name">Newest tools added!</h4>
@@ -604,7 +604,7 @@ cat <<\EOF
 	                            </div>
                             </article>
 
-							<article itemscope itemtype="http://schema.org/NewsArticle">
+							<article id=p56 itemscope itemtype="http://schema.org/NewsArticle">
 								<header>
                                     <time itemprop="datePublished">2016-05-07</time>
                                     <h4 itemprop="name">New mirror added in Ukraine !</h4>
@@ -617,7 +617,7 @@ cat <<\EOF
                                 </div>
                             </article>
 
-							<article itemscope itemtype="http://schema.org/NewsArticle">
+							<article id=p55 itemscope itemtype="http://schema.org/NewsArticle">
 								<header>
 									<time itemprop="datePublished">2016-05-05</time>
 									<h4 itemprop="name">New mirror added in Netherland!</h4>
@@ -630,7 +630,7 @@ cat <<\EOF
 	                            </div>
                             </article>
 
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<article id=p54 itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished">2016-05-05</time>
 							<h4 itemprop="name">New mirror added in USA! </h4></header>
 							<div itemprop="description">
@@ -640,7 +640,7 @@ cat <<\EOF
                                 <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank">ftp</a>
                             </div></article>
 
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<article id=p53 itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished">2016-04-29</time>
 							<h4 itemprop="name">New ISOs released! </h4></header>
                           <div itemprop="description">
@@ -665,7 +665,7 @@ cat <<\EOF
                             </div>
                             </article>
 
-                            <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+                            <article id=p52 itemscope itemtype="http://schema.org/NewsArticle"><header>
 								<time itemprop="datePublished"> 2016-04-28</time>
 								<h4 itemprop="name">New BlackArch Linux installer released! </h4></header>
                             <div itemprop="description">
@@ -675,7 +675,7 @@ cat <<\EOF
                                 <a href="https://github.com/BlackArch/blackarch-installer" target="_blank">blackarch-installer</a>
                             </div></article>
 
-                            <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+                            <article id=p51 itemscope itemtype="http://schema.org/NewsArticle"><header>
 								<time itemprop="datePublished"> 2016-03-12</time>
 								<h4 itemprop="name">New mirror added in Singapore!</h4></header>
 							<div itemprop="description">
@@ -686,7 +686,7 @@ cat <<\EOF
                             </div>
                             </article>
 
-                            <article itemscope itemtype="http://schema.org/NewsArticle"><header>
+                            <article id=p50 itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished"> 2016-01-11</time>
 							<h4 itemprop="name">New ISOs released!</h4></header>
                             <div itemprop="description">
@@ -709,7 +709,7 @@ cat <<\EOF
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<article id=p49 itemscope itemtype="http://schema.org/NewsArticle"><header>
 								<time itemprop="datePublished">2015-12-05</time>
 								<h4 itemprop="name">New mirror added in Germany!</h4></header>
 			                    <div itemprop="description">
@@ -719,7 +719,7 @@ cat <<\EOF
 			                            <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">ftp</a> |
 			                            <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank">rsync</a>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<article id=p48 itemscope itemtype="http://schema.org/NewsArticle"><header>
 								<time itemprop="datePublished">2015-11-15</time>
 								<h4 itemprop="name">New ISOs released!</h4></header>
 	                          	<div itemprop="description">
@@ -741,7 +741,7 @@ cat <<\EOF
 	                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
 	                            </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<article id=p47 itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished">2015-11-14</time>
 							<h4 itemprop="name">We did it!</h4></header>
                        		<div itemprop="description">
@@ -750,7 +750,7 @@ cat <<\EOF
                             <br /><br />
                             A big &quot;Thank you&quot; to all BlackArch Linux users, supporters and contributors.
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<article id=p46 itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished"> 2015-08-02</time>
 							<h4 itemprop="name">New ISOs released! </h4></header>
                             <div itemprop="description">
@@ -774,7 +774,7 @@ cat <<\EOF
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header>
+							<article id=p45 itemscope itemtype="http://schema.org/NewsArticle"><header>
 							<time itemprop="datePublished"> 2015-06-17</time>
 							<h4 itemprop="name">New Vietnam mirror added! </h4></header>
                             <div itemprop="description">
@@ -784,7 +784,7 @@ cat <<\EOF
                                 They are offering the following access: <a href="http://f.archlinuxvn.org/blackarch/" target="_blank">http</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">We did it! </h4></header><time itemprop="datePublished"> 2015-06-15</time>
+							<article id=p44 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">We did it! </h4></header><time itemprop="datePublished"> 2015-06-15</time>
                             <div itemprop="description">
                             <p>
                             We went over the BlackArch Linux repository and updated all <a href="https://www.blackarch.org/tools.html" target="_blank">tools</a>.
@@ -793,7 +793,7 @@ cat <<\EOF
                             A big &quot;Thank you&quot; to all BlackArch Linux users, supporters and contributors.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Austria mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-21</time>
+							<article id=p43 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Austria mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-21</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="easyname.at">easyname.at</a> and <a href="nessus.at">nessus.at</a> for becoming a mirror.
@@ -803,7 +803,7 @@ cat <<\EOF
                                 <a href="rsync://mirror.easyname.at/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Switzerland mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-21</time>
+							<article id=p42 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Switzerland mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-21</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="easyname.at">easyname.at</a> and <a href="nessus.at">nessus.at</a> for becoming a mirror.
@@ -813,7 +813,7 @@ cat <<\EOF
                                 <a href="rsync://mirror.easyname.ch/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New China mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-01</time>
+							<article id=p41 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New China mirrors added! </h4></header><time itemprop="datePublished"> 2015-05-01</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="ustc.edu.cn">ustc.edu.cn</a> for becoming a mirror.
@@ -821,7 +821,7 @@ cat <<\EOF
                                 They are offering the following access: <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank">https</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Denmark mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-15</time>
+							<article id=p40 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Denmark mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-15</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://dotsrc.org">dotsrc.org</a> for becoming a mirror.
@@ -830,7 +830,7 @@ cat <<\EOF
                                 <a href="ftp://mirrors.dotsrc.org/blackarch/" target="_blank">ftp</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Australia mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-10</time>
+							<article id=p39 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Australia mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-10</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="digitalpacific.com.au">digitalpacific.com.au</a> for becoming a mirror.
@@ -839,7 +839,7 @@ cat <<\EOF
                                 <a href="rsync://mirror.digitalpacific.com.au/blackarch" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs released (Bugfixes) </h4></header><time itemprop="datePublished"> 2015-04-08</time>
+							<article id=p38 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs released (Bugfixes) </h4></header><time itemprop="datePublished"> 2015-04-08</time>
                             <div itemprop="description">
                             <p>
                                 Today we released new BlackArch Linux ISOs. The new ISOs include over 1200 tools for i686 and x86_64 and over 1000 tools
@@ -858,7 +858,7 @@ cat <<\EOF
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Belgium mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-04</time>
+							<article id=p37 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Belgium mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-04</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://alexiobash.com/">alexiobash.com</a> for becoming a mirror.
@@ -866,7 +866,7 @@ cat <<\EOF
                                 They are offering the following access: <a href="http://mirror.alexiobash.com/blackarch/" target="_blank">http</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-02</time>
+							<article id=p36 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-02</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://tspitzconsulting.com/">TSpitz Consulting, Inc</a> for becoming a mirror.
@@ -875,7 +875,7 @@ cat <<\EOF
                                 <a href="rsync://mirror2.tscinc.co/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Poland mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-02</time>
+							<article id=p35 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Poland mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-02</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.icm.edu.pl/">ICM Warsaw University</a> for becoming a mirror.
@@ -886,7 +886,7 @@ cat <<\EOF
                                 <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch" target="_blank">gopher</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Greece mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-01</time>
+							<article id=p34 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Greece mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-01</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.cc.uoc.gr/">University of Crete / Computer Center</a> for becoming a mirror.
@@ -895,7 +895,7 @@ cat <<\EOF
                                 <a href="ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank">ftp</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New France mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-01</time>
+							<article id=p33 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New France mirrors added! </h4></header><time itemprop="datePublished"> 2015-04-01</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://tamcore.eu/">tamcore.eu</a> and <a href="http://uteditor.de/">uteditor.de</a> for becoming a mirror.
@@ -905,7 +905,7 @@ cat <<\EOF
                                 <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs and BlackArch Linux installer... </h4></header><time itemprop="datePublished"> 2015-03-30</time>
+							<article id=p32 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs and BlackArch Linux installer... </h4></header><time itemprop="datePublished"> 2015-03-30</time>
                             <div itemprop="description">
                             <p>
                                 Today we released new BlackArch Linux ISOs. The new ISOs include over 1200 tools for i686 and x86_64 and over 1000 tools for armv6h and armv7h.
@@ -927,7 +927,7 @@ cat <<\EOF
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
                            </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Tool count breaks 1200 & upcoming ISOs... </h4></header><time itemprop="datePublished"> 2015-03-21</time>
+							<article id=p31 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Tool count breaks 1200 & upcoming ISOs... </h4></header><time itemprop="datePublished"> 2015-03-21</time>
                             <div itemprop="description">
                             <p>
                                 BlackArch Linux now contains more than 1200 tools. We will add the new tools to the next version of the ISO.
@@ -945,7 +945,7 @@ cat <<\EOF
                                 Stay tuned...
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Turkey mirror added! </h4></header><time itemprop="datePublished"> 2015-03-08</time>
+							<article id=p30 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Turkey mirror added! </h4></header><time itemprop="datePublished"> 2015-03-08</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://linux.org.tr/">linux.org.tr</a> for becoming a mirror.
@@ -955,7 +955,7 @@ cat <<\EOF
                                 <a href="rsync://rsync.linux.org.tr/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Major upgrade of BlackArch Linux repository! </h4></header><time itemprop="datePublished"> 2015-02-15</time>
+							<article id=p29 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Major upgrade of BlackArch Linux repository! </h4></header><time itemprop="datePublished"> 2015-02-15</time>
                             <div itemprop="description">
                             <p>
                                 We walked through the BlackArch Linux repository and upgraded almost every single package.<br />
@@ -965,7 +965,7 @@ cat <<\EOF
                                 Thanks for all supporters and contributors!
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Ecuador mirror added! </h4></header><time itemprop="datePublished"> 2015-02-12</time>
+							<article id=p28 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Ecuador mirror added! </h4></header><time itemprop="datePublished"> 2015-02-12</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://mirror.uta.edu.ec" target="_blank">mirror.uta.edu.ec</a> for becoming a mirror.
@@ -975,7 +975,7 @@ cat <<\EOF
                                 <a href="rsync://mirror.uta.edu.ec/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Australia mirror added! </h4></header><time itemprop="datePublished"> 2015-01-13</time>
+							<article id=p27 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Australia mirror added! </h4></header><time itemprop="datePublished"> 2015-01-13</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://hexnoia.org/">hexnoia.org</a> for becoming a mirror.
@@ -983,7 +983,7 @@ cat <<\EOF
                                 They are offering the following access: <a href="http://blackarch.hexnoia.org/" target="_blank">http</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Italy mirror added! </h4></header><time itemprop="datePublished"> 2015-01-09</time>
+							<article id=p26 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Italy mirror added! </h4></header><time itemprop="datePublished"> 2015-01-09</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://mirror.garr.it">garr.it</a> for becoming a mirror.
@@ -992,7 +992,7 @@ cat <<\EOF
                                 <a href="rsync://blackarch.mirror.garr.it/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Switzerland mirror added! </h4></header><time itemprop="datePublished"> 2015-01-05</time>
+							<article id=p25 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Switzerland mirror added! </h4></header><time itemprop="datePublished"> 2015-01-05</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://mirror.tillo.ch" target="_blank">tillo.ch</a> for becoming a mirror.
@@ -1004,7 +1004,7 @@ cat <<\EOF
                                 <a href="rsync://mirror.tillo.ch/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2015-01-04</time>
+							<article id=p24 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2015-01-04</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://mirrors.cdndepo.com/">CDN Depot</a> for becoming a mirror.
@@ -1015,7 +1015,7 @@ cat <<\EOF
                                 <a href="rsync://blackarch.cdndepo.com/">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-12-29</time>
+							<article id=p23 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-12-29</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://packetfire.org/">Packetfire</a> for becoming a mirror.
@@ -1025,7 +1025,7 @@ cat <<\EOF
                                 <a href="rsync://blackarch.mirror.packetfire.org/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Taiwan mirror added! </h4></header><time itemprop="datePublished"> 2014-11-12</time>
+							<article id=p22 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Taiwan mirror added! </h4></header><time itemprop="datePublished"> 2014-11-12</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.cse.yzu.edu.tw/" target="_blank">Dept of CSE, Yuan Ze University</a> for becoming a mirror.
@@ -1035,7 +1035,7 @@ cat <<\EOF
                                 <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-10-13</time>
+							<article id=p21 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-10-13</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="https://deadbeef.ninja" target="_blank">deadbeef.ninja</a>for becoming a mirror.
@@ -1043,7 +1043,7 @@ cat <<\EOF
                                 They are offering the following access: <a href="https://deadbeef.ninja/blackarch/">https</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-10-07</time>
+							<article id=p20 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-10-07</time>
                             <div itemprop="description">
                             <p>
                                 Today, we released new BlackArch Linux ISOs including more than 1000 tools and lot's of improvements.
@@ -1070,7 +1070,7 @@ cat <<\EOF
                                 motivated us for testings, fixes and improvements.
                             	</p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Turkey mirror added! </h4></header><time itemprop="datePublished"> 2014-08-21</time>
+							<article id=p19 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Turkey mirror added! </h4></header><time itemprop="datePublished"> 2014-08-21</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://knuth.mirrortr.com/blackarch" target="_blank">knuth.mirrortr.com</a> for becoming a mirror.
@@ -1080,7 +1080,7 @@ cat <<\EOF
                                 <a href="rsync://knuth.mirrortr.com/blackarch" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Torrent files for new ISOs! </h4></header><time itemprop="datePublished"> 2014-07-02</time>
+							<article id=p18 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Torrent files for new ISOs! </h4></header><time itemprop="datePublished"> 2014-07-02</time>
                             <div itemprop="description">
                             <p>
                                 Torrent files for new ISOs have been added.
@@ -1088,7 +1088,7 @@ cat <<\EOF
                                 You can get them <a href="">here</a> or on our <a href="">mirror sites</a>.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-07-01</time>
+							<article id=p17 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-07-01</time>
                             <div itemprop="description">
                             <p>
                                 Today, we released new BlackArch Linux ISOs including more than 1000 tools and lot's of improvements. Also,
@@ -1112,7 +1112,7 @@ cat <<\EOF
                                 for testings, fixes and improvements.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Taiwan mirror added! </h4></header><time itemprop="datePublished"> 2014-06-30</time>
+							<article id=p16 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Taiwan mirror added! </h4></header><time itemprop="datePublished"> 2014-06-30</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://cs.nctu.edu.tw/" target="_blank">cs.nctu.edu.tw</a> for becoming a mirror.
@@ -1121,7 +1121,7 @@ cat <<\EOF
                                 <a href="rsync://blackarch.cs.nctu.edu.tw/blackarch" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Canada mirror added! </h4></header><time itemprop="datePublished"> 2014-06-30</time>
+							<article id=p15 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Canada mirror added! </h4></header><time itemprop="datePublished"> 2014-06-30</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://clibre.uqam.ca/" target="_blank">clibre.uqam.ca</a> for becoming a mirror.
@@ -1129,7 +1129,7 @@ cat <<\EOF
                                 They are offering the following access: <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank">http</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Ecuador mirrors added! </h4></header><time itemprop="datePublished"> 2014-06-03</time>
+							<article id=p14 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Ecuador mirrors added! </h4></header><time itemprop="datePublished"> 2014-06-03</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://cedia.org.ec/" target="_blank">cedia.org.ec</a> and
@@ -1139,7 +1139,7 @@ cat <<\EOF
                                 <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank">http</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Germany mirrors added! </h4></header><time itemprop="datePublished"> 2014-06-02</time>
+							<article id=p13 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New Germany mirrors added! </h4></header><time itemprop="datePublished"> 2014-06-02</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.curesec.com/" target="_blank">Curesec Team</a> for becoming a mirror.
@@ -1148,7 +1148,7 @@ cat <<\EOF
                                 <a href="http://blackarch2.curesec.com/blackarch/" target="_blank">http</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-05-17</time>
+							<article id=p12 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New US mirror added! </h4></header><time itemprop="datePublished"> 2014-05-17</time>
                             <div itemprop="description">
                             <p>
                                 We would like to thank <a href="http://www.team-cymru.org/" target="_blank">Team Cymru</a> for becoming a mirror.
@@ -1158,7 +1158,7 @@ cat <<\EOF
                                 <a href="rsync://mirror.team-cymru.org/blackarch/" target="_blank">rsync</a>
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-04-21</time>
+							<article id=p11 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New ISOs! </h4></header><time itemprop="datePublished"> 2014-04-21</time>
                             <div itemprop="description">
                             <p>
                                 Today, we released new BlackArch Linux ISOs including more than 750 tools and lot's of improvements. Also, armv6h
@@ -1183,7 +1183,7 @@ cat <<\EOF
                                 for testings, fixes and improvements.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">ARM Support and New ISOs! </h4></header><time itemprop="datePublished"> 2014-03-03</time>
+							<article id=p10 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">ARM Support and New ISOs! </h4></header><time itemprop="datePublished"> 2014-03-03</time>
                             <div itemprop="description">
                             <p>
                                 BlackArch now has ARM support. Currently, there are 570 tools in the armv6h repo and 580 tools in the armv7h repo.
@@ -1205,7 +1205,7 @@ cat <<\EOF
                                     <li>vim: set ttimeoutlen=100</li>
                                 </ul>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New tools: netcon.sh and strap.sh </h4></header><time itemprop="datePublished"> 2014-02-20</time>
+							<article id=p9 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New tools: netcon.sh and strap.sh </h4></header><time itemprop="datePublished"> 2014-02-20</time>
                             <div itemprop="description">
                             <p>
                                 BlackArch now comes with <a href="https://github.com/BlackArch/netcon" target="_blank">netcon.sh</a>, a script to establish
@@ -1215,14 +1215,14 @@ cat <<\EOF
                                 <a href="/strap.sh">strap.sh</a>.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New keyring </h4></header><time itemprop="datePublished"> 2014-01-12</time>
+							<article id=p8 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">New keyring </h4></header><time itemprop="datePublished"> 2014-01-12</time>
                             <div itemprop="description">
                             <p>
                                 All existing users must follow the <a href="http://blackarch.org/downloads.html">new installation instructions</a>, including step 0.
                                 We switched to a more robust keyring. The new keyring is a modification of the keyring used by the Arch Linux developers.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Live ISOs, Status, and Futures! </h4></header><time itemprop="datePublished"> 2014-01-01</time>
+							<article id=p7 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Live ISOs, Status, and Futures! </h4></header><time itemprop="datePublished"> 2014-01-01</time>
                             <div itemprop="description">
                             <p>
                                 BlackArch Linux is an Arch-based GNU/Linux distribution for pentesters and security researchers. The BlackArch package
@@ -1258,14 +1258,14 @@ cat <<\EOF
                                 own tools.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Major release and site redesign! </h4></header><time itemprop="datePublished"> 2013-12-28</time>
+							<article id=p6 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Major release and site redesign! </h4></header><time itemprop="datePublished"> 2013-12-28</time>
                             <div itemprop="description">
                             <p>
                                 We redesigned our website. We hope you like the new style. We also released a bunch of new tools. There are over 600 tools
                                 in the repo now. The full list of tools is <a href="tools.html">here</a>.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Updates to Pacman.conf! </h4></header><time itemprop="datePublished"> 2013-12-20</time>
+							<article id=p5 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Updates to Pacman.conf! </h4></header><time itemprop="datePublished"> 2013-12-20</time>
                             <div itemprop="description">
                             <p>
                                 We changed the directory structure of the repository. Please modify your pacman.conf files like so:</p>
@@ -1279,7 +1279,7 @@ cat <<\EOF
                                 for mirrors to sync with our repository.
 								</p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">We did it! </h4></header><time itemprop="datePublished"> 2013-11-24</time>
+							<article id=p4 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">We did it! </h4></header><time itemprop="datePublished"> 2013-11-24</time>
                             <div itemprop="description">
                             <p>
                                 Thanks to everyone's interest in this project we finally pissed off our ISP! It makes us happy to know that so many people
@@ -1289,7 +1289,7 @@ cat <<\EOF
                                 Thanks everyone!
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Securabit Podcast! </h4></header><time itemprop="datePublished"> 2013-09-16</time>
+							<article id=p3 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Securabit Podcast! </h4></header><time itemprop="datePublished"> 2013-09-16</time>
                             <div itemprop="description">
                             <p>
                                 We're on <a href="http://securabit.com/" target="_blank">Securabit Podcast</a>. Thanks to
@@ -1304,7 +1304,7 @@ cat <<\EOF
                                 Research and reverse engineer these plagues towards the common goal of a secure internet.
                             </p>
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Extended downtime! </h4></header><time itemprop="datePublished"> 2013-08-25</time>
+							<article id=p2 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Extended downtime! </h4></header><time itemprop="datePublished"> 2013-08-25</time>
                             <div itemprop="description">
                             <p>
                                 We're continuing work to upgrade our infrastructure, as a part of this improvement our domain service provider experienced some
@@ -1313,7 +1313,7 @@ cat <<\EOF
                             </p>
 
                             </div></article>
-							<article itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Speak candidly! </h4></header><time itemprop="datePublished"> 2013-08-24</time>
+							<article id=p1 itemscope itemtype="http://schema.org/NewsArticle"><header><h4 itemprop="name">Speak candidly! </h4></header><time itemprop="datePublished"> 2013-08-24</time>
                             <div itemprop="description">
                             <p>
                                 We have recently relocated all tools in the repository to comply with <a href="http://www.pathname.com/fhs/" target="_blank">FHS</a>.
