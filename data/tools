@@ -68,6 +68,7 @@ arp-scan|1.9|A tool that uses ARP to discover and fingerprint IP hosts on the lo
 arpalert|2.0.12|Monitor ARP changes in ethernet networks.| blackarch-networking |http://www.arpalert.org/
 arpoison|0.7|The UNIX arp cache update utility| blackarch-exploitation |http://www.arpoison.net
 arpon|2.7|A portable handler daemon that make ARP protocol secure in order to avoid the Man In The Middle (MITM) attack through ARP Spoofing, ARP Cache Poisoning or ARP Poison Routing (APR) attacks.| blackarch-defensive |http://arpon.sourceforge.net/
+arpstraw|26.815d479|Arp spoof detection tool.| blackarch-defensive |https://github.com/he2ss/arpstraw
 arpwner|26.f300fdf|GUI-based python tool for arp posioning and dns poisoning attacks.| blackarch-networking |https://github.com/ntrippar/ARPwner
 artillery|176.c6325c3|A combination of a honeypot, file-system monitoring, system hardening, and overall health of a server to create a comprehensive way to secure a system.| blackarch-defensive |https://www.trustedsec.com/downloads/artillery/
 arybo|35.c0df916|Manipulation, canonicalization and identification of mixed boolean-arithmetic symbolic expressions.| blackarch-misc |https://github.com/quarkslab/arybo
@@ -288,7 +289,7 @@ csrftester|1.0|The OWASP CSRFTester Project attempts to give developers the abil
 ctunnel|0.7|Tunnel and/or proxy TCP or UDP connections via a cryptographic tunnel.| blackarch-tunnel |http://nardcore.org/ctunnel
 cuckoo|2.0|A malware analysis system.| blackarch-malware |http://cuckoosandbox.org/
 cudahashcat|2.01|Worlds fastest WPA cracker with dictionary mutation engine.|blackarch-cracker|http://hashcat.net/oclhashcat/
-cupp|3.0|Common User Password Profiler| blackarch-cracker |http://www.remote-exploit.org/?page_id=418
+cupp|20.07f9b83|Common User Password Profiler| blackarch-cracker |http://www.remote-exploit.org/?page_id=418
 cutycapt|10|A Qt and WebKit based command-line utility that captures WebKit's rendering of a web page.| blackarch-recon |http://cutycapt.sourceforge.net/
 cvechecker|3.5|The goal of cvechecker is to report about possible vulnerabilities on your system, by scanning the installed software and matching the results with the CVE database.| blackarch-scanner |http://cvechecker.sourceforge.net/
 cybercrowl|84.fb043b5|A Python Web path scanner tool.| blackarch-webapp |https://github.com/chamli/CyberCrowl
@@ -564,6 +565,7 @@ gwcheck|0.1|A simple program that checks if a host in an ethernet network is a g
 gwtenum|7.f27a5aa|Enumeration of GWT-RCP method calls.| blackarch-recon |http://www.gdssecurity.com/l/t/d.php?k=GwtEnum
 hackersh|0.2.0|A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.| blackarch-automation |http://www.hackersh.org/
 hackredis|1.67eeb6c|A simple tool to scan and exploit redis servers.| blackarch-exploitation |https://github.com/Ridter/hackredis
+hackrf|2017.02.1|Driver for HackRF, allowing general purpose software defined radio (SDR).| blackarch-radio |https://github.com/mossmann/hackrf
 haka|0.2.2|A collection of tool that allows capturing TCP/IP packets and filtering them based on Lua policy files.| blackarch-networking |https://github.com/haka-security/haka
 halberd|0.2.4|Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.| blackarch-scanner |http://halberd.superadditive.com/
 halcyon|0.1|A repository crawler that runs checksums for static files found within a given git repository.| blackarch-recon |http://www.blackhatlibrary.net/Halcyon
@@ -1076,6 +1078,7 @@ posttester|0.1|A jar file that will send POST requests to servers in order to te
 powerfuzzer|1_beta|Powerfuzzer is a highly automated web fuzzer based on many other Open Source fuzzers available (incl. cfuzzer, fuzzled, fuzzer.pl, jbrofuzz, webscarab, wapiti, Socket Fuzzer). It can detect XSS, Injections (SQL, LDAP, commands, code, XPATH) and others.| blackarch-fuzzer |http://www.powerfuzzer.com
 powerops|30.b238caf|PowerShell Runspace Portable Post Exploitation Tool aimed at making Penetration Testing with PowerShell "easier".| blackarch-windows |https://github.com/fdiskyou/PowerOPS
 powersploit|476.c7985c9|A PowerShell Post-Exploitation Framework.| blackarch-exploitation |https://github.com/mattifestation/PowerSploit
+ppee|1.07|A Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.| blackarch-windows |https://www.mzrst.com/
 ppscan|0.3|Yet another port scanner with HTTP and FTP tunneling support.| blackarch-scanner |https://packetstormsecurity.com/files/82897/PPScan-Portscanner.3.html
 pr0cks|19.39331bd|python script setting up a transparent proxy to forward all TCP and DNS traffic through a SOCKS / SOCKS5 or HTTP(CONNECT) proxy using iptables -j REDIRECT target.| blackarch-proxy |https://github.com/n1nj4sec/pr0cks
 prads|1124.dabcaa2|Is a "Passive Real-time Asset Detection System".| blackarch-scanner |http://gamelinux.github.io/prads/
@@ -1327,6 +1330,7 @@ soot|2.5.0|A Java Bytecode Analysis and Transformation Framework.| blackarch-bin
 spade|114|A general-purpose Internet utility package, with some extra features to help in tracing the source of spam and other forms of Internet harassment.| blackarch-windows |http://www.hoobie.net/brutus/
 spaf|11.671a976|Static Php Analysis and Fuzzer.| blackarch-webapp |https://github.com/Ganapati/spaf
 sparta|17.bdbf244|Python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.| blackarch-scanner |http://sparta.secforce.com/
+spartan|16.6fd5fa7|Frontpage and Sharepoint fingerprinting and attack tool.| blackarch-fingerprint |https://github.com/sensepost/SPartan
 sparty|0.1|An open source tool written in python to audit web applications using sharepoint and frontpage architecture.| blackarch-webapp |http://sparty.secniche.org/
 spectools|2010_04_R1|Spectrum-Tools is a set of utilities for using the Wi-Spy USB spectrum analyzer hardware. Stable version.| blackarch-wireless |http://www.kismetwireless.net/spectools/
 speedpwn|8.3dd2793|An active WPA/2 Bruteforcer, original created to prove weak standard key generation in different ISP labeled routers without a client is connected.| blackarch-cracker |https://gitorious.org/speedpwn/
@@ -1414,6 +1418,7 @@ tabi|9.8fa7e95|BGP Hijack Detection.| blackarch-defensive |https://github.com/AN
 taof|0.3.2|Taof is a GUI cross-platform Python generic network protocol fuzzer.| blackarch-fuzzer |http://taof.sf.net
 tbear|1.5|Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetooth DoS tool, and a Bluetooth hidden device locator.| blackarch-bluetooth |http://freshmeat.net/projects/t-bear
 tcgetkey|0.1|A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.| blackarch-dos |http://packetstormsecurity.com/files/119146/tcgetkey.1.html
+tchunt-ng|112.8d48069|Reveal encrypted files stored on a filesystem.| blackarch-forensic |https://github.com/antagon/TCHunt-ng
 tckfc|21.a32167e|TrueCrypt key file cracker.| blackarch-cracker |https://github.com/Octosec/tckfc
 tcpcontrol-fuzzer|0.1|2^6 TCP control bit fuzzer (no ECN or CWR).| blackarch-fuzzer |https://www.ee.oulu.fi/research/ouspg/tcpcontrol-fuzzer
 tcpdump|4.9.0|A tool for network monitoring and data acquisition| blackarch-networking |http://www.tcpdump.org
@@ -1539,6 +1544,7 @@ vncrack|1.21|What it looks like: crack VNC.| blackarch-cracker |http://phenoelit
 voiper|0.07|A VoIP security testing toolkit incorporating several VoIP fuzzers and auxilliary tools to assist the auditor.| blackarch-voip |http://voiper.sourceforge.net/
 voiphopper|2.04|A security validation tool that tests to see if a PC can mimic the behavior of an IP Phone. It rapidly automates a VLAN Hop into the Voice VLAN.| blackarch-automation |http://voiphopper.sourceforge.net/
 voipong|2.0|A utility which detects all Voice Over IP calls on a pipeline, and for those which are G711 encoded, dumps actual conversation to seperate wave files.| blackarch-voip |http://www.enderunix.org/voipong/
+volafox|143.5b42987|Mac OS X Memory Analysis Toolkit.| blackarch-forensic |https://github.com/n0fate/volafox
 volatility|2.6|Advanced memory forensics framework| blackarch-forensic |https://github.com/volatilityfoundation/volatility/wiki
 voltron|575.972c15d|UI for GDB, LLDB and Vivisect's VDB.| blackarch-debugger |https://github.com/snare/voltron
 vsaudit|16.6c8c40f|VOIP Security Audit Framework.| blackarch-voip |https://github.com/sanvil/vsaudit
