@@ -29,6 +29,21 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article id=p85 itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
+                            <time itemprop="datePublished"> 2017-02-22</time>
+						    <h4 itemprop="name">Newest tools added!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Blackarch have now more than 1700 tools !
+                            </p>
+                            <p>
+                                In order to install all newest tools, please run: 'pacman -Syyu --needed --force blackarch`
+                            </p>
+                        </div>
+                        </article>
+
                         <article id=p84 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2017-02-10</time>
