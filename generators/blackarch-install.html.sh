@@ -60,10 +60,10 @@ cat <<\EOF
         	<p>
         	3 options should now be displayed
         	</p>
-        	<span class=sb>1. Install from repository using pacman</span> <p> This is the recommended option to select for the netinstall iso, it 
+        	<span class=sb>1. Install from repository using pacman</span> <p> This is the recommended option to select for the netinstall iso, it
 will fetch the required packages from official arch repositories and the blackarch repositories as well.</p>
         	<span class=sb>2. Install from Live-ISO</span> <p> If you downloaded the live ISO. If you choose this option you will not need internet during the install process. However, in order to have an updated system, after the installation has finished, once you reach your install environment (after you boot into the fresh install) start a general update using <i class=blyellow>pacman -Syyu</i> .</p>
-        	<span class=sb>3. Install from source using blackman</span> <p> This is not a recommended option for beginners, instead of fetching the 
+        	<span class=sb>3. Install from source using blackman</span> <p> This is not a recommended option for beginners, instead of fetching the
 prebuilt package from a repository as pacman does, this will get the source code and compile from source. It's similar to emerge available on a Gentoo system (blackman simply builds from source, emerge is infinitively more advanced and offers a ton of features)</p>
         	<img src="images/bl-install/4.png" alt="4">
         	<hr>
@@ -93,7 +93,7 @@ prebuilt package from a repository as pacman does, this will get the source code
       		<span class=sb>3. Skip (use this if you are already connected)</span> <p> In case your network interface is already setup and can reach the internet, use this option.</p>
       		<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>
-     		In some cases involving, a virtual environment such as VirtualBox or Qemu, some rules in your firewall may drop ICMP, wich will deny the <span class=blyellow>ping</span> and will block the install at this step since the script will exit, thinking your network interface is misconfigured. You can solve by this problem by editing the script located in <span class=blgreen>/usr/bin/blackarch-install</span> at the line 545 witch start as
+     		In some cases involving, a virtual environment such as VirtualBox or Qemu, some rules in your firewall may drop ICMP, which will deny the <span class=blyellow>ping</span> and will block the install at this step since the script will exit, thinking your network interface is misconfigured. You can solve by this problem by editing the script located in <span class=blgreen>/usr/bin/blackarch-install</span> at the line 545 witch start as
 
      		<span class=blgreen>if ! ping -c 1 github.com > /dev/null 2>&1</span> until the next fi (line 548), you have to comment each line of the block condition or remove it. Once the edit made and save, run the <span class=blyellow>blackarch-install</span> and repeat the install.
      	    </div>
@@ -101,12 +101,12 @@ prebuilt package from a repository as pacman does, this will get the source code
       		<img src="images/bl-install/9.png" alt="9">
       		<hr>
       		<p>
-      		Pacman will now update each repo, download and install some basic system packages needed for the next step of the Blackarch install. If 
+      		Pacman will now update each repo, download and install some basic system packages needed for the next step of the Blackarch install. If
 you have a slow download speed, this can take some time. Go grab a coffee!
       		</p>
       		<img src="images/bl-install/10.png" alt="10">
       		<hr>
-      		<p>Once the script is done getting things ready, you will have to setup partitions on the device where Blackarch will be installed. You 
+      		<p>Once the script is done getting things ready, you will have to setup partitions on the device where Blackarch will be installed. You
 will have to choose between having 2 or 3 partitions</p>
       		<div class=info>
      		<i class="fa fa-info-circle" aria-hidden="true"></i>

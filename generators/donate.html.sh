@@ -18,6 +18,10 @@ cat <<\EOF
         </div>
         <!-- /.row -->
         <!-- Content Row -->
+    <div class="panel panel-default text-left">
+  	<div class=panel-heading>
+            <b>Help BlackArch</b>
+    </div>
 	<div class=list-group-item>
         <p>
             BlackArch Linux is entirely free and open source. The team-members work in their free time (voluntary). Despite the large amount of the time spent every day. Another thing that this project requires to keep moving forward is donations. For instance, the hosting of the website, domain name, download mirror,
@@ -48,8 +52,35 @@ cat <<\EOF
 		<p class=act-display></p>
 		<noscript><p class=ns>1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn</p></noscript>
 	</div>
+	</div>
+	</div>
+	<br>
+	<div class="panel panel-default text-left">
+		<div class="panel-heading"><b>List of the donors</b></div>
+		<div class=list-group-item>
+	        <p>To be entirely transparent, we will display every donations here, if you have made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our IRC channel. In case we receive a donation and nobody claimed it, we will display as Anonymous</p>
+			 <table id=tbl-minimalist class=tbl-donate>
+			 <thead>
+	         	<tr id=idx-tool>
+	             <th class=tbl-name>Name</th>
+	             <th class=tbl-dversion>Amount</th>
+	             <th class=tbl-ddescription>Date</th>
+	             <th class=tbl-dhomepage>Website</th>
+	            </tr>
+	         </thead>
+	         <tbody>
+	            <tr>
+	             <td class=tbl-name>Anonymous <i>(not claimed)</i></td>
+	             <td class="tbl-dversion vcat">5 EUR</td>
+	             <td class="tbl-ddescription dcat">03 January 2017</td>
+	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+	            </tr>
+	         </tbody>
+			 </table>
+			 <p><i>The display of the donors start from 1 January 2017</i></p>
         </div>
-        <!-- /.row -->
+     </div>
+     <!-- /.row -->
 EOF
 
 cat common/end

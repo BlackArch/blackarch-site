@@ -214,6 +214,7 @@ cat <<\EOF
                                 <p># Now, you can run and follow the instructions</p>
                                 $ <span>sudo blackarch-install</span>
                             </div>
+                            If you need to be guided step by step, please consult the <a href="blackarch-install.html" title="BlackArch install">blackarch install</a> tutorial.
                         </li>
                     </ul>
                 </div>
@@ -255,7 +256,7 @@ cat <<\EOF
                             <a href="http://mirror.alexiobash.com/blackarch/" target="_blank" itemprop="url">http://mirror.alexiobash.com/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
-                            <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a><br>            
+                            <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a><br>
                             <br><br>
                             <img src="/images/flags/cn.png" alt="China" /> China<br>
                             <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.ustc.edu.cn/blackarch/</a>
@@ -361,7 +362,7 @@ cat <<\EOF
                             <a href="https://deadbeef.ninja/blackarch/" target="_blank" itemprop="url">https://deadbeef.ninja/blackarch/</a><br>
                             <a href="http://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">http://mirror.team-cymru.org/blackarch/</a><br>
                             <a href="ftp://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">ftp://mirror.team-cymru.org/blackarch/</a><br>
-                            <a href="rsync://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.org/blackarch/</a><br>                
+                            <a href="rsync://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.org/blackarch/</a><br>
                             <a href="http://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">http://mirror.oss.maxcdn.com/blackarch/</a><br>
                             <a href="ftp://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.oss.maxcdn.com/blackarch/</a><br>
                             <a href="rsync://mirror.oss.maxcdn.com/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.oss.maxcdn.com/mirrors/blackarch/</a><br>

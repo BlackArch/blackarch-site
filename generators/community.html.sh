@@ -69,7 +69,7 @@ cat <<\EOF
                     </div>
                     <p>
                         Come keep us company. We have a little community here.
-						Anything is on topic but the large majority of discusision is related to security and/or BlackArch.
+						Anything is on topic but the large majority of discussion is related to security and/or BlackArch.
 					</p>
                     <p>
 					    If you need help, this is the best place to ask.
@@ -80,6 +80,9 @@ cat <<\EOF
                     <p>
                         You can find the official BlackArch IRC channel here:
                         <a href="irc://irc.freenode.net/blackarch" target="_blank">#blackarch</a> on Freenode
+                    </p>
+                    <p>
+                    	If you aren't familiar with the protocol IRC, use the <a href="https://webchat.freenode.net/" title="Webchat" target=_blank>webchat</a> of Freenode. Just enter any nickname and the channel #blackarch <i>(don't forget #)</i> for join us now.
                     </p>
                 </div>
                 <br />
