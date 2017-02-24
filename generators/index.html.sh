@@ -16,7 +16,7 @@ cat <<EOF
 		<div class=list-group-item>
 			<div id=last-release>
 			BlackArch release 2017.01.28<br>
-			<a href="downoads.html" title="Blackarch release">Download now !</a>
+			<a href="downloads.html" title="Blackarch release">Download now !</a>
 			</div>
                 <p>BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based penetration testing distribution for penetration testers
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
