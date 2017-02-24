@@ -10,10 +10,14 @@ cat <<EOF
 	                <h1>BlackArch</h1> <h2>Homepage</h2>
                 </div>
         <div class="panel panel-default text-left">
-        <div class="panel-heading">
+        <div class=panel-heading>
             <b>About</b>
         </div>
 		<div class=list-group-item>
+			<div id=last-release>
+			BlackArch release 2017.01.28<br>
+			<a href="downoads.html" title="Blackarch release">Download now !</a>
+			</div>
                 <p>BlackArch Linux is an <a href="http://www.archlinux.org/" target="_blank">Arch Linux</a>-based penetration testing distribution for penetration testers
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
                     BlackArch Linux is compatible with existing Arch installs. For more information, see the
