@@ -59,16 +59,16 @@ cat <<\EOF
                                     <td><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-live-2017.01.28-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
-                                    <td itemprop="datePublished">2017.01.28</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.01.28-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-live-2017.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td itemprop="datePublished">2017.03.01</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.03.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>6.7 GB</td>
                                     <td>8428c1355585a43dfd2557e71839bcdeb8468a10</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-live-2017.01.28-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
-                                    <td itemprop="datePublished">2017.01.28</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.01.28-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-live-2017.03.01-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td itemprop="datePublished">2017.03.01</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.03.01-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>6.2 GB</td>
                                     <td>bb8c475095bf027fd4e77c2e3a84ddacb5ecea5e</td>
                                 </tr>
