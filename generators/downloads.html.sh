@@ -59,28 +59,28 @@ cat <<\EOF
                                     <td><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-live-2017.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                                     <td itemprop="datePublished">2017.03.01</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-live-2017.03.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>6.7 GB</td>
                                     <td>8428c1355585a43dfd2557e71839bcdeb8468a10</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-live-2017.03.01-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.03.01-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
                                     <td itemprop="datePublished">2017.03.01</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-live-2017.03.01-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>6.2 GB</td>
                                     <td>bb8c475095bf027fd4e77c2e3a84ddacb5ecea5e</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-netinst-2017.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                                     <td itemprop="datePublished">2017.03.01</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.03.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>466 MB</td>
                                     <td>4826a0f271696a127b67e7fe7205cc960c9eef1b</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="https://blackarch.org/blackarch/iso/blackarchlinux-netinst-2017.03.01-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.03.01-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
                                     <td itemprop="datePublished">2017.03.01</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.03.01-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>392 MB</td>
@@ -256,7 +256,7 @@ cat <<\EOF
                             <a href="http://mirror.alexiobash.com/blackarch/" target="_blank" itemprop="url">http://mirror.alexiobash.com/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
-                            <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a><br>
+                            <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/cn.png" alt="China" /> China<br>
                             <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.ustc.edu.cn/blackarch/</a>
@@ -280,12 +280,12 @@ cat <<\EOF
                             <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank" itemprop="url">rsync://blackarch.tamcore.eu/blackarch/</a><br>
                             <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank" itemprop="url">http://blackarch.leneveu.fr/blackarch/</a><br>
                             <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
-                            <a href="https://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">https://mirror.adversec.com/blackarch/</a><br>
+                            <a href="https://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">https://mirror.adversec.com/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
                             <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">http://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
                             <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">ftp://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
-                            <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">rsync://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
+                            <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">rsync://ftp.halifax.rwth-aachen.de/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/gr.png" alt="Greece" /> Greece<br>
                             <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank" itemprop="url">http://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br>
