@@ -243,133 +243,39 @@ cat <<\EOF
                     </div>
                     <ul class="list-group">
                         <li class="list-group-item" itemscope itemtype="https://schema.org/Thing">
-                            <img src="/images/flags/au.png" alt="Australia" /> Australia<br>
-                            <a href="http://blackarch.mirror.digitalpacific.com.au/" target="_blank" itemprop="url">http://blackarch.mirror.digitalpacific.com.au/</a><br>
-                            <a href="rsync://mirror.digitalpacific.com.au/blackarch/" target="_blank" itemprop="url">rsync://mirror.digitalpacific.com.au/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/at.png" alt="Austria" /> Austria<br>
-                            <a href="http://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">http://mirror.easyname.at/blackarch/</a><br>
-                            <a href="ftp://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">ftp://mirror.easyname.at/blackarch/</a><br>
-                            <a href="rsync://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.at/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/be.png" alt="Belgium" /> Belgium<br>
-                            <a href="http://mirror.alexiobash.com/blackarch/" target="_blank" itemprop="url">http://mirror.alexiobash.com/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
-                            <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/cn.png" alt="China" /> China<br>
-                            <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.ustc.edu.cn/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/dk.png" alt="Denmark" /> Denmark<br>
-                            <a href="http://mirrors.dotsrc.org/blackarch/" target="_blank" itemprop="url">http://mirrors.dotsrc.org/blackarch/</a><br>
-                            <a href="ftp://mirrors.dotsrc.org/blackarch/" target="_blank" itemprop="url">ftp://mirrors.dotsrc.org/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/ec.png" alt="Ecuador" /> Ecuador<br>
-                            <a href="http://mirror.uta.edu.ec/blackarch/" target="_blank" itemprop="url">http://mirror.uta.edu.ec/blackarch/</a><br>
-                            <a href="ftp://mirror.uta.edu.ec/blackarch/" target="_blank" itemprop="url">ftp://mirror.uta.edu.ec/blackarch/</a><br>
-                            <a href="rsync://mirror.uta.edu.ec/blackarch/" target="_blank" itemprop="url">rsync://mirror.uta.edu.ec/blackarch/</a><br>
-                            <a href="http://mirror.cedia.org.ec/blackarch/" target="_blank" itemprop="url">http://mirror.cedia.org.ec/blackarch/</a><br>
-                            <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank" itemprop="url">http://mirror.espoch.edu.ec/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/fr.png" alt="France" /> France<br>
-                            <a href="https://www.blackarch.org/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/</a><br>
-                            <a href="rsync://blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.org/blackarch/</a><br>
-                            <a href="http://blackarch.tamcore.eu/" target="_blank" itemprop="url">http://blackarch.tamcore.eu/</a><br>
-                            <a href="https://blackarch.tamcore.eu/" target="_blank" itemprop="url">https://blackarch.tamcore.eu/</a><br>
-                            <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank" itemprop="url">rsync://blackarch.tamcore.eu/blackarch/</a><br>
-                            <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank" itemprop="url">http://blackarch.leneveu.fr/blackarch/</a><br>
-                            <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
-                            <a href="https://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">https://mirror.adversec.com/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
-                            <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">http://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
-                            <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">ftp://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
-                            <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">rsync://ftp.halifax.rwth-aachen.de/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/gr.png" alt="Greece" /> Greece<br>
-                            <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank" itemprop="url">http://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br>
-                            <a href="ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank" itemprop="url">ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br>
-                            <a href="rsync://blackarch@ftp.cc.uoc.gr/blackarch/" target="_blank" itemprop="url">rsync://blackarch@cc.uoc.gr/blackarch </a>
-                            <br><br>
-                            <img src="/images/flags/gb.png" alt="Great Britain" /> Great Britain<br>
-                            <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br>
-                            <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/ie.png" alt="Ireland" /> Ireland<br>
-                            <a href="http://ftp.heanet.ie/mirrors/blackarch/" target="_blank" itemprop="url">http://ftp.heanet.ie/mirrors/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/it.png" alt="Italy" /> Italy<br>
-                            <a href="http://blackarch.mirror.garr.it/mirrors/blackarch/" target="_blank" itemprop="url">http://blackarch.mirror.garr.it/mirrors/blackarch/</a><br>
-                            <a href="rsync://blackarch.mirror.garr.it/blackarch/" target="_blank">rsync://blackarch.mirror.garr.it/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/jp.png" alt="Japan" /> Japan<br>
-                            <a href="http://www.ftp.ne.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://www.ftp.ne.jp/Linux/packages/blackarch/</a><br>
-                            <a href="ftp://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">ftp://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br>
-                            <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
-                            <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/pl.png" alt="Poland" /> Poland<br>
-                            <a href="http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
-                            <a href="ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
-                            <a href="rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
-                            <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/ru.png" alt="Russia" /> Russia<br>
-                            <a href="http://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">http://mirror.yandex.ru/mirrors/blackarch/</a><br>
-                            <a href="ftp://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">ftp://mirror.yandex.ru/mirrors/blackarch/</a><br>
-                            <a href="rsync://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.yandex.ru/mirrors/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/sg.png" alt="Singapore" /> Singapore<br>
-                            <a href="http://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">http://download.nus.edu.sg/mirror/blackarch/</a><br>
-                            <a href="https://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">https://download.nus.edu.sg/mirror/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/se.png" alt="Sweden" /> Sweden<br>
-                            <a href="http://mirror.zetup.net/blackarch/" target="_blank" itemprop="url">http://mirror.zetup.net/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/ch.png" alt="Switzerland" /> Switzerland<br>
-                            <a href="http://mirror.easyname.ch/blackarch/" target="_blank" itemprop="url">http://mirror.easyname.ch/blackarch/</a><br>
-                            <a href="ftp://mirror.easyname.ch/blackarch/" target="_blank" itemprop="url">ftp://mirror.easyname.ch/blackarch/</a><br>
-                            <a href="rsync://mirror.easyname.ch/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.ch/blackarch/</a><br>
-                            <a href="https://mirror.tillo.ch/ftp/blackarch/" target="_blank" itemprop="url">https://mirror.tillo.ch/ftp/blackarch/</a><br>
-                            <a href="http://mirror.tillo.ch/ftp/blackarch/" target="_blank" itemprop="url">http://mirror.tillo.ch/ftp/blackarch/</a><br>
-                            <a href="ftpes://mirror.tillo.ch/blackarch/" target="_blank" itemprop="url">ftpes://mirror.tillo.ch/blackarch/</a><br>
-                            <a href="ftp://mirror.tillo.ch/blackarch/" target="_blank" itemprop="url">ftp://mirror.tillo.ch/blackarch/</a><br>
-                            <a href="rsync://mirror.tillo.ch/blackarch/" target="_blank" itemprop="url">rsync://mirror.tillo.ch/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/tr.png" alt="Turkey" /> Turkey<br>
-                            <a href="http://ftp.linux.org.tr/blackarch/" target="_blank" itemprop="url">http://ftp.linux.org.tr/blackarch/</a><br>
-                            <a href="ftp://ftp.linux.org.tr/blackarch/" target="_blank" itemprop="url">ftp://ftp.linux.org.tr/blackarch/</a><br>
-                            <a href="rsync://rsync.linux.org.tr/blackarch/" target="_blank" itemprop="url">rsync://rsync.linux.org.tr/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/tw.png" alt="Taiwan" /> Taiwan<br>
-                            <a href="http://blackarch.cs.nctu.edu.tw/" target="_blank">http://blackarch.cs.nctu.edu.tw/</a><br>
-                            <a href="rsync://blackarch.cs.nctu.edu.tw/blackarch/" target="_blank" itemprop="url">rsync://blackarch.cs.nctu.edu.tw/blackarch/</a><br>
-                            <a href="http://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">http://ftp.yzu.edu.tw/Linux/blackarch/</a><br>
-                            <a href="ftp://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">ftp://ftp.yzu.edu.tw/Linux/blackarch/</a><br>
-                            <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">rsync://ftp.yzu.edu.tw/Linux/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/us.png" alt="USA" />USA<br>
-                            <a href="https://mirrors.tuxns.net/blackarch/" target="_blank" itemprop="url">https://mirrors.tuxns.net/blackarch/</a><br>
-                            <a href="http://mirrors.tuxns.net/blackarch/" target="_blank" itemprop="url">http://mirrors.tuxns.net/blackarch/</a><br>
-                            <a href="rsync://mirrors.tuxns.net/blackarch" target="_blank" itemprop="url">rsync://mirrors.tuxns.net/blackarch</a><br>
-                            <a href="http://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">http://mirror.math.princeton.edu/pub/blackarch/</a><br>
-                            <a href="rsync://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">rsync://mirror.math.princeton.edu/pub/blackarch/</a><br>
-                            <a href="http://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">http://distro.ibiblio.org/blackarch/</a><br>
-                            <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">ftp://distro.ibiblio.org/blackarch/</a><br>
-                            <a href="https://deadbeef.ninja/blackarch/" target="_blank" itemprop="url">https://deadbeef.ninja/blackarch/</a><br>
-                            <a href="http://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">http://mirror.team-cymru.org/blackarch/</a><br>
-                            <a href="ftp://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">ftp://mirror.team-cymru.org/blackarch/</a><br>
-                            <a href="rsync://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.org/blackarch/</a><br>
-                            <a href="http://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">http://mirror.oss.maxcdn.com/blackarch/</a><br>
-                            <a href="ftp://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.oss.maxcdn.com/blackarch/</a><br>
-                            <a href="rsync://mirror.oss.maxcdn.com/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.oss.maxcdn.com/mirrors/blackarch/</a><br>
-                            <a href="http://arch.localmsp.org/blackarch/" target="_blank" itemprop="url">http://arch.localmsp.org/blackarch/</a>
-                            <br><br>
-                            <img src="/images/flags/vn.png" alt="Vietnam" /> Vietnam<br>
-                            <a href="http://f.archlinuxvn.org/blackarch/" target="_blank" itemprop="url">http://f.archlinuxvn.org/blackarch/</a>
+EOF
+cat | grep -v -e '^#' | awk -F"|" '{
+        countries[$1]++;
+        countrycode[$1] = $2;
+        mirrors[$1][$3]["http"] = $4;
+        mirrors[$1][$3]["ftp"] = $5;
+        mirrors[$1][$3]["rsync"] = $6;
+}
+END {
+        indent = "                            "
+        n = asorti(countries, sorted);
+        for( i=1; i<=n; i++) {
+                print "<img src=\"/images/flags/" tolower(countrycode[sorted[i]])".png\" alt=\"" sorted[i] "\" /> " sorted[i] "<br>";
+                for (mirror in mirrors[sorted[i]]) {
+                        printf indent mirror " - ";
+                        j = 1
+                        for(type in mirrors[sorted[i]][mirror]) {
+                                if(length(mirrors[sorted[i]][mirror][type]) > 0) {
+                                        if(j > 1) {
+                                                printf " | "
+                                        }
+                                        printf "<a href=\"" mirrors[sorted[i]][mirror][type] "\" target=\"_blank\" itemprop=\"url\">" toupper(type) "</a>";
+                                        j++
+                                }
+                        }
+                        print "<br>"
+
+                }
+                print indent "<br><br>"
+
+        }
+}' < data/mirrors
+cat <<\EOF
                         </li>
                     </ul>
                 </div>
