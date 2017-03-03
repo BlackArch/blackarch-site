@@ -32,4 +32,6 @@ Unimportant/Obvious things
 
 **images/**          - images
 
+**extra/**   	     - contains some scripts to enhanced the SEO / Rss...
+
 **favicon.ico**      - favicon
