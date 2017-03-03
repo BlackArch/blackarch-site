@@ -43,7 +43,9 @@ header.carousel .fill {
 	background-position: center;
 	background-size: cover;
 }
-
+.logo_header {
+margin-right:10px;
+}
 .error-404 {
 	font-size: 100px;
 }
@@ -124,12 +126,12 @@ footer p {
 }
 /* Top menu */
 .top-logo {
-	height: 60px;
-	width: 70px;
+	height: 50px;
+	width: 60px;
 }
 
 .top-fond {
-	width: 300px;
+	width: 210px;
 }
 
 .menu-lnk {
@@ -150,14 +152,14 @@ footer p {
 
 @media ( max-width :1300px) {
 	.top-fond {
-		width: 280px;
+		width: 180px;
 	}
 }
 
 @media ( max-width :1200px) {
 	.top-logo {
-		height: 50px;
-		width: 60px;
+		height: 40px;
+		width: 50px;
 	}
 	.top-fond {
 		display: none;
@@ -169,8 +171,8 @@ footer p {
 
 @media ( max-width :1000px) {
 	.top-logo {
-		height: 40px;
-		width: 50px;
+		height: 30px;
+		width: 40px;
 		margin: 5px 0 0 0;
 	}
 	.menu-lnk li, .menu-lnk li a {
@@ -179,13 +181,20 @@ footer p {
 }
 /* End top menu */
 /* Last release block */
-#last-release {
-width:200px;
-float:right;
-margin-right:8px;
-background-color:black;
-padding:5px;
-border-radius:4px;
+#release {
+transition: background-color 0.8s ease;
+color:#06D206;
+background-color:#111111;
+position:relative;
+width:250px;
+margin:0 0 0 30px;
+padding:5px 3px 5px 3px;
+border:0;
+border-radius:2px;
+}
+#release:hover {
+transition: background-color 0.8s ease;
+background-color:#262626;
 }
 .community-head {
 	padding: 4px 15px 4px 15px;
@@ -546,10 +555,10 @@ a.hcat {
 #tutobi .info {
 	max-width: 500px;
 	width: 98%;
-	margin: 0 0 10px 0;
-	padding: 5px 5px 0px 5px;
-	background-color: black;
-	border: 1px solid #e5e5e5;
+	margin: 5px 0 10px 0;
+	padding: 5px 7px 5px 7px;
+	background-color:#111111 ;
+	border: 1px solid #5B5B5B;
 	border-radius: 2px;
 	box-sizing: border-box;
 	color: white;
@@ -573,7 +582,7 @@ a.hcat {
 	font-style: normal;
 	font-size: 14px;
 	color: #6ae400;
-	background-color: black;
+	background-color: #111111;
 	padding: 0px 3px 0px 3px;
 	border-radius: 1px;
 }
@@ -582,7 +591,7 @@ a.hcat {
 	font-style: normal;
 	font-size: 14px;
 	color: #e1e111;
-	background-color: black;
+	background-color:#111111;
 	padding: 0px 3px 0px 3px;
 	border-radius: 1px;
 }
@@ -590,7 +599,7 @@ a.hcat {
 #tutobi .sb {
 	font-size: 14px;
 	color: #ff2c2c;
-	background-color: black;
+	background-color: #111111;
 	padding: 0px 3px 0px 3px;
 	border-radius: 1px;
 }
@@ -640,4 +649,12 @@ a.hcat {
 #givenow .cc {
 	background-color: #da231c;
 	cursor: pointer;
+}
+/* FAQ */
+.faqco {
+magin:2px 0 2px 0;
+padding:2px 4px 2px 4px;
+color:#06D206;
+background-color:#111111;
+border-radius:3px;
 }
