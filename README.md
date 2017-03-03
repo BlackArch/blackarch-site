@@ -12,6 +12,8 @@ Important things
 
 **data/tools**       - a list of tools
 
+**data/mirrors**     - List of mirrors to generate the downloads page
+
 **generators/**      - each script here generates a page/item
 
 **gpg/**             - gpg keys for developers
