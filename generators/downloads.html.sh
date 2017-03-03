@@ -367,7 +367,11 @@ cat <<\EOF
                             <a href="ftp://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.oss.maxcdn.com/blackarch/</a><br>
                             <a href="rsync://mirror.oss.maxcdn.com/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.oss.maxcdn.com/mirrors/blackarch/</a><br>
                             <a href="http://arch.localmsp.org/blackarch/" target="_blank" itemprop="url">http://arch.localmsp.org/blackarch/</a>
-                            <br><br>
+                            <a href="https://mirror.lps.rocks/blackarch/" target="_blank" itemprop="url">https://mirror.lps.rocks/blackarch/</a><br>
+                            <a href="ftp://mirror.lps.rocks/blackarch/" target="_blank" itemprop="url">ftp://mirror.lps.rocks/blackarch/</a><br>
+                            <a href="rsync://mirror.lps.rocks/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.lps.rocks/blackarch/</a><br>
+                            
+			    <br><br>
                             <img src="/images/flags/vn.png" alt="Vietnam" /> Vietnam<br>
                             <a href="http://f.archlinuxvn.org/blackarch/" target="_blank" itemprop="url">http://f.archlinuxvn.org/blackarch/</a>
                         </li>
