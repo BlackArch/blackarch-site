@@ -24,6 +24,7 @@ $description[2] = str_replace("'", '&apos;;', $description[2]);
 //url
 preg_match_all('/id\=p([0-9]+)/', $content, $url);
 
+//Header
 $head = '
 <!--?xml version="1.0" ?-->
 <rss version="2.0">
@@ -32,6 +33,7 @@ $head = '
 <description>News and information for BlackArch Linux</description>
 <link>https://blackarch.org</link>';
 
+//For each article, create block item
 file_put_contents('rss.xml', $head);
 
 $no_row = count($title[1]) - 1;
@@ -45,6 +47,7 @@ $inc_row = 0;
 <item>
 <title>'.$title[1][$inc_row].'</title>
 <description>'.$description[2][$inc_row].'</description>
+<pubDate>'.$time[1][$inc_row].'</pubDate>
 <link>https://blackarch.org/blog.html#p'.$url[1][$inc_row].'</link>
 </item>';
 
@@ -53,6 +56,7 @@ $inc_row = 0;
         $inc_row++;
     }
 
+//Footer
 $foot = '
 </channel>
 </rss>';

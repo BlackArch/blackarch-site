@@ -5,6 +5,7 @@ guide		= $('#guide');
 community 	= $('#community');
 blog		= $('#blog');
 donate		= $('#donate');
+faq		    = $('#faq');
 
 //Function - spawnLoad
 function spawnLoad(TrigLoad) {
@@ -61,6 +62,11 @@ function pop() {
 	else if(gTo === 'donate') {
 		donate.trigger('click');
 		donate.addClass('lock');
+	}
+
+	else if(gTo === 'faq') {
+		faq.trigger('click');
+		faq.addClass('lock');
 	}
 
 	else
@@ -150,8 +156,8 @@ $(document).on('click', '#home, .home', function(e) {
 });
 
 //Downloads
-$(document).off('click', '#downloads');
-$(document).on('click', '#downloads', function(e) {
+$(document).off('click', '#downloads, .downloads');
+$(document).on('click', '#downloads, .downloads', function(e) {
 
 	//Check if isn't lock
 	if($('#downloads').hasClass('lock'))
@@ -262,6 +268,64 @@ $(document).on('click', '#guide, .guide', function(e) {
 
 		//Change the title (<title>)
 		document.title = 'Guide of BlackArch';
+	});
+});
+
+//Faq
+$(document).off('click', '#faq');
+$(document).on('click', '#faq', function(e) {
+
+	//Check if isn't lock
+	if($('#faq').hasClass('lock'))
+		return;
+
+	//Load by url, return (don't need to execute the code)
+	if(e.target.tagName.toLowerCase() === 'li')
+		return;
+
+	//Drop anchors follow
+	if(e.target.tagName.toLowerCase() === 'a')
+		e.preventDefault();
+
+	//Remove any possible lock
+	if($('.lock').length > 0)
+		$('.lock').removeClass();
+
+	//Add lock class for avoid any double load (fast clic or whatever...)
+	$('#faq').addClass('lock');
+
+	//Push the new url
+	history.pushState({}, null, 'faq.html');
+
+	//Loading
+	spawnLoad('load');
+
+	//Empty the container
+	$('.result').empty().hide();
+
+	//Get the target content
+	$.get('faq.html', function(msg) {
+
+		//Replace the new url
+		history.replaceState({}, null, 'faq.html');
+
+		//Push the result in the DOM, into a hidden temp container
+		$('<div id=tmp hidden>'+ msg +'</div>').appendTo('body');
+
+		//Extract only the required html
+		ctn = $('#tmp').find('.result').html();
+
+		//Push the required into the result container
+		$('.result').append(ctn).fadeIn('slow');
+
+		//Remove the temp container
+		$('#tmp').remove();
+
+		//Remove the loading
+		spawnLoad('kill');
+
+		//Change the title (<title>)
+		document.title = 'FAQ - Frequently asked questions<';
 	});
 });
 

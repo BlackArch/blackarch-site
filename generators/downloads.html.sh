@@ -307,10 +307,6 @@ cat <<\EOF
                             <a href="http://www.ftp.ne.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://www.ftp.ne.jp/Linux/packages/blackarch/</a><br>
                             <a href="ftp://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">ftp://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
                             <br><br>
-                            <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br>
-                            <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
-                            <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a>
-                            <br><br>
                             <img src="/images/flags/pl.png" alt="Poland" /> Poland<br>
                             <a href="http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
                             <a href="ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
@@ -352,6 +348,11 @@ cat <<\EOF
                             <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">rsync://ftp.yzu.edu.tw/Linux/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/us.png" alt="USA" />USA<br>
+			    <a href="https://mirror.lps.rocks/blackarch/" target="_blank" itemprop="url">https://mirror.lps.rocks/blackarch/</a><br>
++                           <a href="ftp://mirror.lps.rocks/blackarch/" target="_blank" itemprop="url">ftp://mirror.lps.rocks/blackarch/</a><br>
++                           <a href="rsync://mirror.lps.rocks/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.lps.rocks/blackarch/</a><br>
+			    <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
+                            <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a>
                             <a href="https://mirrors.tuxns.net/blackarch/" target="_blank" itemprop="url">https://mirrors.tuxns.net/blackarch/</a><br>
                             <a href="http://mirrors.tuxns.net/blackarch/" target="_blank" itemprop="url">http://mirrors.tuxns.net/blackarch/</a><br>
                             <a href="rsync://mirrors.tuxns.net/blackarch" target="_blank" itemprop="url">rsync://mirrors.tuxns.net/blackarch</a><br>
