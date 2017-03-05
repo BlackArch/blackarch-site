@@ -17,10 +17,11 @@ cat <<\EOF
             </div>
         </div>
         <!-- /.row -->
-        <!-- Content Row -->
-        <div class="list-group-item row row-header-title">
-            <!-- Content Column -->
-            <div class="col-md-12">
+       <div class="panel panel-default text-left">
+        <div class=panel-heading>
+            <b>About</b>
+        </div>
+	<div class=list-group-item>
                 <p>
                 This is the official guide to BlackArch Linux. It is quite new. Kindly excuse all typos and errors. Soon, this guide will contain all of the information
                 about BlackArch Linux you could possibly imagine. We offer the guide chapter by chapter in PDF format.

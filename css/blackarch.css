@@ -5,7 +5,7 @@ html, body {
 body {
 	padding-top: 50px;
 	background-color: #1d1d1d;
-	color: #bbb;
+	color: #F4F4F4;
 }
 
 a:not (:.hcat ) {
@@ -201,17 +201,18 @@ background-color:#262626;
 	margin-bottom: 20px;
 	width: 750px;
 	height: 30px;
-	background-color: #555;
-	border: 1px solid #ccc;
-	border-radius: 4px;
+background-color: rgba(0, 0, 0, 0.4);
+	border: 1px solid #494949;
+	border-radius: 2px;
 }
 
 .community-body {
 	padding: 25px 15px 25px 15px;
 	margin-bottom: 20px;
 	width: 750px;
-	background-color: #2f2f2f;
-	border: 1px solid #ccc;
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 1px solid #494949;
+	border-radius:2px;
 }
 
 .community-body-right {
@@ -233,8 +234,8 @@ background-color:#262626;
 .code-block {
 	padding: 10px;
 	margin: 10px 0 4px 0;
-	background: #000;
-	border: 1px solid #999;
+	border:1px solid #494949;
+background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 4px;
 	line-height: 1.42857143;
 	word-break: break-all;
@@ -284,14 +285,14 @@ codevar {
 	font-size: 14px;
 	border-collapse: collapse;
 	text-align: left;
-	background-color: #333;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 /* tbl donate minimum width */
 .tbl-donate {
 min-width:200px;
 }
 #tbl-minimalist td {
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #494949;
 }
 
 #tbl-minimalist tbody tr:hover>.tbl-name, #tbl-minimalist tbody tr:hover>.tbl-homepage
@@ -552,7 +553,7 @@ a.hcat {
 	margin: 0 0 10px 0;
 }
 
-#tutobi .info {
+.info {
 	max-width: 500px;
 	width: 98%;
 	margin: 5px 0 10px 0;
@@ -564,12 +565,12 @@ a.hcat {
 	color: white;
 }
 
-#tutobi .info p {
+.info p {
 	max-width: 95%;
 	margin: 0 0 5px 0;
 }
 
-#tutobi .info i {
+.info i {
 	float: right;
 	font-size: 22px;
 }

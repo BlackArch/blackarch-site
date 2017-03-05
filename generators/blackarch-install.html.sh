@@ -19,9 +19,11 @@ cat <<\EOF
         </div>
         <!-- /.row -->
         <!-- Content Row -->
-        <div class="list-group-item row row-header-title">
-            <!-- Content Column -->
-            <div id=tutobi class="col-md-12">
+	 <div class="panel panel-default text-left">
+       <div class=panel-heading>
+            <b>How to</b>
+        </div>
+		<div class=list-group-item>
             <hr>
             <p>
         	This tutorial will show you how to install Blackarch Linux using the ISO and the blackarch-installer. This tutorial uses VirtualBox, but you can also use other software if you prefer to virtualize.

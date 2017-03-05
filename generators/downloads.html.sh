@@ -22,12 +22,12 @@ cat <<\EOF
             <!-- Sidebar Column -->
             <div class="col-md-3">
                 <div class="list-group">
-                    <a href="#iso-download" class="list-group-item active">Live ISOs</a>
-                    <a href="#ova-download" class="list-group-item">OVA Images</a>
-                    <a href="#install-repo" class="list-group-item">Installing on top of ArchLinux</a>
-                    <a href="#install-iso" class="list-group-item">Installing from ISO</a>
-                    <a href="#blackarch-arm" class="list-group-item">ARM</a>
-                    <a href="#mirror-list" class="list-group-item">Mirrors</a>
+                    <a href="#iso-download" class="list-group-item active list-group-item-ex">Live ISOs</a>
+                    <a href="#ova-download" class="list-group-item list-group-item-ex">OVA Images</a>
+                    <a href="#install-repo" class="list-group-item list-group-item-ex">Installing on top of ArchLinux</a>
+                    <a href="#install-iso" class="list-group-item list-group-item-ex">Installing from ISO</a>
+                    <a href="#blackarch-arm" class="list-group-item list-group-item-ex">ARM</a>
+                    <a href="#mirror-list" class="list-group-item list-group-item-ex">Mirrors</a>
                 </div>
             </div>
             <!-- Content Column -->
