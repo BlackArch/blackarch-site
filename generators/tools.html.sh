@@ -74,7 +74,6 @@ cat <<\EOF
                     </table>
                 </div>
             </div>
-        </div>
         <!-- /.row -->
 EOF
 

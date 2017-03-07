@@ -8,7 +8,8 @@ repo=blackarch
 arch=x86_64
 out=data/tools
 
-rm data/*
+# Remove previous file entry except the mirrors file
+find data ! -name 'mirrors' -type f -exec rm -f {} +
 
 make_tmp() {
     tmp=`mktemp -d /tmp/blackarch.XXXXXXXXXXX`
@@ -44,7 +45,7 @@ parse_db() {
 	elif [[ "$name" == "vmcloak" ]]; then
 	       group=blackarch-malware
 
-	else 
+	else
 	#All the other package (add '0,/blackarch/s///' for remove first occurence only
         group="`grep --no-group-separator -A2 '^%GROUPS%$' ${d}/desc |
         sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' -e '0,/blackarch/s///' | grep -v '^%GROUPS%$' |

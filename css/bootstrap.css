@@ -4030,8 +4030,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 .navbar-form {
@@ -4273,12 +4273,12 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: #EAEAEA;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: transparent;
+transition: background-color 0.7s ease;
+background-color: rgba(0, 0, 0, 0.6);
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
@@ -4360,12 +4360,12 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
-  list-style: none;
-  border:1px solid #494949;
-background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 4px;
+padding: 8px 15px;
+margin-bottom: 20px;
+list-style: none;
+border:1px solid #494949;
+background-color: rgba(0, 0, 0, 0.2);
+border-radius: 2px;
 }
 .breadcrumb > li {
   display: inline-block;
@@ -5323,7 +5323,7 @@ background-color: rgba(0, 0, 0, 0.4);
 .panel-primary > .panel-heading {
   color: #fff;
   background-color: #337ab7;
-  border-color: #337ab7; 
+  border-color: #337ab7;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #337ab7;

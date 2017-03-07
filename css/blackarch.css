@@ -77,7 +77,13 @@ footer p {
 	padding: 10px 0 0 0;
 	border-top: 1px solid #EEEEEE;
 }
-
+footer span {
+display:block;
+margin:6px 0 0 0;
+}
+footer span:not(:first-child) {
+display:inline-block;
+}
 .carousel-caption h2 {
 	font-size: 32px;
 }
@@ -180,22 +186,7 @@ footer p {
 	}
 }
 /* End top menu */
-/* Last release block */
-#release {
-transition: background-color 0.8s ease;
-color:#06D206;
-background-color:#111111;
-position:relative;
-width:250px;
-margin:0 0 0 30px;
-padding:5px 3px 5px 3px;
-border:0;
-border-radius:2px;
-}
-#release:hover {
-transition: background-color 0.8s ease;
-background-color:#262626;
-}
+
 .community-head {
 	padding: 4px 15px 4px 15px;
 	margin-bottom: 20px;
@@ -280,6 +271,7 @@ codevar {
 	margin: 0 0 10px 0;
 }
 
+/* tbl tools list and donate */
 #tbl-minimalist {
 	margin: 15px;
 	font-size: 14px;
@@ -313,7 +305,8 @@ min-width:200px;
 }
 
 #tbl-minimalist tbody tr:hover {
-	background-color: #3F3F3F;
+transition: background-color 0.7s ease;
+background-color: rgba(15, 8, 8, 0.4);
 }
 
 .tbl-name, .tbl-version, .tbl-dversion {

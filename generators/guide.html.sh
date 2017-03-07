@@ -19,7 +19,7 @@ cat <<\EOF
         <!-- /.row -->
        <div class="panel panel-default text-left">
         <div class=panel-heading>
-            <b>About</b>
+            <b>Documentation</b>
         </div>
 	<div class=list-group-item>
                 <p>
