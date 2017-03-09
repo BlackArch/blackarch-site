@@ -1,4 +1,4 @@
-cat common/start-scanner
+cat common/start-dos
 
 cat << EOF
 

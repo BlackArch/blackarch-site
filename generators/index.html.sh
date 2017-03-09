@@ -70,105 +70,105 @@ cat <<EOF
                                 </tr>
 		                        <tr>
 			                        <td itemprop="givenName">Evan Teitelman</td>
-			                        <td>paraxor</td>
+			                        <td itemprop="additionalName">paraxor</td>
 			                        <td itemprop="email">teitelmanevan@gmail.com</td>
 			                        <td><a href="gpgkeys/paraxor.asc" target="_blank">0xEA87E4E3</a></td>
 			                        <td itemprop="jobTitle">Founder, Developer</td>
 		                        </tr>
 		                        <tr>
 			                        <td itemprop="givenName">Levon Kayan</td>
-			                        <td>noptrix</td>
+			                        <td itemprop="additionalName">noptrix</td>
 			                        <td itemprop="email">noptrix@nullsecurity.net</td>
 			                        <td><a href="gpgkeys/noptrix.asc" target="_blank">0x7A747D10</a></td>
 			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
 		                        <tr>
 			                        <td itemprop="givenName">Javier</td>
-			                        <td>nrz</td>
+			                        <td itemprop="additionalName">nrz</td>
 			                        <td itemprop="email">nrz@nullsecurity.net</td>
 			                        <td><a href="gpgkeys/nrz.asc" target="_blank">0x7C03DD86</a></td>
 			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
                                 <tr>
                                     <td itemprop="givenName">Hannes Eichblatt</td>
-                                    <td>heichblatt</td>
+                                    <td itemprop="additionalName">heichblatt</td>
                                     <td itemprop="email">blackarch@hanneseichblatt.de</td>
                                     <td><a href="gpgkeys/heichblatt.asc" target="_blank">0x31B0AF0E</a></td>
                                     <td>Developer</td>
                                 </tr>
 		                        <tr>
 			                        <td itemprop="givenName">Ellis Kenyo</td>
-			                        <td>elken</td>
+			                        <td itemprop="additionalName">elken</td>
 			                        <td itemprop="email">elken.tdos@gmail.com</td>
 			                        <td><a href="gpgkeys/elken.asc" target="_blank">0x0F4093D1</a></td>
 			                        <td itemprop="jobTitle">Developer</td>
 		                        </tr>
                                 <tr>
                                     <td itemprop="givenName">Louis Dion-Marcil</td>
-                                    <td>ldionmarcil</td>
+                                    <td itemprop="additionalName">ldionmarcil</td>
                                     <td itemprop="email">louis.dionmarcil@gmail.com</td>
                                     <td><a href="gpgkeys/ldionmarcil.asc" target="_blank">0x0E61E739</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
 								<tr>
                                     <td itemprop="givenName">Dimitri Mader</td>
-                                    <td>anyon3</td>
+                                    <td itemprop="additionalName">anyon3</td>
                                     <td itemprop="email">dimitri@linux.com</td>
                                     <td><a href="gpgkeys/anyon3.asc" target="_blank">0x8B8E3622</a></td>
                                     <td itemprop="jobTitle">WebDeveloper</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Jeremy Marlow</td>
-                                    <td>i3_Arch</td>
+                                    <td itemprop="additionalName">i3_Arch</td>
                                     <td itemprop="email">jamarlow410@gmail.com</td>
                                     <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
 			                    <tr>
                                     <td itemprop="givenName">Pierre B.</td>
-			                        <td>Pi3rrot</td>
+			                        <td itemprop="additionalName">Pi3rrot</td>
 			                        <td itemprop="email">pierre@pi3rrot.net</td>
 			                        <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x0B694394</a></td>
 			                        <td itemprop="jobTitle">Contributor</td>
 		                        </tr>
 		                        <tr>
 			                        <td itemprop="givenName">Halit Alptekin</td>
-			                        <td>rapt0r</td>
+			                        <td itemprop="additionalName">rapt0r</td>
 			                        <td itemprop="email">me@halitalptekin.com</td>
 			                        <td><a href="gpgkeys/rapt0r.asc" target="_blank">0x17F838F9</a></td>
 			                        <td itemprop="jobTitle">Contributor</td>
 		                        </tr>
 		                        <tr>
 			                        <td itemprop="givenName">Ano Nymous</td>
-			                        <td>sudokode</td>
+			                        <td itemprop="additionalName">sudokode</td>
 			                        <td itemprop="email">sudokode@gmail.com</td>
 			                        <td><a href="gpgkeys/sudokode.asc" target="_blank">0xBADC0DE</a></td>
 			                        <td itemprop="jobTitle">Contributor</td>
 		                        </tr>
                                 <tr>
                                     <td itemprop="givenName">Guy Marquez</td>
-                                    <td>eserror</td>
+                                    <td itemprop="additionalName">eserror</td>
                                     <td itemprop="email">guy.marquez@yandex.com</td>
                                     <td><a href="gpgkeys/eserror.asc" target="_blank">0x1DDA1182</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Felipe Montes</td>
-                                    <td>GudwaL</td>
+                                    <td itemprop="additionalName">GudwaL</td>
                                     <td itemprop="email">felipe@smartdefence.cl</td>
                                     <td><a href="gpgkeys/gudwal.asc" target="_blank">0x9548C879</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Abelardo Ricart</td>
-                                    <td>abby</td>
+                                    <td itemprop="additionalName">abby</td>
                                     <td itemprop="email">aricart@gmail.com</td>
                                     <td><a href="gpgkeys/abby.asc" target="_blank">0xF126259B</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Alexander Rothenberg</td>
-                                    <td>EisWiesel</td>
+                                    <td itemprop="additionalName">EisWiesel</td>
                                     <td itemprop="email">unreal436@gmail.com</td>
                                     <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADC0DE</a></td>
                                     <td itemprop="jobTitle">Contributor</td>

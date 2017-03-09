@@ -1,4 +1,4 @@
-cat common/start-networking
+cat common/start-reversing
 
 cat << EOF
 
