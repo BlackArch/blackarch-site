@@ -352,7 +352,7 @@ cat <<\EOF
                             <a href="ftp://mirror.lps.rocks/blackarch/" target="_blank" itemprop="url">ftp://mirror.lps.rocks/blackarch/</a><br>
                             <a href="rsync://mirror.lps.rocks/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.lps.rocks/blackarch/</a><br>
 			    			<a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
-                            <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a>
+                            <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a><br>
                             <a href="https://mirrors.tuxns.net/blackarch/" target="_blank" itemprop="url">https://mirrors.tuxns.net/blackarch/</a><br>
                             <a href="http://mirrors.tuxns.net/blackarch/" target="_blank" itemprop="url">http://mirrors.tuxns.net/blackarch/</a><br>
                             <a href="rsync://mirrors.tuxns.net/blackarch" target="_blank" itemprop="url">rsync://mirrors.tuxns.net/blackarch</a><br>

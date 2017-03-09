@@ -23,7 +23,7 @@ cat <<\EOF
        <div class=panel-heading>
             <b>How to</b>
         </div>
-		<div class=list-group-item>
+		<div class="bl-install list-group-item">
             <hr>
             <p>
         	This tutorial will show you how to install Blackarch Linux using the ISO and the blackarch-installer. This tutorial uses VirtualBox, but you can also use other software if you prefer to virtualize.

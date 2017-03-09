@@ -264,9 +264,8 @@ codevar {
 }
 
 .panel {
-	margin: 20px 0 20px 0;
+margin: 20px 0 20px 0;
 }
-
 #idx-tool {
 	margin: 0 0 10px 0;
 }
@@ -372,7 +371,7 @@ a.hcat {
 		font-size: 10px;
 	}
 }
-
+/* Index array (team) */
 #developers {
 	table-layout: fixed;
 	width: 600;
@@ -383,18 +382,19 @@ a.hcat {
 	padding: 0 0 5px 0;
 	text-align: left;
 }
-
-#developers tr td:nth-of-type(2), #developers tr td:nth-of-type(4),
-	#developers tr td:nth-of-type(5) {
-	width: 150px;
-	text-align: left;
-}
-
 #developers tr td:nth-of-type(3) {
-	width: 260px;
-	text-align: left;
+width: 260px;
+text-align: left;
 }
-
+#developers tr td:nth-of-type(2), #developers tr td:nth-of-type(4), #developers tr td:nth-of-type(5) {
+width: 150px;
+text-align: left;
+}
+@media (max-width:650px) {
+	#developers tr td:nth-child(3), #developers tr td:nth-child(4) {
+	display:none;
+	}
+}
 .download {
 	table-layout: fixed;
 	overflow: hidden;
@@ -420,6 +420,11 @@ a.hcat {
 	width: 80px;
 	font-size: 13px;
 	text-align: left;
+}
+@media (max-width:650px) {
+	.download tr td:nth-child(5) {
+	display:none;
+	}
 }
 
 .guide {
@@ -536,13 +541,13 @@ a.hcat {
 }
 /* End Guide */
 /* Tutoriel */
-#tutobi img {
+.bl-install img {
 	margin: 0 0 10px 0;
 	max-width: 100%;
 	height: auto;
 }
 
-#tutobi p {
+.bl-install p {
 	margin: 0 0 10px 0;
 }
 
@@ -568,7 +573,7 @@ a.hcat {
 	font-size: 22px;
 }
 
-#tutobi hr {
+.bl-install hr {
 	margin: 5px 0 15px 0;
 }
 
@@ -590,7 +595,7 @@ a.hcat {
 	border-radius: 1px;
 }
 
-#tutobi .sb {
+.bl-install .sb {
 	font-size: 14px;
 	color: #ff2c2c;
 	background-color: #111111;

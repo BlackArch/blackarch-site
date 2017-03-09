@@ -58,7 +58,7 @@ cat <<\EOF
 	<div class="panel panel-default text-left">
 		<div class="panel-heading"><b>List of the donors</b></div>
 		<div class=list-group-item>
-	        <p>To be entirely transparent, we will display every donations here, if you have made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our IRC channel. In case we receive a donation and nobody claimed it, we will display as Anonymous</p>
+	        <p>To be entirely transparent, we will display every donations here, if you have made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our IRC channel. In case we receive a donation and nobody claimed it, we will display it as Anonymous</p>
 			 <table id=tbl-minimalist class=tbl-donate>
 			 <thead>
 	         	<tr id=idx-tool>
@@ -77,7 +77,7 @@ cat <<\EOF
 	            </tr>
 	         </tbody>
 			 </table>
-			 <p><i>The display of the donors start from 1 January 2017</i></p>
+			 <p><i>The display of the donator start from January 2017</i></p>
         </div>
      </div>
      <!-- /.row -->

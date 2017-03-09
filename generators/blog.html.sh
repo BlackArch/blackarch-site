@@ -48,7 +48,6 @@ cat <<\EOF
                                     <li>updated all blackarch tools</li>
                                     <li>updated menu entries for windows managers (awesome, fluxbox, openbox)</li>
                                 </ul>
-                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>

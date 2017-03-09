@@ -42,10 +42,10 @@ cat << EOF
             <b>BlackArch Linux Complete Tools List</b>
         </div>
 		<div class=list-group-item>
-                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/CreativeWork">
                         <thead>
                             <tr id=idx-tool>
-                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-name>Name</th>
                                 <th class=tbl-version>Version</th>
                                 <th class=tbl-description>Description</th>
                                 <th class=tbl-categorie>Category</th>
@@ -61,9 +61,9 @@ suburl=`echo "$groups" | sed -e 's/blackarch-//g' -e 's/ //g'`
 cat << EOF
                             <tr>
                                 <td class=tbl-name itemprop="name">${pkgname}</td>
-                                <td class="tbl-version vcat">${pkgver}</td>
+                                <td class="tbl-version vcat" itemprop="version">${pkgver}</td>
                                 <td class="tbl-description dcat" itemprop="description">${pkgdesc}</td>
-                                <td class=tbl-categorie itemprop="category"><a class=hcat href="${suburl}.html" title="${groups}">${groups}</a></td>
+                                <td class=tbl-categorie itemprop="genre"><a class=hcat href="${suburl}.html" title="${groups}">${groups}</a></td>
                                 <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="${url}" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
                             </tr>
 EOF
