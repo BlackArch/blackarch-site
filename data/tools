@@ -612,6 +612,7 @@ hatcloud|15.7225d79|Bypass CloudFlare with Ruby.| blackarch-recon |https://githu
 haystack|1759.df8b7ca|A Python framework for finding C structures from process memory - heap analysis - Memory structures forensics.| blackarch-binary |https://github.com/trolldbois/python-haystack
 hbad|1.0|This tool allows you to test clients on the heartbleed bug.| blackarch-scanner |http://www.curesec.com/
 hcraft|1.0.0|HTTP Vuln Request Crafter| blackarch-exploitation |http://sourceforge.net/projects/hcraft/
+hcxtools|71.abcfc47|Small set of tools to capture and convert packets from wlan devices for the use with hashcat.| blackarch-wireless |https://github.com/ZerBea/hcxtools
 hdcp-genkey|18.e8d342d|Generate HDCP source and sink keys from the leaked master key.| blackarch-crypto |https://github.com/rjw57/hdcp-genkey
 hdmi-sniff|5.f7fbc0e|HDMI DDC (I2C) inspection tool. It is designed to demonstrate just how easy it is to recover HDCP crypto keys from HDMI devices.| blackarch-hardware |https://github.com/ApertureLabsLtd/hdmi-sniff
 heartbleed-honeypot|0.1|Script that listens on TCP port 443 and responds with completely bogus SSL heartbeat responses, unless it detects the start of a byte pattern similar to that used in Jared Stafford's| blackarch-honeypot |http://packetstormsecurity.com/files/126068/hb_honeypot.pl.txt
@@ -883,6 +884,7 @@ mibble|2.9.4|An open-source SNMP MIB parser (or SMI parser) written in Java. It 
 middler|1.0|A Man in the Middle tool to demonstrate protocol middling attacks.| blackarch-networking |http://code.google.com/p/middler/
 mikrotik-npk|11.d54e97c|Python tools for manipulating Mikrotik NPK format.| blackarch-reversing |https://github.com/kost/mikrotik-npk
 mimikatz|2.1.1.20170409|A little tool to play with Windows security.| blackarch-windows |https://github.com/gentilkiwi/mimikatz
+mimipenguin|102.d69cc00|A tool to dump the login password from the current linux user.| blackarch-forensic |https://github.com/huntergregal/mimipenguin
 mingsweeper|1.00|A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.| blackarch-windows |http://www.hoobie.net/mingsweeper/
 minimodem|335.9a1e876|A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing protocols.| blackarch-misc |https://github.com/kamalmostafa/minimodem
 minimysqlator|0.5|A multi-platform application used to audit web sites in order to discover and exploit SQL injection vulnerabilities.| blackarch-exploitation |http://www.scrt.ch/en/attack/downloads/mini-mysqlat0r
@@ -1160,6 +1162,7 @@ ptf|838.8bc29e7|The Penetration Testers Framework is a way for modular support f
 pth-toolkit|7.3641cdc|Modified version of the passing-the-hash tool collection made to work straight out of the box.| blackarch-sniffer |https://github.com/byt3bl33d3r/pth-toolkit
 ptunnel|0.72|A tool for reliably tunneling TCP connections over ICMP echo request and reply packets| blackarch-tunnel |http://www.cs.uit.no/~daniels/PingTunnel/#download
 pulsar|31.baabdcc|Protocol Learning and Stateful Fuzzing.| blackarch-fuzzer |https://github.com/hgascon/pulsar
+punter|37.d04ad18|Hunt domain names using DNSDumpster, WHOIS, Reverse WHOIS, Shodan, Crimeflare.| blackarch-recon |https://github.com/nethunteros/punter
 pwd-hash|2.0|A password hashing tool that use the crypt function to generate the hash of a string given on standard input.| blackarch-crypto |http://vladz.devzero.fr/pwd-hash.php
 pwdlogy|14.8b92bcf|A target specific wordlist generating tool for social engineers and security researchers.| blackarch-misc |https://github.com/tch1001/pwdlogy
 pwdlyser|121.a39ea8d|Python-based CLI Password Analyser (Reporting Tool.| blackarch-crypto |https://github.com/ins1gn1a/pwdlyser
@@ -1205,6 +1208,7 @@ rdesktop-brute|1.5.0|It connects to windows terminal servers - Bruteforce patch 
 reaver|1.5.2|Brute force attack against Wifi Protected Setup| blackarch-wireless |http://code.google.com/p/reaver-wps/
 rebind|0.3.4|DNS Rebinding Tool| blackarch-exploitation |http://code.google.com/p/rebind/
 recon-ng|4.9.1|A full-featured Web Reconnaissance framework written in Python.| blackarch-recon |https://bitbucket.org/LaNMaSteR53/recon-ng
+reconnoitre|157.a9b4289|A security tool for multithreaded information gathering and service enumeration.| blackarch-recon |https://github.com/codingo/Reconnoitre
 reconscan|34.fac4294|Network reconnaissance and vulnerability assessment tools.| blackarch-recon |https://github.com/RoliSoft/ReconScan
 recoverjpeg|2.6.1|Recover jpegs from damaged devices.| blackarch-forensic |http://www.rfc1149.net/devel/recoverjpeg
 recstudio|4.0_20130717|Cross platform interactive decompiler| blackarch-decompiler |http://www.backerstreet.com/rec/rec.htm
@@ -1316,6 +1320,7 @@ sherlocked|1.f190c2b|Universal script packer-- transforms any type of script int
 shitflood|14.e74fc42|A Socks5 clone flooder for the Internet Relay Chat (IRC) protocol.| blackarch-dos |https://github.com/acidvegas/shitflood
 shocker|60.239286f|A tool to find and exploit servers vulnerable to Shellshock.| blackarch-exploitation |https://github.com/nccgroup/shocker
 shodan|1.6.5|Python library for Shodan (https://developer.shodan.io).| blackarch-automation |http://github.com/achillean/shodan-python
+shodanhat|13.e5e7e68|Search for hosts info with shodan.| blackarch-recon |https://github.com/HatBashBR/ShodanHat
 shootback|56.73cdc12|A reverse TCP tunnel let you access target behind NAT or firewall.| blackarch-backdoor |https://github.com/aploium/shootback
 shortfuzzy|0.1|A web fuzzing script written in perl.| blackarch-webapp |http://packetstormsecurity.com/files/104872/Short-Fuzzy-Rat-Scanner.html
 sidguesser|1.0.5|Guesses sids/instances against an Oracle database according to a predefined dictionary file.| blackarch-cracker |http://www.cqure.net/wp/tools/database/sidguesser/
