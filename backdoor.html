@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Backdoor tools</title>
+    <meta name="description" content="List of all backdoor tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1700 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Backdoor</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">Backdoor</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+				Packages that exploit or open backdoors on already vulnerable systems.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">34</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch backdoor</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">aesshell</td>
+                                <td class="tbl-version vcat">0.7</td>
+                                <td class="tbl-description dcat" itemprop="description">A backconnect shell for Windows and Unix written in python and uses AES in CBC mode in conjunction with HMAC-SHA256 for secure transport.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://packetstormsecurity.com/files/132438/AESshell.7.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">azazel</td>
+                                <td class="tbl-version vcat">14.e6a12a2</td>
+                                <td class="tbl-description dcat" itemprop="description">A userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/chokepoint/azazel" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">backcookie</td>
+                                <td class="tbl-version vcat">51.6dabc38</td>
+                                <td class="tbl-description dcat" itemprop="description">Small backdoor using cookie.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/mrjopino/backcookie" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">backdoor-factory</td>
+                                <td class="tbl-version vcat">197.d144cc2</td>
+                                <td class="tbl-description dcat" itemprop="description">Patch win32/64 binaries with shellcode.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/secretsquirrel/the-backdoor-factory" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">backdoorme</td>
+                                <td class="tbl-version vcat">306.91d01ac</td>
+                                <td class="tbl-description dcat" itemprop="description">A powerful utility capable of backdooring Unix machines with a slew of backdoors.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Kkevsterrr/backdoorme" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">backdoorppt</td>
+                                <td class="tbl-version vcat">80.f64afc3</td>
+                                <td class="tbl-description dcat" itemprop="description">Transform your payload.exe into one fake word doc (.ppt).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/r00txp10it/backdoorppt" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cymothoa</td>
+                                <td class="tbl-version vcat">1</td>
+                                <td class="tbl-description dcat" itemprop="description">A stealth backdooring tool, that inject backdoor's shellcode into an existing process.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://cymothoa.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dr0p1t-framework</td>
+                                <td class="tbl-version vcat">20.f93bcb4</td>
+                                <td class="tbl-description dcat" itemprop="description">A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/D4Vinci/Dr0p1t-Framework" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dragon-backdoor</td>
+                                <td class="tbl-version vcat">7.c7416b7</td>
+                                <td class="tbl-description dcat" itemprop="description">A sniffing, non binding, reverse down/exec, portknocking service Based on cd00r.c.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Shellntel/backdoors" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">enyelkm</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Rootkit for Linux x86 kernels v2.6.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.enye-sec.org/programas.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">gobd</td>
+                                <td class="tbl-version vcat">81.e64b5a5</td>
+                                <td class="tbl-description dcat" itemprop="description">A Golang covert backdoor.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/razc411/GoBD" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">harness</td>
+                                <td class="tbl-version vcat">19.ed2a6aa</td>
+                                <td class="tbl-description dcat" itemprop="description">Interactive remote PowerShell Payload.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Rich5/Harness" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hotpatch</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Hot patches executables on Linux using .so file injection.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.selectiveintellect.com/hotpatch.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">jynx2</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">An expansion of the original Jynx LD_PRELOAD rootkit</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.blackhatlibrary.net/Jynx2" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">kimi</td>
+                                <td class="tbl-version vcat">17.21a8346</td>
+                                <td class="tbl-description dcat" itemprop="description">Script to generate malicious debian packages (debain trojans).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ChaitanyaHaritash/kimi" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ld-shatner</td>
+                                <td class="tbl-version vcat">4.5c215c4</td>
+                                <td class="tbl-description dcat" itemprop="description">ld-linux code injector.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/sduverger/ld-shatner" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">meterssh</td>
+                                <td class="tbl-version vcat">18.9a5ed19</td>
+                                <td class="tbl-description dcat" itemprop="description">A way to take shellcode, inject it into memory then tunnel whatever port you want to over SSH to mask any type of communications as a normal SSH connection.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/trustedsec/meterssh" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ms-sys</td>
+                                <td class="tbl-version vcat">2.5.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to write Win9x-.. master boot records (mbr) under linux - RTM!</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ms-sys.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pyrasite</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Code injection and introspection of running Python processes.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://pyrasite.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">revsh</td>
+                                <td class="tbl-version vcat">215.174e309</td>
+                                <td class="tbl-description dcat" itemprop="description">A reverse shell with terminal support, data tunneling, and advanced pivoting capabilities.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/emptymonkey/revsh/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rrs</td>
+                                <td class="tbl-version vcat">1.70</td>
+                                <td class="tbl-description dcat" itemprop="description">A reverse (connecting) remote shell. Instead of listening for incoming connections it will connect out to a listener (rrs in listen mode). With tty support and more.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cycom.se/dl/rrs" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rubilyn</td>
+                                <td class="tbl-version vcat">0.0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">64bit Mac OS-X kernel rootkit that uses no hardcoded address to hook the BSD subsystem in all OS-X Lion & below. It uses a combination of syscall hooking and DKOM to hide activity on a host.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nullsecurity.net/tools/backdoor.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">shellinabox</td>
+                                <td class="tbl-version vcat">428.98e6eeb</td>
+                                <td class="tbl-description dcat" itemprop="description">Implements a web server that can export arbitrary command line tools to a web based terminal emulator.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/shellinabox/shellinabox" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">shootback</td>
+                                <td class="tbl-version vcat">56.73cdc12</td>
+                                <td class="tbl-description dcat" itemprop="description">A reverse TCP tunnel let you access target behind NAT or firewall.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/aploium/shootback" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">syringe</td>
+                                <td class="tbl-version vcat">1.9786f35</td>
+                                <td class="tbl-description dcat" itemprop="description">A General Purpose DLL & Code Injection Utility.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/securestate/syringe" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">trixd00r</td>
+                                <td class="tbl-version vcat">0.0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nullsecurity.net/tools/backdoor.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tsh</td>
+                                <td class="tbl-version vcat">0.6</td>
+                                <td class="tbl-description dcat" itemprop="description">An open-source UNIX backdoor that compiles on all variants, has full pty support, and uses strong crypto for communication.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/search/?q=tsh" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tsh-sctp</td>
+                                <td class="tbl-version vcat">2.850a2da</td>
+                                <td class="tbl-description dcat" itemprop="description">An open-source UNIX backdoor.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/infodox/tsh-sctp" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">u3-pwn</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool designed to automate injecting executables to Sandisk smart usb devices with default U3 software install.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nullsecurity.net/tools/backdoor.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">unicorn-powershell</td>
+                                <td class="tbl-version vcat">65.56cec2f</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/trustedsec/unicorn" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">webacoo</td>
+                                <td class="tbl-version vcat">0.2.3</td>
+                                <td class="tbl-description dcat" itemprop="description">Web Backdoor Cookie Script-Kit.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://bechtsoudis.com/webacoo/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">webshells</td>
+                                <td class="tbl-version vcat">14.112ea8c</td>
+                                <td class="tbl-description dcat" itemprop="description">Web Backdoors.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/BlackArch/webshells" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">webspa</td>
+                                <td class="tbl-version vcat">0.8</td>
+                                <td class="tbl-description dcat" itemprop="description">A web knocking tool, sending a single HTTP/S to run O/S commands.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/webspa/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">weevely</td>
+                                <td class="tbl-version vcat">709.0a3b03f</td>
+                                <td class="tbl-description dcat" itemprop="description">Weaponized web shell.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://epinna.github.io/Weevely/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2017</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

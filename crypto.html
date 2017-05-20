@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crypto tools</title>
+    <meta name="description" content="List of all crypto tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1700 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Crypto</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">Crypto</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+				Packages that work with cryptography, with the exception of cracking.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">46</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch crypto</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">aespipe</td>
+                                <td class="tbl-version vcat">2.4d</td>
+                                <td class="tbl-description dcat" itemprop="description">Reads data from stdin and outputs encrypted or decrypted results to stdout.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://loop-aes.sourceforge.net/aespipe/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">argon2</td>
+                                <td class="tbl-version vcat">20161029</td>
+                                <td class="tbl-description dcat" itemprop="description">A password-hashing function (reference C implementation)</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/P-H-C/phc-winner-argon2" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">auto-xor-decryptor</td>
+                                <td class="tbl-version vcat">7.2eb176d</td>
+                                <td class="tbl-description dcat" itemprop="description">Automatic XOR decryptor tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.blog.mrg-effitas.com/publishing-of-mrg-effitas-automatic-xor-decryptor-tool/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bletchley</td>
+                                <td class="tbl-version vcat">0.0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of practical application cryptanalysis tools.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/bletchley/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ciphertest</td>
+                                <td class="tbl-version vcat">22.e33eb4a</td>
+                                <td class="tbl-description dcat" itemprop="description">A better SSL cipher checker using gnutls.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/OpenSecurityResearch/ciphertest" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ciphr</td>
+                                <td class="tbl-version vcat">105.db79691</td>
+                                <td class="tbl-description dcat" itemprop="description">A CLI tool for encoding, decoding, encryption, decryption, and hashing streams of data.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/frohoff/ciphr" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">codetective</td>
+                                <td class="tbl-version vcat">39.7f44df4</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to determine the crypto/encoding algorithm used according to traces of its representation.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.digitalloft.org/init/plugin_wiki/page/codetective" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cribdrag</td>
+                                <td class="tbl-version vcat">4.476feaa</td>
+                                <td class="tbl-description dcat" itemprop="description">An interactive crib dragging tool for cryptanalysis on ciphertext generated with reused or predictable stream cipher keys.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/SpiderLabs/cribdrag" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">crypthook</td>
+                                <td class="tbl-version vcat">17.0728cd1</td>
+                                <td class="tbl-description dcat" itemprop="description">TCP/UDP symmetric encryption tunnel wrapper.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/chokepoint/CryptHook" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cryptonark</td>
+                                <td class="tbl-version vcat">0.5.6</td>
+                                <td class="tbl-description dcat" itemprop="description">SSL security checker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://blog.techstacks.com/cryptonark.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dagon</td>
+                                <td class="tbl-version vcat">35.838da28</td>
+                                <td class="tbl-description dcat" itemprop="description">Advanced Hash Manipulation.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Ekultek/Dagon" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">daredevil</td>
+                                <td class="tbl-version vcat">31.f27dc64</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to perform (higher-order) correlation power analysis attacks (CPA).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/SideChannelMarvels/Daredevil" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">deen</td>
+                                <td class="tbl-version vcat">225.7c3de5e</td>
+                                <td class="tbl-description dcat" itemprop="description">Generic data encoding/decoding application built with PyQt5.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/takeshixx/deen" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">featherduster</td>
+                                <td class="tbl-version vcat">148.1d20594</td>
+                                <td class="tbl-description dcat" itemprop="description">An automated, modular cryptanalysis tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/featherduster" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">findmyhash</td>
+                                <td class="tbl-version vcat">1.1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Crack different types of hashes using free online services</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/findmyhash/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">gnutls2</td>
+                                <td class="tbl-version vcat">2.12.23</td>
+                                <td class="tbl-description dcat" itemprop="description">A library which provides a secure layer over a reliable transport layer (Version 2)</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://gnutls.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hash-extender</td>
+                                <td class="tbl-version vcat">136.d27581e</td>
+                                <td class="tbl-description dcat" itemprop="description">A hash length extension attack tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/iagox86/hash_extender" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hashfind</td>
+                                <td class="tbl-version vcat">8.e9a9a14</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to search files for matching password hash types and other interesting data.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/rurapenthe/hashfind" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hashid</td>
+                                <td class="tbl-version vcat">397.7e8473a</td>
+                                <td class="tbl-description dcat" itemprop="description">Software to identify the different types of hashes used to encrypt data.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/psypanda/hashID" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hashpump</td>
+                                <td class="tbl-version vcat">49.314268e</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to exploit the hash length extension attack in various hashing algorithms.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bwall/HashPump" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hdcp-genkey</td>
+                                <td class="tbl-version vcat">18.e8d342d</td>
+                                <td class="tbl-description dcat" itemprop="description">Generate HDCP source and sink keys from the leaked master key.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/rjw57/hdcp-genkey" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">kraken</td>
+                                <td class="tbl-version vcat">32.368a837</td>
+                                <td class="tbl-description dcat" itemprop="description">A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://opensource.srlabs.de/projects/a51-decrypt" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">luksipc</td>
+                                <td class="tbl-version vcat">0.01</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to convert unencrypted block devices to encrypted LUKS devices in-place.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.johannes-bauer.com/linux/luksipc" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morxkeyfmt</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Read a private key from stdin and output formatted data values.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morxploit.com/tools/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nomorexor</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool to help guess a files 256 byte XOR key by using frequency analysis</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/hiddenillusion/NoMoreXOR" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">omnihash</td>
+                                <td class="tbl-version vcat">70.870e9ae</td>
+                                <td class="tbl-description dcat" itemprop="description">Hash files, strings, input streams and network resources in various common algorithms simultaneously.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Miserlou/omnihash" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">openstego</td>
+                                <td class="tbl-version vcat">0.7.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool implemented in Java for generic steganography, with support for password-based encryption of the data.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.openstego.info/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">outguess</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A universal steganographic tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.outguess.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pacumen</td>
+                                <td class="tbl-version vcat">1.92a0884</td>
+                                <td class="tbl-description dcat" itemprop="description">Packet Acumen - Analyse encrypted network traffic and more (side-channel attacks).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bniemczyk/pacumen" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pip3line</td>
+                                <td class="tbl-version vcat">92.5e27195</td>
+                                <td class="tbl-description dcat" itemprop="description">The Swiss army knife of byte manipulation.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/pip3line" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">poracle</td>
+                                <td class="tbl-version vcat">65.a5cfad7</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for demonstrating padding oracle attacks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/iagox86/poracle" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">posttester</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A jar file that will send POST requests to servers in order to test for the hash collision vulnerability discussed at the Chaos Communication Congress in Berlin.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/109010/MagicHash-Collision-Testing-Tool.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pwd-hash</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A password hashing tool that use the crypt function to generate the hash of a string given on standard input.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://vladz.devzero.fr/pwd-hash.php" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pwdlyser</td>
+                                <td class="tbl-version vcat">123.a85c893</td>
+                                <td class="tbl-description dcat" itemprop="description">Python-based CLI Password Analyser (Reporting Tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ins1gn1a/pwdlyser" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rsactftool</td>
+                                <td class="tbl-version vcat">64.8e7a643</td>
+                                <td class="tbl-description dcat" itemprop="description">RSA tool for ctf - retreive private key from weak public key and/or uncipher data.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Ganapati/RsaCtfTool" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rsatool</td>
+                                <td class="tbl-version vcat">14.7dab6bc</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool that can be used to calculate RSA and RSA-CRT parameters.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ius/rsatool" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sbd</td>
+                                <td class="tbl-version vcat">1.36</td>
+                                <td class="tbl-description dcat" itemprop="description">Netcat-clone, portable, offers strong encryption - features AES-CBC + HMAC-SHA1 encryption, program execution (-e), choosing source port, continuous reconnection with delay + more</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=sbd" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">snow</td>
+                                <td class="tbl-version vcat">20130616</td>
+                                <td class="tbl-description dcat" itemprop="description">Steganography program for concealing messages in text files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://darkside.com.au/snow/index.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">testssl</td>
+                                <td class="tbl-version vcat">2.8rc3</td>
+                                <td class="tbl-description dcat" itemprop="description">Testing TLS/SSL encryption.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/drwetter/testssl.sh" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tlsenum</td>
+                                <td class="tbl-version vcat">78.787c88b</td>
+                                <td class="tbl-description dcat" itemprop="description">A command line tool to enumerate TLS cipher-suites supported by a server.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Ayrx/tlsenum" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tlspretense</td>
+                                <td class="tbl-version vcat">0.6.2</td>
+                                <td class="tbl-description dcat" itemprop="description">SSL/TLS client testing framework</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/iSECPartners/tlspretense" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">untwister</td>
+                                <td class="tbl-version vcat">119.a42b8f8</td>
+                                <td class="tbl-description dcat" itemprop="description">Seed recovery tool for PRNGs.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/altf4/untwister" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">veracrypt</td>
+                                <td class="tbl-version vcat">1.19</td>
+                                <td class="tbl-description dcat" itemprop="description">Disk encryption with strong security based on TrueCrypt</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://veracrypt.codeplex.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">xorbruteforcer</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Script that implements a XOR bruteforcing of a given file, although a specific key can be used too.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://eternal-todo.com/category/bruteforce" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">xorsearch</td>
+                                <td class="tbl-version vcat">1.11.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Program to search for a given string in an XOR, ROL or ROT encoded binary file.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://blog.didierstevens.com/programs/xorsearch/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">xortool</td>
+                                <td class="tbl-version vcat">0.96</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to analyze multi-byte xor cipher.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/hellman/xortool/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2017</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

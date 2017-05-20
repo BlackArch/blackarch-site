@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Networking tools</title>
+    <meta name="description" content="List of all networking tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1700 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Networking</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">netwokring</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                  Packages that scan selected systems for vulnerabilities or information about the network
+                </p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">120</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch networking</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">afpfs-ng</td>
+                                <td class="tbl-version vcat">0.8.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A client for the Apple Filing Protocol (AFP)</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://alexthepuffin.googlepages.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">aiengine</td>
+                                <td class="tbl-version vcat">647.ae285eb</td>
+                                <td class="tbl-description dcat" itemprop="description">A packet inspection engine with capabilities of learning without any human intervention.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://bitbucket.org/camp0/aiengine/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">argus</td>
+                                <td class="tbl-version vcat">3.0.8.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Network monitoring tool with flow control.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://qosient.com/argus/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">argus-clients</td>
+                                <td class="tbl-version vcat">3.0.8.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Network monitoring client for Argus.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://qosient.com/argus/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">arp-scan</td>
+                                <td class="tbl-version vcat">1.9</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that uses ARP to discover and fingerprint IP hosts on the local network</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nta-monitor.com/tools/arp-scan/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">arpalert</td>
+                                <td class="tbl-version vcat">2.0.12</td>
+                                <td class="tbl-description dcat" itemprop="description">Monitor ARP changes in ethernet networks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.arpalert.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">arpwner</td>
+                                <td class="tbl-version vcat">26.f300fdf</td>
+                                <td class="tbl-description dcat" itemprop="description">GUI-based python tool for arp posioning and dns poisoning attacks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ntrippar/ARPwner" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">atftp</td>
+                                <td class="tbl-version vcat">0.7.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Client/server implementation of the TFTP protocol that implements RFCs 1350, 2090, 2347, 2348, and 2349</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/atftp/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bind-tools</td>
+                                <td class="tbl-version vcat">9.11.1</td>
+                                <td class="tbl-description dcat" itemprop="description">The ISC DNS tools</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.isc.org/software/bind/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bro</td>
+                                <td class="tbl-version vcat">2.5</td>
+                                <td class="tbl-description dcat" itemprop="description">A powerful network analysis framework that is much different from the typical IDS you may know.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.bro.org/download/index.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">buttinsky</td>
+                                <td class="tbl-version vcat">138.1a2a1b2</td>
+                                <td class="tbl-description dcat" itemprop="description">Provide an open source framework for automated botnet monitoring.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/buttinsky/buttinsky" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cadaver</td>
+                                <td class="tbl-version vcat">0.23.3</td>
+                                <td class="tbl-description dcat" itemprop="description">Command-line WebDAV client for Unix</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.webdav.org/cadaver" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">chaosreader</td>
+                                <td class="tbl-version vcat">0.94</td>
+                                <td class="tbl-description dcat" itemprop="description">A freeware tool to trace tcp, udp etc. sessions and fetch application data from snoop or tcpdump logs.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://chaosreader.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">chopshop</td>
+                                <td class="tbl-version vcat">389.1ce433c</td>
+                                <td class="tbl-description dcat" itemprop="description">Protocol Analysis/Decoder Framework.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/MITRECND/chopshop" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cidr2range</td>
+                                <td class="tbl-version vcat">0.9</td>
+                                <td class="tbl-description dcat" itemprop="description">Script for listing the IP addresses contained in a CIDR netblock</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cpan.org/authors/id/R/RA/RAYNERLUC" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">creak</td>
+                                <td class="tbl-version vcat">40.52b0d74</td>
+                                <td class="tbl-description dcat" itemprop="description">Poison, reset, spoof, redirect MITM script.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/codepr/creak" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">depdep</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A merciless sentinel which will seek sensitive files containing critical info leaking through your network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/galkan/depdep" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">det</td>
+                                <td class="tbl-version vcat">29.b3ff0d4</td>
+                                <td class="tbl-description dcat" itemprop="description">(extensible) Data Exfiltration Toolkit.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/sensepost/det" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dhcpoptinj</td>
+                                <td class="tbl-version vcat">45.ec80d98</td>
+                                <td class="tbl-description dcat" itemprop="description">DHCP option injector.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/misje/dhcpoptinj" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dinouml</td>
+                                <td class="tbl-version vcat">0.9.5</td>
+                                <td class="tbl-description dcat" itemprop="description">A network simulation tool, based on UML (User Mode Linux) that can simulate big Linux networks on a single PC</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://kernel.embedromix.ro/us/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dnsfilexfer</td>
+                                <td class="tbl-version vcat">23.ef0261a</td>
+                                <td class="tbl-description dcat" itemprop="description">File transfer via DNS.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/leonjza/dnsfilexfer" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dnsteal</td>
+                                <td class="tbl-version vcat">23.9b3b929</td>
+                                <td class="tbl-description dcat" itemprop="description">DNS Exfiltration tool for stealthily sending files over DNS requests..</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/m57/dnsteal" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dripcap</td>
+                                <td class="tbl-version vcat">0.6.15</td>
+                                <td class="tbl-description dcat" itemprop="description">Caffeinated Packet Analyzer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/dripcap/dripcap" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dump1090</td>
+                                <td class="tbl-version vcat">386.bff92c4</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple Mode S decoder for RTLSDR devices.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/MalcolmRobb/dump1090" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">etherape</td>
+                                <td class="tbl-version vcat">0.9.15</td>
+                                <td class="tbl-description dcat" itemprop="description">A graphical network monitor for various OSI layers and protocols</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://etherape.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">exabgp</td>
+                                <td class="tbl-version vcat">3645.6150e275</td>
+                                <td class="tbl-description dcat" itemprop="description">The BGP swiss army knife of networking.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Exa-Networks/exabgp" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">filibuster</td>
+                                <td class="tbl-version vcat">164.f343308</td>
+                                <td class="tbl-description dcat" itemprop="description">A Egress filter mapping application with additional functionality.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/subinacls/Filibuster" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">firecat</td>
+                                <td class="tbl-version vcat">6.b5205c8</td>
+                                <td class="tbl-description dcat" itemprop="description">A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/BishopFox/firecat" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">flowinspect</td>
+                                <td class="tbl-version vcat">96.1f62b3b</td>
+                                <td class="tbl-description dcat" itemprop="description">A network traffic inspection tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/7h3rAm/flowinspect" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fping</td>
+                                <td class="tbl-version vcat">4.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A utility to ping multiple hosts at once</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.fping.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">freeipmi</td>
+                                <td class="tbl-version vcat">1.5.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Sensor monitoring, system event monitoring, power control, and serial-over-LAN (SOL).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.gnu.org/software/freeipmi/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">geoip</td>
+                                <td class="tbl-version vcat">1.6.10</td>
+                                <td class="tbl-description dcat" itemprop="description">Non-DNS IP-to-country resolver C library & utils</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.maxmind.com/app/c" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">gwcheck</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple program that checks if a host in an ethernet network is a gateway to Internet.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/62047/gwcheck.c.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">haka</td>
+                                <td class="tbl-version vcat">0.2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of tool that allows capturing TCP/IP packets and filtering them based on Lua policy files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/haka-security/haka" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hharp</td>
+                                <td class="tbl-version vcat">1beta</td>
+                                <td class="tbl-description dcat" itemprop="description">This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/81368/Hackers-Hideaway-ARP-Attack-Tool.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hping</td>
+                                <td class="tbl-version vcat">3.0.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A command-line oriented TCP/IP packet assembler/analyzer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hping.org" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">http-traceroute</td>
+                                <td class="tbl-version vcat">0.5</td>
+                                <td class="tbl-description dcat" itemprop="description">This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/107167/Traceroute-Like-HTTP-Scanner.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">httping</td>
+                                <td class="tbl-version vcat">2.5</td>
+                                <td class="tbl-description dcat" itemprop="description">A ping-like tool for http-requests</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.vanheusden.com/httping/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hyde</td>
+                                <td class="tbl-version vcat">11.ec09462</td>
+                                <td class="tbl-description dcat" itemprop="description">Just another tool in C to do DDoS (with spoofing).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/CoolerVoid/Hyde" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hyenae</td>
+                                <td class="tbl-version vcat">0.36_1</td>
+                                <td class="tbl-description dcat" itemprop="description">flexible platform independent packet generator</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/hyenae/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hyperfox</td>
+                                <td class="tbl-version vcat">60.24ae8bf</td>
+                                <td class="tbl-description dcat" itemprop="description">A security tool for proxying and recording HTTP and HTTPs traffic.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/xiam/hyperfox" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ipaudit</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Monitors network activity on a network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ipaudit.sourceforge.net" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ipdecap</td>
+                                <td class="tbl-version vcat">83.b719681</td>
+                                <td class="tbl-description dcat" itemprop="description">Can decapsulate traffic encapsulated within GRE, IPIP, 6in4, ESP (ipsec) protocols, and can also remove IEEE 802.1Q (virtual lan) header.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.loicp.eu/ipdecap#dependances" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ipmitool</td>
+                                <td class="tbl-version vcat">1.8.18</td>
+                                <td class="tbl-description dcat" itemprop="description">Command-line interface to IPMI-enabled devices</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ipmitool.sourceforge.net" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">iputils</td>
+                                <td class="tbl-version vcat">20161105.1f2bb12</td>
+                                <td class="tbl-description dcat" itemprop="description">Network monitoring tools, including ping</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.skbuff.net/iputils/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">jnetmap</td>
+                                <td class="tbl-version vcat">0.5.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A network monitor of sorts</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.rakudave.ch/jnetmap/?file=introduction" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">kickthemout</td>
+                                <td class="tbl-version vcat">147.62f3cab</td>
+                                <td class="tbl-description dcat" itemprop="description">Kick devices off your network by performing an ARP Spoof attack.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/k4m4/kickthemout" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">latd</td>
+                                <td class="tbl-version vcat">1.31</td>
+                                <td class="tbl-description dcat" itemprop="description">A LAT terminal daemon for Linux and BSD.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/linux-decnet/files/latd/1.31/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">macchanger</td>
+                                <td class="tbl-version vcat">1.7.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A small utility to change your NIC's MAC address</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.gnu.org/software/macchanger" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">maclookup</td>
+                                <td class="tbl-version vcat">0.4</td>
+                                <td class="tbl-description dcat" itemprop="description">Lookup MAC addresses in the IEEE MA-L/OUI public listing.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/paraxor/maclookup" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">maketh</td>
+                                <td class="tbl-version vcat">0.2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A packet generator that supports forging ARP, IP, TCP, UDP, ICMP and the ethernet header as well.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://packetstormsecurity.com/files/83892/Maketh-Packet-Generator.2.0.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">malcom</td>
+                                <td class="tbl-version vcat">704.ec915a3</td>
+                                <td class="tbl-description dcat" itemprop="description">Analyze a system's network communication using graphical representations of network traffic.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/tomchop/malcom" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mdns-scan</td>
+                                <td class="tbl-version vcat">0.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Scan mDNS/DNS-SD published services on the local network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">middler</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A Man in the Middle tool to demonstrate protocol middling attacks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/middler/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">miredo</td>
+                                <td class="tbl-version vcat">1.2.6</td>
+                                <td class="tbl-description dcat" itemprop="description">Teredo client and server.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.remlab.net/miredo/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">moloch</td>
+                                <td class="tbl-version vcat">0.11.3</td>
+                                <td class="tbl-description dcat" itemprop="description">An open source large scale IPv4 full PCAP capturing, indexing and database system.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/aol/moloch" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mptcp</td>
+                                <td class="tbl-version vcat">1.9.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for manipulation of raw packets that allows a large number of options.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/119132/Mptcp-Packet-Manipulator.9.0.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mptcp-abuse</td>
+                                <td class="tbl-version vcat">6.b0eeb27</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of tools and resources to explore MPTCP on your network. Initially released at Black Hat USA 2014.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Neohapsis/mptcp-abuse" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mtr</td>
+                                <td class="tbl-version vcat">0.87</td>
+                                <td class="tbl-description dcat" itemprop="description">Combines the functionality of traceroute and ping into one tool (CLI version)</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.bitwizard.nl/mtr/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mylg</td>
+                                <td class="tbl-version vcat">655.5432fda</td>
+                                <td class="tbl-description dcat" itemprop="description">Network Diagnostic Tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/mehrdadrad/mylg" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nacker</td>
+                                <td class="tbl-version vcat">23.b67bb39</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to circumvent 802.1x Network Access Control on a wired LAN.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/carmaa/nacker" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nbtool</td>
+                                <td class="tbl-version vcat">2.bf90c76</td>
+                                <td class="tbl-description dcat" itemprop="description">Some tools for NetBIOS and DNS investigation, attacks, and communication.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://wiki.skullsecurity.org/Nbtool" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ncpfs</td>
+                                <td class="tbl-version vcat">2.2.6</td>
+                                <td class="tbl-description dcat" itemprop="description">Allows you to mount volumes of NetWare servers under Linux.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.novell.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nemesis</td>
+                                <td class="tbl-version vcat">1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">command-line network packet crafting and injection utility</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nemesis.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">netcon</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A network connection establishment and management script.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.paramecium.org/~leendert/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">netmap</td>
+                                <td class="tbl-version vcat">0.1.3</td>
+                                <td class="tbl-description dcat" itemprop="description">Can be used to make a graphical representation of the surounding network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://netmap.sourceforge.net" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">netreconn</td>
+                                <td class="tbl-version vcat">1.78</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of network scan/recon tools that are relatively small compared to their larger cousins.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/86076/NetReconn-Scanning-Tool-Collection.76.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">netsed</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Small and handful utility design to alter the contents of packets forwarded thru network in real time.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://silicone.homelinux.org/projects/netsed/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">networkmap</td>
+                                <td class="tbl-version vcat">58.f5faf17</td>
+                                <td class="tbl-description dcat" itemprop="description">Post-exploitation network mapper.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/lorenzog/NetworkMap" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nfdump</td>
+                                <td class="tbl-version vcat">1.6.13</td>
+                                <td class="tbl-description dcat" itemprop="description">A set of tools to collect and process netflow data.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/nfdump/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ngrep</td>
+                                <td class="tbl-version vcat">1.45</td>
+                                <td class="tbl-description dcat" itemprop="description">A grep-like utility that allows you to search for network packets on an interface.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ngrep.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nield</td>
+                                <td class="tbl-version vcat">0.6.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to receive notifications from kernel through netlink socket, and generate logs related to interfaces, neighbor cache(ARP,NDP), IP address(IPv4,IPv6), routing, FIB rules, traffic control.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nield.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nsdtool</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A netgear switch discovery tool. It contains some extra features like bruteoforce and setting a new password.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.curesec.com/en/publications/tools.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nsoq</td>
+                                <td class="tbl-version vcat">1.9.5</td>
+                                <td class="tbl-description dcat" itemprop="description">A Network Security Tool for packet manipulation that allows a large number of options.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nsoq.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">packet-o-matic</td>
+                                <td class="tbl-version vcat">351</td>
+                                <td class="tbl-description dcat" itemprop="description">A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.packet-o-matic.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">packeth</td>
+                                <td class="tbl-version vcat">1.8.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A Linux GUI packet generator tool for ethernet.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packeth.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">packetsender</td>
+                                <td class="tbl-version vcat">254.1fb7b23</td>
+                                <td class="tbl-description dcat" itemprop="description">An open source utility to allow sending and receiving TCP and UDP packets.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/dannagle/PacketSender" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">packit</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A network auditing tool. Its value is derived from its ability to customize, inject, monitor, and manipulate IP traffic.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packit.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pcapfex</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Packet CAPture Forensic Evidence eXtractor.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/vikwin/pcapfex" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pcapfix</td>
+                                <td class="tbl-version vcat">1.1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Tries to repair your broken pcap and pcapng files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://f00l.de/pcapfix/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pkt2flow</td>
+                                <td class="tbl-version vcat">1.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple utility to classify packets into flows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/caesar0301/pkt2flow" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">prometheus</td>
+                                <td class="tbl-version vcat">176.a316d66</td>
+                                <td class="tbl-description dcat" itemprop="description">A Firewall analyzer written in ruby</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/averagesecurityguy/prometheus" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pwnat</td>
+                                <td class="tbl-version vcat">11.10d6e10</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that allows any number of clients behind NATs to communicate with a server behind a separate NAT with *no* port forwarding and *no* DMZ setup on any routers in order to directly communicate with each other.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://samy.pl/pwnat/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pyersinia</td>
+                                <td class="tbl-version vcat">49.73f4056</td>
+                                <td class="tbl-description dcat" itemprop="description">Network attack tool like yersinia but written in Python.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nottinghamprisateam/pyersinia" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pyexfil</td>
+                                <td class="tbl-version vcat">61.356826c</td>
+                                <td class="tbl-description dcat" itemprop="description">A couple of beta stage tools for data exfiltration.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ytisf/PyExfil" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pyminifakedns</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Minimal DNS server written in Python; it always replies with a 127.0.0.1 A-record.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.activestate.com/recipes/491264/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rinetd</td>
+                                <td class="tbl-version vcat">0.62</td>
+                                <td class="tbl-description dcat" itemprop="description">internet redirection server</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.boutell.com/rinetd" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rtpbreak</td>
+                                <td class="tbl-version vcat">1.3a</td>
+                                <td class="tbl-description dcat" itemprop="description">Detects, reconstructs and analyzes any RTP session</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://xenion.antifork.org/rtpbreak/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">scapy</td>
+                                <td class="tbl-version vcat">2.3.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A powerful interactive packet manipulation program written in Python</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.secdev.org/projects/scapy/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sdn-toolkit</td>
+                                <td class="tbl-version vcat">1.01</td>
+                                <td class="tbl-description dcat" itemprop="description">Discover, Identify, and Manipulate SDN-Based Networks</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hellfiresecurity.com/tools.htm" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sessionlist</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Sniffer that intents to sniff HTTP packets and attempts to reconstruct interesting authentication data from websites that do not employ proper secure cookie auth.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.0xrage.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">silk</td>
+                                <td class="tbl-version vcat">3.15.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of traffic analysis tools developed by the CERT NetSA to facilitate security analysis of large networks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://tools.netsa.cert.org/silk/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">snmpattack</td>
+                                <td class="tbl-version vcat">1.8</td>
+                                <td class="tbl-description dcat" itemprop="description">SNMP scanner and attacking tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.c0decafe.de/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">snmpcheck</td>
+                                <td class="tbl-version vcat">1.8</td>
+                                <td class="tbl-description dcat" itemprop="description">A free open source utility to get information via SNMP protocols.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nothink.org/perl/snmpcheck/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">socat</td>
+                                <td class="tbl-version vcat">1.7.3.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Multipurpose relay</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.dest-unreach.org/socat/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sockstat</td>
+                                <td class="tbl-version vcat">0.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to let you view information about open connections. It is similar to the tool of the same name that is included in FreeBSD, trying to faithfully reproduce as much functionality as is possible.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://packages.debian.org/unstable/main/sockstat" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">spiped</td>
+                                <td class="tbl-version vcat">1.5.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A utility for creating symmetrically encrypted and authenticated pipes between socket addresses.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.tarsnap.com/spiped.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sps</td>
+                                <td class="tbl-version vcat">4.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://sites.google.com/site/simplepacketsender/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sslh</td>
+                                <td class="tbl-version vcat">1.18</td>
+                                <td class="tbl-description dcat" itemprop="description">SSL/SSH/OpenVPN/XMPP/tinc port multiplexer</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.rutschle.net/tech/sslh.shtml" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">stunnel</td>
+                                <td class="tbl-version vcat">5.41</td>
+                                <td class="tbl-description dcat" itemprop="description">A program that allows you to encrypt arbitrary TCP connections inside SSL</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.stunnel.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">swaks</td>
+                                <td class="tbl-version vcat">20170101.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://jetmore.org/john/code/swaks/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tcpdump</td>
+                                <td class="tbl-version vcat">4.9.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for network monitoring and data acquisition</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.tcpdump.org" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tcpextract</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Extracts files from captured TCP sessions. Support live streams and pcap files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://pypi.python.org/pypi/tcpextract/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tcpflow</td>
+                                <td class="tbl-version vcat">1.4.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Captures data transmitted as part of TCP connections then stores the data conveniently</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/simsong/tcpflow" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tcpreplay</td>
+                                <td class="tbl-version vcat">4.1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Gives the ability to replay previously captured traffic in a libpcap format</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://tcpreplay.appneta.com" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tcptraceroute</td>
+                                <td class="tbl-version vcat">1.5beta7</td>
+                                <td class="tbl-description dcat" itemprop="description">A traceroute implementation using TCP packets.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://michael.toren.net/code/tcptraceroute/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tcpwatch</td>
+                                <td class="tbl-version vcat">1.3.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A utility written in Python that lets you monitor forwarded TCP connections or HTTP proxy connections.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hathawaymix.org/Software/TCPWatch" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tgcd</td>
+                                <td class="tbl-version vcat">1.1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">TCP/IP Gender Changer Daemon utility.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://tgcd.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">thc-ipv6</td>
+                                <td class="tbl-version vcat">3.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Complete tool set to attack the inherent protocol weaknesses of IPv6 and ICMP6</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://thc.org/thc-ipv6/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tinc</td>
+                                <td class="tbl-version vcat">1.0.31</td>
+                                <td class="tbl-description dcat" itemprop="description">VPN (Virtual Private Network) daemon</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.tinc-vpn.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tunna</td>
+                                <td class="tbl-version vcat">25.bc2c843</td>
+                                <td class="tbl-description dcat" itemprop="description">a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/SECFORCE/Tunna" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">udpastcp</td>
+                                <td class="tbl-version vcat">28.86479c0</td>
+                                <td class="tbl-description dcat" itemprop="description">This program hides UDP traffic as TCP traffic in order to bypass certain firewalls.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Hello71/udpastcp" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">udptunnel</td>
+                                <td class="tbl-version vcat">19</td>
+                                <td class="tbl-description dcat" itemprop="description">Tunnels TCP over UDP packets.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/udptunnel/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">umit</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A powerful nmap frontend.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.umitproject.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">uw-offish</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Clear-text protocol simulator.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://uberwall.org/bin/download/42/UW_offish.1.tar.gz" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">websockify</td>
+                                <td class="tbl-version vcat">0.8.0</td>
+                                <td class="tbl-description dcat" itemprop="description">WebSocket to TCP proxy/bridge.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://github.com/kanaka/websockify" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">xerosploit</td>
+                                <td class="tbl-version vcat">28.b5dad87</td>
+                                <td class="tbl-description dcat" itemprop="description">Efficient and advanced man in the middle framework.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/LionSec/xerosploit" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">yaf</td>
+                                <td class="tbl-version vcat">2.8.4</td>
+                                <td class="tbl-description dcat" itemprop="description">Yet Another Flowmeter.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://tools.netsa.cert.org/yaf/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">yersinia</td>
+                                <td class="tbl-version vcat">0.7.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A network tool designed to take advantage of some weakness in different network protocols.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.yersinia.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">zackattack</td>
+                                <td class="tbl-version vcat">5.1f96c14</td>
+                                <td class="tbl-description dcat" itemprop="description">A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/urbanesec/ZackAttack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2017</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tunnel tools</title>
+    <meta name="description" content="List of all tunnel tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1700 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Tunnel</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">voip</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+Packages that are used to tunnel network traffic on a given network.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">18</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch tunnel</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">chisel</td>
+                                <td class="tbl-version vcat">1.2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A fast TCP tunnel over HTTP.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/jpillora/chisel" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">chownat</td>
+                                <td class="tbl-version vcat">0.08b</td>
+                                <td class="tbl-description dcat" itemprop="description">Allows two peers behind two separate NATs with no port forwarding and no DMZ setup on their routers to directly communicate with each other</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://samy.pl/chownat/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">corkscrew</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for tunneling SSH through HTTP proxies</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.agroman.net/corkscrew/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ctunnel</td>
+                                <td class="tbl-version vcat">0.7</td>
+                                <td class="tbl-description dcat" itemprop="description">Tunnel and/or proxy TCP or UDP connections via a cryptographic tunnel.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nardcore.org/ctunnel" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dns2tcp</td>
+                                <td class="tbl-version vcat">0.5.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for relaying TCP connections over DNS.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hsc.fr/ressources/outils/dns2tcp/index.html.en" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fraud-bridge</td>
+                                <td class="tbl-version vcat">10.775c563</td>
+                                <td class="tbl-description dcat" itemprop="description">ICMP and DNS tunneling via IPv4 and IPv6.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/stealth/fraud-bridge" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">httptunnel</td>
+                                <td class="tbl-version vcat">3.3</td>
+                                <td class="tbl-description dcat" itemprop="description">Creates a bidirectional virtual data connection tunnelled in HTTP requests</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nocrew.org/software/httptunnel" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">icmptx</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">IP over ICMP tunnel.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://thomer.com/icmptx/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">iodine</td>
+                                <td class="tbl-version vcat">0.7.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Tunnel IPv4 data through a DNS server</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.kryo.se/iodine" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ip-https-tools</td>
+                                <td class="tbl-version vcat">7.170691f</td>
+                                <td class="tbl-description dcat" itemprop="description">Tools for the IP over HTTPS (IP-HTTPS) Tunneling Protocol.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/takeshixx/ip-https-tools" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">matahari</td>
+                                <td class="tbl-version vcat">0.1.30</td>
+                                <td class="tbl-description dcat" itemprop="description">A reverse HTTP shell to execute commands on remote machines behind firewalls.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://matahari.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morxtunnel</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Network Tunneling using TUN/TAP interfaces over TCP tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morxploit.com/tools/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">multitun</td>
+                                <td class="tbl-version vcat">43.9804513</td>
+                                <td class="tbl-description dcat" itemprop="description">Tunnel arbitrary traffic through an innocuous WebSocket.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/covertcodes/multitun" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">proxytunnel</td>
+                                <td class="tbl-version vcat">1.9.0.253</td>
+                                <td class="tbl-description dcat" itemprop="description">a program that connects stdin and stdout to a server somewhere on the network, through a standard HTTPS proxy</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://proxytunnel.sourceforge.net" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ptunnel</td>
+                                <td class="tbl-version vcat">0.72</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for reliably tunneling TCP connections over ICMP echo request and reply packets</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cs.uit.no/~daniels/PingTunnel/#download" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sshtunnel</td>
+                                <td class="tbl-version vcat">0.1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Pure python SSH tunnels.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://pypi.python.org/pypi/sshtunnel" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">stegosip</td>
+                                <td class="tbl-version vcat">10.d45c092</td>
+                                <td class="tbl-description dcat" itemprop="description">TCP tunnel over RTP/SIP.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/epinna/Stegosip" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">vstt</td>
+                                <td class="tbl-version vcat">0.5.3</td>
+                                <td class="tbl-description dcat" itemprop="description">VSTT is a multi-protocol tunneling tool. It accepts input by TCP stream sockets and FIFOs, and can send data via TCP, POP3, and ICMP tunneling.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.wendzel.de/dr.org/files/Projects/vstt/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2017</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

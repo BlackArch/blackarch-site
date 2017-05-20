@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reversing tools</title>
+    <meta name="description" content="List of all reversing tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1700 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Reversing</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">reversing</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+This is an umbrella group for any decompiler, disassembler or any similar program.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">24</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch reversing</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">android-apktool</td>
+                                <td class="tbl-version vcat">2.2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for reengineering Android apk files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://forum.xda-developers.com/showthread.php?t=1755243" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">apkstudio</td>
+                                <td class="tbl-version vcat">100.9e114ca</td>
+                                <td class="tbl-description dcat" itemprop="description">An IDE for decompiling/editing & then recompiling of android application binaries.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.vaibhavpandey.com/apkstudio/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">binaryninja-demo</td>
+                                <td class="tbl-version vcat">1.0.20</td>
+                                <td class="tbl-description dcat" itemprop="description">A new kind of reversing platform (demo version).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://binary.ninja/demo.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bsdiff</td>
+                                <td class="tbl-version vcat">4.3</td>
+                                <td class="tbl-description dcat" itemprop="description">bsdiff and bspatch are tools for building and applying patches to binary files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.daemonology.net/bsdiff/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">capstone</td>
+                                <td class="tbl-version vcat">3.0.4</td>
+                                <td class="tbl-description dcat" itemprop="description">A lightweight multi-platform, multi-architecture disassembly framework</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.capstone-engine.org/index.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">elidecode</td>
+                                <td class="tbl-version vcat">48.38fa5ba</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to decode obfuscated shellcodes using the unicorn-engine for the emulation and the capstone-engine to print the asm code.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/DeveloppSoft/EliDecode" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">flasm</td>
+                                <td class="tbl-version vcat">1.62</td>
+                                <td class="tbl-description dcat" itemprop="description">Disassembler tool for SWF bytecode</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nowrap.de/flasm.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">frida</td>
+                                <td class="tbl-version vcat">9.0.4</td>
+                                <td class="tbl-description dcat" itemprop="description">Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.frida.re" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">jad</td>
+                                <td class="tbl-version vcat">1.5.8e</td>
+                                <td class="tbl-description dcat" itemprop="description">Java decompiler</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.varaneckas.com/jad" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">javasnoop</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that lets you intercept methods, alter data and otherwise hack Java applications running on your computer</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/javasnoop/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">jwscan</td>
+                                <td class="tbl-version vcat">7.874b3a5</td>
+                                <td class="tbl-description dcat" itemprop="description">Scanner for Jar to EXE wrapper like Launch4j, Exe4j, JSmooth, Jar2Exe.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/katjahahn/JWScan" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">malwasm</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Offline debugger for malware's reverse engineering.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/malwasm/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mikrotik-npk</td>
+                                <td class="tbl-version vcat">11.d54e97c</td>
+                                <td class="tbl-description dcat" itemprop="description">Python tools for manipulating Mikrotik NPK format.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/kost/mikrotik-npk" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">netzob</td>
+                                <td class="tbl-version vcat">1.0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">An open source tool for reverse engineering, traffic generation and fuzzing of communication protocols.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.netzob.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pintool</td>
+                                <td class="tbl-version vcat">19.19a8420</td>
+                                <td class="tbl-description dcat" itemprop="description">This tool can be useful for solving some reversing challenges in CTFs events.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/wagiro/pintool" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">python-capstone</td>
+                                <td class="tbl-version vcat">3.0.4</td>
+                                <td class="tbl-description dcat" itemprop="description">A lightweight multi-platform, multi-architecture disassembly framework</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.capstone-engine.org/index.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">python-jsbeautifier</td>
+                                <td class="tbl-version vcat">1.6.14</td>
+                                <td class="tbl-description dcat" itemprop="description">JavaScript unobfuscator and beautifier</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/beautify-web/js-beautify" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">python2-capstone</td>
+                                <td class="tbl-version vcat">3.0.4</td>
+                                <td class="tbl-description dcat" itemprop="description">A lightweight multi-platform, multi-architecture disassembly framework</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.capstone-engine.org/index.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">python2-jsbeautifier</td>
+                                <td class="tbl-version vcat">1.6.14</td>
+                                <td class="tbl-description dcat" itemprop="description">JavaScript unobfuscator and beautifier</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/beautify-web/js-beautify" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">radare2</td>
+                                <td class="tbl-version vcat">1.4.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Open-source tools to disasm, debug, analyze and manipulate binary files</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://radare.org" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">scanmem</td>
+                                <td class="tbl-version vcat">0.16</td>
+                                <td class="tbl-description dcat" itemprop="description">Memory scanner designed to isolate the address of an arbitrary variable in an executing process</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/scanmem/scanmem" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">swfintruder</td>
+                                <td class="tbl-version vcat">0.9.1</td>
+                                <td class="tbl-description dcat" itemprop="description">First tool for testing security in Flash movies. A runtime analyzer for SWF external movies. It helps to find flaws in Flash.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/swfintruder/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">syms2elf</td>
+                                <td class="tbl-version vcat">6.1004741</td>
+                                <td class="tbl-description dcat" itemprop="description">A plugin for Hex-Ray's IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/danigargu/syms2elf" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">udis86</td>
+                                <td class="tbl-version vcat">1.7.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A minimalistic disassembler library</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://udis86.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2017</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>
