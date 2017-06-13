@@ -31,6 +31,31 @@ cat <<\EOF
 
                         <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
+                            <time itemprop="datePublished"> 2017-06-14</time>
+						    <h4 itemprop="name">New ISOs released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
+                            </p>
+                            <p>Here's the ChangeLog:</p>
+                                <ul>
+                                    <li>add more than 100 new tools</li>
+                                    <li>update blackarch installer to version 0.5.1 (bugfixes + features)</li>
+                                    <li>fix several tools (dependencies, installs)</li>
+                                    <li>include kernel 4.11.3</li>
+                                    <li>updated all blackarch tools</li>
+                                    <li>updated all system packages</li>
+                                    <li>update all window manager menus (awesome, fluxbox, openbox)</li>
+                                </ul>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div>
+                        </article>
+
+                        <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
                             <time itemprop="datePublished"> 2017-03-01</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
                         </header>

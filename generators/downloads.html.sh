@@ -59,32 +59,32 @@ cat <<\EOF
                                     <td><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
-                                    <td itemprop="datePublished">2017.03.01</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.03.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.06.13-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td itemprop="datePublished">2017.06.13</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.06.13-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>7.1 GB</td>
+                                    <td>0c69a6d4849c0acf0d94b19ffcb49586459110be</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.06.13-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td itemprop="datePublished">2017.06.13</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.06.13-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>6.7 GB</td>
-                                    <td>8428c1355585a43dfd2557e71839bcdeb8468a10</td>
+                                    <td>c91d1ba6fd930f6362b45686231fb693c4a1b139</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.03.01-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
-                                    <td itemprop="datePublished">2017.03.01</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.03.01-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>6.2 GB</td>
-                                    <td>bb8c475095bf027fd4e77c2e3a84ddacb5ecea5e</td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.06.13-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                                    <td itemprop="datePublished">2017.06.13</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.06.13-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>480 MB</td>
+                                    <td>b8df6e1d256f5fd547c66153fbf878aad49a1372</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
-                                    <td itemprop="datePublished">2017.03.01</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.03.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>466 MB</td>
-                                    <td>4826a0f271696a127b67e7fe7205cc960c9eef1b</td>
-                                </tr>
-                                <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.03.01-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
-                                    <td itemprop="datePublished">2017.03.01</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.03.01-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>392 MB</td>
-                                    <td>cbd9ff1a2837e8920708c9741ab11a8334d2344b</td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.06.13-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
+                                    <td itemprop="datePublished">2017.06.13</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.06.13-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>407 MB</td>
+                                    <td>6ec3a682d9514b257de36bed4fb84c3b530658e5</td>
                                 </tr>
                             </table>
                             <hr />
