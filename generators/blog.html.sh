@@ -36,6 +36,26 @@ cat <<\EOF
                         </header>
                         <div itemprop="description">
                             <p>
+                                Today we released new BlackArch Linux ISOs (bugfix!). For details see the ChangeLog below.
+                            </p>
+                            <p>Here's the ChangeLog:</p>
+                                <ul>
+                                    <li>bugfix release: perl libraries rebuilt due to perl upgrade</li>
+                                    <li>include kernel 4.11.4</li>
+                                </ul>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div>
+                        </article>
+
+                        <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
+                            <time itemprop="datePublished"> 2017-06-14</time>
+						    <h4 itemprop="name">New ISOs released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
                                 Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
                             </p>
                             <p>Here's the ChangeLog:</p>
