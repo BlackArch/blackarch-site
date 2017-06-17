@@ -8,13 +8,11 @@ Important things
 ================
 **common/**          - common site pieces (e.g. header, footer)
 
-**data/news/**       - news items
-
 **data/tools**       - a list of tools
 
 **generators/**      - each script here generates a page/item
 
-**gpg/**             - gpg keys for developers
+**gpgkeys/**         - gpg keys for developers
 
 **generate-site.sh** - calls each generator in generators/
 
@@ -22,12 +20,8 @@ Important things
 
 **sync.sh**          - syncs the local site to the remote
 
-**fixperms.sh**      - fixes site permissions
-
 Unimportant/Obvious things
 ==========================
-**pub/**             - contains a symlink to the repo for compatibility with some
-											 installs
 **css/**             - style sheets
 
 **images/**          - images
