@@ -122,7 +122,7 @@ bfbtester|2.0.1|Performs checks of single and multiple argument command line ove
 bgp-md5crack|0.1|RFC2385 password cracker| blackarch-cracker |http://www.c0decafe.de/
 binaryninja-demo|1.0.20|A new kind of reversing platform (demo version).| blackarch-reversing |http://binary.ninja/demo.html
 binaryninja-python|13.83f59f7|Binary Ninja prototype written in Python.| blackarch-binary |https://github.com/Vector35/binaryninja-python
-bind-tools|9.11.1|The ISC DNS tools| blackarch-networking |https://www.isc.org/software/bind/
+bind-tools|9.11.1.P1|The ISC DNS tools| blackarch-networking |https://www.isc.org/software/bind/
 bindead|4504.67019b97b|A static analysis tool for binaries| blackarch-binary |https://bitbucket.org/mihaila/bindead
 bindiff|4.2.0|A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.| blackarch-binary |http://www.zynamics.com/bindiff.html
 binex|1.0|Format String exploit building tool.| blackarch-exploitation |http://www.morxploit.com/morxtool
@@ -856,7 +856,7 @@ magictree|1.3|A penetration tester productivity tool designed to allow easy and 
 mail-crawl|0.1|Tool to harvest emails from website.| blackarch-recon |https://raw.githubusercontent.com/galkan/tools/master/mail-crawl/
 make-pdf|0.1.7|This tool will embed javascript inside a PDF document.| blackarch-forensic |http://blog.didierstevens.com/programs/pdf-tools/
 maketh|0.2.0|A packet generator that supports forging ARP, IP, TCP, UDP, ICMP and the ethernet header as well.| blackarch-networking |https://packetstormsecurity.com/files/83892/Maketh-Packet-Generator.2.0.html
-malboxes|188.fd64986|Builds malware analysis Windows VMs so that you don't have to.| blackarch-malware |https://github.com/GoSecure/malboxes
+malboxes|188.fd64986|Builds malware analysis Windows VMs so that you don't have to.|-malware |
 malcom|704.ec915a3|Analyze a system's network communication using graphical representations of network traffic.| blackarch-networking |https://github.com/tomchop/malcom
 malheur|0.5.4|A tool for the automatic analyze of malware behavior.| blackarch-forensic |http://www.mlsec.org/malheur/
 maligno|2.5|An open source penetration testing tool written in python, that serves Metasploit payloads. It generates shellcode with msfvenom and transmits it over HTTP or HTTPS.| blackarch-scanner |http://www.encripto.no/tools/
@@ -1004,7 +1004,7 @@ nipe|143.093e328|A script to make Tor Network your default gateway.| blackarch-d
 nipper|0.11.7|Network Infrastructure Parser| blackarch-recon |https://www.titania-security.com/
 nishang|0.6.7|Using PowerShell for Penetration Testing.| blackarch-windows |https://code.google.com/p/nishang/
 nkiller2|2.0|A TCP exhaustion/stressing tool.| blackarch-dos |http://sock-raw.org/projects.html
-nmap|7.40|Utility for network discovery and security auditing| blackarch-scanner |http://nmap.org/
+nmap|7.50|Utility for network discovery and security auditing| blackarch-scanner |http://nmap.org/
 nmbscan|1.2.6|Tool to scan the shares of a SMB/NetBIOS network, using the NMB/SMB/NetBIOS protocols.| blackarch-scanner |http://nmbscan.gbarbier.org/
 nohidy|59.d88625d|The system admins best friend, multi platform auditing tool.| blackarch-recon |https://github.com/flipchan/Nohidy
 nomorexor|0.1|Tool to help guess a files 256 byte XOR key by using frequency analysis| blackarch-crypto |https://github.com/hiddenillusion/NoMoreXOR
@@ -1570,7 +1570,7 @@ tlssled|1.3|A Linux shell script whose purpose is to evaluate the security of a 
 tnscmd|1.3|a lame tool to prod the oracle tnslsnr process (1521/tcp)| blackarch-misc |http://www.jammed.com/~jwa/hacks/security/tnscmd/
 tomcatwardeployer|65.c3b44f1|Apache Tomcat auto WAR deployment & pwning penetration testing tool.| blackarch-exploitation |https://github.com/mgeeky/tomcatWarDeployer
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.| blackarch-scanner |https://github.com/toperaproject/topera
-tor|0.3.0.7|Anonymizing overlay network.| blackarch-proxy |http://www.torproject.org/
+tor|0.3.0.8|Anonymizing overlay network.| blackarch-proxy |https://www.torproject.org/
 tor-autocircuit|0.2|Tor Autocircuit was developed to give users a finer control over Tor circuit creation. The tool exposes the functionality of TorCtl library which allows its users to control circuit length, speed, geolocation, and other parameters.| blackarch-defensive |http://www.thesprawl.org/projects/tor-autocircuit/
 tor-browser-en|6.5.2|Tor Browser Bundle: Anonymous browsing using firefox and tor| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
 torshammer|1.0|A slow POST Denial of Service testing tool written in Python.| blackarch-dos |http://sourceforge.net/projects/torshammer/

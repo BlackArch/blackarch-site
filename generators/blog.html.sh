@@ -29,6 +29,20 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
+                        <article id=p78 itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
+                            <time itemprop="datePublished"> 2017-06-18</time>
+						    <h4 itemprop="name">New BlackArch Linux OVA Image released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Today we released a new version of the official BlackArch Linux OVA Image. Ready to use for VirtualBox, VMware and Qemu!
+                            </p>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div></article>
+
                         <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished"> 2017-06-14</time>

@@ -100,7 +100,7 @@ cat <<\EOF
                             <p>
                                 <b>Default Login</b>
                                 <br>
-                                The default login for all ISOs is:
+                                The default login for all ISOs and OVA is:
                                 <strong>root:blackarch</strong>
                             </p>
                         </li>
@@ -127,11 +127,11 @@ cat <<\EOF
                                     <td><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/ova/blackarch-linux-2016.12.24-x86_64.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
-                                    <td itemprop="datePublished">2016.12.24</td>
-                                    <td><a href="/blackarch/torrent/blackarch-linux-2016.12.24-x86_64.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>13 GB</td>
-                                    <td>891bd7a8c47a23209491d8ca04eadb30db8f79f2</td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2017.06.18-x86_64.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                                    <td itemprop="datePublished">2017.06.18</td>
+                                    <td><a href="/blackarch/torrent/blackarch-linux-2017.06.18-x86_64.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>18 GB</td>
+                                    <td>e9d56eef48be19bab009be39f1a4f91cc9e4157d</td>
                                 </tr>
                             </table>
                             <hr />
