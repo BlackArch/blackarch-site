@@ -1,76 +1,83 @@
+#!/bin/sh
+
 # Generate data/tools.
 # Format: <name>\t<version>\t<url>\t<description>
 
 export LC_ALL=C
 
-site=blackarch.org
-repo=blackarch
-arch=x86_64
-out=data/tools
+SITE="blackarch.org"
+REPO="blackarch"
+ARCH="x86_64"
+OUT="data/tools"
 
 # Remove previous file entry except the mirrors file
 find data ! -name 'mirrors' -type f -exec rm -f {} +
 
 make_tmp() {
-    tmp=`mktemp -d /tmp/blackarch.XXXXXXXXXXX`
+    tmp=$(mktemp -d /tmp/blackarch.XXXXXXXXXXX)
 }
 
 get_db() {
-    curl "https://$site/blackarch/$repo/os/$arch/$repo.db.tar.gz" |
-    tar xz -C "$tmp"
+    curl "https://$SITE/blackarch/$REPO/os/$ARCH/$REPO.db.tar.gz" |
+	tar xz -C "$tmp"
 }
 
 parse_db() {
-    mkdir -p "`dirname file`"
+    mkdir -p "$(dirname file)"
 
     for d in "$tmp"/*
     do
-	#Name
-        name="`grep --no-group-separator -A2 '^%NAME%$' ${d}/desc |
-        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%NAME%$'`"
+	# Name
+        name="$(grep --no-group-separator -A2 '^%NAME%$' "${d}"/desc |
+        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%NAME%$')"
 
-	#Version
-        vers="`grep --no-group-separator -A2 '^%VERSION%$' ${d}/desc |
-        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%VERSION%$'`"
+	# Version
+        vers="$(grep --no-group-separator -A2 '^%VERSION%$' "${d}"/desc |
+        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%VERSION%$')"
 
-	#Description
-        desc="`grep --no-group-separator -A2 '^%DESC%$' ${d}/desc |
-        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%DESC%$'`"
+	# Description
+        desc="$(grep --no-group-separator -A2 '^%DESC%$' "${d}"/desc |
+        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%DESC%$')"
 
-	#Categorie
-	# Add exception for the following package
-	if [[ "$name" == "truecrack" || "$name" == "cudahashcat" || "$name" == "cryptohazemultiforcer" ]]; then
-	       group=blackarch-cracker
+	# Category
+	# Add exception for the following packages
+	case "${name}" in
+	    "truecrack"|"cudahashcat"|"cryptohazemultiforcer")
+		group="blackarch-cracker"
+		;;
+	    "vmcloak")
+		group="blackarch-malware"
+		;;
+	    *)
+	    	# All the other packages (add '0,/blackarch/s///' for remove first occurrence only
+		group="$(grep --no-group-separator -A2 '^%GROUPS%$' "${d}"/desc |
+		sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' -e '0,/blackarch/s///' | grep -v '^%GROUPS%$' |
+		tr -s '\n' ' ')"
+	esac
+	
+	# Website url
+        url="$(grep --no-group-separator -A2 '^%URL%$' "${d}"/desc |
+        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%URL%$')"
 
-	elif [[ "$name" == "vmcloak" ]]; then
-	       group=blackarch-malware
-
-	else
-	#All the other package (add '0,/blackarch/s///' for remove first occurence only
-        group="`grep --no-group-separator -A2 '^%GROUPS%$' ${d}/desc |
-        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' -e '0,/blackarch/s///' | grep -v '^%GROUPS%$' |
-        tr -s '\n' ' '`"
-	fi
-		#Website url
-        url="`grep --no-group-separator -A2 '^%URL%$' ${d}/desc |
-        sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%URL%$'`"
-
-		fgroup=`echo "$group" | sed -e 's/blackarch-//g' -e 's/ //g' -e "s/'//g"`
-		#Do not insert the current package if the $group variable is empty
-		if [[ "$group" ]]; then
-        	echo "$name|$vers|$desc|$group|$url" >> $out
-        	echo "$name|$vers|$desc|$url" >> data/"$fgroup"
+	fgroup=$(echo "$group" | sed -e 's/blackarch-//g' -e 's/ //g' -e "s/'//g")
+	
+	# Do not insert the current package if the $group variable is empty
+	if [ "$group" ]; then
+	    echo "$name|$vers|$desc|$group|$url" >> "$OUT"
+	    if [ "$fgroup" ];  then
+		echo "$name|$vers|$desc|$url" >> data/"$fgroup"
+	    fi
         fi
-	done
+    done
 }
 
 split() {
-    sed -i 's/\t/\|/g' $out
+    sed -i 's/\t/\|/g' "$OUT"
 }
 
 main() {
 
-  rm -f $out
+  rm -f "$OUT"
 	make_tmp
 	get_db
 	parse_db
