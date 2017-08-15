@@ -65,6 +65,7 @@ parse_db() {
 	if [ "$group" ]; then
 	    echo "$name|$vers|$desc|$group|$url" >> "$OUT"
 	    if [ "$fgroup" ];  then
+		# [review] This was happening at least three times.
 		echo "$name|$vers|$desc|$url" >> data/"$fgroup"
 	    fi
         fi
@@ -77,11 +78,11 @@ split() {
 
 main() {
 
-  rm -f "$OUT"
-	make_tmp
-	get_db
-	parse_db
-  split
+    rm -f "$OUT"
+    make_tmp
+    get_db
+    parse_db
+    split
 }
 
 main "$@"
