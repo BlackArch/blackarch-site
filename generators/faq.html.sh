@@ -29,7 +29,7 @@ cat <<\EOF
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                            You must first get the right ISO on the <a href="downloads.html" title="Download blackarch">blackarch iso</a> page and install it following the instruction of the script installer. You can found a tutorial to show the process step by step at <a href="blackarch-install.html" title="Blackarch install">Blackarch installation</a>. If you encounter any problem and need help, the best place to ask is on our IRC channel.
+                            You must first get an ISO on the <a href="downloads.html" title="Download blackarch">downloads</a> page and install it by following the instructions of the installation script. You can find a tutorial to show the process step by step at this URL <a href="blackarch-install.html" title="Blackarch install">Blackarch installation</a>. If you encounter any problems and need help, the best place to ask is in our FREENODE IRC channel (#blackarch).
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ cat <<\EOF
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                            BlackArch is constantly being updated and offer the lastest package available on Github. The BlackArch team release quarterly a new ISO containing all the package up to date, one of the last kernel linux available and some bug/fix. If you found any package out of date and wish to see it up to date, please report it as issue on our repository <a href="https://github.com/BlackArch/blackarch" title="BlackArch github" target=_blank>Github</a>.
+                            BlackArch is constantly being updated and offers the lastest packages available on Github. We release a new ISO four times a year (quarterly). These new images contain packages that are up to date, and usually include bug fixes. If you find any package that is outdated and wish to see it up to date, please report it as an issue on our Github repository <a href="https://github.com/BlackArch/blackarch" title="BlackArch github" target=_blank>Github</a>.
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ cat <<\EOF
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                            By simply running <span class=faqco>pacman -Syyu --needed --force blackarch</span>. This command requires root privilege.
+                            By simply running <span class=faqco>pacman -Syyu --needed --force blackarch</span>. This command requires root privileges.
                             </div>
                         </div>
                     </div>
@@ -78,13 +78,12 @@ cat <<\EOF
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Is BlackArch Linux the right Linux Distribution for me?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Is BlackArch Linux the right pentesting distribution for me?</a>
                             </h4>
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                                BlackArch is a Linux distribution based on ArchLinux. If you're not familiar with Linux itself or even ArchLinux Distribution we strongly suggest to avoid BlackArch.<br>
-                                For example, BlackArch comes with all network cards down by default, only a <span class="faqco">root </span>account and no Desktop Environment.<br>
+                                BlackArch is a Linux pentesting distribution based on ArchLinux. If you're not familiar with ArchLinux, or Linux in general. We strongly suggest you avoid BlackArch due to the learning curve for new users.<br>
                             </div>
                         </div>
                     </div>
@@ -92,19 +91,19 @@ cat <<\EOF
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Where I can get help for a problem that I'm facing?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">Where can I get help for a problem that I'm facing?</a>
                             </h4>
                         </div>
                         <div id="collapseSix" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                                Depending on the problem you're facing, you can visit our Github Issue page according to each environment, such as:<br>
+                                Depending on the problem you're facing, you can visit our Github and submit an issue on our Issue page, such as:<br>
                                 <ul>
-                                    <li><a href="https://github.com/BlackArch/blackarch-site/issues">BlackArch Site repository</a>: related to our web page. For example: some link is broken or an image isn't loading.</li>
+                                    <li><a href="https://github.com/BlackArch/blackarch-site/issues">BlackArch Site repository</a>: related to our website. For example: If a link is broken or an image isn't loading.</li>
                                     <li><a href="https://github.com/BlackArch/blackarch/issues">BlackArch repository</a>: related to our packages. For example: a package hasn't been updated for a while or failed to run.</li>
-                                    <li><a href="https://github.com/BlackArch/blackarch-installer">BlackArch Installer repository</a>: related to our installer. For example: the installer failed or you can not boot after a successful installation.</li>
+                                    <li><a href="https://github.com/BlackArch/blackarch-installer">BlackArch Installer repository</a>: related to our installer. For example: the installation failed or you can not boot after a successful installation.</li>
                                 </ul>
                                 You can also take some time to browse our <a href="https://github.com/BlackArch">other repositories</a>.<br>
-                                If after that you couldn't find the solution to your problem, visit our <a href="irc://irc.freenode.net/blackarch">IRC channel</a> and ask for help. But please be advised, BlackArch users are in different part of the globe (different time zones) and therefore be patient, ask your question and wait for a reply.<br>
+                                If you still cannot find a solution to your problem, visit our <a href="irc://irc.freenode.net/blackarch">IRC channel</a> and ask for help. But please be advised, BlackArch users are in different parts of the globe (different time zones). Therefore, be patient. Ask your question and wait for a reply.<br>
                             </div>
                         </div>
                     </div>
@@ -112,13 +111,13 @@ cat <<\EOF
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">I would like to help. What I can do?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">I would like to help. What can I do?</a>
                             </h4>
                         </div>
                         <div id="collapseSeven" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                                BlackArch Linux is a huge project, from supporting and adding new application everyday to fix typos, broken links and updating our RSS feed.<br>
-                                If you would like to help us on anything, visit our <a href="irc://irc.freenode.net/blackarch">IRC channel</a>. Just remember to wait for a reply, IRC is a worldwide chatting platform and people are in different time zones.<br>
+                                BlackArch Linux is a huge project, we are adding new applications and features everyday.<br>
+                                If you would like to help us with anything, visit our <a href="irc://irc.freenode.net/blackarch">IRC channel</a>. Just remember to wait for a reply, we are in different time zones.<br>
                             </div>
                         </div>
                     </div>
