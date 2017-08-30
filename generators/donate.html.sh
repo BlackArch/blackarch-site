@@ -71,6 +71,12 @@ cat <<\EOF
 	         </thead>
 	         <tbody>
 	            <tr>
+	             <td class=tbl-name>Thomas Cassin/td>
+	             <td class="tbl-dversion vcat">22,77 USD</td>
+	             <td class="tbl-ddescription dcat">25 August 2017</td>
+	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+	            </tr>
+	            <tr>
 	             <td class=tbl-name>Anonymous <i>(not claimed)</i></td>
 	             <td class="tbl-dversion vcat">5 EUR</td>
 	             <td class="tbl-ddescription dcat">03 January 2017</td>

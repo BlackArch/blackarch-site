@@ -59,32 +59,32 @@ cat <<\EOF
                                     <td><b>SHA1sum</b></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.06.14-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
-                                    <td itemprop="datePublished">2017.06.14</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.06.14-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>7.1 GB</td>
-                                    <td>faee8bed3a87be07c772a712a986158d2c2c34aa</td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.08.30-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
+                                    <td itemprop="datePublished">2017.08.30</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.08.30-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>7.7 GB</td>
+                                    <td>4ca5ece4b915a4cb9a930379003bed3fd806e081</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.06.14-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
-                                    <td itemprop="datePublished">2017.06.14</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.06.14-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>6.7 GB</td>
-                                    <td>c22dbc9dcb211f51bc2fe991c35e1680bddcbe96</td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-live-2017.08.30-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Live ISO</a></td>
+                                    <td itemprop="datePublished">2017.08.30</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-live-2017.08.30-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>7.6 GB</td>
+                                    <td>7412f4e11e769dce56e39c069279f45f67138c75</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.06.14-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
-                                    <td itemprop="datePublished">2017.06.14</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.06.14-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>480 MB</td>
-                                    <td>2c4bcf89ada23fbdcd838f6f41e4ac146f2b9e43</td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.08.30-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                                    <td itemprop="datePublished">2017.08.30</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.08.30-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>492 MB</td>
+                                    <td>b5f05278fa16891c5c5664a044c51faa51fc0816</td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.06.14-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
-                                    <td itemprop="datePublished">2017.06.14</td>
-                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.06.14-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                                    <td>407 MB</td>
-                                    <td>9fd6f3ffefa1f8d65ade4a1d400273ebb71be2a7</td>
+                                    <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.08.30-i686.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 32 bit Netinstall ISO</a></td>
+                                    <td itemprop="datePublished">2017.08.30</td>
+                                    <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.08.30-i686.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                                    <td>416 MB</td>
+                                    <td>0fd53200d89e5527b577adbc61ae8dd2dcd61b5d</td>
                                 </tr>
                             </table>
                             <hr />
@@ -157,7 +157,7 @@ cat <<\EOF
                             <div class=code-block>
                                 <p># Run https://blackarch.org/strap.sh as root and follow the instructions.</p>
                                 $ <span>curl -O https://blackarch.org/strap.sh</span>
-                                <p># The SHA1 sum should match: 34b1a3698a4c971807fb1fe41463b9d25e1a4a09</p>
+                                <p># The SHA1 sum should match: 6f152b79419491db92c1fdde3fad2d445f09aae3</p>
                                 $ <span>sha1sum strap.sh</span>
                                 <p># Set execute bit</p>
                                 $ <span>chmod +x strap.sh</span>

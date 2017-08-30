@@ -29,7 +29,31 @@ cat <<\EOF
                     <ul class="list-group nblog">
                         <li class="list-group-item">
 
-                        <article id=p78 itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
+                            <time itemprop="datePublished">Wed, 30 Aug 2017 00:00:00 GMT</time>
+						    <h4 itemprop="name">New ISOs released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
+                            </p>
+                            <p>Here's the ChangeLog:</p>
+                                <ul>
+                                    <li>bugfix: strap.sh (removed 'http:' for pgp keyserver)</li>
+                                    <li>updated blackarch installer to version 0.5.2 (update: sha1 sum of strap.sh)</li>
+                                    <li>include kernel 4.12.8</li>
+                                    <li>updated a lot of blackarch tools</li>
+                                    <li>updated all system packages</li>
+                                    <li>update all window manager menus (awesome, fluxbox, openbox)</li>
+                                </ul>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div>
+                        </article>
+
+                        <article id=p89 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished">Fri, 16 Jun 2017 00:00:00 GMT</time>
 						    <h4 itemprop="name">New BlackArch Linux OVA Image released!</h4>
@@ -43,7 +67,7 @@ cat <<\EOF
                             </p>
                         </div></article>
 
-                        <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p88 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished">Wed, 14 Jun 2017 00:00:00 GMT</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -63,7 +87,7 @@ cat <<\EOF
                         </div>
                         </article>
 
-                        <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p87 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished">Wed, 14 Jun 2017 00:00:00 GMT</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
@@ -88,7 +112,7 @@ cat <<\EOF
                         </div>
                         </article>
 
-                        <article id=p82 itemscope itemtype="http://schema.org/NewsArticle">
+                        <article id=p86 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished">Wed, 01 Mar 2017 00:00:00 GMT</time>
 						    <h4 itemprop="name">New ISOs released!</h4>

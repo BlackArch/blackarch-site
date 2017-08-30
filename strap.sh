@@ -51,7 +51,7 @@ fetch_keyring()
 verify_keyring()
 {
     gpg \
-        --keyserver http://pgp.mit.edu \
+        --keyserver pgp.mit.edu \
         --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
 
     if ! gpg \
