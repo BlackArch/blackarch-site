@@ -40,6 +40,7 @@ cat <<\EOF
                             </p>
                             <p>Here's the ChangeLog:</p>
                                 <ul>
+                                    <li>added more than 50 new tools</li>
                                     <li>bugfix: strap.sh (removed 'http:' for pgp keyserver)</li>
                                     <li>updated blackarch installer to version 0.5.2 (update: sha1 sum of strap.sh)</li>
                                     <li>include kernel 4.12.8</li>
