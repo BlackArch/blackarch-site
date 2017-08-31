@@ -47,6 +47,9 @@ cat <<\EOF
                         <td><img src="/images/flags/de.png" alt="Germany"> <a href="blackarch-guide-de.pdf" target="_blank">German</a></td>
                     </tr>
                     <tr>
+                        <td><img src="/images/flags/gr.png" alt="Greece"> <a href="blackarch-guide-el.pdf" target="_blank">Greek</a></td>
+                    </tr>
+                    <tr>
                         <td><img src="/images/flags/it.png" alt="Italy"> <a href="blackarch-guide-it.pdf" target="_blank">Italian</a></td>
                     </tr>
                     <tr>
