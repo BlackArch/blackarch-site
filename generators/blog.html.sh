@@ -48,6 +48,7 @@ cat <<\EOF
                                     <li>updated all system packages</li>
                                     <li>update all window manager menus (awesome, fluxbox, openbox)</li>
                                 </ul>
+                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -82,6 +83,7 @@ cat <<\EOF
                                     <li>bugfix release: perl libraries rebuilt due to perl upgrade</li>
                                     <li>include kernel 4.11.4</li>
                                 </ul>
+                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -107,6 +109,7 @@ cat <<\EOF
                                     <li>updated all system packages</li>
                                     <li>update all window manager menus (awesome, fluxbox, openbox)</li>
                                 </ul>
+                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
@@ -132,6 +135,7 @@ cat <<\EOF
                                     <li>updated all blackarch tools</li>
                                     <li>updated menu entries for windows managers (awesome, fluxbox, openbox)</li>
                                 </ul>
+                            </p>
                             <p>
                                 We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
                             </p>
