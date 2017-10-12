@@ -35,7 +35,7 @@ check_priv()
 make_tmp_dir()
 {
     tmp="$(mktemp -d /tmp/blackarch_strap.XXXXXXXX)"
-    trap "rm -rf $tmp" EXIT
+    trap 'rm -rf $tmp' EXIT
     cd "$tmp"
 }
 
