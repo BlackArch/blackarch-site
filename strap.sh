@@ -7,20 +7,20 @@ MIRROR='https://www.mirrorservice.org/sites/blackarch.org/blackarch/'
 # simple error message wrapper
 err()
 {
-    echo >&2 `tput bold; tput setaf 1`"[-] ERROR: ${*}"`tput sgr0`
+    echo >&2 "$(tput bold; tput setaf 1)[-] ERROR: ${*}$(tput sgr0)"
     exit 1337
 }
 
 # simple warning message wrapper
 warn()
 {
-    echo >&2 `tput bold; tput setaf 1`"[!] WARNING: ${*}"`tput sgr0`
+    echo >&2 "$(tput bold; tput setaf 1)[!] WARNING: ${*}$(tput sgr0)"
 }
 
 # simple echo wrapper
 msg()
 {
-    echo `tput bold; tput setaf 2`"[+] ${*}"`tput sgr0`
+    echo "$(tput bold; tput setaf 2)[+] ${*}$(tput sgr0)"
 }
 
 # check for root privilege
@@ -34,7 +34,7 @@ check_priv()
 # make a temporary directory and cd into
 make_tmp_dir()
 {
-    tmp=`mktemp -d /tmp/blackarch_strap.XXXXXXXX`
+    tmp="$(mktemp -d /tmp/blackarch_strap.XXXXXXXX)"
     trap "rm -rf $tmp" EXIT
     cd "$tmp"
 }
