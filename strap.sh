@@ -26,7 +26,7 @@ msg()
 # check for root privilege
 check_priv()
 {
-    if [ $EUID -ne 0 ] ; then
+    if [ "$(id -u)" -ne 0 ] ; then
         err "you must be root"
     fi
 }
