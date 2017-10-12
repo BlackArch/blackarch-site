@@ -36,7 +36,7 @@ make_tmp_dir()
 {
     tmp="$(mktemp -d /tmp/blackarch_strap.XXXXXXXX)"
     trap 'rm -rf $tmp' EXIT
-    cd "$tmp"
+    cd "$tmp" || err "Could not enter directory $tmp"
 }
 
 # retrieve the BlackArch Linux keyring
@@ -91,7 +91,7 @@ install_keyring()
 # ask user for mirror
 get_mirror()
 {
-    printf "    -> enter a BlackArch Linux mirror url (default: $MIRROR): "
+    printf "    -> enter a BlackArch Linux mirror url (default: %s): " "$MIRROR"
     while read line ; do
         case "$line" in
             http://*|https://*|ftp://*)
