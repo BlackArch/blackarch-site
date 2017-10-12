@@ -39,6 +39,19 @@ make_tmp_dir()
     cd "$tmp" || err "Could not enter directory $tmp"
 }
 
+check_internet()
+{    
+    if ! ping -s 0 -c 1 -W 2 google.com > /dev/null 2>&1; then
+        if ping -s 0 -c 1 -W 2 8.8.8.8 > /dev/null 2>&1; then
+            warn "you have internet connection but seems to have a problem with DNS"
+        else
+            err "you don't have an internet connection"
+        fi
+    fi
+    
+    return $SUCCESS
+}
+
 # retrieve the BlackArch Linux keyring
 fetch_keyring()
 {
@@ -50,9 +63,12 @@ fetch_keyring()
 # note: this is pointless if you do not verify the key fingerprint
 verify_keyring()
 {
-    gpg \
+    if ! gpg \
         --keyserver pgp.mit.edu \
         --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+    then
+        err 'could not verify the key, check your network (firewall, dns, time)'
+    fi
 
     if ! gpg \
         --keyserver-options no-auto-key-retrieve \
@@ -156,6 +172,7 @@ blackarch_setup()
     check_priv
     msg 'installing blackarch keyring...'
     make_tmp_dir
+    check_internet
     fetch_keyring
     verify_keyring
     delete_signature
