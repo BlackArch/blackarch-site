@@ -131,7 +131,12 @@ EOF
 # synchronize and update
 pacman_update()
 {
-    pacman -Syy
+    if pacman -Syy; then
+        return $SUCCESS
+    fi
+    
+    warn "Synchronizing pacman has failed. Please try manually: pacman -Syy"
+    return $FAILURE
 }
 
 
