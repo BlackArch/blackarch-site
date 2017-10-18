@@ -72,6 +72,12 @@ cat <<\EOF
 	         <tbody>
 	            <tr>
 	             <td class=tbl-name>Anonymous</td>
+	             <td class="tbl-dversion vcat">100,00 USD</td>
+	             <td class="tbl-ddescription dcat">17 October 2017</td>
+	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+	            </tr>
+	            <tr>
+	             <td class=tbl-name>Anonymous</td>
 	             <td class="tbl-dversion vcat">25,00 USD</td>
 	             <td class="tbl-ddescription dcat">01 October 2017</td>
 	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
