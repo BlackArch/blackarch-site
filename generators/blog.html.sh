@@ -31,6 +31,25 @@ cat <<\EOF
 
                         <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
+                            <time itemprop="datePublished">Wed, 18 Nov 2017 00:00:00 GMT</time>
+						    <h4 itemprop="name">The end of i686 support!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Following 9 months of deprecation period, support for the i686 architecture effectively ends today.
+                                By the end of November, i686 packages will be removed from our mirrors and later from the packages archive.
+                            </p>
+                            <p
+                                We are also removing the i686 ISOs. So better switch off to the x86_64 one. ;-)
+                            </p>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div>
+                        </article>
+
+                        <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
                             <time itemprop="datePublished">Wed, 30 Aug 2017 00:00:00 GMT</time>
 						    <h4 itemprop="name">New ISOs released!</h4>
                         </header>
