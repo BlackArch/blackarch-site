@@ -40,6 +40,7 @@ cat <<\EOF
                             </p>
                             <p>Here's the ChangeLog:</p>
                                 <ul>
+                                    <li>added more than 50 new tools
                                     <li>various clean-ups and tweaks</li>
                                     <li>updated blackarch installer to version 0.6</li>
                                     <li>included kernel 4.13.12</li>
