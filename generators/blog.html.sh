@@ -27,7 +27,32 @@ cat <<\EOF
                         <b>News</b>
                     </div>
                     <ul class="list-group nblog">
-                        <li class="list-group-item">
+                        <li class="list-group-item"
+>
+                        <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
+                        <header>
+                            <time itemprop="datePublished">Mon, 11 Dec 2017 00:00:00 GMT</time>
+						    <h4 itemprop="name">New ISOs released!</h4>
+                        </header>
+                        <div itemprop="description">
+                            <p>
+                                Today we released new BlackArch Linux ISOs. For details see the ChangeLog below.
+                            </p>
+                            <p>Here's the ChangeLog:</p>
+                                <ul>
+                                    <li>update blackarch-installer to version 0.6.2 (most important change)</li>
+                                    <li>included kernel 4.14.4</li>
+                                    <li>updated lot's of blackarch tools and packages</li>
+                                    <li>updated all blackarch tools and packages</li>
+                                    <li>updated all system packages</li>
+                                    <li>bugfix release! (see blackarch-installer)</li>
+                                </ul>
+                            </p>
+                            <p>
+                                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+                            </p>
+                        </div>
+                        </article>
 
                         <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
