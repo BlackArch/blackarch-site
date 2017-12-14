@@ -504,7 +504,7 @@ $(document).off('click', '.act-bitcoin');
 $(document).on('click', '.act-bitcoin', function() {
 
 	$('.act-display').hide().empty();
-	$('.act-display').html('1AuL3QYXYLb4ARLT3THLwhGnW6qsJjXuzm').fadeIn();
+	$('.act-display').html('151ZXUgyVRRtzBeUEEJuksMiw5BD585eQL').fadeIn();
 });
 
 $(document).off('click', '.act-cash');

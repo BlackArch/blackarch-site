@@ -50,8 +50,8 @@ cat <<\EOF
 		  <i class="bitcoin fa fa-btc fa-stack-1x fa-inverse"></i>
 		</span>
 		<p class=act-display></p>
-    <noscript><p class=ns>1AuL3QYXYLb4ARLT3THLwhGnW6qsJjXuzm</p></noscript>
-		<!-- <noscript><p class=ns>1AXMzX5f6GzHY2oFt66zj7JPFaxKMEZMnn</p></noscript> -->
+    <noscript><p class=ns>151ZXUgyVRRtzBeUEEJuksMiw5BD585eQL</p></noscript>
+		<!-- <noscript><p class=ns>151ZXUgyVRRtzBeUEEJuksMiw5BD585eQL</p></noscript> -->
 	</div>
 	</div>
 	</div>
