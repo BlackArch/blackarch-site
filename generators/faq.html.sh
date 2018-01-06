@@ -80,10 +80,24 @@ cat <<\EOF
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                            It could happen for a wide range of reasons, but you can usually fix it by running the commands below. If you still encounter any problems, pay us a visit at <a href="irc://irc.freenode.net/blackarch">#blackarch</a> (Freenode).<br><br>
+                            It could happen for a wide range of reasons. Below you will find a <strong>few suggestions</strong>.<br><br>
+                            <ul>
+                                <li>You don't have an internet connection (as you can imagine, a rare problem and can be verified quickly).</li>
+                                <li>You may have a DNS problem, that can't resolve pgp.mit.edu accordingly. Please check your DNS settings.</li>
+                                <li>You may have a network issue, different from the above one, which is hard for us to help since it can be a myriad of things. For example: DNS caching.</li>
+                                <li>You may have a clock/time issue.</li>
+                                <li>You may have something blocking your communication with mit.edu server, for instance: a firewall.</li>
+                                <li><strong>pgp.mit.edu</strong> could be down for some reason (yes, that can happen). If so the best option is just to wait.</li>
+                            </ul>
+                            After testing all the items described above if you still have problems using <span class=faqco>strap.sh</span>, try running one or both snippets below:<br><br>
+                            1<sup>st</sup> option:<br>
                             <span class=faqco>rm -rf /etc/pacman.d/gnupg</span><br>
                             <span class=faqco>pacman-key --populate</span><br>
-                            <span class=faqco>pacman-key --update.</span><br>
+                            <span class=faqco>pacman-key --update.</span><br><br>
+                            2<sup>nd</sup> option:<br>
+                            You could try to change to pgp.mit.edu's IP address using the following command: <span class=faqco>$ sed -i "s|pgp.mit.edu|18.9.60.141|g" strap.sh</span><br>
+                            Just keep in mind that the IP address above is the current IP address of pgp.mit.edu but it can change at any time. Make sure to check before running the command.<br><br>
+                            It's very important following the suggestion above as well as checkging the Archlinux Wiki pages to assist you as needed. If you still encounter any problems, pay us a visit at <a href="irc://irc.freenode.net/blackarch">#blackarch</a> (Freenode).<br>
                             </div>
                         </div>
                     </div>
