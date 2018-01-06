@@ -24,6 +24,19 @@ cat <<\EOF
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Is BlackArch Linux the right pentesting distribution for me?</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFive" class="panel-collapse collapse">
+                            <div class="panel-body panel-body-faq">
+                                BlackArch is a Linux pentesting distribution based on ArchLinux. If you're not familiar with ArchLinux, or Linux in general. We strongly suggest you avoid BlackArch due to the learning curve for new users.<br>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- /.panel -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Where do I start with BlackArch?</a>
                             </h4>
                         </div>
@@ -75,19 +88,6 @@ cat <<\EOF
                         </div>
                     </div>
                     <!-- /.panel -->
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Is BlackArch Linux the right pentesting distribution for me?</a>
-                            </h4>
-                        </div>
-                        <div id="collapseFive" class="panel-collapse collapse">
-                            <div class="panel-body panel-body-faq">
-                                BlackArch is a Linux pentesting distribution based on ArchLinux. If you're not familiar with ArchLinux, or Linux in general. We strongly suggest you avoid BlackArch due to the learning curve for new users.<br>
-                            </div>
-                        </div>
-                    </div>
-                   <!-- /.panel -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
