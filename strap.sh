@@ -40,15 +40,15 @@ make_tmp_dir()
 }
 
 check_internet()
-{    
-    if ! ping -s 0 -c 1 -W 2 google.com > /dev/null 2>&1; then
-        if ping -s 0 -c 1 -W 2 8.8.8.8 > /dev/null 2>&1; then
+{
+    if ! ping -c 3 -W 3 google.com > /dev/null 2>&1; then
+        if ping -c 3 -W 3 8.8.8.8 > /dev/null 2>&1; then
             warn "you have internet connection but seems to have a problem with DNS"
         else
             err "you don't have an internet connection"
         fi
     fi
-    
+
     return $SUCCESS
 }
 
@@ -100,8 +100,8 @@ install_keyring()
     then
         err 'keyring installation failed'
     fi
-	# just in case
-	pacman-key --populate
+    # just in case
+    pacman-key --populate
 }
 
 # ask user for mirror
@@ -150,7 +150,7 @@ pacman_update()
     if pacman -Syy; then
         return $SUCCESS
     fi
-    
+
     warn "Synchronizing pacman has failed. Please try manually: pacman -Syy"
     return $FAILURE
 }
