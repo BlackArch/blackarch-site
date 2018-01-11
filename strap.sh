@@ -63,18 +63,21 @@ fetch_keyring()
 # note: this is pointless if you do not verify the key fingerprint
 verify_keyring()
 {
-    if ! gpg \
-        --keyserver pgp.mit.edu \
-        --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+    if ! gpg --keyserver pgp.mit.edu \
+             --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
     then
-        err 'could not verify the key, check your network (firewall, dns, time)'
+        if ! gpg --keyserver hkp://pool.sks-keyservers.net \
+                 --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+        then
+            err "could not verify the key, check your network (firewall, dns, time)"
+        fi
     fi
 
     if ! gpg \
         --keyserver-options no-auto-key-retrieve \
         --with-fingerprint blackarch-keyring.pkg.tar.xz.sig > /dev/null 2>&1
     then
-        err 'invalid keyring signature. please stop by irc.freenode.net/blackarch'
+        err "invalid keyring signature. please stop by irc.freenode.net/blackarch"
     fi
 }
 
