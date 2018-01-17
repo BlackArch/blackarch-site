@@ -69,7 +69,7 @@ verify_keyring()
         if ! gpg --keyserver hkp://pool.sks-keyservers.net \
                  --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
         then
-            err "could not verify the key, check your network (firewall, dns, time)"
+            err "could not verify the key. Please check: https://blackarch.org/faq.html"
         fi
     fi
 
