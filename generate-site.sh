@@ -50,7 +50,10 @@ export VOIP_COUNT=`wc -l < data/voip`
 export WEBAPP_COUNT=`wc -l < data/webapp`
 export WINDOWS_COUNT=`wc -l < data/windows`
 export WIRELESS_COUNT=`wc -l< data/wireless`
-
+export STRAP_CHECKSUM="$(cat checksums/strap)"
+export LIVE_CHECKSUM="$(cat checksums/live64iso)"
+export NET_CHECKSUM="$(cat checksums/net64iso)"
+export OVA_CHECKSUM="$(cat checksums/ova)"
 
 for i in generators/*.sh ; do
 	sh $i > `basename $i .sh`
