@@ -334,9 +334,6 @@ cat <<\EOF
                             <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">rsync://ftp.yzu.edu.tw/Linux/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/us.png" alt="USA" />USA<br>
-			    			<a href="https://mirror.lps.rocks/blackarch/" target="_blank" itemprop="url">https://mirror.lps.rocks/blackarch/</a><br>
-                            <a href="ftp://mirror.lps.rocks/blackarch/" target="_blank" itemprop="url">ftp://mirror.lps.rocks/blackarch/</a><br>
-                            <a href="rsync://mirror.lps.rocks/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.lps.rocks/blackarch/</a><br>
 			    			<a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
                             <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a><br>
                             <a href="https://mirrors.tuxns.net/blackarch/" target="_blank" itemprop="url">https://mirrors.tuxns.net/blackarch/</a><br>
