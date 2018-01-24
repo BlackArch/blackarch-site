@@ -27,8 +27,19 @@ cat <<\EOF
                         <b>News</b>
                     </div>
                     <ul class="list-group nblog">
-                        <li class="list-group-item"
->
+                        <li class="list-group-item">
+                        <article id=p75 itemscope itemtype="http://schema.org/NewsArticle"><header>
+						    <time itemprop="datePublished">Tue, 24 Jan 2018 00:00:00 GMT</time>
+							<h4 itemprop="name">New mirror added in Netherlands! </h4></header>
+							<div itemprop="description">
+                                We would like to thank <a href="http://mirror.neostrada.nl/blackarch/" target="_blank">neostrada.nl </a> for becoming a BlackArch Linux mirror.
+                                <br />
+                                They are offering the following access: <a href="https://mirror.neostrada.nl/blackarch/" target="_blank">https</a> |
+                                <a href="http://mirror.neostrada.nl/blackarch/" target="_blank">http</a> | <a href="ftp://mirror.neostrada.nl/blackarch/" target="_blank">ftp</a> |
+                                <a href="rsync://mirror.neostrada.nl/blackarch/" target="_blank">rsync</a>
+                            </div>
+                        </article>
+
                         <article id=p90 itemscope itemtype="http://schema.org/NewsArticle">
                         <header>
                             <time itemprop="datePublished">Mon, 11 Dec 2017 00:00:00 GMT</time>
