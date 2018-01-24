@@ -293,7 +293,7 @@ cat <<\EOF
                             <a href="http://www.ftp.ne.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://www.ftp.ne.jp/Linux/packages/blackarch/</a><br>
                             <a href="ftp://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">ftp://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
                             <br><br>
-                            <img src="/images/flags/nl.png alt="Netherlands" /> Netherlands<br>
+                            <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br>
                             <a href="http://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">http://mirror.neostrada.nl/blackarch/</a><br>
                             <a href="https://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">https://mirror.neostrada.nl/blackarch/</a><br>
                             <a href="ftp://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">ftp://mirror.neostrada.nl/blackarch/</a><br>
