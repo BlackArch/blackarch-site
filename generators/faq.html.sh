@@ -29,7 +29,7 @@ cat <<\EOF
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                                BlackArch is a Linux pentesting distribution based on ArchLinux. If you're not familiar with ArchLinux, or Linux in general. We strongly suggest you avoid BlackArch due to the learning curve for new users.<br>
+                                BlackArch is a Linux pentesting distribution based on ArchLinux. If you're not familiar with ArchLinux, or Linux in general, we strongly suggest you avoid BlackArch due to the learning curve for new users.<br>
                             </div>
                         </div>
                     </div>
