@@ -113,7 +113,7 @@ cat <<EOF
                                 <tr>
                                     <td itemprop="givenName">Pedro Freitas</td>
                                     <td itemprop="additionalName">psf</td>
-                                    <td itemprop="email">pedrosffreitas@gmail.com</td>
+                                    <td itemprop="email">pedrosffreitas@protonmail.com</td>
                                     <td><a href="gpgkeys/psf.asc" target="_blank">0x6B644488</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
