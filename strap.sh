@@ -88,18 +88,17 @@ install_keyring()
 # ask user for mirror
 get_mirror()
 {
-    mirror_repository="https://blackarch.org"
-    mirror_file="blackarch-mirrorlist"
+    mirror_p="/etc/pacman.d"
+    mirror_r="https://blackarch.org"
+    mirror_f="blackarch-mirrorlist"
 
     msg "fetching new mirror list..."
-    if ! curl -s "$mirror_repository/$mirror_file" -o \
-        "/etc/pacman.d/$mirror_file"
+    if ! curl -s "$mirror_r/$mirror_f" -o "$mirror_p/$mirror_f"
     then
-        err "we couldn't fetch the mirror list. Make sure you can reach"
-        err "$mirror_repository/$mirror_file"
+        err "we couldn't fetch the mirror list from: $mirror_r/$mirror_f"
     fi
 
-    msg "you can change the default mirror under /etc/pacman.d/$mirror_file"
+    msg "you can change the default mirror under $mirror_p/$mirror_f"
 }
 
 # update pacman.conf
