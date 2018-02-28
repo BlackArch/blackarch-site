@@ -1,9 +1,6 @@
 #!/bin/sh
 # strap.sh - install and setup BlackArch Linux keyring
 
-# default mirror url
-MIRROR='https://www.mirrorservice.org/sites/blackarch.org/blackarch/'
-
 # simple error message wrapper
 err()
 {
@@ -85,35 +82,24 @@ install_keyring()
         err 'keyring installation failed'
     fi
 	# just in case
-	pacman-key --populate
+	pacman-key --populate archlinux blackarch
 }
 
 # ask user for mirror
 get_mirror()
 {
-    printf "    -> enter a BlackArch Linux mirror url (default: $MIRROR): "
-    while read line ; do
-        case "$line" in
-            http://*|https://*|ftp://*)
-                msg 'checking mirror...'
-                if ! curl -sI "$line/blackarch/os/i686/blackarch.db" |
-                    head -n1 | grep -q 200
-                then
-                    warn 'blackarch.db not found on given mirror'
-                    warn "using default mirror $MIRROR"
-                else
-                    MIRROR=$line
-                    msg "using mirror $MIRROR"
-                fi
-                break
-                ;;
-            *)
-                warn 'you did not specify a correct mirror url'
-                msg "using default mirror $MIRROR"
-                return
-                ;;
-        esac
-    done < /dev/tty
+    mirror_repository="https://blackarch.org"
+    mirror_file="blackarch-mirrorlist"
+
+    msg "fetching new mirror list..."
+    if ! curl -s "$mirror_repository/$mirror_file" -o \
+        "/etc/pacman.d/$mirror_file"
+    then
+        err "we couldn't fetch the mirror list. Make sure you can reach"
+        err "$mirror_repository/$mirror_file"
+    fi
+
+    msg "you can change the default mirror under /etc/pacman.d/$mirror_file"
 }
 
 # update pacman.conf
@@ -123,8 +109,9 @@ update_pacman_conf()
     sed -i '/blackarch/{N;d}' /etc/pacman.conf
 
     cat >> "/etc/pacman.conf" << EOF
+
 [blackarch]
-Server = $MIRROR/\$repo/os/\$arch
+Include = /etc/pacman.d/blackarch-mirrorlist
 EOF
 }
 
