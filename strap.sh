@@ -1,6 +1,9 @@
 #!/bin/sh
 # strap.sh - install and setup BlackArch Linux keyring
 
+# mirror file to fetch and write
+MIRROR_F="blackarch-mirrorlist"
+
 # simple error message wrapper
 err()
 {
@@ -90,15 +93,14 @@ get_mirror()
 {
     mirror_p="/etc/pacman.d"
     mirror_r="https://blackarch.org"
-    mirror_f="blackarch-mirrorlist"
 
     msg "fetching new mirror list..."
-    if ! curl -s "$mirror_r/$mirror_f" -o "$mirror_p/$mirror_f"
+    if ! curl -s "$mirror_r/$MIRROR_F" -o "$mirror_p/$MIRROR_F"
     then
-        err "we couldn't fetch the mirror list from: $mirror_r/$mirror_f"
+        err "we couldn't fetch the mirror list from: $mirror_r/$MIRROR_F"
     fi
 
-    msg "you can change the default mirror under $mirror_p/$mirror_f"
+    msg "you can change the default mirror under $mirror_p/$MIRROR_F"
 }
 
 # update pacman.conf
@@ -110,7 +112,7 @@ update_pacman_conf()
     cat >> "/etc/pacman.conf" << EOF
 
 [blackarch]
-Include = /etc/pacman.d/blackarch-mirrorlist
+Include = /etc/pacman.d/$MIRROR_F
 EOF
 }
 
