@@ -52,7 +52,7 @@ anontwi|1.1b|A free software python client designed to navigate anonymously on s
 anti-xss|165.6534a4d|A XSS vulnerability scanner.| blackarch-webapp |https://github.com/lewangbtcc/anti-XSS
 antiransom|3.02|A tool capable of detect and stop attacks of Ransomware using honeypots.| blackarch-windows |http://www.security-projects.com/?Anti_Ransom___Download
 apache-users|2.1|This perl script will enumerate the usernames on a unix system that use the apache module UserDir.| blackarch-scanner |https://labs.portcullis.co.uk/downloads/
-apacket|176.075ac47|Sniffer syn and backscatter packets.| blackarch-networking |https://github.com/Acey9/apacket
+apacket|178.3d001ac|Sniffer syn and backscatter packets.| blackarch-networking |https://github.com/Acey9/apacket
 aphopper|0.3|A program that automatically hops between access points of different wireless networks.| blackarch-wireless |http://aphopper.sourceforge.net/
 api-dnsdumpster|59.eda15d6|Unofficial Python API for http://dnsdumpster.com/.| blackarch-recon |https://github.com/PaulSec/API-dnsdumpster.com
 apkid|148.eef3689|Android Application Identifier for Packers, Protectors, Obfuscators and Oddities.| blackarch-mobile |https://github.com/rednaga/APKiD
@@ -408,6 +408,7 @@ dnsteal|23.9b3b929|DNS Exfiltration tool for stealthily sending files over DNS r
 dnstracer|1.9|Determines where a given DNS server gets its information from, and follows the chain of DNS servers| blackarch-recon |http://www.mavetju.org/unix/dnstracer.php
 dnstwist|188.e3d3a97|Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.| blackarch-scanner |https://github.com/elceef/dnstwist
 dnswalk|2.0.2|A DNS debugger.| blackarch-recon |http://sourceforge.net/projects/dnswalk/
+dockerscan|51.c93e277|Docker security analysis & hacking tools.| blackarch-scanner |https://github.com/cr0hn/dockerscan
 domain-analyzer|0.8.1|Finds all the security information for a given domain name.| blackarch-recon |http://sourceforge.net/projects/domainanalyzer/
 domain-stats|13.5539546|A web API to deliver domain information from whois and alexa.| blackarch-recon |https://github.com/MarkBaggett/domain_stats
 domi-owned|41.583d0a5|A tool used for compromising IBM/Lotus Domino servers.| blackarch-webapp |https://github.com/coldfusion39/domi-owned
@@ -591,8 +592,8 @@ gasmask|46.37f368c|All in one Information gathering tool - OSINT.| blackarch-rec
 gatecrasher|2.3ad5225|Network auditing and analysis tool developed in Python.| blackarch-recon |https://github.com/michaeltelford/gatecrasher
 gcat|28.6cb165a|A fully featured backdoor that uses Gmail as a C&C server.| blackarch-malware |https://github.com/byt3bl33d3r/gcat
 gdb|8.1|The GNU Debugger| blackarch-debugger |http://www.gnu.org/software/gdb/
-gdbgui|319.6e2ccf6|Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.| blackarch-debugger |https://github.com/cs01/gdbgui
-gef|1263.f06d2c9|Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.| blackarch-debugger |https://github.com/hugsy/gef
+gdbgui|320.9ffaf77|Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.| blackarch-debugger |https://github.com/cs01/gdbgui
+gef|1264.699e0e5|Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.| blackarch-debugger |https://github.com/hugsy/gef
 genlist|0.1|Generates lists of IP addresses.| blackarch-misc |
 geoedge|0.2|This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).| blackarch-recon |
 geoip|1.6.11|Non-DNS IP-to-country resolver C library & utils| blackarch-networking |http://www.maxmind.com/app/c
@@ -1279,7 +1280,7 @@ pwdlyser|130.2f4489e|Python-based CLI Password Analyser (Reporting Tool.| blacka
 pwdump|7.1|Extracts the binary SAM and SYSTEM file from the filesystem and then the hashes.| blackarch-windows |http://www.tarasco.org/security/pwdump_7/index.html
 pwnat|13.5de412c|A tool that allows any number of clients behind NATs to communicate with a server behind a separate NAT with *no* port forwarding and *no* DMZ setup on any routers in order to directly communicate with each other.| blackarch-networking |http://samy.pl/pwnat/
 pwndbg|2017.09.26|Makes debugging with GDB suck less| blackarch-debugger |https://github.com/pwndbg/pwndbg
-pwned|260.81e8240|A command-line tool for querying the 'Have I been pwned?' service.| blackarch-recon |https://github.com/wKovacs64/pwned
+pwned|261.a0cb16c|A command-line tool for querying the 'Have I been pwned?' service.| blackarch-recon |https://github.com/wKovacs64/pwned
 pwntools|3.11.0|CTF framework and exploit development library.| blackarch-disassembler |https://github.com/Gallopsled/pwntools
 pybozocrack|75.9900883|A silly & effective MD5 cracker in Python.| blackarch-cracker |https://github.com/ikkebr/PyBozoCrack
 pydictor|76.d9a336a|A useful hacker dictionary builder for a brute-force attack.| blackarch-misc |https://github.com/LandGrey/pydictor
@@ -1440,6 +1441,7 @@ shareenum|46.3bfa81d|Tool to enumerate shares from Windows hosts.| blackarch-sca
 shellcheck|0.4.7|Shell script analysis tool| blackarch-code-audit |http://www.shellcheck.net
 shellcode-factory|93.b8fe778|Tool to create and test shellcodes from custom assembly sources.| blackarch-exploitation |https://github.com/danielhenrymantilla/shellcode-factory
 shellcodecs|0.1|A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.| blackarch-exploitation |http://www.blackhatlibrary.net/Shellcodecs
+shellen|48.2c8fe62|Interactive shellcoding environment to easily craft shellcodes.| blackarch-exploitation |https://github.com/merrychap/shellen
 shellinabox|428.98e6eeb|Implements a web server that can export arbitrary command line tools to a web based terminal emulator.| blackarch-backdoor |https://github.com/shellinabox/shellinabox
 shelling|95.de16f5a|An offensive approach to the anatomy of improperly written OS command injection sanitisers.| blackarch-misc |https://github.com/ewilded/shelling
 shellme|5.d5206f0|Because sometimes you just need shellcode and opcodes quickly. This essentially just wraps some nasm/objdump calls into a neat script.| blackarch-exploitation |https://github.com/hatRiot/shellme
@@ -1729,7 +1731,7 @@ umap|25.3ad8121|The USB host security assessment tool.| blackarch-scanner |https
 umit|1.0|A powerful nmap frontend.| blackarch-networking |http://www.umitproject.org/
 unhide|20130526|A forensic tool to find processes hidden by rootkits, LKMs or by other techniques.| blackarch-forensic |http://sourceforge.net/projects/unhide/
 unibrute|1.b3fb4b7|Multithreaded SQL union bruteforcer.| blackarch-exploitation |https://github.com/GDSSecurity/Unibrute
-unicorn-powershell|86.39b4acb|A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.| blackarch-backdoor |https://github.com/trustedsec/unicorn
+unicorn-powershell|88.0cf03f3|A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.| blackarch-backdoor |https://github.com/trustedsec/unicorn
 unicornscan|0.4.7|A new information gathering and correlation engine.| blackarch-scanner |http://www.unicornscan.org/
 uniofuzz|1337|The universal fuzzing tool for browsers, web services, files, programs and network services/ports| blackarch-fuzzer |http://nullsecurity.net/tools/fuzzer.html
 uniscan|6.3|A simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.| blackarch-fuzzer |http://sourceforge.net/projects/uniscan/
