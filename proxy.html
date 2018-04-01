@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Proxy tools</title>
+    <meta name="description" content="List of all proxy tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1900 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Proxy</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">proxy</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+Packages that acts as a proxy, ie redirecting traffic through another node on the internet.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">26</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch proxy</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">3proxy</td>
+                                <td class="tbl-version vcat">0.8.11</td>
+                                <td class="tbl-description dcat" itemprop="description">Tiny free proxy server.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://3proxy.ru/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bdfproxy</td>
+                                <td class="tbl-version vcat">101.f9d50ec</td>
+                                <td class="tbl-description dcat" itemprop="description">Patch Binaries via MITM: BackdoorFactory + mitmProxy</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/secretsquirrel/BDFProxy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">binproxy</td>
+                                <td class="tbl-version vcat">5.01d6c52</td>
+                                <td class="tbl-description dcat" itemprop="description">A proxy for arbitrary TCP connections.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/BinProxy/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cntlm</td>
+                                <td class="tbl-version vcat">4.b35d55c</td>
+                                <td class="tbl-description dcat" itemprop="description">An NTLM, NTLM2SR, and NTLMv2 authenticating HTTP proxy.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bseb/cntlm" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dns-reverse-proxy</td>
+                                <td class="tbl-version vcat">20.fa5c77a</td>
+                                <td class="tbl-description dcat" itemprop="description">A reverse DNS proxy written in Go.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/StalkR/dns-reverse-proxy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dnschef</td>
+                                <td class="tbl-version vcat">0.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A highly configurable DNS proxy for pentesters.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://thesprawl.org/projects/dnschef/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">elite-proxy-finder</td>
+                                <td class="tbl-version vcat">51.1ced3be</td>
+                                <td class="tbl-description dcat" itemprop="description">Finds public elite anonymity proxies and concurrently tests them.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/DanMcInerney/elite-proxy-finder" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fakedns</td>
+                                <td class="tbl-version vcat">97.d0e2646</td>
+                                <td class="tbl-description dcat" itemprop="description">A regular-expression based python MITM DNS server with correct DNS request passthrough and "Not Found" responses.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Crypt0s/FakeDns" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mitmproxy</td>
+                                <td class="tbl-version vcat">3.0.3</td>
+                                <td class="tbl-description dcat" itemprop="description">SSL-capable man-in-the-middle HTTP proxy</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://mitmproxy.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">obfsproxy</td>
+                                <td class="tbl-version vcat">0.2.13</td>
+                                <td class="tbl-description dcat" itemprop="description">A pluggable transport proxy written in Python</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://pypi.python.org/pypi/obfsproxy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pr0cks</td>
+                                <td class="tbl-version vcat">20.c98188b</td>
+                                <td class="tbl-description dcat" itemprop="description">python script setting up a transparent proxy to forward all TCP and DNS traffic through a SOCKS / SOCKS5 or HTTP(CONNECT) proxy using iptables -j REDIRECT target.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/n1nj4sec/pr0cks" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">proxychains-ng</td>
+                                <td class="tbl-version vcat">4.12</td>
+                                <td class="tbl-description dcat" itemprop="description">A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/rofl0r/proxychains" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">proxyp</td>
+                                <td class="tbl-version vcat">2013</td>
+                                <td class="tbl-description dcat" itemprop="description">Small multithreaded Perl script written to enumerate latency, port numbers, server names, & geolocations of proxy IP addresses.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/proxyp/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">redsocks</td>
+                                <td class="tbl-version vcat">206.268c00e</td>
+                                <td class="tbl-description dcat" itemprop="description">Transparent redirector of any TCP connection to proxy.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/darkk/redsocks" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rpivot</td>
+                                <td class="tbl-version vcat">2.c280a92</td>
+                                <td class="tbl-description dcat" itemprop="description">Socks4 reverse proxy for penetration testing.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/artkond/rpivot" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sergio-proxy</td>
+                                <td class="tbl-version vcat">0.2.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A multi-threaded transparent HTTP proxy for manipulating web traffic</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/darkoperator/dnsrecon" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">soapui</td>
+                                <td class="tbl-version vcat">5.4.0</td>
+                                <td class="tbl-description dcat" itemprop="description">The Swiss-Army Knife for SOAP Testing.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.soapui.org/downloads/soapui/source-forge.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sshuttle</td>
+                                <td class="tbl-version vcat">0.78.3</td>
+                                <td class="tbl-description dcat" itemprop="description">Transparent proxy server that forwards all TCP packets over ssh</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/sshuttle/sshuttle" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ssrf-proxy</td>
+                                <td class="tbl-version vcat">293.e79da7a</td>
+                                <td class="tbl-description dcat" itemprop="description">Facilitates tunneling HTTP communications through servers vulnerable to Server-Side Request Forgery.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bcoles/ssrf_proxy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">starttls-mitm</td>
+                                <td class="tbl-version vcat">7.b257756</td>
+                                <td class="tbl-description dcat" itemprop="description">A mitm proxy that will transparently proxy and dump both plaintext and TLS traffic.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ipopov/starttls-mitm" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">striptls</td>
+                                <td class="tbl-version vcat">53.eff1d59</td>
+                                <td class="tbl-description dcat" itemprop="description">Proxy PoC implementation of STARTTLS stripping attacks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/tintinweb/striptls" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tftp-proxy</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">This tool accepts connection on tftp and reloads requested content from an upstream tftp server. Meanwhile modifications to the content can be done by pluggable modules. So this one's nice if your mitm with some embedded devices.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.c0decafe.de/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tinyproxy</td>
+                                <td class="tbl-version vcat">1.8.4</td>
+                                <td class="tbl-description dcat" itemprop="description">A light-weight HTTP proxy daemon for POSIX operating systems.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://banu.com/tinyproxy/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tor</td>
+                                <td class="tbl-version vcat">0.3.2.10</td>
+                                <td class="tbl-description dcat" itemprop="description">Anonymizing overlay network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.torproject.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">torsocks</td>
+                                <td class="tbl-version vcat">2.2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Wrapper to safely torify applications</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://gitweb.torproject.org/torsocks.git/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">webfixy</td>
+                                <td class="tbl-version vcat">25.5d477b0</td>
+                                <td class="tbl-description dcat" itemprop="description">On-the-fly decryption proxy for MikroTik RouterOS WebFig sessions.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/takeshixx/webfixy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2018</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

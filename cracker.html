@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cracker tools</title>
+    <meta name="description" content="List of all cracker tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1900 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Cracker</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">cracker</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+				Packages used for cracking cryptographic functions, ie hashes.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">142</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch code-audit</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">acccheck</td>
+                                <td class="tbl-version vcat">0.2.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A password dictionary attack tool that targets windows authentication via the SMB protocol.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://labs.portcullis.co.uk/tools/acccheck/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">against</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possible targets and a multithreaded brute-forcing module which attacks parallel all discovered hosts or given ip addresses from a list.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nullsecurity.net/tools/cracker.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">asleap</td>
+                                <td class="tbl-version vcat">2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Actively recover LEAP/PPTP passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.willhackforsushi.com/Asleap.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">beleth</td>
+                                <td class="tbl-version vcat">36.0963699</td>
+                                <td class="tbl-description dcat" itemprop="description">A Multi-threaded Dictionary based SSH cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/chokepoint/Beleth" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bgp-md5crack</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">RFC2385 password cracker</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.c0decafe.de/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bios_memimage</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to dump RAM contents to disk (aka cold boot attack).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://citp.princeton.edu/memory/code/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bkhive</td>
+                                <td class="tbl-version vcat">1.1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/ophcrack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">blackhash</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Creates a filter from system hashes</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://16s.us/blackhash/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bob-the-butcher</td>
+                                <td class="tbl-version vcat">0.7.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A distributed password cracker package.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://btb.banquise.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">brut3k1t</td>
+                                <td class="tbl-version vcat">80.1973a5a</td>
+                                <td class="tbl-description dcat" itemprop="description">Brute-force attack that supports multiple protocols and services.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ex0dusx/brut3k1t" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bruteforce-wallet</td>
+                                <td class="tbl-version vcat">31.38bbd46</td>
+                                <td class="tbl-description dcat" itemprop="description">Try to find the password of an encrypted Peercoin (or Bitcoin,Litecoin, etc...) wallet file.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/glv2/bruteforce-wallet" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">brutessh</td>
+                                <td class="tbl-version vcat">0.6</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple sshd password bruteforcer using a wordlist, it's very fast for internal networks. It's multithreads.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.edge-security.com/edge-soft.php" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">chapcrack</td>
+                                <td class="tbl-version vcat">17.ae2827f</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for parsing and decrypting MS-CHAPv2 network handshakes.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/moxie0/chapcrack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">checkpwd</td>
+                                <td class="tbl-version vcat">1.23</td>
+                                <td class="tbl-description dcat" itemprop="description">Oracle Password Checker (Cracker).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.red-database-security.com/software/checkpwd.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cintruder</td>
+                                <td class="tbl-version vcat">8.eacca65</td>
+                                <td class="tbl-description dcat" itemprop="description">An automatic pentesting tool to bypass captchas.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/epsylon/cintruder" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cisco-auditing-tool</td>
+                                <td class="tbl-version vcat">1</td>
+                                <td class="tbl-description dcat" itemprop="description">Perl script which scans cisco routers for common vulnerabilities. Checks for default passwords, easily guessable community names, and the IOS history bug. Includes support for plugins and scanning multiple hosts.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.scrypt.net" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cisco-ocs</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Cisco Router Default Password Scanner.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.question-defense.com/2013/01/11/ocs-version-2-release-ocs-cisco-router-default-password-scanner" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cisco-scanner</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Multithreaded Cisco HTTP vulnerability scanner. Tested on Linux, OpenBSD and Solaris.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://wayreth.eu.org/old_page/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cisco5crack</td>
+                                <td class="tbl-version vcat">2.c4b228c</td>
+                                <td class="tbl-description dcat" itemprop="description">Crypt and decrypt the cisco enable 5 passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/madrisan/cisco7crack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cisco7crack</td>
+                                <td class="tbl-version vcat">2.f1c21dd</td>
+                                <td class="tbl-description dcat" itemprop="description">Crypt and decrypt the cisco enable 7 passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/madrisan/cisco7crack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cmospwd</td>
+                                <td class="tbl-version vcat">5.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Decrypts password stored in CMOS used to access BIOS setup.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cgsecurity.org/wiki/CmosPwd" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">crackhor</td>
+                                <td class="tbl-version vcat">2.ae7d83f</td>
+                                <td class="tbl-description dcat" itemprop="description">A Password cracking utility.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/CoalfireLabs/crackHOR" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">crackle</td>
+                                <td class="tbl-version vcat">100.ff47a48</td>
+                                <td class="tbl-description dcat" itemprop="description">Crack and decrypt BLE encryption</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/mikeryan/crackle/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">crackq</td>
+                                <td class="tbl-version vcat">48.89b7318</td>
+                                <td class="tbl-description dcat" itemprop="description">Hashcrack.org GPU-accelerated password cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/vnik5287/Crackq" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">crackserver</td>
+                                <td class="tbl-version vcat">33.e5763ab</td>
+                                <td class="tbl-description dcat" itemprop="description">An XMLRPC server for password cracking.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/averagesecurityguy/crack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">creddump</td>
+                                <td class="tbl-version vcat">0.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A python tool to extract various credentials and secrets from Windows registry hives.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/creddump/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">crowbar</td>
+                                <td class="tbl-version vcat">79.a338de6</td>
+                                <td class="tbl-description dcat" itemprop="description">A brute forcing tool that can be used during penetration tests. It is developed to support protocols that are not currently supported by thc-hydra and other popular brute forcing tools.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/galkan/crowbar" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cryptohazemultiforcer</td>
+                                <td class="tbl-version vcat">1.31a</td>
+                                <td class="tbl-description dcat" itemprop="description">High performance multihash brute forcer with CUDA support.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cryptohaze.com/multiforcer.php" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cudahashcat</td>
+                                <td class="tbl-version vcat">2.01</td>
+                                <td class="tbl-description dcat" itemprop="description">Worlds fastest WPA cracker with dictionary mutation engine.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hashcat.net/oclhashcat/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cupp</td>
+                                <td class="tbl-version vcat">20.07f9b83</td>
+                                <td class="tbl-description dcat" itemprop="description">Common User Password Profiler</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.remote-exploit.org/?page_id=418" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dbpwaudit</td>
+                                <td class="tbl-version vcat">0.8</td>
+                                <td class="tbl-description dcat" itemprop="description">A Java tool that allows you to perform online audits of password quality for several database engines.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cqure.net/wp/dbpwaudit/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">depant</td>
+                                <td class="tbl-version vcat">0.3a</td>
+                                <td class="tbl-description dcat" itemprop="description">Check network for services with default passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://midnightresearch.com/projects/depant/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">device-pharmer</td>
+                                <td class="tbl-version vcat">37.e0e6281</td>
+                                <td class="tbl-description dcat" itemprop="description">Opens 1K+ IPs or Shodan search results and attempts to login.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/DanMcInerney/device-pharmer" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">doozer</td>
+                                <td class="tbl-version vcat">9.5cfc8f8</td>
+                                <td class="tbl-description dcat" itemprop="description">A Password cracking utility.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/CoalfireLabs/crackHOR" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dpeparser</td>
+                                <td class="tbl-version vcat">beta002</td>
+                                <td class="tbl-description dcat" itemprop="description">Default password enumeration project</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.toolswatch.org/dpe/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">eapmd5pass</td>
+                                <td class="tbl-version vcat">1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">An implementation of an offline dictionary attack against the EAP-MD5 protocol</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.willhackforsushi.com/?page_id=67" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">enabler</td>
+                                <td class="tbl-version vcat">1</td>
+                                <td class="tbl-description dcat" itemprop="description">Attempts to find the enable password on a cisco system via brute force.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.org/cisco/enabler.c" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">evilize</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool to create MD5 colliding binaries.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.mathstat.dal.ca/~selinger/md5collision/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">evilmaid</td>
+                                <td class="tbl-version vcat">1.01</td>
+                                <td class="tbl-description dcat" itemprop="description">TrueCrypt loader backdoor to sniff volume password</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://theinvisiblethings.blogspot.com" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">f-scrack</td>
+                                <td class="tbl-version vcat">19.9a00357</td>
+                                <td class="tbl-description dcat" itemprop="description">A single file bruteforcer supports multi-protocol.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ysrc/F-Scrack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">facebrute</td>
+                                <td class="tbl-version vcat">7.ece355b</td>
+                                <td class="tbl-description dcat" itemprop="description">This script tries to guess passwords for a given facebook account using a list of passwords (dictionary).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/emerinohdz/FaceBrute" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fang</td>
+                                <td class="tbl-version vcat">22.4f94552</td>
+                                <td class="tbl-description dcat" itemprop="description">A multi service threaded MD5 cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/evilsocket/fang" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fcrackzip</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Zip file password cracker</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://oldhome.schmorp.de/marc/fcrackzip.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fern-wifi-cracker</td>
+                                <td class="tbl-version vcat">222</td>
+                                <td class="tbl-description dcat" itemprop="description">WEP, WPA wifi cracker for wireless penetration testing</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/fern-wifi-cracker/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ftp-scanner</td>
+                                <td class="tbl-version vcat">0.2.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Multithreaded ftp scanner/brute forcer. Tested on Linux, OpenBSD and Solaris.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://wayreth.eu.org/old_page/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hashcat</td>
+                                <td class="tbl-version vcat">4.1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Multithreaded advanced password recovery utility</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://hashcat.net/hashcat" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hasher</td>
+                                <td class="tbl-version vcat">48.40173c5</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ChrisTruncer/Hasher" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hashtag</td>
+                                <td class="tbl-version vcat">0.41</td>
+                                <td class="tbl-description dcat" itemprop="description">A python script written to parse and identify password hashes.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/SmeegeSec/HashTag" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hostbox-ssh</td>
+                                <td class="tbl-version vcat">0.1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A ssh password/account scanner.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://stridsmanit.wordpress.com/2012/12/02/brute-forcing-passwords-with-hostbox-ssh-1-1/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">htpwdscan</td>
+                                <td class="tbl-version vcat">16.99697fc</td>
+                                <td class="tbl-description dcat" itemprop="description">A python HTTP weak pass scanner.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/lijiejie/htpwdScan" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hydra</td>
+                                <td class="tbl-version vcat">8.6</td>
+                                <td class="tbl-description dcat" itemprop="description">Very fast network logon cracker which support many different services</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.thc.org/thc-hydra/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ibrute</td>
+                                <td class="tbl-version vcat">12.3a6a11e</td>
+                                <td class="tbl-description dcat" itemprop="description">An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/hackappcom/ibrute/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">icloudbrutter</td>
+                                <td class="tbl-version vcat">15.1f64f19</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool for AppleID Bruteforce.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/m4ll0k/iCloudBrutter" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">iheartxor</td>
+                                <td class="tbl-version vcat">0.01</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for bruteforcing encoded strings within a boundary defined by a regular expression. It will bruteforce the key value range of 0x1 through 0x255.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hooked-on-mnemonics.blogspot.com.es/p/iheartxor.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">iisbruteforcer</td>
+                                <td class="tbl-version vcat">15</td>
+                                <td class="tbl-description dcat" itemprop="description">HTTP authentication cracker. It's a tool that launchs an online dictionary attack to test for weak or simple passwords against protected areas on an IIS Web server.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.open-labs.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ikecrack</td>
+                                <td class="tbl-version vcat">1.00</td>
+                                <td class="tbl-description dcat" itemprop="description">An IKE/IPSec crack tool designed to perform Pre-Shared-Key analysis of RFC compliant aggressive mode authentication</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/ikecrack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">inguma</td>
+                                <td class="tbl-version vcat">0.1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A free penetration testing and vulnerability discovery toolkit entirely written in python. Framework includes modules to discover hosts, gather information about, fuzz targets, brute force usernames and passwords, exploits, and a disassembler.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://inguma.sourceforge.net" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ipmipwn</td>
+                                <td class="tbl-version vcat">6.74a08a8</td>
+                                <td class="tbl-description dcat" itemprop="description">IPMI cipher 0 attack tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/AnarchyAngel/IPMIPWN" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">jbrute</td>
+                                <td class="tbl-version vcat">0.99</td>
+                                <td class="tbl-description dcat" itemprop="description">Open Source Security tool to audit hashed passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/jbrute/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">jeangrey</td>
+                                <td class="tbl-version vcat">21.e67c6b1</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to perform differential fault analysis attacks (DFA).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/SideChannelMarvels/JeanGrey" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">john</td>
+                                <td class="tbl-version vcat">1.8.0.jumbo1</td>
+                                <td class="tbl-description dcat" itemprop="description">John the Ripper password cracker</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.openwall.com/john" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">johnny</td>
+                                <td class="tbl-version vcat">20120424</td>
+                                <td class="tbl-description dcat" itemprop="description">GUI for John the Ripper.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://openwall.info/wiki/john/johnny" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">jwt-cracker</td>
+                                <td class="tbl-version vcat">17.906d670</td>
+                                <td class="tbl-description dcat" itemprop="description">JWT brute force cracker written in C.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/brendan-rius/c-jwt-cracker" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">keimpx</td>
+                                <td class="tbl-version vcat">166.a10a0c7</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool to verify the usefulness of credentials across a network over SMB.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/keimpx/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">khc</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/87003/Known-Host-Cracker.2.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ldap-brute</td>
+                                <td class="tbl-version vcat">21.acc06e3</td>
+                                <td class="tbl-description dcat" itemprop="description">A semi fast tool to bruteforce values of LDAP injections over HTTP.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/droope/ldap-brute" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">levye</td>
+                                <td class="tbl-version vcat">84.5406303</td>
+                                <td class="tbl-description dcat" itemprop="description">A brute force tool which is support sshkey, vnckey, rdp, openvpn.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/galkan/levye" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">lodowep</td>
+                                <td class="tbl-version vcat">1.2.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Lodowep is a tool for analyzing password strength of accounts on a Lotus Domino webserver system.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cqure.net/wp/lodowep/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mdcrack</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">MD4/MD5/NTLM1 hash cracker</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://c3rb3r.openwall.net/mdcrack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">medusa</td>
+                                <td class="tbl-version vcat">2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Speedy, massively parallel and modular login brute-forcer for network</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.foofus.net/jmk/medusa/medusa.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mfoc</td>
+                                <td class="tbl-version vcat">0.10.7</td>
+                                <td class="tbl-description dcat" itemprop="description">Mifare Classic Offline Cracker</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/mfoc/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mkbrutus</td>
+                                <td class="tbl-version vcat">1.0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Password bruteforcer for MikroTik devices or boxes running RouterOS.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://mkbrutusproject.github.io/MKBRUTUS/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morxbook</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morxploit.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morxbrute</td>
+                                <td class="tbl-version vcat">1.01</td>
+                                <td class="tbl-description dcat" itemprop="description">A customizable HTTP dictionary-based password cracking tool written in Perl</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morxploit.com/morxbrute/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morxbtcrack</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Single Bitcoin private key cracking tool released.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morxploit.com/tools/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morxcoinpwn</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Mass Bitcoin private keys brute forcing/Take over tool released.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morxploit.com/tools/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morxcrack</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A cracking tool written in Perl to perform a dictionary-based attack on various hashing algorithm and CMS salted-passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morxploit.com/morxcrack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mybff</td>
+                                <td class="tbl-version vcat">94.6547c51</td>
+                                <td class="tbl-description dcat" itemprop="description">A Brute Force Framework.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/MooseDojo/myBFF" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ncrack</td>
+                                <td class="tbl-version vcat">0.6.0</td>
+                                <td class="tbl-description dcat" itemprop="description">High-speed network authentication cracking tool</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://nmap.org/ncrack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">obevilion</td>
+                                <td class="tbl-version vcat">408.021c9f2</td>
+                                <td class="tbl-description dcat" itemprop="description">Another archive cracker created in python </td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href=" cracking [zip/7z/rar].|https://github.com/BL4CKvGHOST/Ob3vil1on" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">oclhashcat</td>
+                                <td class="tbl-version vcat">2.01</td>
+                                <td class="tbl-description dcat" itemprop="description">Worlds fastest WPA cracker with dictionary mutation engine.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hashcat.net/oclhashcat/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">omen</td>
+                                <td class="tbl-version vcat">15.78ce868</td>
+                                <td class="tbl-description dcat" itemprop="description">Ordered Markov ENumerator - Password Guesser.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/RUB-SysSec/OMEN" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">onesixtyone</td>
+                                <td class="tbl-version vcat">0.7</td>
+                                <td class="tbl-description dcat" itemprop="description">An SNMP scanner that sends multiple SNMP requests to multiple IP addresses</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://labs.portcullis.co.uk/application/onesixtyone/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ophcrack</td>
+                                <td class="tbl-version vcat">3.7.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Windows password cracker based on rainbow tables</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ophcrack.sourceforge.net" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">outlook-webapp-brute</td>
+                                <td class="tbl-version vcat">1.61d7177</td>
+                                <td class="tbl-description dcat" itemprop="description">Microsoft Outlook WebAPP Brute.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/lijiejie/OutLook_WebAPP_Brute" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">owabf</td>
+                                <td class="tbl-version vcat">1.3</td>
+                                <td class="tbl-description dcat" itemprop="description">Outlook Web Access bruteforcer tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://netsec.rs/70/tools.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pack</td>
+                                <td class="tbl-version vcat">0.0.4</td>
+                                <td class="tbl-description dcat" itemprop="description">Password Analysis and Cracking Kit</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://thesprawl.org/projects/pack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">passcracking</td>
+                                <td class="tbl-version vcat">20131214</td>
+                                <td class="tbl-description dcat" itemprop="description">A little python script for sending hashes to passcracking.com and milw0rm</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://github.com/jensp/passcracking" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">passe-partout</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool to extract RSA and DSA private keys from any process linked with OpenSSL. The target memory is scanned to lookup specific OpenSSL patterns.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hsc.fr/ressources/outils/passe-partout/index.html.en" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">patator</td>
+                                <td class="tbl-version vcat">150.7fd56f0</td>
+                                <td class="tbl-description dcat" itemprop="description">A multi-purpose bruteforcer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/lanjelot/patator" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pdfcrack</td>
+                                <td class="tbl-version vcat">0.16</td>
+                                <td class="tbl-description dcat" itemprop="description">Password recovery tool for PDF-files</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://pdfcrack.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pdgmail</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A password dictionary attack tool that targets windows authentication via the SMB protocol.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.jeffbryner.com/code/pdgmail" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pemcrack</td>
+                                <td class="tbl-version vcat">11.a0fecd7</td>
+                                <td class="tbl-description dcat" itemprop="description">Cracks SSL PEM files that hold encrypted private keys. Brute forces or dictionary cracks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/robertdavidgraham/pemcrack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pemcracker</td>
+                                <td class="tbl-version vcat">9.a741c93</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool to crack encrypted PEM files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bwall/pemcracker.git" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">phoss</td>
+                                <td class="tbl-version vcat">0.1.13</td>
+                                <td class="tbl-description dcat" itemprop="description">Sniffer designed to find HTTP, FTP, LDAP, Telnet, IMAP4, VNC and POP3 logins.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.phenoelit.org/fr/tools.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">php-mt-seed</td>
+                                <td class="tbl-version vcat">3.2</td>
+                                <td class="tbl-description dcat" itemprop="description">PHP mt_rand() seed cracker</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.openwall.com/php_mt_seed/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">php-rfi-payload-decoder</td>
+                                <td class="tbl-version vcat">30.bd42caa</td>
+                                <td class="tbl-description dcat" itemprop="description">Decode and analyze RFI payloads developed in PHP.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bwall/PHP-RFI-Payload-Decoder" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">phrasendrescher</td>
+                                <td class="tbl-version vcat">1.2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A modular and multi processing pass phrase cracking tool</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.leidecker.info/projects/phrasendrescher/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pipal</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A password analyser.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.digininja.org/projects/pipal.php" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pipeline</td>
+                                <td class="tbl-version vcat">18.d90fc65</td>
+                                <td class="tbl-description dcat" itemprop="description">Designed to aid in targeted brute force password cracking attacks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/hirnschallsebastian/Pipeline2" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pkcrack</td>
+                                <td class="tbl-version vcat">1.2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A PkZip encryption cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/download1.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pybozocrack</td>
+                                <td class="tbl-version vcat">75.9900883</td>
+                                <td class="tbl-description dcat" itemprop="description">A silly & effective MD5 cracker in Python.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ikkebr/PyBozoCrack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pyrit</td>
+                                <td class="tbl-version vcat">0.5.0</td>
+                                <td class="tbl-description dcat" itemprop="description">The famous WPA precomputed cracker</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/JPaulMora/Pyrit" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rainbowcrack</td>
+                                <td class="tbl-version vcat">1.6</td>
+                                <td class="tbl-description dcat" itemprop="description">Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://project-rainbowcrack.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rarcrack</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">This program uses bruteforce algorithm to find correct password (rar, 7z, zip).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://rarcrack.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rcracki-mt</td>
+                                <td class="tbl-version vcat">0.7.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to perform rainbow table attacks on password hashes. It is intended for indexed/perfected rainbow tables, mainly generated by the distributed project www.freerainbowtables.com</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://rcracki.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rdesktop-brute</td>
+                                <td class="tbl-version vcat">1.5.0</td>
+                                <td class="tbl-description dcat" itemprop="description">It connects to windows terminal servers - Bruteforce patch included.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.rdesktop.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ridenum</td>
+                                <td class="tbl-version vcat">68.490855c</td>
+                                <td class="tbl-description dcat" itemprop="description">A null session RID cycle attack for brute forcing domain controllers.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/trustedsec/ridenum" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rlogin-scanner</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Multithreaded rlogin scanner. Tested on Linux, OpenBSD and Solaris.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://wayreth.eu.org/old_page/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rootbrute</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Local root account bruteforcer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.packetstormsecurity.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rpdscan</td>
+                                <td class="tbl-version vcat">2.a71b0f3</td>
+                                <td class="tbl-description dcat" itemprop="description">Remmina Password Decoder and scanner.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/freakyclown/RPDscan" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rsakeyfind</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to find RSA key in RAM.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://citp.princeton.edu/memory/code/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">samdump2</td>
+                                <td class="tbl-version vcat">3.0.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Dump password hashes from a Windows NT/2k/XP installation</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/ophcrack/files/samdump2/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">samydeluxe</td>
+                                <td class="tbl-version vcat">2.2ed1bac</td>
+                                <td class="tbl-description dcat" itemprop="description">Automatic samdump creation script.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://github.com/jensp/samydeluxe" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sidguesser</td>
+                                <td class="tbl-version vcat">1.0.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Guesses sids/instances against an Oracle database according to a predefined dictionary file.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cqure.net/wp/tools/database/sidguesser/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sipcrack</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A SIP protocol login cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.remote-exploit.org/codes_sipcrack.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">skul</td>
+                                <td class="tbl-version vcat">14.e2c33ef</td>
+                                <td class="tbl-description dcat" itemprop="description">A PoC to bruteforce the Cryptsetup implementation of Linux Unified Key Setup (LUKS).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/cryptcoffee/skul" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">smbbf</td>
+                                <td class="tbl-version vcat">0.9.1</td>
+                                <td class="tbl-description dcat" itemprop="description">SMB password bruteforcer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/25381/smbbf.9.1.tar.gz.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">snmp-brute</td>
+                                <td class="tbl-version vcat">15.64ec0ce</td>
+                                <td class="tbl-description dcat" itemprop="description">SNMP brute force, enumeration, CISCO config downloader and password cracking script.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/SECFORCE/SNMP-Brute" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">speedpwn</td>
+                                <td class="tbl-version vcat">8.3dd2793</td>
+                                <td class="tbl-description dcat" itemprop="description">An active WPA/2 Bruteforcer, original created to prove weak standard key generation in different ISP labeled routers without a client is connected.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://gitorious.org/speedpwn/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sqlpat</td>
+                                <td class="tbl-version vcat">1.0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">This tool should be used to audit the strength of Microsoft SQL Server passwords offline.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cqure.net/wp/sqlpat/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ssh-privkey-crack</td>
+                                <td class="tbl-version vcat">0.4</td>
+                                <td class="tbl-description dcat" itemprop="description">A SSH private key cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/lusas/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sshatter</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Password bruteforcer for SSH.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nth-dimension.org.uk/downloads.php?id=34" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sshscan</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/getdual/scripts-n-tools/blob/master/sshscan.py" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sshtrix</td>
+                                <td class="tbl-version vcat">0.0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A very fast multithreaded SSH login cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nullsecurity.net/tools/cracker.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sslnuke</td>
+                                <td class="tbl-version vcat">5.c5faeaa</td>
+                                <td class="tbl-description dcat" itemprop="description">Transparent proxy that decrypts SSL traffic and prints out IRC messages.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/jtripper/sslnuke" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sucrack</td>
+                                <td class="tbl-version vcat">1.2.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A multi-threaded Linux/UNIX tool for brute-force cracking local user accounts via su</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://labs.portcullis.co.uk/application/sucrack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tckfc</td>
+                                <td class="tbl-version vcat">23.911e92e</td>
+                                <td class="tbl-description dcat" itemprop="description">TrueCrypt key file cracker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Octosec/tckfc" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tftp-bruteforce</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">TFTP-bruteforcer is a fast TFTP filename bruteforcer written in perl.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hackingexposedcisco.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">thc-keyfinder</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Finds crypto keys, encrypted data and compressed data in files by analyzing the entropy of parts of the file.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.thc.org/releases.php" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">thc-pptp-bruter</td>
+                                <td class="tbl-version vcat">0.1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">A brute force program that works against pptp vpn endpoints (tcp port 1723).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.thc.org" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">thc-smartbrute</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">This tool finds undocumented and secret commands implemented in a smartcard.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.thc.org/thc-smartbrute/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">truecrack</td>
+                                <td class="tbl-version vcat">35</td>
+                                <td class="tbl-description dcat" itemprop="description">Password cracking for truecrypt(c) volumes.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://code.google.com/p/truecrack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ufo-wardriving</td>
+                                <td class="tbl-version vcat">4</td>
+                                <td class="tbl-description dcat" itemprop="description">Allows you to test the security of wireless networks by detecting their passwords based on the router model.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.ufo-wardriving.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">vnc-bypauth</td>
+                                <td class="tbl-version vcat">0.0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Multi-threaded bypass authentication scanner for VNC smaller than v4.1.1 servers.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://pentester.fr/resources/tools/techno/VNC/VNC_bypauth/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">vncrack</td>
+                                <td class="tbl-version vcat">1.21</td>
+                                <td class="tbl-description dcat" itemprop="description">What it looks like: crack VNC.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://phenoelit-us.org/vncrack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wmat</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Automatic tool for testing webmail accounts.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://netsec.rs/70/tools.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wordbrutepress</td>
+                                <td class="tbl-version vcat">30.5165648</td>
+                                <td class="tbl-description dcat" itemprop="description">Python script that performs brute forcing against WordPress installs using a wordlist.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wpbf</td>
+                                <td class="tbl-version vcat">7.11b6ac1</td>
+                                <td class="tbl-description dcat" itemprop="description">Multithreaded WordPress brute forcer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/dejanlevaja/wpbf" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wpbrute-rpc</td>
+                                <td class="tbl-version vcat">3.e7d8145</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool for amplified bruteforce attacks on wordpress based website via xmlrcp API.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/zendoctor/wpbrute-rpc" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wyd</td>
+                                <td class="tbl-version vcat">0.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Gets keywords from personal files. IT security/forensic tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.remote-exploit.org/?page_id=418" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">zulu</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A light weight 802.11 wireless frame generation tool to enable fast and easy debugging and probing of 802.11 networks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/zulu-wireless/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2018</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

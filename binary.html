@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Binary tools</title>
+    <meta name="description" content="List of all binary tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1900 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Binary</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">Binary</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+				Packages that operate on binary  les in some form.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">44</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch binary</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">androguard</td>
+                                <td class="tbl-version vcat">1468.602cf01a</td>
+                                <td class="tbl-description dcat" itemprop="description">Reverse engineering, Malware and goodware analysis of Android applications and more.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/androguard/androguard" target="_blank">https://github.com/androguard/androguard</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">angr</td>
+                                <td class="tbl-version vcat">7.8.2.21</td>
+                                <td class="tbl-description dcat" itemprop="description">The next-generation binary analysis platform from UC Santa Barbara's Seclab.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/angr/angr" target="_blank">https://github.com/angr/angr</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">barf</td>
+                                <td class="tbl-version vcat">815.5a42b65</td>
+                                <td class="tbl-description dcat" itemprop="description">A multiplatform open source Binary Analysis and Reverse engineering Framework.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/programa-stic/barf-project" target="_blank">https://github.com/programa-stic/barf-project</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">binaryninja-python</td>
+                                <td class="tbl-version vcat">13.83f59f7</td>
+                                <td class="tbl-description dcat" itemprop="description">Binary Ninja prototype written in Python.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Vector35/binaryninja-python" target="_blank">https://github.com/Vector35/binaryninja-python</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bindead</td>
+                                <td class="tbl-version vcat">4504.67019b97b</td>
+                                <td class="tbl-description dcat" itemprop="description">A static analysis tool for binaries</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://bitbucket.org/mihaila/bindead" target="_blank">https://bitbucket.org/mihaila/bindead</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bindiff</td>
+                                <td class="tbl-version vcat">4.2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.zynamics.com/bindiff.html" target="_blank">http://www.zynamics.com/bindiff.html</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">binflow</td>
+                                <td class="tbl-version vcat">4.c4140d7</td>
+                                <td class="tbl-description dcat" itemprop="description">POSIX function tracing. Much better and faster than ftrace.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/elfmaster/binflow" target="_blank">https://github.com/elfmaster/binflow</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">binwally</td>
+                                <td class="tbl-version vcat">4.0aabd8b</td>
+                                <td class="tbl-description dcat" itemprop="description">Binary and Directory tree comparison tool using the Fuzzy Hashing concept (ssdeep).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bmaia/binwally" target="_blank">https://github.com/bmaia/binwally</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bvi</td>
+                                <td class="tbl-version vcat">1.4.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A display-oriented editor for binary files operate like "vi" editor.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://bvi.sourceforge.net/" target="_blank">http://bvi.sourceforge.net/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">bytecode-viewer</td>
+                                <td class="tbl-version vcat">226.d6603da</td>
+                                <td class="tbl-description dcat" itemprop="description">A Java 8/Android APK Reverse Engineering Suite.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Konloch/bytecode-viewer" target="_blank">https://github.com/Konloch/bytecode-viewer</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cminer</td>
+                                <td class="tbl-version vcat">25.d766f7e</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for enumerating the code caves in PE files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/EgeBalci/Cminer/" target="_blank">https://github.com/EgeBalci/Cminer/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">detect-it-easy</td>
+                                <td class="tbl-version vcat">50.6ae37ad</td>
+                                <td class="tbl-description dcat" itemprop="description">A program for determining types of files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/horsicq/Detect-It-Easy" target="_blank">https://github.com/horsicq/Detect-It-Easy</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dissector</td>
+                                <td class="tbl-version vcat">1</td>
+                                <td class="tbl-description dcat" itemprop="description">This code dissects the internal data structures in ELF files. It supports x86 and x86_64 archs and runs under Linux.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/125972/Coloured-ELF-File-Dissector.html" target="_blank">http://packetstormsecurity.com/files/125972/Coloured-ELF-File-Dissector.html</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dutas</td>
+                                <td class="tbl-version vcat">10.37fa3ab</td>
+                                <td class="tbl-description dcat" itemprop="description">Analysis PE file or Shellcode.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/dungtv543/Dutas" target="_blank">https://github.com/dungtv543/Dutas</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ecfs</td>
+                                <td class="tbl-version vcat">297.e36abdf</td>
+                                <td class="tbl-description dcat" itemprop="description">Extended core file snapshot format.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/elfmaster/ecfs" target="_blank">https://github.com/elfmaster/ecfs</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">elfkickers</td>
+                                <td class="tbl-version vcat">3.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Collection of ELF utilities (includes sstrip)</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.muppetlabs.com/~breadbox/software/elfkickers.html" target="_blank">http://www.muppetlabs.com/~breadbox/software/elfkickers.html</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">elfparser</td>
+                                <td class="tbl-version vcat">7.39d21ca</td>
+                                <td class="tbl-description dcat" itemprop="description">Cross Platform ELF analysis.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/jacob-baines/elfparser" target="_blank">https://github.com/jacob-baines/elfparser</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">eresi</td>
+                                <td class="tbl-version vcat">1267.d0facbfd</td>
+                                <td class="tbl-description dcat" itemprop="description">The ERESI Reverse Engineering Software Interface.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/thorkill/eresi" target="_blank">https://github.com/thorkill/eresi</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">exescan</td>
+                                <td class="tbl-version vcat">1.ad993e3</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to detect anomalies in PE (Portable Executable) files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/cysinfo/Exescan" target="_blank">https://github.com/cysinfo/Exescan</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">expimp-lookup</td>
+                                <td class="tbl-version vcat">4.79a96c7</td>
+                                <td class="tbl-description dcat" itemprop="description">Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/tr3w/ExpImp-Lookup" target="_blank">https://github.com/tr3w/ExpImp-Lookup</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">haystack</td>
+                                <td class="tbl-version vcat">1823.c178b5a</td>
+                                <td class="tbl-description dcat" itemprop="description">A Python framework for finding C structures from process memory - heap analysis - Memory structures forensics.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/trolldbois/python-haystack" target="_blank">https://github.com/trolldbois/python-haystack</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hercules-payload</td>
+                                <td class="tbl-version vcat">220.958541e</td>
+                                <td class="tbl-description dcat" itemprop="description">A special payload generator that can bypass all antivirus software.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/EgeBalci/HERCULES" target="_blank">https://github.com/EgeBalci/HERCULES</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hex2bin</td>
+                                <td class="tbl-version vcat">2.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Converts Motorola and Intel hex files to binary.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hex2bin.sourceforge.net/" target="_blank">http://hex2bin.sourceforge.net/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">imagejs</td>
+                                <td class="tbl-version vcat">54.1b0b3aa</td>
+                                <td class="tbl-description dcat" itemprop="description">Small tool to package javascript into a valid image file.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/jklmnn/imagejs" target="_blank">https://github.com/jklmnn/imagejs</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">loadlibrary</td>
+                                <td class="tbl-version vcat">35.45296de</td>
+                                <td class="tbl-description dcat" itemprop="description">Porting Windows Dynamic Link Libraries to Linux.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/taviso/loadlibrary" target="_blank">https://github.com/taviso/loadlibrary</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">metame</td>
+                                <td class="tbl-version vcat">2.82cfd20</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple metamorphic code engine for arbitrary executables.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/a0rtega/metame" target="_blank">https://github.com/a0rtega/metame</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">objdump2shellcode</td>
+                                <td class="tbl-version vcat">28.c2d6120</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool I have found incredibly useful whenever creating custom shellcode.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/wetw0rk/objdump2shellcode" target="_blank">https://github.com/wetw0rk/objdump2shellcode</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">oledump</td>
+                                <td class="tbl-version vcat">0.0.29</td>
+                                <td class="tbl-description dcat" itemprop="description">Analyze OLE files (Compound File Binary Format). These files contain streams of data. This tool allows you to analyze these streams.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://blog.didierstevens.com/programs/oledump-py/" target="_blank">http://blog.didierstevens.com/programs/oledump-py/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">oletools</td>
+                                <td class="tbl-version vcat">0.51</td>
+                                <td class="tbl-description dcat" itemprop="description">Tools to analyze Microsoft OLE2 files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.decalage.info/python/oletools" target="_blank">http://www.decalage.info/python/oletools</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">packer-io</td>
+                                <td class="tbl-version vcat">1.2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">tool for creating identical machine images for multiple platforms from a single source configuration</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/hashicorp/packer" target="_blank">https://github.com/hashicorp/packer</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">packerid</td>
+                                <td class="tbl-version vcat">1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">Script which uses a PEiD database to identify which packer (if any) is being used by a binary.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://handlers.sans.org/jclausing/" target="_blank">http://handlers.sans.org/jclausing/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">patchkit</td>
+                                <td class="tbl-version vcat">36.5fe79b7</td>
+                                <td class="tbl-description dcat" itemprop="description">Powerful binary patching from Python.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/lunixbochs/patchkit" target="_blank">https://github.com/lunixbochs/patchkit</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pixd</td>
+                                <td class="tbl-version vcat">7.873db72</td>
+                                <td class="tbl-description dcat" itemprop="description">Colourful visualization tool for binary files.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/FireyFly/pixd" target="_blank">https://github.com/FireyFly/pixd</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">powerstager</td>
+                                <td class="tbl-version vcat">12.b0201c8</td>
+                                <td class="tbl-description dcat" itemprop="description">A payload stager using PowerShell.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/z0noxz/powerstager" target="_blank">https://github.com/z0noxz/powerstager</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">proctal</td>
+                                <td class="tbl-version vcat">472.e00ec27</td>
+                                <td class="tbl-description dcat" itemprop="description">Provides a command line interface and a C library to manipulate the address space of a running program on Linux.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/daniel-araujo/proctal" target="_blank">https://github.com/daniel-araujo/proctal</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">saruman</td>
+                                <td class="tbl-version vcat">2.4be8db5</td>
+                                <td class="tbl-description dcat" itemprop="description">ELF anti-forensics exec, for injecting full dynamic executables into process image (With thread injection).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/elfmaster/saruman" target="_blank">https://github.com/elfmaster/saruman</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">soot</td>
+                                <td class="tbl-version vcat">2.5.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A Java Bytecode Analysis and Transformation Framework.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.sable.mcgill.ca/soot" target="_blank">http://www.sable.mcgill.ca/soot</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">swftools</td>
+                                <td class="tbl-version vcat">0.9.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of SWF manipulation and creation utilities</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.swftools.org/" target="_blank">http://www.swftools.org/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">triton</td>
+                                <td class="tbl-version vcat">1904.5d876f6f</td>
+                                <td class="tbl-description dcat" itemprop="description">A Dynamic Binary Analysis (DBA) framework.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/JonathanSalwan/Triton" target="_blank">https://github.com/JonathanSalwan/Triton</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">upx</td>
+                                <td class="tbl-version vcat">3.94</td>
+                                <td class="tbl-description dcat" itemprop="description">Ultimate executable compressor.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://upx.sourceforge.net/" target="_blank">http://upx.sourceforge.net/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">valgrind</td>
+                                <td class="tbl-version vcat">3.13.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool to help find memory-management problems in programs</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://valgrind.org/" target="_blank">http://valgrind.org/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">veles</td>
+                                <td class="tbl-version vcat">2017.5.0</td>
+                                <td class="tbl-description dcat" itemprop="description">New open source tool for binary data analysis.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://codisec.com/veles/" target="_blank">https://codisec.com/veles/</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wcc</td>
+                                <td class="tbl-version vcat">46.391ae30</td>
+                                <td class="tbl-description dcat" itemprop="description">The Witchcraft Compiler Collection.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/endrazine/wcc" target="_blank">https://github.com/endrazine/wcc</a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wxhexeditor</td>
+                                <td class="tbl-version vcat">656.0318b11</td>
+                                <td class="tbl-description dcat" itemprop="description">A free hex editor / disk editor for Linux, Windows and MacOSX.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://wxhexeditor.sourceforge.net/" target="_blank">http://wxhexeditor.sourceforge.net/</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2018</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

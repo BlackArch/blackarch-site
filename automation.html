@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Automation tools</title>
+    <meta name="description" content="List of all automation tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1900 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Automation</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">automation</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+				Packages that are used for tool or work ow automation.</p>
+                <br />
+                <p>
+                    <b>Tool count:</b> <a href="">62</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch automation</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">apt2</td>
+                                <td class="tbl-version vcat">173.0941e4d</td>
+                                <td class="tbl-description dcat" itemprop="description">Automated penetration toolkit.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/MooseDojo/apt2" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">automato</td>
+                                <td class="tbl-version vcat">26.0aa769d</td>
+                                <td class="tbl-description dcat" itemprop="description">Should help with automating some of the user-focused enumeration tasks during an internal penetration test.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/skahwah/automato" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">autonessus</td>
+                                <td class="tbl-version vcat">24.7933022</td>
+                                <td class="tbl-description dcat" itemprop="description">This script communicates with the Nessus API in an attempt to help with automating scans.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/redteamsecurity/AutoNessus" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">autopwn</td>
+                                <td class="tbl-version vcat">177.2f3f605</td>
+                                <td class="tbl-description dcat" itemprop="description">Specify targets and run sets of tools against them.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/autopwn" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">autovpn</td>
+                                <td class="tbl-version vcat">16.72dd7f6</td>
+                                <td class="tbl-description dcat" itemprop="description">Easily connect to a VPN in a country of your choice.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/adtac/autovpn" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">awsbucketdump</td>
+                                <td class="tbl-version vcat">74.73365f9</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool to quickly enumerate AWS S3 buckets to look for loot.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/jordanpotti/AWSBucketDump" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">blueranger</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple Bash script which uses Link Quality to locate Bluetooth device radios.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hackfromacave.com/projects/blueranger.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">brutespray</td>
+                                <td class="tbl-version vcat">109.2aa75c3</td>
+                                <td class="tbl-description dcat" itemprop="description">Brute-Forcing from Nmap output - Automatically attempts default creds on found services.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/x90skysn3k/brutespray" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">brutex</td>
+                                <td class="tbl-version vcat">43.6c199b1</td>
+                                <td class="tbl-description dcat" itemprop="description">Automatically brute force all services running on a target.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/1N3/BruteX" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cewl</td>
+                                <td class="tbl-version vcat">5.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A custom word list generator</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.digininja.org/projects/cewl.php" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">checksec</td>
+                                <td class="tbl-version vcat">1.8.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool designed to test which standard Linux OS and PaX security features are being used</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/slimm609/checksec.sh" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cisco-snmp-enumeration</td>
+                                <td class="tbl-version vcat">10.ad06f57</td>
+                                <td class="tbl-description dcat" itemprop="description">Automated Cisco SNMP Enumeration, Brute Force, Configuration Download and Password Cracking.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/cisco-snmp-enumeration" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">clusterd</td>
+                                <td class="tbl-version vcat">143.d190b2c</td>
+                                <td class="tbl-description dcat" itemprop="description">Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/hatRiot/clusterd" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">crunch</td>
+                                <td class="tbl-version vcat">3.6</td>
+                                <td class="tbl-description dcat" itemprop="description">A wordlist generator for all combinations/permutations of a given character set.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/crunch-wordlist/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dracnmap</td>
+                                <td class="tbl-version vcat">69.09d3945</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool to exploit the network and gathering information with nmap help.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/screetsec/Dracnmap" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dumb0</td>
+                                <td class="tbl-version vcat">19.1493e74</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple tool to dump users in popular forums and CMS.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/0verl0ad/Dumb0" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">easy-creds</td>
+                                <td class="tbl-version vcat">3.9</td>
+                                <td class="tbl-description dcat" itemprop="description">A bash script that leverages ettercap and other tools to obtain credentials.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/brav0hax/easy-creds" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">easyda</td>
+                                <td class="tbl-version vcat">7.0867f9b</td>
+                                <td class="tbl-description dcat" itemprop="description">Easy Windows Domain Access Script.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/easyda" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">empire</td>
+                                <td class="tbl-version vcat">1483.9bc829f</td>
+                                <td class="tbl-description dcat" itemprop="description">A PowerShell and Python post-exploitation agent.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.powershellempire.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fstealer</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Automates file system mirroring through remote file disclosur vulnerabilities on Linux machines.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/106450/FStealer-Filesystem-Mirroring-Tool.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">glue</td>
+                                <td class="tbl-version vcat">242.36b899e</td>
+                                <td class="tbl-description dcat" itemprop="description">A framework for running a series of tools.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/OWASP/glue" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">google-explorer</td>
+                                <td class="tbl-version vcat">120.77ca746</td>
+                                <td class="tbl-description dcat" itemprop="description">Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/anarcoder/google_explorer" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">gooscan</td>
+                                <td class="tbl-version vcat">1.0.9</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that automates queries against Google search appliances, but with a twist.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://johnny.ihackstuff.com/downloads/task,doc_details&Itemid=/gid,28/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hackersh</td>
+                                <td class="tbl-version vcat">0.2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hackersh.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hate-crack</td>
+                                <td class="tbl-version vcat">36.d1b1417</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool for automating cracking methodologies through Hashcat.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/trustedsec/hate_crack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">intersect</td>
+                                <td class="tbl-version vcat">2.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Post-exploitation framework</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/ohdae/Intersect.5" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">linset</td>
+                                <td class="tbl-version vcat">9.8746b1f</td>
+                                <td class="tbl-description dcat" itemprop="description">Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/vk496/linset" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">maskprocessor</td>
+                                <td class="tbl-version vcat">0.73</td>
+                                <td class="tbl-description dcat" itemprop="description">A High-Performance word generator with a per-position configurable charset.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hashcat.net/wiki/doku.php?id=maskprocessor" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">masscan-automation</td>
+                                <td class="tbl-version vcat">24.2df3467</td>
+                                <td class="tbl-description dcat" itemprop="description">Masscan integrated with Shodan API.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/trevordavenport/MasscanAutomation" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">massexpconsole</td>
+                                <td class="tbl-version vcat">180.2338367</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of tools and exploits with a cli ui for mass exploitation.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/jm33-m0/massExpConsole" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mitmap-old</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.darkoperator.com/tools-and-scripts/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">morpheus</td>
+                                <td class="tbl-version vcat">45.24ad5a5</td>
+                                <td class="tbl-description dcat" itemprop="description">Automated Ettercap TCP/IP Hijacking Tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/r00txp10it/morpheus" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">msf-mpc</td>
+                                <td class="tbl-version vcat">23.eb2279a</td>
+                                <td class="tbl-description dcat" itemprop="description">Msfvenom payload creator.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/g0tmi1k/mpc" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mutator</td>
+                                <td class="tbl-version vcat">51.164132d</td>
+                                <td class="tbl-description dcat" itemprop="description">This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://bitbucket.org/alone/mutator/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nfspy</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A Python library for automating the falsification of NFS credentials when mounting an NFS share.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/bonsaiviking/NfSpy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nfsshell</td>
+                                <td class="tbl-version vcat">19980519</td>
+                                <td class="tbl-description dcat" itemprop="description">Userland NFS command tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.paramecium.org/~leendert/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nosqlattack</td>
+                                <td class="tbl-version vcat">91.4c55415</td>
+                                <td class="tbl-description dcat" itemprop="description">Python tool to automate exploit MongoDB server IP on Internet anddisclose the database data by MongoDB default configuration weaknesses and injection attacks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/youngyangyang04/NoSQLAttack" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">panoptic</td>
+                                <td class="tbl-version vcat">185.df35a6c</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnerability.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/lightos/Panoptic" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pasv-agrsv</td>
+                                <td class="tbl-version vcat">56.70822a2</td>
+                                <td class="tbl-description dcat" itemprop="description">Passive recon / OSINT automation script.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/isaudits/pasv-agrsv" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">penbox</td>
+                                <td class="tbl-version vcat">81.3b77c69</td>
+                                <td class="tbl-description dcat" itemprop="description">A Penetration Testing Framework - The Tool With All The Tools.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/x3omdax/PenBox" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pentmenu</td>
+                                <td class="tbl-version vcat">189.9c1100d</td>
+                                <td class="tbl-description dcat" itemprop="description">A bash script for recon and DOS attacks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/GinjaChris/pentmenu" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">portia</td>
+                                <td class="tbl-version vcat">38.36b974a</td>
+                                <td class="tbl-description dcat" itemprop="description">Automate a number of techniques commonly performed on internal network penetration tests after a low privileged account has been compromised.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/SpiderLabs/portia" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">python3-shodan</td>
+                                <td class="tbl-version vcat">1.7.7</td>
+                                <td class="tbl-description dcat" itemprop="description">Python library for Shodan (https://developer.shodan.io).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://github.com/achillean/shodan-python" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">regeorg</td>
+                                <td class="tbl-version vcat">29.f4db171</td>
+                                <td class="tbl-description dcat" itemprop="description">The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/sensepost/reGeorg" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rsmangler</td>
+                                <td class="tbl-version vcat">1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">rsmangler takes a wordlist and mangle it</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.randomstorm.com/rsmangler-security-tool.php" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sakis3g</td>
+                                <td class="tbl-version vcat">0.2.0e</td>
+                                <td class="tbl-description dcat" itemprop="description">An all-in-one script for connecting with 3G.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.sakis3g.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">search1337</td>
+                                <td class="tbl-version vcat">13.c69937e</td>
+                                <td class="tbl-description dcat" itemprop="description">1337Day Online Exploit Scanner.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/b3mb4m/Search1337" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">shodan</td>
+                                <td class="tbl-version vcat">1.7.7</td>
+                                <td class="tbl-description dcat" itemprop="description">Python library for Shodan (https://developer.shodan.io).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://github.com/achillean/shodan-python" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">simple-ducky</td>
+                                <td class="tbl-version vcat">1.1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A payload generator.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/simple-ducky-payload-generator" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sipvicious</td>
+                                <td class="tbl-version vcat">0.2.8</td>
+                                <td class="tbl-description dcat" itemprop="description">Tools for auditing SIP devices</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://blog.sipvicious.org" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sn00p</td>
+                                <td class="tbl-version vcat">0.8</td>
+                                <td class="tbl-description dcat" itemprop="description">A modular tool written in bourne shell and designed to chain and automate security tools and tests.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nullsecurity.net/tools/automation.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sploitctl</td>
+                                <td class="tbl-version vcat">70.907b405</td>
+                                <td class="tbl-description dcat" itemprop="description">Fetch, install and search exploit archives from exploit sites like exploit-db and packetstorm.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/BlackArch/sploitctl" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">statsprocessor</td>
+                                <td class="tbl-version vcat">0.11</td>
+                                <td class="tbl-description dcat" itemprop="description">A high-performance word-generator based on per-position Markov-attack.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hashcat.net/wiki/doku.php?id=statsprocessor" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tiger</td>
+                                <td class="tbl-version vcat">3.2.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A security scanner, that checks computer for known problems. Can also use tripwire, aide and chkrootkit.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.nongnu.org/tiger/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">tlssled</td>
+                                <td class="tbl-version vcat">1.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://blog.taddong.com/2011/05/tlssled-v10.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">unix-privesc-check</td>
+                                <td class="tbl-version vcat">1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">Tries to find misconfigurations that could allow local unprivilged users to escalate privileges to other users or to access local apps (e.g. databases).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://pentestmonkey.net/tools/audit/unix-privesc-check" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">username-anarchy</td>
+                                <td class="tbl-version vcat">54.d5e653f</td>
+                                <td class="tbl-description dcat" itemprop="description">Tools for generating usernames when penetration testing.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.morningstarsecurity.com/research/username-anarchy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">veil</td>
+                                <td class="tbl-version vcat">154.1e87a3e</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool designed to generate metasploit payloads that bypass common anti-virus solutions.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/Veil-Framework/Veil" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">vlan-hopping</td>
+                                <td class="tbl-version vcat">21.a37ba4e</td>
+                                <td class="tbl-description dcat" itemprop="description">Easy 802.1Q VLAN Hopping</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/vlan-hopping" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">voiphopper</td>
+                                <td class="tbl-version vcat">2.04</td>
+                                <td class="tbl-description dcat" itemprop="description">A security validation tool that tests to see if a PC can mimic the behavior of an IP Phone. It rapidly automates a VLAN Hop into the Voice VLAN.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://voiphopper.sourceforge.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wikigen</td>
+                                <td class="tbl-version vcat">8.348aa99</td>
+                                <td class="tbl-description dcat" itemprop="description">A script to generate wordlists out of wikipedia pages.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/zombiesam/wikigen" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wnmap</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A shell script written with the purpose to automate and chain scans via nmap. You can run nmap with a custom mode written by user and create directories for every mode with the xml/nmap files inside.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nullsecurity.net/tools/automation.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2018</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>

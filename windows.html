@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Windows tools</title>
+    <meta name="description" content="List of all windows tools available on BlackArch">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!-- Custom CSS -->
+    <link href="css/blackarch.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class=logo_header href="index.html">
+					<img class=top-logo src="/images/logo/ba-logo.png" alt="BlackArch Linux Logo" />
+					<img class=top-fond src="/images/logo/ba-font.png" alt="BlackArch Linux Font" />
+				</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id=home itemprop="name">
+                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+                    </li>
+                    <li id=downloads itemprop="name">
+                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    </li>
+                    <li id=guide itemprop="name">
+                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    </li>
+                    <li id=faq itemprop="name">
+                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    </li>
+                    <li id=tools itemprop="name">
+                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    </li>
+                    <li id=community itemprop="name">
+                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    </li>
+                    <li id=blog itemprop="name">
+                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    </li>
+                    <li id=donate itemprop="name">
+     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider.png');"></div>
+                <div class="carousel-caption">
+                    <h2>BlackArch Linux <br />Penetration Testing Distribution</h2>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('/images/slider/ba-slider2.png');"></div>
+                <div class="carousel-caption">
+                    <h2>Over 1900 tools</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container result">
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header page-header-title">
+	            <h1>Windows</h1> <h2>The list</h2>
+                </div>
+                <ol class="breadcrumb">
+                    <li><a class=home href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a class=tools href="tools.html">tools</a></li>
+                     <li class="active">windows</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <p>This group is for any native Windows package that runs via wine.</p>
+                <p>
+                    <b>Tool count:</b> <a href="">95</a>
+                </p>
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>BlackArch windows</b>
+                    </div>
+                    <table id="tbl-minimalist" itemscope itemtype="https://www.schema.org/Thing">
+                        <thead>
+                            <tr>
+                                <th class=tbl-name itemprop="item">Name</th>
+                                <th class=tbl-version>Version</th>
+                                <th class=tbl-description>Description</th>
+                                <th class=tbl-homepage>Homepage</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class=tbl-name itemprop="name">3proxy-win32</td>
+                                <td class="tbl-version vcat">0.8.10</td>
+                                <td class="tbl-description dcat" itemprop="description">Tiny free proxy server.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://3proxy.ru/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">agafi</td>
+                                <td class="tbl-version vcat">13.8007d3d</td>
+                                <td class="tbl-description dcat" itemprop="description">A gadget finder and a ROP-Chainer tool for x86 platforms.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/CoreSecurity/Agafi" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">analyzepesig</td>
+                                <td class="tbl-version vcat">0.0.0.5</td>
+                                <td class="tbl-description dcat" itemprop="description">Analyze digital signature of PE file.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://blog.didierstevens.com/my-software/#AnalyzePESig" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">antiransom</td>
+                                <td class="tbl-version vcat">3.02</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool capable of detect and stop attacks of Ransomware using honeypots.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.security-projects.com/?Anti_Ransom___Download" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">atstaketools</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">backorifice</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A remote administration system which allows a user to control a computer across a tcpip connection using a simple console or GUI application.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cultdeadcow.com/tools/bo.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">browselist</td>
+                                <td class="tbl-version vcat">1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">Retrieves the browse list ; the output list contains computer names, and the roles they play in the network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/browselist/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">brute12</td>
+                                <td class="tbl-version vcat">1</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool designed for auditing the cryptography container security in PKCS12 format.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.security-projects.com/?Brute12" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">brutus</td>
+                                <td class="tbl-version vcat">2</td>
+                                <td class="tbl-description dcat" itemprop="description">One of the fastest, most flexible remote password crackers you can get your hands on.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hoobie.net/brutus/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">cachedump</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://packetstormsecurity.com/files/36781/cachedump.1.zip.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">chrome-decode</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Chrome web browser decoder tool that demonstrates recovering passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/119153/Chrome-Web-Browser-Decoder.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">chromensics</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A Google chrome forensics tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://sourceforge.net/projects/chromensics/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dark-dork-searcher</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Dark-Dork Searcher.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://rafale.org/~mattoufoutu/darkc0de.com/c0de/c/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">directorytraversalscan</td>
+                                <td class="tbl-version vcat">1.0.1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Detect directory traversal vulnerabilities in HTTP servers and web applications.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/httpdirscan/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dumpacl</td>
+                                <td class="tbl-version vcat">0.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Dumps NTs ACLs and audit settings.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.systemtools.com/cgi-bin/download.pl?DumpAcl" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">dumpusers</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Dumps account names and information even though RestrictAnonymous has been set to 1.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/dumpusers/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">eraser</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Windows tool which allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://eraser.heidi.ie/download/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">etherchange</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Can change the Ethernet address of the network adapters in Windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/etherchange/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">etherflood</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Floods a switched network with Ethernet frames with random hardware addresses.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/etherflood/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">filefuzz</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A binary file fuzzer for Windows with several options.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.fuzzing.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fport</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Identify unknown open ports and their associated applications.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.foundstone.com/us/resources/proddesc/fport.htm" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">fuzztalk</td>
+                                <td class="tbl-version vcat">1.0.0.0</td>
+                                <td class="tbl-description dcat" itemprop="description">An XML driven fuzz testing framework that emphasizes easy extensibility and reusability.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/fuzztalk" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">gplist</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Lists information about the applied Group Policies.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/gplist/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">grabitall</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Performs traffic redirection by sending spoofed ARP replies.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/grabitall/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">gsd</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Gives you the Discretionary Access Control List of any Windows NT service you specify as a command line option.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/gsd/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">gtalk-decode</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Google Talk decoder tool that demonstrates recovering passwords from accounts.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/119154/Google-Talk-Decoder.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">handle</td>
+                                <td class="tbl-version vcat">0.0</td>
+                                <td class="tbl-description dcat" itemprop="description">An small application designed to analyze your system searching for global objects related to running proccess and display information for every found object, like tokens, semaphores, ports, files,..</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.tarasco.org/security/handle/index.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hookanalyser</td>
+                                <td class="tbl-version vcat">3.4</td>
+                                <td class="tbl-description dcat" itemprop="description">A hook tool which can be potentially helpful in reversing applications and analyzing malware. It can hook to an API in a process and search for a pattern in memory or dump the buffer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://hookanalyser.blogspot.de/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">httpbog</td>
+                                <td class="tbl-version vcat">1.0.0.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sourceforge.net/projects/httpbog/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">httprecon</td>
+                                <td class="tbl-version vcat">7.3</td>
+                                <td class="tbl-description dcat" itemprop="description">Tool for web server fingerprinting, also known as http fingerprinting.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.computec.ch/projekte/httprecon/?s=download" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">httprint-win32</td>
+                                <td class="tbl-version vcat">301</td>
+                                <td class="tbl-description dcat" itemprop="description">A web server fingerprinting tool (Windows binaries).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://net-square.com/httprint" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">hyperion-crypter</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A runtime encrypter for 32-bit portable executables.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://nullsecurity.net/tools/binary.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ikeprobe</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Determine vulnerabilities in the PSK implementation of the VPN server.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.ernw.de/download/ikeprobe.zip" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">intercepter-ng</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A next generation sniffer including a lot of features: capturing passwords/hashes, sniffing chat messages, performing man-in-the-middle attacks, etc.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sniff.su/download.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">inzider</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">This is a tool that lists processes in your Windows system and the ports each one listen on.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/inzider/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">kekeo</td>
+                                <td class="tbl-version vcat">2.0.0.20170612</td>
+                                <td class="tbl-description dcat" itemprop="description">A little toolbox to play with Microsoft Kerberos in C.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/gentilkiwi/kekeo" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">kerbcrack</td>
+                                <td class="tbl-version vcat">1.3d3</td>
+                                <td class="tbl-description dcat" itemprop="description">Kerberos sniffer and cracker for Windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/kerbcrack/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">klogger</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A keystroke logger for the NT-series of Windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/klogger/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">malwareanalyser</td>
+                                <td class="tbl-version vcat">3.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A freeware tool to perform static and dynamic analysis on malware.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://malwareanalyser.blogspot.de/2011/10/malware-analyser.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mbenum</td>
+                                <td class="tbl-version vcat">1.5.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Queries the master browser for whatever information it has registered.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cqure.net/wp/mbenum/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">memimager</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Performs a memory dump using NtSystemDebugControl.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/memimager/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mimikatz</td>
+                                <td class="tbl-version vcat">2.1.1.20180325</td>
+                                <td class="tbl-description dcat" itemprop="description">A little tool to play with Windows security.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/gentilkiwi/mimikatz" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">mingsweeper</td>
+                                <td class="tbl-version vcat">1.00</td>
+                                <td class="tbl-description dcat" itemprop="description">A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hoobie.net/mingsweeper/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">msvpwn</td>
+                                <td class="tbl-version vcat">65.328921b</td>
+                                <td class="tbl-description dcat" itemprop="description">Bypass Windows' authentication via binary patching.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://bitbucket.org/mrabault/msvpwn" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nbname</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Decodes and displays all NetBIOS name packets it receives on UDP port 137 and more!</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cultdeadcow.com/tools/bo.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nbtenum</td>
+                                <td class="tbl-version vcat">3.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A utility for Windows that can be used to enumerate NetBIOS information from one host or a range of hosts.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://reedarvin.thearvins.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">netbus</td>
+                                <td class="tbl-version vcat">1.6</td>
+                                <td class="tbl-description dcat" itemprop="description">NetBus remote adminsitration tool</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://packetstormsecurity.com/files/10320/nb16_p04.zip.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">netstumbler</td>
+                                <td class="tbl-version vcat">0.4.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Well-known wireless AP scanner and sniffer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.netstumbler.com/downloads/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">nishang</td>
+                                <td class="tbl-version vcat">0.7.6</td>
+                                <td class="tbl-description dcat" itemprop="description">Using PowerShell for Penetration Testing.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://code.google.com/p/nishang/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ntds-decode</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">This application dumps LM and NTLM hashes from active accounts stored in an Active Directory database.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/121543/NTDS-Hash-Decoder.b.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">orakelcrackert</td>
+                                <td class="tbl-version vcat">1.00</td>
+                                <td class="tbl-description dcat" itemprop="description">This tool can crack passwords which are encrypted using Oracle's latest SHA1 based password protection algorithm.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://freeworld.thc.org/thc-orakelcrackert11g/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pafish</td>
+                                <td class="tbl-version vcat">163.184b3fc</td>
+                                <td class="tbl-description dcat" itemprop="description">A demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hoobie.net/pafish/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">periscope</td>
+                                <td class="tbl-version vcat">3.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A PE file inspection tool.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/periscope/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pextractor</td>
+                                <td class="tbl-version vcat">0.18b</td>
+                                <td class="tbl-description dcat" itemprop="description">A forensics tool that can extract all files from an executable file created by a joiner or similar.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/62977/PExtractor_v0.18b_binary_and_src.rar.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">php-vulnerability-hunter</td>
+                                <td class="tbl-version vcat">1.4.0.20</td>
+                                <td class="tbl-description dcat" itemprop="description">An whitebox fuzz testing tool capable of detected several classes of vulnerabilities in PHP web applications.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://phpvulnhunter.codeplex.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pmap</td>
+                                <td class="tbl-version vcat">1.10</td>
+                                <td class="tbl-description dcat" itemprop="description">Passively discover, scan, and fingerprint link-local peers by the background noise they generate (i.e. their broadcast and multicast traffic).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hellfiresecurity.com/tools.htm" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pmdump</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that lets you dump the memory contents of a process to a file without stopping the process.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/pmdump/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">powerops</td>
+                                <td class="tbl-version vcat">30.b238caf</td>
+                                <td class="tbl-description dcat" itemprop="description">PowerShell Runspace Portable Post Exploitation Tool aimed at making Penetration Testing with PowerShell "easier".</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/fdiskyou/PowerOPS" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">ppee</td>
+                                <td class="tbl-version vcat">1.10</td>
+                                <td class="tbl-description dcat" itemprop="description">A Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://www.mzrst.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">promiscdetect</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Checks if your network adapter(s) is running in promiscuous mode, which may be a sign that you have a sniffer running on your computer.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/promisdetect/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pstoreview</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Lists the contents of the Protected Storage.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.ntsecurity.nu/toolbox/pstoreview/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">pwdump</td>
+                                <td class="tbl-version vcat">7.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Extracts the binary SAM and SYSTEM file from the filesystem and then the hashes.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.tarasco.org/security/pwdump_7/index.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">radiography</td>
+                                <td class="tbl-version vcat">2</td>
+                                <td class="tbl-description dcat" itemprop="description">A forensic tool which grabs as much information as possible from a Windows system.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.security-projects.com/?RadioGraPhy" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rasenum</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A small program which lists the information for all of the entries in any phonebook file (.pbk).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.cultdeadcow.com/tools/rasenum.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rpak</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A collection of tools that can be useful for doing attacks on routing protocols.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/promisdetect/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rpcsniffer</td>
+                                <td class="tbl-version vcat">7.9fab095</td>
+                                <td class="tbl-description dcat" itemprop="description">Sniffs WINDOWS RPC messages in a given RPC server process.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/AdiKo/RPCSniffer" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">rpctools</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Contains three separate tools for obtaining information from a system that is running RPC services</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://packetstormsecurity.com/files/31879/rpctools.0.zip.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">setowner</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Allows you to set file ownership to any account, as long as you have the "Restore files and directories" user right.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/setowner/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sigspotter</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A tool that search in your HD to find wich publishers has been signed binaries in your PC.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.security-projects.com/?SigSpotter" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sipscan</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A sip scanner.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hackingvoip.com/sec_tools.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">skype-dump</td>
+                                <td class="tbl-version vcat">0.1</td>
+                                <td class="tbl-description dcat" itemprop="description">This is a tool that demonstrates dumping MD5 password hashes from the configuration file in Skype.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://packetstormsecurity.com/files/119155/Skype-Hash-Dumper.0.html" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">smbrelay</td>
+                                <td class="tbl-version vcat">3</td>
+                                <td class="tbl-description dcat" itemprop="description">SMB / HTTP to SMB replay attack toolkit.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.tarasco.org/security/smbrelay/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">snitch</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Turn back the asterisks in password fields to plaintext passwords.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/snitch/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">snowman</td>
+                                <td class="tbl-version vcat">0.1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A native code to C/C++ decompiler, see the examples of generated code.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://derevenets.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">snscan</td>
+                                <td class="tbl-version vcat">1.05</td>
+                                <td class="tbl-description dcat" itemprop="description">A Windows based SNMP detection utility that can quickly and accurately identify SNMP enabled devices on a network.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.mcafee.com/uk/downloads/free-tools/snscan.aspx" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">spade</td>
+                                <td class="tbl-version vcat">114</td>
+                                <td class="tbl-description dcat" itemprop="description">A general-purpose Internet utility package, with some extra features to help in tracing the source of spam and other forms of Internet harassment.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hoobie.net/brutus/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sqldict</td>
+                                <td class="tbl-version vcat">2.1</td>
+                                <td class="tbl-description dcat" itemprop="description">A dictionary attack tool for SQL Server.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/sqldict/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sqlping</td>
+                                <td class="tbl-version vcat">4</td>
+                                <td class="tbl-description dcat" itemprop="description">SQL Server scanning tool that also checks for weak passwords using wordlists.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.sqlsecurity.com/downloads" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sqlpowerinjector</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Application created in .Net 1.1 that helps the penetration tester to find and exploit SQL injections on a web page.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.sqlpowerinjector.com/download.htm" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sub7</td>
+                                <td class="tbl-version vcat">2.2</td>
+                                <td class="tbl-description dcat" itemprop="description">A remote administration tool. No further comments ;-)</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://dl.packetstormsecurity.net/trojans/Subseven.2.2.zip" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">superscan</td>
+                                <td class="tbl-version vcat">4.1</td>
+                                <td class="tbl-description dcat" itemprop="description">Powerful TCP port scanner, pinger, resolver.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.foundstone.com/us/resources/proddesc/superscan.htm" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">sysinternals-suite</td>
+                                <td class="tbl-version vcat">2.6</td>
+                                <td class="tbl-description dcat" itemprop="description">Sysinternals tools suite.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://sysinternals.com/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">unsecure</td>
+                                <td class="tbl-version vcat">1.2</td>
+                                <td class="tbl-description dcat" itemprop="description">Bruteforces network login masks.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.sniperx.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">upnp-pentest-toolkit</td>
+                                <td class="tbl-version vcat">1.1</td>
+                                <td class="tbl-description dcat" itemprop="description">UPnP Pentest Toolkit for Windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/nccgroup/UPnP-Pentest-Toolkit" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wce</td>
+                                <td class="tbl-version vcat">1.41beta</td>
+                                <td class="tbl-description dcat" itemprop="description">A security tool to list logon sessions and add, change, list and delete associated credentials (ex.: LM/NT hashes, plaintext passwords and Kerberos tickets).</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hoobie.net/wce/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wifichannelmonitor</td>
+                                <td class="tbl-version vcat">1.42</td>
+                                <td class="tbl-description dcat" itemprop="description">A utility for Windows that captures wifi traffic on the channel you choose, using Microsoft Network Monitor capture driver.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/gentilkiwi/wifichannelmonitor" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">windivert</td>
+                                <td class="tbl-version vcat">1.3.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A user-mode packet capture-and-divert package for Windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/basil00/Divert" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">windows-privesc-check</td>
+                                <td class="tbl-version vcat">181.9f304fd</td>
+                                <td class="tbl-description dcat" itemprop="description">Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="https://github.com/pentestmonkey/windows-privesc-check" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">windowsspyblocker</td>
+                                <td class="tbl-version vcat">4.9.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Block spying and tracking on Windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.hoobie.net/WindowsSpyBlocker/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">winfo</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">Uses null sessions to remotely try to retrieve lists of and information about user accounts, workstation/interdomain/server trust accounts, shares (also hidden), sessions, logged in users, and password/lockout policy, from Windows NT/2000/XP.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.ntsecurity.nu/toolbox/winfo/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">winrelay</td>
+                                <td class="tbl-version vcat">2.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A TCP/UDP forwarder/redirector that works with both IPv4 and IPv6.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/winrelay/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wpsweep</td>
+                                <td class="tbl-version vcat">1.0</td>
+                                <td class="tbl-description dcat" itemprop="description">A simple ping sweeper, that is, it pings a range of IP addresses and lists the ones that reply.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/wpsweep/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">wups</td>
+                                <td class="tbl-version vcat">1.4</td>
+                                <td class="tbl-description dcat" itemprop="description">An UDP port scanner for Windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://ntsecurity.nu/toolbox/wups/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">x-scan</td>
+                                <td class="tbl-version vcat">3.3</td>
+                                <td class="tbl-description dcat" itemprop="description">A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.xfocus.org/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                            <tr>
+                                <td class=tbl-name itemprop="name">x64dbg</td>
+                                <td class="tbl-version vcat">2017.11.20</td>
+                                <td class="tbl-description dcat" itemprop="description">An open-source x64/x32 debugger for windows.</td>
+                                <td class=tbl-homepage itemprop="mainEntityOfPage"><a href="http://www.sniperx.net/" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- Footer -->
+      	<footer>
+           <div class="row">
+				<div id=socialfoot class="col-lg-12" itemscope itemtype="https://schema.org/Organization">
+			 	    <link itemprop="url" href="https://blackarch.org">
+			        <a itemprop="sameAs" href="https://github.com/BlackArch" title="Github" target=_blank><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			        <a itemprop="sameAs" href="https://twitter.com/blackarchlinux" title="Twitter" target=_blank><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="irc://irc.freenode.net/blackarch" title="Irc" target=_blank><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/blog.html" title="Blog" target=_blank><i class="fa fa-newspaper-o fa-2x" aria-hidden="true"></i></a>
+					<a itemprop="sameAs" href="https://blackarch.org/rss.xml" title="Rss" target=_blank><i class="fa fa-rss fa-2x" aria-hidden="true"></i></a>
+					<br><span itemprop="legalName">BlackArch Linux</span> <span>2013-2018</span>
+	            </div>
+            </div>
+	    <!-- End Footer -->
+        </footer>
+        </div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/blackarch.js"></script>
+</body>
+</html>
