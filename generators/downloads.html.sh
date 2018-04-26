@@ -350,9 +350,9 @@ cat <<\EOF
                             <a href="http://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">http://distro.ibiblio.org/blackarch/</a><br>
                             <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">ftp://distro.ibiblio.org/blackarch/</a><br>
                             <a href="https://deadbeef.ninja/blackarch/" target="_blank" itemprop="url">https://deadbeef.ninja/blackarch/</a><br>
-                            <a href="http://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">http://mirror.team-cymru.org/blackarch/</a><br>
-                            <a href="ftp://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">ftp://mirror.team-cymru.org/blackarch/</a><br>
-                            <a href="rsync://mirror.team-cymru.org/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.org/blackarch/</a><br>
+                            <a href="http://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">http://mirror.team-cymru.org/blackarch/</a><br>
+                            <a href="ftp://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.team-cymru.org/blackarch/</a><br>
+                            <a href="rsync://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.org/blackarch/</a><br>
                             <a href="http://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">http://mirror.oss.maxcdn.com/blackarch/</a><br>
                             <a href="ftp://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.oss.maxcdn.com/blackarch/</a><br>
                             <a href="rsync://mirror.oss.maxcdn.com/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.oss.maxcdn.com/mirrors/blackarch/</a><br>
