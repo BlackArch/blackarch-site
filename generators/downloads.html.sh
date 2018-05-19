@@ -1,6 +1,6 @@
 cat common/start-downloads
 
-cat <<\EOF
+cat << EOF
    <div class="container result">
         <!-- Page Heading/Breadcrumbs -->
           <div class="row">
@@ -63,14 +63,14 @@ cat <<\EOF
                                     <td itemprop="datePublished">2017.12.11</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-live-2017.12.11-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>7.5 GB</td>
-                                    <td>1d26ca4fbcf2485cd0f6962d2229a0b90c5d796b</td>
+                                    <td>${LIVE_CHECKSUM}</td>
                                 </tr>
                                 <tr>
                                     <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarchlinux-netinst-2017.12.11-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                                     <td itemprop="datePublished">2017.12.11</td>
                                     <td><a href="/blackarch/torrent/blackarchlinux-netinst-2017.12.11-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>521 MB</td>
-                                    <td>e06bcad153b0edaa0212e912905263f500d861af</td>
+                                    <td>${NET_CHECKSUM}</td>
                                 </tr>
                             </table>
                             <hr />
@@ -117,7 +117,7 @@ cat <<\EOF
                                     <td itemprop="datePublished">2017.06.18</td>
                                     <td><a href="/blackarch/torrent/blackarch-linux-2017.06.18-x86_64.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                                     <td>18 GB</td>
-                                    <td>e9d56eef48be19bab009be39f1a4f91cc9e4157d</td>
+                                    <td>${OVA_CHECKSUM}</td>
                                 </tr>
                             </table>
                             <hr />
@@ -143,7 +143,7 @@ cat <<\EOF
                             <div class=code-block>
                                 <p># Run https://blackarch.org/strap.sh as root and follow the instructions.</p>
                                 $ <span>curl -O https://blackarch.org/strap.sh</span>
-                                <p># The SHA1 sum should match: 6f152b79419491db92c1fdde3fad2d445f09aae3</p>
+                                <p># The SHA1 sum should match: ${STRAP_CHECKSUM}</p>
                                 $ <span>sha1sum strap.sh</span>
                                 <p># Set execute bit</p>
                                 $ <span>chmod +x strap.sh</span>
