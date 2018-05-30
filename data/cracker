@@ -12,7 +12,7 @@ bruteforce-wallet|31.38bbd46|Try to find the password of an encrypted Peercoin (
 brutessh|0.6|A simple sshd password bruteforcer using a wordlist, it's very fast for internal networks. It's multithreads.|http://www.edge-security.com/edge-soft.php
 chapcrack|17.ae2827f|A tool for parsing and decrypting MS-CHAPv2 network handshakes.|https://github.com/moxie0/chapcrack
 checkpwd|1.23|Oracle Password Checker (Cracker).|http://www.red-database-security.com/software/checkpwd.html
-cintruder|6.a628c62|An automatic pentesting tool to bypass captchas.|https://github.com/epsylon/cintruder
+cintruder|8.eacca65|An automatic pentesting tool to bypass captchas.|https://github.com/epsylon/cintruder
 cisco-auditing-tool|1|Perl script which scans cisco routers for common vulnerabilities. Checks for default passwords, easily guessable community names, and the IOS history bug. Includes support for plugins and scanning multiple hosts.|http://www.scrypt.net
 cisco-ocs|0.2|Cisco Router Default Password Scanner.|http://www.question-defense.com/2013/01/11/ocs-version-2-release-ocs-cisco-router-default-password-scanner
 cisco-scanner|0.2|Multithreaded Cisco HTTP vulnerability scanner. Tested on Linux, OpenBSD and Solaris.|http://wayreth.eu.org/old_page/
@@ -31,7 +31,6 @@ cupp|20.07f9b83|Common User Password Profiler|http://www.remote-exploit.org/?pag
 dbpwaudit|0.8|A Java tool that allows you to perform online audits of password quality for several database engines.|http://www.cqure.net/wp/dbpwaudit/
 depant|0.3a|Check network for services with default passwords.|http://midnightresearch.com/projects/depant/
 device-pharmer|37.e0e6281|Opens 1K+ IPs or Shodan search results and attempts to login.|https://github.com/DanMcInerney/device-pharmer
-dislocker|0.6.1|A tool to exploit the hash length extension attack in various hashing algorithms. With FUSE capabilities built in.|http://www.hsc.fr/ressources/outils/dislocker/
 doozer|9.5cfc8f8|A Password cracking utility.|https://github.com/CoalfireLabs/crackHOR
 dpeparser|beta002|Default password enumeration project|http://www.toolswatch.org/dpe/
 eapmd5pass|1.4|An implementation of an offline dictionary attack against the EAP-MD5 protocol|http://www.willhackforsushi.com/?page_id=67
@@ -42,22 +41,23 @@ f-scrack|19.9a00357|A single file bruteforcer supports multi-protocol.|https://g
 facebrute|7.ece355b|This script tries to guess passwords for a given facebook account using a list of passwords (dictionary).|https://github.com/emerinohdz/FaceBrute
 fang|22.4f94552|A multi service threaded MD5 cracker.|https://github.com/evilsocket/fang
 fcrackzip|1.0|Zip file password cracker|http://oldhome.schmorp.de/marc/fcrackzip.html
-fern-wifi-cracker|222|WEP, WPA wifi cracker for wireless penetration testing|http://code.google.com/p/fern-wifi-cracker/
+fern-wifi-cracker|256.d25e58e|WEP, WPA wifi cracker for wireless penetration testing|http://code.google.com/p/fern-wifi-cracker/
 ftp-scanner|0.2.5|Multithreaded ftp scanner/brute forcer. Tested on Linux, OpenBSD and Solaris.|http://wayreth.eu.org/old_page/
-hashcat|4.0.1|Multithreaded advanced password recovery utility|https://hashcat.net/hashcat
+hashcat|4.1.0|Multithreaded advanced password recovery utility|https://hashcat.net/hashcat
 hasher|48.40173c5|A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally.|https://github.com/ChrisTruncer/Hasher
 hashtag|0.41|A python script written to parse and identify password hashes.|https://github.com/SmeegeSec/HashTag
 hostbox-ssh|0.1.1|A ssh password/account scanner.|http://stridsmanit.wordpress.com/2012/12/02/brute-forcing-passwords-with-hostbox-ssh-1-1/
-htpwdscan|16.99697fc|A python HTTP weak pass scanner.|https://github.com/lijiejie/htpwdScan
+htpwdscan|18.d334e02|A python HTTP weak pass scanner.|https://github.com/lijiejie/htpwdScan
 hydra|8.6|Very fast network logon cracker which support many different services|https://www.thc.org/thc-hydra/
 ibrute|12.3a6a11e|An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.|https://github.com/hackappcom/ibrute/
+icloudbrutter|15.1f64f19|Tool for AppleID Bruteforce.|https://github.com/m4ll0k/iCloudBrutter
 iheartxor|0.01|A tool for bruteforcing encoded strings within a boundary defined by a regular expression. It will bruteforce the key value range of 0x1 through 0x255.|http://hooked-on-mnemonics.blogspot.com.es/p/iheartxor.html
 iisbruteforcer|15|HTTP authentication cracker. It's a tool that launchs an online dictionary attack to test for weak or simple passwords against protected areas on an IIS Web server.|http://www.open-labs.org/
 ikecrack|1.00|An IKE/IPSec crack tool designed to perform Pre-Shared-Key analysis of RFC compliant aggressive mode authentication|http://sourceforge.net/projects/ikecrack/
 inguma|0.1.1|A free penetration testing and vulnerability discovery toolkit entirely written in python. Framework includes modules to discover hosts, gather information about, fuzz targets, brute force usernames and passwords, exploits, and a disassembler.|http://inguma.sourceforge.net
 ipmipwn|6.74a08a8|IPMI cipher 0 attack tool.|https://github.com/AnarchyAngel/IPMIPWN
 jbrute|0.99|Open Source Security tool to audit hashed passwords.|http://sourceforge.net/projects/jbrute/
-jeangrey|16.79a924e|A tool to perform differential fault analysis attacks (DFA).|https://github.com/SideChannelMarvels/JeanGrey
+jeangrey|22.47d527c|A tool to perform differential fault analysis attacks (DFA).|https://github.com/SideChannelMarvels/JeanGrey
 john|1.8.0.jumbo1|John the Ripper password cracker|http://www.openwall.com/john
 johnny|20120424|GUI for John the Ripper.|http://openwall.info/wiki/john/johnny
 jwt-cracker|17.906d670|JWT brute force cracker written in C.|https://github.com/brendan-rius/c-jwt-cracker
@@ -76,12 +76,12 @@ morxbtcrack|1.0|Single Bitcoin private key cracking tool released.|http://www.mo
 morxcoinpwn|1.0|Mass Bitcoin private keys brute forcing/Take over tool released.|http://www.morxploit.com/tools/
 morxcrack|1.2|A cracking tool written in Perl to perform a dictionary-based attack on various hashing algorithm and CMS salted-passwords.|http://www.morxploit.com/morxcrack/
 mybff|94.6547c51|A Brute Force Framework.|https://github.com/MooseDojo/myBFF
-ncrack|0.5|A high-speed network authentication cracking tool|https://nmap.org/ncrack/
+ncrack|0.6.0|High-speed network authentication cracking tool|https://nmap.org/ncrack/
 obevilion|408.021c9f2|Another archive cracker created in python | cracking [zip/7z/rar].|https://github.com/BL4CKvGHOST/Ob3vil1on
 oclhashcat|2.01|Worlds fastest WPA cracker with dictionary mutation engine.|http://hashcat.net/oclhashcat/
 omen|15.78ce868|Ordered Markov ENumerator - Password Guesser.|https://github.com/RUB-SysSec/OMEN
 onesixtyone|0.7|An SNMP scanner that sends multiple SNMP requests to multiple IP addresses|http://labs.portcullis.co.uk/application/onesixtyone/
-ophcrack|3.7.0|Windows password cracker based on rainbow tables|http://ophcrack.sourceforge.net
+ophcrack|3.8.0|Windows password cracker based on rainbow tables|http://ophcrack.sourceforge.net
 outlook-webapp-brute|1.61d7177|Microsoft Outlook WebAPP Brute.|https://github.com/lijiejie/OutLook_WebAPP_Brute
 owabf|1.3|Outlook Web Access bruteforcer tool.|http://netsec.rs/70/tools.html
 pack|0.0.4|Password Analysis and Cracking Kit|http://thesprawl.org/projects/pack/
@@ -125,7 +125,7 @@ sshscan|1.0|A horizontal SSH scanner that scans large swaths of IPv4 space for a
 sshtrix|0.0.2|A very fast multithreaded SSH login cracker.|http://nullsecurity.net/tools/cracker.html
 sslnuke|5.c5faeaa|Transparent proxy that decrypts SSL traffic and prints out IRC messages.|https://github.com/jtripper/sslnuke
 sucrack|1.2.3|A multi-threaded Linux/UNIX tool for brute-force cracking local user accounts via su|http://labs.portcullis.co.uk/application/sucrack
-tckfc|21.a32167e|TrueCrypt key file cracker.|https://github.com/Octosec/tckfc
+tckfc|23.911e92e|TrueCrypt key file cracker.|https://github.com/Octosec/tckfc
 tftp-bruteforce|0.1|TFTP-bruteforcer is a fast TFTP filename bruteforcer written in perl.|http://www.hackingexposedcisco.com/
 thc-keyfinder|1.0|Finds crypto keys, encrypted data and compressed data in files by analyzing the entropy of parts of the file.|https://www.thc.org/releases.php
 thc-pptp-bruter|0.1.4|A brute force program that works against pptp vpn endpoints (tcp port 1723).|http://www.thc.org

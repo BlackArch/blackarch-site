@@ -1,12 +1,12 @@
 aesfix|1.0.1|A tool to find AES key in RAM|http://citp.princeton.edu/memory/code/
 aeskeyfind|1.0|A tool to find AES key in RAM|http://citp.princeton.edu/memory/code/
-afflib|3.7.4|An extensible open format for the storage of disk images and related forensic information.|http://www.afflib.org
+afflib|3.7.16|An extensible open format for the storage of disk images and related forensic information.|https://github.com/sshock/AFFLIBv3
 aimage|3.2.5|A program to create aff-images.|http://www.afflib.org
 air|2.0.0|A GUI front-end to dd/dc3dd designed for easily creating forensic images.|http://air-imager.sourceforge.net/
 autopsy|2.24|A GUI for The Sleuth Kit.|http://www.sleuthkit.org/autopsy
 bmap-tools|3.4|Tool for copying largely sparse files using information from a block map file.|http://git.infradead.org/users/dedekind/bmap-tools.git
 bulk-extractor|1.5.5|Bulk Email and URL extraction tool.|https://github.com/simsong/bulk_extractor
-canari|3.1.3|A transform framework for maltego|http://www.canariproject.com/
+canari|3.2.2|A transform framework for maltego.|https://pypi.org/project/canari/#files
 captipper|70.b08608d|Malicious HTTP traffic explorer tool.|http://www.omriher.com/2015/01/captipper-malicious-http-traffic.html
 casefile|1.0.1|The little brother to Maltego without transforms, but combines graph and link analysis to examine links between manually added data to mind map your information|http://www.paterva.com/web6/products/casefile.php
 chaosmap|1.3|An information gathering tool and dns / whois / web server scanner|http://freecode.com/projects/chaosmap
@@ -15,7 +15,6 @@ chromefreak|24.12745b1|A Cross-Platform Forensic Framework for Google Chrome|htt
 dc3dd|7.2.646|A patched version of dd that includes a number of features useful for computer forensics.|http://sourceforge.net/projects/dc3dd
 dcfldd|1.3.4.1|DCFL (DoD Computer Forensics Lab) dd replacement with hashing|https://dcfldd.sourceforge.net/
 ddrescue|1.23|GNU data recovery tool|http://www.gnu.org/software/ddrescue/ddrescue.html
-dff|183.d40d46b|A Forensics Framework coming with command line and graphical interfaces.|https://github.com/arxsys/dff
 disitool|0.3|Tool to work with Windows executables digital signatures.|https://blog.didierstevens.com/my-software/#disitool
 dumpzilla|03152013|A forensic tool for firefox.|http://www.dumpzilla.org/
 eindeutig|20050628_1|Examine the contents of Outlook Express DBX email repository files (forensic purposes)|http://www.jonesdykstra.com/
@@ -27,48 +26,50 @@ foremost|1.5.7|A console program to recover files based on their headers, footer
 fridump|14.4e7d9a9|A universal memory dumper using Frida.|https://github.com/Nightbringer21/fridump
 galleta|20040505_1|Examine the contents of the IE's cookie files for forensic purposes|http://www.jonesdykstra.com/
 grokevt|0.5.0|A collection of scripts built for reading Windows® NT/2K/XP/2K eventlog files.|http://code.google.com/p/grokevt/
-guymager|0.8.4|A forensic imager for media acquisition.|http://guymager.sourceforge.net/
-imagemounter|352.27538e6|Command line utility and Python package to ease the (un)mounting of forensic disk images.|https://github.com/ralphje/imagemounter
+guymager|0.8.8|A forensic imager for media acquisition.|http://guymager.sourceforge.net/
+imagemounter|362.8f31cfb|Command line utility and Python package to ease the (un)mounting of forensic disk images.|https://github.com/ralphje/imagemounter
 indxparse|169.1b32736|A Tool suite for inspecting NTFS artifacts.|http://www.williballenthin.com/forensics/mft/indxparse/
 interrogate|0.0.4|A proof-of-concept tool for identification of cryptographic keys in binary material (regardless of target operating system), first and foremost for memory dump analysis and forensic usage.|https://github.com/carmaa/interrogate
 iosforensic|1.0|iOS forensic tool https://www.owasp.org/index.php/Projects/OWASP_iOSForensic|https://github.com/Flo354/iOSForensic
 ipba2|032013|IOS Backup Analyzer|http://www.ipbackupanalyzer.com/
 iphoneanalyzer|2.1.0|Allows you to forensically examine or recover date from in iOS device.|http://www.crypticbit.com/zen/products/iphoneanalyzer
+lazagne|296.43af9cf|An open source application used to retrieve lots of passwords stored on a local computer.|https://github.com/AlessandroZ/LaZagne
 lfle|24.f28592c|Recover event log entries from an image by heurisitically looking for record structures.|https://github.com/williballenthin/LfLe
+limeaide|178.d332e10|Remotely dump RAM of a Linux client and create a volatility profile for later analysis on your local host.|https://github.com/kd8bny/LiMEaide
 mac-robber|1.02|A digital investigation tool that collects data from allocated files in a mounted file system.|http://www.sleuthkit.org/mac-robber/download.php
 magicrescue|1.1.9|Find and recover deleted files on block devices|http://freshmeat.net/projects/magicrescue/
 make-pdf|0.1.7|This tool will embed javascript inside a PDF document.|http://blog.didierstevens.com/programs/pdf-tools/
 malheur|0.5.4|A tool for the automatic analyze of malware behavior.|http://www.mlsec.org/malheur/
-maltego|4.0.11.9358|An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.|http://www.paterva.com/web5
+maltego|4.1.6.11045|An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.|http://www.paterva.com/web5
 malwaredetect|0.1|Submits a file's SHA1 sum to VirusTotal to determine whether it is a known piece of malware|http://www.virustotal.com
 mboxgrep|0.7.9|A small, non-interactive utility that scans mail folders for messages matching regular expressions. It does matching against basic and extended POSIX regular expressions, and reads and writes a variety of mailbox formats.|http://mboxgrep.sourceforge.net
 memdump|1.01|Dumps system memory to stdout, skipping over holes in memory maps.|http://www.porcupine.org/forensics/tct.html
 memfetch|0.05b|Dumps any userspace process memory without affecting its execution.|http://lcamtuf.coredump.cx/
-mimipenguin|104.0a127fa|A tool to dump the login password from the current linux user.|https://github.com/huntergregal/mimipenguin
+mimipenguin|109.8b95a58|A tool to dump the login password from the current linux user.|https://github.com/huntergregal/mimipenguin
 mobiusft|0.5.21|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.|http://savannah.nongnu.org/projects/mobiusft
 mp3nema|0.4|A tool aimed at analyzing and capturing data that is hidden between frames in an MP3 file or stream, otherwise noted as "out of band" data.|http://packetstormsecurity.com/files/76432/MP3nema-Forensic-Analysis-Tool.html
 naft|0.0.9|Network Appliance Forensic Toolkit.|https://blog.didierstevens.com/my-software/#NAFT
 nfex|2.5|A tool for extracting files from the network in real-time or post-capture from an offline tcpdump pcap savefile.|https://code.google.com/p/nfex/
 ntdsxtract|34.7fa1c8c|Active Directory forensic framework.|https://github.com/csababarta/ntdsxtract
 pasco|20040505_1|Examines the contents of Internet Explorer's cache files for forensic purposes|http://www.jonesdykstra.com/
-pcapxray|131.b5c7282|A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction.|https://github.com/Srinivas11789/PcapXray
+pcapxray|141.4f7d1c1|A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction.|https://github.com/Srinivas11789/PcapXray
 pdf-parser|0.6.8|Parses a PDF document to identify the fundamental elements used in the analyzed file.|http://blog.didierstevens.com/programs/pdf-tools/
 pdfbook-analyzer|2|Utility for facebook memory forensics.|http://sourceforge.net/projects/pdfbook/
-pdfid|0.2.2|Scan a file to look for certain PDF keywords.|http://blog.didierstevens.com/programs/pdf-tools/
+pdfid|0.2.4|Scan a file to look for certain PDF keywords.|http://blog.didierstevens.com/programs/pdf-tools/
 pdfresurrect|0.12|A tool aimed at analyzing PDF documents.|http://packetstormsecurity.com/files/118459/PDFResurrect-PDF-Analyzer.12.html
 peepdf|0.3|A Python tool to explore PDF files in order to find out if the file can be harmful or not|http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
 pev|0.70|Command line based tool for PE32/PE32+ file analysis.|http://pev.sourceforge.net/
-recoverjpeg|2.6.1|Recover jpegs from damaged devices.|http://www.rfc1149.net/devel/recoverjpeg
+recoverjpeg|2.6.2|Recover jpegs from damaged devices.|http://www.rfc1149.net/devel/recoverjpeg
 recuperabit|38.3a7c133|A tool for forensic file system reconstruction.|https://github.com/Lazza/RecuperaBit
 reglookup|1.0.1|Command line utility for reading and querying Windows NT registries|http://projects.sentinelchicken.org/reglookup
 replayproxy|1.1|Forensic tool to replay web-based attacks (and also general HTTP traffic) that were captured in a pcap file.|https://code.google.com/p/replayproxy/
 rifiuti2|0.6.1|A rewrite of rifiuti, a great tool from Foundstone folks for analyzing Windows Recycle Bin INFO2 file.|https://code.google.com/p/rifiuti2/
-rkhunter|1.4.4|Checks machines for the presence of rootkits and other unwanted tools.|http://rkhunter.sourceforge.net/
+rkhunter|1.4.6|Checks machines for the presence of rootkits and other unwanted tools.|http://rkhunter.sourceforge.net/
 safecopy|1.7|A disk data recovery tool to extract data from damaged media.|http://safecopy.sourceforge.net/
 scalpel|2.0|A frugal, high performance file carver|http://www.digitalforensicssolutions.com/Scalpel/
 scrounge-ntfs|0.9|Data recovery program for NTFS file systems|http://memberwebs.com/stef/software/scrounge/
 skypefreak|33.9347a65|A Cross Platform Forensic Framework for Skype.|http://osandamalith.github.io/SkypeFreak/
-sleuthkit|4.4.2|File system and media management forensic analysis tools|http://www.sleuthkit.org/sleuthkit
+sleuthkit|4.6.1|File system and media management forensic analysis tools|http://www.sleuthkit.org/sleuthkit
 swap-digger|27.2d67930|A tool used to automate Linux swap analysis during post-exploitation or forensics.|https://github.com/sevagas/swap_digger
 tchunt-ng|208.b8cf7fc|Reveal encrypted files stored on a filesystem.|https://github.com/antagon/TCHunt-ng
 tekdefense-automater|88.42548cf|IP URL and MD5 OSINT Analysis|https://github.com/1aN0rmus/TekDefense-Automater
