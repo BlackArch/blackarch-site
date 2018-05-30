@@ -7,26 +7,26 @@ MIRROR='https://www.mirrorservice.org/sites/blackarch.org/blackarch/'
 # simple error message wrapper
 err()
 {
-    echo >&2 `tput bold; tput setaf 1`"[-] ERROR: ${*}"`tput sgr0`
+    echo >&2 "$(tput bold; tput setaf 1)[-] ERROR: ${*}$(tput sgr0)"
     exit 1337
 }
 
 # simple warning message wrapper
 warn()
 {
-    echo >&2 `tput bold; tput setaf 1`"[!] WARNING: ${*}"`tput sgr0`
+    echo >&2 "$(tput bold; tput setaf 1)[!] WARNING: ${*}$(tput sgr0)"
 }
 
 # simple echo wrapper
 msg()
 {
-    echo `tput bold; tput setaf 2`"[+] ${*}"`tput sgr0`
+    echo "$(tput bold; tput setaf 2)[+] ${*}$(tput sgr0)"
 }
 
 # check for root privilege
 check_priv()
 {
-    if [ $EUID -ne 0 ] ; then
+    if [ "$(id -u)" -ne 0 ] ; then
         err "you must be root"
     fi
 }
@@ -34,9 +34,22 @@ check_priv()
 # make a temporary directory and cd into
 make_tmp_dir()
 {
-    tmp=`mktemp -d /tmp/blackarch_strap.XXXXXXXX`
-    trap "rm -rf $tmp" EXIT
-    cd "$tmp"
+    tmp="$(mktemp -d /tmp/blackarch_strap.XXXXXXXX)"
+    trap 'rm -rf $tmp' EXIT
+    cd "$tmp" || err "Could not enter directory $tmp"
+}
+
+check_internet()
+{
+    if ! ping -c 3 -W 3 google.com > /dev/null 2>&1; then
+        if ping -c 3 -W 3 8.8.8.8 > /dev/null 2>&1; then
+            warn "you have internet connection but seems to have a problem with DNS"
+        else
+            err "you don't have an internet connection"
+        fi
+    fi
+
+    return $SUCCESS
 }
 
 # retrieve the BlackArch Linux keyring
@@ -50,15 +63,21 @@ fetch_keyring()
 # note: this is pointless if you do not verify the key fingerprint
 verify_keyring()
 {
-    gpg \
-        --keyserver pgp.mit.edu \
-        --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+    if ! gpg --keyserver pgp.mit.edu \
+             --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+    then
+        if ! gpg --keyserver hkp://pool.sks-keyservers.net \
+                 --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+        then
+            err "could not verify the key. Please check: https://blackarch.org/faq.html"
+        fi
+    fi
 
     if ! gpg \
         --keyserver-options no-auto-key-retrieve \
         --with-fingerprint blackarch-keyring.pkg.tar.xz.sig > /dev/null 2>&1
     then
-        err 'invalid keyring signature. please stop by irc.freenode.net/blackarch'
+        err "invalid keyring signature. please stop by irc.freenode.net/blackarch"
     fi
 }
 
@@ -84,14 +103,14 @@ install_keyring()
     then
         err 'keyring installation failed'
     fi
-	# just in case
-	pacman-key --populate
+    # just in case
+    pacman-key --populate
 }
 
 # ask user for mirror
 get_mirror()
 {
-    printf "    -> enter a BlackArch Linux mirror url (default: $MIRROR): "
+    printf "    -> enter a BlackArch Linux mirror url (default: %s): " "$MIRROR"
     while read line ; do
         case "$line" in
             http://*|https://*|ftp://*)
@@ -131,7 +150,12 @@ EOF
 # synchronize and update
 pacman_update()
 {
-    pacman -Syy
+    if pacman -Syy; then
+        return $SUCCESS
+    fi
+
+    warn "Synchronizing pacman has failed. Please try manually: pacman -Syy"
+    return $FAILURE
 }
 
 
@@ -151,6 +175,7 @@ blackarch_setup()
     check_priv
     msg 'installing blackarch keyring...'
     make_tmp_dir
+    check_internet
     fetch_keyring
     verify_keyring
     delete_signature
