@@ -42,11 +42,7 @@ make_tmp_dir()
 check_internet()
 {
   if ! ping -c 3 -W 3 github.com > /dev/null 2>&1; then
-    if ping -c 3 -W 3 8.8.8.8 > /dev/null 2>&1; then
-      warn "you have internet connection but seems to have a problem with DNS"
-    else
-      err "you don't have an internet connection"
-    fi
+    err "you don't have an internet connection"
   fi
 
   return $SUCCESS
