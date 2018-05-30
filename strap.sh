@@ -41,8 +41,17 @@ make_tmp_dir()
 
 check_internet()
 {
-  if ! ping -c 3 -W 3 github.com > /dev/null 2>&1; then
-    err "you don't have an internet connection"
+  tool=$(which host)
+  tool_opts="-4 -W 5 -t a "
+
+  if [ "${tool}" = "" ]
+  then
+    tool=$(which ping)
+    tool_opts="-c 3 -W 5 -w 5 "
+  fi
+
+  if ! ${tool} ${tool_opts} github.com > /dev/null 2>&1; then
+    err "You don't have an Internet connection!"
   fi
 
   return $SUCCESS
