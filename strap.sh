@@ -41,12 +41,12 @@ make_tmp_dir()
 
 check_internet()
 {
-  tool=$(which host)
+  tool=$(which host 2> /dev/null)
   tool_opts="-4 -W 5 -t a "
 
   if [ "${tool}" = "" ]
   then
-    tool=$(which ping)
+    tool=$(which ping 2> /dev/null)
     tool_opts="-c 3 -W 5 -w 5 "
   fi
 
