@@ -73,7 +73,7 @@ cat << EOF
                   <td itemprop="datePublished">2018.06.01</td>
                   <!--<td><a href="/blackarch/torrent/blackarch-linux-netinst-2018.06.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>-->
                   <td>NOT YET!</td>
-                  <td>521 MB</td>
+                  <td>571 MB</td>
                   <td>${NET_CHECKSUM}</td>
                 </tr>
               </table>
