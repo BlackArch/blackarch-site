@@ -238,6 +238,12 @@ cat <<\EOF
                             <a href="ftp://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">ftp://mirror.easyname.at/blackarch/</a><br>
                             <a href="rsync://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.at/blackarch/</a>
                             <br><br>
+                            <img src="/images/flags/be.png" alt="Belgium" /> Belgium<br>
+                            <a href="http://mirror.alexiobash.com/blackarch/" target="_blank" itemprop="url">http://mirror.alexiobash.com/blackarch/</a>
+                            <br><br>
+                            <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
+                            <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a>
+                            <br><br>
                             <img src="/images/flags/cn.png" alt="China" /> China<br>
                             <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.ustc.edu.cn/blackarch/</a>
                             <br><br>
@@ -350,6 +356,7 @@ cat <<\EOF
                             <a href="http://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">http://mirror.oss.maxcdn.com/blackarch/</a><br>
                             <a href="ftp://mirror.oss.maxcdn.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.oss.maxcdn.com/blackarch/</a><br>
                             <a href="rsync://mirror.oss.maxcdn.com/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.oss.maxcdn.com/mirrors/blackarch/</a><br>
+                            <a href="http://arch.localmsp.org/blackarch/" target="_blank" itemprop="url">http://arch.localmsp.org/blackarch/</a>
                             <br><br>
                             <img src="/images/flags/vn.png" alt="Vietnam" /> Vietnam<br>
                             <a href="http://f.archlinuxvn.org/blackarch/" target="_blank" itemprop="url">http://f.archlinuxvn.org/blackarch/</a>
