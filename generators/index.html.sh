@@ -36,7 +36,7 @@ cat <<EOF
                 <a href="/images/screenshots/awesome.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/awesome.png" alt="BlackArch Linux with awesome wm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/spectrwm.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/spectrwm.png" alt="BlackArch Linux with spectrwm"></a>
+                <a href="/images/screenshots/spectrwm.png"><img class="img-responsive img-portfolio img-hover" style="height:224px" src="images/screenshots/spectrwm.png" alt="BlackArch Linux with spectrwm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/lxdm.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;" src="images/screenshots/lxdm.png" alt="BlackArch Linux with lxdm"></a>
