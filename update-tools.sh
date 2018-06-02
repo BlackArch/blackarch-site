@@ -42,13 +42,16 @@ parse_db() {
 	# Category
 	# Add exception for the following packages
 	case "${name}" in
+      "blackarch-config-awesome"|"blackarch-config-fluxbox"|"blackarch-config-openbox"|"blackarch-config-i3"|"blackarch-config-spectrwm"|"blackarch-config-wmii"|"blackarch-config-lxdm"|"blackarch-config-vim"|"blackarch-config-bash"|"blackarch-config-x11"|"blackarch-config-gtk"|"blackarch-mirrorlist"|"blackarch-menus")
+	  group="blackarch-config"
+    ;;
 	    "truecrack"|"cudahashcat"|"cryptohazemultiforcer")
 		group="blackarch-cracker"
 		;;
 	    "vmcloak"|"malboxes"|"thezoo")
 		group="blackarch-malware"
 		;;
-	    *)
+      *)
 	    	# All the other packages (add '0,/blackarch/s///' for remove first occurrence only
 		group="$(grep --no-group-separator -A2 '^%GROUPS%$' "${d}"/desc |
 		sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' -e '0,/blackarch/s///' | grep -v '^%GROUPS%$' |
