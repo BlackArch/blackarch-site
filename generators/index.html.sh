@@ -73,28 +73,28 @@ cat <<EOF
                                     <td itemprop="additionalName">noptrix</td>
                                     <td itemprop="email">noptrix@nullsecurity.net</td>
                                     <td><a href="gpgkeys/noptrix.asc" target="_blank">0x7A747D10</a></td>
-                                    <td itemprop="jobTitle">Leader & Developer</td>
+                                    <td itemprop="jobTitle">Leader, Developer, Backd00rer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Pedro Freitas</td>
                                     <td itemprop="additionalName">psf</td>
                                     <td itemprop="email">pedrosffreitas@protonmail.com</td>
                                     <td><a href="gpgkeys/psf.asc" target="_blank">0x6B644488</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
+                                    <td itemprop="jobTitle">Developer, Allrounder</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Jeremy Marlow</td>
                                     <td itemprop="additionalName">i3_Arch</td>
                                     <td itemprop="email">jamarlow410@gmail.com</td>
                                     <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
+                                    <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Pierre B.</td>
                                     <td itemprop="additionalName">Pi3rrot</td>
                                     <td itemprop="email">pierre@pi3rrot.net</td>
                                     <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x0B694394</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
+                                    <td itemprop="jobTitle">Developer, Torrent Master</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Hannes Eichblatt</td>
@@ -115,7 +115,7 @@ cat <<EOF
                                     <td itemprop="additionalName">EisWiesel</td>
                                     <td itemprop="email">unreal436@gmail.com</td>
                                     <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADC0DE</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
+                                    <td itemprop="jobTitle">Webdesigner</td>
                                 </tr>
                             </table>
                         </li>
