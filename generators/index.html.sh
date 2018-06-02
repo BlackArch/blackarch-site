@@ -50,7 +50,7 @@ cat <<EOF
         <!-- actual developers -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">BlackArch Linux Developers & Contributors</h2>
+                <h2 class="page-header">BlackArch Linux Developers</h2>
                 <p>BlackArch Linux is backed by a team of volunteers. Some of them have chosen to appear in the following list.</p>
             </div>
             <div class="col-md-12">
@@ -96,6 +96,27 @@ cat <<EOF
                                     <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x0B694394</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
+                                <tr>
+                                    <td itemprop="givenName">Hannes Eichblatt</td>
+                                    <td itemprop="additionalName">heichblatt</td>
+                                    <td itemprop="email">blackarch@hanneseichblatt.de</td>
+                                    <td><a href="gpgkeys/heichblatt.asc" target="_blank">0x31B0AF0E</a></td>
+                                    <td>Developer</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Dimitri Mader</td>
+                                    <td itemprop="additionalName">anyon3</td>
+                                    <td itemprop="email">dimitri@linux.com</td>
+                                    <td><a href="gpgkeys/anyon3.asc" target="_blank">0x8B8E3622</a></td>
+                                    <td itemprop="jobTitle">WebDeveloper</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Alexander Rothenberg</td>
+                                    <td itemprop="additionalName">EisWiesel</td>
+                                    <td itemprop="email">unreal436@gmail.com</td>
+                                    <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADC0DE</a></td>
+                                    <td itemprop="jobTitle">Contributor</td>
+                                </tr>
                             </table>
                         </li>
                     </ul>
@@ -139,13 +160,6 @@ cat <<EOF
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Hannes Eichblatt</td>
-                                    <td itemprop="additionalName">heichblatt</td>
-                                    <td itemprop="email">blackarch@hanneseichblatt.de</td>
-                                    <td><a href="gpgkeys/heichblatt.asc" target="_blank">0x31B0AF0E</a></td>
-                                    <td>Developer</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Ellis Kenyo</td>
                                     <td itemprop="additionalName">elken</td>
                                     <td itemprop="email">elken.tdos@gmail.com</td>
@@ -158,13 +172,6 @@ cat <<EOF
                                     <td itemprop="email">louis.dionmarcil@gmail.com</td>
                                     <td><a href="gpgkeys/ldionmarcil.asc" target="_blank">0x0E61E739</a></td>
                                     <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Dimitri Mader</td>
-                                    <td itemprop="additionalName">anyon3</td>
-                                    <td itemprop="email">dimitri@linux.com</td>
-                                    <td><a href="gpgkeys/anyon3.asc" target="_blank">0x8B8E3622</a></td>
-                                    <td itemprop="jobTitle">WebDeveloper</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Halit Alptekin</td>
@@ -199,13 +206,6 @@ cat <<EOF
                                     <td itemprop="additionalName">abby</td>
                                     <td itemprop="email">aricart@gmail.com</td>
                                     <td><a href="gpgkeys/abby.asc" target="_blank">0xF126259B</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Alexander Rothenberg</td>
-                                    <td itemprop="additionalName">EisWiesel</td>
-                                    <td itemprop="email">unreal436@gmail.com</td>
-                                    <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADC0DE</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                             </table>
