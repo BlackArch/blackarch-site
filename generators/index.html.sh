@@ -47,10 +47,10 @@ cat <<EOF
         </div>
     </div>
         <!-- /.row -->
-        <!-- developers -->
+        <!-- actual developers -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="page-header">About BlackArch Linux Developers & Contributors</h2>
+                <h2 class="page-header">BlackArch Linux Developers & Contributors</h2>
                 <p>BlackArch Linux is backed by a team of volunteers. Some of them have chosen to appear in the following list.</p>
             </div>
             <div class="col-md-12">
@@ -69,18 +69,67 @@ cat <<EOF
                                     <td><b>Role</b></td>
                                 </tr>
                                 <tr>
+                                    <td itemprop="givenName">Levon Kayan</td>
+                                    <td itemprop="additionalName">noptrix</td>
+                                    <td itemprop="email">noptrix@nullsecurity.net</td>
+                                    <td><a href="gpgkeys/noptrix.asc" target="_blank">0x7A747D10</a></td>
+                                    <td itemprop="jobTitle">Leader & Developer</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Pedro Freitas</td>
+                                    <td itemprop="additionalName">psf</td>
+                                    <td itemprop="email">pedrosffreitas@protonmail.com</td>
+                                    <td><a href="gpgkeys/psf.asc" target="_blank">0x6B644488</a></td>
+                                    <td itemprop="jobTitle">Developer</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Jeremy Marlow</td>
+                                    <td itemprop="additionalName">i3_Arch</td>
+                                    <td itemprop="email">jamarlow410@gmail.com</td>
+                                    <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
+                                    <td itemprop="jobTitle">Contributor</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Pierre B.</td>
+                                    <td itemprop="additionalName">Pi3rrot</td>
+                                    <td itemprop="email">pierre@pi3rrot.net</td>
+                                    <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x0B694394</a></td>
+                                    <td itemprop="jobTitle">Contributor</td>
+                                </tr>
+                            </table>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <!-- hall of fame -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="page-header">BlackArch Linux Former Developers & Contributors - Hall of Fame</h2>
+                <p>BlackArch Linux is backed by a team of volunteers. Below are the names of those who helped the project.</p>
+            </div>
+            <div class="col-md-12">
+                <div class="panel panel-default text-left">
+                    <div class="panel-heading">
+                        <b>Former Developers & Contributors</b>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <table id=developers itemscope itemtype="https://www.schema.org/Person">
+                                <tr>
+                                    <td><b>Name</b></td>
+                                    <td><b>Nickname</b></td>
+                                    <td><b>E-Mail</b></td>
+                                    <td><b>GPG Key</b></td>
+                                    <td><b>Role</b></td>
+                                </tr>
+                                <tr>
                                     <td itemprop="givenName">Evan Teitelman</td>
                                     <td itemprop="additionalName">paraxor</td>
                                     <td itemprop="email">teitelmanevan@gmail.com</td>
                                     <td><a href="gpgkeys/paraxor.asc" target="_blank">0xEA87E4E3</a></td>
                                     <td itemprop="jobTitle">Founder, Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Levon Kayan</td>
-                                    <td itemprop="additionalName">noptrix</td>
-                                    <td itemprop="email">noptrix@nullsecurity.net</td>
-                                    <td><a href="gpgkeys/noptrix.asc" target="_blank">0x7A747D10</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Javier</td>
@@ -111,32 +160,11 @@ cat <<EOF
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Pedro Freitas</td>
-                                    <td itemprop="additionalName">psf</td>
-                                    <td itemprop="email">pedrosffreitas@protonmail.com</td>
-                                    <td><a href="gpgkeys/psf.asc" target="_blank">0x6B644488</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Dimitri Mader</td>
                                     <td itemprop="additionalName">anyon3</td>
                                     <td itemprop="email">dimitri@linux.com</td>
                                     <td><a href="gpgkeys/anyon3.asc" target="_blank">0x8B8E3622</a></td>
                                     <td itemprop="jobTitle">WebDeveloper</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Jeremy Marlow</td>
-                                    <td itemprop="additionalName">i3_Arch</td>
-                                    <td itemprop="email">jamarlow410@gmail.com</td>
-                                    <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Pierre B.</td>
-                                    <td itemprop="additionalName">Pi3rrot</td>
-                                    <td itemprop="email">pierre@pi3rrot.net</td>
-                                    <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x0B694394</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Halit Alptekin</td>
