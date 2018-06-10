@@ -8,6 +8,7 @@ MIRROR_F="blackarch-mirrorlist"
 err()
 {
   echo >&2 "$(tput bold; tput setaf 1)[-] ERROR: ${*}$(tput sgr0)"
+
   exit 1337
 }
 
@@ -26,7 +27,7 @@ msg()
 # check for root privilege
 check_priv()
 {
-  if [ "$(id -u)" -ne 0 ] ; then
+  if [ "$(id -u)" -ne 0 ]; then
     err "you must be root"
   fi
 }
@@ -35,7 +36,9 @@ check_priv()
 make_tmp_dir()
 {
   tmp="$(mktemp -d /tmp/blackarch_strap.XXXXXXXX)"
+
   trap 'rm -rf $tmp' EXIT
+
   cd "$tmp" || err "Could not enter directory $tmp"
 }
 
@@ -44,14 +47,15 @@ check_internet()
   tool=$(which host 2> /dev/null)
   tool_opts="-4 -W 5 -t a "
 
-  if [ "${tool}" = "" ]
-  then
+  if [ "${tool}" = "" ]; then
     tool=$(which ping 2> /dev/null)
     tool_opts="-c 3 -W 5 -w 5 "
   fi
 
   if ! ${tool} ${tool_opts} github.com > /dev/null 2>&1; then
-    err "You don't have an Internet connection!"
+    if ! ${tool} ${tool_opts} microsoft.com > /dev/null 2>&1; then
+      err "You don't have an Internet connection!"
+    fi
   fi
 
   return $SUCCESS
@@ -61,7 +65,7 @@ check_internet()
 fetch_keyring()
 {
   curl -s -O \
-    'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz{,.sig}'
+  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz{,.sig}'
 }
 
 # verify the keyring signature
@@ -69,17 +73,16 @@ fetch_keyring()
 verify_keyring()
 {
   if ! gpg --keyserver pgp.mit.edu \
-       --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+     --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
   then
     if ! gpg --keyserver hkp://pool.sks-keyservers.net \
-         --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
+       --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
     then
       err "could not verify the key. Please check: https://blackarch.org/faq.html"
     fi
   fi
 
-  if ! gpg \
-    --keyserver-options no-auto-key-retrieve \
+  if ! gpg --keyserver-options no-auto-key-retrieve \
     --with-fingerprint blackarch-keyring.pkg.tar.xz.sig > /dev/null 2>&1
   then
     err "invalid keyring signature. please stop by irc.freenode.net/blackarch"
@@ -89,7 +92,7 @@ verify_keyring()
 # delete the signature files
 delete_signature()
 {
-  if [ -f "blackarch-keyring.pkg.tar.xz.sig" ] ; then
+  if [ -f "blackarch-keyring.pkg.tar.xz.sig" ]; then
     rm blackarch-keyring.pkg.tar.xz.sig
   fi
 }
@@ -103,11 +106,11 @@ check_pacman_gnupg()
 # install the keyring
 install_keyring()
 {
-  if ! pacman --config /dev/null \
-    --noconfirm -U blackarch-keyring.pkg.tar.xz
-  then
-    err 'keyring installation failed'
+  if ! pacman --config /dev/null --noconfirm \
+    -U blackarch-keyring.pkg.tar.xz ; then
+      err 'keyring installation failed'
   fi
+
   # just in case
   pacman-key --populate archlinux blackarch
 }
@@ -119,9 +122,8 @@ get_mirror()
   mirror_r="https://blackarch.org"
 
   msg "fetching new mirror list..."
-  if ! curl -s "$mirror_r/$MIRROR_F" -o "$mirror_p/$MIRROR_F"
-  then
-      err "we couldn't fetch the mirror list from: $mirror_r/$MIRROR_F"
+  if ! curl -s "$mirror_r/$MIRROR_F" -o "$mirror_p/$MIRROR_F" ; then
+    err "we couldn't fetch the mirror list from: $mirror_r/$MIRROR_F"
   fi
 
   msg "you can change the default mirror under $mirror_p/$MIRROR_F"
@@ -147,6 +149,7 @@ pacman_update()
   fi
 
   warn "Synchronizing pacman has failed. Please try manually: pacman -Syy"
+
   return $FAILURE
 }
 
@@ -186,6 +189,5 @@ blackarch_setup()
   pacman_update
   msg 'BlackArch Linux is ready!'
 }
-
 
 blackarch_setup
