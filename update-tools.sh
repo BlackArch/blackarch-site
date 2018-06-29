@@ -43,7 +43,7 @@ parse_db() {
 	  # Add exception for the following packages
 	  case "${name}" in
       "blackarch-config-awesome"|"blackarch-config-fluxbox"|"blackarch-config-openbox"|"blackarch-config-i3"|"blackarch-config-spectrwm"|"blackarch-config-wmii"|"blackarch-config-lxdm"|"blackarch-config-vim"|"blackarch-config-bash"|"blackarch-config-x11"|"blackarch-config-gtk"|"blackarch-mirrorlist"|"blackarch-menus")
-	      group="blackarch-config"
+	      continue
         ;;
 	    "truecrack"|"cudahashcat"|"cryptohazemultiforcer")
 		    group="blackarch-cracker"
