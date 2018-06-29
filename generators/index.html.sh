@@ -106,7 +106,7 @@ cat <<EOF
                                 <tr>
                                     <td itemprop="givenName">Stefan Venz</td>
                                     <td itemprop="additionalName">ikstream</td>
-                                    <td itemprop="email">stefan.venz@protonmail</td>
+                                    <td itemprop="email">stefan.venz@protonmail.com</td>
                                     <td><a href="gpgkeys/ikstream.asc" target="_blank">0x8CAA1975</a></td>
                                     <td>Developer</td>
                                 </tr>
