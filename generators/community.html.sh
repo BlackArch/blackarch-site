@@ -61,6 +61,21 @@ cat <<\EOF
                 </div>
                 <br />
                 <div class="community-head">
+                    <b>Youtube</b>
+                </div>
+                    <div class="community-body">
+                        <div class="community-body-right">
+                            <a href="https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ" target="_blank"><i class="fa fa-youtube fa-5x"></i></a>
+                        </div>
+                        <p>
+                            Follow us and subscribe on our YouTube channel! We mainly upload self-made videos about <b>installation</b>, <b>configuration</b>, and major <b>tool usage</b>.
+                        </p>
+                        <p>
+                            We also accept your videos to our YouTube channel. Just mention us. We'll respond.
+                        </p>
+                </div>
+                <br />
+                <div class="community-head">
                     <b>IRC</b>
                 </div>
                 <div class="community-body">
