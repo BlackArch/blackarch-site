@@ -303,6 +303,7 @@ cat << EOF
               <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/</a>
               <br><br>
               <img src="/images/flags/ru.png" alt="Russia" /> Russia<br>
+              <a href="http://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">http://mirror.truenetwork.ru/blackarch/</a><br>
               <a href="http://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">http://mirror.yandex.ru/mirrors/blackarch/</a><br>
               <a href="ftp://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">ftp://mirror.yandex.ru/mirrors/blackarch/</a><br>
               <a href="rsync://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.yandex.ru/mirrors/blackarch/</a>

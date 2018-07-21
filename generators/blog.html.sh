@@ -28,6 +28,17 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
+
+            <article id=p96 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Sat, 21 Jul 2018 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in Russia! </h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="http://mirror.truenetwork.ru/" target="_blank">truenetwork.ru </a> for becoming a BlackArch Linux mirror.
+                <br />
+                They are offering the following access: <a href="http://mirror.truenetwork.ru/blackarch/" target="_blank">http</a>
+              </div>
+            </article>
+
             <article id=p95 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Mon, 01 Jun 2018 00:00:00 GMT</time>
