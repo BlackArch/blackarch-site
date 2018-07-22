@@ -35,7 +35,9 @@ cat <<\EOF
               <div itemprop="description">
                 We would like to thank <a href="http://mirror.truenetwork.ru/" target="_blank">truenetwork.ru </a> for becoming a BlackArch Linux mirror.
                 <br />
-                They are offering the following access: <a href="http://mirror.truenetwork.ru/blackarch/" target="_blank">http</a>
+                They are offering the following access: <a href="http://mirror.truenetwork.ru/blackarch/" target="_blank">http</a> |
+                <a href="ftp://mirror.truenetwork.ru/blackarch/" target="_blank">ftp</a> |
+                <a href="rsync://mirror.truenetwork.ru/blackarch/" target="_blank">rsync</a>
               </div>
             </article>
 
