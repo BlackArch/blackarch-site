@@ -40,10 +40,11 @@ cat <<\EOF
               </p>
               <p>Here's the ChangeLog:</p>
                 <ul>
+                  <li>fix for ruby tools (rubygems was missing)</li>
+                  <li>fix for VMware import and usage</li>
                   <li>include Linux kernel 4.17.11</li>
                   <li>updated all blackarch tools and packages including config files</li>
                   <li>updated all system packages</li>
-                  <li>fix for VMware import and usage</li>
                 </ul>
               </p>
               <p>
