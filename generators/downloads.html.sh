@@ -113,9 +113,9 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="http://mirror.team-cymru.com/blackarch/ova/blackarch-linux-2018.06.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
-                  <td itemprop="datePublished">2018.06.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-2018.06.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><a href="http://mirror.team-cymru.com/blackarch/ova/blackarch-linux-2018.08.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                  <td itemprop="datePublished">2018.08.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-2018.08.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>19 GB</td>
                   <td>${OVA_CHECKSUM}</td>
                 </tr>

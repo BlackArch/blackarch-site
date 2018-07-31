@@ -29,6 +29,29 @@ cat <<\EOF
           <ul class="list-group nblog">
             <li class="list-group-item">
 
+            <article id=p97 itemscope itemtype="http://schema.org/NewsArticle">
+            <header>
+              <time itemprop="datePublished">Mon, 01 Aug 2018 00:00:00 GMT</time>
+              <h4 itemprop="name">New OVA Image released!</h4>
+            </header>
+            <div itemprop="description">
+              <p>
+                Today we released the new BlackArch Linux OVA image. This is a bugfix release! For details see the ChangeLog below.
+              </p>
+              <p>Here's the ChangeLog:</p>
+                <ul>
+                  <li>include Linux kernel 4.17.11</li>
+                  <li>updated all blackarch tools and packages including config files</li>
+                  <li>updated all system packages</li>
+                  <li>fix for VMware import and usage</li>
+                </ul>
+              </p>
+              <p>
+                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+              </p>
+            </div>
+            </article>
+
             <article id=p96 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Sat, 21 Jul 2018 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in Russia! </h4></header>
