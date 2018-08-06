@@ -402,7 +402,7 @@ dnsa|0.5|DNSA is a dns security swiss army knife| blackarch-scanner |http://pack
 dnsbf|0.3|Search for available domain names in an IP range.| blackarch-scanner |http://code.google.com/p/dnsbf
 dnsbrute|2.b1dc84a|Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.| blackarch-recon |https://github.com/d4rkcat/dnsbrute
 dnschef|0.3|A highly configurable DNS proxy for pentesters.| blackarch-proxy |http://thesprawl.org/projects/dnschef/
-dnsdiag|214.b0f1335|DNS Diagnostics and Performance Measurement Tools.| blackarch-networking |https://dnsdiag.org/
+dnsdiag|221.0a9b362|DNS Diagnostics and Performance Measurement Tools.| blackarch-networking |https://dnsdiag.org/
 dnsdrdos|0.1|Proof of concept code for distributed DNS reflection DoS.| blackarch-dos |http://nullsecurity.net/tools/dos.html
 dnsenum|1.2.4.2|Script that enumerates DNS information from a domain, attempts zone transfers, performs a brute force dictionary style attack, and then performs reverse look-ups on the results.| blackarch-recon |http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=dnsenum
 dnsfilexfer|24.126edcd|File transfer via DNS.| blackarch-networking |https://github.com/leonjza/dnsfilexfer
@@ -1007,7 +1007,7 @@ mitmap|88.ab099ce|A python program to create a fake AP and sniff data.| blackarc
 mitmap-old|0.1|Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.| blackarch-automation |http://www.darkoperator.com/tools-and-scripts/
 mitmer|22.b01c7fe|A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.| blackarch-sniffer |https://github.com/husam212/MITMer
 mitmf|465.067cc4e|A Framework for Man-In-The-Middle attacks written in Python.| blackarch-exploitation |https://github.com/byt3bl33d3r/MITMf
-mitmproxy|3.0.3|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |http://mitmproxy.org/
+mitmproxy|3.0.4|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |https://mitmproxy.org/
 mkbrutus|1.0.2|Password bruteforcer for MikroTik devices or boxes running RouterOS.| blackarch-cracker |http://mkbrutusproject.github.io/MKBRUTUS/
 mobiusft|0.5.21|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.| blackarch-forensic |http://savannah.nongnu.org/projects/mobiusft
 mobsf|489.712e800|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/ajinabraham/Mobile-Security-Framework-MobSF
@@ -1233,7 +1233,7 @@ phemail|27.7ae21f2|A python open source phishing email tool that automates the p
 phishery|14.5743953|An SSL Enabled Basic Auth Credential Harvester with a Word Document Template URL Injector.| blackarch-backdoor |https://github.com/ryhanson/phishery
 phishingkithunter|17.1db0258|Find phishing kits which use your brand/organization's files and image'.| blackarch-social |https://github.com/t4d/PhishingKitHunter
 phoss|0.1.13|Sniffer designed to find HTTP, FTP, LDAP, Telnet, IMAP4, VNC and POP3 logins.| blackarch-cracker |http://www.phenoelit.org/fr/tools.html
-photon|150.774686d|Incredibly fast crawler which extracts urls, emails, files, website accounts and much more.| blackarch-webapp |https://github.com/s0md3v/Photon
+photon|151.25b016e|Incredibly fast crawler which extracts urls, emails, files, website accounts and much more.| blackarch-webapp |https://github.com/s0md3v/Photon
 php-findsock-shell|2.b8a984f|A Findsock Shell implementation in PHP + C.| blackarch-webapp |https://github.com/pentestmonkey/php-findsock-shell
 php-mt-seed|3.2|PHP mt_rand() seed cracker| blackarch-cracker |http://www.openwall.com/php_mt_seed/
 php-rfi-payload-decoder|30.bd42caa|Decode and analyze RFI payloads developed in PHP.| blackarch-cracker |https://github.com/bwall/PHP-RFI-Payload-Decoder
@@ -1317,7 +1317,7 @@ pwdump|7.1|Extracts the binary SAM and SYSTEM file from the filesystem and then 
 pwnat|13.5de412c|A tool that allows any number of clients behind NATs to communicate with a server behind a separate NAT with *no* port forwarding and *no* DMZ setup on any routers in order to directly communicate with each other.| blackarch-networking |http://samy.pl/pwnat/
 pwndbg|2017.09.26|Makes debugging with GDB suck less| blackarch-debugger |https://github.com/pwndbg/pwndbg
 pwned|364.36d77b8|A command-line tool for querying the 'Have I been pwned?' service.| blackarch-recon |https://github.com/wKovacs64/pwned
-pwnloris|8.6dc34f6|An improved slowloris DOS tool which keeps attacking until the server starts getting exhausted.| blackarch-dos |https://github.com/houssniyh/pwnloris
+pwnloris|8.6dc34f6|An improved slowloris DOS tool which keeps attacking until the server starts getting exhausted.| blackarch-dos |https://github.com/h0ussni/pwnloris
 pwntools|3.12.0|CTF framework and exploit development library.| blackarch-disassembler |https://github.com/Gallopsled/pwntools
 pybozocrack|75.9900883|A silly & effective MD5 cracker in Python.| blackarch-cracker |https://github.com/ikkebr/PyBozoCrack
 pydictor|77.ddc2e17|A useful hacker dictionary builder for a brute-force attack.| blackarch-misc |https://github.com/LandGrey/pydictor
@@ -1455,7 +1455,7 @@ scapy|2.4.0|Powerful interactive packet manipulation program written in Python (
 schnappi-dhcp|0.1|Can fuck network with no DHCP.| blackarch-misc |http://www.emanuelegentili.eu/
 scout2|1173.3b20f3f|Security auditing tool for AWS environments.| blackarch-scanner |http://isecpartners.github.io/Scout2/
 scrape-dns|58.3df392f|Searches for interesting cached DNS entries.| blackarch-scanner |https://github.com/304GEEK/Scrape-DNS
-scrapy|1.5.0|A fast high-level scraping and web crawling framework.| blackarch-webapp |http://scrapy.org
+scrapy|1.5.1|A fast high-level scraping and web crawling framework.| blackarch-webapp |http://scrapy.org
 scratchabit|483.72da2e8|Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API.| blackarch-disassembler |https://github.com/pfalcon/ScratchABit
 scrounge-ntfs|0.9|Data recovery program for NTFS file systems| blackarch-forensic |http://memberwebs.com/stef/software/scrounge/
 sctpscan|34.4d44706|A network scanner for discovery and security.| blackarch-recon |http://www.p1sec.com/
