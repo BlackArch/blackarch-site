@@ -209,7 +209,7 @@ btscanner|2.1|Bluetooth device scanner.| blackarch-bluetooth |http://www.pentest
 bulk-extractor|1.5.5|Bulk Email and URL extraction tool.| blackarch-forensic |https://github.com/simsong/bulk_extractor
 bully|1.1.12.g04185d7|Retrieve WPA/WPA2 passphrase from a WPS enabled access point| blackarch-wireless |https://github.com/aanarchyy/bully
 bunny|0.93|A closed loop, high-performance, general purpose protocol-blind fuzzer for C programs.| blackarch-fuzzer |http://code.google.com/p/bunny-the-fuzzer/
-burpsuite|1.7.37|An integrated platform for attacking web applications (free edition).| blackarch-fuzzer |http://portswigger.net/burp/
+burpsuite|1.7.36|An integrated platform for attacking web applications (free edition).| blackarch-fuzzer |http://portswigger.net/burp/
 buttinsky|138.1a2a1b2|Provide an open source framework for automated botnet monitoring.| blackarch-networking |https://github.com/buttinsky/buttinsky
 bvi|1.4.0|A display-oriented editor for binary files operate like "vi" editor.| blackarch-binary |http://bvi.sourceforge.net/
 bytecode-viewer|2.9.11|A Java 8/Android APK Reverse Engineering Suite.| blackarch-binary |https://github.com/Konloch/bytecode-viewer
@@ -221,7 +221,7 @@ canari|3.2.2|A transform framework for maltego.| blackarch-forensic |https://pyp
 cangibrina|120.3dfe416|Dashboard Finder.| blackarch-scanner |https://github.com/fnk0c/cangibrina
 cansina|14.b42ff88|A python-based Web Content Discovery Tool.| blackarch-webapp |https://github.com/deibit/cansina
 cantoolz|286.a678dac|Framework for black-box CAN network analysis https://asintsov.blogspot.de/.| blackarch-automobile |https://github.com/eik00d/CANToolz
-capstone|3.0.4|A lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |http://www.capstone-engine.org/index.html
+capstone|3.0.5|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 captipper|70.b08608d|Malicious HTTP traffic explorer tool.| blackarch-forensic |http://www.omriher.com/2015/01/captipper-malicious-http-traffic.html
 carwhisperer|0.2|Intends to sensibilise manufacturers of carkits and other Bluetooth appliances without display and keyboard for the possible security threat evolving from the use of standard passkeys.| blackarch-bluetooth |http://trifinite.org/trifinite_stuff_carwhisperer.html
 casefile|1.0.1|The little brother to Maltego without transforms, but combines graph and link analysis to examine links between manually added data to mind map your information| blackarch-forensic |http://www.paterva.com/web6/products/casefile.php
@@ -692,7 +692,7 @@ hate-crack|51.47ba42c|A tool for automating cracking methodologies through Hashc
 haystack|1823.c178b5a|A Python framework for finding C structures from process memory - heap analysis - Memory structures forensics.| blackarch-binary |https://github.com/trolldbois/python-haystack
 hbad|1.0|This tool allows you to test clients on the heartbleed bug.| blackarch-scanner |http://www.curesec.com/
 hcraft|1.0.0|HTTP Vuln Request Crafter| blackarch-exploitation |http://sourceforge.net/projects/hcraft/
-hcxtools|922.2ecfc9a|Small set of tools to capture and convert packets from wlan devices for the use with hashcat.| blackarch-wireless |https://github.com/ZerBea/hcxtools
+hcxtools|4.2.1+15+gbc206cc|Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats| blackarch-wireless |https://github.com/ZerBea/hcxtools
 hdcp-genkey|18.e8d342d|Generate HDCP source and sink keys from the leaked master key.| blackarch-crypto |https://github.com/rjw57/hdcp-genkey
 hdmi-sniff|5.f7fbc0e|HDMI DDC (I2C) inspection tool. It is designed to demonstrate just how easy it is to recover HDCP crypto keys from HDMI devices.| blackarch-hardware |https://github.com/ApertureLabsLtd/hdmi-sniff
 heartbleed-honeypot|0.1|Script that listens on TCP port 443 and responds with completely bogus SSL heartbeat responses, unless it detects the start of a byte pattern similar to that used in Jared Stafford's| blackarch-honeypot |http://packetstormsecurity.com/files/126068/hb_honeypot.pl.txt
@@ -1044,7 +1044,7 @@ msvpwn|65.328921b|Bypass Windows' authentication via binary patching.| blackarch
 mtr|0.92|Combines the functionality of traceroute and ping into one tool (CLI version)| blackarch-networking |http://www.bitwizard.nl/mtr/
 multiinjector|0.4|Automatic SQL injection utility using a lsit of URI addresses to test parameter manipulation.| blackarch-webapp |http://chaptersinwebsecurity.blogspot.de/2008/11/multiinjector-v03-released.html
 multimac|1.0.3|Multiple MACs on an adapter| blackarch-spoof |http://sourceforge.net/projects/multimac/
-multimon-ng|20180801|An sdr decoder, supports pocsag, ufsk, clipfsk, afsk, hapn, fsk, dtmf, zvei.| blackarch-radio |http://dekar.wc3edit.net/2012/05/24/multimonng/
+multimon-ng|1.1.5|An sdr decoder, supports pocsag, ufsk, clipfsk, afsk, hapn, fsk, dtmf, zvei.| blackarch-radio |https://github.com/EliasOenal/multimon-ng
 multiscanner|1387.32a0d32|Modular file scanning/analysis framework.| blackarch-scanner |https://github.com/mitre/multiscanner
 multitun|44.97f2ede|Tunnel arbitrary traffic through an innocuous WebSocket.| blackarch-tunnel |https://github.com/covertcodes/multitun
 mutator|51.164132d|This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012| blackarch-automation |https://bitbucket.org/alone/mutator/
@@ -1099,7 +1099,7 @@ nield|0.6.1|A tool to receive notifications from kernel through netlink socket, 
 nikto|2.1.6|A web server scanner which performs comprehensive tests against web servers for multiple items| blackarch-scanner |https://github.com/sullo/nikto
 nili|36.97f75f4|Tool for Network Scan, Man in the Middle, Protocol Reverse Engineering and Fuzzing.| blackarch-scanner |https://github.com/niloofarkheirkhah/nili
 nimbostratus|54.c7c206f|Tools for fingerprintinging and exploiting Amazon cloud infrastructures.| blackarch-fingerprint |https://github.com/andresriancho/nimbostratus
-nipe|183.15a7c7d|A script to make Tor Network your default gateway.| blackarch-defensive |https://github.com/GouveaHeitor/nipe
+nipe|185.2466737|A script to make Tor Network your default gateway.| blackarch-defensive |https://github.com/GouveaHeitor/nipe
 nipper|0.11.7|Network Infrastructure Parser| blackarch-recon |https://www.titania-security.com/
 nirsoft|1.20.38|Unique collection of small and useful freeware utilities.| blackarch-windows |https://www.nirsoft.net
 nishang|0.7.6|Using PowerShell for Penetration Testing.| blackarch-windows |https://code.google.com/p/nishang/
@@ -1337,13 +1337,13 @@ pyssltest|9.d7703f0|A python multithreaded script to make use of Qualys ssllabs 
 pytacle|alpha2|Automates the task of sniffing GSM frames| blackarch-sniffer |http://packetstormsecurity.com/files/124299/pytacle-alpha2.tar.gz
 pytbull|2.1|A python based flexible IDS/IPS testing framework shipped with more than 300 tests.| blackarch-scanner |http://pytbull.sourceforge.net/
 pythem|447.7eb5292|python2 penetration testing framework.| blackarch-scanner |https://github.com/m4n3dw0lf/PytheM
-python-capstone|3.0.4|A lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |http://www.capstone-engine.org/index.html
+python-capstone|3.0.5|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 python-jsbeautifier|1.7.5|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python-python-cymruwhois|30.022e16d|Python client for the whois.cymru.com service| blackarch-networking |https://github.com/JustinAzoff/python-cymruwhois
 python-shodan|1.8.1|Python library for Shodan (https://developer.shodan.io).| blackarch-automation |http://github.com/achillean/shodan-python
 python-utidylib|0.2|Python bindings for Tidy HTML parser/cleaner.| blackarch-misc |http://utidylib.berlios.de
 python-yara|3.8.0|Tool aimed at helping malware researchers to identify and classify malware samples| blackarch-malware |https://github.com/VirusTotal/yara-python
-python2-capstone|3.0.4|A lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |http://www.capstone-engine.org/index.html
+python2-capstone|3.0.5|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 python2-jsbeautifier|1.7.5|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python2-yara|3.8.0|Tool aimed at helping malware researchers to identify and classify malware samples| blackarch-malware |https://github.com/VirusTotal/yara-python
 qark|144.8f7cd41|Tool to look for several security related Android application vulnerabilities.| blackarch-mobile |https://github.com/linkedin/qark
@@ -1659,7 +1659,7 @@ stepic|0.3|A python image steganography tool.| blackarch-stego |http://domnit.or
 sticky-keys-hunter|15.c816fc9|Script to test an RDP host for sticky keys and utilman backdoor.| blackarch-scanner |https://github.com/ztgrace/sticky_keys_hunter
 stompy|0.0.4|An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.| blackarch-misc |http://lcamtuf.coredump.cx/
 storm-ring|0.1|This simple tool is useful to test a PABX with "allow guest" parameter set to "yes" (in this scenario an anonymous caller could place a call).| blackarch-voip |http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html
-strace|4.23|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
+strace|4.24|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
 streamfinder|1.2|Searches for Alternate Data Streams (ADS).| blackarch-windows |https://www.gaijin.at/en/dlstreamfind.php
 striker|57.763ff3f|An offensive information and vulnerability scanner.| blackarch-scanner |https://github.com/UltimateHackers/Striker
 striptls|53.eff1d59|Proxy PoC implementation of STARTTLS stripping attacks.| blackarch-proxy |https://github.com/tintinweb/striptls
