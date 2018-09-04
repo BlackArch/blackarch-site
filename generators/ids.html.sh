@@ -27,7 +27,7 @@ cat << EOF
 				Packages that are used for tool or work ow ids.</p>
                 <br />
                 <p>
-                    <b>Tool count:</b> <a href="">${ids_COUNT}</a>
+                    <b>Tool count:</b> <a href="">${IDS_COUNT}</a>
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">

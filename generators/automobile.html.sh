@@ -27,7 +27,7 @@ cat << EOF
 				Packages that are used for tool or work ow automobile.</p>
                 <br />
                 <p>
-                    <b>Tool count:</b> <a href="">${automobile_COUNT}</a>
+                    <b>Tool count:</b> <a href="">${AUTOMOBILE_COUNT}</a>
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">
