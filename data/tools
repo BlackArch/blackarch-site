@@ -501,6 +501,7 @@ etherflood|1.1|Floods a switched network with Ethernet frames with random hardwa
 ettercap|0.8.2|A network sniffer/interceptor/logger for ethernet LANs - console| blackarch-sniffer |http://ettercap.github.com/ettercap/
 evil-ssdp|79.213a5c4|Spoof SSDP replies to phish for NetNTLM challenge/response on a network.| blackarch-spoof |https://gitlab.com/initstring/evil-ssdp
 evilginx|35.77a4bbf|Man-in-the-middle attack framework used for phishing credentials and session cookies of any web service.| blackarch-social |https://github.com/kgretzky/evilginx
+evilginx2|27.31f582b|Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication.| blackarch-social |https://github.com/kgretzky/evilginx2
 evilgrade|2.0.0|Modular framework that takes advantage of poor upgrade implementations by injecting fake updates| blackarch-misc |http://www.infobyte.com.ar/developments.html
 evilize|0.2|Tool to create MD5 colliding binaries.| blackarch-cracker |http://www.mathstat.dal.ca/~selinger/md5collision/
 evilmaid|1.01|TrueCrypt loader backdoor to sniff volume password| blackarch-cracker |http://theinvisiblethings.blogspot.com
@@ -827,7 +828,7 @@ issniff|294.79c6c2a|Internet Session Sniffer.| blackarch-sniffer |https://github
 ivre|0.9.11.dev21|Network recon framework.| blackarch-recon |https://ivre.rocks/
 jaadas|0.1|Joint Advanced Defect assEsment for android applications.| blackarch-scanner |https://github.com/flankerhqd/JAADAS/
 jad|1.5.8e|Java decompiler| blackarch-reversing |https://varaneckas.com/jad
-jadx|0.6.1|Command line and GUI tools to produce Java source code from Android Dex and APK files| blackarch-decompiler |https://github.com/skylot/jadx
+jadx|0.8.0|Command line and GUI tools to produce Java source code from Android Dex and APK files| blackarch-decompiler |https://github.com/skylot/jadx
 jaidam|18.15e0fec|Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well-known open source tools, WPScan and Joomscan.| blackarch-webapp |https://github.com/stasinopoulos/jaidam
 javasnoop|1.1|A tool that lets you intercept methods, alter data and otherwise hack Java applications running on your computer| blackarch-reversing |https://code.google.com/p/javasnoop/
 jboss-autopwn|1.3bc2d29|A JBoss script for obtaining remote shell access.| blackarch-exploitation |https://github.com/SpiderLabs/jboss-autopwn
@@ -1357,8 +1358,8 @@ python2-yara|3.8.1|Tool aimed at helping malware researchers to identify and cla
 qark|144.8f7cd41|Tool to look for several security related Android application vulnerabilities.| blackarch-mobile |https://github.com/linkedin/qark
 quickrecon|0.3.2|A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.| blackarch-recon |http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html
 quicksand-lite|28.857210e|Command line tool for scanning streams within office documents plus xor db attack.| blackarch-defensive |https://github.com/tylabs/quicksand_lite
-radare2|2.8.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
-radare2-cutter|1.7|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/cutter
+radare2|2.9.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
+radare2-cutter|1.7.1|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/cutter
 radare2-keystone|405.9214455|Keystone assembler plugins for radare2.| blackarch-disassembler |https://github.com/radare/radare2-extras/tree/master/unicorn
 radiography|2|A forensic tool which grabs as much information as possible from a Windows system.| blackarch-windows |http://www.security-projects.com/?RadioGraPhy
 rainbowcrack|1.6|Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.| blackarch-cracker |http://project-rainbowcrack.com/
@@ -1616,12 +1617,13 @@ sploitctl|74.05f466c|Fetch, install and search exploit archives from exploit sit
 sploitego|153.d9568dc|Maltego Penetration Testing Transforms.| blackarch-fuzzer |https://github.com/allfro/sploitego
 spoofcheck|16.8cce591|Simple script that checks a domain for email protections.| blackarch-recon |https://github.com/bishopfox/spoofcheck
 spooftooph|0.5.2|Designed to automate spoofing or cloning Bluetooth device Name, Class, and Address. Cloning this information effectively allows Bluetooth device to hide in plain sight| blackarch-bluetooth |http://www.hackfromacave.com/projects/spooftooph.html
+spookflare|17.6918464|Loader, dropper generator with multiple features for bypassing client-side and network-side countermeasures.| blackarch-automation |https://github.com/hlldz/SpookFlare
 sps|4.3|A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4.| blackarch-networking |https://sites.google.com/site/simplepacketsender/
 sqid|0.3|A SQL injection digger.| blackarch-webapp |http://sqid.rubyforge.org/
 sqlbrute|1.0|Brute forces data out of databases using blind SQL injection.| blackarch-fuzzer |http://www.justinclarke.com/archives/2006/03/sqlbrute.html
 sqldict|2.1|A dictionary attack tool for SQL Server.| blackarch-windows |http://ntsecurity.nu/toolbox/sqldict/
 sqlivulscan|249.cc8e657|This will give you the SQLi Vulnerable Website Just by Adding the Dork.| blackarch-scanner |https://github.com/Hadesy2k/sqlivulscan
-sqlmap|1.2.8|Automatic SQL injection and database takeover tool| blackarch-webapp |http://sqlmap.org
+sqlmap|1.2.9|Automatic SQL injection and database takeover tool| blackarch-webapp |http://sqlmap.org
 sqlninja|0.2.999|A tool targeted to exploit SQL Injection vulnerabilities on a web application that uses Microsoft SQL Server as its back-end.| blackarch-exploitation |http://sqlninja.sourceforge.net/
 sqlpat|1.0.1|This tool should be used to audit the strength of Microsoft SQL Server passwords offline.| blackarch-cracker |http://www.cqure.net/wp/sqlpat/
 sqlping|4|SQL Server scanning tool that also checks for weak passwords using wordlists.| blackarch-windows |http://www.sqlsecurity.com/downloads
