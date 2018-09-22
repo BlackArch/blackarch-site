@@ -111,6 +111,27 @@ cat <<EOF
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
+                                    <td itemprop="givenName">Eduard Toloza</td>
+                                    <td itemprop="additionalName">Edu4rdSHL</td>
+                                    <td itemprop="email">tolosaeduard@gmail.com</td>
+                                    <td><a href="gpgkeys/Edu4rdSHL.asc" target="_blank">0x09F553E5</a></td>
+                                    <td itemprop="jobTitle">Developer</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Vechtomov German</td>
+                                    <td itemprop="additionalName">mrsmith0x00</td>
+                                    <td itemprop="email">mrsmith0x00@gmail.com</td>
+                                    <td><a href="gpgkeys/mrsmith0x00.asc" target="_blank">0x43FB1128</a></td>
+                                    <td itemprop="jobTitle">Developer</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Filipe Lains</td>
+                                    <td itemprop="additionalName">FFY00</td>
+                                    <td itemprop="email">lains@archlinux.org</td>
+                                    <td><a href="gpgkeys/FFY00.asc" target="_blank">0xB0EB4BF2</a></td>
+                                    <td itemprop="jobTitle">Contributor</td>
+                                </tr>
+                                <tr>
                                     <td itemprop="givenName">Dimitri Mader</td>
                                     <td itemprop="additionalName">anyon3</td>
                                     <td itemprop="email">dimitri@linux.com</td>
