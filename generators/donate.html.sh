@@ -72,6 +72,24 @@ cat <<\EOF
 	         <tbody>
 	            <tr>
 	             <td class=tbl-name>Anonymous</td>
+	             <td class="tbl-dversion vcat">20,00 USD</td>
+	             <td class="tbl-ddescription dcat">15 October 2018</td>
+	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+	            </tr>
+	            <tr>
+	             <td class=tbl-name>Anonymous</td>
+	             <td class="tbl-dversion vcat">5,00 USD</td>
+	             <td class="tbl-ddescription dcat">17 September 2018</td>
+	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+	            </tr>
+	            <tr>
+	             <td class=tbl-name>Anonymous</td>
+	             <td class="tbl-dversion vcat">5,00 USD</td>
+	             <td class="tbl-ddescription dcat">03 August 2018</td>
+	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
+	            </tr>
+	            <tr>
+	             <td class=tbl-name>Anonymous</td>
 	             <td class="tbl-dversion vcat">100,00 USD</td>
 	             <td class="tbl-ddescription dcat">17 October 2017</td>
 	             <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fa fa-external-link fa-lg"></i></a></td>
