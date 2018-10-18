@@ -94,7 +94,7 @@ auto-xor-decryptor|7.2eb176d|Automatic XOR decryptor tool.| blackarch-crypto |ht
 automato|26.0aa769d|Should help with automating some of the user-focused enumeration tasks during an internal penetration test.| blackarch-automation |https://github.com/skahwah/automato
 autonessus|24.7933022|This script communicates with the Nessus API in an attempt to help with automating scans.| blackarch-automation |https://github.com/redteamsecurity/AutoNessus
 autonse|21.73a6021|Massive NSE (Nmap Scripting Engine) AutoSploit and AutoScanner.| blackarch-automation |https://github.com/m4ll0k/AutoNSE
-autopsy|4.8.0|The Autopsy Forensic Browser is a GUI for The Sleuth Kit.| blackarch-forensic |http://www.sleuthkit.org/autopsy/
+autopsy|4.9.0|The forensic browser. A GUI for the Sleuth Kit.| blackarch-forensic |http://www.sleuthkit.org/autopsy/
 autopwn|177.2f3f605|Specify targets and run sets of tools against them.| blackarch-automation |https://github.com/nccgroup/autopwn
 autosint|234.e1f4937|Tool to automate common osint tasks.| blackarch-recon |https://github.com/bharshbarger/AutOSINT
 autosploit|29.c25865d|Automate the exploitation of remote hosts.| blackarch-exploitation |https://github.com/NullArray/AutoSploit
@@ -475,6 +475,7 @@ easyfuzzer|3.6|A flexible fuzzer, not only for web, has a CSV output for efficie
 eazy|0.1|This is a small python tool that scans websites to look for PHP shells, backups, admin panels, and more.| blackarch-scanner |http://packetstormsecurity.com/files/117572/EAZY-Web-Scanner.html
 ecfs|303.d72c0e5|Extended core file snapshot format.| blackarch-binary |https://github.com/elfmaster/ecfs
 edb|1.0.0|A QT4-based binary mode debugger with the goal of having usability on par with OllyDbg.| blackarch-debugger |http://www.codef00.com/projects.php#Debugger
+eggshell|157.eaeeea7|iOS/macOS/Linux Remote Administration Tool.| blackarch-backdoor |https://github.com/neoneggplant/EggShell
 eigrp-tools|0.1|This is a custom EIGRP packet generator and sniffer developed to test the security and overall operation quality of this brilliant Cisco routing protocol.| blackarch-sniffer |http://www.hackingciscoexposed.com/?link=tools
 eindeutig|20050628_1|Examine the contents of Outlook Express DBX email repository files (forensic purposes)| blackarch-forensic |http://www.jonesdykstra.com/
 elettra|1.0|Encryption utility by Julia Identity| blackarch-misc |http://www.winstonsmith.info/julia/elettra/
@@ -1031,6 +1032,7 @@ minimysqlator|0.5|A multi-platform application used to audit web sites in order 
 miranda-upnp|1.3|A Python-based Universal Plug-N-Play client application designed to discover, query and interact with UPNP devices| blackarch-exploitation |http://code.google.com/p/miranda-upnp/
 missidentify|1.0|A program to find Win32 applications.| blackarch-recon |http://missidentify.sourceforge.net/
 missionplanner|1.2.55|A GroundControl Station for Ardupilot.| blackarch-drone |https://code.google.com/p/ardupilot-mega/wiki/Mission
+mitm-relay|14.31822b2|Hackish way to intercept and modify non-HTTP protocols through Burp & others.| blackarch-proxy |https://github.com/jrmdev/mitm_relay
 mitmap|88.ab099ce|A python program to create a fake AP and sniff data.| blackarch-wireless |https://github.com/xdavidhu/mitmAP
 mitmap-old|0.1|Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.| blackarch-automation |http://www.darkoperator.com/tools-and-scripts/
 mitmer|22.b01c7fe|A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.| blackarch-sniffer |https://github.com/husam212/MITMer
@@ -1383,8 +1385,8 @@ python2-yara|3.8.1|Tool aimed at helping malware researchers to identify and cla
 qark|144.8f7cd41|Tool to look for several security related Android application vulnerabilities.| blackarch-mobile |https://github.com/linkedin/qark
 quickrecon|0.3.2|A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.| blackarch-recon |http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html
 quicksand-lite|28.857210e|Command line tool for scanning streams within office documents plus xor db attack.| blackarch-defensive |https://github.com/tylabs/quicksand_lite
-radare2|2.9.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
-radare2-cutter|1.7.1|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/cutter
+radare2|3.0.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
+radare2-cutter|1.7.2.r20.g705735c|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/cutter
 radare2-keystone|470.b22e3a3|Keystone assembler plugins for radare2.| blackarch-reversing |https://github.com/radare/radare2-extras/tree/master/unicorn
 radiography|2|A forensic tool which grabs as much information as possible from a Windows system.| blackarch-windows |http://www.security-projects.com/?RadioGraPhy
 rainbowcrack|1.7|Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.| blackarch-cracker |http://project-rainbowcrack.com/
@@ -1567,7 +1569,7 @@ skul|27.7bd83f1|A PoC to bruteforce the Cryptsetup implementation of Linux Unifi
 skyjack|16.24e3878|Takes over Parrot drones, deauthenticating their true owner and taking over control, turning them into zombie drones under your own control.| blackarch-drone |https://github.com/samyk/skyjack
 skype-dump|0.1|This is a tool that demonstrates dumping MD5 password hashes from the configuration file in Skype.| blackarch-windows |http://packetstormsecurity.com/files/119155/Skype-Hash-Dumper.0.html
 skypefreak|33.9347a65|A Cross Platform Forensic Framework for Skype.| blackarch-forensic |http://osandamalith.github.io/SkypeFreak/
-sleuthkit|4.6.2|File system and media management forensic analysis tools| blackarch-forensic |http://www.sleuthkit.org/sleuthkit
+sleuthkit|4.6.3|File system and media management forensic analysis tools| blackarch-forensic |http://www.sleuthkit.org/sleuthkit
 sleuthql|9.29fc878|Python3 Burp History parsing tool to discover potential SQL injection points. To be used in tandem with SQLmap.| blackarch-misc |https://github.com/RhinoSecurityLabs/SleuthQL
 sloth-fuzzer|39.9f7f59a|A smart file fuzzer.| blackarch-fuzzer |https://github.com/mfontanini/sloth-fuzzer
 slowloris|0.7|A tool which is written in perl to test http-server vulnerabilites for connection exhaustion denial of service (DoS) attacks so you can enhance the security of your webserver.| blackarch-dos |http://ha.ckers.org/slowloris/
@@ -2029,7 +2031,7 @@ yasca|2.1|Multi-Language Static Analysis Toolset.| blackarch-code-audit |http://
 yasuo|121.994dcb1|A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network.| blackarch-webapp |https://github.com/0xsauby/yasuo
 yate-bts|6.0.0|An open source GSM Base Station software.| blackarch-radio |https://yatebts.com/
 yawast|548.9eec969|The YAWAST Antecedent Web Application Security Toolkit.| blackarch-webapp |https://github.com/adamcaudill/yawast
-yay|8.1157.0|Yet another yogurt. Pacman wrapper and AUR helper written in go.| blackarch-misc |https://github.com/Jguer/yay
+yay|8.1173.0|Yet another yogurt. Pacman wrapper and AUR helper written in go.| blackarch-misc |https://github.com/Jguer/yay
 ycrawler|0.1|A web crawler that is useful for grabbing all user supplied input related to a given website and will save the output. It has proxy and log file support.| blackarch-webapp |http://packetstormsecurity.com/files/98546/yCrawler-Web-Crawling-Utility.html
 yersinia|0.8.2|A network tool designed to take advantage of some weakness in different network protocols.| blackarch-networking |http://www.yersinia.net/
 yinjector|0.1|A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods.| blackarch-exploitation |http://packetstormsecurity.com/files/98359/yInjector-MySQL-Injection-Tool.html
