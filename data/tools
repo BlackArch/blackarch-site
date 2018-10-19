@@ -208,6 +208,7 @@ bsqlinjector|13.027184f|Blind SQL injection exploitation tool written in ruby.| 
 bss|0.8|Bluetooth stack smasher / fuzzer| blackarch-bluetooth |http://www.secuobs.com/news/15022006-bss_0_8.shtml
 bt_audit|0.1.1|Bluetooth audit| blackarch-bluetooth |http://www.betaversion.net/btdsd/download/
 btcrack|1.1|The world's first Bluetooth Pass phrase (PIN) bruteforce tool. Bruteforces the Passkey and the Link key from captured Pairing exchanges.| blackarch-bluetooth |http://www.nruns.com/_en/security_tools_btcrack.php
+btlejack|1.3.0|Bluetooth Low Energy Swiss-army knife.| blackarch-bluetooth |https://github.com/virtualabs/btlejack
 btproxy-mitm|71.cd1c906|Man in the Middle analysis tool for Bluetooth.| blackarch-bluetooth |https://github.com/conorpp/btproxy
 btscanner|2.1|Bluetooth device scanner.| blackarch-bluetooth |http://www.pentest.co.uk
 bulk-extractor|1.5.5|Bulk Email and URL extraction tool.| blackarch-forensic |https://github.com/simsong/bulk_extractor
@@ -285,6 +286,7 @@ cloakify|115.893c539|Data Exfiltration In Plain Sight; Evade DLP/MLS Devices; So
 cloudfail|56.1b1549a|Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network.| blackarch-recon |https://github.com/m0rtem/CloudFail
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.| blackarch-scanner |https://github.com/mandatoryprogrammer/cloudflare_enum
 cloudget|53.807d08e|Python script to bypass cloudflare from command line. Built upon cfscrape module.| blackarch-webapp |https://github.com/eudemonics/cloudget
+cloudsploit|229.617070b|AWS security scanning checks.| blackarch-scanner |https://github.com/cloudsploit/scans
 clusterd|143.d190b2c|Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.| blackarch-automation |https://github.com/hatRiot/clusterd
 cminer|25.d766f7e|A tool for enumerating the code caves in PE files.| blackarch-binary |https://github.com/EgeBalci/Cminer/
 cmospwd|5.0|Decrypts password stored in CMOS used to access BIOS setup.| blackarch-cracker |http://www.cgsecurity.org/wiki/CmosPwd
@@ -910,7 +912,7 @@ ldap-brute|21.acc06e3|A semi fast tool to bruteforce values of LDAP injections o
 ldapenum|0.1|Enumerate domain controllers using LDAP.| blackarch-recon |https://gobag.googlecode.com/svn-history/r2/trunk/ldap/ldapenum/
 ldapscripts|2.0.8|Simple shell scripts to handle POSIX entries in an LDAP directory.| blackarch-automation |https://sourceforge.net/projects/ldapscripts
 leena|2.5119f56|Symbolic execution engine for JavaScript| blackarch-binary |https://github.com/mmicu/leena
-leo|5.7|Literate programmer's editor, outliner, and project manager.| blackarch-misc |http://webpages.charter.net/edreamleo/front.html
+leo|5.8|Literate programmer's editor, outliner, and project manager.| blackarch-misc |https://github.com/leo-editor/leo-editor/
 leroy-jenkins|3.bdc3965|A python tool that will allow remote execution of commands on a Jenkins server and its nodes.| blackarch-exploitation |https://github.com/captainhooligan/Leroy-Jenkins
 letmefuckit-scanner|3.f3be22b|Scanner and Exploit Magento.| blackarch-scanner |https://github.com/onthefrontline/LetMeFuckIt-Scanner
 leviathan|35.a1a1d8c|A mass audit toolkit which has wide range service discovery, brute force, SQL injection detection and running custom exploit capabilities.| blackarch-scanner |https://github.com/leviathan-framework/leviathan
@@ -1374,13 +1376,13 @@ pytacle|alpha2|Automates the task of sniffing GSM frames| blackarch-sniffer |htt
 pytbull|2.1|A python based flexible IDS/IPS testing framework shipped with more than 300 tests.| blackarch-scanner |http://pytbull.sourceforge.net/
 pythem|454.e4fcb8a|python2 penetration testing framework.| blackarch-scanner |https://github.com/m4n3dw0lf/PytheM
 python-capstone|3.0.5|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
-python-jsbeautifier|1.8.7|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
+python-jsbeautifier|1.8.8|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python-python-cymruwhois|30.022e16d|Python client for the whois.cymru.com service| blackarch-networking |https://github.com/JustinAzoff/python-cymruwhois
 python-shodan|1.8.1|Python library for Shodan (https://developer.shodan.io).| blackarch-automation |http://github.com/achillean/shodan-python
 python-utidylib|0.2|Python bindings for Tidy HTML parser/cleaner.| blackarch-misc |http://utidylib.berlios.de
 python-yara-rednaga|3.8.1.r1.g39c475a|The Python interface for YARA.| |https://github.com/rednaga/yara-python
 python2-capstone|3.0.5|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
-python2-jsbeautifier|1.8.7|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
+python2-jsbeautifier|1.8.8|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python2-yara|3.8.1|Tool aimed at helping malware researchers to identify and classify malware samples| blackarch-malware |https://github.com/VirusTotal/yara-python
 qark|144.8f7cd41|Tool to look for several security related Android application vulnerabilities.| blackarch-mobile |https://github.com/linkedin/qark
 quickrecon|0.3.2|A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.| blackarch-recon |http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html
@@ -1736,6 +1738,7 @@ t50|5.8.2|Experimental Multi-protocol Packet Injector Tool.| blackarch-dos |http
 tabi|13.068a406|BGP Hijack Detection.| blackarch-defensive |https://github.com/ANSSI-FR/tabi
 tachyon-scanner|442.a909305|Fast Multi-Threaded Web Discovery Tool.| blackarch-scanner |https://github.com/delvelabs/tachyon
 tactical-exploitation|78.66f8e2b|Modern tactical exploitation toolkit.| blackarch-scanner |https://github.com/0xdea/tactical-exploitation
+taipan|1.7|Web application security scanner.| blackarch-scanner |https://github.com/enkomio/Taipan
 taof|0.3.2|Taof is a GUI cross-platform Python generic network protocol fuzzer.| blackarch-fuzzer |http://taof.sf.net
 tbear|1.5|Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetooth DoS tool, and a Bluetooth hidden device locator.| blackarch-bluetooth |http://freshmeat.net/projects/t-bear
 tcgetkey|0.1|A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.| blackarch-dos |http://packetstormsecurity.com/files/119146/tcgetkey.1.html
