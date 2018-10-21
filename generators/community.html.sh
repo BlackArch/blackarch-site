@@ -76,7 +76,7 @@ cat <<\EOF
                 </div>
                 <br />
                 <div class="community-head">
-                    <b>IRC</b>
+                    <b>IRC & Discord</b>
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
@@ -98,6 +98,10 @@ cat <<\EOF
                     </p>
                     <p>
                     	If you aren't familiar with the protocol IRC, use the <a href="https://webchat.freenode.net/" title="Webchat" target=_blank>webchat</a> of Freenode. Just enter any nickname and the channel #blackarch <i>(don't forget #)</i> for join us now.
+                    </p>
+                    <p>
+                        You can find the official BlackArch Discord channel here:
+                        <a href="https://discord.gg/tk3224p" target="_blank">#blackarch</a> on Discord
                     </p>
                 </div>
                 <br />
