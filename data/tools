@@ -397,6 +397,7 @@ dirhunt|186.77d16d0|Find web directories without bruteforce.| blackarch-webapp |
 dirscanner|0.1|This is a python script that scans webservers looking for administrative directories, php shells, and more.| blackarch-scanner |http://packetstormsecurity.com/files/117773/Directory-Scanner-Tool.html
 dirsearch|263.37c54d1|HTTP(S) directory/file brute forcer.| blackarch-webapp |https://github.com/maurosoria/dirsearch
 disitool|0.3|Tool to work with Windows executables digital signatures.| blackarch-forensic |https://blog.didierstevens.com/my-software/#disitool
+dislocker|0.7.1|Read BitLocker encrypted volumes under Linux| blackarch-crypto |http://www.hsc.fr/ressources/outils/dislocker
 dissector|1|This code dissects the internal data structures in ELF files. It supports x86 and x86_64 archs and runs under Linux.| blackarch-binary |http://packetstormsecurity.com/files/125972/Coloured-ELF-File-Dissector.html
 dizzy|0.8.3|A Python based fuzzing framework with many features.| blackarch-fuzzer |http://www.c0decafe.de/
 dmitry|1.3a|Deepmagic Information Gathering Tool. Gathers information about hosts. It is able to gather possible subdomains, email addresses, and uptime information and run tcp port scans, whois lookups, and more.| blackarch-scanner |http://www.mor-pah.net/
@@ -591,7 +592,7 @@ fraud-bridge|10.775c563|ICMP and DNS tunneling via IPv4 and IPv6.| blackarch-tun
 freeipmi|1.5.7|Sensor monitoring, system event monitoring, power control, and serial-over-LAN (SOL).| blackarch-networking |http://www.gnu.org/software/freeipmi/
 freeradius|3.0.17|The premier open source RADIUS server| blackarch-wireless |https://freeradius.org/
 freewifi|30.1cb752b|How to get free wifi.| blackarch-wireless |https://github.com/kylemcdonald/FreeWifi
-frida|12.2.5|Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android.| blackarch-reversing |http://www.frida.re
+frida|12.2.18|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |http://www.frida.re
 fridump|19.d3b86eb|A universal memory dumper using Frida.| blackarch-forensic |https://github.com/Nightbringer21/fridump
 frisbeelite|1.2|A GUI-based USB device fuzzer.| blackarch-fuzzer |https://github.com/nccgroup/FrisbeeLite
 fs-exploit|3.28bb9bb|Format string exploit generation.| blackarch-exploitation |https://github.com/miaouPlop/fs
@@ -825,7 +826,7 @@ iphoneanalyzer|2.1.0|Allows you to forensically examine or recover date from in 
 ipmipwn|6.74a08a8|IPMI cipher 0 attack tool.| blackarch-cracker |https://github.com/AnarchyAngel/IPMIPWN
 ipmitool|1.8.18|Command-line interface to IPMI-enabled devices| blackarch-networking |http://ipmitool.sourceforge.net
 ipobfuscator|26.0a7f802|A simple tool to convert the IP to a DWORD IP.| blackarch-misc |https://github.com/OsandaMalith/IPObfuscator
-ipscan|3.5.3|Angry IP scanner is a very fast IP address and port scanner.| blackarch-scanner |http://www.angryziber.com/
+ipscan|3.5.3|A very fast IP address and port scanner.| blackarch-scanner |http://angryip.org
 iptodomain|18.f1afcd7|This tool extract domains from IP address based in the information saved in virustotal.| blackarch-recon |https://github.com/Hackplayers/iptodomain
 iptv|136.de37822|Search and brute force illegal iptv server.| blackarch-scanner |https://github.com/Pinperepette/IPTV
 iputils|20180629.f6aac8d|Network monitoring tools, including ping| blackarch-networking |http://www.skbuff.net/iputils/
@@ -1006,6 +1007,7 @@ mdcrack|1.2|MD4/MD5/NTLM1 hash cracker| blackarch-cracker |http://c3rb3r.openwal
 mdk3|v6|WLAN penetration tool| blackarch-wireless |http://aspj.aircrack-ng.org/
 mdns-recon|10.81ecf94|An mDNS recon tool written in Python.| blackarch-recon |https://github.com/chadillac/mdns_recon
 mdns-scan|0.5|Scan mDNS/DNS-SD published services on the local network.| blackarch-networking |
+meanalyzer|1.70.2|Intel Engine Firmware Analysis Tool.| blackarch-firmware |https://github.com/platomav/MEAnalyzer
 medusa|2.2|Speedy, massively parallel and modular login brute-forcer for network| blackarch-cracker |http://www.foofus.net/jmk/medusa/medusa.html
 melkor|1.0|An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does not change values randomly (dumb fuzzing), instead, it fuzzes certain metadata with semi-valid values through the use of fuzzing rules (knowledge base).| blackarch-fuzzer |http://packetstormsecurity.com/files/127924/Melkor-ELF-Fuzzer.0.html
 memdump|1.01|Dumps system memory to stdout, skipping over holes in memory maps.| blackarch-forensic |http://www.porcupine.org/forensics/tct.html
@@ -1792,7 +1794,7 @@ tomcatwardeployer|78.1a53196|Apache Tomcat auto WAR deployment & pwning penetrat
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.| blackarch-scanner |https://github.com/toperaproject/topera
 tor|0.3.4.8|Anonymizing overlay network.| blackarch-proxy |https://www.torproject.org/
 tor-autocircuit|0.2|Tor Autocircuit was developed to give users a finer control over Tor circuit creation. The tool exposes the functionality of TorCtl library which allows its users to control circuit length, speed, geolocation, and other parameters.| blackarch-defensive |http://www.thesprawl.org/projects/tor-autocircuit/
-tor-browser-en|8.0.2|Tor Browser Bundle: anonymous browsing using Firefox and Tor| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
+tor-browser-en|8.0.3|Tor Browser Bundle: anonymous browsing using Firefox and Tor| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
 torshammer|1.0|A slow POST Denial of Service testing tool written in Python.| blackarch-dos |http://sourceforge.net/projects/torshammer/
 torsocks|2.2.0|Wrapper to safely torify applications| blackarch-proxy |https://gitweb.torproject.org/torsocks.git/
 tpcat|latest|TPCAT is based upon pcapdiff by the EFF. TPCAT will analyze two packet captures (taken on each side of the firewall as an example) and report any packets that were seen on the source capture but didn’t make it to the dest.| blackarch-misc |http://sourceforge.net/projects/tpcat/
@@ -1857,7 +1859,7 @@ uw-zone|0.1|Multi threaded, randomized IP zoner.| blackarch-scanner |http://uber
 v3n0m|311.181e612|A tool to automate mass SQLi d0rk scans and Metasploit Vulns.| blackarch-scanner |https://github.com/v3n0m-Scanner/V3n0M-Scanner
 vais|17.5c35c3a|SWF Vulnerability & Information Scanner.| blackarch-scanner |https://github.com/hahwul/vais
 valabind|1.6.0|Tool to parse vala or vapi files to transform them into swig interface files, C++, NodeJS-ffi or GIR| blackarch-misc |https://radare.org/r/
-valgrind|3.13.0+290+2b0aa0a5|Tool to help find memory-management problems in programs| blackarch-binary |http://valgrind.org/
+valgrind|3.14.0|Tool to help find memory-management problems in programs| blackarch-binary |http://valgrind.org/
 vane|1898.872a1c2|A vulnerability scanner which checks the security of WordPress installations using a black box approach.| blackarch-scanner |https://github.com/delvelabs/vane
 vanguard|0.1|A comprehensive web penetration testing tool written in Perl thatidentifies vulnerabilities in web applications.| blackarch-webapp |http://packetstormsecurity.com/files/110603/Vanguard-Pentesting-Scanner.html
 vbrute|1.11dda8b|Virtual hosts brute forcer.| blackarch-recon |https://github.com/nccgroup/vbrute
