@@ -267,6 +267,8 @@ cat << EOF
               <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank" itemprop="url">http://blackarch.leneveu.fr/blackarch/</a><br>
               <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
               <a href="https://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">https://mirror.adversec.com/blackarch/</a>
+              <a href="http://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">http://mirror.cyberbits.eu/blackarch/</a>
+              <a href="https://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">https://mirror.cyberbits.eu/blackarch/</a>
               <br><br>
               <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
               <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">http://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
