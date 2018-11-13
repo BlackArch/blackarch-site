@@ -44,10 +44,10 @@ make_tmp_dir()
 
 check_internet()
 {
-  tool=$(which ping 2> /dev/null)
-  tool_opts="-c 3 -W 5 -w 5 "
+  tool='curl'
+  tool_opts='-s --connect-timeout 8'
 
-  if ! $tool $tool_opts 1.1.1.1 > /dev/null 2>&1; then
+  if ! $tool $tool_opts https://microsoft.com/ > /dev/null 2>&1; then
     err "You don't have an Internet connection!"
   fi
 

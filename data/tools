@@ -74,7 +74,7 @@ argus|3.0.8.2|Network monitoring tool with flow control.| blackarch-networking |
 argus-clients|3.0.8.2|Network monitoring client for Argus.| blackarch-networking |http://qosient.com/argus/
 armitage|150813|A graphical cyber attack management tool for Metasploit.| blackarch-exploitation |http://www.fastandeasyhacking.com/
 armscgen|98.c51b7d6|ARM Shellcode Generator (Mostly Thumb Mode).| blackarch-exploitation |https://github.com/alexpark07/ARMSCGen
-arp-scan|1.9|A tool that uses ARP to discover and fingerprint IP hosts on the local network| blackarch-networking |http://www.nta-monitor.com/tools/arp-scan/
+arp-scan|1.9|A tool that uses ARP to discover and fingerprint IP hosts on the local network| blackarch-networking |https://github.com/royhills/arp-scan
 arpalert|2.0.12|Monitor ARP changes in ethernet networks.| blackarch-networking |http://www.arpalert.org/
 arpoison|0.7|The UNIX arp cache update utility| blackarch-exploitation |http://www.arpoison.net
 arpon|2.7|A portable handler daemon that make ARP protocol secure in order to avoid the Man In The Middle (MITM) attack through ARP Spoofing, ARP Cache Poisoning or ARP Poison Routing (APR) attacks.| blackarch-defensive |http://arpon.sourceforge.net/
@@ -222,7 +222,7 @@ bvi|1.4.0|A display-oriented editor for binary files operate like "vi" editor.| 
 bytecode-viewer|2.9.11|A Java 8/Android APK Reverse Engineering Suite.| blackarch-binary |https://github.com/Konloch/bytecode-viewer
 c5scan|29.33a500c|Vulnerability scanner and information gatherer for the Concrete5 CMS.| blackarch-webapp |https://github.com/auraltension/c5scan
 cachedump|1.1|A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).| blackarch-windows |https://packetstormsecurity.com/files/36781/cachedump.1.zip.html
-cadaver|0.23.3|Command-line WebDAV client for Unix| blackarch-networking |http://www.webdav.org/cadaver
+cadaver|0.23.3|Command-line WebDAV client for Unix| blackarch-networking |https://packages.debian.org/jessie/cadaver
 cameradar|2.1.0|Hacks its way into RTSP videosurveillance cameras.| blackarch-scanner |https://github.com/Ullaakut/cameradar
 camscan|1.0057215|A tool which will analyze the CAM table of Cisco switches to look for anamolies.| blackarch-scanner |https://github.com/securestate/camscan
 canari|3.3.9|A transform framework for maltego.| blackarch-forensic |https://pypi.org/project/canari/#files
@@ -768,7 +768,7 @@ httpry|0.1.8|A specialized packet sniffer designed for displaying and logging HT
 httpscreenshot|53.888faaf|A tool for grabbing screenshots and HTML of large numbers of websites.| blackarch-misc |https://github.com/breenmachine/httpscreenshot
 httpsniff|0.4|Tool to sniff HTTP responses from TCP/IP based networks and save contained files locally for later review.| blackarch-sniffer |http://www.sump.org/projects/httpsniff/
 httpsscanner|1.2|A tool to test the strength of a SSL web server.| blackarch-scanner |https://code.google.com/p/libre-tools/
-httptunnel|3.3|Creates a bidirectional virtual data connection tunnelled in HTTP requests| blackarch-tunnel |http://www.nocrew.org/software/httptunnel
+httptunnel|3.3|Creates a bidirectional virtual data connection tunnelled in HTTP requests| blackarch-tunnel |https://github.com/larsbrinkhoff/httptunnel
 httrack|3.49.2|An easy-to-use offline browser utility| blackarch-misc |http://www.httrack.com/
 hubbit-sniffer|74.460ecf8|Simple application that listens for WIFI-frames and records the mac-address of the sender and posts them to a REST-api.| blackarch-sniffer |https://github.com/cthit/hubbIT-sniffer
 hulk|23.124b6e0|A webserver DoS tool (Http Unbearable Load King) ported to Go with some additional features.| blackarch-dos |https://github.com/grafov/hulk
@@ -1719,7 +1719,7 @@ stepic|0.3|A python image steganography tool.| blackarch-stego |http://domnit.or
 sticky-keys-hunter|15.c816fc9|Script to test an RDP host for sticky keys and utilman backdoor.| blackarch-scanner |https://github.com/ztgrace/sticky_keys_hunter
 stompy|0.0.4|An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.| blackarch-misc |http://lcamtuf.coredump.cx/
 storm-ring|0.1|This simple tool is useful to test a PABX with "allow guest" parameter set to "yes" (in this scenario an anonymous caller could place a call).| blackarch-voip |http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html
-strace|4.24|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
+strace|4.25|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
 streamfinder|1.2|Searches for Alternate Data Streams (ADS).| blackarch-windows |https://www.gaijin.at/en/dlstreamfind.php
 striker|57.763ff3f|An offensive information and vulnerability scanner.| blackarch-scanner |https://github.com/UltimateHackers/Striker
 striptls|53.eff1d59|Proxy PoC implementation of STARTTLS stripping attacks.| blackarch-proxy |https://github.com/tintinweb/striptls
@@ -1849,7 +1849,7 @@ ufo-wardriving|4|Allows you to test the security of wireless networks by detecti
 ufonet|44.9c5e267|A tool designed to launch DDoS attacks against a target, using 'Open Redirect' vectors on third party web applications, like botnet.| blackarch-dos |https://github.com/epsylon/ufonet
 umap|25.3ad8121|The USB host security assessment tool.| blackarch-scanner |https://github.com/nccgroup/umap
 umit|1.0|A powerful nmap frontend.| blackarch-networking |http://www.umitproject.org/
-unhide|20130526|A forensic tool to find processes hidden by rootkits, LKMs or by other techniques.| blackarch-forensic |http://sourceforge.net/projects/unhide/
+unhide|20130526|A forensic tool to find processes hidden by rootkits, LKMs or by other techniques.| blackarch-forensic |https://sourceforge.net/projects/unhide/
 unibrute|1.b3fb4b7|Multithreaded SQL union bruteforcer.| blackarch-exploitation |https://github.com/GDSSecurity/Unibrute
 unicorn-powershell|130.045ab41|A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.| blackarch-backdoor |https://github.com/trustedsec/unicorn
 unicornscan|0.4.7|A new information gathering and correlation engine.| blackarch-scanner |http://www.unicornscan.org/
