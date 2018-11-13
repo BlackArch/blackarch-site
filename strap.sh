@@ -44,18 +44,11 @@ make_tmp_dir()
 
 check_internet()
 {
-  tool=$(which host 2> /dev/null)
-  tool_opts="-4 -W 5 -t a "
+  tool=$(which ping 2> /dev/null)
+  tool_opts="-c 3 -W 5 -w 5 "
 
-  if [ "${tool}" = "" ]; then
-    tool=$(which ping 2> /dev/null)
-    tool_opts="-c 3 -W 5 -w 5 "
-  fi
-
-  if ! ${tool} ${tool_opts} github.com > /dev/null 2>&1; then
-    if ! ${tool} ${tool_opts} microsoft.com > /dev/null 2>&1; then
-      err "You don't have an Internet connection!"
-    fi
+  if ! $tool $tool_opts 1.1.1.1 > /dev/null 2>&1; then
+    err "You don't have an Internet connection!"
   fi
 
   return $SUCCESS
