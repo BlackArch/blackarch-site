@@ -113,10 +113,10 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2018.08.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
-                  <td itemprop="datePublished">2018.08.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-2018.08.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>19 GB</td>
+                  <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2018.12.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                  <td itemprop="datePublished">2018.12.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-2018.12.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td>24 GB</td>
                   <td>${OVA_CHECKSUM}</td>
                 </tr>
               </table>
