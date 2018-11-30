@@ -54,7 +54,6 @@ cat <<\EOF
                   <li>updated all blackarch tools and packages including config files</li>
                   <li>updated all system packages</li>
                   <li>updated all window manager menus (awesome, fluxbox, openbox)</li>
-                  <li>re-add multilib</li>
                 </ul>
               </p>
               <p>
