@@ -29,6 +29,40 @@ cat <<\EOF
           <ul class="list-group nblog">
             <li class="list-group-item">
 
+            <article id=p98 itemscope itemtype="http://schema.org/NewsArticle">
+            <header>
+              <time itemprop="datePublished">Mon, 01 Dec 2018 00:00:00 GMT</time>
+              <h4 itemprop="name">New ISOs and OVA Image released!</h4>
+            </header>
+            <div itemprop="description">
+              <p>
+                Today we released the new BlackArch Linux ISOs and OVA image. For details see the ChangeLog below.
+              </p>
+              <p>Here's the ChangeLog:</p>
+                <ul>
+                  <li>added more than 150 new tools</li>
+                  <li>enabled wicd service by default</li>
+                  <li>removed dwm window manager</li>
+                  <li>removed wmii window manager</li>
+                  <li>added bactl package (script to config and setup BlackArch environment)</li>
+                  <li>included every tool of BlackArch except: cuda-/oclhashcat, vmcloak, theZoo</li>
+                  <li>included linux kernel 4.19.4</li>
+                  <li>included wordlistctl (https://github.com/BlackArch/wordlistctl))</li>
+                  <li>updated blackarch-installer to v1.0.3</li>
+                  <li>updated default ISO files (synced with archiso's template)</li>
+                  <li>package QAs (runtime checks) were performed prior the ISO build</li>
+                  <li>updated all blackarch tools and packages including config files</li>
+                  <li>updated all system packages</li>
+                  <li>updated all window manager menus (awesome, fluxbox, openbox)</li>
+                  <li>re-add multilib</li>
+                </ul>
+              </p>
+              <p>
+                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+              </p>
+            </div>
+            </article>
+
             <article id=p97 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Mon, 01 Aug 2018 00:00:00 GMT</time>
