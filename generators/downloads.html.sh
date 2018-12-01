@@ -61,14 +61,14 @@ cat << EOF
                 <tr>
                   <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                   <td itemprop="datePublished">2018.12.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-live-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><!--<a href="/blackarch/torrent/blackarch-linux-live-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">-->Torrent (not yet)<!--</a>--></td>
                   <td>11 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
                   <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                   <td itemprop="datePublished">2018.12.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><!--<a href="/blackarch/torrent/blackarch-linux-netinst-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">-->Torrent (not yet)<!--</a>--></td>
                   <td>624 MB</td>
                   <td>${NET_CHECKSUM}</td>
                 </tr>
