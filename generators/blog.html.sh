@@ -29,6 +29,18 @@ cat <<\EOF
           <ul class="list-group nblog">
             <li class="list-group-item">
 
+            <article id=p99 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Sat, 04 Dec 2018 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in Hungary! </h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://quantum-mirror.hu" target="_blank">quantum-mirror.hu </a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="http://quantum-mirror.hu/mirrors/pub/blackarch" target="_blank">http</a> |
+                <a href="https://quantum-mirror.hu/mirrors/pub/blackarch" target="_blank">https</a> |
+                <a href="rsync://quantum-mirror.hu/blackarch" target="_blank">rsync</a>
+              </div>
+            </article>
+
             <article id=p98 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Mon, 01 Dec 2018 00:00:00 GMT</time>
