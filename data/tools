@@ -35,12 +35,12 @@ ajpfuzzer|0.6|A command-line fuzzer for the Apache JServ Protocol (ajp13).| blac
 albatar|24.142f892|A SQLi exploitation framework in Python.| blackarch-webapp |https://github.com/lanjelot/albatar
 allthevhosts|1.0|A vhost discovery tool that scrapes various web applications.| blackarch-scanner |http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/
 altdns|58.319404d|Generates permutations, alterations and mutations of subdomains and then resolves them.| blackarch-recon |https://github.com/infosec-au/altdns
-amass|2.8.4|In-depth subdomain enumeration written in Go.| blackarch-scanner |https://github.com/OWASP/Amass
+amass|2.8.5|In-depth subdomain enumeration written in Go.| blackarch-scanner |https://github.com/OWASP/Amass
 amber|223.44e156d|Reflective PE packer.| blackarch-binary |https://github.com/EgeBalci/Amber
 amoco|v2.4.1.r224.g684df77|Yet another tool for analysing binaries.| blackarch-binary |https://github.com/bdcht/amoco
 analyzepesig|0.0.0.5|Analyze digital signature of PE file.| blackarch-windows |https://blog.didierstevens.com/my-software/#AnalyzePESig
 androbugs|1.7fd3a2c|An efficient Android vulnerability scanner that helps developers or hackers find potential security vulnerabilities in Android applications.| blackarch-mobile |https://github.com/AndroBugs/AndroBugs_Framework
-androguard|1631.a1825620|Reverse engineering, Malware and goodware analysis of Android applications and more.| blackarch-binary |https://github.com/androguard/androguard
+androguard|3.2.1|Reverse engineering, Malware and goodware analysis of Android applications and more.| blackarch-binary |https://github.com/androguard/androguard
 androick|8.522cfb4|A python tool to help in forensics analysis on android.| blackarch-mobile |https://github.com/Flo354/Androick
 android-apktool|2.3.4|A tool for reverse engineering Android apk files.| blackarch-reversing |https://ibotpeaches.github.io/Apktool/
 android-ndk|r17|Android C/C++ developer kit.| blackarch-mobile |http://developer.android.com/sdk/ndk/index.html
@@ -230,6 +230,7 @@ canari|3.3.9|A transform framework for maltego.| blackarch-forensic |https://pyp
 cangibrina|123.6de0165|Dashboard Finder.| blackarch-scanner |https://github.com/fnk0c/cangibrina
 cansina|14.b42ff88|A python-based Web Content Discovery Tool.| blackarch-webapp |https://github.com/deibit/cansina
 cantoolz|336.61fc163|Framework for black-box CAN network analysis https://asintsov.blogspot.de/.| blackarch-automobile |https://github.com/eik00d/CANToolz
+capfuzz|34.97ac312|Capture, fuzz and intercept web traffic.| blackarch-sniffer |https://github.com/MobSF/CapFuzz
 capstone|3.0.5|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 captipper|70.b08608d|Malicious HTTP traffic explorer tool.| blackarch-forensic |http://www.omriher.com/2015/01/captipper-malicious-http-traffic.html
 carwhisperer|0.2|Intends to sensibilise manufacturers of carkits and other Bluetooth appliances without display and keyboard for the possible security threat evolving from the use of standard passkeys.| blackarch-bluetooth |http://trifinite.org/trifinite_stuff_carwhisperer.html
@@ -1701,7 +1702,7 @@ ssl-phuck3r|2.0|All in one script for Man-In-The-Middle attacks.| blackarch-snif
 sslcat|1.0|SSLCat is a simple Unix utility that reads and writes data across an SSL enable network connection.| blackarch-misc |http://www.bindshell.net/tools/sslcat
 sslcaudit|524.f218b9b|Utility to perform security audits of SSL/TLS clients.| blackarch-scanner |https://github.com/grwl/sslcaudit
 ssldump|0.9b3|an SSLv3/TLS network protocol analyzer| blackarch-sniffer |http://www.rtfm.com/ssldump/
-sslh|1.19c|SSL/SSH/OpenVPN/XMPP/tinc port multiplexer| blackarch-networking |https://www.rutschle.net/tech/sslh/README.html
+sslh|1.20|SSL/SSH/OpenVPN/XMPP/tinc port multiplexer| blackarch-networking |https://www.rutschle.net/tech/sslh/README.html
 ssllabs-scan|1.4.0|Command-line client for the SSL Labs APIs| blackarch-scanner |https://github.com/ssllabs/ssllabs-scan
 sslmap|0.2.0|A lightweight TLS/SSL cipher suite scanner.| blackarch-scanner |http://thesprawl.org/projects/latest/
 sslnuke|5.c5faeaa|Transparent proxy that decrypts SSL traffic and prints out IRC messages.| blackarch-cracker |https://github.com/jtripper/sslnuke
@@ -1933,7 +1934,7 @@ wafw00f|0.9.5|Identify and fingerprint Web Application Firewall (WAF) products p
 waidps|16.ff8d270|Wireless Auditing, Intrusion Detection & Prevention System.| blackarch-wireless |https://github.com/SYWorks/waidps
 waldo|29.ee4f960|A lightweight and multithreaded directory and subdomain bruteforcer implemented in Python.| blackarch-recon |https://github.com/red-team-labs/waldo
 wapiti|3.0.1|A vulnerability scanner for web applications. It currently search vulnerabilities like XSS, SQL and XPath injections, file inclusions, command execution, LDAP injections, CRLF injections...| blackarch-fuzzer |http://wapiti.sourceforge.net/
-wascan|22.1840571|Web Application Scanner.| blackarch-webapp |https://github.com/m4ll0k/WAScan
+wascan|0.2.1|Web Application Scanner.| blackarch-webapp |https://github.com/m4ll0k/WAScan
 wavemon|0.8.2|Ncurses-based monitoring application for wireless network devices| blackarch-wireless |https://github.com/uoaerg/wavemon
 waybackpack|49.36db906|Download the entire Wayback Machine archive for a given URL.| blackarch-webapp |https://github.com/jsvine/waybackpack
 wcc|55.f141963|The Witchcraft Compiler Collection.| blackarch-binary |https://github.com/endrazine/wcc
@@ -2001,7 +2002,7 @@ wnmap|0.1|A shell script written with the purpose to automate and chain scans vi
 wol-e|2.0|A suite of tools for the Wake on LAN feature of network attached computers.| blackarch-misc |http://code.google.com/p/wol-e/
 wolpertinger|2.58ef8e2|A distributed portscanner.| blackarch-scanner |https://github.com/Crapworks/wolpertinger
 wordbrutepress|30.5165648|Python script that performs brute forcing against WordPress installs using a wordlist.| blackarch-cracker |http://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/
-wordlistctl|0.5.4|Fetch, install and search wordlist archives from websites and torrent peers.| blackarch-misc |https://github.com/BlackArch/wordlistctl
+wordlistctl|0.6.1|Fetch, install and search wordlist archives from websites and torrent peers.| blackarch-misc |https://github.com/BlackArch/wordlistctl
 wordpot|44.e96889b|A Wordpress Honeypot.| blackarch-honeypot |https://github.com/gbrindisi/wordpot
 wordpress-exploit-framework|902.4462106|A Ruby framework for developing and using modules which aid in the penetration testing of WordPress powered websites and systems.| blackarch-webapp |https://github.com/rastating/wordpress-exploit-framework
 wordpresscan|62.dd794cf|WPScan rewritten in Python + some WPSeku ideas.| blackarch-scanner |https://github.com/swisskyrepo/Wordpresscan
@@ -2061,7 +2062,7 @@ yasca|2.1|Multi-Language Static Analysis Toolset.| blackarch-code-audit |http://
 yasuo|121.994dcb1|A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network.| blackarch-webapp |https://github.com/0xsauby/yasuo
 yate-bts|6.0.0|An open source GSM Base Station software.| blackarch-radio |https://yatebts.com/
 yawast|548.9eec969|The YAWAST Antecedent Web Application Security Toolkit.| blackarch-webapp |https://github.com/adamcaudill/yawast
-yay|8.1173.0|Yet another yogurt. Pacman wrapper and AUR helper written in go.| blackarch-misc |https://github.com/Jguer/yay
+yay|9.0.0|Yet another yogurt. Pacman wrapper and AUR helper written in go.| blackarch-misc |https://github.com/Jguer/yay
 ycrawler|0.1|A web crawler that is useful for grabbing all user supplied input related to a given website and will save the output. It has proxy and log file support.| blackarch-webapp |http://packetstormsecurity.com/files/98546/yCrawler-Web-Crawling-Utility.html
 yersinia|0.8.2|A network tool designed to take advantage of some weakness in different network protocols.| blackarch-networking |http://www.yersinia.net/
 yinjector|0.1|A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods.| blackarch-exploitation |http://packetstormsecurity.com/files/98359/yInjector-MySQL-Injection-Tool.html
