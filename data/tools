@@ -35,7 +35,7 @@ ajpfuzzer|0.6|A command-line fuzzer for the Apache JServ Protocol (ajp13).| blac
 albatar|24.142f892|A SQLi exploitation framework in Python.| blackarch-webapp |https://github.com/lanjelot/albatar
 allthevhosts|1.0|A vhost discovery tool that scrapes various web applications.| blackarch-scanner |http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/
 altdns|58.319404d|Generates permutations, alterations and mutations of subdomains and then resolves them.| blackarch-recon |https://github.com/infosec-au/altdns
-amass|2.8.5|In-depth subdomain enumeration written in Go.| blackarch-scanner |https://github.com/OWASP/Amass
+amass|2.8.7|In-depth subdomain enumeration written in Go.| blackarch-scanner |https://github.com/OWASP/Amass
 amber|245.c6cae74|Reflective PE packer.| blackarch-binary |https://github.com/EgeBalci/Amber
 amoco|v2.4.1.r224.g684df77|Yet another tool for analysing binaries.| blackarch-binary |https://github.com/bdcht/amoco
 analyzepesig|0.0.0.5|Analyze digital signature of PE file.| blackarch-windows |https://blog.didierstevens.com/my-software/#AnalyzePESig
@@ -50,6 +50,7 @@ androidpincrack|2.ddaf307|Bruteforce the Android Passcode given the hash and sal
 androidsniffer|0.1|A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.| blackarch-mobile |http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html
 androwarn|124.e0e5ad0|Yet another static code analyzer for malicious Android applications.| blackarch-mobile |https://github.com/maaaaz/androwarn
 angr|8.18.10.25|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
+angr-management|8.18.10.25|This is the GUI for angr.| blackarch-binary |https://pypi.org/project/angr-management/#files
 angr-py2|7.8.9.26|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
 angrop|160.a254929|A rop gadget finder and chain builder.| blackarch-exploitation |https://github.com/salls/angrop
 anontwi|1.1b|A free software python client designed to navigate anonymously on social networks. It supports Identi.ca and Twitter.com.| blackarch-social |http://anontwi.sourceforge.net/
@@ -870,6 +871,7 @@ jhead|3.00|EXIF JPEG info parser and thumbnail remover| blackarch-defensive |htt
 jnetmap|0.5.3|A network monitor of sorts| blackarch-networking |http://www.rakudave.ch/jnetmap/?file=introduction
 john|1.8.0.jumbo1|John the Ripper password cracker| blackarch-cracker |http://www.openwall.com/john
 johnny|20120424|GUI for John the Ripper.| blackarch-cracker |http://openwall.info/wiki/john/johnny
+jok3r|66.1f7e7b6|Network and Web Pentest Framework.| blackarch-webapp |https://github.com/koutto/jok3r
 jomplug|0.1|This php script fingerprints a given Joomla system and then uses Packet Storm's archive to check for bugs related to the installed components.| blackarch-webapp |http://packetstormsecurity.com/files/121390/Janissaries-Joomla-Fingerprint-Tool.html
 jooforce|11.43c21ad|A Joomla password brute force tester.| blackarch-webapp |https://github.com/rastating/jooforce
 joomlascan|1.2|Joomla scanner scans for known vulnerable remote file inclusion paths and files.| blackarch-webapp |http://packetstormsecurity.com/files/62126/joomlascan.2.py.txt.html
@@ -1060,7 +1062,7 @@ mitmf|467.0458300|A Framework for Man-In-The-Middle attacks written in Python.| 
 mitmproxy|4.0.4|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |https://mitmproxy.org/
 mkbrutus|1.0.2|Password bruteforcer for MikroTik devices or boxes running RouterOS.| blackarch-cracker |http://mkbrutusproject.github.io/MKBRUTUS/
 mobiusft|0.5.21|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.| blackarch-forensic |http://savannah.nongnu.org/projects/mobiusft
-mobsf|489.712e800|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/ajinabraham/Mobile-Security-Framework-MobSF
+mobsf|1.0.3Beta|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/MobSF/Mobile-Security-Framework-MobSF
 modscan|0.1|A new tool designed to map a SCADA MODBUS TCP based network.| blackarch-scanner |https://code.google.com/p/modscan/
 moloch|0.11.3|An open source large scale IPv4 full PCAP capturing, indexing and database system.| blackarch-networking |https://github.com/aol/moloch
 mongoaudit|217.c03c68a|A powerful MongoDB auditing and pentesting tool .| blackarch-scanner |https://github.com/stampery/mongoaudit
@@ -1324,7 +1326,7 @@ pmcma|1.00|Automated exploitation of invalid memory writes (being them the conse
 pmdump|1.2|A tool that lets you dump the memory contents of a process to a file without stopping the process.| blackarch-windows |http://ntsecurity.nu/toolbox/pmdump/
 pngcheck|2.3.0|Verifies the integrity of PNG, JNG and MNG files by checking the CRCs and decompressing the image data.| blackarch-stego |http://www.libpng.org/pub/png/apps/pngcheck.html
 pnscan|1.11|A parallel network scanner that can be used to survey TCP network services.| blackarch-scanner |http://www.lysator.liu.se/~pen/pnscan/
-pocsuite|2.0.6|An open-sourced remote vulnerability testing framework developed by the Knownsec Security Team.| blackarch-exploitation |https://github.com/knownsec/Pocsuite
+pocsuite|2.0.8|An open-sourced remote vulnerability testing framework developed by the Knownsec Security Team.| blackarch-exploitation |https://github.com/knownsec/Pocsuite
 poison|1.5.41|A fast, asynchronous syn and udp scanner.| blackarch-scanner |http://nologin.org/main.pl?action=codeList&
 pompem|141.3ebe768|A python exploit tool finder.| blackarch-exploitation |https://github.com/rfunix/Pompem
 poracle|65.a5cfad7|A tool for demonstrating padding oracle attacks.| blackarch-crypto |https://github.com/iagox86/poracle
@@ -1743,7 +1745,7 @@ subterfuge|5.0|Automated Man-in-the-Middle Attack Framework| blackarch-exploitat
 sucrack|1.2.3|A multi-threaded Linux/UNIX tool for brute-force cracking local user accounts via su| blackarch-cracker |http://labs.portcullis.co.uk/application/sucrack
 sulley|1.0.e72d343|A pure-python fully automated and unattended fuzzing framework.| blackarch-fuzzer |https://github.com/OpenRCE/sulley/
 superscan|4.1|Powerful TCP port scanner, pinger, resolver.| blackarch-windows |http://www.foundstone.com/us/resources/proddesc/superscan.htm
-suricata|4.1.0|An Open Source Next Generation Intrusion Detection and Prevention Engine.| blackarch-defensive |http://openinfosecfoundation.org/index.php/download-suricata
+suricata|4.1.2|An Open Source Next Generation Intrusion Detection and Prevention Engine.| blackarch-defensive |http://openinfosecfoundation.org/index.php/download-suricata
 suricata-verify|157.5cfaddc|Suricata Verification Tests - Testing Suricata Output.| blackarch-misc |https://github.com/OISF/suricata-verify
 svn-extractor|39.39941be|A simple script to extract all web resources by means of .SVN folder exposed over network.| blackarch-scanner |https://github.com/anantshri/svn-extractor
 swaks|20181104.0|Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH| blackarch-networking |http://jetmore.org/john/code/swaks/
