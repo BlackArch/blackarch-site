@@ -107,6 +107,7 @@ avet|133.2f1d882|AntiVirus Evasion Tool| blackarch-binary |https://github.com/go
 aws-inventory|8.58eb448|Discover resources created in an AWS account.| blackarch-recon |https://github.com/nccgroup/aws-inventory
 awsbucketdump|75.552e7f1|A tool to quickly enumerate AWS S3 buckets to look for loot.| blackarch-automation |https://github.com/jordanpotti/AWSBucketDump
 azazel|14.e6a12a2|A userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit.| blackarch-backdoor |https://github.com/chokepoint/azazel
+aztarna|1.0|A footprinting tool for ROS and SROS systems.| blackarch-recon |https://github.com/aliasrobotics/aztarna
 backcookie|51.6dabc38|Small backdoor using cookie.| blackarch-backdoor |https://github.com/mrjopino/backcookie
 backdoor-apk|141.2710126|Shell script that simplifies the process of adding a backdoor to any Android APK file| blackarch-mobile |https://github.com/dana-at-cp/backdoor-apk
 backdoor-factory|200.14b87fa|Patch win32/64 binaries with shellcode.| blackarch-backdoor |https://github.com/secretsquirrel/the-backdoor-factory
@@ -225,6 +226,7 @@ bunny|0.93|A closed loop, high-performance, general purpose protocol-blind fuzze
 burpsuite|1.7.36|An integrated platform for attacking web applications (free edition).| blackarch-fuzzer |http://portswigger.net/burp/
 buttinsky|138.1a2a1b2|Provide an open source framework for automated botnet monitoring.| blackarch-networking |https://github.com/buttinsky/buttinsky
 bvi|1.4.0|A display-oriented editor for binary files operate like "vi" editor.| blackarch-binary |http://bvi.sourceforge.net/
+bypass-firewall-dns-history|25.17ad0a0|Firewall bypass script based on DNS history records.| blackarch-networking |https://github.com/vincentcox/bypass-firewalls-by-DNS-history
 bytecode-viewer|2.9.11|A Java 8/Android APK Reverse Engineering Suite.| blackarch-binary |https://github.com/Konloch/bytecode-viewer
 c5scan|29.33a500c|Vulnerability scanner and information gatherer for the Concrete5 CMS.| blackarch-webapp |https://github.com/auraltension/c5scan
 cachedump|1.1|A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).| blackarch-windows |https://packetstormsecurity.com/files/36781/cachedump.1.zip.html
@@ -702,6 +704,7 @@ guymager|0.8.8|A forensic imager for media acquisition.| blackarch-forensic |htt
 gwcheck|0.1|A simple program that checks if a host in an ethernet network is a gateway to Internet.| blackarch-networking |http://packetstormsecurity.com/files/62047/gwcheck.c.html
 gwtenum|7.f27a5aa|Enumeration of GWT-RCP method calls.| blackarch-recon |http://www.gdssecurity.com/l/t/d.php?k=GwtEnum
 h2spec|2.2.0|A conformance testing tool for HTTP/2 implementation.| blackarch-misc |https://github.com/summerwind/h2spec
+h8mail|25.dbc8953|Email OSINT and password breach hunting.| blackarch-recon |https://github.com/khast3x/h8mail
 habu|167.e5723e0|Python Network Hacking Toolkit.| blackarch-scanner |https://github.com/portantier/habu
 hackersh|0.2.0|A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.| blackarch-automation |http://www.hackersh.org/
 hackredis|3.fbae1bc|A simple tool to scan and exploit redis servers.| blackarch-exploitation |https://github.com/Ridter/hackredis
@@ -912,6 +915,7 @@ kerbcrack|1.3d3|Kerberos sniffer and cracker for Windows.| blackarch-windows |ht
 kernelpop|238.b3467d3|Kernel privilege escalation enumeration and exploitation framework.| blackarch-exploitation |https://github.com/spencerdodd/kernelpop
 khc|0.2|A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents.| blackarch-cracker |http://packetstormsecurity.com/files/87003/Known-Host-Cracker.2.html
 kickthemout|205.0f32988|Kick devices off your network by performing an ARP Spoof attack.| blackarch-networking |https://github.com/k4m4/kickthemout
+killcast|18.869447e|Manipulate Chromecast Devices in your Network.| blackarch-exploitation |https://github.com/thewhiteh4t/killcast
 killerbee|99|Framework and tools for exploiting ZigBee and IEEE 802.15.4 networks.| blackarch-exploitation |https://code.google.com/p/killerbee/
 kimi|23.1d7a5e6|Script to generate malicious debian packages (debain trojans).| blackarch-backdoor |https://github.com/ChaitanyaHaritash/kimi
 kippo|285.0d03635|A medium interaction SSH honeypot designed to log brute force attacks and most importantly, the entire shell interaction by the attacker.| blackarch-honeypot |https://github.com/desaster/kippo
@@ -1806,7 +1810,7 @@ tcpcopy|1238.4aebb48|A TCP stream replay tool to support real testing of Interne
 tcpdstat|4.be5bd28|Get protocol statistics from tcpdump pcap files.| blackarch-networking |https://github.com/netik/tcpdstat
 tcpdump|4.9.2|Powerful command-line packet analyzer| blackarch-networking |http://www.tcpdump.org/
 tcpextract|1.1|Extracts files from captured TCP sessions. Support live streams and pcap files.| blackarch-networking |https://pypi.python.org/pypi/tcpextract/
-tcpflow|1.4.5|Captures data transmitted as part of TCP connections then stores the data conveniently| blackarch-networking |https://github.com/simsong/tcpflow
+tcpflow|1.5.2|Captures data transmitted as part of TCP connections then stores the data conveniently| blackarch-networking |https://github.com/simsong/tcpflow
 tcpick|0.2.1|TCP stream sniffer and connection tracker| blackarch-sniffer |http://tcpick.sourceforge.net/
 tcpjunk|2.9.03|A general tcp protocols testing and hacking utility.| blackarch-exploitation |http://code.google.com/p/tcpjunk
 tcpreplay|4.2.6|Gives the ability to replay previously captured traffic in a libpcap format| blackarch-networking |http://tcpreplay.appneta.com
