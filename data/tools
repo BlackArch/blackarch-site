@@ -525,7 +525,7 @@ etherchange|1.1|Can change the Ethernet address of the network adapters in Windo
 etherflood|1.1|Floods a switched network with Ethernet frames with random hardware addresses.| blackarch-windows |http://ntsecurity.nu/toolbox/etherflood/
 ettercap|0.8.2|A network sniffer/interceptor/logger for ethernet LANs - console| blackarch-sniffer |http://ettercap.github.com/ettercap/
 evil-ssdp|90.dcc0d16|Spoof SSDP replies to phish for NetNTLM challenge/response on a network.| blackarch-spoof |https://gitlab.com/initstring/evil-ssdp
-evilginx|75.764898a|Standalone man-in-the-middle attack framework used for phishing login credentials along with session cookies, allowing for the bypass of 2-factor authentication.| blackarch-social |https://github.com/kgretzky/evilginx2
+evilginx|2.3.0|Man-in-the-middle attack framework used for phishing login credentials| blackarch-social |https://github.com/kgretzky/evilginx2
 evilgrade|2.0.0|Modular framework that takes advantage of poor upgrade implementations by injecting fake updates| blackarch-misc |http://www.infobyte.com.ar/developments.html
 evilize|0.2|Tool to create MD5 colliding binaries.| blackarch-cracker |http://www.mathstat.dal.ca/~selinger/md5collision/
 evilmaid|1.01|TrueCrypt loader backdoor to sniff volume password| blackarch-cracker |http://theinvisiblethings.blogspot.com
@@ -1436,6 +1436,7 @@ python2-yara|3.8.1|Tool aimed at helping malware researchers to identify and cla
 qark|300.2f7eb7e|Tool to look for several security related Android application vulnerabilities.| blackarch-mobile |https://github.com/linkedin/qark
 quickrecon|0.3.2|A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.| blackarch-recon |http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html
 quicksand-lite|28.857210e|Command line tool for scanning streams within office documents plus xor db attack.| blackarch-defensive |https://github.com/tylabs/quicksand_lite
+raccoon|183.985797f|A high performance offensive security tool for reconnaissance and vulnerability scanning.| blackarch-recon |https://github.com/evyatarmeged/Raccoon
 radamsa|0.5|General purpose mutation based fuzzer| blackarch-fuzzer |https://github.com/aoh/radamsa
 radare2|3.2.1|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
 radare2-cutter|1.7.4|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/cutter
@@ -1732,7 +1733,7 @@ sshatter|1.2|Password bruteforcer for SSH.| blackarch-cracker |http://www.nth-di
 sshscan|1.0|A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass.| blackarch-cracker |https://github.com/getdual/scripts-n-tools/blob/master/sshscan.py
 sshtrix|0.0.3|A very fast multithreaded SSH login cracker.| blackarch-cracker |http://nullsecurity.net/tools/cracker.html
 sshtunnel|0.1.4.r3.g66a923e|Pure python SSH tunnels (CLI)| blackarch-tunnel |https://github.com/pahaz/sshtunnel
-sshuttle|0.78.4|Transparent proxy server that forwards all TCP packets over ssh| blackarch-proxy |https://github.com/sshuttle/sshuttle
+sshuttle|0.78.5|Transparent proxy server that forwards all TCP packets over ssh| blackarch-proxy |https://github.com/sshuttle/sshuttle
 ssl-hostname-resolver|1|CN (Common Name) grabber on X.509 Certificates over HTTPS.| blackarch-recon |http://packetstormsecurity.com/files/120634/Common-Name-Grabber-Script.html
 ssl-phuck3r|2.0|All in one script for Man-In-The-Middle attacks.| blackarch-sniffer |https://github.com/zombiesam/ssl_phuck3r
 sslcat|1.0|SSLCat is a simple Unix utility that reads and writes data across an SSL enable network connection.| blackarch-misc |http://www.bindshell.net/tools/sslcat
