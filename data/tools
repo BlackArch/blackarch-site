@@ -930,6 +930,7 @@ knxmap|243.2d6f622|KNXnet/IP scanning and auditing tool for KNX home automation 
 koadic|411.4e65883|A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.| blackarch-automation |https://github.com/zerosum0x0/koadic
 kolkata|3.0|A web application fingerprinting engine written in Perl that combines cryptography with IDS evasion.| blackarch-webapp |http://www.blackhatlibrary.net/Kolkata
 kraken|32.368a837|A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.| blackarch-crypto |http://opensource.srlabs.de/projects/a51-decrypt
+kube-hunter|402.09e9a0c|Hunt for security weaknesses in Kubernetes clusters.| blackarch-scanner |https://github.com/aquasecurity/kube-hunter
 l0l|322.1319ea7|The Exploit Development Kit.| blackarch-exploitation |https://github.com/roissy/l0l
 laf|12.7a456b3|Login Area Finder: scans host/s for login panels.| blackarch-scanner |https://github.com/takeshixx/laf
 lanmap2|127.1197999|Passive network mapping tool.| blackarch-recon |http://github.com/rflynn/lanmap2
@@ -1042,7 +1043,6 @@ mdcrack|1.2|MD4/MD5/NTLM1 hash cracker| blackarch-cracker |http://c3rb3r.openwal
 mdk3|v6|WLAN penetration tool| blackarch-wireless |http://aspj.aircrack-ng.org/
 mdk4|29.002f64a|Proof-of-Concept tool to exploit common IEEE 802.11 protocol weaknesses.| blackarch-wireless |https://github.com/aircrack-ng/mdk4
 mdns-recon|10.81ecf94|An mDNS recon tool written in Python.| blackarch-recon |https://github.com/chadillac/mdns_recon
-mdns-scan|0.5|Scan mDNS/DNS-SD published services on the local network.| blackarch-networking |
 meanalyzer|1.70.3|Intel Engine Firmware Analysis Tool.| blackarch-firmware |https://github.com/platomav/MEAnalyzer
 medusa|2.2|Speedy, massively parallel and modular login brute-forcer for network| blackarch-cracker |http://www.foofus.net/jmk/medusa/medusa.html
 melkor|1.0|An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does not change values randomly (dumb fuzzing), instead, it fuzzes certain metadata with semi-valid values through the use of fuzzing rules (knowledge base).| blackarch-fuzzer |http://packetstormsecurity.com/files/127924/Melkor-ELF-Fuzzer.0.html
@@ -1580,6 +1580,7 @@ sha1collisiondetection|99.232357e|Library and command line tool to detect SHA co
 shard|1.5|A command line tool to detect shared passwords.| blackarch-recon |https://github.com/philwantsfish/shard
 shareenum|46.3bfa81d|Tool to enumerate shares from Windows hosts.| blackarch-scanner |https://github.com/CroweCybersecurity/shareenum
 sharesniffer|51.dbf05b5|Network share sniffer and auto-mounter for crawling remote file systems.| blackarch-scanner |https://github.com/shirosaidev/sharesniffer
+shed|2.0.0|.NET runtime inspector.| blackarch-windows |https://github.com/enkomio/shed
 shellcheck|0.6.0|Shell script analysis tool| blackarch-code-audit |http://www.shellcheck.net
 shellcode-factory|96.07ae857|Tool to create and test shellcodes from custom assembly sources.| blackarch-exploitation |https://github.com/danielhenrymantilla/shellcode-factory
 shellcodecs|0.1|A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.| blackarch-exploitation |http://www.blackhatlibrary.net/Shellcodecs
@@ -1624,6 +1625,7 @@ sipsak|0.9.6|A small command line tool for developers and administrators of Sess
 sipscan|0.1|A sip scanner.| blackarch-windows |http://www.hackingvoip.com/sec_tools.html
 sipshock|7.6ab5591|A scanner for SIP proxies vulnerable to Shellshock.| blackarch-scanner |https://github.com/zaf/sipshock
 sipvicious|295.3646856|Tools for auditing SIP devices| blackarch-automation |http://blog.sipvicious.org
+sitadel|50.621e249|Web Application Security Scanner.| blackarch-webapp |https://github.com/shenril/Sitadel
 sitediff|3.1383935|Fingerprint a web app using local files as the fingerprint sources.| blackarch-webapp |https://github.com/digininja/sitediff
 sjet|27.2d52f0c|Siberas JMX exploitation toolkit.| blackarch-exploitation |https://github.com/h0ng10/sjet
 skipfish|2.10b|A fully automated, active web application security reconnaissance tool| blackarch-fuzzer |http://code.google.com/p/skipfish/
@@ -1682,6 +1684,7 @@ snow|20130616|Steganography program for concealing messages in text files.| blac
 snowman|0.1.0|A native code to C/C++ decompiler, see the examples of generated code.| blackarch-windows |http://derevenets.com/
 snscan|1.05|A Windows based SNMP detection utility that can quickly and accurately identify SNMP enabled devices on a network.| blackarch-windows |http://www.mcafee.com/uk/downloads/free-tools/snscan.aspx
 snuck|6.76196b6|Automatic XSS filter bypass.| blackarch-webapp |https://github.com/mauro-g/snuck
+snyk|1.126.0|CLI and build-time tool to find and fix known vulnerabilities in open-source dependencies.| blackarch-code-audit |https://github.com/snyk/snyk
 soapui|5.4.0|The Swiss-Army Knife for SOAP Testing.| blackarch-proxy |https://www.soapui.org/downloads/soapui/source-forge.html
 socat|1.7.3.2|Multipurpose relay| blackarch-networking |http://www.dest-unreach.org/socat/
 social-mapper|69.1170714|A social media enumeration and correlation tool.| blackarch-social |https://github.com/SpiderLabs/social_mapper
