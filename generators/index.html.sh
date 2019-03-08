@@ -118,7 +118,7 @@ cat <<EOF
                                     <td itemprop="jobTitle">Developer, Allrounder</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Vechtomov German</td>
+                                    <td itemprop="givenName">German Vechtomov</td>
                                     <td itemprop="additionalName">mrsmith0x00</td>
                                     <td itemprop="email">mrsmith0x00@blackarch.org</td>
                                     <td><a href="gpgkeys/mrsmith0x00.asc" target="_blank">0x43FB1128</a></td>
