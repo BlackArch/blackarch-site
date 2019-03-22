@@ -59,14 +59,14 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                   <td itemprop="datePublished">2018.12.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-live-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>11 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
-                  <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2018.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                   <td itemprop="datePublished">2018.12.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-netinst-2018.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>624 MB</td>
@@ -113,7 +113,7 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="http://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2018.12.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2018.12.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
                   <td itemprop="datePublished">2018.12.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-2018.12.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>23 GB</td>
@@ -273,6 +273,7 @@ cat << EOF
               <br><br>
               <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
               <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">http://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
+              <a href="https://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">https://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
               <a href="ftp://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">ftp://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
               <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">rsync://ftp.halifax.rwth-aachen.de/blackarch/</a>
               <br><br>
