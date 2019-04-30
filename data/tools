@@ -756,7 +756,7 @@ hercules-payload|220.958541e|A special payload generator that can bypass all ant
 hex2bin|2.5|Converts Motorola and Intel hex files to binary.| blackarch-binary |http://hex2bin.sourceforge.net/
 hexinject|1.6|A very versatile packet injector and sniffer that provides a command-line framework for raw network access.| blackarch-sniffer |http://hexinject.sourceforge.net
 hexorbase|6|A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).| blackarch-fuzzer |https://code.google.com/p/hexorbase/
-hexyl|0.4.0|Colored command-line hex viewer| blackarch-misc |https://github.com/sharkdp/hexyl
+hexyl|0.5.0|Colored command-line hex viewer| blackarch-misc |https://github.com/sharkdp/hexyl
 hharp|1beta|This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.| blackarch-networking |http://packetstormsecurity.com/files/81368/Hackers-Hideaway-ARP-Attack-Tool.html
 hidattack|0.1|HID Attack (attacking HID host implementations)| blackarch-bluetooth |http://mulliner.org/bluetooth/hidattack.php
 hiddeneye|618.8902d5b|Modern phishing tool with advanced functionality.| blackarch-social |https://github.com/DarkSecDevelopers/HiddenEye
@@ -885,6 +885,7 @@ jaadas|0.1|Joint Advanced Defect assEsment for android applications.| blackarch-
 jad|1.5.8e|Java decompiler| blackarch-reversing |https://varaneckas.com/jad
 jadx|0.9.0|Command line and GUI tools to produce Java source code from Android Dex and APK files| blackarch-decompiler |https://github.com/skylot/jadx
 jaidam|18.15e0fec|Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well-known open source tools, WPScan and Joomscan.| blackarch-webapp |https://github.com/stasinopoulos/jaidam
+jast|14.bb6c8bd|Just Another Screenshot Tool.| blackarch-webapp |https://github.com/mikehacksthings/jast
 javasnoop|1.1|A tool that lets you intercept methods, alter data and otherwise hack Java applications running on your computer| blackarch-reversing |https://code.google.com/p/javasnoop/
 jboss-autopwn|1.3bc2d29|A JBoss script for obtaining remote shell access.| blackarch-exploitation |https://github.com/SpiderLabs/jboss-autopwn
 jbrofuzz|2.5|Web application protocol fuzzer that emerged from the needs of penetration testing.| blackarch-fuzzer |http://sourceforge.net/projects/jbrofuzz/
@@ -1158,7 +1159,6 @@ neglected|8.68d02b3|Facebook CDN Photo Resolver.| blackarch-recon |https://githu
 neighbor-cache-fingerprinter|83.f1e596f|An ARP based Operating System version scanner.| blackarch-fingerprint |https://github.com/PherricOxide/Neighbor-Cache-Fingerprinter
 nemesis|203.5c65ced|A command-line network packet crafting and injection utility.| blackarch-networking |https://github.com/troglobit/nemesis
 net-creds|58.30b16c0|Sniffs sensitive data from interface or pcap.| blackarch-sniffer |https://github.com/DanMcInerney/net-creds
-netactview|0.6.4|A graphical network connections viewer similar in functionality to netstat| blackarch-networking |http://netactview.sourceforge.net/index.html
 netattack|24.230b856|Python script to scan and attack wireless networks.| blackarch-wireless |https://github.com/chrizator/netattack2
 netbios-share-scanner|1.0|This tool could be used to check windows workstations and servers if they have accessible shared resources.| blackarch-scanner |http://www.secpoint.com/netbios-share-scanner.html
 netbus|1.6|NetBus remote adminsitration tool| blackarch-windows |https://packetstormsecurity.com/files/10320/nb16_p04.zip.html
@@ -1246,7 +1246,6 @@ opendoor|385.704cb08|OWASP WEB Directory Scanner.| blackarch-webapp |https://git
 openpuff|4.01|Yet not another steganography SW.| blackarch-stego |https://embeddedsw.net/OpenPuff_Steganography_Home.html
 openstego|0.7.3|A tool implemented in Java for generic steganography, with support for password-based encryption of the data.| blackarch-crypto |http://www.openstego.info/
 opensvp|65.df54ed8|A security tool implementing "attacks" to be able to the resistance of firewall to protocol level attack.| blackarch-exploitation |https://github.com/regit/opensvp
-openvas-cli|1.4.5|The OpenVAS Command-Line Interface| blackarch-scanner |http://www.openvas.org/
 openvas-manager|7.0.3|A layer between the OpenVAS Scanner and various client applications| blackarch-scanner |http://www.openvas.org/
 openvas-scanner|5.1.3|The OpenVAS scanning Daemon| blackarch-scanner |http://www.openvas.org/
 operative|115.4b3a09e|Framework based on fingerprint action, this tool is used for get information on a website or a enterprise target with multiple modules (Viadeo search,Linkedin search, Reverse email whois, Reverse ip whois, SQL file forensics ...).| blackarch-fingerprint |https://github.com/graniet/operative-framework
@@ -1858,7 +1857,7 @@ tcpextract|1.1|Extracts files from captured TCP sessions. Support live streams a
 tcpflow|1.5.2|Captures data transmitted as part of TCP connections then stores the data conveniently| blackarch-networking |https://github.com/simsong/tcpflow
 tcpick|0.2.1|TCP stream sniffer and connection tracker| blackarch-sniffer |http://tcpick.sourceforge.net/
 tcpjunk|2.9.03|A general tcp protocols testing and hacking utility.| blackarch-exploitation |http://code.google.com/p/tcpjunk
-tcpreplay|4.3.1|Gives the ability to replay previously captured traffic in a libpcap format| blackarch-networking |http://tcpreplay.appneta.com
+tcpreplay|4.3.2|Gives the ability to replay previously captured traffic in a libpcap format| blackarch-networking |http://tcpreplay.appneta.com
 tcptrace|6.6.7|A TCP dump file analysis tool| blackarch-networking |http://tcptrace.org/
 tcptraceroute|1.5beta7|A traceroute implementation using TCP packets.| blackarch-networking |http://michael.toren.net/code/tcptraceroute/
 tcpwatch|1.3.1|A utility written in Python that lets you monitor forwarded TCP connections or HTTP proxy connections.| blackarch-networking |http://hathawaymix.org/Software/TCPWatch
