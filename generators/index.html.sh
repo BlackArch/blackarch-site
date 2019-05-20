@@ -62,11 +62,11 @@ cat <<EOF
                         <li class="list-group-item">
                             <table id=developers itemscope itemtype="https://www.schema.org/Person">
                                 <tr>
-                                    <td><b>Name</b></td>
-                                    <td><b>Nickname</b></td>
-                                    <td><b>E-Mail</b></td>
-                                    <td><b>GPG Key</b></td>
-                                    <td><b>Role</b></td>
+                                    <th>Name</th>
+                                    <th>Nickname</th>
+                                    <th>E-Mail</th>
+                                    <th>GPG Key</th>
+                                    <th>Role</th>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Levon Kayan</td>
@@ -180,6 +180,13 @@ cat <<EOF
                                     <td><a href="gpgkeys/anyon3.asc" target="_blank">0x8B8E3622</a></td>
                                     <td itemprop="jobTitle">WebDeveloper</td>
                                 </tr>
+                                <tr>
+                                    <td itemprop="givenName">Alexandre Zanni</td>
+                                    <td itemprop="additionalName">noraj</td>
+                                    <td itemprop="email">noraj@blackarch.org</td>
+                                    <td><a href="gpgkeys/noraj.asc" target="_blank">0x5BFB05CA</a></td>
+                                    <td itemprop="jobTitle">Contributor</td>
+                                </tr>
                             </table>
                         </li>
                     </ul>
@@ -202,11 +209,11 @@ cat <<EOF
                         <li class="list-group-item">
                             <table id=developers itemscope itemtype="https://www.schema.org/Person">
                                 <tr>
-                                    <td><b>Name</b></td>
-                                    <td><b>Nickname</b></td>
-                                    <td><b>E-Mail</b></td>
-                                    <td><b>GPG Key</b></td>
-                                    <td><b>Role</b></td>
+                                    <th>Name</th>
+                                    <th>Nickname</th>
+                                    <th>E-Mail</th>
+                                    <th>GPG Key</th>
+                                    <th>Role</th>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Evan Teitelman</td>
