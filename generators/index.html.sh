@@ -114,7 +114,7 @@ cat <<EOF
                                     <td itemprop="givenName">Eduard Toloza</td>
                                     <td itemprop="additionalName">Edu4rdSHL</td>
                                     <td itemprop="email">edu4rdshl@blackarch.org</td>
-                                    <td><a href="gpgkeys/Edu4rdSHL.asc" target="_blank">0x09F553E5</a></td>
+                                    <td><a href="gpgkeys/du4rdshl.asc" target="_blank">0x09F553E5</a></td>
                                     <td itemprop="jobTitle">Developer, Allrounder</td>
                                 </tr>
                                 <tr>
@@ -146,17 +146,17 @@ cat <<EOF
                                     <td itemprop="jobTitle">Developer, Allrounder</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Filipe Lains</td>
-                                    <td itemprop="additionalName">FFY00</td>
-                                    <td itemprop="email">ffy00@blackarch.org</td>
-                                    <td><a href="gpgkeys/FFY00.asc" target="_blank">0xB0EB4BF2</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Jeremy Marlow</td>
                                     <td itemprop="additionalName">i3_Arch</td>
                                     <td itemprop="email">i3_arch@blackarch.org</td>
                                     <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
+                                    <td itemprop="jobTitle">Developer, Allrounder</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Alexandre Zanni</td>
+                                    <td itemprop="additionalName">noraj</td>
+                                    <td itemprop="email">noraj@blackarch.org</td>
+                                    <td><a href="gpgkeys/noraj.asc" target="_blank">0x5BFB05CA</a></td>
                                     <td itemprop="jobTitle">Developer, Allrounder</td>
                                 </tr>
                                 <tr>
@@ -165,6 +165,13 @@ cat <<EOF
                                     <td itemprop="email">luserx0@blackarch.org</td>
                                     <td><a href="gpgkeys/luserx0.asc" target="_blank">0x90883003</a></td>
                                     <td itemprop="jobTitle">Developer, Allrounder</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Filipe Lains</td>
+                                    <td itemprop="additionalName">FFY00</td>
+                                    <td itemprop="email">ffy00@blackarch.org</td>
+                                    <td><a href="gpgkeys/ffy00.asc" target="_blank">0xB0EB4BF2</a></td>
+                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Alexander Rothenberg</td>
