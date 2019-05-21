@@ -28,7 +28,37 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
-
+            <!--
+            <article id=p100 itemscope itemtype="http://schema.org/NewsArticle">
+            <header>
+              <time itemprop="datePublished">Mon, 06 Jun 2019 00:00:00 GMT</time>
+              <h4 itemprop="name">New ISOs and OVA Image released!</h4>
+            </header>
+            <div itemprop="description">
+              <p>
+                Today we released the new BlackArch Linux ISOs and OVA image. For details see the ChangeLog below.
+              </p>
+              <p>Here's the ChangeLog:</p>
+                <ul>
+                  <li>added more than 150 new tools</li>
+                  <li>added 'jedi-vim' plugin</li>
+                  <li>updated vim plugins</li>
+                  <li>included linux kernel 5.1.4</li>
+                  <li>ISO file clean-ups and tweaks</li>
+                  <li>updated blackarch-installer to v1.1.1</li>
+                  <li>updated Xresources/Xdefaults + added support for rxvt-unicode</li>
+                  <li>package QAs (runtime checks) were performed prior the ISO build</li>
+                  <li>updated all blackarch tools and packages including config files</li>
+                  <li>updated all system packages</li>
+                  <li>updated all window manager menus (awesome, fluxbox, openbox)</li>
+                </ul>
+              </p>
+              <p>
+                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+              </p>
+            </div>
+            </article>
+            -->
             <article id=p99 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Sat, 04 Dec 2018 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in Hungary! </h4></header>
