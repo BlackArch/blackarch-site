@@ -31,7 +31,7 @@ cat <<\EOF
             <!--
             <article id=p100 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
-              <time itemprop="datePublished">Mon, 06 Jun 2019 00:00:00 GMT</time>
+              <time itemprop="datePublished">Mon, 01 Jun 2019 00:00:00 GMT</time>
               <h4 itemprop="name">New ISOs and OVA Image released!</h4>
             </header>
             <div itemprop="description">
