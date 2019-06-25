@@ -510,7 +510,7 @@ dumpusers|1.0|Dumps account names and information even though RestrictAnonymous 
 dumpzilla|03152013|A forensic tool for firefox.| blackarch-forensic |http://www.dumpzilla.org/
 dutas|10.37fa3ab|Analysis PE file or Shellcode.| blackarch-binary |https://github.com/dungtv543/Dutas
 dvcs-ripper|52.0672a34|Rip web accessible (distributed) version control systems: SVN/GIT/BZR/CVS/HG.| blackarch-scanner |https://github.com/kost/dvcs-ripper
-dwarf|588.cd1a778|Full featured multi arch/os debugger built on top of PyQt5 and frida.| blackarch-binary |https://github.com/iGio90/Dwarf
+dwarf|612.bef5c41|Full featured multi arch/os debugger built on top of PyQt5 and frida.| blackarch-binary |https://github.com/iGio90/Dwarf
 eapeak|130.9550d1c|Analysis Suite For EAP Enabled Wireless Networks.| blackarch-wireless |https://github.com/securestate/eapeak
 eaphammer|158.72c5e1d|Targeted evil twin attacks against WPA2-Enterprise networks. Indirect wireless pivots using hostile portal attacks.| blackarch-wireless |https://github.com/s0lst1c3/eaphammer
 eapmd5pass|1.4|An implementation of an offline dictionary attack against the EAP-MD5 protocol| blackarch-cracker |http://www.willhackforsushi.com/?page_id=67
@@ -641,6 +641,8 @@ freeradius|3.0.19|The premier open source RADIUS server| blackarch-wireless |htt
 freewifi|30.1cb752b|How to get free wifi.| blackarch-wireless |https://github.com/kylemcdonald/FreeWifi
 frida|12.6.8|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
 frida-extract|13.abb3f14|Frida.re based RunPE (and MapViewOfSection) extraction tool.| blackarch-reversing |https://github.com/OALabs/frida-extract
+frida-ios-dump|40.160a6e7|Pull decrypted ipa from jailbreak device.| blackarch-mobileblackarch-reversing |https://github.com/AloneMonkey/frida-ios-dump
+frida-ipa-dump|40.5447da6|Yet another frida based iOS dumpdecrypted.| blackarch-mobileblackarch-reversing |https://github.com/ChiChou/frida-ipa-dump
 fridump|23.3e64ee0|A universal memory dumper using Frida.| blackarch-forensic |https://github.com/Nightbringer21/fridump
 frisbeelite|1.2|A GUI-based USB device fuzzer.| blackarch-fuzzer |https://github.com/nccgroup/FrisbeeLite
 fs-exploit|3.28bb9bb|Format string exploit generation.| blackarch-exploitation |https://github.com/miaouPlop/fs
@@ -928,7 +930,7 @@ jhead|3.03|EXIF JPEG info parser and thumbnail remover| blackarch-defensive |htt
 jnetmap|0.5.3|A network monitor of sorts| blackarch-networking |http://www.rakudave.ch/jnetmap/?file=introduction
 john|1.9.0.jumbo1|John the Ripper password cracker| blackarch-cracker |https://www.openwall.com/john
 johnny|20120424|GUI for John the Ripper.| blackarch-cracker |http://openwall.info/wiki/john/johnny
-jok3r|194.11fb617|Network and Web Pentest Framework.| blackarch-webapp |https://github.com/koutto/jok3r
+jok3r|204.dd2e933|Network and Web Pentest Framework.| blackarch-webapp |https://github.com/koutto/jok3r
 jomplug|0.1|This php script fingerprints a given Joomla system and then uses Packet Storm's archive to check for bugs related to the installed components.| blackarch-webapp |http://packetstormsecurity.com/files/121390/Janissaries-Joomla-Fingerprint-Tool.html
 jooforce|11.43c21ad|A Joomla password brute force tester.| blackarch-webapp |https://github.com/rastating/jooforce
 joomlascan|1.2|Joomla scanner scans for known vulnerable remote file inclusion paths and files.| blackarch-webapp |http://packetstormsecurity.com/files/62126/joomlascan.2.py.txt.html
@@ -1959,7 +1961,7 @@ tomcatwardeployer|89.437f924|Apache Tomcat auto WAR deployment & pwning penetrat
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.| blackarch-scanner |https://github.com/toperaproject/topera
 tor|0.4.0.5|Anonymizing overlay network.| blackarch-proxy |https://www.torproject.org/
 tor-autocircuit|0.2|Tor Autocircuit was developed to give users a finer control over Tor circuit creation. The tool exposes the functionality of TorCtl library which allows its users to control circuit length, speed, geolocation, and other parameters.| blackarch-defensive |http://www.thesprawl.org/projects/tor-autocircuit/
-tor-browser-en|8.5.1|Tor Browser Bundle: anonymous browsing using Firefox and Tor.| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
+tor-browser-en|8.5.3|Tor Browser Bundle: anonymous browsing using Firefox and Tor.| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
 tor-router|4.001a510|A tool that allow you to make TOR your default gateway and send all internet connections under TOR (as transparent proxy) for increase privacy/anonymity without extra unnecessary code.| blackarch-defensive |https://github.com/Edu4rdSHL/tor-router
 torctl|0.5.5|Script to redirect all traffic through tor network including dns queries for anonymizing entire system.| blackarch-automation |https://github.com/BlackArch/torctl
 torshammer|1.0|A slow POST Denial of Service testing tool written in Python.| blackarch-dos |http://sourceforge.net/projects/torshammer/
