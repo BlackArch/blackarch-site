@@ -314,6 +314,7 @@ cloud-buster|194.b55e4a1|A tool that checks Cloudflare enabled sites for origin 
 cloudfail|60.86e8cc3|Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network.| blackarch-recon |https://github.com/m0rtem/CloudFail
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.| blackarch-scanner |https://github.com/mandatoryprogrammer/cloudflare_enum
 cloudget|53.807d08e|Python script to bypass cloudflare from command line. Built upon cfscrape module.| blackarch-webapp |https://github.com/eudemonics/cloudget
+cloudmare|18.1f42190|A simple tool to find origin servers of websites protected by CloudFlare with a misconfiguration DNS.| blackarch-recon |https://github.com/MrH0wl/Cloudmare
 cloudsploit|285.96ffc0e|AWS security scanning checks.| blackarch-scanner |https://github.com/cloudsploit/scans
 clusterd|143.d190b2c|Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.| blackarch-automation |https://github.com/hatRiot/clusterd
 cminer|25.d766f7e|A tool for enumerating the code caves in PE files.| blackarch-binary |https://github.com/EgeBalci/Cminer/
@@ -1508,7 +1509,7 @@ python-frida|12.6.9|Dynamic instrumentation toolkit for developers, reverse-engi
 python-frida-tools|2.0.1|Frida CLI tools.| blackarch-reversing |https://pypi.org/project/frida-tools/#files
 python-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python-ivre|0.9.13.dev37|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
-python-jsbeautifier|1.10.0|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
+python-jsbeautifier|1.10.1|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python-keylogger|2.7.3|Simple keystroke logger.| blackarch-keylogger |https://github.com/GiacomoLaw/Keylogger
 python-minidump|0.0.6|Python library to parse and read Microsoft minidump file format.| blackarch-windows |https://pypi.org/project/minidump/#files
 python-minikerberos|0.0.10|Kerberos manipulation library in pure Python.| blackarch-windows |https://pypi.org/project/minikerberos/#files
@@ -1525,7 +1526,7 @@ python2-frida|12.6.9|Dynamic instrumentation toolkit for developers, reverse-eng
 python2-frida-tools|2.0.1|Frida CLI tools.| blackarch-reversing |https://pypi.org/project/frida-tools/#files
 python2-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python2-ivre|0.9.13.dev37|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
-python2-jsbeautifier|1.10.0|JavaScript unobfuscator and beautifier.| blackarch-webapp |https://github.com/beautify-web/js-beautify
+python2-jsbeautifier|1.10.1|JavaScript unobfuscator and beautifier.| blackarch-webapp |https://github.com/beautify-web/js-beautify
 python2-ldapdomaindump|0.9.1|Active Directory information dumper via LDAP.| blackarch-scanner |https://pypi.org/project/ldapdomaindump/#files
 python2-minidump|19.749e6da|Python library to parse and read Microsoft minidump file format.| blackarch-windows |https://github.com/skelsec/minidump
 python2-minikerberos|17.e7e8d0a|Kerberos manipulation library in pure Python.| blackarch-windows |https://github.com/skelsec/minikerberos
@@ -1885,7 +1886,7 @@ sticky-keys-hunter|15.c816fc9|Script to test an RDP host for sticky keys and uti
 stig-viewer|2.8|XCCDF formatted SRGs and STIGs files viewer for SCAP validation tools.| blackarch-scanner |https://www.stig-viewer.com
 stompy|0.0.4|An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.| blackarch-misc |http://lcamtuf.coredump.cx/
 storm-ring|0.1|This simple tool is useful to test a PABX with "allow guest" parameter set to "yes" (in this scenario an anonymous caller could place a call).| blackarch-voip |http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html
-strace|5.1|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
+strace|5.2|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
 streamfinder|1.2|Searches for Alternate Data Streams (ADS).| blackarch-windows |https://www.gaijin.at/en/dlstreamfind.php
 striker|77.c15ab0d|An offensive information and vulnerability scanner.| blackarch-scanner |https://github.com/UltimateHackers/Striker
 striptls|53.eff1d59|Proxy PoC implementation of STARTTLS stripping attacks.| blackarch-proxy |https://github.com/tintinweb/striptls
