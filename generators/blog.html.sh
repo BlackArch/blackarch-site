@@ -28,6 +28,16 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
+            <article id=p101 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Wed, 24 Jul 2019 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in China!</h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank">TUNA</a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank">https</a>
+              </div>
+            </article>
+
             <article id=p100 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Mon, 01 Jun 2019 00:00:00 GMT</time>
@@ -57,6 +67,7 @@ cat <<\EOF
               </p>
             </div>
             </article>
+
             <article id=p99 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Sat, 04 Dec 2018 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in Hungary! </h4></header>
