@@ -32,7 +32,7 @@ cat <<\EOF
               <time itemprop="datePublished">Wed, 24 Jul 2019 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in China!</h4></header>
               <div itemprop="description">
-                We would like to thank <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank">TUNA</a> for becoming a BlackArch Linux mirror.
+                We would like to thank <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> for becoming a BlackArch Linux mirror.
                 <br /><br />
                 They are offering the following access: <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank">https</a>
               </div>
