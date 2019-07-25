@@ -245,7 +245,7 @@ cat << EOF
               <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a>
               <br><br>
               <img src="/images/flags/cn.png" alt="China" /> China<br>
-              <a href="https://mirrors.tuna.tsinghua.edu.cn/" target="_blank" itemprop="url">https://mirrors.tuna.tsinghua.edu.cn/</a><br>
+              <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.tuna.tsinghua.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.ustc.edu.cn/blackarch/</a>
               <br><br>
               <img src="/images/flags/dk.png" alt="Denmark" /> Denmark<br>
