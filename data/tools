@@ -51,8 +51,8 @@ android-udev-rules|386.97c9340|Android udev rules.| blackarch-mobile |https://gi
 androidpincrack|2.ddaf307|Bruteforce the Android Passcode given the hash and salt.| blackarch-mobile |https://github.com/PentesterES/AndroidPINCrack
 androidsniffer|0.1|A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.| blackarch-mobile |http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html
 androwarn|135.626c02d|Yet another static code analyzer for malicious Android applications.| blackarch-mobile |https://github.com/maaaaz/androwarn
-angr|8.19.4.5|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
-angr-management|8.19.4.5|This is the GUI for angr.| blackarch-binary |https://pypi.org/project/angr-management/#files
+angr|8.19.7.25|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
+angr-management|8.19.7.25|This is the GUI for angr.| blackarch-binary |https://pypi.org/project/angr-management/#files
 angr-py2|7.8.9.26|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
 angrop|164.794583f|A rop gadget finder and chain builder.| blackarch-exploitation |https://github.com/salls/angrop
 anontwi|1.1b|A free software python client designed to navigate anonymously on social networks. It supports Identi.ca and Twitter.com.| blackarch-social |http://anontwi.sourceforge.net/
@@ -299,7 +299,7 @@ cidr2range|1.0|Script for listing the IP addresses contained in a CIDR netblock.
 cintruder|10.021fba5|An automatic pentesting tool to bypass captchas.| blackarch-cracker |https://github.com/epsylon/cintruder
 cipherscan|415.ff8eac4|A very simple way to find out which SSL ciphersuites are supported by a target.| blackarch-scanner |https://github.com/jvehent/cipherscan
 ciphertest|22.e33eb4a|A better SSL cipher checker using gnutls.| blackarch-crypto |https://github.com/OpenSecurityResearch/ciphertest
-ciphr|105.db79691|A CLI tool for encoding, decoding, encryption, decryption, and hashing streams of data.| blackarch-crypto |https://github.com/frohoff/ciphr
+ciphr|127.5da7137|A CLI tool for encoding, decoding, encryption, decryption, and hashing streams of data.| blackarch-crypto |https://github.com/frohoff/ciphr
 cirt-fuzzer|1.0|A simple TCP/UDP protocol fuzzer.| blackarch-fuzzer |http://www.cirt.dk/
 cisco-auditing-tool|1|Perl script which scans cisco routers for common vulnerabilities. Checks for default passwords, easily guessable community names, and the IOS history bug. Includes support for plugins and scanning multiple hosts.| blackarch-cracker |http://www.scrypt.net
 cisco-global-exploiter|1.3|A perl script that targets multiple vulnerabilities in the Cisco Internetwork Operating System (IOS) and Catalyst products.| blackarch-exploitation |http://www.blackangels.it
@@ -687,7 +687,7 @@ galleta|20040505_1|Examine the contents of the IE's cookie files for forensic pu
 gasmask|149.9d26cb5|All in one Information gathering tool - OSINT.| blackarch-recon |https://github.com/twelvesec/gasmask
 gatecrasher|2.3ad5225|Network auditing and analysis tool developed in Python.| blackarch-recon |https://github.com/michaeltelford/gatecrasher
 gcat|29.39b266c|A fully featured backdoor that uses Gmail as a C&C server.| blackarch-malware |https://github.com/byt3bl33d3r/gcat
-gcrypt|2|Simple file encryption tool written in C++.| blackarch-crypto |https://github.com/GasparVardanyan/GCrypt
+gcrypt|3|Simple file encryption tool written in C++.| blackarch-crypto |https://github.com/GasparVardanyan/GCrypt
 gdb|8.3|The GNU Debugger| blackarch-debugger |https://www.gnu.org/software/gdb/
 gdbgui|364.78eb7ca|Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.| blackarch-debugger |https://github.com/cs01/gdbgui
 gef|1679.0daaddf|Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.| blackarch-debugger |https://github.com/hugsy/gef
@@ -775,6 +775,7 @@ halcyon-ide|2.0.1|First IDE for Nmap Script (NSE) Development.| blackarch-misc |
 hamster|2.0.0|Tool for HTTP session sidejacking.| blackarch-exploitation |http://hamster.erratasec.com/
 handle|0.1|An small application designed to analyze your system searching for global objects related to running proccess and display information for every found object, like tokens, semaphores, ports, files,..| blackarch-windows |http://www.tarasco.org/security/handle/index.html
 harness|19.ed2a6aa|Interactive remote PowerShell Payload.| blackarch-backdoor |https://github.com/Rich5/Harness
+harpoon|202.7e24ae8|CLI tool for open source and threat intelligence.| blackarch-automation |https://github.com/Te-k/harpoon
 hasere|1.0|Discover the vhosts using google and bing.| blackarch-recon |https://github.com/galkan/hasere
 hash-buster|44.41ef108|A python script which scraps online hash crackers to find cleartext of a hash.| blackarch-crypto |https://github.com/UltimateHackers/Hash-Buster/
 hash-extender|136.d27581e|A hash length extension attack tool.| blackarch-crypto |https://github.com/iagox86/hash_extender
@@ -2206,7 +2207,7 @@ wnmap|0.1|A shell script written with the purpose to automate and chain scans vi
 wol-e|2.0|A suite of tools for the Wake on LAN feature of network attached computers.| blackarch-misc |http://code.google.com/p/wol-e/
 wolpertinger|2.58ef8e2|A distributed portscanner.| blackarch-scanner |https://github.com/Crapworks/wolpertinger
 wordbrutepress|30.5165648|Python script that performs brute forcing against WordPress installs using a wordlist.| blackarch-cracker |http://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/
-wordlistctl|0.8.4|Fetch, install and search wordlist archives from websites and torrent peers.| blackarch-misc |https://github.com/BlackArch/wordlistctl
+wordlistctl|0.8.6|Fetch, install and search wordlist archives from websites and torrent peers.| blackarch-misc |https://github.com/BlackArch/wordlistctl
 wordpot|44.e96889b|A Wordpress Honeypot.| blackarch-honeypot |https://github.com/gbrindisi/wordpot
 wordpress-exploit-framework|902.4462106|A Ruby framework for developing and using modules which aid in the penetration testing of WordPress powered websites and systems.| blackarch-webapp |https://github.com/rastating/wordpress-exploit-framework
 wordpresscan|66.8a24768|WPScan rewritten in Python + some WPSeku ideas.| blackarch-scanner |https://github.com/swisskyrepo/Wordpresscan
@@ -2274,6 +2275,7 @@ yawast|746.9d0bcc7|The YAWAST Antecedent Web Application Security Toolkit.| blac
 yay|9.2.1|Yet another yogurt. Pacman wrapper and AUR helper written in go.| blackarch-misc |https://github.com/Jguer/yay
 ycrawler|0.1|A web crawler that is useful for grabbing all user supplied input related to a given website and will save the output. It has proxy and log file support.| blackarch-webapp |http://packetstormsecurity.com/files/98546/yCrawler-Web-Crawling-Utility.html
 yersinia|0.8.2|A network tool designed to take advantage of some weakness in different network protocols.| blackarch-networking |http://www.yersinia.net/
+yeti|2052.385b7885|A platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository.| blackarch-defensive |https://github.com/yeti-platform/yeti
 yinjector|0.1|A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods.| blackarch-exploitation |http://packetstormsecurity.com/files/98359/yInjector-MySQL-Injection-Tool.html
 ysoserial|0.0.5|A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.| blackarch-webapp |https://github.com/frohoff/ysoserial
 zackattack|5.1f96c14|A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.| blackarch-networking |https://github.com/urbanesec/ZackAttack/
