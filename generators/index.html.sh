@@ -181,6 +181,13 @@ cat <<EOF
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
+                                    <td itemprop="givenName">Erik</td>
+                                    <td itemprop="additionalName">deep_m4gic</td>
+                                    <td itemprop="email">deep_m4gic@blackarch.org</td>
+                                    <td><a href="gpgkeys/deep_m4gic.asc" target="_blank">0x772F36C5</a></td>
+                                    <td itemprop="jobTitle">Designer</td>
+                                </tr>
+                                <tr>
                                     <td itemprop="givenName">Alexander Rothenberg</td>
                                     <td itemprop="additionalName">EisWiesel</td>
                                     <td itemprop="email">eiswiesel@blackarch.org</td>
