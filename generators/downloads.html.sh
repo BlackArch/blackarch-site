@@ -6,7 +6,7 @@ cat << EOF
       <div class="row">
       <div class="col-lg-12">
          <div class="page-header page-header-title">
-         <h1>Downloads</h1> <h2>BlackArch iso</h2>
+         <h1>Downloads</h1> <h2>BlackArch ISO</h2>
          </div>
         <ol class="breadcrumb">
           <li><a class=home href="index.html">Home</a>
