@@ -3,12 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BlackArch Linux - Penetration Testing Distribution</title>
-    <meta name="description" content="BlackArch Linux is a lightweight expansion to Arch Linux for penetration testers.">
+    <meta name="description" content="A lightweight, pentest distribution: BlackArch Linux is a lightweight expansion to Arch Linux for penetration testers.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <!-- Bootstrap Core CSS -->
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<!-- Custom CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
     <link href="css/blackarch.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -32,30 +32,38 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse menu-lnk" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav navbar-right fa-ul" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
-                    <li id=home itemprop="name">
-                        <a itemprop="url" href="index.html" class="fa-li fa fa-home"> Home</a>
+            	<ul class="nav navbar-nav navbar-right" itemscope itemtype="https://www.schema.org/SiteNavigationElement">
+                    <li id="home" itemprop="name">
+                        <i class="fa fa-home"></i>
+                        <a itemprop="url" href="index.html">Home</a>
                     </li>
-                    <li id=downloads itemprop="name">
-                        <a itemprop="url" href="downloads.html" class="fa-li fa fa-download"> Downloads</a>
+                    <li id="downloads" itemprop="name">
+                        <i class="fa fa-download"></i>
+                        <a itemprop="url" href="downloads.html">Downloads</a>
                     </li>
-                    <li id=guide itemprop="name">
-                        <a itemprop="url" href="guide.html" class="fa-li fa fa-book"> Guide</a>
+                    <li id="guide" itemprop="name">
+                        <i class="fa fa-book"></i>
+                        <a itemprop="url" href="guide.html">Guide</a>
                     </li>
-                    <li id=faq itemprop="name">
-                        <a itemprop="url" href="faq.html" class="fa-li fa fa-question-circle-o"> Faq</a>
+                    <li id="faq" itemprop="name">
+                        <i class="fa fa-question-circle-o"></i>
+                        <a itemprop="url" href="faq.html">Faq</a>
                     </li>
-                    <li id=tools itemprop="name">
-                        <a itemprop="url" href="tools.html" class="fa-li fa fa-list-alt"> Tools</a>
+                    <li id="tools" itemprop="name">
+                        <i class="fa fa-list-alt"></i>
+                        <a itemprop="url" href="tools.html">Tools</a>
                     </li>
-                    <li id=community itemprop="name">
-                        <a itemprop="url" href="community.html" class="fa-li fa fa-users"> Community</a>
+                    <li id="community" itemprop="name">
+                        <i class="fa fa-users"></i>
+                        <a itemprop="url" href="community.html">Community</a>
                     </li>
-                    <li id=blog itemprop="name">
-                        <a itemprop="url" href="blog.html" class="fa-li fa fa-newspaper-o"> Blog</a>
+                    <li id="blog" itemprop="name">
+                        <i class="fa fa-newspaper-o"></i>
+                        <a itemprop="url" href="blog.html">Blog</a>
                     </li>
-                    <li id=donate itemprop="name">
-     					<a itemprop="url" href="donate.html" class="fa-li fa fa-heart"> Donate</a>
+                    <li id="donate" itemprop="name">
+                        <i class="fa fa-heart"></i>
+     					<a itemprop="url" href="donate.html">Donate</a>
                     </li>
                 </ul>
             </div>

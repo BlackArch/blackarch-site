@@ -1,5 +1,116 @@
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-100Thin.otf");
+	font-style: normal;
+	font-weight: 100;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-100ThinItalic.otf");
+	font-style: italic;
+	font-weight: 100;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-200XLight.otf");
+	font-style: normal;
+	font-weight: 200;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-200XLightItalic.otf");
+	font-style: italic;
+	font-weight: 200;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-300Light.otf");
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-300LightItalic.otf");
+	font-style: italic;
+	font-weight: 300;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-400Regular.otf");
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-400Italic.otf");
+	font-style: italic;
+	font-weight: 400;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-500Medium.otf");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-500MediumItalic.otf");
+	font-style: italic;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-600SemiBold.otf");
+	font-style: normal;
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-600SemiBoldItalic.otf");
+	font-style: italic;
+	font-weight: 600;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-700Bold.otf");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-700BoldItalic.otf");
+	font-style: italic;
+	font-weight: 700;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-800Black.otf");
+	font-style: normal;
+	font-weight: 800;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-800BlackItalic.otf");
+	font-style: italic;
+	font-weight: 800;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-900XBlack.otf");
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+	font-family: "Sinkin Sans";
+	src: url("/fonts/SinkinSans-900XBlackItalic.otf");
+	font-style: italic;
+	font-weight: 900;
+}
+
 html, body {
 	height: 100%;
+	font-family: "Sinkin Sans", sans-serif;
+	font-size: smaller;
 }
 
 body {
@@ -8,7 +119,7 @@ body {
 	color: #F4F4F4;
 }
 
-a:not (:.hcat ) {
+a:not(.hcat ) {
 	color: #3b6baf;
 }
 
@@ -145,6 +256,7 @@ display:inline-block;
 
 .menu-lnk li a {
 	display: inline;
+	padding-left: 0px;
 }
 
 #donate a {
@@ -284,6 +396,7 @@ width: 500px;
 }
 #tbl-minimalist td {
 	border-bottom: 1px solid #494949;
+	font-size: smaller;
 }
 
 #tbl-minimalist tbody tr:hover>.tbl-name, #tbl-minimalist tbody tr:hover>.tbl-homepage
@@ -322,7 +435,7 @@ background-color: rgba(15, 8, 8, 0.4);
 	box-sizing: border-box;
 }
 
-.tbl-homepage:not (:first-child) {
+.tbl-homepage:not(:first-child) {
 	text-align: center;
 	margin: 3px 0 3px 0;
 	max-width: 60px;
@@ -606,7 +719,7 @@ text-align: left;
 /* End Tutoriel */
 /* Donate */
 #givenow {
-	with: 99%;
+	width: 99%;
 	text-align: center;
 }
 
@@ -652,7 +765,7 @@ text-align: left;
 }
 /* FAQ */
 .faqco {
-magin:2px 0 2px 0;
+margin:2px 0 2px 0;
 padding:2px 4px 2px 4px;
 color:#06D206;
 background-color:#111111;
