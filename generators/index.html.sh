@@ -30,7 +30,7 @@ cat <<EOF
                 <a href="/images/screenshots/fluxbox.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/fluxbox.png" alt="BlackArch Linux with fluxbox"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/openbox.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/openbox.png" alt="BlackArch Linux with openbox"></a>
+                <a href="/images/screenshots/i3.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/i3.png" alt="BlackArch Linux with i3"></a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/awesome.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/awesome.png" alt="BlackArch Linux with awesome wm"></a>
@@ -42,7 +42,7 @@ cat <<EOF
                 <a href="/images/screenshots/lxdm.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;" src="images/screenshots/lxdm.png" alt="BlackArch Linux with lxdm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/syslinux.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="images/screenshots/syslinux.png" alt="BlackArch Linux wallpaper"></a>
+                <a href="/images/screenshots/grub.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="images/screenshots/grub.png" alt="BlackArch Linux Grub"></a>
             </div>
         </div>
     </div>
