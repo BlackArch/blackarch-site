@@ -28,6 +28,42 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
+            <!--
+            <article id=p102 itemscope itemtype="http://schema.org/NewsArticle">
+            <header>
+              <time itemprop="datePublished">Sun, 01 Sep 2019 00:00:00 GMT</time>
+              <h4 itemprop="name">New ISOs and OVA Image released!</h4>
+            </header>
+            <div itemprop="description">
+              <p>
+                Today we released the new BlackArch Linux ISOs and OVA image.
+                These are really special releases as many improvements and QA went through all packages and tools Blackarch Linux offers!
+                For details see the ChangeLog below.
+              </p>
+              <p>Here's the ChangeLog:</p>
+                <ul>
+                  <li>added more than 150 new tools</li>
+                  <li>added terminus font for all WMs (thanks to psf for i3-wm bugfixes)</li>
+                  <li>included linux kernel 5.2.9</li>
+                  <li>new vimrc and ~/.vimrc (thanks to noptrix offering his config files)</li>
+                  <li>updated blackarch-installer to v1.1.19</li>
+                  <li>various improvements and bugfixes</li>
+                  <li>removed dwm window manager</li>
+                  <li>replaced the default terminal xterm with rxvt-unicode</li>
+                  <li>updated look&feel: new BlackArch theme for WMs, grub, syslinux, etc.</li>
+                  <li>QA'ed and fixed all packages (runtime exec).</li>
+                  <li>updated all blackarch tools and packages including config files</li>
+                  <li>updated all system packages</li>
+                  <li>updated all window manager menus (awesome, fluxbox, openbox)</li>
+                </ul>
+              </p>
+              <p>
+                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+              </p>
+            </div>
+            </article>
+            -->
+
             <article id=p101 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Wed, 24 Jul 2019 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in China!</h4></header>
