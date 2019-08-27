@@ -44,12 +44,12 @@ cat <<\EOF
                   <li>added more than 150 new tools</li>
                   <li>added terminus font for all WMs (thanks to psf for i3-wm bugfixes)</li>
                   <li>included linux kernel 5.2.9</li>
-                  <li>new vimrc and ~/.vimrc (thanks to noptrix offering his config files)</li>
+                  <li>new ~/.vim and ~/.vimrc (thanks to noptrix offering his config files)</li>
                   <li>updated blackarch-installer to v1.1.19</li>
                   <li>various improvements and bugfixes</li>
                   <li>removed dwm window manager</li>
                   <li>replaced the default terminal xterm with rxvt-unicode</li>
-                  <li>updated look&feel: new BlackArch theme for WMs, grub, syslinux, etc.</li>
+                  <li>updated look&feel: new BlackArch theme for WMs, grub, syslinux, etc. (special thanks to Erik!)</li>
                   <li>QA'ed and fixed all packages (runtime exec).</li>
                   <li>updated all blackarch tools and packages including config files</li>
                   <li>updated all system packages</li>
