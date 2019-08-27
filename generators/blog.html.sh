@@ -28,7 +28,6 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
-            <!--
             <article id=p102 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Sun, 01 Sep 2019 00:00:00 GMT</time>
@@ -62,7 +61,6 @@ cat <<\EOF
               </p>
             </div>
             </article>
-            -->
 
             <article id=p101 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Wed, 24 Jul 2019 00:00:00 GMT</time>
