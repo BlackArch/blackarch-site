@@ -62,14 +62,14 @@ cat << EOF
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2019.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                   <td itemprop="datePublished">2019.09.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-live-2019.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>12 GB</td>
+                  <td>16 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2019.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                   <td itemprop="datePublished">2019.09.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-netinst-2019.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>651 MB</td>
+                  <td>660 MB</td>
                   <td>${NET_CHECKSUM}</td>
                 </tr>
               </table>
@@ -116,7 +116,7 @@ cat << EOF
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2019.09.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
                   <td itemprop="datePublished">2019.09.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-2019.09.0q.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>30 GB</td>
+                  <td>28 GB</td>
                   <td>${OVA_CHECKSUM}</td>
                 </tr>
               </table>
