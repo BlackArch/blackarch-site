@@ -211,7 +211,7 @@ cat << EOF
           <ul class="list-group">
             <li class="list-group-item">
               <p>
-                BlackArch is compatible with Arch Linux ARM. It effectively supports all of the ARMv6, ARMv7 and Aarch64 platforms listed
+                BlackArch is compatible with Arch Linux ARM. It effectively supports all of the Aarch64 platforms listed
                 <a href="http://archlinuxarm.org/platforms" target="_blank">here</a>.
               </p>
               <p>
