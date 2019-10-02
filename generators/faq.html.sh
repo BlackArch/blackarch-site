@@ -54,7 +54,7 @@ cat <<\EOF
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                            BlackArch is constantly being updated and offers the lastest packages available on Github. We release a new ISO four times a year (quarterly). These new images contain packages that are up to date, and usually include bug fixes. If you find any package that is outdated and wish to see it up to date, please report it as an issue on our Github repository <a href="https://github.com/BlackArch/blackarch" title="BlackArch github" target=_blank>Github</a>.
+                            BlackArch is constantly being updated and offers the latest packages available on Github. We release a new ISO four times a year (quarterly). These new images contain packages that are up to date, and usually include bug fixes. If you find any package that is outdated and wish to see it up to date, please report it as an issue on our Github repository <a href="https://github.com/BlackArch/blackarch" title="BlackArch github" target=_blank>Github</a>.
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ cat <<\EOF
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
-                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">How can I fetch/install the lastest update available?</a>
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">How can I fetch/install the latest update available?</a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
