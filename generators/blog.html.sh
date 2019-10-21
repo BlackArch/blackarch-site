@@ -34,10 +34,12 @@ cat <<\EOF
               <div itemprop="description">
                 We would like to thank <a href="https://unixpeople.org/" target="_blank">unixpeople.org</a> for becoming a BlackArch Linux mirror.
                 <br /><br />
-                They are offering the following access: <a href="https://blackarch.unixpeople.org/" target="_blank">https</a>
+                They are offering the following access: <a href="http://blackarch.unixpeople.org/" target="_blank">http</a> |
+                <a href="https://blackarch.unixpeople.org/" target="_blank">https</a> |
+                <a href="rsync://blackarch.unixpeople.org/" target="_blank">rsync</a>
               </div>
             </article>
-            
+
             <article id=p102 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Sun, 01 Sep 2019 00:00:00 GMT</time>
