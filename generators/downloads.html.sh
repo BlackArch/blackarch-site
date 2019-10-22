@@ -269,7 +269,7 @@ cat << EOF
               <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
               <a href="https://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">https://mirror.adversec.com/blackarch/</a><br>
               <a href="http://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">http://mirror.cyberbits.eu/blackarch/</a><br>
-              <a href="https://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">https://mirror.cyberbits.eu/blackarch/</a>
+              <a href="https://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">https://mirror.cyberbits.eu/blackarch/</a><br>
               <a href="rsync://rsync.cyberbits.eu/blackarch/" target="_blank" itemprop="url">rsync://rsync.cyberbits.eu/blackarch/</a>
               <br><br>
               <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
