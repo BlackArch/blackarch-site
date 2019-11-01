@@ -676,6 +676,7 @@ frida|12.6.8|Dynamic instrumentation toolkit for developers, reverse-engineers, 
 frida-extract|13.abb3f14|Frida.re based RunPE (and MapViewOfSection) extraction tool.| blackarch-reversing |https://github.com/OALabs/frida-extract
 frida-ios-dump|41.f88043a|Pull decrypted ipa from jailbreak device.| blackarch-mobileblackarch-reversing |https://github.com/AloneMonkey/frida-ios-dump
 frida-ipa-dump|48.91c6f86|Yet another frida based iOS dumpdecrypted.| blackarch-mobileblackarch-reversing |https://github.com/ChiChou/frida-ipa-dump
+frida-push|1.0.8|Wrapper tool to identify the remote device and push device specific frida-server binary| blackarch-mobile |https://github.com/AndroidTamer/frida-push
 fridump|23.3e64ee0|A universal memory dumper using Frida.| blackarch-forensic |https://github.com/Nightbringer21/fridump
 frisbeelite|1.2|A GUI-based USB device fuzzer.| blackarch-fuzzer |https://github.com/nccgroup/FrisbeeLite
 fs-exploit|3.28bb9bb|Format string exploit generation.| blackarch-exploitation |https://github.com/miaouPlop/fs
@@ -736,7 +737,7 @@ glue|379.bb5d5a7|A framework for running a series of tools.| blackarch-automatio
 gnuradio|3.8.0.0|General purpose DSP and SDR toolkit. With drivers for usrp and fcd.| blackarch-wireless |https://gnuradio.org
 gnutls2|2.12.23|A library which provides a secure layer over a reliable transport layer (Version 2)| blackarch-crypto |http://gnutls.org/
 gobd|82.3bbd17c|A Golang covert backdoor.| blackarch-backdoor |https://github.com/razc411/GoBD
-gobuster|281.f7ed22d|Directory/file & DNS busting tool written in Go.| blackarch-webapp |https://github.com/OJ/gobuster
+gobuster|290.5b21a90|Directory/file & DNS busting tool written in Go.| blackarch-webapp |https://github.com/OJ/gobuster
 goddi|1.2|Dumps Active Directory domain information.| blackarch-recon |https://github.com/NetSPI/goddi
 goldeneye|21.5a97622|A HTTP DoS test tool. Attack Vector exploited: HTTP Keep Alive + NoCache.| blackarch-dos |https://github.com/jseidl/GoldenEye
 golismero|71.a6f5a4a|Opensource web security testing framework.| blackarch-webapp |https://github.com/golismero/golismero
@@ -1122,7 +1123,7 @@ malice|0.3.28|VirusTotal Wanna Be - Now with 100% more Hipster.| blackarch-defen
 maligno|2.5|An open source penetration testing tool written in python, that serves Metasploit payloads. It generates shellcode with msfvenom and transmits it over HTTP or HTTPS.| blackarch-scanner |http://www.encripto.no/tools/
 malmon|0.3|Hosting exploit/backdoor detection daemon.| blackarch-defensive |http://sourceforge.net/projects/malmon/
 malscan|5.773505a|A Simple PE File Heuristics Scanner.| blackarch-malware |https://github.com/Ice3man543/MalScan
-maltego|4.2.6.12502|An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.| blackarch-forensic |http://www.paterva.com/web5
+maltego|4.2.7.12570|An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.| blackarch-forensic |http://www.paterva.com/web5
 maltrail|15170.7e2c9f8ae|Malicious traffic detection system.| blackarch-defensive |https://github.com/stamparm/maltrail
 maltrieve|342.b9e7560|Originated as a fork of mwcrawler. It retrieves malware directly from the sources as listed at a number of sites.| blackarch-malware |https://github.com/technoskald/maltrieve
 malware-check-tool|1.2|Python script that detects malicious files via checking md5 hashes from an offline set or via the virustotal site. It has http proxy support and an update feature.| blackarch-malware |http://packetstormsecurity.com/files/93518/Malware-Check-Tool.2.html
@@ -1192,7 +1193,7 @@ mitmf|467.0458300|A Framework for Man-In-The-Middle attacks written in Python.| 
 mitmproxy|4.0.4|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |https://mitmproxy.org
 mkbrutus|27.ddd5f8e|Password bruteforcer for MikroTik devices or boxes running RouterOS.| blackarch-cracker |http://mkbrutusproject.github.io/MKBRUTUS/
 mobiusft|1.12|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.| blackarch-forensic |http://savannah.nongnu.org/projects/mobiusft
-mobsf|1198.ed7ff6d7|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/MobSF/Mobile-Security-Framework-MobSF
+mobsf|1205.efd1cec4|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/MobSF/Mobile-Security-Framework-MobSF
 modscan|0.1|A new tool designed to map a SCADA MODBUS TCP based network.| blackarch-scanner |https://code.google.com/p/modscan/
 moloch|0.11.3|An open source large scale IPv4 full PCAP capturing, indexing and database system.| blackarch-networking |https://github.com/aol/moloch
 mongoaudit|219.bc7d75d|A powerful MongoDB auditing and pentesting tool .| blackarch-scanner |https://github.com/stampery/mongoaudit
@@ -1607,7 +1608,7 @@ quicksand-lite|28.857210e|Command line tool for scanning streams within office d
 rabid|v0.0.4.r2.gbba828e|A CLI tool and library allowing to simply decode all kind of BigIP cookies.| blackarch-webapp |https://github.com/Orange-Cyberdefense/rabid
 raccoon|183.985797f|A high performance offensive security tool for reconnaissance and vulnerability scanning.| blackarch-recon |https://github.com/evyatarmeged/Raccoon
 radamsa|0.6|General purpose mutation based fuzzer| blackarch-fuzzer |https://gitlab.com/akihe/radamsa
-radare2|3.9.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
+radare2|4.0.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
 radare2-cutter|1.9.0|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/cutter
 radare2-keystone|508.cabcd22|Keystone assembler plugins for radare2.| blackarch-reversing |https://github.com/radare/radare2-extras/tree/master/unicorn
 radiography|2|A forensic tool which grabs as much information as possible from a Windows system.| blackarch-windows |http://www.security-projects.com/?RadioGraPhy
@@ -2120,7 +2121,7 @@ upnp-pentest-toolkit|1.1|UPnP Pentest Toolkit for Windows.| blackarch-windows |h
 upnpscan|0.4|Scans the LAN or a given address range for UPnP capable devices.| blackarch-scanner |http://www.cqure.net/wp/upnpscan/
 uppwn|9.f69dec4|A script that automates detection of security flaws on websites' file upload systems'.| blackarch-webapp |https://github.com/ferrery1/UpPwn
 upx|3.95|Ultimate executable compressor.| blackarch-binary |http://upx.sourceforge.net/
-urh|2.7.5|Universal Radio Hacker: investigate wireless protocols like a boss| blackarch-radio |https://github.com/jopohl/urh
+urh|2.8.0|Universal Radio Hacker: investigate wireless protocols like a boss| blackarch-radio |https://github.com/jopohl/urh
 urlcrazy|0.5|Generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage.| blackarch-webapp |http://www.morningstarsecurity.com/research/urlcrazy
 urldigger|02c|A python tool to extract URL addresses from different HOT sources and/or detect SPAM and malicious code| blackarch-webapp |https://code.google.com/p/urldigger/
 urlview|0.9|A curses URL parser for text files.| blackarch-misc |http://packages.qa.debian.org/u/urlview.html
