@@ -4,7 +4,7 @@ admsnmp|0.1|ADM SNMP audit scanner.|
 allthevhosts|1.0|A vhost discovery tool that scrapes various web applications.|http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/
 amass|886.f12600b|In-depth subdomain enumeration written in Go.|https://github.com/OWASP/Amass
 apache-users|2.1|This perl script will enumerate the usernames on a unix system that use the apache module UserDir.|https://labs.portcullis.co.uk/downloads/
-assetfinder|14.2f365f1|Find domains and subdomains potentially related to a given domain.|https://github.com/tomnomnom/assetfinder
+assetfinder|16.3527f1c|Find domains and subdomains potentially related to a given domain.|https://github.com/tomnomnom/assetfinder
 athena-ssl-scanner|0.6.2|A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.|http://packetstormsecurity.com/files/93062/Athena-SSL-Cipher-Scanner.html
 atscan|2367.4c29b7c|Server, Site and Dork Scanner.|https://github.com/AlisamTechnology/ATSCAN-V3.1
 aws-extender-cli|10.e5df716|Script to test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues.|https://github.com/VirtueSecurity/aws-extender-cli
@@ -29,7 +29,7 @@ ciscos|1.3|Scans class A, B, and C networks for cisco routers which have telnet 
 clair|2.0.9|Vulnerability Static Analysis for Containers.|https://github.com/coreos/clair
 climber|30.5530a78|Check UNIX/Linux systems for privilege escalation.|https://github.com/raffaele-forte/climber
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.|https://github.com/mandatoryprogrammer/cloudflare_enum
-cloudsploit|389.6b055a2|AWS security scanning checks.|https://github.com/cloudsploit/scans
+cloudsploit|391.fac412d|AWS security scanning checks.|https://github.com/cloudsploit/scans
 cmsmap|8.59dd0e2|A python open source Content Management System scanner that automates the process of detecting security flaws of the most popular CMSs.|https://www.dionach.com/blog/cmsmap-%E2%80%93-a-simple-cms-vulnerability-scanner
 configpush|0.8.5|This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.|http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html
 corstest|7.d8ddce2|A simple CORS misconfigurations checker.|https://github.com/RUB-NDS/CORStest
@@ -93,7 +93,7 @@ greenbone-security-assistant|8.0.1|Greenbone Security Assistant (gsa) - OpenVAS 
 grepforrfi|0.1|Simple script for parsing web logs for RFIs and Webshells v1.2|http://www.irongeek.com/downloads/grepforrfi.txt
 gtp-scan|0.7|A small python script that scans for GTP (GPRS tunneling protocol) speaking hosts.|http://www.c0decafe.de/
 gvmd|8.0.1|greenbone-vulnerability-manager|https://github.com/greenbone/gvmd
-h2buster|72.6b8311b|A threaded, recursive, web directory brute-force scanner over HTTP/2.|https://github.com/00xc/h2buster
+h2buster|73.c32e1b2|A threaded, recursive, web directory brute-force scanner over HTTP/2.|https://github.com/00xc/h2buster
 habu|273.9355cc7|Python Network Hacking Toolkit.|https://github.com/portantier/habu
 hakku|384.bbb434d|Simple framework that has been made for penetration testing tools.|https://github.com/4shadoww/hakkuframework
 halberd|0.2.4|Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.|http://halberd.superadditive.com/
@@ -102,7 +102,7 @@ hoppy|1.8.1|A python script which tests http methods for configuration issues le
 host-extract|8.0134ad7|Ruby script tries to extract all IP/Host patterns in page response of a given URL and JavaScript/CSS files of that URL.|https://code.google.com/p/host-extract/
 hsecscan|64.3089ac2|A security scanner for HTTP response headers.|https://github.com/riramar/hsecscan
 http-enum|0.4|A tool to enumerate the enabled HTTP methods supported on a webserver.|https://www.thexero.co.uk/tools/http-enum/
-httprobe|19.c23704f|Take a list of domains and probe for working HTTP and HTTPS servers|https://github.com/tomnomnom/httprobe
+httprobe|21.6f1f48e|Take a list of domains and probe for working HTTP and HTTPS servers|https://github.com/tomnomnom/httprobe
 httpsscanner|1.2|A tool to test the strength of a SSL web server.|https://code.google.com/p/libre-tools/
 iaxscan|0.02|A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.|http://code.google.com/p/iaxscan/
 icmpquery|1.0|Send and receive ICMP queries for address mask and current time.|http://www.angio.net/security/
@@ -118,7 +118,7 @@ jaadas|0.1|Joint Advanced Defect assEsment for android applications.|https://git
 knock|275.e2c98df|Subdomain scanner.|https://github.com/guelfoweb/knock
 knxmap|243.2d6f622|KNXnet/IP scanning and auditing tool for KNX home automation installations.|https://github.com/ernw/knxmap
 krbrelayx|12.412b10b|Kerberos unconstrained delegation abuse toolkit.|https://github.com/dirkjanm/krbrelayx
-kube-hunter|588.031c4b9|Hunt for security weaknesses in Kubernetes clusters.|https://github.com/aquasecurity/kube-hunter
+kube-hunter|590.8cc90db|Hunt for security weaknesses in Kubernetes clusters.|https://github.com/aquasecurity/kube-hunter
 laf|12.7a456b3|Login Area Finder: scans host/s for login panels.|https://github.com/takeshixx/laf
 ldapdomaindump|0.9.1|Active Directory information dumper via LDAP.|https://pypi.org/project/ldapdomaindump/#files
 leaklooker|5.0d2b9fc|Find open databases with Shodan.|https://github.com/woj-ciech/LeakLooker
@@ -150,6 +150,7 @@ nmap|7.80|Utility for network discovery and security auditing|https://nmap.org/
 nmbscan|1.2.6|Tool to scan the shares of a SMB/NetBIOS network, using the NMB/SMB/NetBIOS protocols.|http://nmbscan.gbarbier.org/
 nsec3map|20.1263537|A tool to enumerate the resource records of a DNS zone using its DNSSEC NSEC or NSEC3 chain.|https://github.com/anonion0/nsec3map
 nsia|1.0.6|A website scanner that monitors websites in realtime in order to detect defacements, compliance violations, exploits, sensitive information disclosure and other issues.|http://threatfactor.com/Products/
+ntlm-challenger|1.1080ae0|Parse NTLM over HTTP challenge messages.|https://github.com/b17zr/ntlm_challenger
 o-saft|3552.f22faed|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
 ocs|0.2|Compact mass scanner for Cisco routers with default telnet/enable passwords.|http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner.2.html
 onetwopunch|v1.0.0.r2.gd4ab4e8|Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.|https://github.com/superkojiman/onetwopunch
@@ -188,7 +189,7 @@ sandmap|577.7e2c10f|Simple CLI with the ability to run pure Nmap engine, 31 modu
 sandy|6.531ab16|An open-source Samsung phone encryption assessment framework|https://github.com/donctl/sandy
 sb0x|19.04f40fe|A simple and Lightweight framework for Penetration testing.|https://github.com/levi0x0/sb0x-project
 scamper|20181219|A tool that actively probes the Internet in order to analyze topology and performance.|http://www.caida.org/tools/measurement/scamper/
-scanless|64.3e025be|Utility for using websites that can perform port scans on your behalf.|https://github.com/vesche/scanless
+scanless|68.12f08a4|Utility for using websites that can perform port scans on your behalf.|https://github.com/vesche/scanless
 scanssh|2.1|Fast SSH server and open proxy scanner.|http://www.monkey.org/~provos/scanssh/
 scout2|1182.5d86d46|Security auditing tool for AWS environments.|http://isecpartners.github.io/Scout2/
 scoutsuite|4197.76c59ad5|Multi-Cloud Security Auditing Tool.|https://github.com/nccgroup/ScoutSuite
@@ -247,7 +248,7 @@ videosnarf|0.63|A new security assessment tool for pcap analysis|http://ucsniff.
 visql|49.3082e30|Scan SQL vulnerability on target site and sites of on server.|https://github.com/blackvkng/viSQL
 vscan|10.da4e47e|HTTPS / Vulnerability scanner.|https://github.com/pasjtene/Vscan
 vulmap|75.cb228e6|Vulmap Online Local Vulnerability Scanners Project|https://github.com/vulmon/Vulmap
-vuls|947.45bff26|Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.|https://github.com/future-architect/vuls
+vuls|948.69214e0|Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.|https://github.com/future-architect/vuls
 vulscan|2.0|A module which enhances nmap to a vulnerability scanner|https://www.computec.ch/projekte/vulscan/
 wafw00f|445.a95a942|Identify and fingerprint Web Application Firewall (WAF) products protecting a website.|https://github.com/EnableSecurity/wafw00f
 webenum|21.24b43b4|Tool to enumerate http responses using dynamically generated queries and more.|https://github.com/sarthakpandit/webenum
