@@ -353,6 +353,7 @@ cookie-cadger|1.08|An auditing tool for Wi-Fi or wired Ethernet connections.| bl
 corkscrew|2.0|A tool for tunneling SSH through HTTP proxies| blackarch-tunnel |http://www.agroman.net/corkscrew/
 corscanner|57.01bfdba|Fast CORS misconfiguration vulnerabilities scanner.| blackarch-webapp |https://github.com/chenjj/CORScanner
 corstest|7.d8ddce2|A simple CORS misconfigurations checker.| blackarch-scanner |https://github.com/RUB-NDS/CORStest
+corsy|15.cd3fd5c|CORS Misconfiguration Scanner.| blackarch-webapp |https://github.com/s0md3v/Corsy
 cottontail|72.77ed037|Capture all RabbitMQ messages being sent through a broker.| blackarch-sniffer |https://github.com/QKaiser/cottontail
 cowpatty|4.8|Wireless WPA/WPA2 PSK handshake cracking utility| blackarch-wireless |https://github.com/joswr1ght/cowpatty
 cpfinder|0.1|Simple script that looks for administrative web interfaces.| blackarch-scanner |http://packetstormsecurity.com/files/118851/Control-Panel-Finder-Script.html
@@ -596,7 +597,7 @@ exploit-db|1.6|The Exploit Database (EDB) – an ultimate archive of exploits an
 exploitdb|20191024|Offensive Security’s Exploit Database Archive| blackarch-exploitation |https://www.exploit-db.com/
 exploitpack|139.e565c47|Exploit Pack - The next generation exploit framework.| blackarch-exploitation |https://github.com/juansacco/exploitpack
 expose|1100.24721b2|A Dynamic Symbolic Execution (DSE) engine for JavaScript| blackarch-binary |https://github.com/ExpoSEJS/ExpoSE
-exrex|132.6973340|Irregular methods on regular expressions.| blackarch-misc |https://github.com/asciimoo/exrex
+exrex|140.9e4260f|Irregular methods on regular expressions.| blackarch-misc |https://github.com/asciimoo/exrex
 extracthosts|14.ec8b89c|Extracts hosts (IP/Hostnames) from files.| blackarch-misc |https://github.com/bwall/ExtractHosts
 extractusnjrnl|7.362d4290|Tool to extract the $UsnJrnl from an NTFS volume.| blackarch-forensic |https://github.com/jschicht/ExtractUsnJrnl
 extundelete|0.2.4|Utility for recovering deleted files from ext2, ext3 or ext4 partitions by parsing the journal| blackarch-forensic |http://extundelete.sourceforge.net
@@ -752,7 +753,6 @@ goodork|2.2|A python script designed to allow you to leverage the power of googl
 goofile|1.5|Command line filetype search| blackarch-recon |https://code.google.com/p/goofile/
 goog-mail|1.0|Enumerate domain emails from google.| blackarch-recon |http://www.darkc0de.com/others/goog-mail.py
 google-explorer|140.0b21b57|Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.| blackarch-automation |https://github.com/anarcoder/google_explorer
-google_streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 googlesub|14.a7a3cc7|A python script to find domains by using google dorks.| blackarch-recon |https://github.com/zombiesam/googlesub
 goohak|26.ee593c7|Automatically Launch Google Hacking Queries Against A Target Domain.| blackarch-recon |https://github.com/1N3/Goohak
 goop|12.39b34eb|Perform google searches without being blocked by the CAPTCHA or hitting any rate limits.| blackarch-recon |https://github.com/s0md3v/goop
@@ -1198,7 +1198,7 @@ mibble|2.10.1|An open-source SNMP MIB parser (or SMI parser) written in Java. It
 microsploit|9.441e132|Fast and easy create backdoor office exploitation using module metasploit packet, Microsoft Office, Open Office, Macro attack, Buffer Overflow.| blackarch-backdoor |https://github.com/Screetsec/Microsploit
 middler|1.0|A Man in the Middle tool to demonstrate protocol middling attacks.| blackarch-networking |http://code.google.com/p/middler/
 mikrotik-npk|11.d54e97c|Python tools for manipulating Mikrotik NPK format.| blackarch-reversing |https://github.com/kost/mikrotik-npk
-mimikatz|2.2.0_20190813|A little tool to play with Windows security.| blackarch-windows |https://github.com/gentilkiwi/mimikatz
+mimikatz|2.2.0_20191125|A little tool to play with Windows security.| blackarch-windows |https://github.com/gentilkiwi/mimikatz
 mimipenguin|136.af325aa|A tool to dump the login password from the current linux user.| blackarch-forensic |https://github.com/huntergregal/mimipenguin
 mingsweeper|1.00|A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.| blackarch-windows |http://www.hoobie.net/mingsweeper/
 minimodem|335.9a1e876|A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing protocols.| blackarch-misc |https://github.com/kamalmostafa/minimodem
@@ -1613,11 +1613,11 @@ python-utidylib|0.2|Python bindings for Tidy HTML parser/cleaner.| blackarch-mis
 python-yara-rednaga|279.32b6a74|The Python interface for YARA.| |https://github.com/rednaga/yara-python
 python2-api-dnsdumpster|59.eda15d6|Unofficial Python API for http://dnsdumpster.com/.| blackarch-recon |https://github.com/PaulSec/API-dnsdumpster.com
 python2-capstone|4.0.1|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
+python2-cymruwhois|1.6|Python client for the whois.cymru.com service| blackarch-networking |https://pypi.org/project/cymruwhois/#files
 python2-darts.util.lru|7.5ef01b1|Simple dictionary with LRU behaviour.| blackarch-misc |https://pypi.python.org/pypi/darts.util.lru
 python2-frida|12.7.22|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
 python2-frida-tools|5.3.0|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
 python2-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
-python2-google_streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python2-ivre|0.9.14.dev68|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
 python2-jsbeautifier|1.10.1|JavaScript unobfuscator and beautifier.| blackarch-webapp |https://github.com/beautify-web/js-beautify
 python2-ldapdomaindump|0.9.1|Active Directory information dumper via LDAP.| blackarch-scanner |https://pypi.org/project/ldapdomaindump/#files
@@ -2188,7 +2188,7 @@ vfeed|79.46d8aa9|Open Source Cross Linked and Aggregated Local Vulnerability Dat
 vhostscan|331.0a7137d|A virtual host scanner that can be used with pivot tools, detect catch-all scenarios, aliases and dynamic default pages.| blackarch-scanner |https://github.com/codingo/VHostScan
 videosnarf|0.63|A new security assessment tool for pcap analysis| blackarch-scanner |http://ucsniff.sourceforge.net/videosnarf.html
 vinetto|0.07beta|A forensics tool to examine Thumbs.db files| blackarch-forensic |http://vinetto.sourceforge.net
-viper|2000.b022c86|A Binary analysis framework.| blackarch-disassembler |https://github.com/botherder/viper
+viper|2033.5b01cdc|A Binary analysis framework.| blackarch-disassembler |https://github.com/botherder/viper
 viproy-voipkit|81.427f26e|VoIP Pen-Test Kit for Metasploit Framework| blackarch-exploitation |http://viproy.com/
 virustotal|4.9aea023|Command-line utility to automatically lookup on VirusTotal all files recursively contained in a directory.| blackarch-malware |https://github.com/botherder/virustotal
 visql|49.3082e30|Scan SQL vulnerability on target site and sites of on server.| blackarch-scanner |https://github.com/blackvkng/viSQL
