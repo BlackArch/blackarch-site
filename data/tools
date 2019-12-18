@@ -1127,6 +1127,7 @@ lunar|605.1e8b66a|A UNIX security auditing tool based on several security framew
 luyten|0.5.4|An Open Source Java Decompiler Gui for Procyon.| blackarch-decompiler |https://github.com/deathmarine/Luyten
 lynis|2.7.5|Security and system auditing tool to harden Unix/Linux systems| blackarch-scanner |https://cisofy.com/lynis/
 lyricpass|44.b1c8a6a|Tool to generate wordlists based on lyrics.| blackarch-automation |https://github.com/initstring/lyricpass
+m3-gen|7.7c656cc|Generates Malicious Macro and Execute Powershell or Shellcode via MSBuild Application Whitelisting Bypass, this tool intended for adversary simulation and red teaming purpose.| blackarch-exploitation |https://github.com/infosecn1nja/MaliciousMacroMSBuild
 mac-robber|1.02|A digital investigation tool that collects data from allocated files in a mounted file system.| blackarch-forensic |http://www.sleuthkit.org/mac-robber/download.php
 macchanger|1.7.0|A small utility to change your NIC's MAC address| blackarch-networking |http://www.gnu.org/software/macchanger
 machinae|176.e787be5|A tool for collecting intelligence from public sites/feeds about various security-related pieces of data.| blackarch-recon |https://github.com/HurricaneLabs/machinae
@@ -1612,7 +1613,7 @@ python-minidump|0.0.11|Python library to parse and read Microsoft minidump file 
 python-minikerberos|0.0.11|Kerberos manipulation library in pure Python.| blackarch-windows |https://pypi.org/project/minikerberos/#files
 python-oletools|0.55.1|Tools to analyze Microsoft OLE2 files.| blackarch-binary |https://pypi.org/project/oletools/
 python-python-cymruwhois|30.022e16d|Python client for the whois.cymru.com service| blackarch-networking |https://github.com/JustinAzoff/python-cymruwhois
-python-shodan|1.19.0|Python library and command-line utility for Shodan (https://developer.shodan.io).| blackarch-recon |https://pypi.org/project/shodan/#files
+python-shodan|1.21.0|Python library and command-line utility for Shodan (https://developer.shodan.io).| blackarch-recon |https://pypi.org/project/shodan/#files
 python-trackerjacker|1.9.0|Finds and tracks wifi devices through raw 802.11 monitoring.| blackarch-wireless |https://github.com/calebmadrigal/trackerjacker
 python-uncompyle6|3.6.0|A Python cross-version decompiler.| blackarch-decompiler |https://github.com/rocky/python-uncompyle6
 python-utidylib|0.2|Python bindings for Tidy HTML parser/cleaner.| blackarch-misc |http://utidylib.berlios.de
@@ -1632,7 +1633,7 @@ python2-minidump|19.749e6da|Python library to parse and read Microsoft minidump 
 python2-minikerberos|17.e7e8d0a|Kerberos manipulation library in pure Python.| blackarch-windows |https://github.com/skelsec/minikerberos
 python2-oletools|0.55.1|Tools to analyze Microsoft OLE2 files.| blackarch-binary |https://pypi.org/project/oletools/
 python2-ropgadget|5.9|Pythonic argument parser, that will make you smile.| blackarch-exploitation |https://pypi.org/project/ropgadget/#files
-python2-shodan|1.19.0|Python library and command-line utility for Shodan (https://developer.shodan.io).| blackarch-recon |https://pypi.org/project/shodan/#files
+python2-shodan|1.21.0|Python library and command-line utility for Shodan (https://developer.shodan.io).| blackarch-recon |https://pypi.org/project/shodan/#files
 python2-webtech|1.2.7|Identify technologies used on websites.| blackarch-webapp |https://pypi.org/project/webtech/#files
 python2-yara|3.11.0|Tool aimed at helping malware researchers to identify and classify malware samples| blackarch-malware |https://github.com/VirusTotal/yara-python
 qark|301.ba1b265|Tool to look for several security related Android application vulnerabilities.| blackarch-mobile |https://github.com/linkedin/qark
@@ -1784,6 +1785,7 @@ sdnpwn|58.b1db5b9|An SDN penetration testing toolkit.| blackarch-scanner |https:
 sea|103.9aca1c8|A tool to help to create exploits of binary programs.| blackarch-malware |https://github.com/neuromancer/SEA
 search1337|13.c69937e|1337Day Online Exploit Scanner.| blackarch-automation |https://github.com/b3mb4m/Search1337
 seat|0.3|Next generation information digging application geared toward the needs of security professionals. It uses information stored in search engine databases, cache repositories, and other public resources to scan web sites for potential vulnerabilities.| blackarch-scanner |http://thesprawl.org/projects/search-engine-assessment-tool/
+seclists|824.bf961f2|A collection of multiple types of lists used during security assessments.|-exploitation |https://github.com/danielmiessler/SecLists/
 secscan|1.5|Web Apps Scanner and Much more utilities.| blackarch-webapp |http://code.google.com/p/secscan-py/
 secure-delete|1.b63d814|Secure file, disk, swap, memory erasure utilities.| blackarch-anti-forensic |http://www.thc.org/
 secure2csv|10.119eefb0|Decode security descriptors in $Secure on NTFS.| blackarch-forensic |https://github.com/jschicht/Secure2Csv
@@ -2038,7 +2040,7 @@ synner|1.1|A custom eth->ip->tcp packet generator (spoofer) for testing firewall
 synscan|5.02|fast asynchronous half-open TCP portscanner| blackarch-scanner |http://www.digit-labs.org/files/tools/synscan/
 syringe|12.79a703e|A General Purpose DLL & Code Injection Utility.| blackarch-backdoor |https://github.com/securestate/syringe
 sysdig|0.26.4|Open source system-level exploration and troubleshooting tool| blackarch-recon |https://www.sysdig.com/
-sysinternals-suite|3.7|Sysinternals tools suite.| blackarch-windows |http://sysinternals.com/
+sysinternals-suite|3.8|Sysinternals tools suite.| blackarch-windows |http://sysinternals.com/
 t50|5.8.5|Experimental Multi-protocol Packet Injector Tool.| blackarch-dos |https://gitlab.com/fredericopissarra/t50/tags
 tabi|13.068a406|BGP Hijack Detection.| blackarch-defensive |https://github.com/ANSSI-FR/tabi
 tachyon-scanner|454.bca3452|Fast Multi-Threaded Web Discovery Tool.| blackarch-scanner |https://github.com/delvelabs/tachyon
