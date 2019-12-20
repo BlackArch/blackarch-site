@@ -25,6 +25,7 @@ against|0.2|A very fast ssh attacking script which includes a multithreaded port
 aggroargs|51.c032446|Bruteforce commandline buffer overflows, linux, aggressive arguments.| blackarch-exploitation |https://github.com/tintinweb/aggroArgs
 aiengine|1.9.0|A packet inspection engine with capabilities of learning without any human intervention.| blackarch-networking |https://bitbucket.org/camp0/aiengine/
 aimage|3.2.5|A program to create aff-images.| blackarch-forensic |http://www.afflib.org
+aiodnsbrute|38.e773a4c|Python 3 DNS asynchronous brute force utility.| blackarch-recon |https://github.com/blark/aiodnsbrute
 air|2.0.0|A GUI front-end to dd/dc3dd designed for easily creating forensic images.| blackarch-forensic |https://sourceforge.net/projects/air-imager/
 aircrack-ng|1.5.2|Key cracker for the 802.11 WEP and WPA-PSK protocols| blackarch-wireless |https://www.aircrack-ng.org
 airflood|0.1|A modification of aireplay that allows for a DoS of the AP. This program fills the table of clients of the AP with random MACs doing impossible new connections. [Tool in Spanish]| blackarch-wireless |http://packetstormsecurity.com/files/51127/airflood.1.tar.gz.html
@@ -1604,7 +1605,7 @@ python-api-dnsdumpster|59.eda15d6|Unofficial Python API for http://dnsdumpster.c
 python-arsenic|19.1|Async WebDriver implementation for asyncio and asyncio-compatible frameworks.| blackarch-automation |https://github.com/HDE/arsenic/releases
 python-capstone|4.0.1|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 python-cymruwhois|1.6|Python client for the whois.cymru.com service| blackarch-networking |https://pypi.org/project/cymruwhois/#files
-python-frida|12.7.26|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
+python-frida|12.8.0|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
 python-frida-tools|5.3.0|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
 python-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python-ivre|0.9.14.dev101|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
@@ -1623,7 +1624,7 @@ python2-api-dnsdumpster|59.eda15d6|Unofficial Python API for http://dnsdumpster.
 python2-capstone|4.0.1|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 python2-cymruwhois|1.6|Python client for the whois.cymru.com service| blackarch-networking |https://pypi.org/project/cymruwhois/#files
 python2-darts.util.lru|7.5ef01b1|Simple dictionary with LRU behaviour.| blackarch-misc |https://pypi.python.org/pypi/darts.util.lru
-python2-frida|12.7.26|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
+python2-frida|12.8.0|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
 python2-frida-tools|5.3.0|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
 python2-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python2-hpfeeds|350.d18a533|Honeynet Project generic authenticated datafeed protocol.| blackarch-honeypot |https://github.com/rep/hpfeeds
@@ -2309,8 +2310,8 @@ winpwn|216.ee7bfde|Automation for internal Windows Penetrationtest / AD-Security
 winregfs|140.c17a0a5|Windows Registry FUSE filesystem.| blackarch-misc |https://github.com/jbruchon/winregfs
 winrelay|2.0|A TCP/UDP forwarder/redirector that works with both IPv4 and IPv6.| blackarch-windows |http://ntsecurity.nu/toolbox/winrelay/
 wireless-ids|24.b132071|Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets.| blackarch-wireless |https://github.com/SYWorks/wireless-ids
-wireshark-cli|3.0.7|Network traffic and protocol analyzer/sniffer - CLI tools and data files| blackarch-sniffer |https://www.wireshark.org/
-wireshark-qt|3.0.7|Network traffic and protocol analyzer/sniffer - Qt GUI| blackarch-sniffer |https://www.wireshark.org/
+wireshark-cli|3.2.0|Network traffic and protocol analyzer/sniffer - CLI tools and data files| blackarch-sniffer |https://www.wireshark.org/
+wireshark-qt|3.2.0|Network traffic and protocol analyzer/sniffer - Qt GUI| blackarch-sniffer |https://www.wireshark.org/
 wirouter-keyrec|1.1.2|A platform independent software to recover the default WPA passphrases of the supported router models| blackarch-wireless |http://www.salvatorefresta.net/tools/
 witchxtool|1.1|A perl script that consists of a port scanner, LFI scanner, MD5 bruteforcer, dork SQL injection scanner, fresh proxy scanner, and a dork LFI scanner.| blackarch-webapp |http://packetstormsecurity.com/files/97465/Witchxtool-Port-LFI-SQL-Scanner-And-MD5-Bruteforcing-Tool.1.html
 wlan2eth|1.3|Re-writes 802.11 captures into standard Ethernet frames.| blackarch-wireless |http://www.willhackforsushi.com/?page_id=79
