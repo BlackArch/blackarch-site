@@ -765,6 +765,7 @@ gopherus|30.9da3106|Tool generates gopher link for exploiting SSRF and gaining R
 gophish|0.8.0|Open-Source Phishing Framework.| blackarch-social |https://getgophish.com/
 gosint|196.9c86ed2|OSINT framework in Go.| blackarch-recon |https://github.com/Nhoya/gOSINT
 gplist|1.0|Lists information about the applied Group Policies.| blackarch-windows |http://ntsecurity.nu/toolbox/gplist/
+gpocrack|3.cf63c86|Active Directory Group Policy Preferences cpassword cracker/decrypter.| blackarch-cracker |https://github.com/MartinIngesen/gpocrack
 gpredict|1571.2d80c94|A real-time satellite tracking and orbit prediction application.| blackarch-radio |http://gpredict.oz9aec.net/
 gps-sdr-sim|174.1506e54|Software-Defined GPS Signal Simulator.| blackarch-radio |https://github.com/osqzss/gps-sdr-sim
 gqrx|2.11.5|Interactive SDR receiver waterfall for many devices.| blackarch-wireless |http://gqrx.dk/
@@ -965,7 +966,6 @@ iptv|136.de37822|Search and brute force illegal iptv server.| blackarch-scanner 
 iputils|20190709|Network monitoring tools, including ping| blackarch-networking |http://www.skbuff.net/iputils/
 ipv4bypass|19.de6d2b7|Using IPv6 to Bypass Security.| blackarch-networking |https://github.com/milo2012/ipv4Bypass
 ipv6toolkit|2.0|SI6 Networks' IPv6 Toolkit| blackarch-scanner |http://www.si6networks.com/tools/ipv6toolkit/
-ipython-genutils|0.2.0|Vestigial utilities from IPython.| |https://pypi.org/project/ipython_genutils
 ircsnapshot|94.cb02a85|Tool to gather information from IRC servers.| blackarch-recon |https://github.com/bwall/ircsnapshot
 irpas|0.10|Internetwork Routing Protocol Attack Suite.| blackarch-exploitation |http://phenoelit-us.org/irpas
 isf|67.91bde83|An exploitation framework based on Python.| blackarch-exploitation |https://github.com/dark-lbp/isf
@@ -1091,6 +1091,7 @@ lft|3.8|A layer four traceroute implementing numerous other features.| blackarch
 lhf|40.51568ee|A modular recon tool for pentesting.| blackarch-recon |https://github.com/blindfuzzy/LHF
 libbde|270.41abac0|A library to access the BitLocker Drive Encryption (BDE) format.| blackarch-crypto |https://github.com/libyal/libbde
 libdisasm|0.23|A disassembler library.| blackarch-disassembler |http://bastard.sourceforge.net/libdisasm.html
+libfvde|139.df696e1|Library and tools to access FileVault Drive Encryption (FVDE) encrypted volumes.| blackarch-forensic |https://github.com/libyal/libfvde
 libosmocore|0.12.1|Collection of common code used in various sub-projects inside the Osmocom family of projects.| blackarch-radio |https://osmocom.org/projects/libosmocore/wiki/Libosmocore
 libparistraceroute|378.6fb8f48|A library written in C dedicated to active network measurements with examples, such as paris-ping and paris-traceroute.| blackarch-networking |https://github.com/libparistraceroute/libparistraceroute
 libpst|0.6.72|Outlook .pst file converter| blackarch-misc |https://www.five-ten-sg.com/libpst/
@@ -1406,7 +1407,7 @@ owasp-zsc|314.fdc06a0|Shellcode/Obfuscate Code Generator.| blackarch-exploitatio
 owtf|2100.cd2e91ad|The Offensive (Web) Testing Framework.| blackarch-webapp |https://www.owasp.org/index.php/OWASP_OWTF
 p0f|3.09b|Purely passive TCP/IP traffic fingerprinting tool| blackarch-fingerprint |http://lcamtuf.coredump.cx/p0f3/
 pack|0.0.4|Password Analysis and Cracking Kit| blackarch-cracker |http://thesprawl.org/projects/pack/
-packer|1.5.0|tool for creating identical machine images for multiple platforms from a single source configuration| blackarch-binary |https://github.com/hashicorp/packer
+packer|1.5.1|tool for creating identical machine images for multiple platforms from a single source configuration| blackarch-binary |https://github.com/hashicorp/packer
 packerid|1.4|Script which uses a PEiD database to identify which packer (if any) is being used by a binary.| blackarch-binary |http://handlers.sans.org/jclausing/
 packet-o-matic|351|A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.| blackarch-networking |http://www.packet-o-matic.org/
 packeth|2.1|Linux GUI packet generator tool for ethernet| blackarch-networking |http://packeth.sourceforge.net/
@@ -1616,7 +1617,6 @@ python-keylogger|2.7.3|Simple keystroke logger.| blackarch-keylogger |https://gi
 python-minidump|0.0.11|Python library to parse and read Microsoft minidump file format.| blackarch-windows |https://pypi.org/project/minidump/#files
 python-minikerberos|0.0.11|Kerberos manipulation library in pure Python.| blackarch-windows |https://pypi.org/project/minikerberos/#files
 python-oletools|0.55.1|Tools to analyze Microsoft OLE2 files.| blackarch-binary |https://pypi.org/project/oletools/
-python-python-cymruwhois|30.022e16d|Python client for the whois.cymru.com service| blackarch-networking |https://github.com/JustinAzoff/python-cymruwhois
 python-shodan|1.21.0|Python library and command-line utility for Shodan (https://developer.shodan.io).| blackarch-recon |https://pypi.org/project/shodan/#files
 python-trackerjacker|1.9.0|Finds and tracks wifi devices through raw 802.11 monitoring.| blackarch-wireless |https://github.com/calebmadrigal/trackerjacker
 python-uncompyle6|3.6.0|A Python cross-version decompiler.| blackarch-decompiler |https://github.com/rocky/python-uncompyle6
@@ -1905,7 +1905,7 @@ snare|150.d5b22fe|Super Next generation Advanced Reactive honEypot| blackarch-ho
 snarf-mitm|41.bada142|SMB Man in the Middle Attack Engine / relay suite.| blackarch-exploitation |https://github.com/purpleteam/snarf
 sniff-probe-req|245.db1eeca|Wi-Fi Probe Requests Sniffer.| blackarch-wireless |https://github.com/SkypLabs/sniff-probe-req
 sniffer|4.688854e|Packet Trace Parser for TCP, SMTP Emails, and HTTP Cookies.| blackarch-networking |https://github.com/julioreynaga/sniffer
-sniffglue|0.10.0|Secure multithreaded packet sniffer| blackarch-sniffer |https://github.com/kpcyrd/sniffglue
+sniffglue|0.10.1|Secure multithreaded packet sniffer| blackarch-sniffer |https://github.com/kpcyrd/sniffglue
 sniffjoke|772.434bfb1|Injects packets in the transmission flow that are able to seriously disturb passive analysis like sniffing, interception and low level information theft.| blackarch-defensive |http://www.delirandom.net/sniffjoke/
 sniffles|469.118e93f|A Packet Capture Generator for IDS and Regular Expression Evaluation.| blackarch-networking |https://github.com/petabi/sniffles
 snitch|1.2|Turn back the asterisks in password fields to plaintext passwords.| blackarch-windows |http://ntsecurity.nu/toolbox/snitch/
