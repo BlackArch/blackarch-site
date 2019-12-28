@@ -28,6 +28,40 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
+
+            <article id=p104 itemscope itemtype="http://schema.org/NewsArticle">
+            <header>
+              <time itemprop="datePublished">Sun, 01 Jan 2020 00:00:00 GMT</time>
+              <h4 itemprop="name">New ISOs and OVA Image released!</h4>
+            </header>
+            <div itemprop="description">
+              <p>
+                Today we released the new BlackArch Linux ISOs and OVA image.
+                Many improvements and QA went through all packages and tools Blackarch Linux offers!
+                For details see the ChangeLog below.
+              </p>
+              <p>Here's the ChangeLog:</p>
+                <ul>
+                  <li>added 120 new tools</li>
+                  <li>add terminus font support to lxdm</li>
+                  <li>fixed the annoying 'cannot open tools via menu blah blah *crying*' bug</li>
+                  <li>updated blackarch-installer to v1.1.34</li>
+                  <li>included linux kernel 5.4.6</li>
+                  <li>updated urxvt config: add support for changing size on the fly</li>
+                  <li>vim: replace pathogen with Vundle.vim. added new vim plugin: clang_complete</li>
+                  <li>minor bugfixes and improvements</li>
+                  <li>QA'ed and fixed all packages (runtime exec).</li>
+                  <li>updated all blackarch tools and packages including config files</li>
+                  <li>updated all system packages</li>
+                  <li>updated all window manager menus (awesome, fluxbox, openbox)</li>
+                </ul>
+              </p>
+              <p>
+                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+              </p>
+            </div>
+            </article>
+
             <article id=p103 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Tue, 22 Oct 2019 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in Germany!</h4></header>
