@@ -38,10 +38,13 @@ cat <<\EOF
                         <td><img src="/images/flags/br.png" alt="Brasil"> <a href="blackarch-guide-pt-br.pdf" target="_blank">Brazilian</a></td>
                     </tr>
                     <tr>
+                        <td><img src="/images/flags/cn.png" alt="China"> <a href="blackarch-guide-zh.pdf" target="_blank">Chinese</a></td>
+                    </tr>
+                    <tr>
                         <td><img src="/images/flags/us.png" alt="United States"> <a href="blackarch-guide-en.pdf" target="_blank">English</a></td>
                     </tr>
                     <tr>
-			            <td><img src="/images/flags/fr.png" alt="France"> <a href="blackarch-guide-fr.pdf" target="_blank">French</a></td>
+			                  <td><img src="/images/flags/fr.png" alt="France"> <a href="blackarch-guide-fr.pdf" target="_blank">French</a></td>
                     </tr>
                     <tr>
                         <td><img src="/images/flags/de.png" alt="Germany"> <a href="blackarch-guide-de.pdf" target="_blank">German</a></td>
