@@ -185,7 +185,7 @@ bittwist|2.0|A simple yet powerful libpcap-based Ethernet packet generator. It i
 bkhive|1.1.1|Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive.| blackarch-cracker |http://sourceforge.net/projects/ophcrack
 blackbox-scanner|1.7a25220|Dork scanner & bruteforcing & hash cracker with blackbox framework.| blackarch-scanner |https://github.com/sepehrdaddev/blackbox
 blackeye|27.dfcd597|The most complete Phishing Tool, with 32 templates +1 customizable.| blackarch-social |https://github.com/thelinuxchoice/blackeye
-blackhash|0.2|Creates a filter from system hashes| blackarch-cracker |http://16s.us/blackhash/
+blackhash|0.2|Creates a filter from system hashes.| blackarch-cracker |http://16s.us/blackhash/
 blacknurse|9.d2a2b23|A low bandwidth ICMP attack that is capable of doing denial of service to well known firewalls.| blackarch-dos |https://github.com/jedisct1/blacknurse
 bleah|53.6a2fd3a|A BLE scanner for "smart" devices hacking.| blackarch-scanner |https://github.com/evilsocket/bleah
 bletchley|0.0.1|A collection of practical application cryptanalysis tools.| blackarch-crypto |https://code.google.com/p/bletchley/
@@ -1189,7 +1189,7 @@ masscan-automation|26.a170abc|Masscan integrated with Shodan API.| blackarch-aut
 massdns|167.68482eb|A high-performance DNS stub resolver in C.| blackarch-networking |https://github.com/blechschmidt/massdns
 massexpconsole|248.c177604|A collection of tools and exploits with a cli ui for mass exploitation.| blackarch-automation |https://github.com/jm33-m0/massExpConsole
 mat|0.6.1|Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library.| blackarch-defensive |https://mat.boum.org/
-mat2|0.9.0|A metadata removal tool, supporting a wide range of commonly used file formats.| blackarch-defensive |https://mat.boum.org/
+mat2|0.10.0|Metadata removal tool, supporting a wide range of commonly used file formats| blackarch-defensive |https://0xacab.org/jvoisin/mat2
 matahari|0.1.30|A reverse HTTP shell to execute commands on remote machines behind firewalls.| blackarch-tunnel |http://matahari.sourceforge.net/
 matroschka|58.2f026a4|Python steganography tool to hide images or text in images.| blackarch-stego |https://github.com/fgrimme/Matroschka
 mausezahn|0.40|A free fast traffic generator written in C which allows you to send nearly every possible and impossible packet.| blackarch-dos |http://www.perihel.at/sec/mz/
@@ -1395,7 +1395,7 @@ onesixtyone|0.7|An SNMP scanner that sends multiple SNMP requests to multiple IP
 onetwopunch|v1.0.0.r2.gd4ab4e8|Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.| blackarch-scanner |https://github.com/superkojiman/onetwopunch
 onioff|84.34dc309|An onion url inspector for inspecting deep web links.| blackarch-recon |https://github.com/k4m4/onioff
 onionscan|130.da42865|Scan Onion Services for Security Issues.| blackarch-scanner |https://github.com/s-rah/onionscan
-onionshare|2730.72dc6df3|Securely and anonymously share a file of any size.| blackarch-misc |https://github.com/micahflee/onionshare/
+onionshare|2.2|Share a file over Tor Hidden Services anonymously and securely| blackarch-defensive |https://github.com/micahflee/onionshare
 open-iscsi|2.1.0|iSCSI userland tools| blackarch-misc |https://www.open-iscsi.com/
 opendoor|393.c5e271f|OWASP WEB Directory Scanner.| blackarch-webapp |https://github.com/stanislav-web/OpenDoor
 openpuff|4.01|Yet not another steganography SW.| blackarch-stego |https://embeddedsw.net/OpenPuff_Steganography_Home.html
@@ -1488,7 +1488,7 @@ pentestly|1798.93d1b39|Python and Powershell internal penetration testing framew
 pentmenu|194.9b7a007|A bash script for recon and DOS attacks.| blackarch-automation |https://github.com/GinjaChris/pentmenu
 pepe|13.b81889b|Collect information about email addresses from Pastebin.| blackarch-social |https://github.com/woj-ciech/pepe
 periscope|3.2|A PE file inspection tool.| blackarch-windows |http://ntsecurity.nu/toolbox/periscope/
-perl-image-exiftool|11.70|Reader and rewriter of EXIF informations that supports raw files| blackarch-forensic |https://search.cpan.org/perldoc?exiftool
+perl-image-exiftool|11.85|Reader and rewriter of EXIF informations that supports raw files| blackarch-forensic |https://search.cpan.org/perldoc?exiftool
 petools|1.9.762|Portable executable (PE) manipulation toolkit.| blackarch-windows |https://github.com/petoolse/petools
 pev|0.70|Command line based tool for PE32/PE32+ file analysis.| blackarch-forensic |http://pev.sourceforge.net/
 pextractor|0.18b|A forensics tool that can extract all files from an executable file created by a joiner or similar.| blackarch-windows |http://packetstormsecurity.com/files/62977/PExtractor_v0.18b_binary_and_src.rar.html
@@ -1950,7 +1950,7 @@ snscan|1.05|A Windows based SNMP detection utility that can quickly and accurate
 snuck|6.76196b6|Automatic XSS filter bypass.| blackarch-webapp |https://github.com/mauro-g/snuck
 snyk|1.265.0|CLI and build-time tool to find and fix known vulnerabilities in open-source dependencies.| blackarch-code-audit |https://github.com/snyk/snyk
 soapui|5.5.0|The Swiss-Army Knife for SOAP Testing.| blackarch-proxy |https://www.soapui.org/downloads/soapui/source-forge.html
-socat|1.7.3.3|Multipurpose relay| blackarch-networking |http://www.dest-unreach.org/socat/
+socat|1.7.3.4|Multipurpose relay| blackarch-networking |http://www.dest-unreach.org/socat/
 social-mapper|129.712eebd|A social media enumeration and correlation tool.| blackarch-social |https://github.com/SpiderLabs/social_mapper
 social-vuln-scanner|11.91794c6|Gathers public information on companies to highlight social engineering risk.| blackarch-social |https://github.com/Betawolf/social-vuln-scanner
 socialfish|228.57b55a0|Ultimate phishing tool with Ngrok integrated.| blackarch-social |https://github.com/UndeadSec/SocialFish
