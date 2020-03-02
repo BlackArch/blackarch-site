@@ -28,6 +28,17 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
+            <article id=p105 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Mon, 02 Mar 2020 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in Germany!</h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://undisclose.de/" target="_blank">undisclose.de</a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="http://mirror.undisclose.de/blackarch/" target="_blank">http</a> |
+                <a href="https://mirror.undisclose.de/blackarch/" target="_blank">https</a> |
+                <a href="rsync://mirror.undisclose.de/blackarch/" target="_blank">rsync</a>
+              </div>
+            </article>
 
             <article id=p104 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
