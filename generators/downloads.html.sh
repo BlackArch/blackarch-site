@@ -285,7 +285,7 @@ cat << EOF
               <a href="https://blackarch.unixpeople.org/" target="_blank" itemprop="url">https://blackarch.unixpeople.org/</a><br>
               <a href="rsync://blackarch.unixpeople.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.unixpeople.org/blackarch/</a><br>
               <a href="http://mirror.undisclose.de/blackarch/" target="_blank" itemprop="url">http://mirror.undisclose.de/blackarch/</a><br>
-              <a href="https://blackarch.unixpeople.org/" target="_blank" itemprop="url">https://mirror.undisclose.de/blackarch//</a><br>
+              <a href="https://mirror.undisclose.de/blackarch/" target="_blank" itemprop="url">https://mirror.undisclose.de/blackarch//</a><br>
               <a href="rsync://mirror.undisclose.de/blackarch/" target="_blank" itemprop="url">rsync://mirror.undisclose.de/blackarch/</a>
               <br><br>
               <img src="/images/flags/gr.png" alt="Greece" /> Greece<br>
