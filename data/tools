@@ -427,7 +427,7 @@ dbusmap|16.6bb2831|Simple utility for enumerating D-Bus endpoints, an nmap for D
 dc3dd|7.2.646|A patched version of dd that includes a number of features useful for computer forensics.| blackarch-forensic |http://sourceforge.net/projects/dc3dd
 dcfldd|1.7|DCFL (DoD Computer Forensics Lab) dd replacement with hashing| blackarch-forensic |https://dcfldd.sourceforge.net/
 dcrawl|7.3273c35|Simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names.| blackarch-scanner |https://github.com/kgretzky/dcrawl
-ddrescue|1.24|GNU data recovery tool| blackarch-forensic |https://www.gnu.org/software/ddrescue/ddrescue.html
+ddrescue|1.25|GNU data recovery tool| blackarch-forensic |https://www.gnu.org/software/ddrescue/ddrescue.html
 de4dot|3.1.41592|.NET deobfuscator and unpacker.| blackarch-windows |https://github.com/0xd4d/de4dot/
 deathstar|51.86f9cda|Automate getting Domain Admin using Empire.| blackarch-automation |https://github.com/byt3bl33d3r/DeathStar
 debinject|40.88b7824|Inject malicious code into *.debs.| blackarch-backdoor |https://github.com/UndeadSec/Debinject
@@ -610,6 +610,7 @@ exploitdb|20200208|Offensive Security’s Exploit Database Archive| blackarch-ex
 exploitpack|139.e565c47|Exploit Pack - The next generation exploit framework.| blackarch-exploitation |https://github.com/juansacco/exploitpack
 expose|1105.82ab98f|A Dynamic Symbolic Execution (DSE) engine for JavaScript| blackarch-binary |https://github.com/ExpoSEJS/ExpoSE
 exrex|142.fd1e21f|Irregular methods on regular expressions.| blackarch-misc |https://github.com/asciimoo/exrex
+extended-ssrf-search|24.97b0516|Smart ssrf scanner using different methods like parameter brute forcing in post and get.| blackarch-webapp |https://github.com/Damian89/extended-ssrf-search
 extracthosts|14.ec8b89c|Extracts hosts (IP/Hostnames) from files.| blackarch-misc |https://github.com/bwall/ExtractHosts
 extractusnjrnl|7.362d4290|Tool to extract the $UsnJrnl from an NTFS volume.| blackarch-forensic |https://github.com/jschicht/ExtractUsnJrnl
 extundelete|0.2.4|Utility for recovering deleted files from ext2, ext3 or ext4 partitions by parsing the journal| blackarch-forensic |http://extundelete.sourceforge.net
@@ -2124,7 +2125,7 @@ thc-keyfinder|1.0|Finds crypto keys, encrypted data and compressed data in files
 thc-pptp-bruter|0.1.4|A brute force program that works against pptp vpn endpoints (tcp port 1723).| blackarch-cracker |http://www.thc.org
 thc-smartbrute|1.0|This tool finds undocumented and secret commands implemented in a smartcard.| blackarch-cracker |https://www.thc.org/thc-smartbrute/
 thc-ssl-dos|1.4|A tool to verify the performance of SSL. To be used in your authorized and legitimate area ONLY. You need to accept this to make use of it, no use for bad intentions, you have been warned!| blackarch-dos |http://www.thc.org/thc-ssl-dos/
-thefatrat|691.da91909|TheFatRat a massive exploiting tool: easy tool to generate backdoor and easy tool to post exploitation attack.| blackarch-automation |https://github.com/Screetsec/TheFatRat
+thefatrat|699.8fcc167|TheFatRat a massive exploiting tool: easy tool to generate backdoor and easy tool to post exploitation attack.| blackarch-automation |https://github.com/Screetsec/TheFatRat
 thefuzz|160.b4c2c80|CLI fuzzing tool.| blackarch-fuzzer |https://github.com/droberson/thefuzz
 theharvester|1229.57cd908|Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).| blackarch-recon |http://www.edge-security.com/theHarvester.php
 themole|0.3|Automatic SQL injection exploitation tool.| blackarch-webapp |http://sourceforge.net/projects/themole/
@@ -2217,6 +2218,7 @@ upx|3.96|Extendable, high-performance executable packer for several executable f
 urh|2.8.3|Universal Radio Hacker: investigate wireless protocols like a boss| blackarch-radio |https://github.com/jopohl/urh
 urlcrazy|0.5|Generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage.| blackarch-webapp |http://www.morningstarsecurity.com/research/urlcrazy
 urldigger|02c|A python tool to extract URL addresses from different HOT sources and/or detect SPAM and malicious code| blackarch-webapp |https://code.google.com/p/urldigger/
+urlextractor|19.739864d|Information gathering & website reconnaissance.| blackarch-webapp |https://github.com/eschultze/URLextractor
 urlview|0.9|A curses URL parser for text files.| blackarch-misc |http://packages.qa.debian.org/u/urlview.html
 usb-canary|31.bb23552|A Linux or OSX tool that uses psutil to monitor devices while your computer is locked. In the case it detects someone plugging in or unplugging devices it can be configured to send you an SMS or alert you via Slack or Pushover.| blackarch-defensive |https://github.com/errbufferoverfl/usb-canary
 usbrip|270.60ee649|USB device artifacts tracker.| blackarch-forensic |https://github.com/snovvcrash/usbrip
@@ -2440,7 +2442,7 @@ yasca|2.1|Multi-Language Static Analysis Toolset.| blackarch-code-audit |http://
 yasuo|121.994dcb1|A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network.| blackarch-webapp |https://github.com/0xsauby/yasuo
 yate-bts|6.0.0|An open source GSM Base Station software.| blackarch-radio |https://yatebts.com/
 yawast|1072.5e9e7a3|The YAWAST Antecedent Web Application Security Toolkit.| blackarch-webapp |https://github.com/adamcaudill/yawast
-yay|9.4.5|Yet another yogurt. Pacman wrapper and AUR helper written in go.| blackarch-misc |https://github.com/Jguer/yay
+yay|9.4.6|Yet another yogurt. Pacman wrapper and AUR helper written in go.| blackarch-misc |https://github.com/Jguer/yay
 ycrawler|0.1|A web crawler that is useful for grabbing all user supplied input related to a given website and will save the output. It has proxy and log file support.| blackarch-webapp |http://packetstormsecurity.com/files/98546/yCrawler-Web-Crawling-Utility.html
 yersinia|0.8.2|A network tool designed to take advantage of some weakness in different network protocols.| blackarch-networking |http://www.yersinia.net/
 yeti|2156.f220d15f|A platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository.| blackarch-defensive |https://github.com/yeti-platform/yeti
