@@ -141,9 +141,9 @@ barmie|1.01|Java RMI enumeration and attack tool.| blackarch-scanner |https://gi
 base64dump|0.0.11|Extract and decode base64 strings from files.| blackarch-misc |https://blog.didierstevens.com/my-software/#base64dump
 basedomainname|0.1|Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.| blackarch-recon |http://www.morningstarsecurity.com/research
 bashfuscator|338.7487348|Fully configurable and extendable Bash obfuscation framework.| blackarch-automation |https://github.com/Bashfuscator/Bashfuscator
-batctl|2019.5|B.A.T.M.A.N. advanced control and management tool| blackarch-wireless |http://www.open-mesh.net/
+batctl|2020.0|B.A.T.M.A.N. advanced control and management tool| blackarch-wireless |http://www.open-mesh.net/
 batman-adv|2019.2|Batman kernel module, (included upstream since .38)| blackarch-wireless |http://www.open-mesh.net/
-batman-alfred|2019.5|Almighty Lightweight Fact Remote Exchange Daemon| blackarch-wireless |http://www.open-mesh.org/
+batman-alfred|2020.0|Almighty Lightweight Fact Remote Exchange Daemon| blackarch-wireless |http://www.open-mesh.org/
 bbqsql|261.b9859d2|SQL injection exploit tool.| blackarch-webapp |https://github.com/neohapsis/bbqsql
 bbscan|43.af852f3|A tiny Batch web vulnerability Scanner.| blackarch-webapp |https://github.com/lijiejie/bbscan
 bdfproxy|101.f9d50ec|Patch Binaries via MITM: BackdoorFactory + mitmProxy| blackarch-proxy |https://github.com/secretsquirrel/BDFProxy
@@ -167,7 +167,7 @@ binaryninja-demo|1.2.1921|A new kind of reversing platform (demo version).| blac
 binaryninja-python|13.83f59f7|Binary Ninja prototype written in Python.| blackarch-binary |https://github.com/Vector35/binaryninja-python
 bind-tools|9.16.0|The ISC DNS tools| blackarch-networking |https://www.isc.org/software/bind/
 bindead|4504.67019b97b|A static analysis tool for binaries| blackarch-binary |https://bitbucket.org/mihaila/bindead
-bindiff|4.3.0|A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.| blackarch-binary |http://www.zynamics.com/bindiff.html
+bindiff|6.0.0|A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.| blackarch-binary |http://www.zynamics.com/bindiff.html
 binex|1.0|Format String exploit building tool.| blackarch-exploitation |http://www.morxploit.com/morxtool
 binflow|5.7fb02a9|POSIX function tracing. Much better and faster than ftrace.| blackarch-binary |https://github.com/elfmaster/binflow
 bing-ip2hosts|1.0|Enumerates all hostnames which Bing has indexed for a specific IP address.| blackarch-recon |http://www.morningstarsecurity.com/research/bing-ip2hosts
@@ -674,7 +674,7 @@ flashlight|109.90d1dc5|Automated Information Gathering Tool for Penetration Test
 flashscanner|11.6815b02|Flash XSS Scanner.| blackarch-scanner |https://github.com/riusksk/FlashScanner
 flashsploit|22.e95a4f4|Exploitation Framework for ATtiny85 Based HID Attacks.| blackarch-exploitation |https://github.com/thewhiteh4t/flashsploit
 flasm|1.62|Disassembler tool for SWF bytecode| blackarch-reversing |http://www.nowrap.de/flasm.html
-flawfinder|2.0.10|Searches through source code for potential security flaws| blackarch-code-audit |https://www.dwheeler.com/flawfinder
+flawfinder|2.0.11|Searches through source code for potential security flaws| blackarch-code-audit |https://www.dwheeler.com/flawfinder
 flowinspect|97.34759ed|A network traffic inspection tool.| blackarch-networking |https://github.com/7h3rAm/flowinspect
 flunym0us|2.0|A Vulnerability Scanner for Wordpress and Moodle.| blackarch-scanner |http://code.google.com/p/flunym0us/
 fluxion|1498.ca63e23|A security auditing and social-engineering research tool.| blackarch-social |https://github.com/FluxionNetwork/fluxion
@@ -858,7 +858,7 @@ hercules-payload|220.958541e|A special payload generator that can bypass all ant
 hex2bin|2.5|Converts Motorola and Intel hex files to binary.| blackarch-binary |http://hex2bin.sourceforge.net/
 hexinject|1.6|A very versatile packet injector and sniffer that provides a command-line framework for raw network access.| blackarch-sniffer |http://hexinject.sourceforge.net
 hexorbase|6|A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).| blackarch-fuzzer |https://code.google.com/p/hexorbase/
-hexyl|0.6.0|Colored command-line hex viewer| blackarch-misc |https://github.com/sharkdp/hexyl
+hexyl|0.7.0|Colored command-line hex viewer| blackarch-misc |https://github.com/sharkdp/hexyl
 hharp|1beta|This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.| blackarch-networking |http://packetstormsecurity.com/files/81368/Hackers-Hideaway-ARP-Attack-Tool.html
 hidattack|0.1|HID Attack (attacking HID host implementations)| blackarch-bluetooth |http://mulliner.org/bluetooth/hidattack.php
 hiddeneye|807.2bd77ea|Modern phishing tool with advanced functionality.| blackarch-social |https://github.com/DarkSecDevelopers/HiddenEye
@@ -1236,7 +1236,7 @@ mibble|2.10.1|An open-source SNMP MIB parser (or SMI parser) written in Java. It
 microsploit|9.441e132|Fast and easy create backdoor office exploitation using module metasploit packet, Microsoft Office, Open Office, Macro attack, Buffer Overflow.| blackarch-backdoor |https://github.com/Screetsec/Microsploit
 middler|1.0|A Man in the Middle tool to demonstrate protocol middling attacks.| blackarch-networking |http://code.google.com/p/middler/
 mikrotik-npk|11.d54e97c|Python tools for manipulating Mikrotik NPK format.| blackarch-reversing |https://github.com/kost/mikrotik-npk
-mimikatz|2.2.0_20200229|A little tool to play with Windows security.| blackarch-windows |https://github.com/gentilkiwi/mimikatz
+mimikatz|2.2.0_20200308|A little tool to play with Windows security.| blackarch-windows |https://github.com/gentilkiwi/mimikatz
 mimipenguin|147.b8d3fd0|A tool to dump the login password from the current linux user.| blackarch-forensic |https://github.com/huntergregal/mimipenguin
 mingsweeper|1.00|A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.| blackarch-windows |http://www.hoobie.net/mingsweeper/
 minimodem|335.9a1e876|A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing protocols.| blackarch-misc |https://github.com/kamalmostafa/minimodem
@@ -1643,7 +1643,7 @@ python-arsenic|19.1|Async WebDriver implementation for asyncio and asyncio-compa
 python-capstone|4.0.1|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 python-cymruwhois|1.6|Python client for the whois.cymru.com service| blackarch-networking |https://pypi.org/project/cymruwhois/#files
 python-frida|12.8.14|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
-python-frida-tools|7.0.2|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
+python-frida-tools|7.1.0|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
 python-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python-ivre|0.9.14.dev222|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
 python-jsbeautifier|1.10.3|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
@@ -1663,7 +1663,7 @@ python2-cymruwhois|1.6|Python client for the whois.cymru.com service| blackarch-
 python2-darts.util.lru|7.5ef01b1|Simple dictionary with LRU behaviour.| blackarch-misc |https://pypi.python.org/pypi/darts.util.lru
 python2-exrex|142.fd1e21f|Irregular methods on regular expressions.| blackarch-misc |https://github.com/asciimoo/exrex
 python2-frida|12.8.14|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
-python2-frida-tools|7.0.2|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
+python2-frida-tools|7.1.0|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
 python2-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python2-hpfeeds|350.d18a533|Honeynet Project generic authenticated datafeed protocol.| blackarch-honeypot |https://github.com/rep/hpfeeds
 python2-ivre|0.9.14.dev222|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
@@ -1824,7 +1824,7 @@ schnappi-dhcp|0.1|Can fuck network with no DHCP.| blackarch-misc |http://www.ema
 scout2|1182.5d86d46|Security auditing tool for AWS environments.| blackarch-scanner |http://isecpartners.github.io/Scout2/
 scoutsuite|4495.6cadac70|Multi-Cloud Security Auditing Tool.| blackarch-scanner |https://github.com/nccgroup/ScoutSuite
 scrape-dns|58.3df392f|Searches for interesting cached DNS entries.| blackarch-scanner |https://github.com/304GEEK/Scrape-DNS
-scrapy|1.8.0|A fast high-level scraping and web crawling framework.| blackarch-webapp |https://scrapy.org
+scrapy|2.0.0|A fast high-level scraping and web crawling framework.| blackarch-webapp |https://scrapy.org
 scratchabit|565.d93d759|Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API.| blackarch-disassembler |https://github.com/pfalcon/ScratchABit
 scrounge-ntfs|0.9|Data recovery program for NTFS file systems| blackarch-forensic |http://memberwebs.com/stef/software/scrounge/
 sctpscan|34.4d44706|A network scanner for discovery and security.| blackarch-recon |http://www.p1sec.com/

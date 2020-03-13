@@ -105,7 +105,7 @@ install_keyring()
   fi
 
   # just in case
-  pacman-key --populate archlinux blackarch
+  pacman-key --populate
 }
 
 # ask user for mirror
