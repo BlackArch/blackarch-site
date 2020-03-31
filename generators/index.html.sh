@@ -139,6 +139,13 @@ cat <<EOF
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
+                                    <td itemprop="givenName">Aan W.</td>
+                                    <td itemprop="additionalName">petruknisme</td>
+                                    <td itemprop="email">petruknisme@blackarch.org</td>
+                                    <td><a href="gpgkeys/petruknisme.asc" target="_blank">0xFFFFFFFF</a></td>
+                                    <td itemprop="jobTitle">Developer</td>
+                                </tr>
+                                <tr>
                                     <td itemprop="givenName">OSO SPEED</td>
                                     <td itemprop="additionalName">OSO</td>
                                     <td itemprop="email">oso@blackarch.org</td>
