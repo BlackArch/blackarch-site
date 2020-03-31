@@ -142,7 +142,7 @@ cat <<EOF
                                     <td itemprop="givenName">Aan W.</td>
                                     <td itemprop="additionalName">petruknisme</td>
                                     <td itemprop="email">petruknisme@blackarch.org</td>
-                                    <td><a href="gpgkeys/petruknisme.asc" target="_blank">0xFFFFFFFF</a></td>
+                                    <td><a href="gpgkeys/petruknisme.asc" target="_blank">0x7731F2B1</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
