@@ -101,7 +101,7 @@ cat <<\EOF
                     </p>
                     <p>
                         You can find the official BlackArch Discord channel here:
-                        <a href="https://discord.gg/tk3224p" target="_blank">#blackarch</a> on Discord
+                        <a href="https://discord.gg/xMHt8dW" target="_blank">#blackarch</a> on Discord
                     </p>
                 </div>
                 <br />
