@@ -615,7 +615,7 @@ exescan|1.ad993e3|A tool to detect anomalies in PE (Portable Executable) files.|
 exitmap|366.13bdbbb|A fast and modular scanner for Tor exit relays.| blackarch-recon |https://github.com/NullHypothesis/exitmap
 expimp-lookup|4.79a96c7|Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.| blackarch-binary |https://github.com/tr3w/ExpImp-Lookup
 exploit-db|1.6|The Exploit Database (EDB) – an ultimate archive of exploits and vulnerable software - A collection of hacks| blackarch-exploitation |http://www.exploit-db.com
-exploitdb|20200305|Offensive Security’s Exploit Database Archive| blackarch-exploitation |https://www.exploit-db.com/
+exploitdb|20200411|Offensive Security’s Exploit Database Archive| blackarch-exploitation |https://www.exploit-db.com/
 exploitpack|139.e565c47|Exploit Pack - The next generation exploit framework.| blackarch-exploitation |https://github.com/juansacco/exploitpack
 expose|1105.82ab98f|A Dynamic Symbolic Execution (DSE) engine for JavaScript| blackarch-binary |https://github.com/ExpoSEJS/ExpoSE
 exrex|142.fd1e21f|Irregular methods on regular expressions.| blackarch-misc |https://github.com/asciimoo/exrex
@@ -664,7 +664,7 @@ finalrecon|28.252d4b4|OSINT Tool for All-In-One Web Reconnaissance.| blackarch-r
 find-dns|0.1|A tool that scans networks looking for DNS servers.| blackarch-scanner |https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html
 findmyhash|1.1.2|Crack different types of hashes using free online services| blackarch-crypto |https://code.google.com/archive/p/findmyhash/
 findmyiphone|19.aef3ac8|Locates all devices associated with an iCloud account| blackarch-mobile |https://github.com/manwhoami/findmyiphone
-findomain|1.4.5|The fastest and cross-platform subdomain enumerator, do not waste your time| blackarch-recon |https://github.com/Edu4rdSHL/findomain
+findomain|1.5.0|The fastest and cross-platform subdomain enumerator, do not waste your time| blackarch-recon |https://github.com/Edu4rdSHL/findomain
 findsploit|78.255fab4|Find exploits in local and online databases instantly.| blackarch-automation |https://github.com/1N3/findsploit
 fingerprinter|436.e019ffd|CMS/LMS/Library etc Versions Fingerprinter.| blackarch-fingerprint |https://github.com/erwanlr/Fingerprinter
 firecat|6.b5205c8|A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.| blackarch-networking |https://github.com/BishopFox/firecat
@@ -907,6 +907,7 @@ http-put|1.0|Simple http put perl script.| blackarch-misc |
 http-traceroute|0.5|This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.| blackarch-networking |http://packetstormsecurity.com/files/107167/Traceroute-Like-HTTP-Scanner.html
 httpbog|1.0.0.0|A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.| blackarch-windows |http://sourceforge.net/projects/httpbog/
 httpforge|11.02.01|A set of shell tools that let you manipulate, send, receive, and analyze HTTP messages. These tools can be used to test, discover, and assert the security of Web servers, apps, and sites. An accompanying Python library is available for extensions.| blackarch-webapp |http://packetstormsecurity.com/files/98109/HTTPForge.02.01.html
+httpgrep|1.0|A python tool which scans for HTTP servers and finds given strings in URIs.| blackarch-webapp |https://nullsecurity.net/tools/scanner.html
 httping|2.5|A ping-like tool for http-requests| blackarch-networking |https://www.vanheusden.com/httping/
 httppwnly|47.528a664|"Repeater" style XSS post-exploitation tool for mass browser control.| blackarch-webapp |https://github.com/Danladi/HttpPwnly
 httprecon|7.3|Tool for web server fingerprinting, also known as http fingerprinting.| blackarch-windows |http://www.computec.ch/projekte/httprecon/?s=download
@@ -2051,6 +2052,7 @@ ssh-privkey-crack|0.4|A SSH private key cracker.| blackarch-cracker |https://cod
 ssh-user-enum|7.ae453c1|SSH User Enumeration Script in Python Using The Timing Attack.| blackarch-scanner |https://github.com/nccgroup/ssh-user-enum
 sshatter|1.2|Password bruteforcer for SSH.| blackarch-cracker |http://www.nth-dimension.org.uk/downloads.php?id=34
 sshfuzz|1.0|A SSH Fuzzing utility written in Perl that uses Net::SSH2.| blackarch-fuzzer |https://packetstormsecurity.com/fuzzer/sshfuzz.txt
+sshprank|1.0.0|A fast SSH mass-scanner, login cracker and banner grabber tool using the python-masscan module.| blackarch-cracker |https://nullsecurity.net/tools/cracker.html
 sshscan|1.0|A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass.| blackarch-cracker |https://github.com/getdual/scripts-n-tools/blob/master/sshscan.py
 sshtrix|0.0.3|A very fast multithreaded SSH login cracker.| blackarch-cracker |http://nullsecurity.net/tools/cracker.html
 sshtunnel|0.1.5|Pure python SSH tunnels (CLI)| blackarch-tunnel |https://github.com/pahaz/sshtunnel
