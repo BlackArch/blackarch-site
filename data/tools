@@ -476,6 +476,7 @@ dissector|1|This code dissects the internal data structures in ELF files. It sup
 distorm|3.4.1|Powerful disassembler library for x86/AMD64| blackarch-disassembler |https://github.com/gdabah/distorm
 dizzy|2.0|A Python based fuzzing framework with many features.| blackarch-fuzzer |http://www.c0decafe.de/
 dkmc|52.eb47d3c|Dont kill my cat - Malicious payload evasion tool.| blackarch-exploitation |https://github.com/Mr-Un1k0d3r/DKMC
+dmde|3.6.0.770|Disk Editor and Data Recovery Software.| blackarch-forensic |https://dmde.com/download.html
 dmg2img|1.6.7|A CLI tool to uncompress Apple's compressed DMG files to the HFS+ IMG format| blackarch-forensic |http://vu1tur.eu.org/tools/
 dmitry|1.3a|Deepmagic Information Gathering Tool. Gathers information about hosts. It is able to gather possible subdomains, email addresses, and uptime information and run tcp port scans, whois lookups, and more.| blackarch-scanner |http://www.mor-pah.net/
 dnmap|0.6|The distributed nmap framework| blackarch-scanner |http://sourceforge.net/projects/dnmap/
@@ -884,7 +885,7 @@ honssh|202.7adbf1b|A high-interaction Honey Pot solution designed to log all SSH
 hookanalyser|3.4|A hook tool which can be potentially helpful in reversing applications and analyzing malware. It can hook to an API in a process and search for a pattern in memory or dump the buffer.| blackarch-windows |http://hookanalyser.blogspot.de/
 hoover|4.9bda860|Wireless Probe Requests Sniffer.| blackarch-wireless |https://github.com/xme/hoover/
 hoper|12.3951159|Trace URL's jumps across the rel links to obtain the last URL.| blackarch-recon |https://github.com/gabamnml/hoper
-hopper|4.5.22|Reverse engineering tool that lets you disassemble, decompile and debug your applications.| blackarch-reversing |https://www.hopperapp.com/
+hopper|4.5.24|Reverse engineering tool that lets you disassemble, decompile and debug your applications.| blackarch-reversing |https://www.hopperapp.com/
 hoppy|1.8.1|A python script which tests http methods for configuration issues leaking information or just to see if they are enabled.| blackarch-scanner |https://labs.portcullis.co.uk/downloads/
 host-extract|8.0134ad7|Ruby script tries to extract all IP/Host patterns in page response of a given URL and JavaScript/CSS files of that URL.| blackarch-scanner |https://code.google.com/p/host-extract/
 hostapd-wpe|2.2|IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator - Wireless Pwnage Edition.| blackarch-wireless |https://github.com/OpenSecurityResearch/hostapd-wpe
@@ -908,7 +909,7 @@ http-put|1.0|Simple http put perl script.| blackarch-misc |
 http-traceroute|0.5|This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.| blackarch-networking |http://packetstormsecurity.com/files/107167/Traceroute-Like-HTTP-Scanner.html
 httpbog|1.0.0.0|A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.| blackarch-windows |http://sourceforge.net/projects/httpbog/
 httpforge|11.02.01|A set of shell tools that let you manipulate, send, receive, and analyze HTTP messages. These tools can be used to test, discover, and assert the security of Web servers, apps, and sites. An accompanying Python library is available for extensions.| blackarch-webapp |http://packetstormsecurity.com/files/98109/HTTPForge.02.01.html
-httpgrep|1.1|A python tool which scans for HTTP servers and finds given strings in URIs.| blackarch-webapp |https://nullsecurity.net/tools/scanner.html
+httpgrep|1.5|A python tool which scans for HTTP servers and finds given strings in URIs.| blackarch-webapp |https://nullsecurity.net/tools/scanner.html
 httping|2.5|A ping-like tool for http-requests| blackarch-networking |https://www.vanheusden.com/httping/
 httppwnly|47.528a664|"Repeater" style XSS post-exploitation tool for mass browser control.| blackarch-webapp |https://github.com/Danladi/HttpPwnly
 httprecon|7.3|Tool for web server fingerprinting, also known as http fingerprinting.| blackarch-windows |http://www.computec.ch/projekte/httprecon/?s=download
@@ -1269,7 +1270,7 @@ mitmap|89.b590f9a|A python program to create a fake AP and sniff data.| blackarc
 mitmap-old|0.1|Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.| blackarch-automation |http://www.darkoperator.com/tools-and-scripts/
 mitmer|22.b01c7fe|A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.| blackarch-sniffer |https://github.com/husam212/MITMer
 mitmf|467.0458300|A Framework for Man-In-The-Middle attacks written in Python.| blackarch-exploitation |https://github.com/byt3bl33d3r/MITMf
-mitmproxy|5.0.1|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |https://mitmproxy.org
+mitmproxy|5.1.1|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |https://mitmproxy.org
 mkbrutus|27.ddd5f8e|Password bruteforcer for MikroTik devices or boxes running RouterOS.| blackarch-cracker |http://mkbrutusproject.github.io/MKBRUTUS/
 mkyara|3.8147f91|Tool to generate YARA rules based on binary code.| blackarch-misc |https://github.com/fox-it/mkYARA
 mobiusft|1.12|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.| blackarch-forensic |http://savannah.nongnu.org/projects/mobiusft
@@ -1683,7 +1684,7 @@ python-pcodedmp|1.2.6|A VBA p-code disassembler.| blackarch-disassembler |https:
 python-search-engine-parser|0.5.4|Scrapes search engine pages for query titles, descriptions and links.| |https://pypi.org/project/search-engine-parser/#files
 python-shodan|1.23.0|Python library and command-line utility for Shodan (https://developer.shodan.io).| blackarch-recon |https://pypi.org/project/shodan/#files
 python-trackerjacker|1.9.0|Finds and tracks wifi devices through raw 802.11 monitoring.| blackarch-wireless |https://github.com/calebmadrigal/trackerjacker
-python-uncompyle6|3.6.5|A Python cross-version decompiler.| blackarch-decompiler |https://github.com/rocky/python-uncompyle6
+python-uncompyle6|3.6.6|A Python cross-version decompiler.| blackarch-decompiler |https://github.com/rocky/python-uncompyle6
 python-utidylib|0.2|Python bindings for Tidy HTML parser/cleaner.| blackarch-misc |http://utidylib.berlios.de
 python-winsspi|0.0.9|Windows SSPI library in pure Python.| blackarch-windows |https://pypi.org/project/winsspi/#files
 python-yara-rednaga|279.32b6a74|The Python interface for YARA.| |https://github.com/rednaga/yara-python
@@ -1891,7 +1892,7 @@ shard|1.5|A command line tool to detect shared passwords.| blackarch-recon |http
 shareenum|46.3bfa81d|Tool to enumerate shares from Windows hosts.| blackarch-scanner |https://github.com/CroweCybersecurity/shareenum
 sharesniffer|52.7f8a372|Network share sniffer and auto-mounter for crawling remote file systems.| blackarch-scanner |https://github.com/shirosaidev/sharesniffer
 shed|2.0.0|.NET runtime inspector.| blackarch-windows |https://github.com/enkomio/shed
-shellcheck|0.7.0|Shell script analysis tool| blackarch-code-audit |https://www.shellcheck.net
+shellcheck|0.7.1|Shell script analysis tool| blackarch-code-audit |https://www.shellcheck.net
 shellcode-factory|96.07ae857|Tool to create and test shellcodes from custom assembly sources.| blackarch-exploitation |https://github.com/danielhenrymantilla/shellcode-factory
 shellcodecs|0.1|A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.| blackarch-exploitation |http://www.blackhatlibrary.net/Shellcodecs
 shellen|62.3514b7e|Interactive shellcoding environment to easily craft shellcodes.| blackarch-exploitation |https://github.com/merrychap/shellen
@@ -2455,7 +2456,7 @@ wxhexeditor|719.9f02932|A free hex editor / disk editor for Linux, Windows and M
 wyd|0.2|Gets keywords from personal files. IT security/forensic tool.| blackarch-cracker |http://www.remote-exploit.org/?page_id=418
 x-rsa|163.f39358f|Contains a many of attack types in RSA such as Hasted, Common Modulus, Chinese Remainder Theorem.| blackarch-crypto |https://github.com/X-Vector/X-RSA
 x-scan|3.3|A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.| blackarch-windows |http://www.xfocus.org/
-x64dbg|2020.04.10|An open-source x64/x32 debugger for windows.| blackarch-windows |https://github.com/x64dbg/x64dbg/releases
+x64dbg|2020.04.12|An open-source x64/x32 debugger for windows.| blackarch-windows |https://github.com/x64dbg/x64dbg/releases
 xattacker|102.c19ee00|Website Vulnerability Scanner & Auto Exploiter.| blackarch-webapp |https://github.com/Moham3dRiahi/XAttacker
 xcat|264.f08fc6f|A command line tool to automate the exploitation of blind XPath injection vulnerabilities.| blackarch-exploitation |https://github.com/orf/xcat
 xcavator|5.bd9e2d8|Man-In-The-Middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.| blackarch-sniffer |https://github.com/nccgroup/xcavator
