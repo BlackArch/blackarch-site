@@ -489,6 +489,7 @@ dnsa|0.6|A dns security swiss army knife.| blackarch-scanner |http://packetfacto
 dnsbf|0.3|Search for available domain names in an IP range.| blackarch-scanner |http://code.google.com/p/dnsbf
 dnsbrute|2.b1dc84a|Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.| blackarch-recon |https://github.com/d4rkcat/dnsbrute
 dnschef|17.a395411|A highly configurable DNS proxy for pentesters.| blackarch-proxy |http://thesprawl.org/projects/dnschef/
+dnscobra|1.0|DNS subdomain bruteforcing tool with Tor support through torsocks| blackarch-recon |https://github.com/dmitescu/dnscobra
 dnsdiag|235.793acd7|DNS Diagnostics and Performance Measurement Tools.| blackarch-networking |https://dnsdiag.org/
 dnsdrdos|0.1|Proof of concept code for distributed DNS reflection DoS.| blackarch-dos |http://nullsecurity.net/tools/dos.html
 dnsenum|1.2.4.2|Script that enumerates DNS information from a domain, attempts zone transfers, performs a brute force dictionary style attack, and then performs reverse look-ups on the results.| blackarch-recon |http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=dnsenum
@@ -662,7 +663,7 @@ filegps|79.a82124b|A tool that help you to guess how your shell was renamed afte
 fileintel|29.9749332|A modular Python application to pull intelligence about malicious files.| blackarch-malware |https://github.com/keithjjones/fileintel
 filibuster|167.c54ac80|A Egress filter mapping application with additional functionality.| blackarch-networking |https://github.com/subinacls/Filibuster
 fimap|1.00|A little tool for local and remote file inclusion auditing and exploitation| blackarch-exploitation |http://code.google.com/p/fimap/
-finalrecon|36.acac3e7|OSINT Tool for All-In-One Web Reconnaissance.| blackarch-recon |https://github.com/thewhiteh4t/FinalRecon
+finalrecon|38.aa8d136|OSINT Tool for All-In-One Web Reconnaissance.| blackarch-recon |https://github.com/thewhiteh4t/FinalRecon
 find-dns|0.1|A tool that scans networks looking for DNS servers.| blackarch-scanner |https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html
 findmyhash|1.1.2|Crack different types of hashes using free online services| blackarch-crypto |https://code.google.com/archive/p/findmyhash/
 findmyiphone|19.aef3ac8|Locates all devices associated with an iCloud account| blackarch-mobile |https://github.com/manwhoami/findmyiphone
@@ -1089,7 +1090,7 @@ kippo|285.0d03635|A medium interaction SSH honeypot designed to log brute force 
 kismet|2019_12_R2|802.11 layer2 wireless network detector, sniffer, and intrusion detection system| blackarch-wireless |https://www.kismetwireless.net/
 kismet-earth|0.1|Various scripts to convert kismet logs to kml file to be used in Google Earth.| blackarch-wireless |https://www.blackarch.org/
 kismet2earth|1.0|A set of utilities that convert from Kismet logs to Google Earth .kml format| blackarch-wireless |http://code.google.com/p/kismet2earth/
-kismon|1.0.1|GUI client for kismet (wireless scanner/sniffer/monitor).| blackarch-wireless |https://www.salecker.org/software/kismon.html
+kismon|1.0.2|GUI client for kismet (wireless scanner/sniffer/monitor).| blackarch-wireless |https://www.salecker.org/software/kismon.html
 kitty-framework|352.cb07609|Fuzzing framework written in python.| blackarch-fuzzer |https://github.com/cisco-sas/kitty
 klee|2.1|A symbolic virtual machine built on top of the LLVM compiler infrastructure.| blackarch-binary |https://github.com/klee/klee
 klogger|1.0|A keystroke logger for the NT-series of Windows.| blackarch-windows |http://ntsecurity.nu/toolbox/klogger/
@@ -2087,7 +2088,7 @@ sslmap|0.2.0|A lightweight TLS/SSL cipher suite scanner.| blackarch-scanner |htt
 sslnuke|5.c5faeaa|Transparent proxy that decrypts SSL traffic and prints out IRC messages.| blackarch-cracker |https://github.com/jtripper/sslnuke
 sslscan|1.10.2|A fast tools to scan SSL services, such as HTTPS to determine the ciphers that are supported| blackarch-scanner |https://github.com/DinoTools/sslscan/
 sslsniff|0.8|A tool to MITM all SSL connections on a LAN and dynamically generate certs for the domains that are being accessed on the fly| blackarch-sniffer |http://www.thoughtcrime.org/software/sslsniff/
-sslyze|3.0.1|Python tool for analyzing the configuration of SSL servers and for identifying misconfigurations.| blackarch-crypto |https://github.com/nabla-c0d3/sslyze
+sslyze|3.0.3|Python tool for analyzing the configuration of SSL servers and for identifying misconfigurations.| blackarch-crypto |https://github.com/nabla-c0d3/sslyze
 ssma|215.2a2b6bd|Simple Static Malware Analyzer.| blackarch-malware |https://github.com/secrary/SSMA
 ssrf-proxy|293.e79da7a|Facilitates tunneling HTTP communications through servers vulnerable to Server-Side Request Forgery.| blackarch-proxy |https://github.com/bcoles/ssrf_proxy
 ssrf-sheriff|2.f95d691|A simple SSRF-testing sheriff written in Go.| blackarch-webapp |https://github.com/teknogeek/ssrf-sheriff
