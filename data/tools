@@ -914,7 +914,7 @@ http-put|1.0|Simple http put perl script.| blackarch-misc |
 http-traceroute|0.5|This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.| blackarch-networking |http://packetstormsecurity.com/files/107167/Traceroute-Like-HTTP-Scanner.html
 httpbog|1.0.0.0|A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.| blackarch-windows |http://sourceforge.net/projects/httpbog/
 httpforge|11.02.01|A set of shell tools that let you manipulate, send, receive, and analyze HTTP messages. These tools can be used to test, discover, and assert the security of Web servers, apps, and sites. An accompanying Python library is available for extensions.| blackarch-webapp |http://packetstormsecurity.com/files/98109/HTTPForge.02.01.html
-httpgrep|1.6|A python tool which scans for HTTP servers and finds given strings in URIs.| blackarch-webapp |https://nullsecurity.net/tools/scanner.html
+httpgrep|1.7|A python tool which scans for HTTP servers and finds given strings in URIs.| blackarch-webapp |https://nullsecurity.net/tools/scanner.html
 httping|2.5|A ping-like tool for http-requests| blackarch-networking |https://www.vanheusden.com/httping/
 httppwnly|47.528a664|"Repeater" style XSS post-exploitation tool for mass browser control.| blackarch-webapp |https://github.com/Danladi/HttpPwnly
 httprecon|7.3|Tool for web server fingerprinting, also known as http fingerprinting.| blackarch-windows |http://www.computec.ch/projekte/httprecon/?s=download
@@ -1418,6 +1418,8 @@ ntlmrecon|44.9692114|A tool to enumerate information from NTLM authentication en
 ntp-fingerprint|0.1|An active fingerprinting utility specifically designed to identify the OS the NTP server is running on.| blackarch-fingerprint |http://www.hackingciscoexposed.com/?link=tools
 ntp-ip-enum|0.1|Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.| blackarch-recon |http://www.securepla.net/
 ntpdos|4.3fe389b|PoC for distributed NTP reflection DoS (CVE-5211)| blackarch-dos |https://github.com/sepehrdaddev/ntpdos
+nuclei|110.83560ad|Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.| blackarch-webapp |https://github.com/projectdiscovery/nuclei
+nuclei-templates|240.891097a|Community curated list of template files for the nuclei engine.|-scanner |https://github.com/projectdiscovery/nuclei-templates.git
 nullinux|113.757d17b|Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null sessions.| blackarch-recon |https://github.com/m8r0wn/nullinux
 nullscan|1.0.0|A modular framework designed to chain and automate security tests.| blackarch-automation |http://www.nullsecurity.net/tools/automation.html
 nxcrypt|32.6ae06b5|NXcrypt - python backdoor framework.| blackarch-backdoor |https://github.com/Hadi999/NXcrypt
