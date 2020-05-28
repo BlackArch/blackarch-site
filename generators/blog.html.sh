@@ -28,6 +28,38 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
+            <article id=p106 itemscope itemtype="http://schema.org/NewsArticle">
+            <header>
+              <time itemprop="datePublished">Sun, 01 Jun 2020 00:00:00 GMT</time>
+              <h4 itemprop="name">New ISOs and OVA Image released!</h4>
+            </header>
+            <div itemprop="description">
+              <p>
+                Today we released the new BlackArch Linux ISOs and OVA image.
+                Many improvements and QA went through all packages and tools Blackarch Linux offers!
+                This is a high-quality release. For details see the ChangeLog below.
+              </p>
+              <p>Here's the ChangeLog:</p>
+                <ul>
+                  <li>added more than 150 new tools</li>
+                  <li>disabled iptables/ip6tables service</li>
+                  <li>remove unneeded virtualbox services (drag'n'drop, vmsvga-x11)</li>
+                  <li>replace wicd with wifi-radar (gui) and wifi-menu (curses -> netctl)</li>
+                  <li>updated blackarch-installer to v1.1.45</li>
+                  <li>included linux kernel 5.6.14</li>
+                  <li>QA'ed and fixed a lot of packages (runtime exec, missing dependencies)</li>
+                  <li>updated all vim plugins and improved vim config options</li>
+                  <li>updated all blackarch tools and packages including config files</li>
+                  <li>updated all system packages</li>
+                  <li>updated all window manager menus (awesome, fluxbox, openbox)</li>
+                </ul>
+              </p>
+              <p>
+                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+              </p>
+            </div>
+            </article>
+
             <article id=p105 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Mon, 02 Mar 2020 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in Germany!</h4></header>
