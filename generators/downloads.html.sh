@@ -66,10 +66,10 @@ cat << EOF
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarch-linux-netinst-2020.06.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
-                  <td itemprop="datePublished">2020.06.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2020.06.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>500 MB</td>
+                  <td><a href="https://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarch-linux-netinst-2020.06.02-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                  <td itemprop="datePublished">2020.06.02</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2020.06.02-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td>471 MB</td>
                   <td>${NET_CHECKSUM}</td>
                 </tr>
               </table>
