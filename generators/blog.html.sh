@@ -28,6 +28,31 @@ cat <<\EOF
           </div>
           <ul class="list-group nblog">
             <li class="list-group-item">
+
+            <article id=p108 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Tue, 09 Jun 2020 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in Netherlands!</h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://www.serverion.com" target="_blank">severion.com</a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="http://mirror.serverion.com/blackarch/" target="_blank">https</a> |
+                <a href="https://mirror.serverion.com/blackarch/" target="_blank">http</a> |
+                <a href="ftp://mirror.serverion.com/blackarch" target="_blank">ftp</a> |
+                <a href="https://mirror.serverion.com/opnsense" target="_blank">rsync</a> |
+              </div>
+            </article>
+
+            <article id=p107 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Tue, 06 Jun 2020 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in New Zealand!</h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://intergrid.com.au/" target="_blank">intergrid.com.au</a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="http://nz-mirror.intergrid.com.au/blackarch/" target="_blank">http</a> |
+                <a href="ftp://nz-mirror.intergrid.com.au/blackarch" target="_blank">ftp</a>
+              </div>
+            </article>
+
             <article id=p106 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Sun, 01 Jun 2020 00:00:00 GMT</time>

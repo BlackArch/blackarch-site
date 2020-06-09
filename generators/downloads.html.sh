@@ -311,10 +311,18 @@ cat << EOF
               <a href="ftp://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">ftp://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
               <br><br>
               <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br>
+              <a href="http://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">http://mirror.serverion.com/blackarch/</a><br>
+              <a href="https://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">https://mirror.serverion.com/blackarch/</a><br>
+              <a href="ftp://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.serverion.com/blackarch/</a><br>
+              <a href="rsync://mirror.serverion.com/opnsense" target="_blank" itemprop="url">rsync://mirror.serverion.com/opnsense</a><br>
               <a href="http://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">http://mirror.neostrada.nl/blackarch/</a><br>
               <a href="https://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">https://mirror.neostrada.nl/blackarch/</a><br>
               <a href="ftp://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">ftp://mirror.neostrada.nl/blackarch/</a><br>
               <a href="rsync://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">rsync://mirror.neostrada.nl/blackarch/</a>
+              <br><br>
+              <img src="/images/flags/nz.png" alt="Netherlands" /> New Zealand<br>
+              <a href="http://nz-mirror.intergrid.com.au/blackarch/" target="_blank" itemprop="url">http://nz-mirror.intergrid.com.au/blackarch/</a><br>
+              <a href="ftp://nz-mirror.intergrid.com.au/blackarch" target="_blank" itemprop="url">ftp://nz-mirror.intergrid.com.au/blackarch</a>
               <br><br>
               <img src="/images/flags/pl.png" alt="Poland" /> Poland<br>
               <a href="http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
