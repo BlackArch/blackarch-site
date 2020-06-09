@@ -33,7 +33,7 @@ cat <<\EOF
               <time itemprop="datePublished">Tue, 09 Jun 2020 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in Netherlands!</h4></header>
               <div itemprop="description">
-                We would like to thank <a href="https://www.serverion.com" target="_blank">severion.com</a> for becoming a BlackArch Linux mirror.
+                We would like to thank <a href="https://www.serverion.com" target="_blank">serverion.com</a> for becoming a BlackArch Linux mirror.
                 <br /><br />
                 They are offering the following access: <a href="http://mirror.serverion.com/blackarch/" target="_blank">https</a> |
                 <a href="https://mirror.serverion.com/blackarch/" target="_blank">http</a> |
