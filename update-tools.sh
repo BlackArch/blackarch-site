@@ -51,6 +51,12 @@ parse_db() {
 	    "vmcloak"|"malboxes"|"thezoo")
 		    group="blackarch-malware"
 		    ;;
+      "seclists")
+        group="blackarch-exploitation"
+        ;;
+      "nuclei-templates")
+        group="blackarch-scanner"
+        ;;
       *)
       # All the other packages (add '0,/blackarch/s///' for remove first occurrence only
 		  group="$(grep --no-group-separator -A2 '^%GROUPS%$' "${d}"/desc |

@@ -1425,7 +1425,7 @@ ntp-fingerprint|0.1|An active fingerprinting utility specifically designed to id
 ntp-ip-enum|0.1|Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.| blackarch-recon |http://www.securepla.net/
 ntpdos|4.3fe389b|PoC for distributed NTP reflection DoS (CVE-5211)| blackarch-dos |https://github.com/sepehrdaddev/ntpdos
 nuclei|159.7c7cbda|Nuclei is a fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.| blackarch-webapp |https://github.com/projectdiscovery/nuclei
-nuclei-templates|407.d11c305|Community curated list of template files for the nuclei engine.|-scanner |https://github.com/projectdiscovery/nuclei-templates.git
+nuclei-templates|407.d11c305|Community curated list of template files for the nuclei engine.|blackarch-scanner|https://github.com/projectdiscovery/nuclei-templates.git
 nullinux|116.e24aacc|Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null sessions.| blackarch-recon |https://github.com/m8r0wn/nullinux
 nullscan|1.0.0|A modular framework designed to chain and automate security tests.| blackarch-automation |http://www.nullsecurity.net/tools/automation.html
 nxcrypt|32.6ae06b5|NXcrypt - python backdoor framework.| blackarch-backdoor |https://github.com/Hadi999/NXcrypt
@@ -1890,7 +1890,7 @@ sdnpwn|58.b1db5b9|An SDN penetration testing toolkit.| blackarch-scanner |https:
 sea|103.9aca1c8|A tool to help to create exploits of binary programs.| blackarch-malware |https://github.com/neuromancer/SEA
 search1337|13.c69937e|1337Day Online Exploit Scanner.| blackarch-automation |https://github.com/b3mb4m/Search1337
 seat|0.3|Next generation information digging application geared toward the needs of security professionals. It uses information stored in search engine databases, cache repositories, and other public resources to scan web sites for potential vulnerabilities.| blackarch-scanner |http://thesprawl.org/projects/search-engine-assessment-tool/
-seclists|913.0a39d3d|A collection of multiple types of lists used during security assessments.|-exploitation |https://github.com/danielmiessler/SecLists/
+seclists|913.0a39d3d|A collection of multiple types of lists used during security assessments.|blackarch-exploitation|https://github.com/danielmiessler/SecLists/
 secscan|1.5|Web Apps Scanner and Much more utilities.| blackarch-webapp |http://code.google.com/p/secscan-py/
 secure-delete|1.b63d814|Secure file, disk, swap, memory erasure utilities.| blackarch-anti-forensic |http://www.thc.org/
 secure2csv|10.119eefb0|Decode security descriptors in $Secure on NTFS.| blackarch-forensic |https://github.com/jschicht/Secure2Csv
