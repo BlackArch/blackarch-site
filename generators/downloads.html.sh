@@ -320,7 +320,7 @@ cat << EOF
               <a href="ftp://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">ftp://mirror.neostrada.nl/blackarch/</a><br>
               <a href="rsync://mirror.neostrada.nl/blackarch/" target="_blank" itemprop="url">rsync://mirror.neostrada.nl/blackarch/</a>
               <br><br>
-              <img src="/images/flags/nz.png" alt="Netherlands" /> New Zealand<br>
+              <img src="/images/flags/nz.png" alt="New Zealand" /> New Zealand<br>
               <a href="http://nz-mirror.intergrid.com.au/blackarch/" target="_blank" itemprop="url">http://nz-mirror.intergrid.com.au/blackarch/</a><br>
               <a href="ftp://nz-mirror.intergrid.com.au/blackarch" target="_blank" itemprop="url">ftp://nz-mirror.intergrid.com.au/blackarch</a>
               <br><br>
