@@ -59,14 +59,14 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarch-linux-live-2020.06.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2020.06.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
                   <td itemprop="datePublished">2020.06.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-live-2020.06.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>15 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.mirrorservice.org/sites/blackarch.org/blackarch/iso/blackarch-linux-netinst-2020.06.02-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2020.06.02-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                   <td itemprop="datePublished">2020.06.02</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-netinst-2020.06.02-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>471 MB</td>
@@ -113,7 +113,7 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="https://www.mirrorservice.org/sites/blackarch.org/blackarch/ova/blackarch-linux-2020.06.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2020.06.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
                   <td itemprop="datePublished">2020.06.01</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-2020.06.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>35 GB</td>
