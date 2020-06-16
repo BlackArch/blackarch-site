@@ -291,6 +291,7 @@ chameleon|14.01025b8|A tool for evading Proxy categorisation.| blackarch-network
 chameleonmini|332.b58ab58|Official repository of ChameleonMini, a freely programmable, portable tool for NFC security analysis that can emulate and clone contactless cards, read RFID tags and sniff/log RF data.| blackarch-social |https://github.com/emsec/ChameleonMini
 changeme|266.89f59d4|A default credential scanner.| blackarch-scanner |https://github.com/ztgrace/changeme
 chankro|21.7b6e844|Tool that generates a PHP capable of run a custom binary (like a meterpreter) or a bash script (p.e. reverse shell) bypassing disable_functions & open_basedir).| blackarch-webapp |https://github.com/TarlogicSecurity/Chankro
+chaos-client|44.4097ed1|Go client to communicate with Chaos dataset API.| blackarch-recon |https://github.com/projectdiscovery/chaos-client
 chaosmap|1.3|An information gathering tool and dns / whois / web server scanner| blackarch-forensic |http://freecode.com/projects/chaosmap
 chaosreader|0.94|A freeware tool to trace tcp, udp etc. sessions and fetch application data from snoop or tcpdump logs.| blackarch-networking |http://chaosreader.sourceforge.net/
 chapcrack|17.ae2827f|A tool for parsing and decrypting MS-CHAPv2 network handshakes.| blackarch-cracker |https://github.com/moxie0/chapcrack
@@ -933,6 +934,7 @@ httpscreenshot|53.888faaf|A tool for grabbing screenshots and HTML of large numb
 httpsniff|0.4|Tool to sniff HTTP responses from TCP/IP based networks and save contained files locally for later review.| blackarch-sniffer |http://www.sump.org/projects/httpsniff/
 httpsscanner|1.2|A tool to test the strength of a SSL web server.| blackarch-scanner |https://code.google.com/p/libre-tools/
 httptunnel|3.3|Creates a bidirectional virtual data connection tunnelled in HTTP requests| blackarch-tunnel |https://github.com/larsbrinkhoff/httptunnel
+httpx|54.bbea345|A fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library.| blackarch-webapp |https://github.com/projectdiscovery/httpx
 httrack|3.49.2|An easy-to-use offline browser utility| blackarch-misc |http://www.httrack.com/
 hubbit-sniffer|74.460ecf8|Simple application that listens for WIFI-frames and records the mac-address of the sender and posts them to a REST-api.| blackarch-sniffer |https://github.com/cthit/hubbIT-sniffer
 hulk|25.9670699|A webserver DoS tool (Http Unbearable Load King) ported to Go with some additional features.| blackarch-dos |https://github.com/grafov/hulk
@@ -1898,7 +1900,7 @@ sdnpwn|58.b1db5b9|An SDN penetration testing toolkit.| blackarch-scanner |https:
 sea|103.9aca1c8|A tool to help to create exploits of binary programs.| blackarch-malware |https://github.com/neuromancer/SEA
 search1337|13.c69937e|1337Day Online Exploit Scanner.| blackarch-automation |https://github.com/b3mb4m/Search1337
 seat|0.3|Next generation information digging application geared toward the needs of security professionals. It uses information stored in search engine databases, cache repositories, and other public resources to scan web sites for potential vulnerabilities.| blackarch-scanner |http://thesprawl.org/projects/search-engine-assessment-tool/
-seclists|913.0a39d3d|A collection of multiple types of lists used during security assessments.|blackarch-exploitation|https://github.com/danielmiessler/SecLists/
+seclists|927.958dd56|A collection of multiple types of lists used during security assessments.|blackarch-exploitation|https://github.com/danielmiessler/SecLists/
 secscan|1.5|Web Apps Scanner and Much more utilities.| blackarch-webapp |http://code.google.com/p/secscan-py/
 secure-delete|1.b63d814|Secure file, disk, swap, memory erasure utilities.| blackarch-anti-forensic |http://www.thc.org/
 secure2csv|10.119eefb0|Decode security descriptors in $Secure on NTFS.| blackarch-forensic |https://github.com/jschicht/Secure2Csv
@@ -2096,7 +2098,7 @@ sshprank|1.2.3|A fast SSH mass-scanner, login cracker and banner grabber tool us
 sshscan|1.0|A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass.| blackarch-cracker |https://github.com/getdual/scripts-n-tools/blob/master/sshscan.py
 sshtrix|0.0.3|A very fast multithreaded SSH login cracker.| blackarch-cracker |http://nullsecurity.net/tools/cracker.html
 sshtunnel|0.1.5|Pure python SSH tunnels (CLI)| blackarch-tunnel |https://github.com/pahaz/sshtunnel
-sshuttle|0.78.5|Transparent proxy server that forwards all TCP packets over ssh| blackarch-proxy |https://github.com/sshuttle/sshuttle
+sshuttle|1.0.1|Transparent proxy server that forwards all TCP packets over ssh| blackarch-proxy |https://github.com/sshuttle/sshuttle
 ssl-hostname-resolver|1|CN (Common Name) grabber on X.509 Certificates over HTTPS.| blackarch-recon |http://packetstormsecurity.com/files/120634/Common-Name-Grabber-Script.html
 ssl-phuck3r|2.0|All in one script for Man-In-The-Middle attacks.| blackarch-sniffer |https://github.com/zombiesam/ssl_phuck3r
 sslcat|1.0|SSLCat is a simple Unix utility that reads and writes data across an SSL enable network connection.| blackarch-misc |http://www.bindshell.net/tools/sslcat
