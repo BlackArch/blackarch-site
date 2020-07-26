@@ -83,7 +83,7 @@ cat <<\EOF
                             It could happen for a wide range of reasons. Below you will find a <strong>few suggestions</strong>.<br><br>
                             <ul>
                                 <li>You don't have an internet connection (as you can imagine, a rare problem and can be verified quickly).</li>
-                                <li>You may have a DNS problem, that can't resolve pgp.mit.edu accordingly. Please check your DNS settings.</li>
+                                <li>You may have a DNS problem, that can't resolve pgp.mit.edu accordingly. Please check your DNS settings (pgp.mit.edu works best with 8.8.8.8 DNS Server).</li>
                                 <li>You may have a network issue, different from the above one, which is hard for us to help since it can be a myriad of things. For example: DNS caching.</li>
                                 <li>You may have a clock/time issue.</li>
                                 <li>You may have something blocking your communication with mit.edu server, for instance: a firewall.</li>
