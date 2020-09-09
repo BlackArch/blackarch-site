@@ -149,6 +149,8 @@ cat << EOF
                 $ <span>chmod +x strap.sh</span>
                 <p># Run strap.sh</p>
                 $ <span>sudo ./strap.sh</span>
+                <p># Enable multilib following https://wiki.archlinux.org/index.php/Official_repositories#Enabling_multilib and run:</p>
+                $ <span>sudo pacman -Syu</<span>
               </div>
               You may now install tools from the blackarch repository.
               <div class=code-block>
