@@ -297,7 +297,11 @@ cat << EOF
               <br><br>
               <img src="/images/flags/gb.png" alt="Great Britain" /> Great Britain<br>
               <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br>
-              <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a>
+              <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a><br>
+              <a href="http://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">http://mirrors.gethosted.online/blackarch/</a><br>
+              <a href="https://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/</a><br>
+              <a href="ftp://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">ftp://mirrors.gethosted.online/blackarch/</a><br>
+              <a href="rsync://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">rsync://mirrors.gethosted.online/blackarch/</a>
               <br><br>
               <img src="/images/flags/hu.png" alt="Hungary" /> Hungary<br>
               <a href="http://quantum-mirror.hu/mirrors/pub/blackarch/" target="_blank" itemprop="url">http://quantum-mirror.hu/mirrors/pub/blackarch/</a><br>
