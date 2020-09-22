@@ -67,7 +67,7 @@ cat <<\EOF
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                            By simply running <span class=faqco>pacman -Syyu --needed --overwrite '*' blackarch</span>. This command requires root privileges.
+                            By simply running <span class=faqco>pacman -Syu --needed --overwrite='*' blackarch</span>. This command requires root privileges.
                             </div>
                         </div>
                     </div>
