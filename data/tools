@@ -9,7 +9,7 @@ abuse-ssl-bypass-waf|5.3ffd16a|Bypassing WAF by abusing SSL/TLS Ciphers.| blacka
 acccheck|0.2.1|A password dictionary attack tool that targets windows authentication via the SMB protocol.| blackarch-cracker |http://labs.portcullis.co.uk/tools/acccheck/
 ace|1.10|Automated Corporate Enumerator. A simple yet powerful VoIP Corporate Directory enumeration tool that mimics the behavior of an IP Phone in order to download the name and extension entries that a given phone can display on its screen interface| blackarch-voip |http://ucsniff.sourceforge.net/ace.html
 aclpwn|4.81480cc|Active Directory ACL exploitation with BloodHound.| blackarch-exploitation |https://github.com/fox-it/aclpwn.py
-activedirectoryenum|269.cfe9982|Enumerate AD through LDAP.| blackarch-recon |https://github.com/CasperGN/ActiveDirectoryEnumeration
+activedirectoryenum|0.5.0|Enumerate AD through LDAP.| blackarch-recon |https://github.com/CasperGN/ActiveDirectoryEnumeration
 ad-ldap-enum|44.1386673|An LDAP based Active Directory user and group enumeration tool.| blackarch-recon |https://github.com/CroweCybersecurity/ad-ldap-enum
 adape-script|43.4d0b9ff|Active Directory Assessment and Privilege Escalation Script.| blackarch-windows |https://github.com/hausec/ADAPE-Script
 adfind|29.179602f|Simple admin panel finder for php,js,cgi,asp and aspx admin panels.| blackarch-webapp |https://github.com/sahakkhotsanyan/adfind
@@ -582,7 +582,7 @@ elettra|1.0|Encryption utility by Julia Identity| blackarch-misc |http://www.win
 elettra-gui|1.0|Gui for the elettra crypto application.| blackarch-misc |http://www.winstonsmith.info/julia/elettra/
 elfkickers|3.1.a|Collection of ELF utilities (includes sstrip)| blackarch-binary |https://www.muppetlabs.com/~breadbox/software/elfkickers.html
 elfparser|7.39d21ca|Cross Platform ELF analysis.| blackarch-binary |https://github.com/jacob-baines/elfparser
-elfutils|0.180|Utilities to handle ELF object files and DWARF debugging information| blackarch-binary |https://sourceware.org/elfutils/
+elfutils|0.181|Utilities to handle ELF object files and DWARF debugging information| blackarch-binary |https://sourceware.org/elfutils/
 elidecode|48.38fa5ba|A tool to decode obfuscated shellcodes using the unicorn-engine for the emulation and the capstone-engine to print the asm code.| blackarch-reversing |https://github.com/DeveloppSoft/EliDecode
 elite-proxy-finder|51.1ced3be|Finds public elite anonymity proxies and concurrently tests them.| blackarch-proxy |https://github.com/DanMcInerney/elite-proxy-finder
 email2phonenumber|17.28c277e|A OSINT tool to obtain a target's phone number just by having his email address.| blackarch-social |https://github.com/martinvigo/email2phonenumber/
@@ -2288,7 +2288,7 @@ ubiquiti-probing|5.c28f4c1|A Ubiquiti device discovery tool.| blackarch-recon |h
 ubitack|0.3|Tool, which automates some of the tasks you might need on a (wireless) penetration test or while you are on the go.| blackarch-wireless |https://code.google.com/p/ubitack/
 udis86|1.7.2|A minimalistic disassembler library| blackarch-reversing |http://udis86.sourceforge.net/
 udork|89.9eb7cae|Python script that uses advanced Google search techniques to obtain sensitive information in files or directories, find IoT devices, detect versions of web applications.| blackarch-recon |https://github.com/m3n0sd0n4ld/uDork
-udp2raw-tunnel|20200715.0|An Encrypted, Anti-Replay, Multiplexed UdP Tunnel, tunnels udp traffic through fake-tcp or icmp by using raw socket| blackarch-tunnel |https://github.com/wangyu-/udp2raw-tunnel
+udp2raw-tunnel|20200727.0|An Encrypted, Anti-Replay, Multiplexed UdP Tunnel, tunnels udp traffic through fake-tcp or icmp by using raw socket| blackarch-tunnel |https://github.com/wangyu-/udp2raw-tunnel
 udpastcp|29.683b5e3|This program hides UDP traffic as TCP traffic in order to bypass certain firewalls.| blackarch-networking |https://github.com/Hello71/udpastcp
 udptunnel|19|Tunnels TCP over UDP packets.| blackarch-networking |http://code.google.com/p/udptunnel/
 udsim|25.df19f07|A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.| blackarch-scanner |https://github.com/zombieCraig/UDSim/
@@ -2456,6 +2456,7 @@ wikigen|8.348aa99|A script to generate wordlists out of wikipedia pages.| blacka
 wildpwn|11.4623714|Unix wildcard attacks.| blackarch-exploitation |https://github.com/localh0t/wildpwn
 windapsearch|28.7724ec4|Script to enumerate users, groups and computers from a Windows domain through LDAP queries.| blackarch-recon |https://github.com/ropnop/windapsearch
 windivert|2.2.0|A user-mode packet capture-and-divert package for Windows.| blackarch-windows |https://github.com/basil00/Divert
+windows-binaries|20.7d272da|A colleciton of pentesting Windows binaries.| blackarch-windows |https://github.com/BlackArch/windows-binaries
 windows-exploit-suggester|41.776bd91|This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target.| blackarch-recon |https://github.com/GDSSecurity/Windows-Exploit-Suggester
 windows-prefetch-parser|81.f593a8c|Parse Windows Prefetch files.| blackarch-forensic |https://github.com/PoorBillionaire/Windows-Prefetch-Parser
 windows-privesc-check|181.9f304fd|Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems.| blackarch-windows |https://github.com/pentestmonkey/windows-privesc-check
