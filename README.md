@@ -1,4 +1,4 @@
-Quick start
+Quick start : 
 ===========
 1. Make changes. Usually only modify files in common/ and generators/
 2. maybe ./update-tools.sh to update data/tools
