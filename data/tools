@@ -32,7 +32,7 @@ aiodnsbrute|38.e773a4c|Python 3 DNS asynchronous brute force utility.| blackarch
 air|2.0.0|A GUI front-end to dd/dc3dd designed for easily creating forensic images.| blackarch-forensic |https://sourceforge.net/projects/air-imager/
 aircrack-ng|1.6|Key cracker for the 802.11 WEP and WPA-PSK protocols| blackarch-wireless |https://www.aircrack-ng.org
 airflood|0.1|A modification of aireplay that allows for a DoS of the AP. This program fills the table of clients of the AP with random MACs doing impossible new connections. [Tool in Spanish]| blackarch-wireless |http://packetstormsecurity.com/files/51127/airflood.1.tar.gz.html
-airgeddon|2212.0cb5b62|Multi-use bash script for Linux systems to audit wireless networks.| blackarch-wireless |https://github.com/v1s1t0r1sh3r3/airgeddon
+airgeddon|2321.f94763e|Multi-use bash script for Linux systems to audit wireless networks.| blackarch-wireless |https://github.com/v1s1t0r1sh3r3/airgeddon
 airopy|5.b83f11d|Get (wireless) clients and access points.| blackarch-wireless |https://github.com/Josue87/Airopy
 airoscript|45.0a122ee|A script to simplify the use of aircrack-ng tools.| blackarch-wireless |http://midnightresearch.com/projects/wicrawl/
 airpwn|1.4|A tool for generic packet injection on an 802.11 network.| blackarch-wireless |http://airpwn.sourceforge.net
@@ -100,6 +100,7 @@ astra|486.394d538|Automated Security Testing For REST API's.| blackarch-webapp |
 atear|139.245ec8d|Wireless Hacking, WiFi Security, Vulnerability Analyzer, Pentestration.| blackarch-wireless |https://github.com/NORMA-Inc/AtEar
 atftp|0.7.2|Client/server implementation of the TFTP protocol that implements RFCs 1350, 2090, 2347, 2348, and 2349| blackarch-networking |https://sourceforge.net/projects/atftp/
 athena-ssl-scanner|0.6.2|A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.| blackarch-scanner |http://packetstormsecurity.com/files/93062/Athena-SSL-Cipher-Scanner.html
+atlas|7.77bd6c8|Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS.| blackarch-webapp |https://github.com/m4ll0k/Atlas
 atscan|2397.aec184a|Server, Site and Dork Scanner.| blackarch-scanner |https://github.com/AlisamTechnology/ATSCAN-V3.1
 atstaketools|0.1|This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.| blackarch-windows |http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html
 attacksurfacemapper|37.f5618db|Tool that aims to automate the reconnaissance process.| blackarch-recon |https://github.com/superhedgy/AttackSurfaceMapper
@@ -775,7 +776,9 @@ ghostdelivery|32.a23ed5a|Python script to generate obfuscated .vbs script that d
 giskismet|20110805|A program to visually represent the Kismet data in a flexible manner.| blackarch-wireless |http://www.giskismet.org
 git-dump|7.4c9a2a9|Dump the contents of a remote git repository without directory listing enabled.| blackarch-scanner |https://github.com/bahamas10/node-git-dump
 git-hound|110.b18095e|Pinpoints exposed API keys on GitHub. A batch-catching, pattern-matching, patch-attacking secret snatcher.| blackarch-recon |https://github.com/tillson/git-hound
+gitdorker|86.84467bd|Python program to scrape secrets from GitHub through usage of a large repository of dorks.| blackarch-recon |https://github.com/obheda12/GitDorker
 gitem|104.d40a1c9|A Github organization reconnaissance tool.| blackarch-recon |https://github.com/mschwager/gitem
+gitgraber|67.72e5850|Monitor GitHub to search and find sensitive data in real time for different online services.| blackarch-recon |https://github.com/hisxo/gitGraber
 githack|10.1fed62c|A `.git` folder disclosure exploit.| blackarch-recon |https://github.com/lijiejie/githack
 github-dorks|57.07e0472|Collection of github dorks and helper tool to automate the process of checking dorks.| blackarch-recon |https://github.com/techgaun/github-dorks
 githubcloner|33.14a6e32|A script that clones Github repositories of users and organizations automatically.| blackarch-misc |https://github.com/mazen160/GithubCloner
@@ -854,7 +857,7 @@ halcyon-ide|2.0.1|First IDE for Nmap Script (NSE) Development.| blackarch-misc |
 hamster|2.0.0|Tool for HTTP session sidejacking.| blackarch-exploitation |http://hamster.erratasec.com/
 handle|0.1|An small application designed to analyze your system searching for global objects related to running process and display information for every found object, like tokens, semaphores, ports, files,..| blackarch-windows |http://www.tarasco.org/security/handle/index.html
 harness|19.ed2a6aa|Interactive remote PowerShell Payload.| blackarch-backdoor |https://github.com/Rich5/Harness
-harpoon|220.3b04b09|CLI tool for open source and threat intelligence.| blackarch-automation |https://github.com/Te-k/harpoon
+harpoon|228.b8070bd|CLI tool for open source and threat intelligence.| blackarch-automation |https://github.com/Te-k/harpoon
 hasere|1.0|Discover the vhosts using google and bing.| blackarch-recon |https://github.com/galkan/hasere
 hash-buster|48.3f1d7c9|A python script which scraps online hash crackers to find cleartext of a hash.| blackarch-crypto |https://github.com/UltimateHackers/Hash-Buster/
 hash-extender|145.cb8aaee|A hash length extension attack tool.| blackarch-crypto |https://github.com/iagox86/hash_extender
@@ -884,6 +887,7 @@ heartleech|116.3ab1d60|Scans for systems vulnerable to the heartbleed bug, and t
 hellraiser|165.6dba3b4|Vulnerability Scanner.| blackarch-scanner |https://github.com/m0nad/HellRaiser
 hemingway|8.9c70a13|A simple and easy to use spear phishing helper.| blackarch-social |https://github.com/ytisf/hemingway
 hercules-payload|220.958541e|A special payload generator that can bypass all antivirus software.| blackarch-binary |https://github.com/EgeBalci/HERCULES
+hetty|64.98dacbe|HTTP toolkit for security research. It aims to become an open source alternative to commercial software like Burp Suite Pro, with powerful features tailored to the needs of the infosec and bug bounty community.| blackarch-webapp |https://github.com/dstotijn/hetty
 hex2bin|2.5|Converts Motorola and Intel hex files to binary.| blackarch-binary |http://hex2bin.sourceforge.net/
 hexinject|1.6|A very versatile packet injector and sniffer that provides a command-line framework for raw network access.| blackarch-sniffer |http://hexinject.sourceforge.net
 hexorbase|6|A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).| blackarch-fuzzer |https://code.google.com/p/hexorbase/
@@ -1040,6 +1044,7 @@ ivre-docs|0.9.15.dev123|Network recon framework based on Nmap, Masscan, Zeek (Br
 ivre-web|0.9.15.dev123|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (web application)| blackarch-recon |https://ivre.rocks/
 ja3|117.cb29184|Standard for creating SSL client fingerprints in an easy to produce and shareable way.| blackarch-crypto |https://github.com/salesforce/ja3
 jaadas|0.1|Joint Advanced Defect assEsment for android applications.| blackarch-scanner |https://github.com/flankerhqd/JAADAS/
+jackdaw|258.86d927a|Collect all information in your domain, show you graphs on how domain objects interact with each-other and how to exploit these interactions| blackarch-recon |https://github.com/skelsec/jackdaw
 jad|1.5.8e|Java decompiler| blackarch-reversing |https://varaneckas.com/jad
 jadx|1.1.0|Command line and GUI tools to produce Java source code from Android Dex and APK files| blackarch-decompiler |https://github.com/skylot/jadx
 jaeles|188.6b63235|The Swiss Army knife for automated Web Application Testing.| blackarch-webapp |https://github.com/jaeles-project/jaeles
@@ -1297,6 +1302,7 @@ minimysqlator|0.5|A multi-platform application used to audit web sites in order 
 miranda-upnp|1.3|A Python-based Universal Plug-N-Play client application designed to discover, query and interact with UPNP devices| blackarch-exploitation |http://code.google.com/p/miranda-upnp/
 missidentify|1.0|A program to find Win32 applications.| blackarch-recon |http://missidentify.sourceforge.net/
 missionplanner|1.3.73|A GroundControl Station for Ardupilot.| blackarch-drone |https://firmware.ardupilot.org/Tools/MissionPlanner/
+mitm|7.0955dea|A simple yet effective python3 script to perform DNS spoofing via ARP poisoning.| blackarch-networking |https://github.com/Th3Hurrican3/mitm
 mitm-relay|29.9f34e23|Hackish way to intercept and modify non-HTTP protocols through Burp & others.| blackarch-proxy |https://github.com/jrmdev/mitm_relay
 mitm6|24.a4842cb|Pwning IPv4 via IPv6.| blackarch-scanner |https://github.com/fox-it/mitm6
 mitmap|89.b590f9a|A python program to create a fake AP and sniff data.| blackarch-wireless |https://github.com/xdavidhu/mitmAP
@@ -1710,6 +1716,7 @@ pythem|454.e4fcb8a|Python2 penetration testing framework.| blackarch-scanner |ht
 python-api-dnsdumpster|67.5b8c820|Unofficial Python API for http://dnsdumpster.com/.| blackarch-recon |https://github.com/PaulSec/API-dnsdumpster.com
 python-arsenic|19.1|Async WebDriver implementation for asyncio and asyncio-compatible frameworks.| blackarch-automation |https://github.com/HDE/arsenic/releases
 python-capstone|4.0.2|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
+python-crontab|2.5.1|Crontab module for reading and writing crontab files and accessing the system cron automatically and simply using a direct API.| |https://pypi.org/project/python-crontab/#files
 python-cymruwhois|1.6|Python client for the whois.cymru.com service| blackarch-networking |https://pypi.org/project/cymruwhois/#files
 python-frida|12.11.16|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
 python-frida-tools|8.1.3|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
@@ -1949,6 +1956,7 @@ shellsploit-framework|273.a16d22f|New Generation Exploit Development Kit.| black
 shellter|7.2|A dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.| blackarch-exploitation |https://www.shellterproject.com/download/
 sherlock|1364.a265590|Find usernames across social networks.| blackarch-social |https://github.com/sherlock-project/sherlock
 sherlocked|1.f190c2b|Universal script packer-- transforms any type of script into a protected ELF executable, encrypted with anti-debugging.| blackarch-packer |https://github.com/elfmaster/sherlocked
+shhgit|55.046cf0b|Find committed secrets and sensitive files across GitHub, Gists, GitLab and BitBucket or your local repositories in real time.| blackarch-recon |https://github.com/eth0izzle/shhgit
 shitflood|14.e74fc42|A Socks5 clone flooder for the Internet Relay Chat (IRC) protocol.| blackarch-dos |https://github.com/acidvegas/shitflood
 shocker|63.0380a73|A tool to find and exploit servers vulnerable to Shellshock.| blackarch-exploitation |https://github.com/nccgroup/shocker
 shodanhat|13.e5e7e68|Search for hosts info with shodan.| blackarch-recon |https://github.com/HatBashBR/ShodanHat
@@ -2250,7 +2258,7 @@ tomcatwardeployer|91.a1a4453|Apache Tomcat auto WAR deployment & pwning penetrat
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.| blackarch-scanner |https://github.com/toperaproject/topera
 tor|0.4.4.5|Anonymizing overlay network.| blackarch-proxy |https://www.torproject.org/
 tor-autocircuit|0.2|Tor Autocircuit was developed to give users a finer control over Tor circuit creation. The tool exposes the functionality of TorCtl library which allows its users to control circuit length, speed, geolocation, and other parameters.| blackarch-defensive |http://www.thesprawl.org/projects/tor-autocircuit/
-tor-browser-en|9.5.4|Tor Browser Bundle: anonymous browsing using Firefox and Tor.| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
+tor-browser-en|10.0.1|Tor Browser Bundle: anonymous browsing using Firefox and Tor.| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
 tor-router|4.001a510|A tool that allow you to make TOR your default gateway and send all internet connections under TOR (as transparent proxy) for increase privacy/anonymity without extra unnecessary code.| blackarch-defensive |https://github.com/Edu4rdSHL/tor-router
 torcrawl|61.026d747|Crawl and extract (regular or onion) webpages through TOR network.| blackarch-webapp |https://github.com/MikeMeliz/TorCrawl.py
 torctl|0.5.6|Script to redirect all traffic through tor network including dns queries for anonymizing entire system.| blackarch-automation |https://github.com/BlackArch/torctl
