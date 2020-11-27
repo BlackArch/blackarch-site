@@ -42,12 +42,12 @@ cat <<\EOF
     <span class="fa-stack fa-2x" title="Paypal">
     <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPSCCPXHY8EBQ">
       <i class="fas fa-square fa-stack-2x"></i>
-      <i class="paypal fas fa-paypal fa-stack-1x fa-inverse"></i>
+      <i class="paypal fab fa-paypal fa-stack-1x fa-inverse"></i>
       </a>
     </span>
       <span class="act-bitcoin fa-stack fa-2x" title="Bitcoin">
       <i class="fas fa-square fa-stack-2x"></i>
-      <i class="bitcoin fas fa-btc fa-stack-1x fa-inverse"></i>
+      <i class="bitcoin fab fa-btc fa-stack-1x fa-inverse"></i>
     </span>
     <p class=act-display></p>
   <noscript><p class=ns>1KiXHGytUEo4Ug6Pjnmf7bs9ss3Ay1w5Uy</p></noscript>
