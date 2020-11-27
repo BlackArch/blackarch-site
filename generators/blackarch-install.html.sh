@@ -32,7 +32,7 @@ cat <<\EOF
         	We assume you have already burned the iso onto a USB or DVD and you are ready for the installation. When you boot to the image it should display something similar to the following screen. Select your architecture and press enter. [Example: Blackarch Linux (x86_64) for 64bit]
      		</p>
      		<div class=info>
-     		<i class="fa fa-info-circle" aria-hidden="true"></i>
+     		<i class="fas fa-info-circle" aria-hidden="true"></i>
         	<p>If you want to install BlackArch using VirtualBox, make sure to choose the right ISO. Check if your hardware supports virtualization. If so enable it in your UEFI/BIOS settings. If not, you must use the 32 bit ISO. Qemu with KVM was successfully tested and can be used instead of VirtualBox</p>
         	</div>
         	<img src="images/bl-install/1.png" alt="1">
@@ -41,7 +41,7 @@ cat <<\EOF
         	Wait until the login prompt appears, requesting the <i class=blgreen>Blackarch login</i>. The default BlackArch Linux credentials are
         	</p>
 			<div class=info>
-     		<i class="fa fa-info-circle" aria-hidden="true"></i>
+     		<i class="fas fa-info-circle" aria-hidden="true"></i>
      		<p>Login : root<br>
      		   Password : blackarch
      		</p>
@@ -53,7 +53,7 @@ cat <<\EOF
         	For example, enter the command <i class=blyellow>loadkeys</i> following the 2 letters of your country code. Execute the command <i class=blyellow>blackarch-install</i> to start the Blackarch install script.
         	</p>
         	<div class=info>
-     		<i class="fa fa-info-circle" aria-hidden="true"></i>
+     		<i class="fas fa-info-circle" aria-hidden="true"></i>
      		<p>Throughout this tutorial, you may want to execute some shell commands while the script is running. You can do it at any time without the need to stop it by simply switching <span class=blgreen>tty's</span> by pressing these keys simultaneously <span class=blyellow>ctrl + alt + f2</span> (f1 is the default tty where you ran the <span class=blyellow>blackarch-install</span> script (if you did not execute it in another tty...), f2, f3, f4, f5 or f6 will bring a new tty where you can execute any command you may need. This is just a tip in case you didn't know)</p>
      		</div>
 
@@ -94,7 +94,7 @@ prebuilt package from a repository as pacman does, this will get the source code
       		<span class=sb>2. Manual (use this if you are 1337)</span> <p> If you choose the manual way, you will have to know the information of your network (your gateway, LAN IP address, subnet mask, etc...)</p>
       		<span class=sb>3. Skip (use this if you are already connected)</span> <p> In case your network interface is already setup and can reach the internet, use this option.</p>
       		<div class=info>
-     		<i class="fa fa-info-circle" aria-hidden="true"></i>
+     		<i class="fas fa-info-circle" aria-hidden="true"></i>
      		In some cases involving, a virtual environment such as VirtualBox or Qemu, some rules in your firewall may drop ICMP, which will deny the <span class=blyellow>ping</span> and will block the install at this step since the script will exit, thinking your network interface is misconfigured. You can solve by this problem by editing the script located in <span class=blgreen>/usr/bin/blackarch-install</span> at the line 545 witch start as
 
      		<span class=blgreen>if ! ping -c 1 github.com > /dev/null 2>&1</span> until the next fi (line 548), you have to comment each line of the block condition or remove it. Once the edit made and save, run the <span class=blyellow>blackarch-install</span> and repeat the install.
@@ -111,7 +111,7 @@ you have a slow download speed, this can take some time. Go grab a coffee!
       		<p>Once the script is done getting things ready, you will have to setup partitions on the device where Blackarch will be installed. You
 will have to choose between having 2 or 3 partitions</p>
       		<div class=info>
-     		<i class="fa fa-info-circle" aria-hidden="true"></i>
+     		<i class="fas fa-info-circle" aria-hidden="true"></i>
      		<p>1) Boot partition</p>
      		<p>2) Root partition</p>
      		<p>3) Swap partition *</p>
@@ -175,7 +175,7 @@ will have to choose between having 2 or 3 partitions</p>
 			You have the choice to fully encrypt your root partition with <i class=blgreen>LUKS</i>. It's recommended to set <i class=blyellow>y</i> as your data may be sensitive and you want to keep it private from anyone <i>(in case your computer gets stolen or is taken by some agency...)</i>. Do not make something too easy as it can be bruteforced. </div>
 			<div>Be aware that if you forget the password to unlock your <i class=blgreen>LUKS</i> partition, the data nor the password can be recovered, a good move would be to write down the password on a piece of paper, and hide it somewhere safe. This can save you from trouble in case you can't remember it.</div>
 			<div class=info>
-     		<i class="fa fa-info-circle" aria-hidden="true"></i>
+     		<i class="fas fa-info-circle" aria-hidden="true"></i>
      		<div>If you have an SSD, if you encrypt the data with luks it will drastically reduce the lifetime of the SSD. Encrypting the stored data requires a lot of disk writing (uncrypt as well), you can fix this problem by adding <span class=bgreen>root_trim=yes</span> as option in your bootloader.</div>
      		For grub, look for the line of the current used kernel, similar of the following : <span class=blgreen>linux /vmlinuz ...  root=/dev/mapper/ ... root_trim=yes</span> (add it at the end of the line)
      		</div>

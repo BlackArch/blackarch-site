@@ -32,7 +32,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://github.com/BlackArch" target="_blank"><i class="fa fa-github fa-5x"></i></a>
+                            <a href="https://github.com/BlackArch" target="_blank"><i class="fab fa-github fa-5x"></i></a>
                         </div>
                     <p>
 					    You can find all BlackArch Linux code (including build scripts and website source) on our
@@ -50,7 +50,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://twitter.com/blackarchlinux" target="_blank"><i class="fa fa-twitter fa-5x"></i></a>
+                            <a href="https://twitter.com/blackarchlinux" target="_blank"><i class="fas fa-twitter fa-5x"></i></a>
                         </div>
                         <p>
                             Follow us on Twitter! We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>.
@@ -65,7 +65,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ" target="_blank"><i class="fa fa-youtube fa-5x"></i></a>
+                            <a href="https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ" target="_blank"><i class="fas fa-youtube fa-5x"></i></a>
                         </div>
                         <p>
                             Follow us and subscribe on our YouTube channel! We mainly upload self-made videos about <b>installation</b>, <b>configuration</b>, and major <b>tool usage</b>.
@@ -80,7 +80,7 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="irc://irc.freenode.net/blackarch" target="_blank"><i class="fa fa-comment fa-5x"></i></a>
+                        <a href="irc://irc.freenode.net/blackarch" target="_blank"><i class="fas fa-comment fa-5x"></i></a>
                     </div>
                     <p>
                         Come keep us company. We have a little community here.
@@ -110,7 +110,7 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="blog.html"><i class="fa fa-newspaper-o fa-5x"></i></a>
+                        <a href="blog.html"><i class="fas fa-newspaper fa-5x"></i></a>
                     </div>
                     <p>
 					    We have an on-site <a href="blog.html">blog</a>. The posts are usually more detailed than our Twitter posts and focus on more big project issues.
