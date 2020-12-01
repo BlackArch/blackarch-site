@@ -22,7 +22,7 @@ cat << EOF
       <!-- Sidebar Column -->
       <div class="col-md-3">
         <div class="list-group">
-          <a href="#iso-download" class="list-group-item active list-group-item-ex">Live ISOs</a>
+          <a href="#iso-download" class="list-group-item active list-group-item-ex">ISOs</a>
           <a href="#ova-download" class="list-group-item list-group-item-ex">OVA Images</a>
           <a href="#install-repo" class="list-group-item list-group-item-ex">Installing on top of ArchLinux</a>
           <a href="#install-iso" class="list-group-item list-group-item-ex">Installing from ISO</a>
@@ -38,14 +38,14 @@ cat << EOF
         <hr />
         <div class="panel panel-default text-left">
           <div id=iso-download class="panel-heading">
-            <b>Live ISOs</b>
+            <b>ISOs</b>
           </div>
           <ul class="list-group" itemscope itemtype="https://schema.org/CreativeWork">
             <li class="list-group-item">
               <p itemprop="about">
-                The following list contains official BlackArch live and netinstall ISO images. You can burn these images to DVDs and flashdrives.
+                The following list contains official BlackArch full and netinstall ISO images. You can burn these images to DVDs and flashdrives.
                 <br><br>
-                The live ISO contains a complete, functional BlackArch Linux system. The netinstall ISO is a lightweight image for bootstrapping machines.
+                The full ISO contains a complete, functional BlackArch Linux system. The netinstall ISO is a lightweight image for bootstrapping machines.
                 <br><br>
                 If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#mirror-list">list of mirrors</a> below.
               </p>
@@ -59,17 +59,17 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-live-2020.06.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Live ISO</a></td>
-                  <td itemprop="datePublished">2020.06.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-live-2020.06.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-full-2020.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Full ISO</a></td>
+                  <td itemprop="datePublished">2020.12.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-full-2020.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>15 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
-                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2020.06.02-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
-                  <td itemprop="datePublished">2020.06.02</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2020.06.02-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>471 MB</td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2020.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                  <td itemprop="datePublished">2020.12.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2020.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td>733 MB</td>
                   <td>${NET_CHECKSUM}</td>
                 </tr>
               </table>
@@ -199,7 +199,7 @@ cat << EOF
           </div>
           <ul class="list-group">
             <li class="list-group-item">
-              You can install BlackArch Linux (packages AND environment) using the Live or Netinstall medium.
+              You can install BlackArch Linux (packages AND environment) using the Full or Netinstall medium.
               <div class="code-block">
                 <p># Install blackarch-install-scripts package</p>
                 $ <span>sudo pacman -S blackarch-install-scripts</span>

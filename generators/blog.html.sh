@@ -29,6 +29,39 @@ cat <<\EOF
           <ul class="list-group nblog">
             <li class="list-group-item">
 
+            <article id=p109 itemscope itemtype="http://schema.org/NewsArticle">
+            <header>
+              <time itemprop="datePublished">Sun, 01 Dec 2020 00:00:00 GMT</time>
+              <h4 itemprop="name">New ISOs and OVA Image released!</h4>
+            </header>
+            <div itemprop="description">
+              <p>
+                Today we released the new BlackArch Linux ISOs and OVA image.
+                Many improvements and QA went through all packages and tools Blackarch Linux offers!
+                For details see the ChangeLog below.
+              </p>
+              <p>Here's the ChangeLog:</p>
+                <ul>
+                  <li>added more than 100 new tools</li>
+                  <li>renamed 'live iso' to 'full iso'</li>
+                  <li>updated blackarch-installer to v1.2.16</li>
+                  <li>included linux kernel 5.9.11</li>
+                  <li>adapted ISO creation to the new archiso version (work in progress)</li>
+                  <li>removed unnecessary files from the ISO env</li>
+                  <li>QA'ed and fixed a lot of packages (runtime exec, missing dependencies, etc.)</li>
+                  <li>updated all vim plugins and improved vim config options</li>
+                  <li>updated all blackarch tools and packages including config files</li>
+                  <li>updated all system packages</li>
+                  <li>updated all window manager menus (awesome, fluxbox, openbox)</li>
+                </ul>
+              </p>
+              <p>
+                We wish to thank all of BlackArch's users, mirrors, and supporters. Thanks for your help.
+              </p>
+            </div>
+            </article>
+
+
             <article id=p108 itemscope itemtype="http://schema.org/NewsArticle"><header>
               <time itemprop="datePublished">Tue, 09 Jun 2020 00:00:00 GMT</time>
               <h4 itemprop="name">New mirror added in Netherlands!</h4></header>
