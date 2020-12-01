@@ -104,6 +104,13 @@ cat <<EOF
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
+                                    <td itemprop="givenName">Dmytro Korzhevin</td>
+                                    <td itemprop="additionalName">KORG</td>
+                                    <td itemprop="email">korg@blackarch.org</td>
+                                    <td><a href="gpgkeys/korg.asc" target="_blank">0xD1D76BFE</a></td>
+                                    <td>Developer</td>
+                                </tr>
+                                <tr>
                                     <td itemprop="givenName">Christopher Downs</td>
                                     <td itemprop="additionalName">dualfade</td>
                                     <td itemprop="email">dualfade@blackarch.org</td>
