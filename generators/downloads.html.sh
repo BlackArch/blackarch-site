@@ -80,7 +80,7 @@ cat << EOF
               </p>
               <div class=code-block>
                 <p># Example Image writing<br></p>
-                $ <span> sudo dd bs=512M if=file.iso of=/dev/sdX </span>
+                $ <span> sudo dd bs=512M status=progress if=file.iso of=/dev/sdX </span>
               </div>
               <br>
               <p>
