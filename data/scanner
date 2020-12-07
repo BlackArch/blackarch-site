@@ -58,7 +58,7 @@ dnsa|0.6|A dns security swiss army knife.|http://packetfactory.openwall.net/proj
 dnsbf|0.3|Search for available domain names in an IP range.|http://code.google.com/p/dnsbf
 dnsgoblin|0.1|Nasty creature constantly searching for DNS servers. It uses standard dns querys and waits for the replies.|http://nullsecurity.net/tools/scanner.html
 dnspredict|0.0.2|DNS prediction.|http://johnny.ihackstuff.com/
-dnstwist|367.c472f04|Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.|https://github.com/elceef/dnstwist
+dnstwist|378.34a6d7c|Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.|https://github.com/elceef/dnstwist
 dockerscan|59.590a844|Docker security analysis & hacking tools.|https://github.com/cr0hn/dockerscan
 dorkbot|157.b5d7e7d|Command-line tool to scan Google search results for vulnerabilities.|https://github.com/utiso/dorkbot
 dorkme|56.73305d6|Tool designed with the purpose of making easier the searching of vulnerabilities with Google Dorks, such as SQL Injection vulnerabilities.|https://github.com/blueudp/DorkMe
@@ -132,7 +132,7 @@ leviathan|35.a1a1d8c|A mass audit toolkit which has wide range service discovery
 lfi-scanner|4.0|This is a simple perl script that enumerates local file inclusion attempts when given a specific target.|http://packetstormsecurity.com/files/102848/LFI-Scanner.0.html
 lfisuite|85.470e01f|Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.|https://github.com/D35m0nd142/LFISuite
 linenum|75.c47f9b2|Scripted Local Linux Enumeration & Privilege Escalation Checks|https://github.com/rebootuser/LinEnum
-linux-smart-enumeration|156.9a9b983|Linux enumeration tool for pentesting and CTFs with verbosity levels.|https://github.com/diego-treitos/linux-smart-enumeration
+linux-smart-enumeration|158.ad642ef|Linux enumeration tool for pentesting and CTFs with verbosity levels.|https://github.com/diego-treitos/linux-smart-enumeration
 littleblackbox|0.1.3|Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.|http://code.google.com/p/littleblackbox/wiki/FAQ
 locasploit|117.fa48151|Local enumeration and exploitation framework.|https://github.com/lightfaith/locasploit
 lotophagi|0.1|a relatively compact Perl script designed to scan remote hosts for default (or common) Lotus NSF and BOX databases.|http://packetstormsecurity.com/files/55250/lotophagi.rar.html
@@ -144,9 +144,10 @@ maryam|462.473f218|Full-featured Web Identification framework written in Python.
 masscan|1.0.5|TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes|https://github.com/robertdavidgraham/masscan
 mitm6|24.a4842cb|Pwning IPv4 via IPv6.|https://github.com/fox-it/mitm6
 modscan|0.1|A new tool designed to map a SCADA MODBUS TCP based network.|https://code.google.com/p/modscan/
-mongoaudit|221.fecd59b|A powerful MongoDB auditing and pentesting tool .|https://github.com/stampery/mongoaudit
+mongoaudit|222.70b83e8|A powerful MongoDB auditing and pentesting tool .|https://github.com/stampery/mongoaudit
 mssqlscan|0.8.4|A small multi-threaded tool that scans for Microsoft SQL Servers.|http://www.cqure.net/wp/mssqlscan/
 multiscanner|1559.86e0145|Modular file scanning/analysis framework.|https://github.com/mitre/multiscanner
+naabu|275.e388b51|A fast port scanner written in go with focus on reliability and simplicity.|https://github.com/projectdiscovery/naabu
 nbtscan|1.5.1|NBTscan is a program for scanning IP networks for NetBIOS name information.|http://www.inetcat.net/software/nbtscan.html
 netbios-share-scanner|1.0|This tool could be used to check windows workstations and servers if they have accessible shared resources.|http://www.secpoint.com/netbios-share-scanner.html
 netscan|1.0|Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).|http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner.0.html
@@ -161,8 +162,8 @@ nsia|1.0.6|A website scanner that monitors websites in realtime in order to dete
 ntlm-challenger|3.e7d3ba8|Parse NTLM over HTTP challenge messages.|https://github.com/b17zr/ntlm_challenger
 ntlm-scanner|6.4b29329|A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.|https://github.com/preempt/ntlm-scanner
 ntlmrecon|64.bd11162|A tool to enumerate information from NTLM authentication enabled web endpoints.|https://github.com/sachinkamath/ntlmrecon
-nuclei-templates|1798.ccc7cfb|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
-o-saft|4179.d7be234|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
+nuclei-templates|1865.e22932c|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
+o-saft|4180.437b3b2|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
 ocs|0.2|Compact mass scanner for Cisco routers with default telnet/enable passwords.|http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner.2.html
 onetwopunch|v1.0.0.r2.gd4ab4e8|Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.|https://github.com/superkojiman/onetwopunch
 onionscan|130.da42865|Scan Onion Services for Security Issues.|https://github.com/s-rah/onionscan
@@ -173,7 +174,7 @@ paranoic|1.7|A simple vulnerability scanner written in Perl.|http://packetstorms
 passhunt|5.332f374|Search drives for documents containing passwords.|https://github.com/Dionach/PassHunt
 pbscan|10.566c3d7|Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.|https://github.com/gvb84/pbscan
 pcredz|54.b27f774|A tool that extracts credit card numbers, NTLM(DCE-RPC, HTTP, SQL, LDAP, etc), Kerberos (AS-REQ Pre-Auth etype 23), HTTP Basic, SNMP, POP, SMTP, FTP, IMAP, and more from a pcap file or from a live interface.|https://github.com/lgandx/PCredz
-peass|412.e68e9b4|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
+peass|414.291ec7e|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
 pentestly|1798.93d1b39|Python and Powershell internal penetration testing framework.|https://github.com/praetorian-inc/pentestly
 plcscan|0.1|This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.|http://packetstormsecurity.com/files/119726/PLC-Device-Scanner.html
 pnscan|1.11|A parallel network scanner that can be used to survey TCP network services.|http://www.lysator.liu.se/~pen/pnscan/
@@ -191,7 +192,7 @@ ranger-scanner|149.3aae5dd|A tool to support security professionals to access an
 rawr|74.544dd75|Rapid Assessment of Web Resources. A web enumerator.|https://bitbucket.org/al14s/rawr/wiki/Home
 rdp-sec-check|9.5956857|Script to enumerate security settings of an RDP Service.|https://github.com/portcullislabs/rdp-sec-check
 relay-scanner|1.7|An SMTP relay scanner.|http://www.cirt.dk
-responder|348.af7d27a|A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).|https://github.com/lgandx/Responder
+responder|352.36ec5cc|A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).|https://github.com/lgandx/Responder
 retire|2.2.1.r14.g6b693d6|Scanner detecting the use of JavaScript libraries with known vulnerabilities.|http://retirejs.github.io/retire.js/
 routerhunter|21.4da257c|Tool used to find vulnerable routers and devices on the Internet and perform tests.|https://github.com/jh00nbr/Routerhunter.0
 rtlizer|35.5614163|Simple spectrum analyzer.|https://github.com/csete/rtlizer
@@ -250,7 +251,7 @@ taipan|2.7|Web application security scanner.|https://github.com/enkomio/Taipan
 takeover|94.f415341|Sub-Domain TakeOver Vulnerability Scanner.|https://github.com/m4ll0k/takeover
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.|https://github.com/toperaproject/topera
 traxss|81.48dee2e|Automated XSS Vulnerability Scanner.|https://github.com/M4cs/traxss
-trivy|408.4d18943|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI.|https://github.com/aquasecurity/trivy
+trivy|414.8132174|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI.|https://github.com/aquasecurity/trivy
 udsim|25.df19f07|A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.|https://github.com/zombieCraig/UDSim/
 umap|25.3ad8121|The USB host security assessment tool.|https://github.com/nccgroup/umap
 unicornscan|0.4.7|A new information gathering and correlation engine.|http://www.unicornscan.org/
@@ -268,7 +269,7 @@ videosnarf|0.63|A new security assessment tool for pcap analysis|http://ucsniff.
 visql|49.3082e30|Scan SQL vulnerability on target site and sites of on server.|https://github.com/blackvkng/viSQL
 vscan|10.da4e47e|HTTPS / Vulnerability scanner.|https://github.com/pasjtene/Vscan
 vulmap|83.123d73d|Vulmap Online Local Vulnerability Scanners Project|https://github.com/vulmon/Vulmap
-vuls|1031.101c44c|Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.|https://github.com/future-architect/vuls
+vuls|1032.9497365|Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.|https://github.com/future-architect/vuls
 vulscan|2.0|A module which enhances nmap to a vulnerability scanner|https://www.computec.ch/projekte/vulscan/
 wafw00f|812.7fb9d5c|Identify and fingerprint Web Application Firewall (WAF) products protecting a website.|https://github.com/EnableSecurity/wafw00f
 webenum|21.24b43b4|Tool to enumerate http responses using dynamically generated queries and more.|https://github.com/sarthakpandit/webenum
