@@ -72,147 +72,147 @@ cat <<EOF
                                     <td itemprop="givenName">Levon Kayan</td>
                                     <td itemprop="additionalName">noptrix</td>
                                     <td itemprop="email">noptrix@blackarch.org</td>
-                                    <td><a href="gpgkeys/noptrix.asc" target="_blank">0x7A747D10</a></td>
+                                    <td><a href="gpgkeys/noptrix.asc" target="_blank">0xD235838E6231C179</a></td>
                                     <td itemprop="jobTitle">Leader, Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Pedro Freitas</td>
                                     <td itemprop="additionalName">psf</td>
                                     <td itemprop="email">psf@blackarch.org</td>
-                                    <td><a href="gpgkeys/psf.asc" target="_blank">0x6B644488</a></td>
+                                    <td><a href="gpgkeys/psf.asc" target="_blank">0xD19B5EDE9A23FDF3</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Pierre B.</td>
                                     <td itemprop="additionalName">Pi3rrot</td>
                                     <td itemprop="email">pi3rrot@blackarch.org</td>
-                                    <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x0B694394</a></td>
+                                    <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x1B6EC0AB4ADEDC63</a></td>
                                     <td itemprop="jobTitle">Developer, Torrent Master</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Alia Morozova</td>
                                     <td itemprop="additionalName">anunna</td>
                                     <td itemprop="email">anunna@blackarch.org</td>
-                                    <td><a href="gpgkeys/anunna.asc" target="_blank">0x9DB34F2F</a></td>
+                                    <td><a href="gpgkeys/anunna.asc" target="_blank">0xE6A67BD79DB34F2F</a></td>
                                     <td>Developer, Queen</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Sachin S. Kamath</td>
                                     <td itemprop="additionalName">pwnfoo</td>
                                     <td itemprop="email">pwnfoo@blackarch.org</td>
-                                    <td><a href="gpgkeys/pwnfoo.asc" target="_blank">0x0171823A</a></td>
+                                    <td><a href="gpgkeys/pwnfoo.asc" target="_blank">0xF16278F70171823A</a></td>
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Dmytro Korzhevin</td>
                                     <td itemprop="additionalName">KORG</td>
                                     <td itemprop="email">korg@blackarch.org</td>
-                                    <td><a href="gpgkeys/korg.asc" target="_blank">0xD1D76BFE</a></td>
+                                    <td><a href="gpgkeys/korg.asc" target="_blank">0x05DB8FA1D1D76BFE</a></td>
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Christopher Downs</td>
                                     <td itemprop="additionalName">dualfade</td>
                                     <td itemprop="email">dualfade@blackarch.org</td>
-                                    <td><a href="gpgkeys/dualfade.asc" target="_blank">0xB8E1C494</a></td>
+                                    <td><a href="gpgkeys/dualfade.asc" target="_blank">0x76E2456FB8E1C494</a></td>
                                     <td>Maintainer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Hannes Eichblatt</td>
                                     <td itemprop="additionalName">heichblatt</td>
                                     <td itemprop="email">heichblatt@blackarch.org</td>
-                                    <td><a href="gpgkeys/heichblatt.asc" target="_blank">0x31B0AF0E</a></td>
+                                    <td><a href="gpgkeys/heichblatt.asc" target="_blank">0x0FEC7F8B31B0AF0E</a></td>
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Stefan Venz</td>
                                     <td itemprop="additionalName">ikstream</td>
                                     <td itemprop="email">ikstream@blackarch.org</td>
-                                    <td><a href="gpgkeys/ikstream.asc" target="_blank">0x8CAA1975</a></td>
+                                    <td><a href="gpgkeys/ikstream.asc" target="_blank">0x206477038CAA1975</a></td>
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Sepehrdad Sh</td>
                                     <td itemprop="additionalName">sepehrdad</td>
                                     <td itemprop="email">sepehrdad@blackarch.org</td>
-                                    <td><a href="gpgkeys/sepehrdad.asc" target="_blank">0x76903A84</a></td>
+                                    <td><a href="gpgkeys/sepehrdad.asc" target="_blank">0x5731380176903A84</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Eduard Toloza</td>
                                     <td itemprop="additionalName">Edu4rdSHL</td>
                                     <td itemprop="email">edu4rdshl@blackarch.org</td>
-                                    <td><a href="gpgkeys/edu4dshl.asc" target="_blank">0x09F553E5</a></td>
+                                    <td><a href="gpgkeys/edu4dshl.asc" target="_blank">0x3A574A4009F553E5</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Richard Baumann</td>
                                     <td itemprop="additionalName">ohaz</td>
                                     <td itemprop="email">ohaz@blackarch.org</td>
-                                    <td><a href="gpgkeys/ohaz.asc" target="_blank">0x9684D220</a></td>
+                                    <td><a href="gpgkeys/ohaz.asc" target="_blank">0x494343DE9684D220</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Leon L.</td>
                                     <td itemprop="additionalName">Tazmain</td>
                                     <td itemprop="email">tazmain@blackarch.org</td>
-                                    <td><a href="gpgkeys/tazmain.asc" target="_blank">0xBA75AF84</a></td>
+                                    <td><a href="gpgkeys/tazmain.asc" target="_blank">0x4CB1EBA0BA75AF84</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Aan W.</td>
                                     <td itemprop="additionalName">petruknisme</td>
                                     <td itemprop="email">petruknisme@blackarch.org</td>
-                                    <td><a href="gpgkeys/petruknisme.asc" target="_blank">0x7731F2B1</a></td>
+                                    <td><a href="gpgkeys/petruknisme.asc" target="_blank">0x852D95650B24BC5E</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">OSO SPEED</td>
                                     <td itemprop="additionalName">OSO</td>
                                     <td itemprop="email">oso@blackarch.org</td>
-                                    <td><a href="gpgkeys/oso.asc" target="_blank">0x005E6A4C</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Jeremy Marlow</td>
-                                    <td itemprop="additionalName">i3_Arch</td>
-                                    <td itemprop="email">i3_arch@blackarch.org</td>
-                                    <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xC8173B68</a></td>
+                                    <td><a href="gpgkeys/oso.asc" target="_blank">0x3B67B600005E6A4C</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Alexandre Zanni</td>
                                     <td itemprop="additionalName">noraj</td>
                                     <td itemprop="email">noraj@blackarch.org</td>
-                                    <td><a href="gpgkeys/noraj.asc" target="_blank">0x5BFB05CA</a></td>
+                                    <td><a href="gpgkeys/noraj.asc" target="_blank">0x2505B21F5BFB05CA</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Semtex</td>
                                     <td itemprop="additionalName">s7x</td>
                                     <td itemprop="email">s7x@blackarch.org</td>
-                                    <td><a href="gpgkeys/s7x.asc" target="_blank">0x461E386F</a></td>
+                                    <td><a href="gpgkeys/s7x.asc" target="_blank">0x204FE13F461E386F</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Jeremy Marlow</td>
+                                    <td itemprop="additionalName">i3_Arch</td>
+                                    <td itemprop="email">i3_arch@blackarch.org</td>
+                                    <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xBADCODEBADCODE</a></td>
+                                    <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Erik</td>
                                     <td itemprop="additionalName">deep_m4gic</td>
                                     <td itemprop="email">deep_m4gic@blackarch.org</td>
-                                    <td><a href="gpgkeys/deep_m4gic.asc" target="_blank">0x772F36C5</a></td>
+                                    <td><a href="gpgkeys/deep_m4gic.asc" target="_blank">0x90B8BF85707DE0D2</a></td>
                                     <td itemprop="jobTitle">Designer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Alexander Rothenberg</td>
                                     <td itemprop="additionalName">EisWiesel</td>
                                     <td itemprop="email">eiswiesel@blackarch.org</td>
-                                    <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADC0DE</a></td>
+                                    <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADCODEBADCODE</a></td>
                                     <td itemprop="jobTitle">WebDesigner</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Dimitri Mader</td>
                                     <td itemprop="additionalName">anyon3</td>
                                     <td itemprop="email">anyon3@blackarch.org</td>
-                                    <td><a href="gpgkeys/anyon3.asc" target="_blank">0x8B8E3622</a></td>
+                                    <td><a href="gpgkeys/anyon3.asc" target="_blank">0xDA9631D58B8E3622</a></td>
                                     <td itemprop="jobTitle">WebDeveloper</td>
                                 </tr>
                             </table>
@@ -247,77 +247,66 @@ cat <<EOF
                                     <td itemprop="givenName">Evan Teitelman</td>
                                     <td itemprop="additionalName">paraxor</td>
                                     <td itemprop="email">teitelmanevan@gmail.com</td>
-                                    <td><a href="gpgkeys/paraxor.asc" target="_blank">0xEA87E4E3</a></td>
                                     <td itemprop="jobTitle">Founder, Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Javier</td>
                                     <td itemprop="additionalName">nrz</td>
                                     <td itemprop="email">nrz@nullsecurity.net</td>
-                                    <td><a href="gpgkeys/nrz.asc" target="_blank">0x7C03DD86</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Ellis Kenyo</td>
                                     <td itemprop="additionalName">elken</td>
                                     <td itemprop="email">elken.tdos@gmail.com</td>
-                                    <td><a href="gpgkeys/elken.asc" target="_blank">0x0F4093D1</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Louis Dion-Marcil</td>
                                     <td itemprop="additionalName">ldionmarcil</td>
                                     <td itemprop="email">louis.dionmarcil@gmail.com</td>
-                                    <td><a href="gpgkeys/ldionmarcil.asc" target="_blank">0x0E61E739</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Halit Alptekin</td>
                                     <td itemprop="additionalName">rapt0r</td>
                                     <td itemprop="email">me@halitalptekin.com</td>
-                                    <td><a href="gpgkeys/rapt0r.asc" target="_blank">0x17F838F9</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Ano Nymous</td>
                                     <td itemprop="additionalName">sudokode</td>
                                     <td itemprop="email">sudokode@gmail.com</td>
-                                    <td><a href="gpgkeys/sudokode.asc" target="_blank">0xBADC0DE</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Guy Marquez</td>
                                     <td itemprop="additionalName">eserror</td>
                                     <td itemprop="email">guy.marquez@yandex.com</td>
-                                    <td><a href="gpgkeys/eserror.asc" target="_blank">0x1DDA1182</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Felipe Montes</td>
                                     <td itemprop="additionalName">GudwaL</td>
                                     <td itemprop="email">felipe@smartdefence.cl</td>
-                                    <td><a href="gpgkeys/gudwal.asc" target="_blank">0x9548C879</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Abelardo Ricart</td>
                                     <td itemprop="additionalName">abby</td>
                                     <td itemprop="email">aricart@gmail.com</td>
-                                    <td><a href="gpgkeys/abby.asc" target="_blank">0xF126259B</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Filipe Lains</td>
                                     <td itemprop="additionalName">FFY00</td>
                                     <td itemprop="email">ffy00@blackarch.org</td>
-                                    <td><a href="gpgkeys/ffy00.asc" target="_blank">0xB0EB4BF2</a></td>
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Harry P.</td>
                                     <td itemprop="additionalName">luserx0</td>
                                     <td itemprop="email">luserx0@blackarch.org</td>
-                                    <td><a href="gpgkeys/luserx0.asc" target="_blank">0x90883003</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                             </table>
