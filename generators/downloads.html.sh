@@ -298,6 +298,7 @@ cat << EOF
               <img src="/images/flags/gb.png" alt="Great Britain" /> Great Britain<br>
               <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br>
               <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a><br>
+              <a href="https://uk.mirrors.fossho.st/blackarch/" target="_blank" itemprop="url">https://uk.mirrors.fossho.st/blackarch/$repo/os/$arch</a><br>
               <a href="http://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">http://mirrors.gethosted.online/blackarch/</a><br>
               <a href="https://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/</a><br>
               <a href="ftp://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">ftp://mirrors.gethosted.online/blackarch/</a><br>
@@ -374,7 +375,8 @@ cat << EOF
               <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">rsync://ftp.yzu.edu.tw/Linux/blackarch/</a>
               <br><br>
               <img src="/images/flags/us.png" alt="USA" />USA<br>
-                    <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
+              <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
+              <a href="https://us.mirrors.fossho.st/blackarch/" target="_blank" itemprop="url">https://us.mirrors.fossho.st/blackarch/</a><br>
               <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a><br>
               <a href="http://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">http://mirror.math.princeton.edu/pub/blackarch/</a><br>
               <a href="rsync://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">rsync://mirror.math.princeton.edu/pub/blackarch/</a><br>
