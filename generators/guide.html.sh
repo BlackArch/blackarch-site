@@ -59,7 +59,7 @@ cat <<\EOF
                         <td><img src="/images/flags/it.png" alt="Italy"> <a href="blackarch-guide-it.pdf" target="_blank">Italian</a></td>
                     </tr>
                     <tr>
-                        <td><img src="/images/flags/ru.png" alt="Romania"> <a href="blackarch-guide-ro.pdf" target="_blank">Romanian</a></td>
+                        <td><img src="/images/flags/ro.png" alt="Romania"> <a href="blackarch-guide-ro.pdf" target="_blank">Romanian</a></td>
                     </tr>
                     <tr>
                         <td><img src="/images/flags/ru.png" alt="Russia"> <a href="blackarch-guide-ru.pdf" target="_blank">Russian</a></td>
