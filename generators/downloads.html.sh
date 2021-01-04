@@ -61,7 +61,6 @@ cat << EOF
                 <tr>
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-full-2020.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Full ISO</a></td>
                   <td itemprop="datePublished">2020.12.01</td>
-                  <td>Torrent (off for now)</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-full-2020.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>15 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
@@ -69,7 +68,6 @@ cat << EOF
                 <tr>
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2020.12.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                   <td itemprop="datePublished">2020.12.01</td>
-                  <td>Torrent (off for now)</td>
                   <td><a href="/blackarch/torrent/blackarch-linux-netinst-2020.12.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>733 MB</td>
                   <td>${NET_CHECKSUM}</td>
