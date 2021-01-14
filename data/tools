@@ -1413,7 +1413,7 @@ netripper|79.683ef1b|Smart traffic sniffing for penetration testers.| blackarch-
 netscan|1.0|Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).| blackarch-scanner |http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner.0.html
 netscan2|58.a1db723|Active / passive network scanner.| blackarch-scanner |https://github.com/walchko/netscan2
 netsed|1.3|Small and handful utility design to alter the contents of packets forwarded thru network in real time.| blackarch-networking |http://silicone.homelinux.org/projects/netsed/
-netsniff-ng|0.6.7|High performance Linux network sniffer for packet inspection| blackarch-sniffer |http://netsniff-ng.org/
+netsniff-ng|0.6.8|High performance Linux network sniffer for packet inspection| blackarch-sniffer |http://netsniff-ng.org/
 netstumbler|0.4.0|Well-known wireless AP scanner and sniffer.| blackarch-windows |http://www.netstumbler.com/downloads/
 network-app-stress-tester|19.df75391|Network Application Stress Testing Yammer.| blackarch-dos |https://github.com/PherricOxide/Network-App-Stress-Tester
 networkmap|58.f5faf17|Post-exploitation network mapper.| blackarch-networking |https://github.com/lorenzog/NetworkMap
@@ -1474,7 +1474,7 @@ nullinux|117.04ca542|Tool that can be used to enumerate OS information, domain i
 nullscan|1.0.1|A modular framework designed to chain and automate security tests.| blackarch-automation |http://www.nullsecurity.net/tools/automation.html
 nxcrypt|32.6ae06b5|NXcrypt - python backdoor framework.| blackarch-backdoor |https://github.com/Hadi999/NXcrypt
 o-saft|4180.437b3b2|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.| blackarch-scanner |https://www.owasp.org/index.php/O-Saft
-o365spray|96.e235abd|Auto Scanning to SSL Vulnerability.| blackarch-cracker |https://github.com/0xZDH/o365spray
+o365spray|96.e235abd|Username enumeration and password spraying tool aimed at Microsoft O365.| blackarch-cracker |https://github.com/0xZDH/o365spray
 oat|1.3.1|A toolkit that could be used to audit security within Oracle database servers.| blackarch-fuzzer |http://www.cqure.net/wp/test/
 obevilion|409.29fbe9d|Another archive cracker created in python | cracking [zip/7z/rar].| blackarch-cracker |https://github.com/BL4CKvGHOST/Ob3vil1on
 obexstress|0.1|Script for testing remote OBEX service for some potential vulnerabilities.| blackarch-bluetooth |http://bluetooth-pentest.narod.ru/
@@ -1749,7 +1749,7 @@ python-frida|14.2.3|Dynamic instrumentation toolkit for developers, reverse-engi
 python-frida-tools|9.1.0|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
 python-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
 python-ivre|0.9.16.dev55|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
-python-jsbeautifier|1.13.0|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
+python-jsbeautifier|1.13.2|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python-keylogger|2.7.3|Simple keystroke logger.| blackarch-keylogger |https://github.com/GiacomoLaw/Keylogger
 python-minidump|0.0.13|Python library to parse and read Microsoft minidump file format.| blackarch-windows |https://pypi.org/project/minidump/#files
 python-mmbot|78.f5f5478|Powerful malicious file triage tool for cyber responders.| blackarch-malware |https://github.com/egaus/MaliciousMacroBot
@@ -2242,7 +2242,7 @@ tckfc|23.911e92e|TrueCrypt key file cracker.| blackarch-cracker |https://github.
 tcpcontrol-fuzzer|0.1|2^6 TCP control bit fuzzer (no ECN or CWR).| blackarch-fuzzer |https://www.ee.oulu.fi/research/ouspg/tcpcontrol-fuzzer
 tcpcopy|1243.2365b36|A TCP stream replay tool to support real testing of Internet server applications.| blackarch-networking |https://github.com/session-replay-tools/tcpcopy
 tcpdstat|4.be5bd28|Get protocol statistics from tcpdump pcap files.| blackarch-networking |https://github.com/netik/tcpdstat
-tcpdump|4.9.3|Powerful command-line packet analyzer| blackarch-networking |https://www.tcpdump.org/
+tcpdump|4.99.0|Powerful command-line packet analyzer| blackarch-networking |https://www.tcpdump.org/
 tcpextract|1.1|Extracts files from captured TCP sessions. Support live streams and pcap files.| blackarch-networking |https://pypi.python.org/pypi/tcpextract/
 tcpflow|1.5.2|Captures data transmitted as part of TCP connections then stores the data conveniently| blackarch-networking |https://github.com/simsong/tcpflow
 tcpick|0.2.1|TCP stream sniffer and connection tracker| blackarch-sniffer |http://tcpick.sourceforge.net/
@@ -2273,6 +2273,7 @@ thefuzz|160.b4c2c80|CLI fuzzing tool.| blackarch-fuzzer |https://github.com/drob
 theharvester|2162.83cd14f|Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).| blackarch-recon |http://www.edge-security.com/theHarvester.php
 themole|0.3|Automatic SQL injection exploitation tool.| blackarch-webapp |http://sourceforge.net/projects/themole/
 thezoo|207.50350ad|A project created to make the possibility of malware analysis open and available to the public.|blackarch-malware|https://github.com/ytisf/theZoo
+threatspec|0.5.0|Project to integrate threat modelling into development process.| blackarch-defensive |https://github.com/threatspec/threatspec
 thumbcacheviewer|1.0.3.6|Extract Windows thumbcache database files.| blackarch-forensic |https://thumbcacheviewer.github.io/
 tiger|3.2.3|A security scanner, that checks computer for known problems. Can also use tripwire, aide and chkrootkit.| blackarch-automation |http://www.nongnu.org/tiger/
 tilt|90.2bc2ef2|An easy and simple tool implemented in Python for ip reconnaissance, with reverse ip lookup.| blackarch-recon |https://github.com/AeonDave/tilt
@@ -2443,7 +2444,7 @@ waidps|16.ff8d270|Wireless Auditing, Intrusion Detection & Prevention System.| b
 waldo|29.ee4f960|A lightweight and multithreaded directory and subdomain bruteforcer implemented in Python.| blackarch-recon |https://github.com/red-team-labs/waldo
 wapiti|3.0.3|A vulnerability scanner for web applications. It currently search vulnerabilities like XSS, SQL and XPath injections, file inclusions, command execution, LDAP injections, CRLF injections...| blackarch-fuzzer |http://wapiti.sourceforge.net/
 wascan|37.6926338|Web Application Scanner.| blackarch-webapp |https://github.com/m4ll0k/WAScan
-wavemon|0.9.1|Ncurses-based monitoring application for wireless network devices| blackarch-wireless |https://github.com/uoaerg/wavemon
+wavemon|0.9.3|Ncurses-based monitoring application for wireless network devices| blackarch-wireless |https://github.com/uoaerg/wavemon
 waybackpack|56.b6e8ec7|Download the entire Wayback Machine archive for a given URL.| blackarch-webapp |https://github.com/jsvine/waybackpack
 waybackurls|9.58bbafe|Fetch all the URLs that the Wayback Machine knows about for a domain.| blackarch-recon |https://github.com/tomnomnom/waybackurls
 wcc|55.f141963|The Witchcraft Compiler Collection.| blackarch-binary |https://github.com/endrazine/wcc
@@ -2541,7 +2542,7 @@ wpbrute-rpc|3.e7d8145|Tool for amplified bruteforce attacks on wordpress based w
 wpbullet|34.6185112|A static code analysis for WordPress (and PHP).| blackarch-code-audit |https://github.com/webarx-security/wpbullet
 wpforce|87.31024e0|Wordpress Attack Suite.| blackarch-webapp |https://github.com/n00py/WPForce
 wpintel|6.741c0c9|Chrome extension designed for WordPress Vulnerability Scanning and information gathering.| blackarch-webapp |https://github.com/Tuhinshubhra/WPintel
-wpscan|3.8.10|Black box WordPress vulnerability scanner| blackarch-webapp |https://wpscan.org
+wpscan|3.8.13|Black box WordPress vulnerability scanner| blackarch-webapp |https://wpscan.org
 wpseku|39.862fb2c|Simple Wordpress Security Scanner.| blackarch-webapp |https://github.com/m4ll0k/WPSeku
 wpsik|8.8d3856b|WPS scan and pwn tool.| blackarch-wireless |https://github.com/0x90/wpsik
 wpsweep|1.0|A simple ping sweeper, that is, it pings a range of IP addresses and lists the ones that reply.| blackarch-windows |http://ntsecurity.nu/toolbox/wpsweep/
