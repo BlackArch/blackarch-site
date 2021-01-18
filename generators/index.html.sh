@@ -27,22 +27,22 @@ cat <<EOF
         </div>
         <br><br><br>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/thumbnails/fluxbox_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/fluxbox.jpg" alt="BlackArch Linux with fluxbox"></a>
+                <a href="/images/screenshots/fluxbox.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/fluxbox_thumbnail.jpg" alt="BlackArch Linux with fluxbox"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/thumbnails/i3_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/i3.jpg" alt="BlackArch Linux with i3"></a>
+                <a href="/images/screenshots/i3.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/i3_thumbnail.jpg" alt="BlackArch Linux with i3"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/thumbnails/awesome_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/awesome.jpg" alt="BlackArch Linux with awesome wm"></a>
+                <a href="/images/screenshots/awesome.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/awesome_thumbnail.jpg" alt="BlackArch Linux with awesome wm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/thumbnails/spectrwm_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/spectrwm.jpg" alt="BlackArch Linux with spectrwm"></a>
+                <a href="/images/screenshots/spectrwm.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/spectrwm_thumbnail.jpg" alt="BlackArch Linux with spectrwm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/thumbnails/lxdm_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/lxdm.jpg" alt="BlackArch Linux with lxdm"></a>
+                <a href="/images/screenshots/lxdm.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/lxdm_thumbnail.jpg" alt="BlackArch Linux with lxdm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/thumbnails/grub_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/grub.jpg" alt="BlackArch Linux Grub"></a>
+                <a href="/images/screenshots/grub.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/grub_thumbnail.jpg" alt="BlackArch Linux Grub"></a>
             </div>
         </div>
     </div>
