@@ -27,7 +27,7 @@ cat <<EOF
         </div>
         <br><br><br>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/thumbnails/fluxbox_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/fluxbox.png" alt="BlackArch Linux with fluxbox"></a>
+                <a href="/images/thumbnails/fluxbox_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/fluxbox.jpg" alt="BlackArch Linux with fluxbox"></a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/thumbnails/i3_thumbnail.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/i3.jpg" alt="BlackArch Linux with i3"></a>
