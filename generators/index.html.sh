@@ -27,22 +27,22 @@ cat <<EOF
         </div>
         <br><br><br>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/fluxbox.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/fluxbox.png" alt="BlackArch Linux with fluxbox"></a>
+                <a href="/images/screenshots/fluxbox.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/fluxbox_thumbnail.jpg" alt="BlackArch Linux with fluxbox"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/i3.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/i3.png" alt="BlackArch Linux with i3"></a>
+                <a href="/images/screenshots/i3.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/i3_thumbnail.jpg" alt="BlackArch Linux with i3"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/awesome.png"><img class="img-responsive img-portfolio img-hover" src="images/screenshots/awesome.png" alt="BlackArch Linux with awesome wm"></a>
+                <a href="/images/screenshots/awesome.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/awesome_thumbnail.jpg" alt="BlackArch Linux with awesome wm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/spectrwm.png"><img class="img-responsive img-portfolio img-hover" style="height:224px" src="images/screenshots/spectrwm.png" alt="BlackArch Linux with spectrwm"></a>
+                <a href="/images/screenshots/spectrwm.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/spectrwm_thumbnail.jpg" alt="BlackArch Linux with spectrwm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/lxdm.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;" src="images/screenshots/lxdm.png" alt="BlackArch Linux with lxdm"></a>
+                <a href="/images/screenshots/lxdm.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/lxdm_thumbnail.jpg" alt="BlackArch Linux with lxdm"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/grub.png"><img class="img-responsive img-portfolio img-hover" style="height:224px;width:400px" src="images/screenshots/grub.png" alt="BlackArch Linux Grub"></a>
+                <a href="/images/screenshots/grub.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/grub_thumbnail.jpg" alt="BlackArch Linux Grub"></a>
             </div>
         </div>
     </div>
@@ -115,7 +115,7 @@ cat <<EOF
                                     <td itemprop="additionalName">dualfade</td>
                                     <td itemprop="email">dualfade@blackarch.org</td>
                                     <td><a href="gpgkeys/dualfade.asc" target="_blank">0x76E2456FB8E1C494</a></td>
-                                    <td>Maintainer</td>
+                                    <td>Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Hannes Eichblatt</td>
