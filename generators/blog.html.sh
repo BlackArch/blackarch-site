@@ -29,6 +29,38 @@ cat <<\EOF
           <ul class="list-group nblog">
             <li class="list-group-item">
 
+            <article id=p111 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Tue, 25 Jan 2021 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in South Korea!</h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://mirror.krmir.org/" target="_blank">krmir.org</a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="https://mirror.krmir.org/blackarch/" target="_blank">https</a> |
+                <a href="ftp://mirror.krmir.org/blackarch/">ftp</a> | <a href="rsync://mirror.krmir.org/blackarch/">rsync</a>
+              </div>
+            </article>
+
+            <article id=p111 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Tue, 25 Jan 2021 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in Russia!</h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://mirror.surf/" target="_blank">mirror.surf</a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="https://mirror.surf/blackarch/" target="_blank">https</a> |
+                <a href="rsync://mirror.surf/blackarch/">rsync</a>
+              </div>
+            </article>
+
+            <article id=p110 itemscope itemtype="http://schema.org/NewsArticle"><header>
+              <time itemprop="datePublished">Tue, 25 Jan 2021 00:00:00 GMT</time>
+              <h4 itemprop="name">New mirror added in China!</h4></header>
+              <div itemprop="description">
+                We would like to thank <a href="https://mirror.sjtu.edu.cn/" target="_blank">mirror.sjtu.edu.cn</a> for becoming a BlackArch Linux mirror.
+                <br /><br />
+                They are offering the following access: <a href="https://mirror.sjtu.edu.cn/blackarch/" target="_blank">https</a>
+              </div>
+            </article>
+
             <article id=p109 itemscope itemtype="http://schema.org/NewsArticle">
             <header>
               <time itemprop="datePublished">Sun, 01 Dec 2020 00:00:00 GMT</time>

@@ -251,6 +251,7 @@ cat << EOF
               <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a>
               <br><br>
               <img src="/images/flags/cn.png" alt="China" /> China<br>
+              <a href="https://mirror.sjtu.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirror.sjtu.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.tuna.tsinghua.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.ustc.edu.cn/blackarch/</a>
               <br><br>
@@ -338,6 +339,8 @@ cat << EOF
               <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/</a>
               <br><br>
               <img src="/images/flags/ru.png" alt="Russia" /> Russia<br>
+              <a href="https://mirror.surf/blackarch/" target="_blank" itemprop="url">https://mirror.surf/blackarch/</a><br>
+              <a href="rsync://mirror.surf/blackarch/" target="_blank" itemprop="url">rsync://mirror.surf/blackarch/</a><br>
               <a href="http://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">http://mirror.truenetwork.ru/blackarch/</a><br>
               <a href="ftp://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">ftp://mirror.truenetwork.ru/blackarch/</a><br>
               <a href="rsync://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">rsync://mirror.truenetwork.ru/blackarch/</a><br>
@@ -348,6 +351,11 @@ cat << EOF
               <img src="/images/flags/sg.png" alt="Singapore" /> Singapore<br>
               <a href="http://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">http://download.nus.edu.sg/mirror/blackarch/</a><br>
               <a href="https://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">https://download.nus.edu.sg/mirror/blackarch/</a>
+              <br><br>
+              <img src="/images/flags/kr.png" alt="South Korea" /> South Korea<br>
+              <a href="https://mirror.krmir.org/blackarch/" target="_blank" itemprop="url">https://mirror.krmir.org/blackarch/</a><br>
+              <a href="ftp://mirror.krmir.org/blackarch/" target="_blank" itemprop="url">ftp://mirror.krmir.org/blackarch/</a><br>
+              <a href="rsync://mirror.krmir.org/blackarch/" target="_blank" itemprop="url">rsync://mirror.krmir.org/blackarch/</a>
               <br><br>
               <img src="/images/flags/se.png" alt="Sweden" /> Sweden<br>
               <a href="http://mirror.zetup.net/blackarch/" target="_blank" itemprop="url">http://mirror.zetup.net/blackarch/</a>
