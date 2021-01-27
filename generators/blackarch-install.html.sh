@@ -129,7 +129,7 @@ will have to choose between having 2 or 3 partitions</p>
       		<img src="images/bl-install/12.png" alt="12">
       		<hr>
 			<div>
-			If your storage device already has a label type, you won't see this, otherwise set it to <i class=blgreen>dos</i>.
+			If your storage device already has a label type, you won't see this, otherwise set it to <i class=blgreen>dos</i> If you get an error after installation, you may have a EFI device and should set it to <i class=blgreen>gpt</i>.
 			</div>
 			<img src="images/bl-install/13.png" alt="13">
 			<hr>
@@ -149,7 +149,7 @@ will have to choose between having 2 or 3 partitions</p>
 			<img src="images/bl-install/16.png" alt="16">
 			<hr>
 			<div>
-			You need to mark this partition as bootable. Go to the option <i class=blgreen>bootable</i> and press enter. The * should appear as on the screen, afterwards go to the second partition, press the down arrow to select the free space then select <i class=blgreen>New</i>.
+			You need to mark this partition as bootable. Go to the option <i class=blgreen>bootable</i> and press enter. The * should appear as on the screen. If your device is an EFI device make sure to select <i class=blgreen>Type</i> and set it to <i class=blgreen>EFI Type</i>. Afterwards go to the second partition, press the down arrow to select the free space then select <i class=blgreen>New</i>.
 			</div>
 			<img src="images/bl-install/17.png" alt="17">
 			<hr>
