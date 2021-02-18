@@ -107,7 +107,7 @@ cat <<EOF
                                     <td itemprop="givenName">David Wang</td>
                                     <td itemprop="additionalName">rain / net_wayfarer</td>
                                     <td itemprop="email">rain@blackarch.org</td>
-                                    <td><a href="gpgkeys/rain.asc" target="_blank">0xFFFFFFFFFFFFFFFF</a></td>
+                                    <td><a href="gpgkeys/rain.asc" target="_blank">0xBAC0CD87C85EC2FB</a></td>
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
