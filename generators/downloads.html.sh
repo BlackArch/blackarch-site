@@ -201,9 +201,7 @@ cat << EOF
             <li class="list-group-item">
               You can install BlackArch Linux (packages AND environment) using the Full or Netinstall medium.
               <div class="code-block">
-                <p># Install blackarch-install-scripts package</p>
-                $ <span>sudo pacman -S blackarch-install-scripts</span>
-                <p># Now, you can run and follow the instructions</p>
+                <p># Run and follow the instructions</p>
                 $ <span>sudo blackarch-install</span>
               </div>
               If you need to be guided step by step, please consult the <a href="blackarch-install.html" title="BlackArch install">blackarch install</a> tutorial.
