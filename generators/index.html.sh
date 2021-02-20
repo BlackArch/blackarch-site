@@ -202,11 +202,11 @@ cat <<EOF
                                     <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Jeremy Marlow</td>
-                                    <td itemprop="additionalName">i3_Arch</td>
-                                    <td itemprop="email">i3_arch@blackarch.org</td>
-                                    <td><a href="gpgkeys/i3_Arch.asc" target="_blank">0xBADCODEBADCODE</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
+                                    <td itemprop="givenName">Valentin Gagniere</td>
+                                    <td itemprop="additionalName">v4l</td>
+                                    <td itemprop="email">v4l@blackarch.org</td>
+                                    <td><a href="gpgkeys/v4l.asc" target="_blank">0xA22499CD51D2FAE6</a></td>
+                                    <td itemprop="jobTitle">Contributor</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Erik</td>
@@ -267,6 +267,12 @@ cat <<EOF
                                     <td itemprop="givenName">Javier</td>
                                     <td itemprop="additionalName">nrz</td>
                                     <td itemprop="email">nrz@nullsecurity.net</td>
+                                    <td itemprop="jobTitle">Developer</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Jeremy Marlow</td>
+                                    <td itemprop="additionalName">i3_Arch</td>
+                                    <td itemprop="email">i3_arch@blackarch.org</td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
