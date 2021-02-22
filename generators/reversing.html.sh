@@ -28,6 +28,7 @@ This is an umbrella group for any decompiler, disassembler or any similar progra
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${REVERSING_COUNT}</a>
+                    <input type="text" id="searchTools" onkeyup="searchTools()" placeholder="Input tool name" title="Type in a name">
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">

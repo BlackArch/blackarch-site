@@ -667,3 +667,32 @@ text-align: left;
   border-radius:3px;
 }
 
+/* Search tools */
+
+#searchTools {
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	width: 30%;
+	color:#5B5B5B;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	margin-bottom: 12px;
+	border-collapse: collapse;
+	width: 30%;
+	border: 1px solid #ddd;
+	font-size: 18px;
+	float:right;
+  }
+  
+  #searchTools th, #searchTools td {
+	text-align: left;
+	padding: 12px;
+  }
+  
+  #searchTools tr {
+	border-bottom: 1px solid #ddd;
+  }
+  
+  #searchTools tr.header, #searchTools tr:hover {
+	background-color: #f1f1f1;
+  }

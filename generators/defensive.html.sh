@@ -28,6 +28,7 @@ Packages that are used to protect a user from malware & attacks from other users
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${DEFENSIVE_COUNT}</a>
+                    <input type="text" id="searchTools" onkeyup="searchTools()" placeholder="Input tool name" title="Type in a name">
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">

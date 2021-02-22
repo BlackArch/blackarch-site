@@ -28,6 +28,7 @@ Packages that attempt to reverse a compiled program into source code.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${DECOMPILER_COUNT}</a>
+                    <input type="text" id="searchTools" onkeyup="searchTools()" placeholder="Input tool name" title="Type in a name">
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">

@@ -26,6 +26,8 @@ cat << EOF
                 <p>This group is for any native Windows package that runs via wine.</p>
                 <p>
                     <b>Tool count:</b> <a href="">${WINDOWS_COUNT}</a>
+                    <input type="text" id="searchTools" onkeyup="searchTools()" placeholder="Input tool name" title="Type in a name">
+                    <input type="text" id="searchTools" onkeyup="searchTools()" placeholder="Input tool name" title="Type in a name">
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">
