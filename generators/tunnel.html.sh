@@ -28,6 +28,7 @@ Packages that are used to tunnel network traffic on a given network.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${TUNNEL_COUNT}</a>
+                    <input type="text" id="searchTools" onkeyup="searchTools()" placeholder="Input tool name" title="Type in a name">
                 </p>
                 <div class="panel panel-default text-left">
                     <div class="panel-heading">
