@@ -43,9 +43,9 @@ cat << EOF
           <ul class="list-group" itemscope itemtype="https://schema.org/CreativeWork">
             <li class="list-group-item">
               <p itemprop="about">
-                The following list contains official BlackArch full and netinstall ISO images. You can burn these images to DVDs and flashdrives.
+                The following list contains official BlackArch full, slim and netinstall ISO images. You can burn these images to DVDs and flashdrives.
                 <br><br>
-                The full ISO contains a complete, functional BlackArch Linux system. The netinstall ISO is a lightweight image for bootstrapping machines.
+                The full ISO contains a complete, functional BlackArch Linux system. The slim ISO contains a functional BlackArch Linux system with selected set of tools for pentesting. The netinstall ISO is a lightweight image for bootstrapping machines.
                 <br><br>
                 If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#mirror-list">list of mirrors</a> below.
               </p>
@@ -216,6 +216,11 @@ cat << EOF
               If you need to be guided step by step, please consult the <a href="blackarch-install.html" title="BlackArch install">blackarch install</a> tutorial.
             </li>
           </ul>
+          <li class="list-group-item">
+              You can install BlackArch Linux using the Slim medium which features GUI installer.
+              Just double click on the Install BlackArch icon on the desktop.
+              Follow the instructions on the GUI installer.
+            </li>
         </div>
         <div class="panel panel-default text-left">
           <div id=blackarch-arm class="panel-heading">
