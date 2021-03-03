@@ -54,7 +54,7 @@ cat <<EOF
                 <a href="/images/screenshots/menu_slim.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/menu_slim.png" alt="BlackArch Linux Slim right click menu"></a>
             </div>
             <div class="col-md-4 col-sm-6">
-                <a href="/images/screenshots/menu_slim_two.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/menu_slim.png" alt="BlackArch Linux Slim menu"></a>
+                <a href="/images/screenshots/menu_slim_two.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/menu_slim_two.png" alt="BlackArch Linux Slim menu"></a>
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/terminal_slim.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/terminal_slim.png" alt="BlackArch Linux Slim terminal"></a>
