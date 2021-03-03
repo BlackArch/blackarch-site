@@ -26,6 +26,9 @@ cat <<EOF
         </div>
         </div>
         <br><br><br>
+            <div class="col-lg-12">
+                <h2 class="page-header">BlackArch Full Iso</h2>
+            </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/fluxbox.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/fluxbox_thumbnail.jpg" alt="BlackArch Linux with fluxbox"></a>
             </div>
@@ -43,6 +46,18 @@ cat <<EOF
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/grub.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/grub_thumbnail.jpg" alt="BlackArch Linux Grub"></a>
+            </div>
+            <div class="col-lg-12">
+                <h2 class="page-header">BlackArch Slim Iso</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="/images/screenshots/menu_slim.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/menu_slim.png" alt="BlackArch Linux Slim right click menu"></a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="/images/screenshots/menu_slim_two.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/menu_slim.png" alt="BlackArch Linux Slim menu"></a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="/images/screenshots/terminal_slim.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/terminal_slim.png" alt="BlackArch Linux Slim terminal"></a>
             </div>
         </div>
     </div>
