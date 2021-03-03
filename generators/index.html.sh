@@ -22,10 +22,13 @@ cat <<EOF
                 <p>Please note that BlackArch is a relatively new project. To report bugs and request new tools, please visit the
                     <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by <a href="community.html">IRC</a>, or
                     <a href="mailto:team@blackarch.org">email</a> us.</p>
-                <p>The BlackArch Live ISO contains multiple window managers. Below you will find screenshots of a few of them.</p>
+                <p>The BlackArch Full ISO contains multiple window managers. The BlackArch Slim ISO features XFCE Desktop Enviroment. Below you will find screenshots of a few of them.</p>
         </div>
         </div>
         <br><br><br>
+            <div class="col-lg-12">
+                <h2 class="page-header">BlackArch Full Iso</h2>
+            </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/fluxbox.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/fluxbox_thumbnail.jpg" alt="BlackArch Linux with fluxbox"></a>
             </div>
@@ -43,6 +46,18 @@ cat <<EOF
             </div>
             <div class="col-md-4 col-sm-6">
                 <a href="/images/screenshots/grub.jpg"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/grub_thumbnail.jpg" alt="BlackArch Linux Grub"></a>
+            </div>
+            <div class="col-lg-12">
+                <h2 class="page-header">BlackArch Slim Iso</h2>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="/images/screenshots/menu_slim.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/menu_slim.jpg" alt="BlackArch Linux Slim right click menu"></a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="/images/screenshots/menu_slim_two.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/menu_slim_two.jpg" alt="BlackArch Linux Slim menu"></a>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <a href="/images/screenshots/terminal_slim.png"><img class="img-responsive img-portfolio img-hover" src="/images/screenshots/thumbnails/terminal_slim.jpg" alt="BlackArch Linux Slim terminal"></a>
             </div>
         </div>
     </div>
