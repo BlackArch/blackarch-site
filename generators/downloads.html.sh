@@ -202,7 +202,7 @@ cat << EOF
         </div>
         <div class="panel panel-default text-left">
           <div id=install-iso class="panel-heading">
-            <b>Installing from ISO</b>
+            <b>Installing from Full ISO</b>
           </div>
           <ul class="list-group">
             <li class="list-group-item">
@@ -214,10 +214,19 @@ cat << EOF
               If you need to be guided step by step, please consult the <a href="blackarch-install.html" title="BlackArch install">blackarch install</a> tutorial.
             </li>
           </ul>
-          <li class="list-group-item">
+        </div>
+        <div class="panel panel-default text-left">
+          <div id=install-iso class="panel-heading">
+            <b>Installing from Slim ISO</b>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
               You can install BlackArch Linux using the Slim medium which features GUI installer.
               Just double click on the Install BlackArch icon on the desktop.
               Follow the instructions on the GUI installer.
+            </li>
+          </ul>
+          <li class="list-group-item">
             </li>
         </div>
         <div class="panel panel-default text-left">
