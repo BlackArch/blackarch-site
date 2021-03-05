@@ -161,13 +161,6 @@ cat <<EOF
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Sepehrdad Sh</td>
-                                    <td itemprop="additionalName">sepehrdad</td>
-                                    <td itemprop="email">sepehrdad@blackarch.org</td>
-                                    <td><a href="gpgkeys/sepehrdad.asc" target="_blank">0x5731380176903A84</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Eduard Toloza</td>
                                     <td itemprop="additionalName">Edu4rdSHL</td>
                                     <td itemprop="email">edu4rdshl@blackarch.org</td>
@@ -271,6 +264,12 @@ cat <<EOF
                                     <td><b>E-Mail</b></td>
                                     <td><b>GPG Key</b></td>
                                     <td><b>Role</b></td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Sepehrdad Sh</td>
+                                    <td itemprop="additionalName">sepehrdad</td>
+                                    <td itemprop="email">sepehrdad@blackarch.org</td>
+                                    <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Evan Teitelman</td>
