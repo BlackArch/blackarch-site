@@ -68,7 +68,7 @@ cat << EOF
                 <tr>
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-slim-2021.03.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Slim ISO</a></td>
                   <td itemprop="datePublished">2021.03.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-slim-2021.03.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><a style="pointer-events:none; cursor:normal; color:grey;" href="/blackarch/torrent/blackarch-linux-slim-2021.03.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">WIP</a></td>
                   <td>4.5 GB</td>
                   <td>${SLIM_CHECKSUM}</td>
                 </tr>
