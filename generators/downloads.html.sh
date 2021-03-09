@@ -254,6 +254,10 @@ cat << EOF
           </div>
           <ul class="list-group">
             <li class="list-group-item" itemscope itemtype="https://schema.org/Thing">
+              <img src="/images/flags/ww.png" alt="Worldwide" /> Australia<br>
+              <a href="https://mirrors.fosshost.org/blackarch/" target="_blank" itemprop="url">https://mirrors.fosshost.org/blackarch/</a><br>
+              <a href="https://mirrors.fossho.st/blackarch/" target="_blank" itemprop="url">https://mirrors.fossho.st/blackarch/</a>
+              <br><br>
               <img src="/images/flags/au.png" alt="Australia" /> Australia<br>
               <a href="http://blackarch.mirror.digitalpacific.com.au/" target="_blank" itemprop="url">http://blackarch.mirror.digitalpacific.com.au/</a><br>
               <a href="rsync://mirror.digitalpacific.com.au/blackarch/" target="_blank" itemprop="url">rsync://mirror.digitalpacific.com.au/blackarch/</a>
