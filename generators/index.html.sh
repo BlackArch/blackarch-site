@@ -84,11 +84,18 @@ cat <<EOF
                                     <td><b>Role</b></td>
                                 </tr>
                                 <tr>
+                                    <td itemprop="givenName">Alia Morozova</td>
+                                    <td itemprop="additionalName">anunna</td>
+                                    <td itemprop="email">anunna@blackarch.org</td>
+                                    <td><a href="gpgkeys/anunna.asc" target="_blank">0xE6A67BD79DB34F2F</a></td>
+                                    <td>Developer, Queen</td>
+                                </tr>
+                                <tr>
                                     <td itemprop="givenName">Levon Kayan</td>
                                     <td itemprop="additionalName">noptrix</td>
                                     <td itemprop="email">noptrix@blackarch.org</td>
                                     <td><a href="gpgkeys/noptrix.asc" target="_blank">0xD235838E6231C179</a></td>
-                                    <td itemprop="jobTitle">Leader, Developer</td>
+                                    <td itemprop="jobTitle">Leader, Troll</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Pedro Freitas</td>
@@ -103,13 +110,6 @@ cat <<EOF
                                     <td itemprop="email">pi3rrot@blackarch.org</td>
                                     <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x1B6EC0AB4ADEDC63</a></td>
                                     <td itemprop="jobTitle">Developer, Torrent Master</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Alia Morozova</td>
-                                    <td itemprop="additionalName">anunna</td>
-                                    <td itemprop="email">anunna@blackarch.org</td>
-                                    <td><a href="gpgkeys/anunna.asc" target="_blank">0xE6A67BD79DB34F2F</a></td>
-                                    <td>Developer, Queen</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Sachin S. Kamath</td>
@@ -164,7 +164,7 @@ cat <<EOF
                                     <td itemprop="givenName">Eduard Toloza</td>
                                     <td itemprop="additionalName">Edu4rdSHL</td>
                                     <td itemprop="email">edu4rdshl@blackarch.org</td>
-                                    <td><a href="gpgkeys/edu4dshl.asc" target="_blank">0x3A574A4009F553E5</a></td>
+                                    <td><a href="gpgkeys/edu4rdshl.asc" target="_blank">0x3A574A4009F553E5</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
