@@ -21,7 +21,7 @@ aeskeyfind|1.0|A tool to find AES key in RAM.| blackarch-cracker |http://citp.pr
 aespipe|2.4f|Reads data from stdin and outputs encrypted or decrypted results to stdout.| blackarch-crypto |http://loop-aes.sourceforge.net/aespipe/
 aesshell|0.7|A backconnect shell for Windows and Unix written in python and uses AES in CBC mode in conjunction with HMAC-SHA256 for secure transport.| blackarch-backdoor |https://packetstormsecurity.com/files/132438/AESshell.7.html
 afflib|3.7.19|An extensible open format for the storage of disk images and related forensic information.| blackarch-forensic |https://github.com/sshock/AFFLIBv3
-aflplusplus|3.10c.r101.ge5bdba4b|American Fuzzing Lop fuzzer with community patches and additional features.| blackarch-fuzzer |https://aflplus.plus/
+aflplusplus|3.11c.r46.ge98cd008|American Fuzzing Lop fuzzer with community patches and additional features.| blackarch-fuzzer |https://aflplus.plus/
 afpfs-ng|0.8.2|A client for the Apple Filing Protocol (AFP)| blackarch-networking |http://alexthepuffin.googlepages.com/
 agafi|1.1|A gadget finder and a ROP-Chainer tool for x86 platforms.| blackarch-windows |https://github.com/CoreSecurity/Agafi
 against|0.2|A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possible targets and a multithreaded brute-forcing module which attacks parallel all discovered hosts or given ip addresses from a list.| blackarch-cracker |http://nullsecurity.net/tools/cracker.html
@@ -51,7 +51,7 @@ androick|8.522cfb4|A python tool to help in forensics analysis on android.| blac
 android-apktool|2.5.0|A tool for reverse engineering Android apk files.| blackarch-reversing |https://ibotpeaches.github.io/Apktool/
 android-ndk|r22|Android C/C++ developer kit| blackarch-mobile |https://developer.android.com/sdk/ndk/index.html
 android-sdk|26.1.1|Google Android SDK| blackarch-mobile |https://developer.android.com/studio/releases/sdk-tools.html
-android-udev-rules|423.1e0c1f4|Android udev rules.| blackarch-mobile |https://github.com/bbqlinux/android-udev-rules
+android-udev-rules|425.444dada|Android udev rules.| blackarch-mobile |https://github.com/bbqlinux/android-udev-rules
 androidpincrack|2.ddaf307|Bruteforce the Android Passcode given the hash and salt.| blackarch-mobile |https://github.com/PentesterES/AndroidPINCrack
 androidsniffer|0.1|A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.| blackarch-mobile |http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html
 androwarn|135.626c02d|Yet another static code analyzer for malicious Android applications.| blackarch-mobile |https://github.com/maaaaz/androwarn
@@ -171,7 +171,7 @@ bgrep|23.58c0b83|Binary grep.| blackarch-binary |https://github.com/tmbinc/bgrep
 billcipher|32.97fba59|Information Gathering tool for a Website or IP address.| blackarch-recon |https://github.com/GitHackTools/BillCipher
 binaryninja-demo|2.2.2487|A new kind of reversing platform (demo version).| blackarch-reversing |http://binary.ninja/demo.html
 binaryninja-python|13.83f59f7|Binary Ninja prototype written in Python.| blackarch-binary |https://github.com/Vector35/binaryninja-python
-bind|9.16.12|A complete, highly portable implementation of the DNS protocol| blackarch-networking |https://www.isc.org/software/bind/
+bind|9.16.13|A complete, highly portable implementation of the DNS protocol| blackarch-networking |https://www.isc.org/software/bind/
 bindead|4504.67019b97b|A static analysis tool for binaries| blackarch-binary |https://bitbucket.org/mihaila/bindead
 bindiff|6.0.0|A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.| blackarch-binary |http://www.zynamics.com/bindiff.html
 binex|1.0|Format String exploit building tool.| blackarch-exploitation |http://www.morxploit.com/morxtool
@@ -200,7 +200,7 @@ blindelephant|7|A web application fingerprinter. Attempts to discover the versio
 blindsql|1.0|Set of bash scripts for blind SQL injection attacks.| blackarch-database |http://www.enye-sec.org/programas.html
 blindy|12.59de8f2|Simple script to automate brutforcing blind sql injection vulnerabilities.| blackarch-scanner |https://github.com/missDronio/blindy
 blisqy|20.e9995fc|Exploit Time-based blind-SQL injection in HTTP-Headers (MySQL/MariaDB).| blackarch-webapp |https://github.com/JohnTroony/Blisqy
-bloodhound|1194.507bd96|Six Degrees of Domain Admin| blackarch-recon |https://github.com/BloodHoundAD/BloodHound
+bloodhound|1195.0da9efe|Six Degrees of Domain Admin| blackarch-recon |https://github.com/BloodHoundAD/BloodHound
 bloodhound-python|v1.0.1.r16.gfd793b9|Bloodhound python data collector| blackarch-recon |https://github.com/fox-it/BloodHound.py
 bluebox-ng|1.1.0|A GPL VoIP/UC vulnerability scanner.| blackarch-voip |https://github.com/jesusprubio/bluebox-ng
 bluebugger|0.1|An implementation of the bluebug technique which was discovered by Martin Herfurt.| blackarch-bluetooth |http://packetstormsecurity.com/files/54024/bluebugger.1.tar.gz.html
@@ -343,8 +343,8 @@ cloudfail|77.fcd9016|Utilize misconfigured DNS and old database records to find 
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.| blackarch-scanner |https://github.com/mandatoryprogrammer/cloudflare_enum
 cloudget|64.cba10b1|Python script to bypass cloudflare from command line. Built upon cfscrape module.| blackarch-webapp |https://github.com/eudemonics/cloudget
 cloudlist|13.680250c|A tool for listing Assets from multiple Cloud Providers.| blackarch-recon |https://github.com/projectdiscovery/cloudlist
-cloudmare|56.baf01dc|A simple tool to find origin servers of websites protected by CloudFlare with a misconfiguration DNS.| blackarch-recon |https://github.com/MrH0wl/Cloudmare
-cloudsploit|701.4bcc3613|AWS security scanning checks.| blackarch-scanner |https://github.com/cloudsploit/scans
+cloudmare|58.638ba23|A simple tool to find origin servers of websites protected by CloudFlare with a misconfiguration DNS.| blackarch-recon |https://github.com/MrH0wl/Cloudmare
+cloudsploit|712.b379fdcc|AWS security scanning checks.| blackarch-scanner |https://github.com/cloudsploit/scans
 cloudunflare|14.b91a8a7|Reconnaissance Real IP address for Cloudflare Bypass.| blackarch-recon |https://github.com/greycatz/CloudUnflare
 clusterd|143.d190b2c|Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.| blackarch-automation |https://github.com/hatRiot/clusterd
 cminer|25.d766f7e|A tool for enumerating the code caves in PE files.| blackarch-binary |https://github.com/EgeBalci/Cminer/
@@ -411,7 +411,7 @@ cudahashcat|2.01|Worlds fastest WPA cracker with dictionary mutation engine.|bla
 cupp|77.56547fd|Common User Password Profiler| blackarch-cracker |http://www.remote-exploit.org/?page_id=418
 cutycapt|10|A Qt and WebKit based command-line utility that captures WebKit's rendering of a web page.| blackarch-recon |http://cutycapt.sourceforge.net/
 cve-api|170.8e9c247|Unofficial api for cve.mitre.org.| blackarch-misc |https://github.com/Beyarz/Cve-api
-cve-search|v4.0.r92.g1c9b283|A tool to perform local searches for known vulnerabilities.| blackarch-exploitation |http://cve-search.github.io/cve-search
+cve-search|v4.0.r96.g0ae4410|A tool to perform local searches for known vulnerabilities.| blackarch-exploitation |http://cve-search.github.io/cve-search
 cvechecker|4.0|The goal of cvechecker is to report about possible vulnerabilities on your system, by scanning the installed software and matching the results with the CVE database.| blackarch-scanner |https://github.com/sjvermeu/cvechecker
 cybercrowl|111.f7cac52|A Python Web path scanner tool.| blackarch-webapp |https://github.com/chamli/CyberCrowl
 cyberscan|75.ca85794|A Network Pentesting Tool| blackarch-networking |https://github.com/medbenali/CyberScan
@@ -455,7 +455,7 @@ delorean|15.ccc39c2|NTP Main-in-the-Middle tool.| blackarch-exploitation |https:
 demiguise|9.0293989|HTA encryption tool for RedTeams.| blackarch-crypto |https://github.com/nccgroup/demiguise
 depant|0.3a|Check network for services with default passwords.| blackarch-cracker |http://midnightresearch.com/projects/depant/
 depdep|2.0|A merciless sentinel which will seek sensitive files containing critical info leaking through your network.| blackarch-networking |https://github.com/galkan/depdep
-depix|15.4ef2281|A tool for recovering passwords from pixelized screenshots.| blackarch-misc |https://github.com/beurtschipper/Depix
+depix|20.ee97434|A tool for recovering passwords from pixelized screenshots.| blackarch-misc |https://github.com/beurtschipper/Depix
 det|31.417cbce|(extensible) Data Exfiltration Toolkit.| blackarch-networking |https://github.com/sensepost/det
 detect-it-easy|3.00|A program for determining types of files.| blackarch-binary |https://github.com/horsicq/DIE-engine/releases
 detect-sniffer|151.63f0d7f|Tool that detects sniffers in the network.| blackarch-defensive |https://github.com/galkan/tools/tree/master/detect_sniffer
@@ -495,7 +495,7 @@ dmg2img|1.6.7|A CLI tool to uncompress Apple's compressed DMG files to the HFS+ 
 dmitry|1.3a|Deepmagic Information Gathering Tool.| blackarch-scanner |http://www.mor-pah.net/
 dnmap|0.6|The distributed nmap framework| blackarch-scanner |http://sourceforge.net/projects/dnmap/
 dns-parallel-prober|56.99a7b83|PoC for an adaptive parallelised DNS prober.| blackarch-recon |https://github.com/lorenzog/dns-parallel-prober
-dns-reverse-proxy|29.c4de780|A reverse DNS proxy written in Go.| blackarch-proxy |https://github.com/StalkR/dns-reverse-proxy
+dns-reverse-proxy|30.779fa0a|A reverse DNS proxy written in Go.| blackarch-proxy |https://github.com/StalkR/dns-reverse-proxy
 dns-spoof|13.81ba29f|Yet another DNS spoof utility.| blackarch-spoof |https://github.com/maurotfilho/dns-spoof
 dns2geoip|0.1|A simple python script that brute forces DNS and subsequently geolocates the found subdomains.| blackarch-scanner |http://packetstormsecurity.com/files/118036/DNS-GeoIP.html
 dns2tcp|0.5.2|A tool for relaying TCP connections over DNS.| blackarch-tunnel |http://www.hsc.fr/ressources/outils/dns2tcp/index.html.en
@@ -504,7 +504,7 @@ dnsbf|0.3|Search for available domain names in an IP range.| blackarch-scanner |
 dnsbrute|2.b1dc84a|Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.| blackarch-recon |https://github.com/d4rkcat/dnsbrute
 dnschef|17.a395411|A highly configurable DNS proxy for pentesters.| blackarch-proxy |http://thesprawl.org/projects/dnschef/
 dnscobra|1.0|DNS subdomain bruteforcing tool with Tor support through torsocks| blackarch-recon |https://github.com/dmitescu/dnscobra
-dnsdiag|241.648a7f6|DNS Diagnostics and Performance Measurement Tools.| blackarch-networking |https://dnsdiag.org/
+dnsdiag|247.9a5049b|DNS Diagnostics and Performance Measurement Tools.| blackarch-networking |https://dnsdiag.org/
 dnsdrdos|0.1|Proof of concept code for distributed DNS reflection DoS.| blackarch-dos |http://nullsecurity.net/tools/dos.html
 dnsenum|1.2.4.2|Script that enumerates DNS information from a domain, attempts zone transfers, performs a brute force dictionary style attack, and then performs reverse look-ups on the results.| blackarch-recon |http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=dnsenum
 dnsfilexfer|24.126edcd|File transfer via DNS.| blackarch-networking |https://github.com/leonjza/dnsfilexfer
@@ -522,7 +522,7 @@ dnstracer|1.10|Determines where a given DNS server gets its information from, an
 dnstwist|394.35706e0|Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.| blackarch-scanner |https://github.com/elceef/dnstwist
 dnsvalidator|67.b12acc0|Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.| blackarch-networking |https://github.com/vortexau/dnsvalidator
 dnswalk|2.0.2|A DNS debugger and zone-transfer utility.| blackarch-recon |http://sourceforge.net/projects/dnswalk/
-dnsx|74.ccb8c94|Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.| blackarch-recon |https://github.com/projectdiscovery/dnsx
+dnsx|76.e036d42|Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.| blackarch-recon |https://github.com/projectdiscovery/dnsx
 docem|20.b0ddd87|Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids).| blackarch-webapp |https://github.com/whitel1st/docem
 dockerscan|59.590a844|Docker security analysis & hacking tools.| blackarch-scanner |https://github.com/cr0hn/dockerscan
 domain-analyzer|0.8.1|Finds all the security information for a given domain name.| blackarch-recon |http://sourceforge.net/projects/domainanalyzer/
@@ -545,7 +545,7 @@ dpscan|0.1|Drupal Vulnerability Scanner.| blackarch-scanner |https://github.com/
 dr-checker|137.d742943|A Soundy Vulnerability Detection Tool for Linux Kernel Drivers.| blackarch-exploitation |https://github.com/ucsb-seclab/dr_checker
 dr0p1t-framework|44.db9bc2d|A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks.| blackarch-backdoor |https://github.com/D4Vinci/Dr0p1t-Framework
 dracnmap|69.09d3945|Tool to exploit the network and gathering information with nmap help.| blackarch-automation |https://github.com/screetsec/Dracnmap
-dradis-ce|3863.6681ba2b|An open source framework to enable effective information sharing.| blackarch-recon |http://dradisframework.org/
+dradis-ce|3883.c11e8175|An open source framework to enable effective information sharing.| blackarch-recon |http://dradisframework.org/
 dragon-backdoor|7.c7416b7|A sniffing, non binding, reverse down/exec, portknocking service Based on cd00r.c.| blackarch-backdoor |https://github.com/Shellntel/backdoors
 driftnet|v1.3.0.r5.g9ad8da4|Listens to network traffic and picks out images from TCP streams it observes.| blackarch-scanner |http://www.ex-parrot.com/~chris/driftnet/
 drinkme|19.acf1a14|A shellcode testing harness.| blackarch-exploitation |https://github.com/emptymonkey/drinkme
@@ -651,7 +651,7 @@ extracthosts|14.ec8b89c|Extracts hosts (IP/Hostnames) from files.| blackarch-mis
 extractusnjrnl|7.362d4290|Tool to extract the $UsnJrnl from an NTFS volume.| blackarch-forensic |https://github.com/jschicht/ExtractUsnJrnl
 eyeballer|127.c50eae4|Convolutional neural network for analyzing pentest screenshots.| blackarch-misc |https://github.com/BishopFox/eyeballer
 eyepwn|1.0|Exploit for Eye-Fi Helper directory traversal vulnerability| blackarch-exploitation |http://www.pentest.co.uk
-eyewitness|896.975ee1f|Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.| blackarch-webapp |https://github.com/ChrisTruncer/EyeWitness
+eyewitness|897.6784075|Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.| blackarch-webapp |https://github.com/ChrisTruncer/EyeWitness
 f-scrack|19.9a00357|A single file bruteforcer supports multi-protocol.| blackarch-cracker |https://github.com/ysrc/F-Scrack
 facebash|17.95c3c25|Facebook Brute Forcer in shellscript using TOR.| blackarch-social |https://github.com/thelinuxchoice/facebash
 facebookosint|21.656a04a|OSINT tool to replace facebook graph search.| blackarch-social |https://github.com/tomoneill19/facebookOSINT
@@ -677,8 +677,8 @@ featherduster|185.76954f2|An automated, modular cryptanalysis tool.| blackarch-c
 fern-wifi-cracker|288.781f914|WEP, WPA wifi cracker for wireless penetration testing| blackarch-cracker |http://code.google.com/p/fern-wifi-cracker/
 fernflower|485.e19aab6|An analytical decompiler for Java.| blackarch-decompiler |https://github.com/fesh0r/fernflower
 fernmelder|6.c6d4ebe|Asynchronous mass DNS scanner.| blackarch-scanner |https://github.com/stealth/fernmelder
-feroxbuster|v2.2.3.r6.g9b303d8|A fast, simple, recursive content discovery tool written in Rust.| blackarch-webapp |https://github.com/epi052/feroxbuster
-ffuf|172.fb1be90|Fast web fuzzer written in Go.| blackarch-webapp |https://github.com/ffuf/ffuf
+feroxbuster|v2.2.3.r10.gf570973|A fast, simple, recursive content discovery tool written in Rust.| blackarch-webapp |https://github.com/epi052/feroxbuster
+ffuf|173.ac63d53|Fast web fuzzer written in Go.| blackarch-webapp |https://github.com/ffuf/ffuf
 fgscanner|11.893372c|An advanced, opensource URL scanner.| blackarch-scanner |http://www.fantaghost.com/fgscanner
 fhttp|1.3|This is a framework for HTTP related attacks. It is written in Perl with a GTK interface, has a proxy for debugging and manipulation, proxy chaining, evasion rules, and more.| blackarch-webapp |http://packetstormsecurity.com/files/104315/FHTTP-Attack-Tool.3.html
 fi6s|170.5073aee|IPv6 network scanner designed to be fast.| blackarch-scanner |https://github.com/sfan5/fi6s
@@ -694,7 +694,7 @@ finalrecon|58.55e7c60|OSINT Tool for All-In-One Web Reconnaissance.| blackarch-r
 find-dns|0.1|A tool that scans networks looking for DNS servers.| blackarch-scanner |https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html
 findmyhash|1.1.2|Crack different types of hashes using free online services.| blackarch-crypto |https://code.google.com/archive/p/findmyhash/
 findmyiphone|19.aef3ac8|Locates all devices associated with an iCloud account| blackarch-mobile |https://github.com/manwhoami/findmyiphone
-findomain|3.1.0|The fastest and cross-platform subdomain enumerator, do not waste your time| blackarch-recon |https://github.com/Edu4rdSHL/findomain
+findomain|4.0.1|The fastest and cross-platform subdomain enumerator, do not waste your time| blackarch-recon |https://github.com/Edu4rdSHL/findomain
 findsploit|84.1107a48|Find exploits in local and online databases instantly.| blackarch-automation |https://github.com/1N3/findsploit
 fingerprinter|461.ce4fd42|CMS/LMS/Library etc Versions Fingerprinter.| blackarch-webapp |https://github.com/erwanlr/Fingerprinter
 firecat|6.b5205c8|A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.| blackarch-networking |https://github.com/BishopFox/firecat
@@ -774,7 +774,7 @@ gcrypt|13.4d9a9ce|Simple, secure and performance file encryption tool written in
 gdb|10.1|The GNU Debugger| blackarch-debugger |https://www.gnu.org/software/gdb/
 gdb-common|10.1|The GNU Debugger| blackarch-debugger |https://www.gnu.org/software/gdb/
 gdbgui|420.e53b7f4|Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.| blackarch-debugger |https://github.com/cs01/gdbgui
-gef|1909.e9369c1|Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.| blackarch-debugger |https://github.com/hugsy/gef
+gef|1917.7124587|Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers.| blackarch-debugger |https://github.com/hugsy/gef
 gene|57.bd12ed4|Signature Engine for Windows Event Logs.| blackarch-windows |https://github.com/0xrawsec/gene
 genlist|0.1|Generates lists of IP addresses.| blackarch-misc |
 geoedge|0.2|This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).| blackarch-recon |
@@ -826,7 +826,7 @@ gophish|764.54d9eb2|Open-Source Phishing Framework.| blackarch-social |https://g
 gosint|196.9c86ed2|OSINT framework in Go.| blackarch-recon |https://github.com/Nhoya/gOSINT
 gospider|85.2e610b3|Fast web spider written in Go.| blackarch-webapp |https://github.com/jaeles-project/gospider
 gostringsr2|1.1.2|Extract strings from a Go binary using radare2.| blackarch-reversing |https://github.com/CarveSystems/gostringsr2
-gowitness|167.3e9cf05|A golang, web screenshot utility using Chrome Headless.| blackarch-webapp |https://github.com/sensepost/gowitness
+gowitness|168.28a8c77|A golang, web screenshot utility using Chrome Headless.| blackarch-webapp |https://github.com/sensepost/gowitness
 gplist|1.0|Lists information about the applied Group Policies.| blackarch-windows |http://ntsecurity.nu/toolbox/gplist/
 gpocrack|3.cf63c86|Active Directory Group Policy Preferences cpassword cracker/decrypter.| blackarch-cracker |https://github.com/MartinIngesen/gpocrack
 gpredict|1617.aa57710|A real-time satellite tracking and orbit prediction application.| blackarch-radio |http://gpredict.oz9aec.net/
@@ -1150,7 +1150,7 @@ klee|2.1|A symbolic virtual machine built on top of the LLVM compiler infrastruc
 klogger|1.0|A keystroke logger for the NT-series of Windows.| blackarch-windows |http://ntsecurity.nu/toolbox/klogger/
 knock|281.14dc079|Subdomain scanner.| blackarch-scanner |https://github.com/guelfoweb/knock
 knxmap|243.2d6f622|KNXnet/IP scanning and auditing tool for KNX home automation installations.| blackarch-scanner |https://github.com/ernw/knxmap
-koadic|631.e4c3677|A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.| blackarch-automation |https://github.com/zerosum0x0/koadic
+koadic|632.bdce981|A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.| blackarch-automation |https://github.com/zerosum0x0/koadic
 kolkata|3.0|A web application fingerprinting engine written in Perl that combines cryptography with IDS evasion.| blackarch-webapp |http://www.blackhatlibrary.net/Kolkata
 konan|23.7b5ac80|Advanced Web Application Dir Scanner.| blackarch-webapp |https://github.com/m4ll0k/Konan
 kraken|32.368a837|A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.| blackarch-crypto |http://opensource.srlabs.de/projects/a51-decrypt
@@ -1213,7 +1213,7 @@ linkedin2username|108.4b52b0c|OSINT Tool: Generate username lists for companies 
 linkfinder|162.095bb62|Discovers endpoint and their parameters in JavaScript files.| blackarch-webapp |https://github.com/GerbenJavado/LinkFinder
 linset|9.8746b1f|Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.| blackarch-automation |https://github.com/vk496/linset
 linux-exploit-suggester|32.9db2f5a|A Perl script that tries to suggest exploits based OS version number.| blackarch-recon |https://github.com/PenturaLabs/Linux_Exploit_Suggester
-linux-exploit-suggester.sh|156.97919a4|Linux privilege escalation auditing tool.| blackarch-recon |https://github.com/mzet-/linux-exploit-suggester
+linux-exploit-suggester.sh|159.a1b33c8|Linux privilege escalation auditing tool.| blackarch-recon |https://github.com/mzet-/linux-exploit-suggester
 linux-inject|100.268d4e4|Tool for injecting a shared object into a Linux process.| blackarch-backdoor |https://github.com/gaffe23/linux-inject
 linux-smart-enumeration|160.c721f31|Linux enumeration tool for pentesting and CTFs with verbosity levels.| blackarch-scanner |https://github.com/diego-treitos/linux-smart-enumeration
 lisa.py|42.dc4e241|An Exploit Dev Swiss Army Knife.| blackarch-exploitation |https://github.com/ant4g0nist/lisa.py
@@ -1262,7 +1262,7 @@ mallory|132.8db35b9|HTTP/HTTPS proxy over SSH.| blackarch-proxy |https://github.
 malmon|0.3|Hosting exploit/backdoor detection daemon.| blackarch-defensive |http://sourceforge.net/projects/malmon/
 malscan|5.773505a|A Simple PE File Heuristics Scanner.| blackarch-malware |https://github.com/Ice3man543/MalScan
 maltego|4.2.15.13632|An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.| blackarch-forensic |http://www.paterva.com/web5
-maltrail|54507.3ce4ca9ce3|Malicious traffic detection system.| blackarch-defensive |https://github.com/stamparm/maltrail
+maltrail|55310.0b8435511e|Malicious traffic detection system.| blackarch-defensive |https://github.com/stamparm/maltrail
 maltrieve|342.b9e7560|Originated as a fork of mwcrawler. It retrieves malware directly from the sources as listed at a number of sites.| blackarch-malware |https://github.com/technoskald/maltrieve
 malware-check-tool|1.2|Python script that detects malicious files via checking md5 hashes from an offline set or via the virustotal site. It has http proxy support and an update feature.| blackarch-malware |http://packetstormsecurity.com/files/93518/Malware-Check-Tool.2.html
 malwareanalyser|3.3|A freeware tool to perform static and dynamic analysis on malware.| blackarch-windows |http://malwareanalyser.blogspot.de/2011/10/malware-analyser.html
@@ -1280,7 +1280,7 @@ maskprocessor|0.73|A High-Performance word generator with a per-position configu
 massbleed|20.44b7e85|SSL Vulnerability Scanner.| blackarch-recon |https://github.com/1N3/Sn1per
 masscan|1.3.2|TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes| blackarch-scanner |https://github.com/robertdavidgraham/masscan
 masscan-automation|26.a170abc|Masscan integrated with Shodan API.| blackarch-automation |https://github.com/trevordavenport/MasscanAutomation
-massdns|219.d8b911d|A high-performance DNS stub resolver in C.| blackarch-networking |https://github.com/blechschmidt/massdns
+massdns|221.df86e6f|A high-performance DNS stub resolver in C.| blackarch-networking |https://github.com/blechschmidt/massdns
 massexpconsole|410.d9cef9e|A collection of tools and exploits with a cli ui for mass exploitation.| blackarch-automation |https://github.com/jm33-m0/massExpConsole
 mat|0.6.1|Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library.| blackarch-defensive |https://mat.boum.org/
 mat2|0.12.0|Metadata removal tool, supporting a wide range of commonly used file formats| blackarch-defensive |https://0xacab.org/jvoisin/mat2
@@ -1408,7 +1408,7 @@ needle|579.891b660|The iOS Security Testing Framework.| blackarch-mobile |https:
 neglected|8.68d02b3|Facebook CDN Photo Resolver.| blackarch-recon |https://github.com/GuerrillaWarfare/neglected
 neighbor-cache-fingerprinter|83.f1e596f|An ARP based Operating System version scanner.| blackarch-fingerprint |https://github.com/PherricOxide/Neighbor-Cache-Fingerprinter
 nemesis|233.7aab64a|A command-line network packet crafting and injection utility.| blackarch-networking |https://github.com/troglobit/nemesis
-neo-regeorg|104.4d68dfd|Improved version of reGeorg, HTTP tunneling pivot tool| blackarch-tunnel |https://github.com/L-codes/Neo-reGeorg
+neo-regeorg|107.20be580|Improved version of reGeorg, HTTP tunneling pivot tool| blackarch-tunnel |https://github.com/L-codes/Neo-reGeorg
 net-creds|87.07a25e1|Sniffs sensitive data from interface or pcap.| blackarch-sniffer |https://github.com/DanMcInerney/net-creds
 netactview|0.6.4|A graphical network connections viewer similar in functionality to netstat.| blackarch-networking |http://netactview.sourceforge.net/index.html
 netattack|24.230b856|Python script to scan and attack wireless networks.| blackarch-wireless |https://github.com/chrizator/netattack2
@@ -1482,8 +1482,8 @@ ntlmrecon|69.d72d96b|A tool to enumerate information from NTLM authentication en
 ntp-fingerprint|0.1|An active fingerprinting utility specifically designed to identify the OS the NTP server is running on.| blackarch-fingerprint |http://www.hackingciscoexposed.com/?link=tools
 ntp-ip-enum|0.1|Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.| blackarch-recon |http://www.securepla.net/
 ntpdos|4.3fe389b|PoC for distributed NTP reflection DoS (CVE-5211)| blackarch-dos |https://github.com/sepehrdaddev/ntpdos
-nuclei|1092.bbac3db|A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.| blackarch-webapp |https://github.com/projectdiscovery/nuclei
-nuclei-templates|3382.7ffcb23|Community curated list of template files for the nuclei engine.|blackarch-scanner|https://github.com/projectdiscovery/nuclei-templates.git
+nuclei|1097.39d57ea|A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.| blackarch-webapp |https://github.com/projectdiscovery/nuclei
+nuclei-templates|3565.ea0f3a2|Community curated list of template files for the nuclei engine.|blackarch-scanner|https://github.com/projectdiscovery/nuclei-templates.git
 nullinux|117.04ca542|Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null sessions.| blackarch-recon |https://github.com/m8r0wn/nullinux
 nullscan|1.0.1|A modular framework designed to chain and automate security tests.| blackarch-automation |http://www.nullsecurity.net/tools/automation.html
 nxcrypt|32.6ae06b5|NXcrypt - python backdoor framework.| blackarch-backdoor |https://github.com/Hadi999/NXcrypt
@@ -1551,7 +1551,7 @@ packeth|2.1|Linux GUI packet generator tool for ethernet| blackarch-networking |
 packetq|240.965b6e1|A tool that provides a basic SQL-frontend to PCAP-files.| blackarch-networking |https://github.com/DNS-OARC/PacketQ
 packetsender|563.37c5205|An open source utility to allow sending and receiving TCP and UDP packets.| blackarch-networking |https://github.com/dannagle/PacketSender
 packit|1.0|A network auditing tool. Its value is derived from its ability to customize, inject, monitor, and manipulate IP traffic.| blackarch-networking |http://packit.sourceforge.net/
-pacu|981.7612bf9|The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.| blackarch-exploitation |https://github.com/RhinoSecurityLabs/pacu
+pacu|982.43298d6|The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.| blackarch-exploitation |https://github.com/RhinoSecurityLabs/pacu
 pacumen|1.92a0884|Packet Acumen - Analyse encrypted network traffic and more (side-channel attacks).| blackarch-crypto |https://github.com/bniemczyk/pacumen
 padbuster|10.320a020|Automated script for performing Padding Oracle attacks.| blackarch-exploitation |http://www.gdssecurity.com/l/t.php
 pafish|166.6c1fabd|A demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.| blackarch-windows |http://www.hoobie.net/pafish/
@@ -1577,7 +1577,7 @@ patator|199.5947f5f|A multi-purpose bruteforcer.| blackarch-cracker |https://git
 patchkit|37.95dc699|Powerful binary patching from Python.| blackarch-binary |https://github.com/lunixbochs/patchkit
 pathzuzu|64.4f4533c|Checks for PATH substitution vulnerabilities and logs the commands executed by the vulnerable executables.| blackarch-exploitation |https://github.com/ShotokanZH/Pa-th-zuzu
 payloadmask|16.ff38964|Web Payload list editor to use techniques to try bypass web application firewall.| blackarch-webapp |https://github.com/CoolerVoid/payloadmask
-payloadsallthethings|1025.22a1662|A list of useful payloads and bypass for Web Application Security and Pentest/CTF.| blackarch-misc |https://github.com/swisskyrepo/PayloadsAllTheThings/
+payloadsallthethings|1029.af9f103|A list of useful payloads and bypass for Web Application Security and Pentest/CTF.| blackarch-misc |https://github.com/swisskyrepo/PayloadsAllTheThings/
 pblind|1.0|Little utility to help exploiting blind sql injection vulnerabilities.| blackarch-exploitation |http://www.edge-security.com/pblind.php
 pbscan|10.566c3d7|Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.| blackarch-scanner |https://github.com/gvb84/pbscan
 pcapfex|60.c51055a|Packet CAPture Forensic Evidence eXtractor.| blackarch-networking |https://github.com/vikwin/pcapfex
@@ -1636,7 +1636,7 @@ php-mt-seed|4.0|PHP mt_rand() seed cracker.| blackarch-cracker |http://www.openw
 php-rfi-payload-decoder|30.bd42caa|Decode and analyze RFI payloads developed in PHP.| blackarch-cracker |https://github.com/bwall/PHP-RFI-Payload-Decoder
 php-vulnerability-hunter|1.4.0.20|An whitebox fuzz testing tool capable of detected several classes of vulnerabilities in PHP web applications.| blackarch-windows |https://phpvulnhunter.codeplex.com/
 phpsploit|971.5e4eabf|Stealth post-exploitation framework.| blackarch-webapp |https://github.com/nil0x42/phpsploit
-phpstan|5361.f998fa66|PHP Static Analysis Tool - discover bugs in your code without running it.| blackarch-code-audit |https://github.com/phpstan/phpstan
+phpstan|5404.bda0bc07|PHP Static Analysis Tool - discover bugs in your code without running it.| blackarch-code-audit |https://github.com/phpstan/phpstan
 phpstress|5.f987a7e|A PHP denial of service / stress test for Web Servers running PHP-FPM or PHP-CGI.| blackarch-dos |https://github.com/nightlionsecurity/phpstress
 phrasendrescher|1.2.2c|A modular and multi processing pass phrase cracking tool.| blackarch-cracker |http://www.leidecker.info/projects/phrasendrescher/
 pidense|29.ef26704|Monitor illegal wireless network activities. (Fake Access Points)| blackarch-wireless |https://github.com/WiPi-Hunter/PiDense
@@ -1660,7 +1660,7 @@ plecost|98.1a4a11b|Wordpress finger printer Tool.| blackarch-webapp |https://git
 plown|13.ccf998c|A security scanner for Plone CMS.| blackarch-webapp |https://github.com/unweb/plown
 plumber|18.3f1be68|A python implementation of a grep friendly ftrace wrapper.| blackarch-misc |https://github.com/cybereason/linux_plumber
 plutil|1.6|Converts .plist files between binary and UTF (editable) text formats.| blackarch-misc |http://scw.us/iPhone/plutil/
-pmacct|3910.e7061f0c|Small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP IGP Streaming Telemetry].| blackarch-networking |https://github.com/pmacct/pmacct
+pmacct|3918.4cd10a4b|Small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP IGP Streaming Telemetry].| blackarch-networking |https://github.com/pmacct/pmacct
 pmap|1.10|Passively discover, scan, and fingerprint link-local peers by the background noise they generate (i.e. their broadcast and multicast traffic).| blackarch-windows |http://www.hellfiresecurity.com/tools.htm
 pmapper|68.712fa14|A tool for quickly evaluating IAM permissions in AWS.| blackarch-recon |https://github.com/nccgroup/PMapper
 pmcma|1.00|Automated exploitation of invalid memory writes (being them the consequences of an overflow in a writable section, of a missing format string, integer overflow, variable misuse, or any other type of memory corruption).| blackarch-exploitation |http://packetstormsecurity.com/files/104724/Post-Memory-Corruption-Memory-Analyzer.00.html
@@ -1683,7 +1683,7 @@ powerfuzzer|1_beta|Powerfuzzer is a highly automated web fuzzer based on many ot
 powerlessshell|110.17705f8|Run PowerShell command without invoking powershell.exe.| blackarch-windows |https://github.com/Mr-Un1k0d3r/PowerLessShell
 powermft|5.76574543|Powerful commandline $MFT record editor.| blackarch-forensic |https://github.com/jschicht/PowerMft
 powerops|32.13fe55b|PowerShell Runspace Portable Post Exploitation Tool aimed at making Penetration Testing with PowerShell "easier".| blackarch-windows |https://github.com/fdiskyou/PowerOPS
-powershdll|71.ab91320|Run PowerShell with rundll32. Bypass software restrictions.| blackarch-windows |https://github.com/p3nt4/PowerShdll
+powershdll|72.62cfa17|Run PowerShell with rundll32. Bypass software restrictions.| blackarch-windows |https://github.com/p3nt4/PowerShdll
 powersploit|591.d943001|A PowerShell Post-Exploitation Framework.| blackarch-exploitation |https://github.com/mattifestation/PowerSploit
 powerstager|14.0149dc9|A payload stager using PowerShell.| blackarch-binary |https://github.com/z0noxz/powerstager
 pown|140.1c070a2|Security testing and exploitation toolkit built on top of Node.js and NPM.| blackarch-webapp |https://github.com/pownjs/pown
@@ -1717,7 +1717,7 @@ pscan|1.3|A limited problem scanner for C source files| blackarch-code-audit |ht
 pshitt|23.dae7931|A lightweight fake SSH server designed to collect authentication data sent by intruders.| blackarch-honeypot |https://github.com/regit/pshitt
 pspy|159.2312eed|Monitor linux processes without root permissions.| blackarch-misc |https://github.com/DominicBreuker/pspy
 pstoreview|1.0|Lists the contents of the Protected Storage.| blackarch-windows |http://www.ntsecurity.nu/toolbox/pstoreview/
-ptf|1449.18f6c6f|The Penetration Testers Framework: Way for modular support for up-to-date tools.| blackarch-exploitation |https://github.com/trustedsec/ptf
+ptf|1455.f17f506|The Penetration Testers Framework: Way for modular support for up-to-date tools.| blackarch-exploitation |https://github.com/trustedsec/ptf
 pth-toolkit|7.3641cdc|Modified version of the passing-the-hash tool collection made to work straight out of the box.| blackarch-sniffer |https://github.com/byt3bl33d3r/pth-toolkit
 ptunnel|0.72|A tool for reliably tunneling TCP connections over ICMP echo request and reply packets| blackarch-tunnel |https://www.cs.uit.no/~daniels/PingTunnel
 pulledpork|392.764d980|Snort rule management.| blackarch-misc |https://github.com/shirkdog/pulledpork
@@ -1733,17 +1733,17 @@ pwnat|13.5de412c|A tool that allows any number of clients behind NATs to communi
 pwncat|0.1.0|Bind and reverse shell handler with FW/IDS/IPS evasion, self-inject and port-scanning.| blackarch-backdoor |http://pwncat.org/
 pwndbg|2020.07.23|Makes debugging with GDB suck less| blackarch-debugger |https://github.com/pwndbg/pwndbg
 pwndrop|18.385ba70|Self-deployable file hosting service for red teamers, allowing to easily upload and share payloads over HTTP and WebDAV.| blackarch-webapp |https://github.com/kgretzky/pwndrop
-pwned|1288.1f5cbfa|A command-line tool for querying the 'Have I been pwned?' service.| blackarch-recon |https://github.com/wKovacs64/pwned
+pwned|1289.e2b377b|A command-line tool for querying the 'Have I been pwned?' service.| blackarch-recon |https://github.com/wKovacs64/pwned
 pwned-search|40.04c1439|Pwned Password API lookup.| blackarch-recon |https://github.com/mikepound/pwned-search
 pwnedornot|137.4707b81|Tool to find passwords for compromised email addresses.| blackarch-recon |https://github.com/thewhiteh4t/pwnedOrNot
 pwnloris|10.5b79eff|An improved slowloris DOS tool which keeps attacking until the server starts getting exhausted.| blackarch-dos |https://github.com/h0ussni/pwnloris
 pwntools|4.3.1|CTF framework and exploit development library.| blackarch-disassembler |https://github.com/Gallopsled/pwntools
 pybozocrack|87.ceb0cd9|A silly & effective MD5 cracker in Python.| blackarch-cracker |https://github.com/ikkebr/PyBozoCrack
-pydictor|85.2f26ba5|A useful hacker dictionary builder for a brute-force attack.| blackarch-misc |https://github.com/LandGrey/pydictor
+pydictor|86.7440c97|A useful hacker dictionary builder for a brute-force attack.| blackarch-misc |https://github.com/LandGrey/pydictor
 pyersinia|49.73f4056|Network attack tool like yersinia but written in Python.| blackarch-networking |https://github.com/nottinghamprisateam/pyersinia
 pyew|109.8eb3e49|A python tool to analyse malware.| blackarch-malware |https://code.google.com/p/pyew/
 pyexfil|81.2ef1b8c|A couple of beta stage tools for data exfiltration.| blackarch-networking |https://github.com/ytisf/PyExfil
-pyfiscan|2552.efa8f5b|Free web-application vulnerability and version scanner.| blackarch-webapp |https://github.com/fgeek/pyfiscan
+pyfiscan|2556.da251fb|Free web-application vulnerability and version scanner.| blackarch-webapp |https://github.com/fgeek/pyfiscan
 pyfuscation|17.6d8d53f|Obfuscate powershell scripts by replacing Function names, Variables and Parameters.| blackarch-automation |https://github.com/CBHue/PyFuscation
 pyinstaller|3.3.1|A program that converts (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, Solaris and AIX.| blackarch-misc |http://www.pyinstaller.org/
 pyjfuzz|157.f777067|Python JSON Fuzzer.| blackarch-fuzzer |https://github.com/mseclab/PyJFuzz
@@ -1767,7 +1767,7 @@ python-google-streetview|1.2.9|A command line tool and module for Google Street 
 python-ivre|0.9.16.dev135|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
 python-jsbeautifier|1.13.6|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python-keylogger|2.7.3|Simple keystroke logger.| blackarch-keylogger |https://github.com/GiacomoLaw/Keylogger
-python-minidump|0.0.13|Python library to parse and read Microsoft minidump file format.| blackarch-windows |https://pypi.org/project/minidump/#files
+python-minidump|0.0.16|Python library to parse and read Microsoft minidump file format.| blackarch-windows |https://pypi.org/project/minidump/#files
 python-mmbot|78.f5f5478|Powerful malicious file triage tool for cyber responders.| blackarch-malware |https://github.com/egaus/MaliciousMacroBot
 python-oletools|0.56|Tools to analyze Microsoft OLE2 files.| blackarch-binary |https://pypi.org/project/oletools/
 python-pcodedmp|1.2.6|A VBA p-code disassembler.| blackarch-disassembler |https://pypi.org/project/pcodedmp/#files
@@ -1811,8 +1811,8 @@ rabid|v0.0.6.r21.geb43ae7|A CLI tool and library allowing to simply decode all k
 raccoon|183.985797f|A high performance offensive security tool for reconnaissance and vulnerability scanning.| blackarch-recon |https://github.com/evyatarmeged/Raccoon
 radamsa|0.6|General purpose mutation based fuzzer| blackarch-fuzzer |https://gitlab.com/akihe/radamsa
 radare2|5.0.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
-radare2-keystone|627.eb27602|Keystone assembler plugins for radare2.| blackarch-reversing |https://github.com/radare/radare2-extras/tree/master/unicorn
-radare2-unicorn|627.eb27602|Unicorn Emulator Plugin for radare2.| blackarch-disassembler |https://github.com/radare/radare2-extras/tree/master/unicorn
+radare2-keystone|628.29894ca|Keystone assembler plugins for radare2.| blackarch-reversing |https://github.com/radare/radare2-extras/tree/master/unicorn
+radare2-unicorn|628.29894ca|Unicorn Emulator Plugin for radare2.| blackarch-disassembler |https://github.com/radare/radare2-extras/tree/master/unicorn
 radiography|2|A forensic tool which grabs as much information as possible from a Windows system.| blackarch-windows |http://www.security-projects.com/?RadioGraPhy
 rainbowcrack|1.8|Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.| blackarch-cracker |http://project-rainbowcrack.com/
 ranger-scanner|149.3aae5dd|A tool to support security professionals to access and interact with remote Microsoft Windows based systems.| blackarch-scanner |https://github.com/funkandwagnalls/ranger
@@ -1832,7 +1832,7 @@ rdp-sec-check|9.5956857|Script to enumerate security settings of an RDP Service.
 rdpassspray|21.23c7b31|Python3 tool to perform password spraying using RDP.| blackarch-cracker |https://github.com/xFreed0m/RDPassSpray
 reaver|1.6.6|Brute force attack against Wifi Protected Setup| blackarch-wireless |https://github.com/t6x/reaver-wps-fork-t6x
 rebind|0.3.4|DNS Rebinding Tool| blackarch-exploitation |http://code.google.com/p/rebind/
-recaf|2.18.2.2129.71d3e149|Modern Java bytecode editor.| blackarch-decompiler |https://github.com/Col-E/Recaf
+recaf|2.18.3.2136.419925d9|Modern Java bytecode editor.| blackarch-decompiler |https://github.com/Col-E/Recaf
 recentfilecache-parser|2.5e22518|Python parser for the RecentFileCache.bcf on Windows.| blackarch-forensic |https://github.com/prolsen/recentfilecache-parser
 recomposer|2.90f85ed|Randomly changes Win32/64 PE Files for 'safer' uploading to malware and sandbox sites.| blackarch-automation |https://github.com/secretsquirrel/recomposer
 recon-ng|1017.093a9e6|A full-featured Web Reconnaissance framework written in Python.| blackarch-recon |https://github.com/lanmaster53/recon-ng
@@ -1841,7 +1841,7 @@ reconscan|37.d321842|Network reconnaissance and vulnerability assessment tools.|
 recoverjpeg|2.6.3|Recover jpegs from damaged devices.| blackarch-forensic |http://www.rfc1149.net/devel/recoverjpeg
 recsech|123.1fc298a|Tool for doing Footprinting and Reconnaissance on the target web.| blackarch-recon |https://github.com/radenvodka/Recsech
 recstudio|4.1|Cross platform interactive decompiler.| blackarch-decompiler |http://www.backerstreet.com/rec/rec.htm
-recuperabit|64.eabd607|A tool for forensic file system reconstruction.| blackarch-forensic |https://github.com/Lazza/RecuperaBit
+recuperabit|65.0d3232f|A tool for forensic file system reconstruction.| blackarch-forensic |https://github.com/Lazza/RecuperaBit
 red-hawk|36.fa54e23|All in one tool for Information Gathering, Vulnerability Scanning and Crawling.| blackarch-recon |https://github.com/Tuhinshubhra/RED_HAWK
 redasm|1667.5ab6be9|Interactive, multiarchitecture disassembler written in C++ using Qt5 as UI Framework.| blackarch-disassembler |https://github.com/REDasmOrg/REDasm
 redfang|2.5|Finds non-discoverable Bluetooth devices by brute-forcing the last six bytes of the devices' Bluetooth addresses and calling read_remote_name().| blackarch-bluetooth |http://packetstormsecurity.com/files/31864/redfang.2.5.tar.gz.html
@@ -1862,8 +1862,8 @@ replayproxy|1.1|Forensic tool to replay web-based attacks (and also general HTTP
 resourcehacker|5.1.7|Resource compiler and decompiler for Windows® applications.| blackarch-windows |http://www.angusj.com/resourcehacker/
 responder|364.8104139|A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).| blackarch-scanner |https://github.com/lgandx/Responder
 restler-fuzzer|v7.3.0.r1.g8a4613b|First stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.| blackarch-webapp |https://github.com/microsoft/restler-fuzzer
-retdec|1913.4da009ae|Retargetable machine-code decompiler based on LLVM.| blackarch-decompiler |https://retdec.com/
-retire|2.2.1.r25.g7cda471|Scanner detecting the use of JavaScript libraries with known vulnerabilities.| blackarch-scanner |http://retirejs.github.io/retire.js/
+retdec|1917.dca4d73f|Retargetable machine-code decompiler based on LLVM.| blackarch-decompiler |https://retdec.com/
+retire|2.2.1.r26.ga3c8a65|Scanner detecting the use of JavaScript libraries with known vulnerabilities.| blackarch-scanner |http://retirejs.github.io/retire.js/
 reverseip|13.42cc9c3|Ruby based reverse IP-lookup tool.| blackarch-recon |https://github.com/lolwaleet/ReverseIP
 revipd|5.2aaacfb|A simple reverse IP domain scanner.| blackarch-recon |https://github.com/PypeRanger/revipd
 revsh|215.174e309|A reverse shell with terminal support, data tunneling, and advanced pivoting capabilities.| blackarch-backdoor |https://github.com/emptymonkey/revsh/
@@ -1900,9 +1900,9 @@ rpcsniffer|7.9fab095|Sniffs WINDOWS RPC messages in a given RPC server process.|
 rpctools|1.0|Contains three separate tools for obtaining information from a system that is running RPC services| blackarch-windows |https://packetstormsecurity.com/files/31879/rpctools.0.zip.html
 rpdscan|2.a71b0f3|Remmina Password Decoder and scanner.| blackarch-cracker |https://github.com/freakyclown/RPDscan
 rpivot|5.4963487|Socks4 reverse proxy for penetration testing.| blackarch-proxy |https://github.com/artkond/rpivot
-rr|5495.daa88422|A Record and Replay Framework.| blackarch-debugger |https://github.com/mozilla/rr
+rr|5502.fe0659f8|A Record and Replay Framework.| blackarch-debugger |https://github.com/mozilla/rr
 rrs|1.70|A reverse (connecting) remote shell. Instead of listening for incoming connections it will connect out to a listener (rrs in listen mode). With tty support and more.| blackarch-backdoor |http://www.cycom.se/dl/rrs
-rsactftool|352.4104065|RSA tool for ctf - retrieve private key from weak public key and/or uncipher data.| blackarch-crypto |https://github.com/Ganapati/RsaCtfTool
+rsactftool|370.2f0e35a|RSA tool for ctf - retrieve private key from weak public key and/or uncipher data.| blackarch-crypto |https://github.com/Ganapati/RsaCtfTool
 rsakeyfind|1.0|A tool to find RSA key in RAM.| blackarch-cracker |http://citp.princeton.edu/memory/code/
 rsatool|14.7dab6bc|Tool that can be used to calculate RSA and RSA-CRT parameters.| blackarch-crypto |https://github.com/ius/rsatool
 rshack|64.cf197e3|Python tool which allows to carry out some attacks on RSA, and offer a few tools to manipulate RSA keys.| blackarch-crypto |https://github.com/zweisamkeit/RSHack
@@ -1915,11 +1915,11 @@ rtlsdr-scanner|1013.3c032de|A cross platform Python frequency scanning GUI for t
 rtp-flood|1.0|RTP flooder| blackarch-voip |http://www.hackingexposedvoip.com/
 rtpbreak|1.3a|Detects, reconstructs and analyzes any RTP session| blackarch-networking |http://xenion.antifork.org/rtpbreak/
 rubilyn|0.0.1|64bit Mac OS-X kernel rootkit that uses no hardcoded address to hook the BSD subsystem in all OS-X Lion & below. It uses a combination of syscall hooking and DKOM to hide activity on a host.| blackarch-backdoor |http://nullsecurity.net/tools/backdoor.html
-ruby-ctf-party|v1.3.3.r5.g2c5188f|A library to enhance and speed up script/exploit writing for CTF players.| blackarch-misc |https://noraj.github.io/ctf-party/
+ruby-ctf-party|v1.3.4.r0.g2ed8eec|A library to enhance and speed up script/exploit writing for CTF players.| blackarch-misc |https://noraj.github.io/ctf-party/
 ruler|301.1e5ee2d|A tool to abuse Exchange services.| blackarch-webapp |https://github.com/sensepost/ruler
 rulesfinder|30.da36b09|Machine-learn password mangling rules.| blackarch-misc |https://github.com/synacktiv/rulesfinder
 rupture|1383.131c61a|A framework for BREACH and other compression-based crypto attacks.| blackarch-crypto |https://github.com/decrypto-org/rupture
-rustbuster|295.18cd96e|DirBuster for Rust.| blackarch-webapp |https://github.com/phra/rustbuster
+rustbuster|300.d3735cb|DirBuster for Rust.| blackarch-webapp |https://github.com/phra/rustbuster
 rustscan|641.227703a|Faster Nmap Scanning with Rust.| blackarch-scanner |https://github.com/brandonskerritt/RustScan
 rvi-capture|14.a2e129b|Capture packets sent or received by iOS devices.| blackarch-sniffer |https://github.com/gh2o/rvi_capture
 rww-attack|0.9.2|The Remote Web Workplace Attack tool will perform a dictionary attack against a live Microsoft Windows Small Business Server's 'Remote Web Workplace' portal. It currently supports both SBS 2003 and SBS 2008 and includes features to avoid account lock out.| blackarch-webapp |http://packetstormsecurity.com/files/79021/Remote-Web-Workplace-Attack-Tool.html
@@ -1988,7 +1988,7 @@ sfuzz|198.3bf135b|A simple fuzzer.| blackarch-fuzzer |http://aconole.brad-x.com/
 sgn|22.686e60d|Shikata ga nai encoder ported into go with several improvements.| blackarch-binary |https://github.com/EgeBalci/sgn
 sh00t|207.25e5d3d|A Testing Environment for Manual Security Testers.| blackarch-misc |https://github.com/pavanw3b/sh00t
 sha1collisiondetection|105.b4a7b0b|Library and command line tool to detect SHA collision in a file| blackarch-crypto |https://github.com/cr-marcstevens/sha1collisiondetection
-shad0w|373.41187f5|A modular C2 framework designed to successfully operate on mature environments.| blackarch-windows |https://github.com/bats3c/shad0w
+shad0w|375.bfc3437|A modular C2 framework designed to successfully operate on mature environments.| blackarch-windows |https://github.com/bats3c/shad0w
 shadowexplorer|0.9|Browse the Shadow Copies created by the Windows Vista / 7 / 8 / 10 Volume Shadow Copy Service.| blackarch-forensic |https://www.shadowexplorer.com/downloads.html
 shard|1.5|A command line tool to detect shared passwords.| blackarch-recon |https://github.com/philwantsfish/shard
 shareenum|46.3bfa81d|Tool to enumerate shares from Windows hosts.| blackarch-scanner |https://github.com/CroweCybersecurity/shareenum
@@ -2043,7 +2043,7 @@ sippts|127.3da2878|Set of tools to audit SIP based VoIP Systems.| blackarch-voip
 sipsak|0.9.7|A small command line tool for developers and administrators of Session Initiation Protocol (SIP) applications.| blackarch-voip |https://github.com/nils-ohlmeier/sipsak/releases
 sipscan|0.1|A sip scanner.| blackarch-windows |http://www.hackingvoip.com/sec_tools.html
 sipshock|7.6ab5591|A scanner for SIP proxies vulnerable to Shellshock.| blackarch-scanner |https://github.com/zaf/sipshock
-sipvicious|395.1b2b405|Tools for auditing SIP devices.| blackarch-automation |http://blog.sipvicious.org/
+sipvicious|409.0e2139a|Tools for auditing SIP devices.| blackarch-automation |http://blog.sipvicious.org/
 sireprat|34.b8ef60b|Remote Command Execution as SYSTEM on Windows IoT Core.| blackarch-exploitation |https://github.com/SafeBreach-Labs/SirepRAT
 sitadel|121.0a0e475|Web Application Security Scanner.| blackarch-webapp |https://github.com/shenril/Sitadel
 sitediff|3.1383935|Fingerprint a web app using local files as the fingerprint sources.| blackarch-webapp |https://github.com/digininja/sitediff
@@ -2145,7 +2145,7 @@ sploitego|153.d9568dc|Maltego Penetration Testing Transforms.| blackarch-fuzzer 
 spoofcheck|16.8cce591|Simple script that checks a domain for email protections.| blackarch-recon |https://github.com/bishopfox/spoofcheck
 spooftooph|0.5.2|Designed to automate spoofing or cloning Bluetooth device Name, Class, and Address. Cloning this information effectively allows Bluetooth device to hide in plain sight.| blackarch-bluetooth |http://www.hackfromacave.com/projects/spooftooph.html
 spookflare|24.19491b5|Loader, dropper generator with multiple features for bypassing client-side and network-side countermeasures.| blackarch-automation |https://github.com/hlldz/SpookFlare
-spotbugs|16448.b8c95582c|A tool for static analysis to look for bugs in Java code.| blackarch-code-audit |https://github.com/spotbugs/spotbugs
+spotbugs|16454.6daaf2138|A tool for static analysis to look for bugs in Java code.| blackarch-code-audit |https://github.com/spotbugs/spotbugs
 sprayingtoolkit|58.68f295d|Scripts to make password spraying attacks against Lync/S4B & OWA a lot quicker, less painful and more efficient.| blackarch-webapp |https://github.com/byt3bl33d3r/SprayingToolkit
 spraykatz|62.1fb3aa7|Credentials gathering tool automating remote procdump and parse of lsass process.| blackarch-exploitation |https://github.com/aas-n/spraykatz
 sps|4.3|A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4.| blackarch-networking |https://sites.google.com/site/simplepacketsender/
@@ -2234,7 +2234,7 @@ suid3num|43.df2c7b9|Python script which utilizes python's built-in modules to en
 sulley|1.0.bff0dd1|A pure-python fully automated and unattended fuzzing framework.| blackarch-fuzzer |https://github.com/OpenRCE/sulley/
 superscan|4.1|Powerful TCP port scanner, pinger, resolver.| blackarch-windows |http://www.foundstone.com/us/resources/proddesc/superscan.htm
 suricata|6.0.2|An Open Source Next Generation Intrusion Detection and Prevention Engine.| blackarch-defensive |https://suricata-ids.org/
-suricata-verify|526.1bd1beb|Suricata Verification Tests - Testing Suricata Output.| blackarch-misc |https://github.com/OISF/suricata-verify
+suricata-verify|543.3be15ff|Suricata Verification Tests - Testing Suricata Output.| blackarch-misc |https://github.com/OISF/suricata-verify
 svn-extractor|42.c27831c|A simple script to extract all web resources by means of .SVN folder exposed over network.| blackarch-recon |https://github.com/anantshri/svn-extractor
 swaks|20201014.0|Swiss Army Knife SMTP; Command line SMTP testing, including TLS and AUTH| blackarch-networking |https://jetmore.org/john/code/swaks/
 swamp|59.3c8be65|An OSINT tool for discovering associated sites through Google Analytics Tracking IDs.| blackarch-recon |https://github.com/jakecreps/swamp
@@ -2251,10 +2251,10 @@ synner|1.1|A custom eth->ip->tcp packet generator (spoofer) for testing firewall
 synscan|5.02|fast asynchronous half-open TCP portscanner| blackarch-scanner |http://www.digit-labs.org/files/tools/synscan/
 syringe|12.79a703e|A General Purpose DLL & Code Injection Utility.| blackarch-backdoor |https://github.com/securestate/syringe
 sysdig|0.27.1|Open source system-level exploration and troubleshooting tool| blackarch-recon |https://www.sysdig.com/
-sysinternals-suite|4.6|Sysinternals tools suite.| blackarch-windows |http://sysinternals.com/
+sysinternals-suite|4.7|Sysinternals tools suite.| blackarch-windows |http://sysinternals.com/
 t50|5.8.7|Experimental Multi-protocol Packet Injector Tool.| blackarch-dos |https://gitlab.com/fredericopissarra/t50/tags
 tabi|13.068a406|BGP Hijack Detection.| blackarch-defensive |https://github.com/ANSSI-FR/tabi
-tachyon-scanner|454.bca3452|Fast Multi-Threaded Web Discovery Tool.| blackarch-scanner |https://github.com/delvelabs/tachyon
+tachyon-scanner|456.428a7c5|Fast Multi-Threaded Web Discovery Tool.| blackarch-scanner |https://github.com/delvelabs/tachyon
 tactical-exploitation|83.ebf3603|Modern tactical exploitation toolkit.| blackarch-scanner |https://github.com/0xdea/tactical-exploitation
 taipan|2.7|Web application security scanner.| blackarch-scanner |https://github.com/enkomio/Taipan
 takeover|96.b8f273e|Sub-Domain TakeOver Vulnerability Scanner.| blackarch-scanner |https://github.com/m4ll0k/takeover
@@ -2294,7 +2294,7 @@ thc-ssl-dos|1.4|A tool to verify the performance of SSL. To be used in your auth
 thedorkbox|7.43852d3|Comprehensive collection of Google Dorks & OSINT techniques to find Confidential Data.| blackarch-recon |https://github.com/cybersafeblr/thedorkbox
 thefatrat|785.9927123|TheFatRat a massive exploiting tool: easy tool to generate backdoor and easy tool to post exploitation attack.| blackarch-automation |https://github.com/Screetsec/TheFatRat
 thefuzz|160.b4c2c80|CLI fuzzing tool.| blackarch-fuzzer |https://github.com/droberson/thefuzz
-theharvester|2289.2f7fd1b|Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).| blackarch-recon |http://www.edge-security.com/theHarvester.php
+theharvester|2293.639dc95|Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers).| blackarch-recon |http://www.edge-security.com/theHarvester.php
 themole|0.3|Automatic SQL injection exploitation tool.| blackarch-webapp |http://sourceforge.net/projects/themole/
 thezoo|207.50350ad|A project created to make the possibility of malware analysis open and available to the public.|blackarch-malware|https://github.com/ytisf/theZoo
 threatspec|0.5.0|Project to integrate threat modelling into development process.| blackarch-defensive |https://github.com/threatspec/threatspec
@@ -2310,7 +2310,7 @@ tls-attacker|5082.a5e9b78b0|A Java-based framework for analyzing TLS libraries.|
 tls-fingerprinting|257.4b6e878|Tool and scripts to perform TLS Fingerprinting.| blackarch-fingerprint |https://github.com/LeeBrotherston/tls-fingerprinting
 tls-prober|284.4d5c1f2|A tool to fingerprint SSL/TLS servers.| blackarch-fingerprint |https://github.com/WestpointLtd/tls_prober
 tlsenum|78.787c88b|A command line tool to enumerate TLS cipher-suites supported by a server.| blackarch-crypto |https://github.com/Ayrx/tlsenum
-tlsfuzzer|1268.a3b886c|SSL and TLS protocol test suite and fuzzer.| blackarch-crypto |https://github.com/tomato42/tlsfuzzer
+tlsfuzzer|1278.56868d4|SSL and TLS protocol test suite and fuzzer.| blackarch-crypto |https://github.com/tomato42/tlsfuzzer
 tlspretense|v0.6.2.r22.g0a5faf4|SSL/TLS client testing framework.| blackarch-crypto |https://github.com/iSECPartners/tlspretense
 tlssled|1.3|A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.| blackarch-automation |http://blog.taddong.com/2011/05/tlssled-v10.html
 tnscmd|1.3|a lame tool to prod the oracle tnslsnr process (1521/tcp)| blackarch-misc |http://www.jammed.com/~jwa/hacks/security/tnscmd/
@@ -2334,7 +2334,7 @@ treasure|2.b3249be|Hunt for sensitive information through githubs code search.| 
 trid|2.24|An utility designed to identify file types from their binary signatures.| blackarch-forensic |http://mark0.net/soft-trid-e.html
 trinity|5162.4d2343bd|A Linux System call fuzzer.| blackarch-fuzzer |http://codemonkey.org.uk/projects/trinity/
 triton|0.8.1|A Dynamic Binary Analysis (DBA) framework.| blackarch-binary |https://github.com/JonathanSalwan/Triton
-trivy|464.8b3b5d0|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI.| blackarch-scanner |https://github.com/aquasecurity/trivy
+trivy|468.f961e99|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI.| blackarch-scanner |https://github.com/aquasecurity/trivy
 trixd00r|0.0.1|An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.| blackarch-backdoor |http://nullsecurity.net/tools/backdoor.html
 truecrack|35|Password cracking for truecrypt(c) volumes.|blackarch-cracker|http://code.google.com/p/truecrack/
 truecrypt|7.1a|Free open-source cross-platform disk encryption software| blackarch-defensive |http://www.truecrypt.org/
@@ -2345,7 +2345,7 @@ trusttrees|102.a9b7399|A Tool for DNS Delegation Trust Graphing.| blackarch-reco
 tsh|0.6|An open-source UNIX backdoor that compiles on all variants, has full pty support, and uses strong crypto for communication.| blackarch-backdoor |http://packetstormsecurity.com/search/?q=tsh
 tsh-sctp|2.850a2da|An open-source UNIX backdoor.| blackarch-backdoor |https://github.com/infodox/tsh-sctp
 ttpassgen|133.a06d99d|Highly flexible and scriptable password dictionary generator based on Python.| blackarch-automation |https://github.com/tp7309/TTPassGen
-tunna|40.47877a3|a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.| blackarch-networking |https://github.com/SECFORCE/Tunna
+tunna|41.cba006d|a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.| blackarch-networking |https://github.com/SECFORCE/Tunna
 tweets-analyzer|55.8d6bd3c|Tweets metadata scraper & activity analyzer.| blackarch-social |https://github.com/x0rz/tweets_analyzer
 tweetshell|21.47a415c|Multi-thread Twitter BruteForcer in Shell Script.| blackarch-cracker |https://github.com/thelinuxchoice/tweetshell
 twint|845.e7c8a0c|An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.| blackarch-social |https://github.com/twintproject/twint
@@ -2353,7 +2353,7 @@ twofi|2.0|Twitter Words of Interest.| blackarch-recon |http://www.digininja.org/
 typo-enumerator|104.1a95076|Enumerate Typo3 version and extensions.| blackarch-webapp |https://github.com/whoot/Typo-Enumerator
 tyton|80.56494f3|Kernel-Mode Rootkit Hunter.| blackarch-defensive |https://github.com/nbulischeck/tyton
 u3-pwn|2.0|A tool designed to automate injecting executables to Sandisk smart usb devices with default U3 software install.| blackarch-backdoor |http://www.nullsecurity.net/tools/backdoor.html
-uacme|241.97d3d4b|Defeating Windows User Account Control.| blackarch-windows |https://github.com/hfiref0x/UACME
+uacme|243.1eb514e|Defeating Windows User Account Control.| blackarch-windows |https://github.com/hfiref0x/UACME
 uatester|1.06|User Agent String Tester| blackarch-misc |http://code.google.com/p/ua-tester/
 uberfile|14.4414c2a|CLI tool for the generation of downloader oneliners for UNIX-like or Windows systems.| blackarch-misc |https://github.com/ShutdownRepo/uberfile
 ubiquiti-probing|5.c28f4c1|A Ubiquiti device discovery tool.| blackarch-recon |https://github.com/headlesszeke/ubiquiti-probing
@@ -2503,7 +2503,7 @@ weeman|91.53c2efa|HTTP Server for phishing in python.| blackarch-social |https:/
 weevely|880.6332b46|Weaponized web shell.| blackarch-webapp |http://epinna.github.io/Weevely/
 weirdaal|331.c14e36d|AWS Attack Library.| blackarch-webapp |https://github.com/carnal0wnage/weirdAAL
 wepbuster|1.0_beta_0.7|script for automating aircrack-ng| blackarch-wireless |http://code.google.com/p/wepbuster/
-wesng|152.bf02686|Windows Exploit Suggester - Next Generation.| blackarch-exploitation |https://github.com/bitsadmin/wesng
+wesng|153.5d7fa9a|Windows Exploit Suggester - Next Generation.| blackarch-exploitation |https://github.com/bitsadmin/wesng
 wfuzz|1155.1b695ee|Utility to bruteforce web applications to find their not linked resources.| blackarch-fuzzer |https://github.com/xmendez/wfuzz
 whapa|277.4822be2|WhatsApp Parser Tool.| blackarch-misc |https://github.com/B16f00t/whapa
 whatbreach|42.dad6b9f|OSINT tool to find breached emails and databases.| blackarch-social |https://github.com/ekultek/whatbreach
@@ -2638,7 +2638,7 @@ zackattack|5.1f96c14|A new tool set to do NTLM Authentication relaying unlike an
 zaproxy|2.10.0|Integrated penetration testing tool for finding vulnerabilities in web applications| blackarch-webapp |https://www.owasp.org/index.php/ZAP
 zarp|0.1.8|A network attack tool centered around the exploitation of local networks.| blackarch-exploitation |https://defense.ballastsecurity.net/wiki/index.php/Zarp
 zdns|237.8c53210|Fast CLI DNS Lookup Tool.| blackarch-networking |https://github.com/zmap/zdns
-zeek|11541.c9c0fea8d|A powerful network analysis framework that is much different from the typical IDS you may know.| blackarch-networking |https://github.com/zeek/zeek
+zeek|11558.94b03d4ed|A powerful network analysis framework that is much different from the typical IDS you may know.| blackarch-networking |https://github.com/zeek/zeek
 zeek-aux|478.b2ce33b|Handy auxiliary programs related to the use of the Zeek Network Security Monitor.| blackarch-networking |https://github.com/zeek/zeek-aux
 zelos|270.0c5bd57|A comprehensive binary emulation and instrumentation platform.| blackarch-binary |https://github.com/zeropointdynamics/zelos
 zeratool|16.157d9fd|Automatic Exploit Generation (AEG) and remote flag capture for exploitable CTF problems.| blackarch-exploitation |https://github.com/ChrisTheCoolHut/Zeratool
@@ -2646,7 +2646,7 @@ zerowine|0.0.2|Malware Analysis Tool - research project to dynamically analyze t
 zeus|111.97db152|AWS Auditing & Hardening Tool.| blackarch-defensive |https://github.com/DenizParlak/Zeus
 zeus-scanner|414.21b8756|Advanced dork searching utility.| blackarch-recon |https://github.com/Ekultek/Zeus-Scanner
 zgrab|803.031475e|Grab banners (optionally over TLS).| blackarch-recon |https://github.com/zmap/zgrab
-zgrab2|548.d3d2a37|Go Application Layer Scanner.| blackarch-fingerprint |https://github.com/zmap/zgrab2
+zgrab2|549.17a5257|Go Application Layer Scanner.| blackarch-fingerprint |https://github.com/zmap/zgrab2
 zipdump|0.0.20|ZIP dump utility.| blackarch-forensic |https://blog.didierstevens.com/my-software/#zipdump
 zirikatu|7.afe1d9c|Fud Payload generator script.| blackarch-exploitation |https://github.com/pasahitz/zirikatu
 zizzania|124.8f2062f|Automated DeAuth attack.| blackarch-wireless |https://github.com/cyrus-and/zizzania
