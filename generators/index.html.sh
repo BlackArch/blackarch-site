@@ -25,7 +25,6 @@ cat <<EOF
                 <p>The BlackArch Full ISO contains multiple window managers. The BlackArch Slim ISO features XFCE Desktop Enviroment. Below you will find screenshots of a few of them.</p>
         </div>
         </div>
-        <br>
             <div class="col-lg-12">
                 <h2 class="page-header">BlackArch Full Iso</h2>
             </div>
