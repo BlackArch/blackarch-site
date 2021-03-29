@@ -206,14 +206,21 @@ cat <<EOF
                                     <td itemprop="additionalName">s7x</td>
                                     <td itemprop="email">s7x@blackarch.org</td>
                                     <td><a href="gpgkeys/s7x.asc" target="_blank">0x204FE13F461E386F</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
+                                    <td itemprop="jobTitle">Developer</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Mangu Adrian Constantin </td>
+                                    <td itemprop="additionalName">PS</td>
+                                    <td itemprop="email">ps@blackarch.org</td>
+                                    <td><a href="gpgkeys/ps.asc" target="_blank">0xD8B01A663AC91E0D</a></td>
+                                    <td itemprop="jobTitle">QA & Support, Troll, Mascot</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Valentin Gagniere</td>
                                     <td itemprop="additionalName">v4l</td>
                                     <td itemprop="email">v4l@blackarch.org</td>
                                     <td><a href="gpgkeys/v4l.asc" target="_blank">0xA22499CD51D2FAE6</a></td>
-                                    <td itemprop="jobTitle">Contributor</td>
+                                    <td itemprop="jobTitle">QA & Support</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Erik</td>
