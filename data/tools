@@ -493,7 +493,7 @@ dkmc|56.3c238f0|Dont kill my cat - Malicious payload evasion tool.| blackarch-ex
 dmde|3.6.0.770|Disk Editor and Data Recovery Software.| blackarch-forensic |https://dmde.com/download.html
 dmg2img|1.6.7|A CLI tool to uncompress Apple's compressed DMG files to the HFS+ IMG format| blackarch-forensic |http://vu1tur.eu.org/tools/
 dmitry|1.3a|Deepmagic Information Gathering Tool.| blackarch-scanner |http://www.mor-pah.net/
-dnmap|0.6|The distributed nmap framework| blackarch-scanner |http://sourceforge.net/projects/dnmap/
+dnmap|0.6|The distributed nmap framework.| blackarch-scanner |http://sourceforge.net/projects/dnmap/
 dns-parallel-prober|56.99a7b83|PoC for an adaptive parallelised DNS prober.| blackarch-recon |https://github.com/lorenzog/dns-parallel-prober
 dns-reverse-proxy|30.779fa0a|A reverse DNS proxy written in Go.| blackarch-proxy |https://github.com/StalkR/dns-reverse-proxy
 dns-spoof|13.81ba29f|Yet another DNS spoof utility.| blackarch-spoof |https://github.com/maurotfilho/dns-spoof
@@ -1383,7 +1383,7 @@ multiinjector|0.4|Automatic SQL injection utility using a lsit of URI addresses 
 multimac|1.0.3|Multiple MACs on an adapter| blackarch-spoof |http://sourceforge.net/projects/multimac/
 multimon-ng|1.1.9|An sdr decoder, supports pocsag, ufsk, clipfsk, afsk, hapn, fsk, dtmf, zvei.| blackarch-radio |https://github.com/EliasOenal/multimon-ng
 multiscanner|1559.86e0145|Modular file scanning/analysis framework.| blackarch-scanner |https://github.com/mitre/multiscanner
-multitun|45.515db52|Tunnel arbitrary traffic through an innocuous WebSocket.| blackarch-tunnel |https://github.com/covertcodes/multitun
+multitun|1.319a134|Tunnel arbitrary traffic through an innocuous WebSocket.| blackarch-tunnel |https://github.com/covertcodes/multitun
 munin-hashchecker|205.dcaa01d|Online hash checker for Virustotal and other services| blackarch-defensive |https://github.com/Neo23x0/munin
 muraena|130.fe5b89e|Almost-transparent reverse proxy to automate phishing and post-phishing activities.| blackarch-social |https://github.com/muraenateam/muraena
 mutator|51.164132d|This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012| blackarch-automation |https://bitbucket.org/alone/mutator/
@@ -1495,7 +1495,6 @@ oat|1.3.1|A toolkit that could be used to audit security within Oracle database 
 obevilion|409.29fbe9d|Another archive cracker created in python | cracking [zip/7z/rar].| blackarch-cracker |https://github.com/BL4CKvGHOST/Ob3vil1on
 obexstress|0.1|Script for testing remote OBEX service for some potential vulnerabilities.| blackarch-bluetooth |http://bluetooth-pentest.narod.ru/
 obfs4proxy|0.0.11|A pluggable transport proxy written in Go.| blackarch-proxy |https://gitweb.torproject.org/pluggable-transports/obfs4.git
-obfsproxy|0.2.13|A pluggable transport proxy written in Python| blackarch-proxy |https://pypi.python.org/pypi/obfsproxy
 objdump2shellcode|28.c2d6120|A tool I have found incredibly useful whenever creating custom shellcode.| blackarch-binary |https://github.com/wetw0rk/objdump2shellcode
 objection|1.10.1|Instrumented Mobile Pentest Framework.| blackarch-mobile |https://pypi.org/project/objection/#files
 oclhashcat|2.01|Worlds fastest WPA cracker with dictionary mutation engine.| blackarch-cracker |http://hashcat.net/oclhashcat/
@@ -1933,6 +1932,7 @@ sakis3g|0.2.0e|An all-in-one script for connecting with 3G.| blackarch-automatio
 saleae-logic|2.3.19|Debug happy.| blackarch-debugger |https://www.saleae.com/downloads
 sambascan|0.5.0|Allows you to search an entire network or a number of hosts for SMB shares. It will also list the contents of all public shares that it finds.| blackarch-scanner |http://sourceforge.net/projects/sambascan2/
 samdump2|3.0.0|Dump password hashes from a Windows NT/2k/XP installation| blackarch-cracker |http://sourceforge.net/projects/ophcrack/files/samdump2/
+samesame|67.5c20983|Command line tool to generate crafty homograph strings.| blackarch-fuzzer |https://github.com/TheTarquin/samesame
 samplicator|172.4230b82|Send copies of (UDP) datagrams to multiple receivers, with optional sampling and spoofing.| blackarch-networking |https://github.com/sleinen/samplicator
 samydeluxe|2.2ed1bac|Automatic samdump creation script.| blackarch-cracker |http://github.com/jensp/samydeluxe
 sandcastle|73.10af7c7|A Python script for AWS S3 bucket enumeration.| blackarch-scanner |https://github.com/0xSearches/sandcastle
@@ -1978,7 +1978,7 @@ secure2csv|10.119eefb0|Decode security descriptors in $Secure on NTFS.| blackarc
 seeker|192.0dcb8f0|Accurately Locate People using Social Engineering.| blackarch-social |https://github.com/thewhiteh4t/seeker
 sees|67.cd741aa|Increase the success rate of phishing attacks by sending emails to company users as if they are coming from the very same company's domain.| blackarch-social |https://github.com/galkan/sees/
 sensepost-xrdp|16.46d6c19|A rudimentary remote desktop tool for the X11 protocol exploiting unauthenticated x11 sessions.| blackarch-exploitation |https://github.com/sensepost/xrdp
-sergio-proxy|0.2.1|A multi-threaded transparent HTTP proxy for manipulating web traffic| blackarch-proxy |https://github.com/darkoperator/dnsrecon
+sergio-proxy|20.8a91bb4|A multi-threaded transparent HTTP proxy for manipulating web traffic.| blackarch-proxy |https://github.com/supernothing/sergio-proxy
 serialbrute|3.111c217|Java serialization brute force attack tool.| blackarch-exploitation |https://github.com/NickstaDB/SerialBrute
 serializationdumper|26.49dbece|A tool to dump Java serialization streams in a more human readable form.| blackarch-webapp |https://github.com/NickstaDB/SerializationDumper/
 server-status-pwn|7.0c02af0|A script that monitors and extracts requested URLs and clients connected to the service by exploiting publicly accessible Apache server-status instances.| blackarch-recon |https://github.com/mazen160/server-status_PWN
@@ -2261,7 +2261,7 @@ tachyon-scanner|456.428a7c5|Fast Multi-Threaded Web Discovery Tool.| blackarch-s
 tactical-exploitation|83.ebf3603|Modern tactical exploitation toolkit.| blackarch-scanner |https://github.com/0xdea/tactical-exploitation
 taipan|2.7|Web application security scanner.| blackarch-scanner |https://github.com/enkomio/Taipan
 takeover|96.b8f273e|Sub-Domain TakeOver Vulnerability Scanner.| blackarch-scanner |https://github.com/m4ll0k/takeover
-taof|0.3.2|Taof is a GUI cross-platform Python generic network protocol fuzzer.| blackarch-fuzzer |http://taof.sf.net
+taof|0.3.2|A GUI cross-platform Python generic network protocol fuzzer.| blackarch-fuzzer |http://taof.sf.net/
 tbear|1.5|Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetooth DoS tool, and a Bluetooth hidden device locator.| blackarch-bluetooth |http://freshmeat.net/projects/t-bear
 tcgetkey|0.1|A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.| blackarch-dos |http://packetstormsecurity.com/files/119146/tcgetkey.1.html
 tchunt-ng|208.b8cf7fc|Reveal encrypted files stored on a filesystem.| blackarch-forensic |https://github.com/antagon/TCHunt-ng
@@ -2325,7 +2325,7 @@ tor-autocircuit|0.2|Tor Autocircuit was developed to give users a finer control 
 tor-browser-en|10.0.13|Tor Browser Bundle: anonymous browsing using Firefox and Tor.| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
 tor-router|4.001a510|A tool that allow you to make TOR your default gateway and send all internet connections under TOR (as transparent proxy) for increase privacy/anonymity without extra unnecessary code.| blackarch-defensive |https://github.com/Edu4rdSHL/tor-router
 torcrawl|65.6944a0a|Crawl and extract (regular or onion) webpages through TOR network.| blackarch-webapp |https://github.com/MikeMeliz/TorCrawl.py
-torctl|0.5.6|Script to redirect all traffic through tor network including dns queries for anonymizing entire system.| blackarch-automation |https://github.com/BlackArch/torctl
+torctl|0.5.7|Script to redirect all traffic through tor network including dns queries for anonymizing entire system.| blackarch-automation |https://github.com/BlackArch/torctl
 torshammer|1.0|A slow POST Denial of Service testing tool written in Python.| blackarch-dos |http://sourceforge.net/projects/torshammer/
 torsocks|2.3.0|Wrapper to safely torify applications| blackarch-proxy |https://gitweb.torproject.org/torsocks.git/
 tpcat|latest|Tool based upon pcapdiff by the EFF. It will analyze two packet captures (taken on each side of the firewall as an example) and report any packets that were seen on the source capture but didn’t make it to the dest.| blackarch-misc |http://sourceforge.net/projects/tpcat/
