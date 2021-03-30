@@ -46,6 +46,16 @@ cat <<\EOF
      		   Password : blackarch
      		</p>
      		</div>
+		<hr>
+		<p>
+		If you are on the SlimISO the <i class=blgreen>credentials</i> are as follows:
+		</p>
+		<div class=info>
+     		<i class="fas fa-info-circle" aria-hidden="true"></i>
+     		<p>Login : liveuser<br>
+     		   Password : blackarch
+     		</p>
+     		</div>
       		<hr>
         	<p>
         	To start the installation, you must execute the Blackarch install script. In order to avoid any problems that can cause you to restart the installation, make sure to have internet available on the machine where you want to install Blackarch. You can list the available network interfaces with the command <i class=blgreen>ip a</i>. If you want or only have wifi available as an option, you may read the arch wiki to know how to setup a wireless connection.(ie: wifi-menu/netctl) If your keyboard differs from the default one, <i class=blgreen>qwerty us</i>,
