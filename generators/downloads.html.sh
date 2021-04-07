@@ -186,11 +186,11 @@ cat << EOF
                    # you can install blackman like:</p>
                 $ <span>sudo pacman -S blackman</span>
                 <p># Download, compile and install package:</p>
-                $ <span> sudo blackman -i &lt;package&gt;</span>
+                $ <span> blackman -i &lt;package&gt;</span>
                 <p># Download, compile and install whole category</p>
-                $ <span>sudo blackman -g &lt;group&gt;</span>
+                $ <span> blackman -g &lt;group&gt;</span>
                 <p># Download, compile and install all BlackArch tools</p>
-                $ <span> sudo blackman -a</span>
+                $ <span> blackman -a</span>
                 <p># To list blackarch categories</p>
                 $ <span> blackman -l</span>
                 <p># To list category tools</p>
