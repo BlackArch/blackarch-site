@@ -174,28 +174,6 @@ cat << EOF
                    # For example:</p>
                 $ <span>sudo pacman -Syyu --needed blackarch --overwrite='*'</span>
               </div>
-              <p>
-              <br>
-                As part of an alternative method of installation, you can build the blackarch packages from source.
-                You can find the PKGBUILDs <a href="https://github.com/BlackArch/blackarch" target="_blank">on github</a>.
-                To build the entire repo, you can use the blackman tool.
-              <br>
-              </p>
-              <div class=code-block>
-                <p># First, you must install blackman. If the BlackArch package repository is setup on your machine,<br>
-                   # you can install blackman like:</p>
-                $ <span>sudo pacman -S blackman</span>
-                <p># Download, compile and install package:</p>
-                $ <span> sudo blackman -i &lt;package&gt;</span>
-                <p># Download, compile and install whole category</p>
-                $ <span>sudo blackman -g &lt;group&gt;</span>
-                <p># Download, compile and install all BlackArch tools</p>
-                $ <span> sudo blackman -a</span>
-                <p># To list blackarch categories</p>
-                $ <span> blackman -l</span>
-                <p># To list category tools</p>
-                $ <span> blackman -p &lt;category&gt;</span>
-              </div>
               <p>The complete tool list of the BlackArch Linux repository can be found <a href="tools.html" target="_blank">here</a>.</p>
             </li>
           </ul>
