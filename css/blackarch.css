@@ -483,7 +483,8 @@ text-align: left;
 }
 
 .twitter-timeline {
-	height: 418px !important; /* This fix sucks, will be improved asap */
+	height: 1024px !important; /* This fix sucks, will be improved asap */
+  width: 680px auto !important;
 }
 /* Loader */
 #loadGen {
@@ -683,16 +684,16 @@ text-align: left;
 	font-size: 18px;
 	float:right;
   }
-  
+
   #searchTools th, #searchTools td {
 	text-align: left;
 	padding: 12px;
   }
-  
+
   #searchTools tr {
 	border-bottom: 1px solid #ddd;
   }
-  
+
   #searchTools tr.header, #searchTools tr:hover {
 	background-color: #f1f1f1;
   }
