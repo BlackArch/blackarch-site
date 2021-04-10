@@ -245,12 +245,6 @@ cat << EOF
               <a href="ftp://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">ftp://mirror.easyname.at/blackarch/</a><br>
               <a href="rsync://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.at/blackarch/</a>
               <br><br>
-              <img src="/images/flags/be.png" alt="Belgium" /> Belgium<br>
-              <a href="http://mirror.alexiobash.com/blackarch/" target="_blank" itemprop="url">http://mirror.alexiobash.com/blackarch/</a>
-              <br><br>
-              <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
-              <a href="http://mirror.clibre.uqam.ca/blackarch/" target="_blank" itemprop="url">http://mirror.clibre.uqam.ca/blackarch/</a>
-              <br><br>
               <img src="/images/flags/cn.png" alt="China" /> China<br>
               <a href="https://mirror.sjtu.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirror.sjtu.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.tuna.tsinghua.edu.cn/blackarch/</a><br>
@@ -265,17 +259,12 @@ cat << EOF
               <a href="ftp://mirror.uta.edu.ec/blackarch/" target="_blank" itemprop="url">ftp://mirror.uta.edu.ec/blackarch/</a><br>
               <a href="rsync://mirror.uta.edu.ec/blackarch/" target="_blank" itemprop="url">rsync://mirror.uta.edu.ec/blackarch/</a><br>
               <a href="http://mirror.cedia.org.ec/blackarch/" target="_blank" itemprop="url">http://mirror.cedia.org.ec/blackarch/</a><br>
-              <a href="http://mirror.espoch.edu.ec/blackarch" target="_blank" itemprop="url">http://mirror.espoch.edu.ec/blackarch/</a>
               <br><br>
               <img src="/images/flags/fr.png" alt="France" /> France<br>
               <a href="https://www.blackarch.org/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/</a><br>
               <a href="rsync://blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.org/blackarch/</a><br>
-              <a href="http://blackarch.tamcore.eu/" target="_blank" itemprop="url">http://blackarch.tamcore.eu/</a><br>
-              <a href="https://blackarch.tamcore.eu/" target="_blank" itemprop="url">https://blackarch.tamcore.eu/</a><br>
-              <a href="rsync://blackarch.tamcore.eu/blackarch/" target="_blank" itemprop="url">rsync://blackarch.tamcore.eu/blackarch/</a><br>
               <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank" itemprop="url">http://blackarch.leneveu.fr/blackarch/</a><br>
               <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
-              <a href="https://mirror.adversec.com/blackarch/" target="_blank" itemprop="url">https://mirror.adversec.com/blackarch/</a><br>
               <a href="http://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">http://mirror.cyberbits.eu/blackarch/</a><br>
               <a href="https://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">https://mirror.cyberbits.eu/blackarch/</a><br>
               <a href="rsync://rsync.cyberbits.eu/blackarch/" target="_blank" itemprop="url">rsync://rsync.cyberbits.eu/blackarch/</a>
@@ -302,10 +291,6 @@ cat << EOF
               <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br>
               <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a><br>
               <a href="https://uk.mirrors.fossho.st/blackarch/" target="_blank" itemprop="url">https://uk.mirrors.fossho.st/blackarch/$repo/os/$arch</a><br>
-              <a href="http://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">http://mirrors.gethosted.online/blackarch/</a><br>
-              <a href="https://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/</a><br>
-              <a href="ftp://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">ftp://mirrors.gethosted.online/blackarch/</a><br>
-              <a href="rsync://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">rsync://mirrors.gethosted.online/blackarch/</a>
               <br><br>
               <img src="/images/flags/hu.png" alt="Hungary" /> Hungary<br>
               <a href="http://quantum-mirror.hu/mirrors/pub/blackarch/" target="_blank" itemprop="url">http://quantum-mirror.hu/mirrors/pub/blackarch/</a><br>
@@ -318,7 +303,8 @@ cat << EOF
               <br><br>
               <img src="/images/flags/jp.png" alt="Japan" /> Japan<br>
               <a href="http://www.ftp.ne.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://www.ftp.ne.jp/Linux/packages/blackarch/</a><br>
-              <a href="ftp://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">ftp://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
+              <a href="http://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://ftp.kddilabs.jp/Linux/packages/blackarch/</a><br>
+              <a href="https://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">https://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
               <br><br>
               <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br>
               <a href="http://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">http://mirror.serverion.com/blackarch/</a><br>
@@ -346,18 +332,13 @@ cat << EOF
               <a href="http://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">http://mirror.truenetwork.ru/blackarch/</a><br>
               <a href="ftp://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">ftp://mirror.truenetwork.ru/blackarch/</a><br>
               <a href="rsync://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">rsync://mirror.truenetwork.ru/blackarch/</a><br>
-              <a href="http://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">http://mirror.yandex.ru/mirrors/blackarch/</a><br>
+              <a href="https://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">http://mirror.yandex.ru/mirrors/blackarch/</a><br>
               <a href="ftp://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">ftp://mirror.yandex.ru/mirrors/blackarch/</a><br>
               <a href="rsync://mirror.yandex.ru/mirrors/blackarch/" target="_blank" itemprop="url">rsync://mirror.yandex.ru/mirrors/blackarch/</a>
               <br><br>
               <img src="/images/flags/sg.png" alt="Singapore" /> Singapore<br>
               <a href="http://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">http://download.nus.edu.sg/mirror/blackarch/</a><br>
               <a href="https://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">https://download.nus.edu.sg/mirror/blackarch/</a>
-              <br><br>
-              <img src="/images/flags/kr.png" alt="South Korea" /> South Korea<br>
-              <a href="https://mirror.krmir.org/blackarch/" target="_blank" itemprop="url">https://mirror.krmir.org/blackarch/</a><br>
-              <a href="ftp://mirror.krmir.org/blackarch/" target="_blank" itemprop="url">ftp://mirror.krmir.org/blackarch/</a><br>
-              <a href="rsync://mirror.krmir.org/blackarch/" target="_blank" itemprop="url">rsync://mirror.krmir.org/blackarch/</a>
               <br><br>
               <img src="/images/flags/se.png" alt="Sweden" /> Sweden<br>
               <a href="http://mirror.zetup.net/blackarch/" target="_blank" itemprop="url">http://mirror.zetup.net/blackarch/</a>
@@ -379,27 +360,21 @@ cat << EOF
               <br><br>
               <img src="/images/flags/tw.png" alt="Taiwan" /> Taiwan<br>
               <a href="http://blackarch.cs.nctu.edu.tw/" target="_blank">http://blackarch.cs.nctu.edu.tw/</a><br>
+              <a href="https://blackarch.cs.nctu.edu.tw/" target="_blank">https://blackarch.cs.nctu.edu.tw/</a><br>
               <a href="rsync://blackarch.cs.nctu.edu.tw/blackarch/" target="_blank" itemprop="url">rsync://blackarch.cs.nctu.edu.tw/blackarch/</a><br>
-              <a href="http://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">http://ftp.yzu.edu.tw/Linux/blackarch/</a><br>
-              <a href="ftp://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">ftp://ftp.yzu.edu.tw/Linux/blackarch/</a><br>
-              <a href="rsync://ftp.yzu.edu.tw/Linux/blackarch/" target="_blank" itemprop="url">rsync://ftp.yzu.edu.tw/Linux/blackarch/</a>
               <br><br>
               <img src="/images/flags/us.png" alt="USA" />USA<br>
               <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
               <a href="https://us.mirrors.fossho.st/blackarch/" target="_blank" itemprop="url">https://us.mirrors.fossho.st/blackarch/</a><br>
               <a href="https://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">https://blackarch.pr0s3c.nl/blackarch/</a><br>
               <a href="http://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">http://mirror.math.princeton.edu/pub/blackarch/</a><br>
+              <a href="https://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">https://mirror.math.princeton.edu/pub/blackarch/</a><br>
               <a href="rsync://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">rsync://mirror.math.princeton.edu/pub/blackarch/</a><br>
               <a href="http://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">http://distro.ibiblio.org/blackarch/</a><br>
               <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">ftp://distro.ibiblio.org/blackarch/</a><br>
-              <a href="https://deadbeef.ninja/blackarch/" target="_blank" itemprop="url">https://deadbeef.ninja/blackarch/</a><br>
               <a href="http://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">http://mirror.team-cymru.com/blackarch/</a><br>
               <a href="ftp://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.team-cymru.com/blackarch/</a><br>
               <a href="rsync://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.com/blackarch/</a><br>
-              <a href="http://arch.localmsp.org/blackarch/" target="_blank" itemprop="url">http://arch.localmsp.org/blackarch/</a>
-              <br><br>
-              <img src="/images/flags/vn.png" alt="Vietnam" /> Vietnam<br>
-              <a href="http://f.archlinuxvn.org/blackarch/" target="_blank" itemprop="url">http://f.archlinuxvn.org/blackarch/</a>
             </li>
           </ul>
         </div>
