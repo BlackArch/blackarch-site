@@ -11,7 +11,7 @@ faq		    = $('#faq');
 function spawnLoad(TrigLoad) {
 
 	if(TrigLoad === 'load') {
-		TrigLoad = $('body').append('<div id=loadGen><p><i class="fa fa-cog fa-spin"></i>Loading...</p></div>');
+		TrigLoad = $('body').append('<div id=loadGen  style="position:fixed;bottom:1vh;right:1vw;font-size:2rem;"><p><i class="fa fa-cog fa-spin"></i>Loading...</p></div>');
 		return TrigLoad;
 	}
 
