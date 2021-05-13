@@ -45,7 +45,7 @@ cat << EOF
               <p itemprop="about">
                 The following list contains official BlackArch full, slim and netinstall ISO images. You can burn these images to DVDs and flashdrives.
                 <br><br>
-                The full ISO contains a complete, functional BlackArch Linux system. The slim ISO contains a functional BlackArch Linux system with selected set of tools for pentesting. The netinstall ISO is a lightweight image for bootstrapping machines.
+                The full ISO contains a complete, functional BlackArch Linux system with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/full-iso/packages.x86_64">all the available tools in the repo at build time</a>. The slim ISO contains a functional BlackArch Linux system with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/slim-iso/packages.x86_64">a selected set of common/well-known tools and system utilities</a> for pentesting. The netinstall ISO is a lightweight image for bootstrapping machines with <a href="https://github.com/BlackArch/blackarch-iso/blob/master/netinstall-iso/packages.x86_64">a minimal set of packages</a>.
                 <br><br>
                 If possible, please try to use a mirror near you to download the ISOs. You can find a <a href="#mirror-list">list of mirrors</a> below.
               </p>
