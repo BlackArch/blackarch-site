@@ -65,7 +65,7 @@ fetch_keyring()
 # note: this is pointless if you do not verify the key fingerprint
 verify_keyring()
 {
-  if ! gpg --keyserver pgp.mit.edu \
+  if ! gpg --keyserver hkp://pgp.mit.edu:80 \
      --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
   then
     if ! gpg --keyserver hkps://keyserver.ubuntu.com:443 \
