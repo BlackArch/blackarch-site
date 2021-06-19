@@ -7,7 +7,7 @@ cat <<\EOF
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-        		<div class="page-header page-header-title">
+                <div class="page-header page-header-title">
 	            <h1>Community</h1> <h2>Join Us</h2>
                 </div>
                 <ol class="breadcrumb">
@@ -80,7 +80,7 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="irc://irc.freenode.net/blackarch" target="_blank"><i class="fas fa-comment fa-5x"></i></a>
+                        <a href="irc://irc.blackarch.org:1337/blackarch" target="_blank"><i class="fas fa-comment fa-5x"></i></a>
                     </div>
                     <p>
                         Come keep us company. We have a little community here.
@@ -94,14 +94,11 @@ cat <<\EOF
                     </p>
                     <p>
                         You can find the official BlackArch IRC channel here:
-                        <a href="irc://irc.freenode.net/blackarch" target="_blank">#blackarch</a> on Freenode
-                    </p>
-                    <p>
-                    	If you aren't familiar with the protocol IRC, use the <a href="https://webchat.freenode.net/" title="Webchat" target=_blank>webchat</a> of Freenode. Just enter any nickname and the channel #blackarch <i>(don't forget #)</i> for join us now.
+                        <a href="irc://irc.blackarch.org:!337/blackarch" target="_blank">#blackarch</a> on irc.blackarch.org
                     </p>
                     <p>
                         You can find the official BlackArch Discord channel here:
-                        <a href="https://discord.gg/xMHt8dW" target="_blank">#blackarch</a> on Discord
+                        <a href="https://discord.gg/KMVkKDN" target="_blank">#blackarch</a> on Discord
                     </p>
                 </div>
                 <br />
