@@ -245,6 +245,9 @@ cat << EOF
               <a href="ftp://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">ftp://mirror.easyname.at/blackarch/</a><br>
               <a href="rsync://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.at/blackarch/</a>
               <br><br>
+              <img src="/images/flags/bg.png" alt="Bulgaria" /> Bulgaria<br>
+              <a href="https://mirror.telepoint.bg/blackarch/" target="_blank" itemprop="url">https://mirror.telepoint.bg/blackarch/</a>
+              <br><br>
               <img src="/images/flags/cn.png" alt="China" /> China<br>
               <a href="https://mirror.sjtu.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirror.sjtu.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.tuna.tsinghua.edu.cn/blackarch/</a><br>
