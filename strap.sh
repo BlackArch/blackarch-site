@@ -68,10 +68,10 @@ verify_keyring()
   if ! gpg --keyserver pgp.mit.edu \
      --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
   then
-    if ! gpg --keyserver hkp://pgp.mit.edu:80 \
+    if ! gpg --keyserver hkps://keyserver.ubuntu.com:443 \
        --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
     then
-      if ! gpg --keyserver hkps://keyserver.ubuntu.com:443 \
+      if ! gpg --keyserver hkp://pgp.mit.edu:80 \
          --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
       then
         err "could not verify the key. Please check: https://blackarch.org/faq.html"
