@@ -82,7 +82,7 @@ verify_keyring()
   if ! gpg --keyserver-options no-auto-key-retrieve \
     --with-fingerprint blackarch-keyring.pkg.tar.xz.sig > /dev/null 2>&1
   then
-    err "invalid keyring signature. please stop by irc.freenode.net/blackarch"
+    err "invalid keyring signature. please stop by irc.blackarch.org:1337/blackarch"
   fi
 }
 
