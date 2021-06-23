@@ -92,6 +92,7 @@ cat <<\EOF
                             After testing all the items described above if you still have problems using <span class=faqco>strap.sh</span>, try the options below:<br><br>
                             1<sup>st</sup> option:<br>
                             <span class=faqco># rm -rf /etc/pacman.d/gnupg</span><br>
+                            <span class=faqco># pacman-key --init</span><br>
                             <span class=faqco># pacman-key --populate archlinux blackarch</span><br>
                             <span class=faqco># pacman-key --update --keyserver keyserver.ubuntu.com</span><br><br>
 
