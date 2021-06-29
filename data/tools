@@ -55,7 +55,7 @@ android-udev-rules|434.113bd5e|Android udev rules.| blackarch-mobile |https://gi
 androidpincrack|2.ddaf307|Bruteforce the Android Passcode given the hash and salt.| blackarch-mobile |https://github.com/PentesterES/AndroidPINCrack
 androidsniffer|0.1|A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.| blackarch-mobile |http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html
 androwarn|135.626c02d|Yet another static code analyzer for malicious Android applications.| blackarch-mobile |https://github.com/maaaaz/androwarn
-angr|9.0.7912|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
+angr|9.0.8021|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
 angr-management|9.0.7912|This is the GUI for angr.| blackarch-binary |https://pypi.org/project/angr-management/#files
 angr-py2|7.8.9.26|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
 angrop|189.fa030fd|A rop gadget finder and chain builder.| blackarch-exploitation |https://github.com/salls/angrop
@@ -147,6 +147,7 @@ barq|35.6f1a68c|An AWS Cloud Post Exploitation framework.| blackarch-exploitatio
 base64dump|0.0.14|Extract and decode base64 strings from files.| blackarch-misc |https://blog.didierstevens.com/my-software/#base64dump
 basedomainname|0.1|Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.| blackarch-recon |http://www.morningstarsecurity.com/research
 bashfuscator|338.7487348|Fully configurable and extendable Bash obfuscation framework.| blackarch-automation |https://github.com/Bashfuscator/Bashfuscator
+bashscan|94.80c066c|A port scanner built to utilize /dev/tcp for network and service discovery.| blackarch-scanner |https://github.com/astryzia/BashScan
 batctl|2021.1|B.A.T.M.A.N. advanced control and management tool| blackarch-wireless |http://www.open-mesh.net/
 batman-adv|2019.2|Batman kernel module, (included upstream since .38)| blackarch-wireless |http://www.open-mesh.net/
 batman-alfred|2021.1|Almighty Lightweight Fact Remote Exchange Daemon| blackarch-wireless |http://www.open-mesh.org/
@@ -899,6 +900,7 @@ hash-identifier|6.0e08a97|Software to identify the different types of hashes use
 hashcat|6.2.2|Multithreaded advanced password recovery utility| blackarch-cracker |https://hashcat.net/hashcat
 hashcat-utils|1.9|Set of small utilities that are useful in advanced password cracking| blackarch-misc |https://github.com/hashcat/hashcat-utils
 hashcatch|52.8145660|Capture handshakes of nearby WiFi networks automatically.| blackarch-wireless |https://github.com/staz0t/hashcatch/releases
+hashcheck|2.72b0c6e|Search for leaked passwords while maintaining a high level of privacy using the k-anonymity method.| blackarch-crypto |https://github.com/Telefonica/HashCheck
 hashdb|1089.1da1b9f|A block hash toolkit.| blackarch-crypto |https://github.com/NPS-DEEP/hashdb/
 hashdeep|4.4|cross-platform tools to message digests for any number of files| blackarch-crypto |https://github.com/jessek/hashdeep
 hasher|48.40173c5|A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally.| blackarch-cracker |https://github.com/ChrisTruncer/Hasher
@@ -1907,6 +1909,7 @@ rkhunter|1.4.6|Checks machines for the presence of rootkits and other unwanted t
 rlogin-scanner|0.2|Multithreaded rlogin scanner. Tested on Linux, OpenBSD and Solaris.| blackarch-cracker |http://wayreth.eu.org/old_page/
 rogue-mysql-server|2.78ebbfc|A rogue MySQL server written in Python.| blackarch-misc |https://github.com/Gifts/Rogue-MySql-Server
 roguehostapd|78.381b373|Hostapd fork including Wi-Fi attacks and providing Python bindings with ctypes.| blackarch-wireless |https://github.com/wifiphisher/roguehostapd
+rombuster|162.1573ed9|A router exploitation tool that allows to disclosure network router admin password.| blackarch-exploitation |https://github.com/EntySec/RomBuster
 rootbrute|0.1|Local root account bruteforcer.| blackarch-cracker |http://www.packetstormsecurity.org/
 ropeadope|1.1|A linux log cleaner.| blackarch-anti-forensic |http://www.highhacksociety.com/
 ropeme|4.9b3a8fd|A set of python scripts to generate ROP gadgets and payload.| blackarch-exploitation |http://www.vnsecurity.net/2010/08/ropeme-rop-exploit-made-easy/
