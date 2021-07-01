@@ -160,13 +160,6 @@ cat <<EOF
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Eduard Toloza</td>
-                                    <td itemprop="additionalName">Edu4rdSHL</td>
-                                    <td itemprop="email">edu4rdshl@blackarch.org</td>
-                                    <td><a href="gpgkeys/edu4rdshl.asc" target="_blank">0x3A574A4009F553E5</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Richard Baumann</td>
                                     <td itemprop="additionalName">ohaz</td>
                                     <td itemprop="email">ohaz@blackarch.org</td>
