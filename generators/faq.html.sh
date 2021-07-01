@@ -42,7 +42,7 @@ cat <<\EOF
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
-                            You must first get an ISO on the <a href="downloads.html" title="Download blackarch">downloads</a> page and install it by following the instructions of the installation script. You can find a tutorial to show the process step by step at this URL <a href="blackarch-install.html" title="Blackarch install">Blackarch installation</a>. If you encounter any problems and need help, the best place to ask is our <a href="irc://irc.blackarch.org:1337/blackarch">IRC channel</a> or <a href="https://discord.gg/DtEfRtx">Discord server</a>.
+                            You must first get an ISO on the <a href="downloads.html" title="Download blackarch">downloads</a> page and install it by following the instructions of the installation script. You can find a tutorial to show the process step by step at this URL <a href="blackarch-install.html" title="Blackarch install">Blackarch installation</a>. If you encounter any problems and need help, the best place to ask is our <a href="irc://irc.blackarch.org:1337/blackarch">IRC channel</a>.
                             </div>
                         </div>
                     </div>
@@ -102,8 +102,8 @@ cat <<\EOF
                             <span class=faqco># chmod +x strap.sh</span><br>
                             <span class=faqco># sha1sum strap.sh</span>: it should match with the information on <a href=https://blackarch.org/downloads.html>downloads</a><br>
                             <span class=faqco># sh strap.sh</span><br><br>
- 
-                            It's very important to follow the suggestions above as well as checking the Archlinux Wiki pages to assist you as needed. If you still encounter any problems, pay us a visit at <a href="irc://irc.blackarch.org:1337/blackarch">#blackarch</a> or join our <a href="https://discord.gg/DtEfRtx">Discord server</a>.<br>
+
+                            It's very important to follow the suggestions above as well as checking the Archlinux Wiki pages to assist you as needed. If you still encounter any problems, pay us a visit at <a href="irc://irc.blackarch.org:1337/blackarch">#blackarch</a>.<br>
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ cat <<\EOF
                                     <li><a href="https://github.com/BlackArch/blackarch-installer">BlackArch Installer repository</a>: related to our installer. For example: the installation failed or you can not boot after a successful installation.</li>
                                 </ul>
                                 You can also take some time to browse our <a href="https://github.com/BlackArch">other repositories</a>.<br>
-                                If you still cannot find a solution to your problem, visit our <a href="irc://irc.blackarch.org:1337/blackarch">IRC channel</a> or <a href="https://discord.gg/DtEfRtx">Discord server</a> and ask for help. But please be advised, BlackArch users are in different parts of the globe (different time zones). Therefore, be patient. Ask your question and wait for a reply.<br>
+                                If you still cannot find a solution to your problem, visit our <a href="irc://irc.blackarch.org:1337/blackarch">IRC channel</a> and ask for help. But please be advised, BlackArch users are in different parts of the globe (different time zones). Therefore, be patient. Ask your question and wait for a reply.<br>
                             </div>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ cat <<\EOF
                         <div id="collapseSeven" class="panel-collapse collapse">
                             <div class="panel-body panel-body-faq">
                                 BlackArch Linux is a huge project, we are adding new applications and features everyday.<br>
-                                If you would like to help us with anything, visit our <a href="irc://irc.blackarch.org:1337/blackarch">IRC channel</a> or <a href="https://discord.gg/DtEfRtx">Discord server</a>. Just remember to wait for a reply, we are in different time zones.<br>
+                                If you would like to help us with anything, visit our <a href="irc://irc.blackarch.org:1337/blackarch">IRC channel</a>. Just remember to wait for a reply, we are in different time zones.<br>
                             </div>
                         </div>
                     </div>

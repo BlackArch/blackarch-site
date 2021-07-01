@@ -96,10 +96,6 @@ cat <<\EOF
                         You can find the official BlackArch IRC channel here:
                         <a href="irc://irc.blackarch.org:1337/blackarch" target="_blank">#blackarch</a> on irc.blackarch.org
                     </p>
-                    <p>
-                        You can find the official BlackArch Discord channel here:
-                        <a href="https://discord.gg/KMVkKDN" target="_blank">#blackarch</a> on Discord
-                    </p>
                 </div>
                 <br />
                 <div class="community-head">
