@@ -76,7 +76,7 @@ cat <<\EOF
                 </div>
                 <br />
                 <div class="community-head">
-                    <b>IRC & Discord</b>
+                    <b>IRC & Matrix</b>
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
@@ -94,7 +94,7 @@ cat <<\EOF
                     </p>
                     <p>
                         You can find the official BlackArch IRC channel here:
-                        <a href="irc://irc.blackarch.org:1337/blackarch" target="_blank">#blackarch</a> on irc.blackarch.org
+                        <a href="irc://irc.blackarch.org:1337/blackarch" target="_blank">#blackarch</a> and <a href="irc://irc.blackarch.org:1337/blackarch-offtopic">#blackarch-offtopic</a> on irc.blackarch.org:1337
                     </p>
                 </div>
                 <br />
