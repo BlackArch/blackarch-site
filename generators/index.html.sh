@@ -125,13 +125,6 @@ cat <<EOF
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Sable</td>
-                                    <td itemprop="additionalName">sable</td>
-                                    <td itemprop="email">sable@blackarch.org</td>
-                                    <td><a href="gpgkeys/sable.asc" target="_blank">0x2ED5CDFAF63F4371</a></td>
-                                    <td>Developer, Princess</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Dmytro Korzhevin</td>
                                     <td itemprop="additionalName">KORG</td>
                                     <td itemprop="email">korg@blackarch.org</td>
@@ -143,13 +136,6 @@ cat <<EOF
                                     <td itemprop="additionalName">dualfade</td>
                                     <td itemprop="email">dualfade@blackarch.org</td>
                                     <td><a href="gpgkeys/dualfade.asc" target="_blank">0x76E2456FB8E1C494</a></td>
-                                    <td>Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Hannes Eichblatt</td>
-                                    <td itemprop="additionalName">heichblatt</td>
-                                    <td itemprop="email">heichblatt@blackarch.org</td>
-                                    <td><a href="gpgkeys/heichblatt.asc" target="_blank">0x0FEC7F8B31B0AF0E</a></td>
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
@@ -178,13 +164,6 @@ cat <<EOF
                                     <td itemprop="additionalName">petruknisme</td>
                                     <td itemprop="email">petruknisme@blackarch.org</td>
                                     <td><a href="gpgkeys/petruknisme.asc" target="_blank">0x852D95650B24BC5E</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">OSO SPEED</td>
-                                    <td itemprop="additionalName">OSO</td>
-                                    <td itemprop="email">oso@blackarch.org</td>
-                                    <td><a href="gpgkeys/oso.asc" target="_blank">0x3B67B600005E6A4C</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
