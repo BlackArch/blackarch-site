@@ -264,8 +264,6 @@ cat << EOF
               <a href="http://mirror.cedia.org.ec/blackarch/" target="_blank" itemprop="url">http://mirror.cedia.org.ec/blackarch/</a>
               <br><br>
               <img src="/images/flags/fr.png" alt="France" /> France<br>
-              <a href="https://www.blackarch.org/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/</a><br>
-              <a href="rsync://blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.org/blackarch/</a><br>
               <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank" itemprop="url">http://blackarch.leneveu.fr/blackarch/</a><br>
               <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
               <a href="http://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">http://mirror.cyberbits.eu/blackarch/</a><br>
@@ -273,6 +271,8 @@ cat << EOF
               <a href="rsync://rsync.cyberbits.eu/blackarch/" target="_blank" itemprop="url">rsync://rsync.cyberbits.eu/blackarch/</a>
               <br><br>
               <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
+              <a href="https://www.blackarch.org/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/</a><br>
+              <a href="rsync://blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.org/blackarch/</a><br>
               <a href="https://mirrors.dr460nf1r3.me/repos/blackarch/" target="_blank" itemprop="url">https://mirrors.dr460nf1r3.me/repos/blackarch/</a><br>
               <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">http://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
               <a href="https://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">https://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
