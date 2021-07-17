@@ -2,7 +2,7 @@
 a2sv|140.cb24c4e|Auto Scanning to SSL Vulnerability.|https://github.com/hahwul/a2sv
 admsnmp|0.1|ADM SNMP audit scanner.|
 allthevhosts|1.0|A vhost discovery tool that scrapes various web applications.|http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/
-amass|1633.0fd06fa|In-depth subdomain enumeration written in Go.|https://github.com/OWASP/Amass
+amass|1642.30f786a|In-depth subdomain enumeration written in Go.|https://github.com/OWASP/Amass
 apache-users|2.1|This perl script will enumerate the usernames on a unix system that use the apache module UserDir.|https://labs.portcullis.co.uk/downloads/
 assetfinder|19.4e95d87|Find domains and subdomains potentially related to a given domain.|https://github.com/tomnomnom/assetfinder
 athena-ssl-scanner|0.6.2|A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.|http://packetstormsecurity.com/files/93062/Athena-SSL-Cipher-Scanner.html
@@ -28,10 +28,10 @@ check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker
 chiron|48.524abe1|An all-in-one IPv6 Penetration Testing Framework.|http://www.secfu.net/tools-scripts/
 cipherscan|419.c67f3ee|A very simple way to find out which SSL ciphersuites are supported by a target.|https://github.com/jvehent/cipherscan
 ciscos|1.3|Scans class A, B, and C networks for cisco routers which have telnet open and have not changed the default password from cisco.|
-clair|1324.49bfd4d7|Vulnerability Static Analysis for Containers.|https://github.com/quay/clair
+clair|1337.a5ae3426|Vulnerability Static Analysis for Containers.|https://github.com/quay/clair
 climber|30.5530a78|Check UNIX/Linux systems for privilege escalation.|https://github.com/raffaele-forte/climber
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.|https://github.com/mandatoryprogrammer/cloudflare_enum
-cloudsploit|911.503bc3e1|AWS security scanning checks.|https://github.com/cloudsploit/scans
+cloudsploit|926.b466012c|AWS security scanning checks.|https://github.com/cloudsploit/scans
 cmsmap|8.59dd0e2|A python open source Content Management System scanner that automates the process of detecting security flaws of the most popular CMSs.|https://www.dionach.com/blog/cmsmap-%E2%80%93-a-simple-cms-vulnerability-scanner
 configpush|0.8.5|This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.|http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html
 corstest|10.beffd0b|A simple CORS misconfigurations checker.|https://github.com/RUB-NDS/CORStest
@@ -149,7 +149,7 @@ modscan|0.1|A new tool designed to map a SCADA MODBUS TCP based network.|https:/
 mongoaudit|222.70b83e8|A powerful MongoDB auditing and pentesting tool .|https://github.com/stampery/mongoaudit
 mssqlscan|0.8.4|A small multi-threaded tool that scans for Microsoft SQL Servers.|http://www.cqure.net/wp/mssqlscan/
 multiscanner|1559.86e0145|Modular file scanning/analysis framework.|https://github.com/mitre/multiscanner
-naabu|367.e1f1607|A fast port scanner written in go with focus on reliability and simplicity.|https://github.com/projectdiscovery/naabu
+naabu|371.6d8c2e8|A fast port scanner written in go with focus on reliability and simplicity.|https://github.com/projectdiscovery/naabu
 nbtscan|36.8ab6a70|Scan networks for NetBIOS name information.|https://github.com/resurrecting-open-source-projects/nbtscan
 netbios-share-scanner|1.0|This tool could be used to check windows workstations and servers if they have accessible shared resources.|http://www.secpoint.com/netbios-share-scanner.html
 netscan|1.0|Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).|http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner.0.html
@@ -165,7 +165,7 @@ nsia|1.0.6|A website scanner that monitors websites in realtime in order to dete
 ntlm-challenger|3.e7d3ba8|Parse NTLM over HTTP challenge messages.|https://github.com/b17zr/ntlm_challenger
 ntlm-scanner|6.4b29329|A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.|https://github.com/preempt/ntlm-scanner
 ntlmrecon|71.357b094|A tool to enumerate information from NTLM authentication enabled web endpoints.|https://github.com/sachinkamath/ntlmrecon
-nuclei-templates|6539.f7259df0|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
+nuclei-templates|6880.1431a961|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
 o-saft|4321.57ab999|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
 ocs|0.2|Compact mass scanner for Cisco routers with default telnet/enable passwords.|http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner.2.html
 onetwopunch|v1.0.0.r2.gd4ab4e8|Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.|https://github.com/superkojiman/onetwopunch
@@ -178,7 +178,7 @@ paranoic|1.7|A simple vulnerability scanner written in Perl.|http://packetstorms
 passhunt|5.332f374|Search drives for documents containing passwords.|https://github.com/Dionach/PassHunt
 pbscan|10.566c3d7|Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.|https://github.com/gvb84/pbscan
 pcredz|66.0b6df2b|A tool that extracts credit card numbers, NTLM(DCE-RPC, HTTP, SQL, LDAP, etc), Kerberos (AS-REQ Pre-Auth etype 23), HTTP Basic, SNMP, POP, SMTP, FTP, IMAP, and more from a pcap file or from a live interface.|https://github.com/lgandx/PCredz
-peass|775.b150357|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
+peass|811.df71f4f|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
 pentestly|1798.93d1b39|Python and Powershell internal penetration testing framework.|https://github.com/praetorian-inc/pentestly
 plcscan|0.1|This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.|http://packetstormsecurity.com/files/119726/PLC-Device-Scanner.html
 pnscan|1.14.1|A parallel network scanner that can be used to survey TCP network services.|http://www.lysator.liu.se/~pen/pnscan/
