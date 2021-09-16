@@ -249,6 +249,7 @@ cat << EOF
               <a href="https://mirror.telepoint.bg/blackarch/" target="_blank" itemprop="url">https://mirror.telepoint.bg/blackarch/</a>
               <br><br>
               <img src="/images/flags/cn.png" alt="China" /> China<br>
+              <a href="https://mirrors.nju.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.nju.edu.cn/blackarch/</a><br>
               <a href="https://mirror.sjtu.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirror.sjtu.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.tuna.tsinghua.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.ustc.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.ustc.edu.cn/blackarch/</a>
@@ -293,6 +294,8 @@ cat << EOF
               <img src="/images/flags/gb.png" alt="Great Britain" /> Great Britain<br>
               <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br>
               <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a><br>
+              <a href="http://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">http://mirrors.gethosted.online/blackarch/</a><br>
+              <a href="https://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/</a><br>
               <a href="https://uk.mirrors.fossho.st/blackarch/" target="_blank" itemprop="url">https://uk.mirrors.fossho.st/blackarch/$repo/os/$arch</a>
               <br><br>
               <img src="/images/flags/hu.png" alt="Hungary" /> Hungary<br>
