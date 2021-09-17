@@ -294,8 +294,8 @@ cat << EOF
               <img src="/images/flags/gb.png" alt="Great Britain" /> Great Britain<br>
               <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br>
               <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a><br>
-              <a href="http://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">http://mirrors.gethosted.online/blackarch/</a><br>
-              <a href="https://mirrors.gethosted.online/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/</a><br>
+              <a href="http://mirrors.gethosted.online/blackarch/blackarch/" target="_blank" itemprop="url">http://mirrors.gethosted.online/blackarch/blackarch/</a><br>
+              <a href="https://mirrors.gethosted.online/blackarch/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/blackarch/</a><br>
               <a href="https://uk.mirrors.fossho.st/blackarch/" target="_blank" itemprop="url">https://uk.mirrors.fossho.st/blackarch/$repo/os/$arch</a>
               <br><br>
               <img src="/images/flags/hu.png" alt="Hungary" /> Hungary<br>
