@@ -76,25 +76,25 @@ cat <<\EOF
                 </div>
                 <br />
                 <div class="community-head">
-                    <b>IRC & Matrix</b>
+                    <b>Matrix</b>
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="irc://irc.blackarch.org:1337/blackarch" target="_blank"><i class="fas fa-comment fa-5x"></i></a>
+                        <a href="https://app.element.io" target="_blank"><i class="fas fa-comment fa-5x"></i></a>
                     </div>
                     <p>
-                        Come keep us company. We have a little community here.
-						Anything is on topic but the large majority of discussion is related to security and/or BlackArch.
+                        Come keep us company. We have a little community on matrix.org.
+						Anything is on topic but the large majority of discussion is related to security and BlackArch.
 					</p>
                     <p>
 					    If you need help, this is the best place to ask.
 					</p>
-                    <p>
+                    <!--<p>
 					    We also have a little bot that notifies the channel of git commits and package updates/additions.
-                    </p>
+                    </p>-->
                     <p>
-                        You can find the official BlackArch IRC channel here:
-                        <a href="irc://irc.blackarch.org:1337/blackarch" target="_blank">#blackarch</a> and <a href="irc://irc.blackarch.org:1337/blackarch-offtopic">#blackarch-offtopic</a> on irc.blackarch.org:1337
+                        You can find the official BlackArch Matrix channel here:
+                        <a href="https://app.element.io/" target="_blank">#BlackArch:matrix.org</a>
                     </p>
                 </div>
                 <br />
