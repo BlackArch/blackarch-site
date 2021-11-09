@@ -80,10 +80,10 @@ cat <<\EOF
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="https://app.element.io" target="_blank"><i class="fas fa-comment fa-5x"></i></a>
+                        <a href="https://matrix.to/#/#BlackArch:matrix.org" target="_blank"><i class="fas fa-comment fa-5x"></i></a>
                     </div>
                     <p>
-                        Come keep us company. We have a little community on matrix.org.
+                        Come keep us company. We have a little community on <a href="https://matrix.to/#/#BlackArch:matrix.org" target="_blank">Matrix</a>
 						Anything is on topic but the large majority of discussion is related to security and BlackArch.
 					</p>
                     <p>
@@ -94,7 +94,7 @@ cat <<\EOF
                     </p>-->
                     <p>
                         You can find the official BlackArch Matrix channel here:
-                        <a href="https://app.element.io/" target="_blank">#BlackArch:matrix.org</a>
+                        <a href="https://matrix.to/#/#BlackArch:matrix.org" target="_blank">https://matrix.to/#/#BlackArch:matrix.org</a>
                     </p>
                 </div>
                 <br />
