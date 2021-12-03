@@ -150,7 +150,7 @@ base64dump|0.0.14|Extract and decode base64 strings from files.| blackarch-misc 
 basedomainname|0.1|Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.| blackarch-recon |http://www.morningstarsecurity.com/research
 bashfuscator|338.7487348|Fully configurable and extendable Bash obfuscation framework.| blackarch-automation |https://github.com/Bashfuscator/Bashfuscator
 bashscan|94.80c066c|A port scanner built to utilize /dev/tcp for network and service discovery.| blackarch-scanner |https://github.com/astryzia/BashScan
-batctl|2021.3|B.A.T.M.A.N. advanced control and management tool| blackarch-wireless |http://www.open-mesh.net/
+batctl|2021.4|B.A.T.M.A.N. advanced control and management tool| blackarch-wireless |http://www.open-mesh.net/
 batman-adv|2019.2|Batman kernel module, (included upstream since .38)| blackarch-wireless |http://www.open-mesh.net/
 batman-alfred|2021.2|Almighty Lightweight Fact Remote Exchange Daemon.| blackarch-wireless |http://www.open-mesh.org/
 bbqsql|261.b9859d2|SQL injection exploit tool.| blackarch-webapp |https://github.com/neohapsis/bbqsql
@@ -518,6 +518,7 @@ dns2tcp|0.5.2|A tool for relaying TCP connections over DNS.| blackarch-tunnel |h
 dnsa|0.6|A dns security swiss army knife.| blackarch-scanner |http://packetfactory.openwall.net/projects/dnsa/index.html
 dnsbf|0.3|Search for available domain names in an IP range.| blackarch-scanner |http://code.google.com/p/dnsbf
 dnsbrute|2.b1dc84a|Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.| blackarch-recon |https://github.com/d4rkcat/dnsbrute
+dnscan|193.8d41157|A python wordlist-based DNS subdomain scanner.| blackarch-scanner |https://github.com/rbsec/dnscan
 dnschef|17.a395411|A highly configurable DNS proxy for pentesters.| blackarch-proxy |http://thesprawl.org/projects/dnschef/
 dnscobra|1.0|DNS subdomain bruteforcing tool with Tor support through torsocks| blackarch-recon |https://github.com/dmitescu/dnscobra
 dnsdiag|271.edb168f|DNS Diagnostics and Performance Measurement Tools.| blackarch-networking |https://dnsdiag.org/
@@ -1015,7 +1016,7 @@ hydra|9.2|Very fast network logon cracker which support many different services|
 hyenae|0.36_1|Flexible platform independent packet generator.| blackarch-networking |http://sourceforge.net/projects/hyenae/
 hyperfox|121.1a8c26f|A security tool for proxying and recording HTTP and HTTPs traffic.| blackarch-networking |https://github.com/xiam/hyperfox
 hyperion-crypter|2.3.1|A runtime encrypter for 32-bit and 64-bit portable executables.| blackarch-windows |http://nullsecurity.net/tools/binary.html
-i2pd|2.39.0|A full-featured C++ implementation of the I2P router| blackarch-networking |https://i2pd.website/
+i2pd|2.40.0|A full-featured C++ implementation of the I2P router| blackarch-networking |https://i2pd.website/
 iaito|5.3.1|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/iaito
 iaxflood|0.1|IAX flooder.| blackarch-dos |http://www.hackingexposedvoip.com/
 iaxscan|0.02|A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.| blackarch-scanner |http://code.google.com/p/iaxscan/
@@ -1951,6 +1952,7 @@ rita|792.4a4b639|Real Intelligence Threat Analytics.| blackarch-recon |https://g
 riwifshell|38.40075d5|Web backdoor - infector - explorer.| blackarch-webapp |https://github.com/graniet/riwifshell
 rkhunter|1.4.6|Checks machines for the presence of rootkits and other unwanted tools.| blackarch-forensic |http://rkhunter.sourceforge.net/
 rlogin-scanner|0.2|Multithreaded rlogin scanner. Tested on Linux, OpenBSD and Solaris.| blackarch-cracker |http://wayreth.eu.org/old_page/
+rmiscout|1.4|Enumerate Java RMI functions and exploit RMI parameter unmarshalling vulnerabilities.| blackarch-exploitation |https://github.com/BishopFox/rmiscout
 rogue-mysql-server|2.78ebbfc|A rogue MySQL server written in Python.| blackarch-misc |https://github.com/Gifts/Rogue-MySql-Server
 roguehostapd|78.381b373|Hostapd fork including Wi-Fi attacks and providing Python bindings with ctypes.| blackarch-wireless |https://github.com/wifiphisher/roguehostapd
 rombuster|180.c858279|A router exploitation tool that allows to disclosure network router admin password.| blackarch-exploitation |https://github.com/EntySec/RomBuster
@@ -2287,7 +2289,7 @@ stig-viewer|2.8|XCCDF formatted SRGs and STIGs files viewer for SCAP validation 
 stompy|0.0.4|An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.| blackarch-misc |http://lcamtuf.coredump.cx/
 stoq|766.eea553d|An open source framework for enterprise level automated analysis.| blackarch-code-audit |https://github.com/PUNCH-Cyber/stoq
 storm-ring|0.1|This simple tool is useful to test a PABX with "allow guest" parameter set to "yes" (in this scenario an anonymous caller could place a call).| blackarch-voip |http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html
-strace|5.14|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
+strace|5.15|A diagnostic, debugging and instructional userspace tracer| blackarch-binary |https://strace.io/
 streamfinder|1.2|Searches for Alternate Data Streams (ADS).| blackarch-windows |https://www.gaijin.at/en/dlstreamfind.php
 striker|85.87c184d|An offensive information and vulnerability scanner.| blackarch-webapp |https://github.com/UltimateHackers/Striker
 stringsifter|29.3cb284a|Machine learning tool that automatically ranks strings based on their relevance for malware analysis.| blackarch-binary |https://github.com/fireeye/stringsifter
