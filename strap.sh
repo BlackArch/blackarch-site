@@ -58,10 +58,10 @@ check_internet()
 fetch_keyring()
 {
   curl -s -O \
-  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz'
+  'https://www.blackarch.org/blackarch/keyring/blackarch-keyring.pkg.tar.xz'
 
   curl -s -O \
-  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz.sig'
+  'https://www.blackarch.org/blackarch/keyring/blackarch-keyring.pkg.tar.xz.sig'
 }
 
 # verify the keyring signature
@@ -85,7 +85,7 @@ verify_keyring()
   if ! gpg --keyserver-options no-auto-key-retrieve \
     --with-fingerprint blackarch-keyring.pkg.tar.xz.sig > /dev/null 2>&1
   then
-    err "invalid keyring signature. please stop by irc.blackarch.org:1337/blackarch"
+    err "invalid keyring signature. please stop by https://matrix.to/#/#/BlackaArch:matrix.org"
   fi
 }
 
