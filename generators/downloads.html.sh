@@ -272,7 +272,7 @@ cat << EOF
               <a href="rsync://rsync.cyberbits.eu/blackarch/" target="_blank" itemprop="url">rsync://rsync.cyberbits.eu/blackarch/</a>
               <br><br>
               <img src="/images/flags/de.png" alt="Germany" /> Germany<br>
-              <a href="https://www.blackarch.org/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/</a><br>
+              <a href="https://www.blackarch.org/blackarch/blackarch/" target="_blank" itemprop="url">https://www.blackarch.org/blackarch/blackarch/</a><br>
               <a href="rsync://blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.org/blackarch/</a><br>
               <a href="https://mirrors.dr460nf1r3.org/repos/blackarch/" target="_blank" itemprop="url">https://mirrors.dr460nf1r3.org/repos/blackarch/</a><br>
               <a href="http://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">http://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
