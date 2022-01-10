@@ -61,21 +61,21 @@ cat << EOF
                 <tr>
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-full-2021.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Full ISO</a></td>
                   <td itemprop="datePublished">2021.09.01</td>
-                  <td><a href="/blackarch/blackarch/torrent/blackarch-linux-full-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-full-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>18 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-slim-2021.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Slim ISO</a></td>
                   <td itemprop="datePublished">2021.09.01</td>
-                  <td><a href="/blackarch/blackarch/torrent/blackarch-linux-slim-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-slim-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>4.4 GB</td>
                   <td>${SLIM_CHECKSUM}</td>
                 </tr>
                 <tr>
                   <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2021.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
                   <td itemprop="datePublished">2021.09.01</td>
-                  <td><a href="/blackarch/blackarch/torrent/blackarch-linux-netinst-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>886 MB</td>
                   <td>${NET_CHECKSUM}</td>
                 </tr>
