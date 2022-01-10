@@ -18,7 +18,7 @@ make_tmp() {
 }
 
 get_db() {
-  curl "https://$SITE/blackarch/blackarch/$REPO/os/$ARCH/$REPO.db.tar.gz" |
+  curl "https://$SITE/blackarch/$REPO/os/$ARCH/$REPO.db.tar.gz" |
   tar xz -C "$tmp"
 }
 
