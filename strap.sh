@@ -58,10 +58,10 @@ check_internet()
 fetch_keyring()
 {
   curl -s -O \
-  'https://www.blackarch.org/blackarch/keyring/blackarch-keyring.pkg.tar.xz'
+  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz'
 
   curl -s -O \
-  'https://www.blackarch.org/blackarch/keyring/blackarch-keyring.pkg.tar.xz.sig'
+  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz.sig'
 }
 
 # verify the keyring signature
