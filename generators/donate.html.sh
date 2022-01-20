@@ -32,10 +32,10 @@ cat <<\EOF
       in this project as we continue to develop Blackarch Linux.
     </p>
     <p>
-      There are many ways to help us. Money is of course a must. But, if you can't give a financial contribution, you may help in another way. For example: translating, offering support to users in need (in IRC), or anything that can help improve Blackarch. Also, a simple star of the Blackarch repository on Github goes a long way... :D
+      There are many ways to help us. Money is of course a must. But, if you can't give a financial contribution, you may help in another way. For example: translating, offering support to users in need (in Matrix), or anything that can help improve Blackarch. Also, a simple star of the Blackarch repository on Github goes a long way... :D
     </p>
     <p>
-      We also welcome any organization/company interested in becoming an official sponsor of BlackArch Linux. You can contact us by IRC or by email.
+      We also welcome any organization/company interested in becoming an official sponsor of BlackArch Linux. You can contact us by Matirx or by email.
     </p>
     <br />
     <div id=givenow>
@@ -59,7 +59,7 @@ cat <<\EOF
   <div class="panel panel-default text-left">
     <div class="panel-heading"><b>List of the donors</b></div>
     <div class=list-group-item>
-      <p>To be entirely transparent, we will display every donations here, if you have made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our IRC channel. In case we receive a donation and nobody claimed it, we will display it as Anonymous</p>
+      <p>To be entirely transparent, we will display every donations here, if you have made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our Matrix channel. In case we receive a donation and nobody claimed it, we will display it as Anonymous</p>
        <table id=tbl-minimalist class=tbl-donate>
        <thead>
         <tr id=idx-tool>
