@@ -29,7 +29,7 @@ check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker
 chiron|48.524abe1|An all-in-one IPv6 Penetration Testing Framework.|http://www.secfu.net/tools-scripts/
 cipherscan|419.c67f3ee|A very simple way to find out which SSL ciphersuites are supported by a target.|https://github.com/jvehent/cipherscan
 ciscos|1.3|Scans class A, B, and C networks for cisco routers which have telnet open and have not changed the default password from cisco.|
-clair|1468.45fae9fa|Vulnerability Static Analysis for Containers.|https://github.com/quay/clair
+clair|1470.30964e6b|Vulnerability Static Analysis for Containers.|https://github.com/quay/clair
 climber|30.5530a78|Check UNIX/Linux systems for privilege escalation.|https://github.com/raffaele-forte/climber
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.|https://github.com/mandatoryprogrammer/cloudflare_enum
 cloudsploit|1173.49242c39|AWS security scanning checks.|https://github.com/cloudsploit/scans
@@ -62,7 +62,7 @@ dnsbf|0.3|Search for available domain names in an IP range.|http://code.google.c
 dnscan|198.eba34de|A python wordlist-based DNS subdomain scanner.|https://github.com/rbsec/dnscan
 dnsgoblin|0.1|Nasty creature constantly searching for DNS servers. It uses standard dns querys and waits for the replies.|http://nullsecurity.net/tools/scanner.html
 dnspredict|0.0.2|DNS prediction.|http://johnny.ihackstuff.com/
-dnstwist|457.bf34380|Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.|https://github.com/elceef/dnstwist
+dnstwist|458.d739564|Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.|https://github.com/elceef/dnstwist
 dockerscan|59.590a844|Docker security analysis & hacking tools.|https://github.com/cr0hn/dockerscan
 dorkbot|169.b0c9f49|Command-line tool to scan Google search results for vulnerabilities.|https://github.com/utiso/dorkbot
 dorkme|57.0a7017a|Tool designed with the purpose of making easier the searching of vulnerabilities with Google Dorks, such as SQL Injection vulnerabilities.|https://github.com/blueudp/DorkMe
@@ -84,7 +84,7 @@ flunym0us|2.0|A Vulnerability Scanner for Wordpress and Moodle.|http://code.goog
 forkingportscanner|1|Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1. Has the ability to scan UDP or TCP, defaults to tcp.|http://magikh0e.xyz/
 fortiscan|0.7.r7.gd54faa0|A high performance FortiGate SSL-VPN vulnerability scanning and exploitation tool.|https://github.com/anasbousselham/fortiscan
 fs-nyarl|1.0|A network takeover & forensic analysis tool - useful to advanced PenTest tasks & for fun and profit.|http://www.fulgursecurity.com/en/content/fs-nyarl
-fscan|1.6.3.r70.g0b8e1dd|A Security Auditing Tool.|https://github.com/shadow1ng/fscan
+fscan|1.6.3.r72.g2ebda8b|A Security Auditing Tool.|https://github.com/shadow1ng/fscan
 fsnoop|3.4|A tool to monitor file operations on GNU/Linux systems by using the Inotify mechanism. Its primary purpose is to help detecting file race condition vulnerabilities and since version 3, to exploit them with loadable DSO modules (also called "payload modules" or "paymods").|http://vladz.devzero.fr/fsnoop.php
 ftp-spider|1.0|FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous access, detect directories with write permissions, find user specified data within repository.|http://packetstormsecurity.com/files/35120/ftp-spider.pl.html
 ftpscout|12.cf1dff1|Scans ftps for anonymous access.|https://github.com/RubenRocha/ftpscout
@@ -171,8 +171,8 @@ nsec3map|20.1263537|A tool to enumerate the resource records of a DNS zone using
 ntlm-challenger|3.e7d3ba8|Parse NTLM over HTTP challenge messages.|https://github.com/b17zr/ntlm_challenger
 ntlm-scanner|6.4b29329|A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.|https://github.com/preempt/ntlm-scanner
 ntlmrecon|71.357b094|A tool to enumerate information from NTLM authentication enabled web endpoints.|https://github.com/sachinkamath/ntlmrecon
-nuclei-templates|12256.3b86b883|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
-o-saft|4408.88bf44f|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
+nuclei-templates|12438.f80e8104|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
+o-saft|4454.b519c86|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
 ocs|0.2|Compact mass scanner for Cisco routers with default telnet/enable passwords.|http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner.2.html
 onetwopunch|v1.0.0.r2.gd4ab4e8|Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.|https://github.com/superkojiman/onetwopunch
 onionscan|130.da42865|Scan Onion Services for Security Issues.|https://github.com/s-rah/onionscan
@@ -184,7 +184,7 @@ paranoic|1.7|A simple vulnerability scanner written in Perl.|http://packetstorms
 passhunt|5.332f374|Search drives for documents containing passwords.|https://github.com/Dionach/PassHunt
 pbscan|10.566c3d7|Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.|https://github.com/gvb84/pbscan
 pcredz|70.0cbb055|A tool that extracts credit card numbers, NTLM(DCE-RPC, HTTP, SQL, LDAP, etc), Kerberos (AS-REQ Pre-Auth etype 23), HTTP Basic, SNMP, POP, SMTP, FTP, IMAP, and more from a pcap file or from a live interface.|https://github.com/lgandx/PCredz
-peass|1298.4206e78|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
+peass|1300.a89f235|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
 pentestly|1798.93d1b39|Python and Powershell internal penetration testing framework.|https://github.com/praetorian-inc/pentestly
 plcscan|0.1|This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.|http://packetstormsecurity.com/files/119726/PLC-Device-Scanner.html
 pnscan|1.14.1|A parallel network scanner that can be used to survey TCP network services.|http://www.lysator.liu.se/~pen/pnscan/
@@ -194,7 +194,7 @@ prads|1132.e631f4f|A "Passive Real-time Asset Detection System".|http://gamelinu
 praeda|48.1dc2220|An automated data/information harvesting tool designed to gather critical information from various embedded devices.|https://github.com/percx/Praeda
 proxycheck|0.1|This is a simple proxy tool that checks for the HTTP CONNECT method and grabs verbose output from a webserver.|http://packetstormsecurity.com/files/61864/proxycheck.pl.txt.html
 proxyscan|0.3|A security penetration testing tool to scan for hosts and ports through a Web proxy server.|http://packetstormsecurity.com/files/69778/proxyScan.3.tgz.html
-pwndora|208.609ab87|Massive IPv4 scanner, find and analyze internet-connected devices in minutes, create your own IoT search engine at home.|https://github.com/alechilczenko/pwndora
+pwndora|215.bc5983c|Massive IPv4 scanner, find and analyze internet-connected devices in minutes, create your own IoT search engine at home.|https://github.com/alechilczenko/pwndora
 pyssltest|9.d7703f0|A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.|https://github.com/moheshmohan/pyssltest
 pytbull|2.1|A python based flexible IDS/IPS testing framework shipped with more than 300 tests.|http://pytbull.sourceforge.net/
 pythem|454.e4fcb8a|Python2 penetration testing framework.|https://github.com/m4n3dw0lf/PytheM
@@ -205,7 +205,7 @@ rdp-cipher-checker|0.1|Enumerate the encryption protocols supported by the serve
 rdp-sec-check|11.d0cc143|Script to enumerate security settings of an RDP Service.|https://github.com/portcullislabs/rdp-sec-check
 relay-scanner|1.7|An SMTP relay scanner.|http://www.cirt.dk
 responder|437.b147229|A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).|https://github.com/lgandx/Responder
-retire|3.0.6.r3.g911f5ff|Scanner detecting the use of JavaScript libraries with known vulnerabilities.|http://retirejs.github.io/retire.js/
+retire|3.0.6.r4.g3bdefc0|Scanner detecting the use of JavaScript libraries with known vulnerabilities.|http://retirejs.github.io/retire.js/
 routerhunter|21.4da257c|Tool used to find vulnerable routers and devices on the Internet and perform tests.|https://github.com/jh00nbr/Routerhunter.0
 rtlizer|35.5614163|Simple spectrum analyzer.|https://github.com/csete/rtlizer
 rtlsdr-scanner|1013.3c032de|A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.|https://github.com/EarToEarOak/RTLSDR-Scanner
@@ -232,7 +232,7 @@ slurp-scanner|90.6a4eaaf|Evaluate the security of S3 buckets.|https://github.com
 smbexec|59.a54fc14|A rapid psexec style attack with samba tools.|https://github.com/pentestgeek/smbexec
 smbmap|145.5c98c5f|A handy SMB enumeration tool.|https://github.com/ShawnDEvans/smbmap
 smbspider|10.7db9323|A lightweight python utility for searching SMB/CIFS/Samba file shares.|https://github.com/T-S-A/smbspider
-smbsr|16.ee09de8|Lookup for interesting stuff in SMB shares.|https://github.com/oldboy21/SMBSR
+smbsr|18.3a5f585|Lookup for interesting stuff in SMB shares.|https://github.com/oldboy21/SMBSR
 smod|53.7eb8423|A modular framework with every kind of diagnostic and offensive feature you could need in order to pentest modbus protocol.|https://github.com/enddo/smod
 smtp-test|5.d8d8598|Automated testing of SMTP servers for penetration testing.|https://github.com/isaudits/smtp-test
 smtp-vrfy|1.0|An SMTP Protocol Hacker.|
@@ -259,13 +259,13 @@ subover|71.3d258e2|A Powerful Subdomain Takeover Tool.|https://github.com/Ice3ma
 swarm|41.1713c1e|A distributed penetration testing tool.|https://github.com/Arvin-X/swarm
 synscan|5.02|fast asynchronous half-open TCP portscanner|http://www.digit-labs.org/files/tools/synscan/
 sysdig|0.28.0|Open source system-level exploration and troubleshooting tool|https://www.sysdig.com/
-tachyon-scanner|458.ca392a8|Fast Multi-Threaded Web Discovery Tool.|https://github.com/delvelabs/tachyon
+tachyon-scanner|461.6a0900e|Fast Multi-Threaded Web Discovery Tool.|https://github.com/delvelabs/tachyon
 tactical-exploitation|88.231146a|Modern tactical exploitation toolkit.|https://github.com/0xdea/tactical-exploitation
 taipan|2.7|Web application security scanner.|https://github.com/enkomio/Taipan
 takeover|98.a058647|Sub-Domain TakeOver Vulnerability Scanner.|https://github.com/m4ll0k/takeover
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.|https://github.com/toperaproject/topera
 traxss|81.48dee2e|Automated XSS Vulnerability Scanner.|https://github.com/M4cs/traxss
-trivy|710.aa6e1eb6|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI.|https://github.com/aquasecurity/trivy
+trivy|712.89b8d7ff|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI.|https://github.com/aquasecurity/trivy
 udp-hunter|4.b95cce5|Network assessment tool for various UDP Services covering both IPv4 and IPv6 protocols.|https://github.com/NotSoSecure/udp-hunter
 udsim|25.df19f07|A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.|https://github.com/zombieCraig/UDSim/
 umap|25.3ad8121|The USB host security assessment tool.|https://github.com/nccgroup/umap
