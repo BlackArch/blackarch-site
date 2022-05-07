@@ -2,7 +2,7 @@
 a2sv|140.cb24c4e|Auto Scanning to SSL Vulnerability.|https://github.com/hahwul/a2sv
 admsnmp|0.1|ADM SNMP audit scanner.|
 allthevhosts|1.0|A vhost discovery tool that scrapes various web applications.|http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/
-amass|1909.24c04bb|In-depth subdomain enumeration written in Go.|https://github.com/OWASP/Amass
+amass|1922.8a7cd5d|In-depth subdomain enumeration written in Go.|https://github.com/OWASP/Amass
 apache-users|2.1|This perl script will enumerate the usernames on a unix system that use the apache module UserDir.|https://labs.portcullis.co.uk/downloads/
 assetfinder|19.4e95d87|Find domains and subdomains potentially related to a given domain.|https://github.com/tomnomnom/assetfinder
 athena-ssl-scanner|0.6.2|A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.|http://packetstormsecurity.com/files/93062/Athena-SSL-Cipher-Scanner.html
@@ -32,7 +32,7 @@ ciscos|1.3|Scans class A, B, and C networks for cisco routers which have telnet 
 clair|1530.e1664659|Vulnerability Static Analysis for Containers.|https://github.com/quay/clair
 climber|30.5530a78|Check UNIX/Linux systems for privilege escalation.|https://github.com/raffaele-forte/climber
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.|https://github.com/mandatoryprogrammer/cloudflare_enum
-cloudsploit|1865.7ca1e9ca|AWS security scanning checks.|https://github.com/cloudsploit/scans
+cloudsploit|1883.50963612|AWS security scanning checks.|https://github.com/cloudsploit/scans
 cmsmap|8.59dd0e2|A python open source Content Management System scanner that automates the process of detecting security flaws of the most popular CMSs.|https://www.dionach.com/blog/cmsmap-%E2%80%93-a-simple-cms-vulnerability-scanner
 configpush|0.8.5|This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.|http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html
 corstest|10.beffd0b|A simple CORS misconfigurations checker.|https://github.com/RUB-NDS/CORStest
@@ -84,7 +84,7 @@ flunym0us|2.0|A Vulnerability Scanner for Wordpress and Moodle.|http://code.goog
 forkingportscanner|1|Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1. Has the ability to scan UDP or TCP, defaults to tcp.|http://magikh0e.xyz/
 fortiscan|0.7.r7.gd54faa0|A high performance FortiGate SSL-VPN vulnerability scanning and exploitation tool.|https://github.com/anasbousselham/fortiscan
 fs-nyarl|1.0|A network takeover & forensic analysis tool - useful to advanced PenTest tasks & for fun and profit.|http://www.fulgursecurity.com/en/content/fs-nyarl
-fscan|1.6.3.r76.gd1ff896|A Security Auditing Tool.|https://github.com/shadow1ng/fscan
+fscan|1.7.1.r2.gbb544cf|A Security Auditing Tool.|https://github.com/shadow1ng/fscan
 fsnoop|3.4|A tool to monitor file operations on GNU/Linux systems by using the Inotify mechanism. Its primary purpose is to help detecting file race condition vulnerabilities and since version 3, to exploit them with loadable DSO modules (also called "payload modules" or "paymods").|http://vladz.devzero.fr/fsnoop.php
 ftp-spider|1.0|FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous access, detect directories with write permissions, find user specified data within repository.|http://packetstormsecurity.com/files/35120/ftp-spider.pl.html
 ftpscout|12.cf1dff1|Scans ftps for anonymous access.|https://github.com/RubenRocha/ftpscout
@@ -138,7 +138,7 @@ leviathan|35.a1a1d8c|A mass audit toolkit which has wide range service discovery
 lfi-scanner|4.0|This is a simple perl script that enumerates local file inclusion attempts when given a specific target.|http://packetstormsecurity.com/files/102848/LFI-Scanner.0.html
 lfisuite|85.470e01f|Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.|https://github.com/D35m0nd142/LFISuite
 linenum|75.c47f9b2|Scripted Local Linux Enumeration & Privilege Escalation Checks|https://github.com/rebootuser/LinEnum
-linux-smart-enumeration|241.172cef9|Linux enumeration tool for pentesting and CTFs with verbosity levels.|https://github.com/diego-treitos/linux-smart-enumeration
+linux-smart-enumeration|244.9e07dbe|Linux enumeration tool for pentesting and CTFs with verbosity levels.|https://github.com/diego-treitos/linux-smart-enumeration
 littleblackbox|0.1.3|Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.|http://code.google.com/p/littleblackbox/wiki/FAQ
 locasploit|117.fa48151|Local enumeration and exploitation framework.|https://github.com/lightfaith/locasploit
 logmepwn|22.a8882bd|A fully automated, reliable, super-fast, mass scanning and validation toolkit for the Log4J RCE CVE-44228 vulnerability.|https://github.com/0xInfection/LogMePwn
@@ -171,9 +171,9 @@ nray|59.30517fd|Distributed port scanner.|https://github.com/nray-scanner/nray
 nsec3map|20.1263537|A tool to enumerate the resource records of a DNS zone using its DNSSEC NSEC or NSEC3 chain.|https://github.com/anonion0/nsec3map
 ntlm-challenger|3.e7d3ba8|Parse NTLM over HTTP challenge messages.|https://github.com/b17zr/ntlm_challenger
 ntlm-scanner|6.4b29329|A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.|https://github.com/preempt/ntlm-scanner
-ntlmrecon|74.66ff853|A tool to enumerate information from NTLM authentication enabled web endpoints.|https://github.com/sachinkamath/ntlmrecon
-nuclei-templates|v8.9.6.r198.gcb122d447|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
-o-saft|4642.8a6a2f7|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
+ntlmrecon|75.da150d6|A tool to enumerate information from NTLM authentication enabled web endpoints.|https://github.com/sachinkamath/ntlmrecon
+nuclei-templates|v8.9.6.r295.g8c19fffb6|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates.git
+o-saft|4656.64996c1|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
 ocs|0.2|Compact mass scanner for Cisco routers with default telnet/enable passwords.|http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner.2.html
 onetwopunch|v1.0.0.r2.gd4ab4e8|Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.|https://github.com/superkojiman/onetwopunch
 onionscan|130.da42865|Scan Onion Services for Security Issues.|https://github.com/s-rah/onionscan
@@ -251,7 +251,7 @@ ssllabs-scan|249.a7f3d49|Command-line client for the SSL Labs APIs|https://githu
 sslmap|0.2.0|A lightweight TLS/SSL cipher suite scanner.|http://thesprawl.org/projects/latest/
 sslscan|2.0.13|A fast tool to scan SSL services such as HTTPS to determine supported ciphers|https://github.com/rbsec/sslscan
 sslscan2|637.5cea1d1|Tests SSL/TLS enabled services to discover supported cipher suites.|https://github.com/rbsec/sslscan
-stacs|0.4.5.r0.g1993d5a|Static Token And Credential Scanner.|https://github.com/stacscan/stacs
+stacs|0.4.6.r0.gbc6063a|Static Token And Credential Scanner.|https://github.com/stacscan/stacs
 sticky-keys-hunter|15.c816fc9|Script to test an RDP host for sticky keys and utilman backdoor.|https://github.com/ztgrace/sticky_keys_hunter
 stig-viewer|2.8|XCCDF formatted SRGs and STIGs files viewer for SCAP validation tools.|https://www.stig-viewer.com
 strutscan|4.8712c12|Apache Struts2 vulnerability scanner written in Perl.|https://github.com/riusksk/StrutScan
@@ -267,7 +267,7 @@ taipan|2.9.498.18|Web application security scanner.|https://github.com/enkomio/T
 takeover|98.a058647|Sub-Domain TakeOver Vulnerability Scanner.|https://github.com/m4ll0k/takeover
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.|https://github.com/toperaproject/topera
 traxss|81.48dee2e|Automated XSS Vulnerability Scanner.|https://github.com/M4cs/traxss
-trivy|0.26.0|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI|https://github.com/aquasecurity/trivy
+trivy|0.27.1|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI|https://github.com/aquasecurity/trivy
 udp-hunter|4.b95cce5|Network assessment tool for various UDP Services covering both IPv4 and IPv6 protocols.|https://github.com/NotSoSecure/udp-hunter
 udsim|25.df19f07|A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.|https://github.com/zombieCraig/UDSim/
 umap|25.3ad8121|The USB host security assessment tool.|https://github.com/nccgroup/umap
@@ -277,7 +277,7 @@ uptux|33.85ccfd0|Linux privilege escalation checks (systemd, dbus, socket fun, e
 uw-loveimap|0.1|Multi threaded imap bounce scanner.|http://uberwall.org/bin/download/45/UWloveimap.tgz
 uw-udpscan|0.1|Multi threaded udp scanner.|http://uberwall.org/bin/download/44/UWudpscan.tar.gz
 uw-zone|0.1|Multi threaded, randomized IP zoner.|http://uberwall.org/bin/download/43/UWzone.tgz
-v3n0m|484.7edc5bc|Offensive Security Tool for Vulnerability Scanning & Pentesting|https://github.com/v3n0m-Scanner/V3n0M-Scanner
+v3n0m|486.2e16dff|Offensive Security Tool for Vulnerability Scanning & Pentesting|https://github.com/v3n0m-Scanner/V3n0M-Scanner
 vais|17.5c35c3a|SWF Vulnerability & Information Scanner.|https://github.com/hahwul/vais
 vault-scanner|299.0303cf4|Swiss army knife for hackers.|https://github.com/abhisharma404/vault
 vcsmap|47.3889964|A plugin-based tool to scan public version control systems for sensitive information.|https://github.com/melvinsh/vcsmap
