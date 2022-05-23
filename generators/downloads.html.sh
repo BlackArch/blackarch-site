@@ -163,8 +163,6 @@ cat << EOF
               <div class=code-block>
                 <p># To list all of the available tools, run </p>
                 $ <span>sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u</span>
-                <p># To try to install all of the tools (2800+), PLEASE DON'T DO THIS and prefer to install only what you need</p>
-                $ <span>sudo pacman -S blackarch</span>
                 <p># To install a category of tools, run</p>
                 $ <span>sudo pacman -S blackarch-&lt;category&gt;</span>
                 <p># To see the blackarch categories, run</p>
