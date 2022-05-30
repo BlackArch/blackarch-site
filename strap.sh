@@ -42,6 +42,18 @@ make_tmp_dir()
   cd "$tmp" || err "Could not enter directory $tmp"
 }
 
+set_umask()
+{
+    OLD_UMASK=$(umask)
+    umask 0022
+    trap 'reset_umask' TERM
+}
+
+reset_umask()
+{
+    umask "$OLD_UMASK"
+}
+
 check_internet()
 {
   tool='curl'
@@ -169,6 +181,7 @@ blackarch_setup()
 {
   check_priv
   msg 'installing blackarch keyring...'
+  set_umask
   make_tmp_dir
   check_internet
   fetch_keyring
@@ -187,6 +200,7 @@ blackarch_setup()
   fi
   msg 'updating package databases'
   pacman_update
+  reset_umask
   msg 'BlackArch Linux is ready!'
 }
 
