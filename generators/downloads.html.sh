@@ -303,9 +303,12 @@ cat << EOF
               <a href="https://quantum-mirror.hu/mirrors/pub/blackarch/" target="_blank">https://quantum-mirror.hu/mirrors/pub/blackarch/</a><br>
               <a href="rsync://quantum-mirror.hu/blackarch" target="_blank">rsync://quantum-mirror.hu/blackarch</a>
               <br><br>
+              <img src="/images/flags/in.png" alt="India" /> India<br>
+              <a href="https://mirror.albony.xyz/blackarch/" target="_blank">https://mirror.albony.xyz/blackarch/</a>
+              <br><br>
               <img src="/images/flags/ir.png" alt="Iran" /> Iran<br>
               <a href="http://mirror.blackrepo.com/" target="_blank" itemprop="url">http://mirror.blackrepo.com/</a>
-              <!--<a href="https://mirror.blackrepo.com/" target="_blank">https://mirror.blackrepo.com/</a>-->
+              <a href="https://mirror.blackrepo.com/" target="_blank">https://mirror.blackrepo.com/</a>
               <br><br>
               <img src="/images/flags/it.png" alt="Italy" /> Italy<br>
               <a href="http://blackarch.mirror.garr.it/mirrors/blackarch/" target="_blank" itemprop="url">http://blackarch.mirror.garr.it/mirrors/blackarch/</a><br>

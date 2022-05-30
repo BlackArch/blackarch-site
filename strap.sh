@@ -44,14 +44,16 @@ make_tmp_dir()
 
 set_umask()
 {
-    OLD_UMASK=$(umask)
-    umask 0022
-    trap 'reset_umask' TERM
+  OLD_UMASK=$(umask)
+
+  umask 0022
+
+  trap 'reset_umask' TERM
 }
 
 reset_umask()
 {
-    umask "$OLD_UMASK"
+  umask $OLD_UMASK
 }
 
 check_internet()
