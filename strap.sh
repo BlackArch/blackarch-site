@@ -61,7 +61,7 @@ check_internet()
   tool='curl'
   tool_opts='-s --connect-timeout 8'
 
-  if ! $tool $tool_opts https://example.com/ > /dev/null 2>&1; then
+  if ! $tool $tool_opts https://blackarch.org/ > /dev/null 2>&1; then
     err "You don't have an Internet connection!"
   fi
 
