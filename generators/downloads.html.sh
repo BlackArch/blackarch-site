@@ -167,10 +167,12 @@ cat << EOF
                 $ <span>sudo pacman -S blackarch-&lt;category&gt;</span>
                 <p># To see the blackarch categories, run</p>
                 $ <span>sudo pacman -Sg | grep blackarch</span>
+                <p># To search for a specific package, run</p>
+                $ <span>pacman -Ss &lt;package_name&gt;</span>
                 <p># Note - it maybe be necessary to overwrite certain packages when installing blackarch tools. If<br>
                    # you experience "failed to commit transaction" errors, use the --needed and --overwrite switches<br>
                    # For example:</p>
-                $ <span>sudo pacman -Syyu --needed blackarch --overwrite='*'</span>
+                $ <span>sudo pacman -Syyu --needed --overwrite='*' &lt;wanted-package&gt;</span>
               </div>
               <p>The complete tool list of the BlackArch Linux repository can be found <a href="tools.html" target="_blank">here</a>.</p>
             </li>
