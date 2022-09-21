@@ -24,7 +24,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-				Packages that are used for tool or work ow ids.</p>
+				Packages that are used for tool or work on ids.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${IDS_COUNT}</a>
