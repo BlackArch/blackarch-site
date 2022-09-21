@@ -24,7 +24,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-Packages that operates on wireless networks on any level.</p>
+Packages that operate on wireless networks on any level.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${WIRELESS_COUNT}</a>

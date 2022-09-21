@@ -24,7 +24,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-                  Packages that scan selected systems for vulnerabilities or information about the network
+                  Packages related to steganography, hide / unhide messages in media (image, video, text, etc.) or help analyse concealed data.
                 </p>
                 <br />
                 <p>

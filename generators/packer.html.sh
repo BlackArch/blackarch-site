@@ -24,7 +24,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-Packages that operate on or invlove packers.</p>
+Packages that operate on or involve packers.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${PACKER_COUNT}</a>

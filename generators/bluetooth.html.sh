@@ -24,7 +24,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-				Packages that operate on binary  les in some form.</p>
+				Packages that operate on bluetooth in some form.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${BLUETOOTH_COUNT}</a>

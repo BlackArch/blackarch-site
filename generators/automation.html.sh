@@ -24,7 +24,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-				Packages that are used for tool or work ow automation.</p>
+				Packages that are used for tool or work on automation.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${AUTOMATION_COUNT}</a>

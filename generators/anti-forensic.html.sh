@@ -25,7 +25,7 @@ cat << EOF
             <div class="col-lg-12">
                 <p>
 				Packages that are used for countering forensic activities, including encryption, steganography, and
-				anything that modi es  les/ le attributes. This all includes tools to work with anything in general
+				anything that modifies attributes. This all includes tools to work with anything in general
 				that makes changes to a system for the purposes of hiding information.</p>
                 <br />
                 <p>
