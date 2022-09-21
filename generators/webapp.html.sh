@@ -23,7 +23,7 @@ cat << EOF
         <!-- Content Row -->
         <div class="row">
             <div class="col-lg-12">
-                <p>Packages that primarily attack social networking sites.</p>
+                <p>Packages that primarily target web application testing.</p>
 				<p>
                     <b>Tool count:</b> <a href="">${WEBAPP_COUNT}</a>
                     <input type="text" id="searchTools" onkeyup="searchTools()" placeholder="Input tool name" title="Type in a name">
