@@ -24,7 +24,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <p>
-Packages that are used to  nd data on physical disks or embedded memory.</p>
+Packages that are used to find data on physical disks or embedded memory.</p>
                 <br />
                 <p>
                     <b>Tool count:</b> <a href="">${FORENSIC_COUNT}</a>
