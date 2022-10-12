@@ -102,6 +102,10 @@ cat <<\EOF
                             <span class=faqco># chmod +x strap.sh</span><br>
                             <span class=faqco># sha1sum strap.sh</span>: it should match with the information on <a href=https://blackarch.org/downloads.html>downloads</a><br>
                             <span class=faqco># sh strap.sh</span><br><br>
+                            
+                            3<sup>rd</sup> option:<br>
+                            You could try to  temporarily switch to another mirror:<br>
+                            <span class=faqco>$ sudoedit /etc/pacman.d/blackarch-mirrorlist</span><br>
 
                             It's very important to follow the suggestions above as well as checking the Archlinux Wiki pages to assist you as needed. If you still encounter any problems, pay us a visit at <a href="https://matrix.to/#/#BlackArch:matrix.org">#BlackArch</a>.<br>
                             </div>
