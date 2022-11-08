@@ -102,7 +102,7 @@ cat <<\EOF
                             <span class=faqco># chmod +x strap.sh</span><br>
                             <span class=faqco># sha1sum strap.sh</span>: it should match with the information on <a href=https://blackarch.org/downloads.html>downloads</a><br>
                             <span class=faqco># sh strap.sh</span><br><br>
-                            
+
                             3<sup>rd</sup> option:<br>
                             You could try to  temporarily switch to another mirror:<br>
                             <span class=faqco>$ sudoedit /etc/pacman.d/blackarch-mirrorlist</span><br>
