@@ -35,7 +35,7 @@ aiodnsbrute|38.e773a4c|Python 3 DNS asynchronous brute force utility.| blackarch
 air|2.0.0|A GUI front-end to dd/dc3dd designed for easily creating forensic images.| blackarch-forensic |https://sourceforge.net/projects/air-imager/
 aircrack-ng|1.7|Key cracker for the 802.11 WEP and WPA-PSK protocols| blackarch-wireless |https://www.aircrack-ng.org
 airflood|0.1|A modification of aireplay that allows for a DoS of the AP. This program fills the table of clients of the AP with random MACs doing impossible new connections. [Tool in Spanish]| blackarch-wireless |http://packetstormsecurity.com/files/51127/airflood.1.tar.gz.html
-airgeddon|v11.02.r0.g9a12af4|Multi-use bash script for Linux systems to audit wireless networks.| blackarch-wireless |https://github.com/v1s1t0r1sh3r3/airgeddon
+airgeddon|v11.10.r0.g1813666|Multi-use bash script for Linux systems to audit wireless networks.| blackarch-wireless |https://github.com/v1s1t0r1sh3r3/airgeddon
 airopy|5.b83f11d|Get (wireless) clients and access points.| blackarch-wireless |https://github.com/Josue87/Airopy
 airoscript|45.0a122ee|A script to simplify the use of aircrack-ng tools.| blackarch-wireless |http://midnightresearch.com/projects/wicrawl/
 airpwn|1.4|A tool for generic packet injection on an 802.11 network.| blackarch-wireless |http://airpwn.sourceforge.net
@@ -403,7 +403,7 @@ crabstick|47.bb7827f|Automatic remote/local file inclusion vulnerability analysi
 cracken|v1.0.1.r0.g7a325ff|A ast password wordlist generator, Smartlist creation and password hybrid-mask analysis tool written in pure safe Rust.| blackarch-misc |https://github.com/shmuelamar/cracken
 crackhor|2.ae7d83f|A Password cracking utility.| blackarch-cracker |https://github.com/CoalfireLabs/crackHOR
 crackle|111.d83b4b6|Crack and decrypt BLE encryption.| blackarch-cracker |https://github.com/mikeryan/crackle/
-crackmapexec|v5.3.0.r28.g70c9681|A swiss army knife for pentesting Windows/Active Directory environments.| blackarch-scanner |https://github.com/Porchetta-Industries/CrackMapExec
+crackmapexec|v5.4.0.r12.g01ad675|A swiss army knife for pentesting Windows/Active Directory environments.| blackarch-scanner |https://github.com/Porchetta-Industries/CrackMapExec
 crackq|48.89b7318|Hashcrack.org GPU-accelerated password cracker.| blackarch-cracker |https://github.com/vnik5287/Crackq
 crackql|1.0.r51.ge96af25|GraphQL password brute-force and fuzzing utility| blackarch-webapp |https://github.com/nicholasaleks/CrackQL
 crackserver|33.e5763ab|An XMLRPC server for password cracking.| blackarch-cracker |https://github.com/averagesecurityguy/crack
@@ -496,7 +496,7 @@ dex2jar|2.1|A tool for converting Android's .dex format to Java's .class format|
 dexpatcher|1.7.0|Modify Android DEX/APK files at source-level using Java.| blackarch-mobile |https://github.com/DexPatcher/dexpatcher-tool
 dff-scanner|1.1|Tool for finding path of predictable resource locations.| blackarch-webapp |http://netsec.rs/70/tools.html
 dfir-ntfs|1.1.13|An NTFS parser for digital forensics & incident response.| blackarch-forensic |https://github.com/msuhanov/dfir_ntfs
-dftimewolf|524.ff1ac28c|Framework for orchestrating forensic collection, processing and data export .| blackarch-forensic |https://github.com/log2timeline/dftimewolf
+dftimewolf|529.5d78ffdb|Framework for orchestrating forensic collection, processing and data export .| blackarch-forensic |https://github.com/log2timeline/dftimewolf
 dga-detection|78.0a3186e|DGA Domain Detection using Bigram Frequency Analysis.| blackarch-recon |https://github.com/philarkwright/DGA-Detection
 dharma|98.6b1e511|Generation-based, context-free grammar fuzzer.| blackarch-fuzzer |https://github.com/MozillaSecurity/dharma
 dhcdrop|0.5|Remove illegal dhcp servers with IP-pool underflow.| blackarch-misc |http://www.netpatch.ru/dhcdrop.html
@@ -682,7 +682,7 @@ exescan|1.ad993e3|A tool to detect anomalies in PE (Portable Executable) files.|
 exitmap|369.172e763|A fast and modular scanner for Tor exit relays.| blackarch-recon |https://github.com/NullHypothesis/exitmap
 expimp-lookup|4.79a96c7|Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.| blackarch-binary |https://github.com/tr3w/ExpImp-Lookup
 exploit-db|1.6|The Exploit Database (EDB) – an ultimate archive of exploits and vulnerable software - A collection of hacks| blackarch-exploitation |http://www.exploit-db.com
-exploitdb|20221112|Offensive Security’s Exploit Database Archive| blackarch-exploitation |https://www.exploit-db.com/
+exploitdb|20221122|Offensive Security’s Exploit Database Archive| blackarch-exploitation |https://www.exploit-db.com/
 exploitpack|139.e565c47|Exploit Pack - The next generation exploit framework.| blackarch-exploitation |https://github.com/juansacco/exploitpack
 expose|1110.30264af|A Dynamic Symbolic Execution (DSE) engine for JavaScript| blackarch-binary |https://github.com/ExpoSEJS/ExpoSE
 exrex|144.9a66706|Irregular methods on regular expressions.| blackarch-misc |https://github.com/asciimoo/exrex
@@ -899,6 +899,8 @@ grabing|11.9c1aa6c|Counts all the hostnames for an IP adress| blackarch-recon |h
 grabitall|1.1|Performs traffic redirection by sending spoofed ARP replies.| blackarch-windows |http://ntsecurity.nu/toolbox/grabitall/
 graffiti|24.4af61b4|A tool to generate obfuscated one liners to aid in penetration testing.| blackarch-misc |https://github.com/Ekultek/Graffiti
 grammarinator|153.7dace54|A random test generator / fuzzer that creates test cases according to an input ANTLR v4 grammar.| blackarch-fuzzer |https://github.com/renatahodovan/grammarinator
+graphinder|1.11.5|GraphQL endpoints finder using subdomain enumeration, scripts analysis and bruteforce.| blackarch-recon |https://github.com/Escape-Technologies/graphinder
+graphql-cop|1.12.r0.ga171a6e|GraphQL vulnerability scanner.| blackarch-scanner |https://github.com/dolevf/graphql-cop
 graphql-path-enum|16.1a44883|Tool that lists the different ways of reaching a given type in a GraphQL schema.| blackarch-webapp |https://gitlab.com/dee-see/graphql-path-enum
 graphqlmap|51.98997bd|Scripting engine to interact with a graphql endpoint for pentesting purposes.| blackarch-webapp |https://github.com/swisskyrepo/GraphQLmap
 graphw00f|1.1.8.r2.g3e0aaae|GraphQL endpoint detection and engine fingerprinting.| blackarch-webapp |https://github.com/dolevf/graphw00f
