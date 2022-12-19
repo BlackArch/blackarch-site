@@ -324,6 +324,11 @@ cat << EOF
               <a href="http://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://ftp.kddilabs.jp/Linux/packages/blackarch/</a><br>
               <a href="https://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">https://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
               <br><br>
+              <img src="/images/flags/md.png" alt="Moldova" /> Moldova<br>
+              <a href="http://md.mirrors.hacktegic.com/blackarch/" target="_blank" itemprop="url">http://md.mirrors.hacktegic.com/blackarch/</a><br>
+              <a href="https://md.mirrors.hacktegic.com/blackarch/" target="_blank" itemprop="url">https://md.mirrors.hacktegic.com/blackarch/</a><br>
+              <a href="rsync://md.mirrors.hacktegic.com/blackarch/" target="_blank" itemprop="url">rsync://md.mirrors.hacktegic.com/blackarch/</a>
+              <br><br>
               <img src="/images/flags/nl.png" alt="Netherlands" /> Netherlands<br>
               <a href="http://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">http://mirror.serverion.com/blackarch/</a><br>
               <a href="https://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">https://mirror.serverion.com/blackarch/</a><br>
