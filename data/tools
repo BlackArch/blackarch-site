@@ -680,6 +680,7 @@ evtkit|8.af06db3|Fix acquired .evt - Windows Event Log files (Forensics).| black
 exabgp|4990.d3697ef5|The BGP swiss army knife of networking.| blackarch-networking |https://github.com/Exa-Networks/exabgp
 exe2image|1.1|A simple utility to convert EXE files to JPEG images and vice versa.| blackarch-backdoor |https://github.com/OsandaMalith/Exe2Image
 exescan|1.ad993e3|A tool to detect anomalies in PE (Portable Executable) files.| blackarch-binary |https://github.com/cysinfo/Exescan
+exiflooter|33.a92e697|Find geolocation on all image urls and directories also integrates with OpenStreetMap.| blackarch-forensic |https://github.com/aydinnyunus/exifLooter
 exitmap|369.172e763|A fast and modular scanner for Tor exit relays.| blackarch-recon |https://github.com/NullHypothesis/exitmap
 expimp-lookup|4.79a96c7|Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.| blackarch-binary |https://github.com/tr3w/ExpImp-Lookup
 exploit-db|1.6|The Exploit Database (EDB) – an ultimate archive of exploits and vulnerable software - A collection of hacks| blackarch-exploitation |http://www.exploit-db.com
@@ -863,7 +864,7 @@ gittools|70.7cac63a|A repository with 3 tools for pwn'ing websites with .git rep
 gloom|93.cd6e927|Linux Penetration Testing Framework.| blackarch-scanner |https://github.com/StreetSec/Gloom-Framework
 glue|380.8703380|A framework for running a series of tools.| blackarch-automation |https://github.com/OWASP/glue
 gmsadumper|14.558545e|A tool that Reads any gMSA password blobs the user can access and parses the values.| blackarch-misc |https://github.com/micahvandeusen/gMSADumper
-gnuradio|3.10.4.0|General purpose DSP and SDR toolkit. With drivers for usrp and fcd.| blackarch-wireless |https://gnuradio.org
+gnuradio|3.10.5.0|General purpose DSP and SDR toolkit with drivers for usrp and fcd.| blackarch-wireless |https://gnuradio.org
 gnutls2|2.12.23|A library which provides a secure layer over a reliable transport layer (Version 2)| blackarch-crypto |http://gnutls.org/
 gobd|82.3bbd17c|A Golang covert backdoor.| blackarch-backdoor |https://github.com/razc411/GoBD
 gobuster|354.c49ddbf|Directory/file & DNS busting tool written in Go.| blackarch-webapp |https://github.com/OJ/gobuster
@@ -1046,7 +1047,7 @@ hydra|9.4|Very fast network logon cracker which support many different services|
 hyenae|0.36_1|Flexible platform independent packet generator.| blackarch-networking |http://sourceforge.net/projects/hyenae/
 hyperfox|121.1a8c26f|A security tool for proxying and recording HTTP and HTTPs traffic.| blackarch-networking |https://github.com/xiam/hyperfox
 hyperion-crypter|2.3.1|A runtime encrypter for 32-bit and 64-bit portable executables.| blackarch-windows |http://nullsecurity.net/tools/binary.html
-i2pd|2.45.0|A full-featured C++ implementation of the I2P router| blackarch-networking |https://i2pd.website/
+i2pd|2.45.1|A full-featured C++ implementation of the I2P router| blackarch-networking |https://i2pd.website/
 iaito|5.8.0|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/iaito
 iaxflood|0.1|IAX flooder.| blackarch-dos |http://www.hackingexposedvoip.com/
 iaxscan|0.02|A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.| blackarch-scanner |http://code.google.com/p/iaxscan/
@@ -1364,7 +1365,7 @@ malybuzz|1.0|A Python tool focused in discovering programming faults in network 
 mana|68.56bcfcd|A toolkit for rogue access point (evilAP) attacks first presented at Defcon 22.| blackarch-wireless |https://github.com/sensepost/mana
 mando.me|9.8b34f1a|Web Command Injection Tool.| blackarch-webapp |https://github.com/z0noxz/mando.me
 manspider|56.e10bb6a|Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!| blackarch-scanner |https://github.com/blacklanternsecurity/MANSPIDER
-manticore|0.2.4.r399.g35744452|Symbolic execution tool.| blackarch-binary |https://github.com/trailofbits/manticore
+manticore|0.3.7.r68.gdc8c3c82|Symbolic execution tool.| blackarch-binary |https://github.com/trailofbits/manticore
 manul|197.f525df9|A coverage-guided parallel fuzzer for open-source and blackbox binaries on Windows, Linux and MacOS.| blackarch-fuzzer |https://github.com/mxmssh/manul
 mara-framework|176.ac4ac88|A Mobile Application Reverse engineering and Analysis Framework.| blackarch-mobile |https://github.com/xtiankisutsa/MARA_Framework
 marc4dasm|6.f11860f|This python-based tool is a disassembler for the Atmel MARC4 (a 4 bit Harvard micro).| blackarch-disassembler |https://github.com/ApertureLabsLtd/marc4dasm
@@ -2477,7 +2478,7 @@ token-hunter|343.3358a33|OSINT Tool - Search the group and group members' snippe
 token-reverser|10.cbb4528|Word list generator to crack security tokens.| blackarch-misc |https://github.com/dariusztytko/token-reverser
 tomcatwardeployer|98.4535e64|Apache Tomcat auto WAR deployment & pwning penetration testing tool.| blackarch-exploitation |https://github.com/mgeeky/tomcatWarDeployer
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.| blackarch-scanner |https://github.com/toperaproject/topera
-tor|0.4.7.12|Anonymizing overlay network.| blackarch-proxy |https://www.torproject.org/download/tor/
+tor|0.4.7.13|Anonymizing overlay network.| blackarch-proxy |https://www.torproject.org/download/tor/
 tor-autocircuit|0.2|Tor Autocircuit was developed to give users a finer control over Tor circuit creation. The tool exposes the functionality of TorCtl library which allows its users to control circuit length, speed, geolocation, and other parameters.| blackarch-defensive |http://www.thesprawl.org/projects/tor-autocircuit/
 tor-browser|12.0.1|Tor Browser Bundle: anonymous browsing using Firefox and Tor.| blackarch-defensive |https://www.torproject.org/projects/torbrowser.html.en
 tor-router|4.001a510|A tool that allow you to make TOR your default gateway and send all internet connections under TOR (as transparent proxy) for increase privacy/anonymity without extra unnecessary code.| blackarch-defensive |https://github.com/Edu4rdSHL/tor-router
@@ -2488,7 +2489,7 @@ torshammer|1.0|A slow POST Denial of Service testing tool written in Python.| bl
 torsocks|2.3.0|Wrapper to safely torify applications| blackarch-proxy |https://gitweb.torproject.org/torsocks.git/
 tpcat|latest|Tool based upon pcapdiff by the EFF. It will analyze two packet captures (taken on each side of the firewall as an example) and report any packets that were seen on the source capture but didn’t make it to the dest.| blackarch-misc |http://sourceforge.net/projects/tpcat/
 tplmap|719.616b0e5|Automatic Server-Side Template Injection Detection and Exploitation Tool.| blackarch-webapp |https://github.com/epinna/tplmap
-traceroute|2.1.0|Tracks the route taken by packets over an IP network| blackarch-recon |http://traceroute.sourceforge.net/
+traceroute|2.1.1|Tracks the route taken by packets over an IP network| blackarch-recon |http://traceroute.sourceforge.net/
 trape|132.6baae24|People tracker on the Internet: OSINT analysis and research tool by Jose Pino.| blackarch-social |https://github.com/jofpin/trape
 traxss|81.48dee2e|Automated XSS Vulnerability Scanner.| blackarch-scanner |https://github.com/M4cs/traxss
 treasure|2.b3249be|Hunt for sensitive information through githubs code search.| blackarch-recon |https://github.com/GuerrillaWarfare/Treasure
@@ -2820,6 +2821,7 @@ zirikatu|7.afe1d9c|Fud Payload generator script.| blackarch-exploitation |https:
 zizzania|124.8f2062f|Automated DeAuth attack.| blackarch-wireless |https://github.com/cyrus-and/zizzania
 zmap|2.1.1|Fast network scanner designed for Internet-wide network surveys| blackarch-scanner |https://zmap.io/
 zssh|1.5c|SSH and Telnet client with ZMODEM file transfer capability| blackarch-networking |http://zssh.sourceforge.net/
+zsteg|v0.2.11.r0.g93cad73|Detect stegano-hidden data in PNG and BMP.| blackarch-stego |https://github.com/zedxff/zsteg
 zulu|0.1|A light weight 802.11 wireless frame generation tool to enable fast and easy debugging and probing of 802.11 networks.| blackarch-cracker |http://sourceforge.net/projects/zulu-wireless/
 zulucrypt|6.2.0|Front end to cryptsetup and tcplay and it allows easy management of encrypted block devices.| blackarch-crypto |https://github.com/mhogomchungu/zuluCrypt
 zykeys|0.1|Demonstrates how default wireless settings are derived on some models of ZyXEL routers.| blackarch-wireless |http://packetstormsecurity.com/files/119156/Zykeys-Wireless-Tool.html
