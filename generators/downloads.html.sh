@@ -384,9 +384,9 @@ cat << EOF
               <img src="/images/flags/tw.png" alt="Taiwan" /> Taiwan<br>
               <a href="http://mirror.archlinux.tw/BlackArch/" target="_blank">http://mirror.archlinux.tw/BlackArch/</a><br>
               <a href="https://mirror.archlinux.tw/BlackArch/" target="_blank">https://mirror.archlinux.tw/BlackArch/</a><br>
-              <a href="http://blackarch.cs.nctu.edu.tw/" target="_blank">http://blackarch.cs.nctu.edu.tw/</a><br>
-              <a href="https://blackarch.cs.nctu.edu.tw/" target="_blank">https://blackarch.cs.nctu.edu.tw/</a><br>
-              <a href="rsync://blackarch.cs.nctu.edu.tw/blackarch/" target="_blank" itemprop="url">rsync://blackarch.cs.nctu.edu.tw/blackarch/</a>
+              <a href="http://blackarch.cs.nycu.edu.tw/" target="_blank">http://blackarch.cs.nycu.edu.tw/</a><br>
+              <a href="https://blackarch.cs.nycu.edu.tw/" target="_blank">https://blackarch.cs.nycu.edu.tw/</a><br>
+              <a href="rsync://blackarch.cs.nycu.edu.tw/blackarch/" target="_blank" itemprop="url">rsync://blackarch.cs.nycu.edu.tw/blackarch/</a>
               <br><br>
               <img src="/images/flags/us.png" alt="USA" />USA<br>
               <a href="http://blackarch.pr0s3c.nl/blackarch/" target="_blank" itemprop="url">http://blackarch.pr0s3c.nl/blackarch/</a><br>
