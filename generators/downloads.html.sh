@@ -62,24 +62,24 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-full-2021.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Full ISO</a></td>
-                  <td itemprop="datePublished">2021.09.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-full-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>18 GB</td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-full-2023.04.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Full ISO</a></td>
+                  <td itemprop="datePublished">2023.04.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-full-2023.04.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td>22 GB</td>
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
-                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-slim-2021.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Slim ISO</a></td>
-                  <td itemprop="datePublished">2021.09.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-slim-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>4.4 GB</td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-slim-2023.04.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Slim ISO</a></td>
+                  <td itemprop="datePublished">2023.04.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-slim-2023.04.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td>5.5 GB</td>
                   <td>${SLIM_CHECKSUM}</td>
                 </tr>
                 <tr>
-                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2021.09.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
-                  <td itemprop="datePublished">2021.09.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2021.09.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>886 MB</td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-netinst-2023.04.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Netinstall ISO</a></td>
+                  <td itemprop="datePublished">2023.04.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-netinst-2023.04.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td>815 MB</td>
                   <td>${NET_CHECKSUM}</td>
                 </tr>
               </table>
@@ -123,10 +123,10 @@ cat << EOF
                   <td><b>SHA1sum</b></td>
                 </tr>
                 <tr>
-                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2021.09.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
-                  <td itemprop="datePublished">2021.09.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-2021.09.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
-                  <td>25 GB</td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/ova/blackarch-linux-2023.04.01.ova" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit OVA Image</a></td>
+                  <td itemprop="datePublished">2023.04.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-2023.04.01.ova.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td>29 GB</td>
                   <td>${OVA_CHECKSUM}</td>
                 </tr>
               </table>
