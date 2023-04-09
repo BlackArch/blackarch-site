@@ -490,6 +490,7 @@ depant|0.3a|Check network for services with default passwords.| blackarch-cracke
 depdep|2.0|A merciless sentinel which will seek sensitive files containing critical info leaking through your network.| blackarch-networking |https://github.com/galkan/depdep
 dependency-check|6.5.3|A tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies.| blackarch-defensive |https://github.com/jeremylong/DependencyCheck/releases/
 depix|38.f7d1850|A tool for recovering passwords from pixelized screenshots.| blackarch-misc |https://github.com/beurtschipper/Depix
+der-ascii|84.031bca8|A reversible DER and BER pretty-printer.| blackarch-misc |https://github.com/google/der-ascii
 det|31.417cbce|(extensible) Data Exfiltration Toolkit.| blackarch-networking |https://github.com/sensepost/det
 detect-it-easy|3.02|A program for determining types of files.| blackarch-binary |https://github.com/horsicq/DIE-engine/releases
 detect-secrets|v1.4.0.r4.g34f86b0|An enterprise friendly way of detecting and preventing secrets in code.| blackarch-code-audit |https://github.com/Yelp/detect-secrets
@@ -857,6 +858,7 @@ gitdump|1.682fa37|A pentesting tool that dumps the source code from .git even wh
 gitem|104.d40a1c9|A Github organization reconnaissance tool.| blackarch-recon |https://github.com/mschwager/gitem
 gitgraber|67.72e5850|Monitor GitHub to search and find sensitive data in real time for different online services.| blackarch-recon |https://github.com/hisxo/gitGraber
 githack|16.a3d70b1|A `.git` folder disclosure exploit.| blackarch-recon |https://github.com/lijiejie/githack
+githound|v1.6.2.r0.gc8daed6|Find secret information in git repositories.| blackarch-code-audit |https://github.com/tillson/git-hound
 github-dorks|79.bc65a29|Collection of github dorks and helper tool to automate the process of checking dorks.| blackarch-recon |https://github.com/techgaun/github-dorks
 githubcloner|35.2bcb9c2|A script that clones Github repositories of users and organizations automatically.| blackarch-misc |https://github.com/mazen160/GithubCloner
 gitleaks|907.8a31f4a|Audit Git repos for secrets and keys.| blackarch-recon |https://github.com/zricethezav/gitleaks
@@ -1452,6 +1454,7 @@ moloch|0.11.3|An open source large scale IPv4 full PCAP capturing, indexing and 
 mongoaudit|222.70b83e8|A powerful MongoDB auditing and pentesting tool .| blackarch-scanner |https://github.com/stampery/mongoaudit
 monocle|1.0|A local network host discovery tool. In passive mode, it will listen for ARP request and reply packets. In active mode, it will send ARP requests to the specific IP range. The results are a list of IP and MAC addresses present on the local network.| blackarch-recon |http://packetstormsecurity.com/files/99823/Monocle-Host-Discovery-Tool.0.html
 monsoon|261.f4f9852|A fast HTTP enumerator that allows you to execute a large number of HTTP requests.| blackarch-webapp |https://github.com/RedTeamPentesting/monsoon
+moonwalk|v1.0.0.r18.g68d5be1|Cover your tracks during Linux Exploitation by leaving zero traces on system logs and filesystem timestamps.| blackarch-exploitation |https://github.com/mufeedvh/moonwalk
 mooscan|10.82963b0|A scanner for Moodle LMS.| blackarch-webapp |https://github.com/vortexau/mooscan
 morpheus|165.5d81c9e|Automated Ettercap TCP/IP Hijacking Tool.| blackarch-automation |https://github.com/r00txp10it/morpheus
 morxbook|1.0|A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS.| blackarch-cracker |http://www.morxploit.com/
@@ -2088,7 +2091,7 @@ sb0x|19.04f40fe|A simple and Lightweight framework for Penetration testing.| bla
 sbd|1.36|Netcat-clone, portable, offers strong encryption - features AES-CBC + HMAC-SHA1 encryption, program execution (-e), choosing source port, continuous reconnection with delay + more| blackarch-crypto |http://www2.packetstormsecurity.org/cgi-bin/search/search.cgi?searchvalue=sbd
 sc-make|12.7e39718|Tool for automating shellcode creation.| blackarch-exploitation |https://github.com/t00sh/sc-make
 scalpel|1.1687261|A frugal, high performance file carver.| blackarch-forensic |http://www.digitalforensicssolutions.com/Scalpel/
-scamper|20211212a|A tool that actively probes the Internet in order to analyze topology and performance.| blackarch-scanner |http://www.caida.org/tools/measurement/scamper/
+scamper|20230323|A tool that actively probes the Internet in order to analyze topology and performance.| blackarch-scanner |http://www.caida.org/tools/measurement/scamper/
 scanless|86.6e083d7|Utility for using websites that can perform port scans on your behalf.| blackarch-scanner |https://github.com/vesche/scanless
 scanmem|0.17|Memory scanner designed to isolate the address of an arbitrary variable in an executing process| blackarch-reversing |https://github.com/scanmem/scanmem
 scannerl|15.e52c46b|The modular distributed fingerprinting engine.| blackarch-fingerprint |https://github.com/kudelskisecurity/scannerl
@@ -2165,6 +2168,7 @@ shocker|64.d3f7603|A tool to find and exploit servers vulnerable to Shellshock.|
 shodanhat|13.e5e7e68|Search for hosts info with shodan.| blackarch-recon |https://github.com/HatBashBR/ShodanHat
 shootback|83.cab462c|A reverse TCP tunnel let you access target behind NAT or firewall.| blackarch-backdoor |https://github.com/aploium/shootback
 shortfuzzy|0.1|A web fuzzing script written in perl.| blackarch-webapp |http://packetstormsecurity.com/files/104872/Short-Fuzzy-Rat-Scanner.html
+shosubgo|2.0.r19.g6e8d48c|Small tool to Grab subdomains using Shodan API.| blackarch-recon |https://github.com/incogbyte/shosubgo
 shreder|87.814adb4|A powerful multi-threaded SSH protocol password bruteforce tool.| blackarch-cracker |https://github.com/EntySec/Shreder
 shuffledns|227.a2ae07f|A wrapper around massdns written in GO.| blackarch-webapp |https://github.com/projectdiscovery/shuffledns.git
 sickle|73.e14c0bb|A shellcode development tool, created to speed up the various steps needed to create functioning shellcode.| blackarch-exploitation |https://github.com/wetw0rk/Sickle
@@ -2482,6 +2486,7 @@ tls-map|v2.1.0.r54.g13b6ecf|CLI & library for TLS cipher suites manipulation.| b
 tls-prober|286.72b1029|A tool to fingerprint SSL/TLS servers.| blackarch-fingerprint |https://github.com/WestpointLtd/tls_prober
 tlsenum|78.787c88b|A command line tool to enumerate TLS cipher-suites supported by a server.| blackarch-crypto |https://github.com/Ayrx/tlsenum
 tlsfuzzer|1412.0e48d57|SSL and TLS protocol test suite and fuzzer.| blackarch-crypto |https://github.com/tomato42/tlsfuzzer
+tlshelpers|21.6e422be|A collection of shell scripts that help handling X.509 certificate and TLS issues.| blackarch-crypto |https://github.com/hannob/tlshelpers
 tlspretense|v0.6.2.r22.g0a5faf4|SSL/TLS client testing framework.| blackarch-crypto |https://github.com/iSECPartners/tlspretense
 tlssled|1.3|A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.| blackarch-automation |http://blog.taddong.com/2011/05/tlssled-v10.html
 tlsx|v1.0.6.r3.g55ee7ec|TLS grabber focused on TLS based data collection.| blackarch-scanner |https://github.com/projectdiscovery/tlsx
