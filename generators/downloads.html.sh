@@ -69,9 +69,9 @@ cat << EOF
                   <td>${LIVE_CHECKSUM}</td>
                 </tr>
                 <tr>
-                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-slim-2023.04.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Slim ISO</a></td>
-                  <td itemprop="datePublished">2023.04.01</td>
-                  <td><a href="/blackarch/torrent/blackarch-linux-slim-2023.04.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
+                  <td><a href="https://ftp.halifax.rwth-aachen.de/blackarch/iso/blackarch-linux-slim-2023.05.01-x86_64.iso" itemprop="fileFormat" type="application/x-iso9660-image">BlackArch Linux 64 bit Slim ISO</a></td>
+                  <td itemprop="datePublished">2023.05.01</td>
+                  <td><a href="/blackarch/torrent/blackarch-linux-slim-2023.05.01-x86_64.iso.torrent" itemprop="fileFormat" type="application/octet-stream">Torrent</a></td>
                   <td>5.5 GB</td>
                   <td>${SLIM_CHECKSUM}</td>
                 </tr>
