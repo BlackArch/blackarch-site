@@ -129,6 +129,7 @@ avaloniailspy|v7.2.rc.r1.ge6562c2|.NET Decompiler (port of ILSpy)| blackarch-dec
 avet|133.2f1d882|AntiVirus Evasion Tool| blackarch-binary |https://github.com/govolution/avet
 avml|v0.6.1.r11.g155f084|A portable volatile memory acquisition tool for Linux.| blackarch-misc |https://github.com/microsoft/avml
 aws-extender-cli|17.a351154|Script to test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues.| blackarch-scanner |https://github.com/VirtueSecurity/aws-extender-cli
+aws-iam-privesc|7.b247116|AWS IAM policy scanner that helps determine where privilege escalation can be achieved.| blackarch-scanner |https://github.com/cyberqueenmeg/aws_iam_privesc
 aws-inventory|19.9a2fa8e|Discover resources created in an AWS account.| blackarch-recon |https://github.com/nccgroup/aws-inventory
 awsbucketdump|82.4684670|A tool to quickly enumerate AWS S3 buckets to look for loot.| blackarch-automation |https://github.com/jordanpotti/AWSBucketDump
 azazel|15.a41fbb5|A userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit.| blackarch-backdoor |https://github.com/chokepoint/azazel
@@ -401,7 +402,7 @@ cottontail|93.b7f5222|Capture all RabbitMQ messages being sent through a broker.
 cowpatty|4.8|Wireless WPA/WPA2 PSK handshake cracking utility| blackarch-wireless |https://github.com/joswr1ght/cowpatty
 cpfinder|0.1|Simple script that looks for administrative web interfaces.| blackarch-scanner |http://packetstormsecurity.com/files/118851/Control-Panel-Finder-Script.html
 cpp2il|2022.0.7.r14.g7a14115|A tool to reverse unity's IL2PP toolchain| blackarch-binary |https://github.com/SamboyCoding/Cpp2IL
-cppcheck|2.11|A tool for static C/C++ code analysis| blackarch-code-audit |http://cppcheck.sourceforge.net/
+cppcheck|2.11.1|A tool for static C/C++ code analysis| blackarch-code-audit |http://cppcheck.sourceforge.net/
 cpptest|2.0.0|A portable and powerful, yet simple, unit testing framework for handling automated tests in C++.| blackarch-code-audit |https://github.com/cpptest/cpptest/releases
 cr3dov3r|46.99a1660|Search for public leaks for email addresses + check creds against 16 websites.| blackarch-recon |https://github.com/D4Vinci/Cr3dOv3r
 crabstick|47.bb7827f|Automatic remote/local file inclusion vulnerability analysis and exploit tool.| blackarch-webapp |https://github.com/Hack-Hut/CrabStick
@@ -573,6 +574,7 @@ domainhunter|51.38cb7ef|Checks expired domains for categorization/reputation and
 domato|123.8083920|DOM fuzzer.| blackarch-fuzzer |https://github.com/googleprojectzero/domato
 domi-owned|41.583d0a5|A tool used for compromising IBM/Lotus Domino servers.| blackarch-webapp |https://github.com/coldfusion39/domi-owned
 domlink|37.1cabd5d|A tool to link a domain with registered organisation names and emails, to other domains.| blackarch-misc |https://github.com/vysecurity/DomLink
+donpapi|v1.0.0.r61.gfb87978|Dumping revelant information on compromised targets without AV detection with DPAPI.| blackarch-windows |https://github.com/login-securite/DonPAPI
 dontgo403|0.9.1.r1.ga74085f|Tool to bypass 40X response codes..| blackarch-webapp |https://github.com/devploit/dontgo403
 donut|501.61af8cc|Generates x86, x64 or AMD64+x86 P.I. shellcode loading .NET Assemblies from memory.| blackarch-backdoor |https://github.com/TheWover/donut
 doona|145.7a4796c|A fork of the Bruteforce Exploit Detector Tool (BED).| blackarch-fuzzer |https://github.com/wireghoul/doona
@@ -759,7 +761,7 @@ firstexecution|6.a275793|A Collection of different ways to execute code outside 
 firstorder|8.107eb6a|A traffic analyzer to evade Empire communication from Anomaly-Based IDS.| blackarch-sniffer |https://github.com/tearsecurity/firstorder
 fl0p|0.1|A passive L7 flow fingerprinter that examines TCP/UDP/ICMP packet sequences, can peek into cryptographic tunnels, can tell human beings and robots apart, and performs a couple of other infosec-related tricks.| blackarch-fingerprint |http://lcamtuf.coredump.cx/
 flare|0.6|Flare processes an SWF and extracts all scripts from it.| blackarch-misc |http://www.nowrap.de/flare.html
-flare-floss|860.7138b61|Obfuscated String Solver - Automatically extract obfuscated strings from malware.| blackarch-malware |https://github.com/fireeye/flare-floss
+flare-floss|v2.3.0.r40.ge0a040c|Obfuscated String Solver - Automatically extract obfuscated strings from malware.| blackarch-malware |https://github.com/mandiant/flare-floss
 flashlight|109.90d1dc5|Automated Information Gathering Tool for Penetration Testers.| blackarch-recon |https://github.com/galkan/flashlight
 flashscanner|11.6815b02|Flash XSS Scanner.| blackarch-scanner |https://github.com/riusksk/FlashScanner
 flashsploit|23.c465a6d|Exploitation Framework for ATtiny85 Based HID Attacks.| blackarch-exploitation |https://github.com/thewhiteh4t/flashsploit
@@ -1912,6 +1914,7 @@ python-keylogger|2.7.3|Simple keystroke logger.| blackarch-keylogger |https://gi
 python-mmbot|78.f5f5478|Powerful malicious file triage tool for cyber responders.| blackarch-malware |https://github.com/egaus/MaliciousMacroBot
 python-oletools|0.60.1|Tools to analyze Microsoft OLE2 files.| blackarch-binary |https://pypi.org/project/oletools/
 python-pcodedmp|1.2.6|A VBA p-code disassembler.| blackarch-disassembler |https://pypi.org/project/pcodedmp/#files
+python-peid|1.2.9|Python implementation of the Packed Executable iDentifier (PEiD).| blackarch-binary |
 python-pwntools|4.10.0|CTF framework and exploit development library| blackarch-disassembler |https://github.com/Gallopsled/pwntools
 python-search-engine-parser|0.6.8|Scrapes search engine pages for query titles, descriptions and links.| |https://pypi.org/project/search-engine-parser/#files
 python-shodan|1.29.1|The official Python library and CLI for Shodan| blackarch-recon |https://shodan.readthedocs.io/
@@ -2630,7 +2633,7 @@ viproy-voipkit|82.52b27db|VoIP Pen-Test Kit for Metasploit Framework.| blackarch
 virustotal|4.9aea023|Command-line utility to automatically lookup on VirusTotal all files recursively contained in a directory.| blackarch-malware |https://github.com/botherder/virustotal
 visql|49.3082e30|Scan SQL vulnerability on target site and sites of on server.| blackarch-scanner |https://github.com/blackvkng/viSQL
 visualize-logs|118.d2e370e|A Python library and command line tools to provide interactive log visualization.| blackarch-misc |https://github.com/keithjjones/visualize_logs
-vivisect|1705.d3b3d869|A Python based static analysis and reverse engineering framework.| blackarch-debugger |http://visi.kenshoto.com/
+vivisect|v1.1.1.r9.g10ac9732|A Python based static analysis and reverse engineering framework.| blackarch-debugger |https://github.com/vivisect/vivisect
 vlan-hopping|21.a37ba4e|Easy 802.1Q VLAN Hopping| blackarch-automation |https://github.com/nccgroup/vlan-hopping
 vlany|255.9ef014a|Linux LD_PRELOAD rootkit (x86 and x86_64 architectures).| blackarch-backdoor |https://github.com/mempodippy/vlany
 vmap|0.3|A Vulnerability-Exploit desktop finder.| blackarch-exploitation |https://github.com/git-rep/vmap
