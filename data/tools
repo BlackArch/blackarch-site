@@ -324,6 +324,7 @@ chapcrack|17.ae2827f|A tool for parsing and decrypting MS-CHAPv2 network handsha
 cheat-sh|6|The only cheat sheet you need.| blackarch-automation |https://cheat.sh
 check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker.| blackarch-scanner |http://packetstormsecurity.com/files/66683/check_weak_dh_ssh.pl.bz2.html
 checkiban|0.2|Checks the validity of an International Bank Account Number (IBAN).| blackarch-misc |http://kernel.embedromix.ro/us/
+checkov|2.5.11.r0.gf20abfc4d|Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.| blackarch-code-audit |https://github.com/bridgecrewio/checkov
 checksec|2.6.0|Tool designed to test which standard Linux OS and PaX security features are being used| blackarch-automation |https://github.com/slimm609/checksec.sh
 chiasm-shell|33.e20ed9f|Python-based interactive assembler/disassembler CLI, powered byKeystone/Capstone.| blackarch-disassembler |https://github.com/0xbc/chiasm-shell
 chipsec|1938.2b531e67|Platform Security Assessment Framework.| blackarch-hardware |https://github.com/chipsec/chipsec
@@ -2094,7 +2095,7 @@ rww-attack|0.9.2|Performs a dictionary attack against a live Microsoft Windows S
 rz-cutter|2.3.2|Qt and C++ GUI for rizin reverse engineering framework| blackarch-reversing |https://github.com/rizinorg/cutter
 rz-ghidra|0.6.0|Deep ghidra decompiler integration for rizin and rz-cutter| blackarch-reversing |https://github.com/rizinorg/rz-ghidra
 s3-fuzzer|4.0a2a6f0|A concurrent, command-line AWS S3 Fuzzer.| blackarch-fuzzer |https://github.com/petermbenjamin/s3-fuzzer
-s3scanner|449.6a6fb06|Scan for open S3 buckets and dump.| blackarch-scanner |https://github.com/sa7mon/S3Scanner
+s3scanner|451.7e470a9|A tool to find open S3 buckets in AWS or other cloud providers.| blackarch-scanner |https://github.com/sa7mon/S3Scanner
 safecopy|1.7|A disk data recovery tool to extract data from damaged media.| blackarch-forensic |http://safecopy.sourceforge.net/
 sagan|2.0.2|A snort-like log analysis engine.| blackarch-ids |https://quadrantsec.com/sagan_log_analysis_engine/
 sakis3g|0.2.0e|An all-in-one script for connecting with 3G.| blackarch-automation |http://www.sakis3g.org/
@@ -2541,7 +2542,7 @@ trevorspray|2.2.1|A modular password sprayer with threading, clever proxying, lo
 trid|2.24|An utility designed to identify file types from their binary signatures.| blackarch-forensic |http://mark0.net/soft-trid-e.html
 trinity|5192.e7187245|A Linux System call fuzzer.| blackarch-fuzzer |http://codemonkey.org.uk/projects/trinity/
 triton|4125.a61651ce|A Dynamic Binary Analysis (DBA) framework.| blackarch-binary |https://github.com/JonathanSalwan/Triton
-trivy|0.45.1|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI| blackarch-scanner |https://github.com/aquasecurity/trivy
+trivy|0.46.0|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI| blackarch-scanner |https://github.com/aquasecurity/trivy
 trixd00r|0.0.1|An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.| blackarch-backdoor |http://nullsecurity.net/tools/backdoor.html
 truecrack|35|Password cracking for truecrypt(c) volumes.|blackarch-cracker|http://code.google.com/p/truecrack/
 truegaze|117.c3f26bc|Static analysis tool for Android/iOS apps focusing on security issues outside the source code.| blackarch-mobile |https://github.com/nightwatchcybersecurity/truegaze
@@ -2783,7 +2784,7 @@ wpbrute-rpc|3.e7d8145|Tool for amplified bruteforce attacks on wordpress based w
 wpbullet|34.6185112|A static code analysis for WordPress (and PHP).| blackarch-code-audit |https://github.com/webarx-security/wpbullet
 wpforce|88.b72ec64|Wordpress Attack Suite.| blackarch-webapp |https://github.com/n00py/WPForce
 wpintel|6.741c0c9|Chrome extension designed for WordPress Vulnerability Scanning and information gathering.| blackarch-webapp |https://github.com/Tuhinshubhra/WPintel
-wpscan|3.8.24|Black box WordPress vulnerability scanner| blackarch-webapp |https://wpscan.org
+wpscan|3.8.25|Black box WordPress vulnerability scanner| blackarch-webapp |https://wpscan.org
 wpseku|39.862fb2c|Simple Wordpress Security Scanner.| blackarch-webapp |https://github.com/m4ll0k/WPSeku
 wpsik|8.8d3856b|WPS scan and pwn tool.| blackarch-wireless |https://github.com/0x90/wpsik
 wpsweep|1.0|A simple ping sweeper, that is, it pings a range of IP addresses and lists the ones that reply.| blackarch-windows |http://ntsecurity.nu/toolbox/wpsweep/
