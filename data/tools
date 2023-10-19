@@ -324,7 +324,7 @@ chapcrack|17.ae2827f|A tool for parsing and decrypting MS-CHAPv2 network handsha
 cheat-sh|6|The only cheat sheet you need.| blackarch-automation |https://cheat.sh
 check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker.| blackarch-scanner |http://packetstormsecurity.com/files/66683/check_weak_dh_ssh.pl.bz2.html
 checkiban|0.2|Checks the validity of an International Bank Account Number (IBAN).| blackarch-misc |http://kernel.embedromix.ro/us/
-checkov|2.5.11.r0.gf20abfc4d|Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.| blackarch-code-audit |https://github.com/bridgecrewio/checkov
+checkov|2.5.13.r0.gbdf356b1d|Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.| blackarch-code-audit |https://github.com/bridgecrewio/checkov
 checksec|2.6.0|Tool designed to test which standard Linux OS and PaX security features are being used| blackarch-automation |https://github.com/slimm609/checksec.sh
 chiasm-shell|33.e20ed9f|Python-based interactive assembler/disassembler CLI, powered byKeystone/Capstone.| blackarch-disassembler |https://github.com/0xbc/chiasm-shell
 chipsec|1938.2b531e67|Platform Security Assessment Framework.| blackarch-hardware |https://github.com/chipsec/chipsec
@@ -752,7 +752,7 @@ find-dns|0.1|A tool that scans networks looking for DNS servers.| blackarch-scan
 find3|604.5964026|High-precision indoor positioning framework.| blackarch-misc |https://github.com/schollz/find3
 findmyhash|1.1.2|Crack different types of hashes using free online services.| blackarch-crypto |https://code.google.com/archive/p/findmyhash/
 findmyiphone|19.aef3ac8|Locates all devices associated with an iCloud account| blackarch-mobile |https://github.com/manwhoami/findmyiphone
-findomain|9.0.1|The fastest and cross-platform subdomain enumerator, do not waste your time| blackarch-recon |https://github.com/Findomain/Findomain
+findomain|9.0.2|The fastest and cross-platform subdomain enumerator, do not waste your time| blackarch-recon |https://github.com/Findomain/Findomain
 findsploit|87.3e61d8d|Find exploits in local and online databases instantly.| blackarch-automation |https://github.com/1N3/findsploit
 fingerprinter|480.105ab04|CMS/LMS/Library etc Versions Fingerprinter.| blackarch-webapp |https://github.com/erwanlr/Fingerprinter
 firecat|6.b5205c8|A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.| blackarch-networking |https://github.com/BishopFox/firecat
@@ -971,6 +971,7 @@ hasher|48.40173c5|A tool that allows you to quickly hash plaintext strings, or c
 hashfind|8.e9a9a14|A tool to search files for matching password hash types and other interesting data.| blackarch-crypto |https://github.com/rurapenthe/hashfind
 hashid|397.7e8473a|Software to identify the different types of hashes used to encrypt data.| blackarch-crypto |https://github.com/psypanda/hashID
 hashpump|49.314268e|A tool to exploit the hash length extension attack in various hashing algorithms.| blackarch-crypto |https://github.com/bwall/HashPump
+hashrat|1.15|Hashing tool supporting MD5, SHA1, SHA256, SHA512, Whirlpool, JH and their HMAC.| blackarch-crypto |https://github.com/ColumPaget/Hashrat
 hashtag|0.41|A python script written to parse and identify password hashes.| blackarch-cracker |https://github.com/SmeegeSec/HashTag
 hatcloud|33.3012ad6|Bypass CloudFlare with Ruby.| blackarch-recon |https://github.com/HatBashBR/HatCloud
 hate-crack|202.2c04108|A tool for automating cracking methodologies through Hashcat.| blackarch-automation |https://github.com/trustedsec/hate_crack
@@ -1223,7 +1224,7 @@ katana-framework|1.0.0.1|A framework that seekss to unite general auditing tools
 katana-pd|v1.0.4.r0.g3558f38|Crawling and spidering framework.| blackarch-webapp |https://github.com/projectdiscovery/katana
 katsnoop|0.1|Utility that sniffs HTTP Basic Authentication information and prints the base64 decoded form.| blackarch-sniffer |http://packetstormsecurity.com/files/52514/katsnoop.tbz2.html
 kautilya|52.1c9d5b0|Pwnage with Human Interface Devices using Teensy++2.0 and Teensy 3.0 devices.| blackarch-hardware |https://github.com/samratashok/Kautilya/releases
-kcptun|20230811|A Secure Tunnel Based On KCP with N:M Multiplexing| blackarch-tunnel |https://github.com/xtaci/kcptun
+kcptun|20231012|A Secure Tunnel Based On KCP with N:M Multiplexing| blackarch-tunnel |https://github.com/xtaci/kcptun
 keimpx|300.37190f4|Tool to verify the usefulness of credentials across a network over SMB.| blackarch-cracker |http://code.google.com/p/keimpx/
 kekeo|2.2.0_20211214|A little toolbox to play with Microsoft Kerberos in C.| blackarch-windows |https://github.com/gentilkiwi/kekeo
 kerbcrack|1.3d3|Kerberos sniffer and cracker for Windows.| blackarch-windows |http://ntsecurity.nu/toolbox/kerbcrack/
@@ -2592,7 +2593,7 @@ unicornscan|0.4.7|A new information gathering and correlation engine.| blackarch
 unifuzzer|5.3385a3b|A fuzzing tool for closed-source binaries based on Unicorn and LibFuzzer.| blackarch-fuzzer |https://github.com/rk700/uniFuzzer
 uniofuzz|1337|The universal fuzzing tool for browsers, web services, files, programs and network services/ports| blackarch-fuzzer |http://nullsecurity.net/tools/fuzzer.html
 uniscan|6.3|A simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.| blackarch-fuzzer |http://sourceforge.net/projects/uniscan/
-unisec|0.0.2|Unicode Security Toolkit.| blackarch-misc |https://acceis.github.io/unisec
+unisec|0.0.3|Unicode Security Toolkit.| blackarch-misc |https://acceis.github.io/unisec
 unix-privesc-check|1.4|Tries to find misconfigurations that could allow local unprivilged users to escalate privileges to other users or to access local apps (e.g. databases).| blackarch-automation |http://pentestmonkey.net/tools/audit/unix-privesc-check
 unsecure|1.2|Bruteforces network login masks.| blackarch-windows |http://www.sniperx.net/
 unstrip|13.05e00c2|ELF Unstrip Tool.| blackarch-disassembler |https://github.com/pzread/unstrip
@@ -2853,7 +2854,7 @@ yeti|2483.753adfbf|A platform meant to organize observables, indicators of compr
 yinjector|0.1|A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods.| blackarch-exploitation |http://packetstormsecurity.com/files/98359/yInjector-MySQL-Injection-Tool.html
 ysoserial|0.0.6|A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.| blackarch-webapp |https://github.com/frohoff/ysoserial
 zackattack|5.1f96c14|A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.| blackarch-networking |https://github.com/urbanesec/ZackAttack/
-zaproxy|2.12.0|Integrated penetration testing tool for finding vulnerabilities in web applications| blackarch-webapp |https://www.owasp.org/index.php/ZAP
+zaproxy|2.14.0|Integrated penetration testing tool for finding vulnerabilities in web applications| blackarch-webapp |https://www.owasp.org/index.php/ZAP
 zarp|0.1.8|A network attack tool centered around the exploitation of local networks.| blackarch-exploitation |https://defense.ballastsecurity.net/wiki/index.php/Zarp
 zdns|249.bfbfae2|Fast CLI DNS Lookup Tool.| blackarch-networking |https://github.com/zmap/zdns
 zeek|v6.1.0.dev.r496.gc0e209f87|A powerful network analysis framework that is much different from the typical IDS you may know.| blackarch-networking |https://github.com/zeek/zeek
