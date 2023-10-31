@@ -83,18 +83,18 @@ cat <<EOF
                                     <td><b>Role</b></td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Alia Morozova</td>
-                                    <td itemprop="additionalName">anunna</td>
-                                    <td itemprop="email">anunna@blackarch.org</td>
-                                    <td><a href="gpgkeys/anunna.asc" target="_blank">0xE6A67BD79DB34F2F</a></td>
-                                    <td>Developer, Queen</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Levon Kayan</td>
                                     <td itemprop="additionalName">noptrix</td>
                                     <td itemprop="email">noptrix@blackarch.org</td>
                                     <td><a href="gpgkeys/noptrix.asc" target="_blank">0xD235838E6231C179</a></td>
-                                    <td itemprop="jobTitle">Leader, Troll</td>
+                                    <td itemprop="jobTitle">Noob</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Alia Morozova</td>
+                                    <td itemprop="additionalName">anunna</td>
+                                    <td itemprop="email">anunna@blackarch.org</td>
+                                    <td><a href="gpgkeys/anunna.asc" target="_blank">0xE6A67BD79DB34F2F</a></td>
+                                    <td>Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Pedro Freitas</td>
@@ -118,20 +118,6 @@ cat <<EOF
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">David Wang</td>
-                                    <td itemprop="additionalName">rain / net_wayfarer</td>
-                                    <td itemprop="email">rain@blackarch.org</td>
-                                    <td><a href="gpgkeys/rain.asc" target="_blank">0xBAC0CD87C85EC2FB</a></td>
-                                    <td>Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Dmytro Korzhevin</td>
-                                    <td itemprop="additionalName">KORG</td>
-                                    <td itemprop="email">korg@blackarch.org</td>
-                                    <td><a href="gpgkeys/korg.asc" target="_blank">0x05DB8FA1D1D76BFE</a></td>
-                                    <td>Developer</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Christopher Downs</td>
                                     <td itemprop="additionalName">dualfade</td>
                                     <td itemprop="email">dualfade@blackarch.org</td>
@@ -146,24 +132,10 @@ cat <<EOF
                                     <td>Developer</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Richard Baumann</td>
-                                    <td itemprop="additionalName">ohaz</td>
-                                    <td itemprop="email">ohaz@blackarch.org</td>
-                                    <td><a href="gpgkeys/ohaz.asc" target="_blank">0x494343DE9684D220</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Leon L.</td>
                                     <td itemprop="additionalName">Tazmain</td>
                                     <td itemprop="email">tazmain@blackarch.org</td>
                                     <td><a href="gpgkeys/tazmain.asc" target="_blank">0x4CB1EBA0BA75AF84</a></td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Aan W.</td>
-                                    <td itemprop="additionalName">petruknisme</td>
-                                    <td itemprop="email">petruknisme@blackarch.org</td>
-                                    <td><a href="gpgkeys/petruknisme.asc" target="_blank">0x852D95650B24BC5E</a></td>
                                     <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
@@ -193,13 +165,6 @@ cat <<EOF
                                     <td itemprop="email">eiswiesel@blackarch.org</td>
                                     <td><a href="gpgkeys/eiswiesel.asc" target="_blank">0xBADCODEBADCODE</a></td>
                                     <td itemprop="jobTitle">WebDesigner</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Dimitri Mader</td>
-                                    <td itemprop="additionalName">anyon3</td>
-                                    <td itemprop="email">anyon3@blackarch.org</td>
-                                    <td><a href="gpgkeys/anyon3.asc" target="_blank">0xDA9631D58B8E3622</a></td>
-                                    <td itemprop="jobTitle">WebDeveloper</td>
                                 </tr>
                             </table>
                         </li>
