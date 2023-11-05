@@ -579,16 +579,18 @@ $(document).on('click', '#tools, .tools', function(e) {
 
 // Add tools search
 function searchTools() {
-  var input, filter, table, tr, td, i, txtValue;
+  var input, filter, table, tr, td, i, txtValue, tdDescription, txtDescription;
   input = document.getElementById("searchTools");
   filter = input.value.toUpperCase();
   table = document.getElementById("tbl-minimalist");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
+    tdDescription = tr[i].getElementsByTagName("td")[2];
+    if (td || tdDescription) {
       txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+	  txtDescription = tdDescription.textContent || tdDescription.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1 || txtDescription.toUpperCase().indexOf(filter)> -1) {
         tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";
