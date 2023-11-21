@@ -3,7 +3,6 @@ home 		= $('#home');
 downloads	= $('#downloads');
 guide		= $('#guide');
 community 	= $('#community');
-blog		= $('#blog');
 donate		= $('#donate');
 faq		    = $('#faq');
 
@@ -50,19 +49,14 @@ function pop() {
 	}
 
 	else if(gTo === 'community') {
-		community.trigger('click');
-		community.addClass('lock');
-	}
+        community.trigger('click');
+        community.addClass('lock');
+    }
 
-	else if(gTo === 'blog') {
-		blog.trigger('click');
-		blog.addClass('lock');
-	}
-
-	else if(gTo === 'donate') {
-		donate.trigger('click');
-		donate.addClass('lock');
-	}
+    else if(gTo === 'donate') {
+        donate.trigger('click');
+        donate.addClass('lock');
+    }
 
 	else if(gTo === 'faq') {
 		faq.trigger('click');
@@ -387,64 +381,6 @@ $(document).on('click', '#community', function(e) {
 	});
 });
 
-//Blog
-$(document).off('click', '#blog');
-$(document).on('click', '#blog', function(e) {
-
-	//Check if isn't lock
-	if($('#blog').hasClass('lock'))
-		return;
-
-	//Load by url, return (don't need to execute the code)
-	if(e.target.tagName.toLowerCase() === 'li')
-		return;
-
-	//Drop anchors follow
-	if(e.target.tagName.toLowerCase() === 'a')
-		e.preventDefault();
-
-	//Remove any possible lock
-	if($('.lock').length > 0)
-		$('.lock').removeClass();
-
-	//Add lock class for avoid any double load (fast clic or whatever...)
-	$('#blog').addClass('lock');
-
-	//Push the new url
-	history.pushState({}, null, 'blog.html');
-
-	//Loading
-	spawnLoad('load');
-
-	//Empty the container
-	$('.result').empty().hide();
-
-	//Get the target content
-	$.get('blog.html', function(msg) {
-
-		//Replace the new url
-		history.replaceState({}, null, 'blog.html');
-
-		//Push the result in the DOM, into a hidden temp container
-		$('<div id=tmp hidden>'+ msg +'</div>').appendTo('body');
-
-		//Extract only the required html
-		ctn = $('#tmp').find('.result').html();
-
-		//Push the required into the result container
-		$('.result').append(ctn).fadeIn('slow');
-
-		//Remove the temp container
-		$('#tmp').remove();
-
-		//Remove the loading
-		spawnLoad('kill');
-
-		//Change the title (<title>)
-		document.title = 'Get the last news';
-	});
-});
-
 //Donate
 $(document).off('click', '#donate, .donate');
 $(document).on('click', '#donate, .donate', function(e) {
@@ -595,6 +531,6 @@ function searchTools() {
       } else {
         tr[i].style.display = "none";
       }
-    }       
+    }
   }
 }

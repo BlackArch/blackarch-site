@@ -18,8 +18,7 @@ cat <<EOF
                     and security researchers. The repository contains <a href="tools.html">${TOOL_COUNT}</a> tools. You can install tools individually or in groups.
                     BlackArch Linux is compatible with existing Arch installs. For more information, see the
         <a href="downloads.html#install-repo">installation instructions</a>.
-        Also, news is published on our <a href="blog.html">blog</a>.</p>
-                <p>Please note that BlackArch is a relatively new project. To report bugs and request new tools, please visit the
+                <p>To report bugs and request new tools, please visit the
                     <a href="https://github.com/BlackArch/blackarch/issues" target="_blank">issue tracker</a> on Github, stop by <a href="https://matrix.to/#/#BlackArch:matrix.org" target="_blank">Matrix</a>, or
                     <a href="mailto:team@blackarch.org">email</a> us.</p>
                 <p>The BlackArch Full ISO contains multiple window managers. The BlackArch Slim ISO features the XFCE Desktop Environment. Below you will find screenshots of a few of them.</p>
