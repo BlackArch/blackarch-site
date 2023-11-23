@@ -99,19 +99,15 @@ cat <<\EOF
                 </div>
                 <br />
                 <div class="community-head">
-                    <b>Blog & News</b>
+                    <b>News</b>
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="blog.html"><i class="fas fa-newspaper fa-5x"></i></a>
+                        <a href="news.html"><i class="fas fa-newspaper fa-5x"></i></a>
                     </div>
                     <p>
-					    We have an on-site <a href="blog.html">blog</a>. The posts are usually more detailed than our Twitter posts and focus on more big project issues.
+					    This page list our Twitter posts timeline.
 					</p>
-                    <p>
-                        We also release interesting blog entries about BlackArch Linux, hacking, and security written by users. If you wish to add a blog entry please open a
-                        pull request on <a href="https://github.com/BlackArch/blackarch-site" target="_blank">Github</a>.
-                    </p>
                 </div>
             </div>
         </div>
