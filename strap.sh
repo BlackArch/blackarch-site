@@ -167,7 +167,6 @@ pacman_update()
   return $FAILURE
 }
 
-
 pacman_upgrade()
 {
   echo 'perform full system upgrade? (pacman -Su) [Yn]:'
@@ -178,19 +177,59 @@ pacman_upgrade()
   esac
 }
 
+# ghetto gnupg fix --
+# downgrade to stable gnupg-2.2.41-2 --
+gnupg_trustall_fix() {
+  msg 'backing up pacman.conf'
+  msg 'downgrade gnupg to stable release'
+  msg 'fixing gnupg trust database...'
+
+  cp -Rvp /etc/pacman.conf /etc/pacman.conf.blackarch
+  sed -i 's/SigLevel    = Required DatabaseOptional/SigLevel    = TrustAll/' /etc/pacman.conf
+  pacman -U https://archive.archlinux.org/packages/g/gnupg/gnupg-2.2.41-2-x86_64.pkg.tar.zst \
+    --overwrite --noconfirm
+  rm -rf /etc/pacman.d/gnupg
+  pacman-key --init
+  pacman-key --populate archlinux blackarch
+  pacman-key --update --keyserver keyserver.ubuntu.com
+
+  msg 'setting IngorePkg gnupg...'
+  sed -i '/^#IgnorePkg/ s/^#//; /IgnorePkg/ s/$/ gnupg/' /etc/pacman.conf
+}
+
+gnupg_undo_fix() {
+  msg 'restoring pacman.conf'
+  sed -i 's/SigLevel    = TrustAll/SigLevel    = Required DatabaseOptional/' /etc/pacman.conf
+  sed -i 's/^IgnorePkg   = gnupg/#IgnorePkg   = gnupg/' /etc/pacman.conf
+  rm /etc/pacman.conf.blackarch
+}
+
+check_gnupg_version() {
+  msg 'checking gnupg version...'
+  gpg_version="$(pacman -Q gnupg | cut -d ' ' -f 2)"
+  gpg_expected="2.4.3-2"
+
+  if [[ $gpg_version != $gpg_expected ]]; then
+    msg "please upgrade your distribution first!"
+  fi
+}
+
 # setup blackarch linux
 blackarch_setup()
 {
   check_priv
+  check_gnupg_version
   msg 'installing blackarch keyring...'
   set_umask
   make_tmp_dir
   check_internet
+  gnupg_trustall_fix
   fetch_keyring
   verify_keyring
   delete_signature
   check_pacman_gnupg
   install_keyring
+
   echo
   msg 'keyring installed successfully'
   # check if pacman.conf has already a mirror
@@ -203,6 +242,7 @@ blackarch_setup()
   msg 'updating package databases'
   pacman_update
   reset_umask
+  gnupg_undo_fix
   msg 'BlackArch Linux is ready!'
 }
 
