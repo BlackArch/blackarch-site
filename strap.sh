@@ -205,12 +205,18 @@ gnupg_undo_fix() {
 }
 
 check_gnupg_version() {
-  msg 'checking gnupg version...'
-  gpg_version="$(pacman -Q gnupg | cut -d ' ' -f 2)"
-  gpg_expected="2.4.3-2"
+ msg 'checking gnupg version...'
+  gpg_major_expected="2.4.3"
+  gpg_minor_rev="2"
+  gpg_install_major="$(pacman -Q gnupg | awk '{print $2}' | cut -d '-' -f 1)"
+  gpg_install_minor="$(pacman -Q gnupg | awk '{print $2}' | cut -d '-' -f 2)"
 
-  if [[ $gpg_version != $gpg_expected ]]; then
-    msg "please upgrade your distribution first!"
+  if [ "$gpg_install_major" != "$gpg_major_expected" ]; then
+    msg "please upgrade your distribution first !"
+    exit 1
+  elif [ "$gpg_install_minor" -lt "$gpg_minor_rev" ]; then
+      msg "please upgrade your distribution first !"
+      exit 1
   fi
 }
 
