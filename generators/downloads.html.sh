@@ -348,8 +348,8 @@ cat << EOF
               <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/</a>
               <br><br>
               <img src="/images/flags/ru.png" alt="Russia" /> Russia<br>
-              <a href="https://mirror.surf/blackarch/" target="_blank" itemprop="url">https://mirror.surf/blackarch/</a><br>
-              <a href="rsync://mirror.surf/blackarch/" target="_blank" itemprop="url">rsync://mirror.surf/blackarch/</a><br>
+              <a href="https://repository.su/blackarch/" target="_blank" itemprop="url">https://repository.su/blackarch/</a><br>
+              <a href="rsync://repository.su/blackarch/" target="_blank" itemprop="url">rsync://repository.su/blackarch/</a><br>
               <a href="http://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">http://mirror.truenetwork.ru/blackarch/</a><br>
               <a href="ftp://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">ftp://mirror.truenetwork.ru/blackarch/</a><br>
               <a href="rsync://mirror.truenetwork.ru/blackarch/" target="_blank" itemprop="url">rsync://mirror.truenetwork.ru/blackarch/</a><br>
