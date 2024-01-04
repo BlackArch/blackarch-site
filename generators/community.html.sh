@@ -50,7 +50,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://twitter.com/blackarchlinux" target="_blank"><i class="fas fa-twitter fa-5x"></i></a>
+                            <a href="https://twitter.com/blackarchlinux" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
                         </div>
                         <p>
                             Follow us on Twitter! We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>.
@@ -65,7 +65,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ" target="_blank"><i class="fas fa-youtube fa-5x"></i></a>
+                            <a href="https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ" target="_blank"><i class="fab fa-youtube fa-5x"></i></a>
                         </div>
                         <p>
                             Follow us and subscribe on our YouTube channel! We mainly upload self-made videos about <b>installation</b>, <b>configuration</b>, and major <b>tool usage</b>.
