@@ -190,7 +190,7 @@ gnupg_trustall_fix() {
     --overwrite --noconfirm
   rm -rf /etc/pacman.d/gnupg
   pacman-key --init
-  pacman-key --populate archlinux blackarch
+  pacman-key --populate
   pacman-key --update --keyserver keyserver.ubuntu.com
 
   msg 'setting IngorePkg gnupg...'
