@@ -400,7 +400,7 @@ compp|1.0.5|Company Passwords Profiler helps making a bruteforce wordlist for a 
 configpush|0.8.5|This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.| blackarch-scanner |http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html
 conpot|0.6.0|ICS honeypot with the goal to collect intelligence about the motives and methods of adversaries targeting industrial control systems.| blackarch-honeypot |https://pypi.org/project/Conpot/
 conscan|1.2|A blackbox vulnerability scanner for the Concre5 CMS.| blackarch-fuzzer |http://nullsecurity.net/tools/scanner.html
-cook|246.9c8a08b|Easily create word's permutation and combination to generate complex wordlists and passwords.| blackarch-automation |https://github.com/giteshnxtlvl/cook
+cook|v2.1.4.r3.g9c8a08b|Easily create word's permutation and combination to generate complex wordlists and passwords.| blackarch-automation |https://github.com/giteshnxtlvl/cook
 cookie-cadger|1.08|An auditing tool for Wi-Fi or wired Ethernet connections.| blackarch-fuzzer |https://cookiecadger.com/
 corkscrew|2.0|A tool for tunneling SSH through HTTP proxies| blackarch-tunnel |https://github.com/patpadgett/corkscrew
 corscanner|99.593043f|Fast CORS misconfiguration vulnerabilities scanner.| blackarch-webapp |https://github.com/chenjj/CORScanner
@@ -454,6 +454,7 @@ cutycapt|10|A Qt and WebKit based command-line utility that captures WebKit's re
 cve-api|170.8e9c247|Unofficial api for cve.mitre.org.| blackarch-misc |https://github.com/Beyarz/Cve-api
 cve-search|v5.0.0.r7.g20e99c3|A tool to perform local searches for known vulnerabilities.| blackarch-exploitation |http://cve-search.github.io/cve-search
 cvechecker|4.0|The goal of cvechecker is to report about possible vulnerabilities on your system, by scanning the installed software and matching the results with the CVE database.| blackarch-scanner |https://github.com/sjvermeu/cvechecker
+cvemap|v0.0.2.r0.gda2fdef|CLI tool designed to provide a structured and easily navigable interface to various vulnerability databases.| blackarch-exploitation |https://github.com/projectdiscovery/cvemap
 cybercrowl|111.f7cac52|A Python Web path scanner tool.| blackarch-webapp |https://github.com/chamli/CyberCrowl
 cyberscan|75.ca85794|A Network Pentesting Tool| blackarch-networking |https://github.com/medbenali/CyberScan
 cymothoa|1|A stealth backdooring tool, that inject backdoor's shellcode into an existing process.| blackarch-backdoor |http://cymothoa.sourceforge.net/
@@ -1465,7 +1466,7 @@ mitmap|89.b590f9a|A python program to create a fake AP and sniff data.| blackarc
 mitmap-old|0.1|Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.| blackarch-automation |http://www.darkoperator.com/tools-and-scripts/
 mitmer|22.b01c7fe|A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.| blackarch-sniffer |https://github.com/husam212/MITMer
 mitmf|467.0458300|A Framework for Man-In-The-Middle attacks written in Python.| blackarch-exploitation |https://github.com/byt3bl33d3r/MITMf
-mitmproxy|10.1.5|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |https://mitmproxy.org
+mitmproxy|10.2.2|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |https://mitmproxy.org
 mkbrutus|27.ddd5f8e|Password bruteforcer for MikroTik devices or boxes running RouterOS.| blackarch-cracker |http://mkbrutusproject.github.io/MKBRUTUS/
 mkyara|3.8147f91|Tool to generate YARA rules based on binary code.| blackarch-misc |https://github.com/fox-it/mkYARA
 mobiusft|1.12|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.| blackarch-forensic |http://savannah.nongnu.org/projects/mobiusft
@@ -1868,7 +1869,7 @@ proxify|411.a794db0|Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, 
 proxmark|2413.61163344|A powerful general purpose RFID tool, the size of a deck of cards, designed to snoop, listen and emulate everything from Low Frequency (125kHz) to High Frequency (13.56MHz) tags.| blackarch-radio |https://github.com/Proxmark/proxmark3
 proxmark3|4.17511|Software for the the Proxmark3, an RFID swiss-army tool| blackarch-radio |https://github.com/RfidResearchGroup/proxmark3
 proxybroker2|398.dc944d6|Proxy [Finder | Checker | Server]. HTTP(S) & SOCKS.| blackarch-proxy |https://github.com/bluet/proxybroker2
-proxychains-ng|4.16|A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies| blackarch-proxy |https://github.com/rofl0r/proxychains-ng
+proxychains-ng|4.17|A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies| blackarch-proxy |https://github.com/rofl0r/proxychains-ng
 proxycheck|0.1|This is a simple proxy tool that checks for the HTTP CONNECT method and grabs verbose output from a webserver.| blackarch-scanner |http://packetstormsecurity.com/files/61864/proxycheck.pl.txt.html
 proxyp|2013|Small multithreaded Perl script written to enumerate latency, port numbers, server names, & geolocations of proxy IP addresses.| blackarch-proxy |http://sourceforge.net/projects/proxyp/
 proxyscan|0.3|A security penetration testing tool to scan for hosts and ports through a Web proxy server.| blackarch-scanner |http://packetstormsecurity.com/files/69778/proxyScan.3.tgz.html
@@ -2608,7 +2609,7 @@ unicornscan|0.4.7|A new information gathering and correlation engine.| blackarch
 unifuzzer|5.3385a3b|A fuzzing tool for closed-source binaries based on Unicorn and LibFuzzer.| blackarch-fuzzer |https://github.com/rk700/uniFuzzer
 uniofuzz|1337|The universal fuzzing tool for browsers, web services, files, programs and network services/ports| blackarch-fuzzer |http://nullsecurity.net/tools/fuzzer.html
 uniscan|6.3|A simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.| blackarch-fuzzer |http://sourceforge.net/projects/uniscan/
-unisec|0.0.3|Unicode Security Toolkit.| blackarch-misc |https://acceis.github.io/unisec
+unisec|0.0.4|Unicode Security Toolkit.| blackarch-misc |https://acceis.github.io/unisec
 unix-privesc-check|1.4|Tries to find misconfigurations that could allow local unprivilged users to escalate privileges to other users or to access local apps (e.g. databases).| blackarch-automation |http://pentestmonkey.net/tools/audit/unix-privesc-check
 unsecure|1.2|Bruteforces network login masks.| blackarch-windows |http://www.sniperx.net/
 unstrip|13.05e00c2|ELF Unstrip Tool.| blackarch-disassembler |https://github.com/pzread/unstrip
