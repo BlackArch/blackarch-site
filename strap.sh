@@ -2,7 +2,8 @@
 # strap.sh - install and setup BlackArch Linux keyring
 
 # mirror file to fetch and write
-MIRROR_F="blackarch-mirrorlist"
+MIRROR_F='blackarch-mirrorlist'
+GPG_CONF='/etc/pacman.d/gnupg/gpg.conf'
 
 # simple error message wrapper
 err()
@@ -63,6 +64,18 @@ check_internet()
 
   if ! $tool $tool_opts https://blackarch.org/ > /dev/null 2>&1; then
     err "You don't have an Internet connection!"
+  fi
+
+  return $SUCCESS
+}
+
+# add necessary GPG options
+add_gpg_opts()
+{
+  # tmp fix for SHA-1 + >= gpg-2.4 versions
+  if ! grep -q 'allow-weak-key-signatures' $GPG_CONF
+  then
+    echo 'allow-weak-key-signatures' >> $GPG_CONF
   fi
 
   return $SUCCESS
@@ -177,55 +190,16 @@ pacman_upgrade()
   esac
 }
 
-# ghetto gnupg fix --
-# downgrade to stable gnupg-2.2.41-2 --
-gnupg_trustall_fix() {
-  msg 'backing up pacman.conf'
-  msg 'downgrade gnupg to stable release'
-  msg 'fixing gnupg trust database...'
-
-  cp -Rvp /etc/pacman.conf /etc/pacman.conf.blackarch
-  sed -i 's/SigLevel    = Required DatabaseOptional/SigLevel    = TrustAll/' /etc/pacman.conf
-  pacman -U https://archive.archlinux.org/packages/g/gnupg/gnupg-2.2.41-2-x86_64.pkg.tar.zst \
-    --overwrite --noconfirm
-  rm -rf /etc/pacman.d/gnupg
-  pacman-key --init
-  pacman-key --populate archlinux blackarch
-  pacman-key --update --keyserver keyserver.ubuntu.com
-
-  msg 'setting IngorePkg gnupg...'
-  sed -i '/^#IgnorePkg/ s/^#//; /IgnorePkg/ s/$/ gnupg/' /etc/pacman.conf
-}
-
-gnupg_undo_fix() {
-  msg 'restoring pacman.conf'
-  sed -i 's/SigLevel    = TrustAll/SigLevel    = Required DatabaseOptional/' /etc/pacman.conf
-  sed -i 's/^IgnorePkg   = gnupg/#IgnorePkg   = gnupg/' /etc/pacman.conf
-  rm /etc/pacman.conf.blackarch
-}
-
-check_gnupg_version() {
-  msg 'checking gnupg version...'
-  gpg_expected=243
-  gpg_install="$(pacman -Q gnupg | awk '{print $2}' | cut -d '-' -f 1 |
-  tr -d '.' | cut -c 1-3)"
-
-  if [ $gpg_install -lt $gpg_expected ]; then
-    msg "please upgrade your distribution first !"
-    exit 1
-  fi
-}
 
 # setup blackarch linux
 blackarch_setup()
 {
-  check_priv
-  check_gnupg_version
   msg 'installing blackarch keyring...'
+  check_priv
   set_umask
   make_tmp_dir
   check_internet
-  gnupg_trustall_fix
+  add_gpg_opts
   fetch_keyring
   verify_keyring
   delete_signature
@@ -244,9 +218,9 @@ blackarch_setup()
   msg 'updating package databases'
   pacman_update
   reset_umask
-  gnupg_undo_fix
   msg 'BlackArch Linux is ready!'
 }
 
 blackarch_setup
+
 
