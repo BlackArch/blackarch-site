@@ -416,7 +416,7 @@ cat << EOF
               <a href="rsync://mirror.math.princeton.edu/pub/blackarch/" target="_blank" itemprop="url">rsync://mirror.math.princeton.edu/pub/blackarch/</a><br>
               <a href="http://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">http://distro.ibiblio.org/blackarch/</a><br>
               <a href="ftp://distro.ibiblio.org/blackarch/" target="_blank" itemprop="url">ftp://distro.ibiblio.org/blackarch/</a><br>
-              <a href="http://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">http://mirror.team-cymru.com/blackarch/</a><br>
+              <a href="https://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">https://mirror.team-cymru.com/blackarch/</a><br>
               <a href="ftp://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.team-cymru.com/blackarch/</a><br>
               <a href="rsync://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.com/blackarch/</a><br>
             </li>
