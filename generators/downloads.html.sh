@@ -253,6 +253,7 @@ cat << EOF
               <a href="https://ca.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://ca.mirrors.cicku.me/blackarch/</a>
               <br><br>
               <img src="/images/flags/cn.png" alt="China" /> China<br>
+              <a href="https://mirrors.hust.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.hust.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.nju.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.nju.edu.cn/blackarch/</a><br>
               <a href="https://mirror.sjtu.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirror.sjtu.edu.cn/blackarch/</a><br>
               <a href="https://mirrors.tuna.tsinghua.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.tuna.tsinghua.edu.cn/blackarch/</a><br>
