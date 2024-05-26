@@ -330,7 +330,7 @@ cheat-sh|6|The only cheat sheet you need.| blackarch-automation |https://cheat.s
 check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker.| blackarch-scanner |http://packetstormsecurity.com/files/66683/check_weak_dh_ssh.pl.bz2.html
 checkiban|0.2|Checks the validity of an International Bank Account Number (IBAN).| blackarch-misc |http://kernel.embedromix.ro/us/
 checkov|3.2.96.r0.g6c3b45ca4|Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.| blackarch-code-audit |https://github.com/bridgecrewio/checkov
-checksec|2.7.0|Tool designed to test which standard Linux OS and PaX security features are being used| blackarch-automation |https://github.com/slimm609/checksec.sh
+checksec|2.7.1|Tool designed to test which standard Linux OS and PaX security features are being used| blackarch-automation |https://github.com/slimm609/checksec.sh
 chiasm-shell|33.e20ed9f|Python-based interactive assembler/disassembler CLI, powered byKeystone/Capstone.| blackarch-disassembler |https://github.com/0xbc/chiasm-shell
 chipsec|2102.cd2f9f90|Platform Security Assessment Framework.| blackarch-hardware |https://github.com/chipsec/chipsec
 chiron|48.524abe1|An all-in-one IPv6 Penetration Testing Framework.| blackarch-scanner |http://www.secfu.net/tools-scripts/
@@ -1079,7 +1079,7 @@ hyenae|0.36_1|Flexible platform independent packet generator.| blackarch-network
 hyperfox|121.1a8c26f|A security tool for proxying and recording HTTP and HTTPs traffic.| blackarch-networking |https://github.com/xiam/hyperfox
 hyperion-crypter|2.3.1|A runtime encrypter for 32-bit and 64-bit portable executables.| blackarch-windows |http://nullsecurity.net/tools/binary.html
 i2pd|2.52.0|A full-featured C++ implementation of the I2P router| blackarch-networking |https://i2pd.website/
-iaito|5.9.0|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/iaito
+iaito|5.9.2|Qt and C++ GUI for radare2 reverse engineering framework| blackarch-reversing |https://github.com/radareorg/iaito
 iaxflood|0.1|IAX flooder.| blackarch-dos |http://www.hackingexposedvoip.com/
 iaxscan|0.02|A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.| blackarch-scanner |http://code.google.com/p/iaxscan/
 ibrute|12.3a6a11e|An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.| blackarch-cracker |https://github.com/hackappcom/ibrute/
@@ -1983,11 +1983,11 @@ quark-engine|21.6.2|An Obfuscation-Neglect Android Malware Scoring System.| blac
 quickrecon|0.3.2|A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.| blackarch-recon |http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html
 quicksand-lite|33.c3edf92|Command line tool for scanning streams within office documents plus xor db attack.| blackarch-defensive |https://github.com/tylabs/quicksand_lite
 quickscope|456.8d74a41|Statically analyze windows, linux, osx, executables and also APK files.| blackarch-binary |https://github.com/CYB3RMX/Qu1cksc0pe
-r2ghidra|5.9.0|Deep ghidra decompiler integration for radare2 and iaito| blackarch-reversing |https://github.com/radareorg/r2ghidra
+r2ghidra|5.9.2|Deep ghidra decompiler integration for radare2 and iaito| blackarch-reversing |https://github.com/radareorg/r2ghidra
 rabid|v0.1.0.r112.gd794e0c|A CLI tool and library allowing to simply decode all kind of BigIP cookies| blackarch-webapp |https://noraj.github.io/rabid/
 raccoon|187.9cf6c11|A high performance offensive security tool for reconnaissance and vulnerability scanning.| blackarch-recon |https://github.com/evyatarmeged/Raccoon
 radamsa|0.7|General purpose mutation based fuzzer| blackarch-fuzzer |https://gitlab.com/akihe/radamsa
-radare2|5.9.0|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
+radare2|5.9.2|Open-source tools to disasm, debug, analyze and manipulate binary files| blackarch-reversing |https://radare.org
 radare2-keystone|851.167e5c4|Keystone assembler plugins for radare2.| blackarch-reversing |https://github.com/radare/radare2-extras/tree/master/unicorn
 radare2-unicorn|851.167e5c4|Unicorn Emulator Plugin for radare2.| blackarch-disassembler |https://github.com/radare/radare2-extras/tree/master/unicorn
 radiography|2|A forensic tool which grabs as much information as possible from a Windows system.| blackarch-windows |http://www.security-projects.com/?RadioGraPhy
@@ -2082,7 +2082,7 @@ ropgadget|7.4|Search gadgets in binaries to facilitate ROP exploitation for seve
 ropper|1.13.10|Show information about binary files and find gadgets to build rop chains for different architectures| blackarch-exploitation |https://github.com/sashs/Ropper
 roputils|195.ae7ed20|A Return-oriented Programming toolkit.| blackarch-exploitation |https://github.com/inaz2/roputils
 routerhunter|21.4da257c|Tool used to find vulnerable routers and devices on the Internet and perform tests.| blackarch-scanner |https://github.com/jh00nbr/Routerhunter.0
-routersploit|3.4.2|Open-source exploitation framework dedicated to embedded devices| blackarch-exploitation |https://github.com/threat9/routersploit
+routersploit|3.4.4|Open-source exploitation framework dedicated to embedded devices| blackarch-exploitation |https://github.com/threat9/routersploit
 rp|138.3a54a7c|A full-cpp written tool that aims to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries.| blackarch-exploitation |https://github.com/0vercl0k/rp
 rpak|1.0|A collection of tools that can be useful for doing attacks on routing protocols.| blackarch-windows |http://ntsecurity.nu/toolbox/promisdetect/
 rpcsniffer|7.9fab095|Sniffs WINDOWS RPC messages in a given RPC server process.| blackarch-windows |https://github.com/AdiKo/RPCSniffer
@@ -2566,7 +2566,7 @@ trevorspray|2.2.1|A modular password sprayer with threading, clever proxying, lo
 trid|2.24|An utility designed to identify file types from their binary signatures.| blackarch-forensic |http://mark0.net/soft-trid-e.html
 trinity|5192.e7187245|A Linux System call fuzzer.| blackarch-fuzzer |http://codemonkey.org.uk/projects/trinity/
 triton|4164.924bcbb2|A Dynamic Binary Analysis (DBA) framework.| blackarch-binary |https://github.com/JonathanSalwan/Triton
-trivy|0.51.2|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI| blackarch-scanner |https://github.com/aquasecurity/trivy
+trivy|0.51.4|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI| blackarch-scanner |https://github.com/aquasecurity/trivy
 trixd00r|0.0.1|An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.| blackarch-backdoor |http://nullsecurity.net/tools/backdoor.html
 truecrack|35|Password cracking for truecrypt(c) volumes.|blackarch-cracker|http://code.google.com/p/truecrack/
 truegaze|117.c3f26bc|Static analysis tool for Android/iOS apps focusing on security issues outside the source code.| blackarch-mobile |https://github.com/nightwatchcybersecurity/truegaze
