@@ -54,7 +54,7 @@ androbugs|1.7fd3a2c|An efficient Android vulnerability scanner that helps develo
 androguard|3.3.5|Reverse engineering, Malware and goodware analysis of Android applications and more.| blackarch-binary |https://github.com/androguard/androguard
 androick|8.522cfb4|A python tool to help in forensics analysis on android.| blackarch-mobile |https://github.com/Flo354/Androick
 android-apktool|2.7.0|A tool for reverse engineering Android apk files.| blackarch-reversing |https://github.com/iBotPeaches/Apktool/releases
-android-ndk|r23.b|Android C/C++ developer kit| blackarch-mobile |https://developer.android.com/sdk/ndk/index.html
+android-ndk|r27|Android C/C++ developer kit| blackarch-mobile |https://developer.android.com/ndk/downloads
 android-sdk|26.1.1|Google Android SDK| blackarch-mobile |https://developer.android.com/studio/releases/sdk-tools.html
 android-udev-rules|532.d1bdb59|Android udev rules.| blackarch-mobile |https://github.com/bbqlinux/android-udev-rules
 androidpincrack|2.ddaf307|Bruteforce the Android Passcode given the hash and salt.| blackarch-mobile |https://github.com/PentesterES/AndroidPINCrack
@@ -95,6 +95,7 @@ armor|5.bae27a6|A simple Bash script designed to create encrypted macOS payloads
 armscgen|98.c51b7d6|ARM Shellcode Generator (Mostly Thumb Mode).| blackarch-exploitation |https://github.com/alexpark07/ARMSCGen
 arp-scan|1.10.0|A tool that uses ARP to discover and fingerprint IP hosts on the local network| blackarch-networking |https://github.com/royhills/arp-scan
 arpalert|2.0.12|Monitor ARP changes in ethernet networks.| blackarch-networking |http://www.arpalert.org/
+arping-th|2.25|ARP Ping from Thomas Habets (aka Debian arping).| blackarch-networking |https://github.com/ThomasHabets/arping
 arpoison|0.7|The UNIX arp cache update utility| blackarch-exploitation |http://www.arpoison.net
 arpon|2.7|A portable handler daemon that make ARP protocol secure in order to avoid the Man In The Middle (MITM) attack through ARP Spoofing, ARP Cache Poisoning or ARP Poison Routing (APR) attacks.| blackarch-defensive |http://arpon.sourceforge.net/
 arpstraw|27.ab40e13|Arp spoof detection tool.| blackarch-defensive |https://github.com/he2ss/arpstraw
@@ -106,6 +107,7 @@ arybo|65.89d9a42|Manipulation, canonicalization and identification of mixed bool
 asleap|2.2|Actively recover LEAP/PPTP passwords.| blackarch-cracker |http://www.willhackforsushi.com/Asleap.html
 asnmap|v1.1.1.r0.g9eed841|Map organization network ranges using ASN information.| blackarch-networking |https://github.com/projectdiscovery/asnmap
 asp-audit|2BETA|An ASP fingerprinting tool and vulnerability scanner.| blackarch-fingerprint |http://seclists.org/basics/2006/Sep/128
+assassingo|173.2dd8650|Web pentest framework for information gathering and vulnerability scanning.| blackarch-scanner |https://github.com/AmyangXYZ/AssassinGo
 assetfinder|19.4e95d87|Find domains and subdomains potentially related to a given domain.| blackarch-scanner |https://github.com/tomnomnom/assetfinder
 astra|489.092804a|Automated Security Testing For REST API's.| blackarch-webapp |https://github.com/flipkart-incubator/astra
 atear|139.245ec8d|Wireless Hacking, WiFi Security, Vulnerability Analyzer, Pentestration.| blackarch-wireless |https://github.com/NORMA-Inc/AtEar
@@ -329,7 +331,7 @@ chapcrack|17.ae2827f|A tool for parsing and decrypting MS-CHAPv2 network handsha
 cheat-sh|6|The only cheat sheet you need.| blackarch-automation |https://cheat.sh
 check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker.| blackarch-scanner |http://packetstormsecurity.com/files/66683/check_weak_dh_ssh.pl.bz2.html
 checkiban|0.2|Checks the validity of an International Bank Account Number (IBAN).| blackarch-misc |http://kernel.embedromix.ro/us/
-checkov|3.2.241.r0.gecc697a8f|Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.| blackarch-code-audit |https://github.com/bridgecrewio/checkov
+checkov|3.2.242.r0.g88a9116ea|Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.| blackarch-code-audit |https://github.com/bridgecrewio/checkov
 checksec|2.7.1|Tool designed to test which standard Linux OS and PaX security features are being used| blackarch-automation |https://github.com/slimm609/checksec.sh
 chiasm-shell|33.e20ed9f|Python-based interactive assembler/disassembler CLI, powered byKeystone/Capstone.| blackarch-disassembler |https://github.com/0xbc/chiasm-shell
 chipsec|2170.ecd50aea|Platform Security Assessment Framework.| blackarch-hardware |https://github.com/chipsec/chipsec
@@ -2404,7 +2406,7 @@ sslh|2.1.2|SSL/SSH/OpenVPN/XMPP/tinc port multiplexer| blackarch-networking |htt
 ssllabs-scan|251.53cd76a|Command-line client for the SSL Labs APIs| blackarch-scanner |https://github.com/ssllabs/ssllabs-scan
 sslmap|0.2.0|A lightweight TLS/SSL cipher suite scanner.| blackarch-scanner |http://thesprawl.org/projects/latest/
 sslnuke|5.c5faeaa|Transparent proxy that decrypts SSL traffic and prints out IRC messages.| blackarch-cracker |https://github.com/jtripper/sslnuke
-sslscan|2.1.3|Fast tool to scan SSL services such as HTTPS to determine supported ciphers| blackarch-scanner |https://github.com/rbsec/sslscan
+sslscan|2.1.4|Fast tool to scan SSL services such as HTTPS to determine supported ciphers| blackarch-scanner |https://github.com/rbsec/sslscan
 sslscan2|702.a1b0292|Tests SSL/TLS enabled services to discover supported cipher suites.| blackarch-scanner |https://github.com/rbsec/sslscan
 sslsniff|0.8|A tool to MITM all SSL connections on a LAN and dynamically generate certs for the domains that are being accessed on the fly| blackarch-sniffer |http://www.thoughtcrime.org/software/sslsniff/
 sslstrip|0.9|Python tool to hijack HTTPS connections during a MITM attack.| blackarch-proxy |https://github.com/moxie0/sslstrip
@@ -2492,7 +2494,7 @@ tchunt-ng|208.b8cf7fc|Reveal encrypted files stored on a filesystem.| blackarch-
 tcpcontrol-fuzzer|0.1|2^6 TCP control bit fuzzer (no ECN or CWR).| blackarch-fuzzer |https://www.ee.oulu.fi/research/ouspg/tcpcontrol-fuzzer
 tcpcopy|1249.3f86973|A TCP stream replay tool to support real testing of Internet server applications.| blackarch-networking |https://github.com/session-replay-tools/tcpcopy
 tcpdstat|4.be5bd28|Get protocol statistics from tcpdump pcap files.| blackarch-networking |https://github.com/netik/tcpdstat
-tcpdump|4.99.4|Powerful command-line packet analyzer| blackarch-networking |https://www.tcpdump.org/
+tcpdump|4.99.5|Powerful command-line packet analyzer| blackarch-networking |https://www.tcpdump.org/
 tcpextract|1.1|Extracts files from captured TCP sessions. Support live streams and pcap files.| blackarch-networking |https://pypi.python.org/pypi/tcpextract/
 tcpflow|1.6.1|Captures data transmitted as part of TCP connections then stores the data conveniently| blackarch-networking |https://github.com/simsong/tcpflow
 tcpick|0.2.1|TCP stream sniffer and connection tracker| blackarch-sniffer |http://tcpick.sourceforge.net/
