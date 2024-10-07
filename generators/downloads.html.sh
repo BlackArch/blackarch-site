@@ -273,7 +273,6 @@ cat << EOF
               <br><br>
               <img src="/images/flags/fr.png" alt="France" /> France<br>
               <a href="http://blackarch.leneveu.fr/blackarch/" target="_blank" itemprop="url">http://blackarch.leneveu.fr/blackarch/</a><br>
-              <a href="http://blackarch.pi3rrot.net/blackarch/" target="_blank" itemprop="url">http://blackarch.pi3rrot.net/blackarch/</a><br>
               <a href="http://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">http://mirror.cyberbits.eu/blackarch/</a><br>
               <a href="https://mirror.cyberbits.eu/blackarch/" target="_blank" itemprop="url">https://mirror.cyberbits.eu/blackarch/</a><br>
               <a href="rsync://rsync.cyberbits.eu/blackarch/" target="_blank" itemprop="url">rsync://rsync.cyberbits.eu/blackarch/</a>
