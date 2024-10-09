@@ -308,7 +308,7 @@ cat << EOF
               <img src="/images/flags/in.png" alt="India" /> India<br>
               <a href="http://in.mirrors.cicku.me/blackarch/" target="_blank">http://in.mirrors.cicku.me/blackarch/</a><br>
               <a href="https://in.mirrors.cicku.me/blackarch/" target="_blank">https://in.mirrors.cicku.me/blackarch/</a><br>
-              <a href="https://mirror.albony.xyz/blackarch/" target="_blank">https://mirror.albony.xyz/blackarch/</a>
+              <a href="https://mirror.maa.albony.in/blackarch/" target="_blank">https://mirror.maa.albony.in/blackarch/</a>
               <br><br>
               <img src="/images/flags/it.png" alt="Italy" /> Italy<br>
               <a href="http://blackarch.mirror.garr.it/mirrors/blackarch/" target="_blank" itemprop="url">http://blackarch.mirror.garr.it/mirrors/blackarch/</a><br>
