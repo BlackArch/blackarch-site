@@ -106,6 +106,7 @@ artillery|357.805a5d8|A combination of a honeypot, file-system monitoring, syste
 artlas|154.e5fdd8d|Apache Real Time Logs Analyzer System.| blackarch-defensive |https://github.com/mthbernardes/ARTLAS
 arybo|65.89d9a42|Manipulation, canonicalization and identification of mixed boolean-arithmetic symbolic expressions.| blackarch-misc |https://github.com/quarkslab/arybo
 asleap|2.2|Actively recover LEAP/PPTP passwords.| blackarch-cracker |http://www.willhackforsushi.com/Asleap.html
+asn|0.78.0|ASN, RPKI validity, BGP stats, IPv4v6, Prefix, URL, ASPath, Organization, IP reputation, IP geolocation, IP fingerprinting, Network recon, lookup API server, Web traceroute server.| blackarch-recon |https://github.com/nitefood/asn
 asnmap|v1.1.1.r0.g9eed841|Map organization network ranges using ASN information.| blackarch-networking |https://github.com/projectdiscovery/asnmap
 asp-audit|2BETA|An ASP fingerprinting tool and vulnerability scanner.| blackarch-fingerprint |http://seclists.org/basics/2006/Sep/128
 aspisec|0.1.0|Removes the traces left by offensive security tools.| blackarch-misc |https://noraj.github.io/aspisec/
@@ -928,6 +929,7 @@ gpocrack|3.cf63c86|Active Directory Group Policy Preferences cpassword cracker/d
 gpredict|1647.91a4a3f|A real-time satellite tracking and orbit prediction application.| blackarch-radio |http://gpredict.oz9aec.net/
 gps-sdr-sim|220.c31d157|Software-Defined GPS Signal Simulator.| blackarch-radio |https://github.com/osqzss/gps-sdr-sim
 gqrx|2.17.5|Software defined radio receiver powered by GNU Radio and Qt.| blackarch-radio |https://www.gqrx.dk/
+gqrx-scanner|1.0.5|A frequency scanner for Gqrx Software Defined Radio receiver.| blackarch-radio |https://github.com/neural75/gqrx-scanner
 gr-air-modes|396.0b6c383|Gnuradio tools for receiving Mode S transponder signals, including ADS-B.| blackarch-radio |https://github.com/bistromath/gr-air-modes
 gr-gsm|1194.a77cf59|Gnuradio blocks and tools for receiving GSM transmissions.| blackarch-radio |https://github.com/ptrkrysik/gr-gsm
 gr-paint|50.3806b20|An OFDM Spectrum Painter for GNU Radio.| blackarch-radio |https://github.com/drmpeg/gr-paint
@@ -966,6 +968,7 @@ habu|359.8326936|Python Network Hacking Toolkit.| blackarch-scanner |https://git
 hackersh|0.2.0|A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.| blackarch-automation |http://www.hackersh.org/
 hackredis|3.fbae1bc|A simple tool to scan and exploit redis servers.| blackarch-exploitation |https://github.com/Ridter/hackredis
 hackrf|2024.02.1|Driver for HackRF, allowing general purpose software defined radio (SDR).| blackarch-radio |https://github.com/mossmann/hackrf
+hacktv|434.8ad7f6d|Analogue TV transmitter for the HackRF.| blackarch-radio |
 haiti|v2.1.0.r47.g962a11b|Hash type identifier (CLI & lib).| blackarch-crypto |https://noraj.github.io/haiti/
 haka|0.2.2|A collection of tool that allows capturing TCP/IP packets and filtering them based on Lua policy files.| blackarch-networking |https://github.com/haka-security/haka
 hakku|384.bbb434d|Simple framework that has been made for penetration testing tools.| blackarch-scanner |https://github.com/4shadoww/hakkuframework
@@ -1015,7 +1018,7 @@ hetty|134.f60202e|HTTP toolkit for security research. Aims to become an open sou
 hex2bin|2.5|Converts Motorola and Intel hex files to binary.| blackarch-binary |http://hex2bin.sourceforge.net/
 hexinject|1.6|A very versatile packet injector and sniffer that provides a command-line framework for raw network access.| blackarch-sniffer |http://hexinject.sourceforge.net
 hexorbase|6|A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).| blackarch-fuzzer |https://code.google.com/p/hexorbase/
-hexyl|0.14.0|Colored command-line hex viewer| blackarch-misc |https://github.com/sharkdp/hexyl
+hexyl|0.15.0|Colored command-line hex viewer| blackarch-misc |https://github.com/sharkdp/hexyl
 hharp|1beta|This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.| blackarch-networking |http://packetstormsecurity.com/files/81368/Hackers-Hideaway-ARP-Attack-Tool.html
 hidattack|0.1|HID Attack (attacking HID host implementations)| blackarch-bluetooth |http://mulliner.org/bluetooth/hidattack.php
 hiddeneye|1228.7a3deaf|Modern phishing tool with advanced functionality.| blackarch-social |https://github.com/DarkSecDevelopers/HiddenEye
@@ -1787,7 +1790,7 @@ pentmenu|218.2e45233|A bash script for recon and DOS attacks.| blackarch-automat
 pepe|13.b81889b|Collect information about email addresses from Pastebin.| blackarch-social |https://github.com/woj-ciech/pepe
 pepper|18.9dfcade|An open source script to perform malware static analysis on Portable Executable.| blackarch-malware |https://github.com/Th3Hurrican3/PEpper
 periscope|3.2|A PE file inspection tool.| blackarch-windows |https://vidstromlabs.com/freetools/periscope/
-perl-image-exiftool|12.99|Reader and rewriter of EXIF information that supports raw files| blackarch-forensic |https://exiftool.org/
+perl-image-exiftool|13.00|Reader and rewriter of EXIF information that supports raw files| blackarch-forensic |https://exiftool.org/
 persistencesniper|v1.16.1.r1.gac4751a|Hunt persistences implanted in Windows machines.| blackarch-defensive |https://github.com/last-byte/PersistenceSniper
 petools|1.9.762|Portable executable (PE) manipulation toolkit.| blackarch-windows |https://github.com/petoolse/petools
 pev|0.81|Command line based tool for PE32/PE32+ file analysis.| blackarch-forensic |http://pev.sourceforge.net/
@@ -2191,6 +2194,7 @@ secure-delete|1.b63d814|Secure file, disk, swap, memory erasure utilities.| blac
 secure2csv|10.119eefb0|Decode security descriptors in $Secure on NTFS.| blackarch-forensic |https://github.com/jschicht/Secure2Csv
 see-surf|v2.0.r41.g826f05a|A Python based scanner to find potential SSRF parameters in a web application.| blackarch-webapp |https://github.com/In3tinct/See-SURF
 seeker|376.692e531|Accurately Locate People using Social Engineering.| blackarch-social |https://github.com/thewhiteh4t/seeker
+seekr|0.4.0|A multi-purpose OSINT toolkit with a neat web-interface.| blackarch-recon |https://github.com/seekr-osint/seekr
 sees|67.cd741aa|Increase the success rate of phishing attacks by sending emails to company users as if they are coming from the very same company's domain.| blackarch-social |https://github.com/galkan/sees/
 semgrep|1.92.0|Lightweight static analysis for many languages.| blackarch-code-audit |https://pypi.org/project/semgrep/#files
 sensepost-xrdp|16.46d6c19|A rudimentary remote desktop tool for the X11 protocol exploiting unauthenticated x11 sessions.| blackarch-exploitation |https://github.com/sensepost/xrdp
@@ -2375,6 +2379,7 @@ sploitctl|3.0.4|Fetch, install and search exploit archives from exploit sites li
 sploitego|153.d9568dc|Maltego Penetration Testing Transforms.| blackarch-fuzzer |https://github.com/allfro/sploitego
 spoofcheck|16.8cce591|Simple script that checks a domain for email protections.| blackarch-recon |https://github.com/bishopfox/spoofcheck
 spooftooph|0.5.2|Designed to automate spoofing or cloning Bluetooth device Name, Class, and Address. Cloning this information effectively allows Bluetooth device to hide in plain sight.| blackarch-bluetooth |http://www.hackfromacave.com/projects/spooftooph.html
+spoofy|v1.0.2.r7.g0a72500|Check if a list of domains can be spoofed based on SPF and DMARC records.| blackarch-spoof |https://github.com/MattKeeley/Spoofy
 spookflare|24.19491b5|Loader, dropper generator with multiple features for bypassing client-side and network-side countermeasures.| blackarch-automation |https://github.com/hlldz/SpookFlare
 spotbugs|17528.cf73f0bee|A tool for static analysis to look for bugs in Java code.| blackarch-code-audit |https://github.com/spotbugs/spotbugs
 spray365|42.58fd193|Makes spraying Microsoft accounts (Office 365 / Azure AD) easy through its customizable two-step password spraying approach.| blackarch-cracker |https://github.com/MarkoH17/Spray365
