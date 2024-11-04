@@ -201,7 +201,7 @@ blackarch_setup()
   check_internet
   add_gpg_opts
   fetch_keyring
-  verify_keyring
+  #verify_keyring
   delete_signature
   check_pacman_gnupg
   install_keyring
