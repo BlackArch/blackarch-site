@@ -91,7 +91,7 @@ ares|v0.10.0.r72.gff0af1c|Automated decoding of encrypted text without knowing t
 argon2|20190702|A password-hashing function (reference C implementation)| blackarch-crypto |https://github.com/P-H-C/phc-winner-argon2
 argus|3.0.8.2|Network monitoring tool with flow control.| blackarch-networking |http://qosient.com/argus/
 argus-clients|3.0.8.2|Network monitoring client for Argus.| blackarch-networking |http://qosient.com/argus/
-arjun|236.53afa55|HTTP parameter discovery suite.| blackarch-webapp |https://github.com/s0md3v/Arjun
+arjun|2.2.7.r1.g1b251b0|HTTP parameter discovery suite.| blackarch-scanner |https://github.com/s0md3v/Arjun
 armitage|150813|A graphical cyber attack management tool for Metasploit.| blackarch-exploitation |http://www.fastandeasyhacking.com/
 armor|5.bae27a6|A simple Bash script designed to create encrypted macOS payloads capable of evading antivirus scanners.| blackarch-exploitation |https://github.com/tokyoneon/Armor
 armscgen|98.c51b7d6|ARM Shellcode Generator (Mostly Thumb Mode).| blackarch-exploitation |https://github.com/alexpark07/ARMSCGen
@@ -155,6 +155,7 @@ backorifice|1.0|A remote administration system which allows a user to control a 
 bad-pdf|61.a8149ee|Steal NTLM Hashes with Bad-PDF.| blackarch-exploitation |https://github.com/deepzec/Bad-Pdf
 badkarma|85.2c46334|Advanced network reconnaissance toolkit.| blackarch-recon |https://github.com/r3vn/badKarma
 badministration|16.69e4ec2|A tool which interfaces with management or administration applications from an offensive standpoint.| blackarch-webapp |https://github.com/ThunderGunExpress/BADministration
+badsecrets|v0.5.10.r0.gdce3c4f|A library for detecting known secrets across many web frameworks.| blackarch-webapp |https://github.com/blacklanternsecurity/badsecrets
 bagbak|313.79ca483|Yet another frida based App decryptor.| blackarch-mobile |https://github.com/ChiChou/bagbak
 balbuzard|67.d6349ef1bc55|A package of malware analysis tools in python to extract patterns of interest from suspicious files (IP addresses, domain names, known file headers, interesting strings, etc).| blackarch-malware |https://bitbucket.org/decalage/balbuzard/
 bamf-framework|35.30d2b4b|A modular framework designed to be a platform to launch attacks against botnets.| blackarch-malware |https://github.com/bwall/BAMF
@@ -321,7 +322,7 @@ centry|72.6de2868|Cold boot & DMA protection| blackarch-misc |https://github.com
 cero|v1.3.0.r19.gb73125b|Scrape domain names from SSL certificates of arbitrary hosts.| blackarch-scanner |https://github.com/glebarez/cero
 certgraph|172.465bddc|Crawl the graph of certificate Alternate Names.| blackarch-recon |https://github.com/lanrat/certgraph
 certipy|4.8.2.r0.g2780d53|Active Directory Certificate Services enumeration and abuse.| blackarch-windows |https://github.com/ly4k/Certipy
-certsync|0.1.4|Dump NTDS remotely without DRSUAPI: using golden certificate and UnPAC the hash.| blackarch-exploitation |https://github.com/zblurx/certsync
+certsync|0.1.6|Dump NTDS remotely without DRSUAPI: using golden certificate and UnPAC the hash.| blackarch-exploitation |https://github.com/zblurx/certsync
 cewl|189.447ccc1|A custom word list generator.| blackarch-automation |http://www.digininja.org/projects/cewl.php
 cflow|1.7|A C program flow analyzer.| blackarch-code-audit |http://www.gnu.org/software/cflow/
 cfr|0.152|Another Java decompiler| blackarch-decompiler |https://www.benf.org/other/cfr/
@@ -792,7 +793,7 @@ flashscanner|11.6815b02|Flash XSS Scanner.| blackarch-scanner |https://github.co
 flashsploit|23.c465a6d|Exploitation Framework for ATtiny85 Based HID Attacks.| blackarch-exploitation |https://github.com/thewhiteh4t/flashsploit
 flask-session-cookie-manager2|v1.2.1.1.r12.ga2b1b57|Decode and encode Flask session cookie.| blackarch-webapp |https://noraj.github.io/flask-session-cookie-manager/
 flask-session-cookie-manager3|v1.2.1.1.r12.ga2b1b57|Decode and encode Flask session cookie.| blackarch-webapp |https://noraj.github.io/flask-session-cookie-manager/
-flask-unsign|1.2.0|Decode, encode and brute-force Flask session cookie.| blackarch-webapp |https://github.com/Paradoxis/Flask-Unsign
+flask-unsign|v1.2.0.r2.ge934573|Command line tool to fetch, decode, brute-force and craft session cookies of a Flask application by guessing secret keys.| blackarch-cracker |https://github.com/Paradoxis/Flask-Unsign
 flasm|1.62|Disassembler tool for SWF bytecode| blackarch-reversing |http://www.nowrap.de/flasm.html
 flawfinder|2.0.19|Searches through source code for potential security flaws| blackarch-code-audit |https://dwheeler.com/flawfinder/
 flowinspect|97.34759ed|A network traffic inspection tool.| blackarch-networking |https://github.com/7h3rAm/flowinspect
@@ -1794,7 +1795,7 @@ pentmenu|218.2e45233|A bash script for recon and DOS attacks.| blackarch-automat
 pepe|13.b81889b|Collect information about email addresses from Pastebin.| blackarch-social |https://github.com/woj-ciech/pepe
 pepper|18.9dfcade|An open source script to perform malware static analysis on Portable Executable.| blackarch-malware |https://github.com/Th3Hurrican3/PEpper
 periscope|3.2|A PE file inspection tool.| blackarch-windows |https://vidstromlabs.com/freetools/periscope/
-perl-image-exiftool|13.01|Reader and rewriter of EXIF information that supports raw files| blackarch-forensic |https://exiftool.org/
+perl-image-exiftool|13.02|Reader and rewriter of EXIF information that supports raw files| blackarch-forensic |https://exiftool.org/
 persistencesniper|v1.16.1.r1.gac4751a|Hunt persistences implanted in Windows machines.| blackarch-defensive |https://github.com/last-byte/PersistenceSniper
 petools|1.9.762|Portable executable (PE) manipulation toolkit.| blackarch-windows |https://github.com/petoolse/petools
 pev|0.81|Command line based tool for PE32/PE32+ file analysis.| blackarch-forensic |http://pev.sourceforge.net/
@@ -2599,7 +2600,7 @@ trevorspray|2.3.0|A modular password sprayer with threading, clever proxying, lo
 trid|2.24|An utility designed to identify file types from their binary signatures.| blackarch-forensic |http://mark0.net/soft-trid-e.html
 trinity|5192.e7187245|A Linux System call fuzzer.| blackarch-fuzzer |http://codemonkey.org.uk/projects/trinity/
 triton|4256.b022f317|A Dynamic Binary Analysis (DBA) framework.| blackarch-binary |https://github.com/JonathanSalwan/Triton
-trivy|0.56.2|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI| blackarch-scanner |https://github.com/aquasecurity/trivy
+trivy|0.57.0|A Simple and Comprehensive Vulnerability Scanner for Containers, Suitable for CI| blackarch-scanner |https://github.com/aquasecurity/trivy
 trixd00r|0.0.1|An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.| blackarch-backdoor |http://nullsecurity.net/tools/backdoor.html
 truecrack|35|Password cracking for truecrypt(c) volumes.|blackarch-cracker|http://code.google.com/p/truecrack/
 truegaze|117.c3f26bc|Static analysis tool for Android/iOS apps focusing on security issues outside the source code.| blackarch-mobile |https://github.com/nightwatchcybersecurity/truegaze
