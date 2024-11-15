@@ -8,7 +8,7 @@ cat << EOF
         <div class="row">
             <div class="col-lg-12">
                 <div class="page-header page-header-title">
-	            <h1>wordlist</h1> <h2>The list</h2>
+	            <h1>Wordlist</h1> <h2>The list</h2>
                 </div>
                 <ol class="breadcrumb">
                     <li><a class=home href="index.html">Home</a>

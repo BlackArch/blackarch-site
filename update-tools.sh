@@ -39,30 +39,27 @@ parse_db() {
     desc="$(grep --no-group-separator -A2 '^%DESC%$' "${d}"/desc |
     sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' | grep -v '^%DESC%$')"
 
-	  # Category
-	  # Add exception for the following packages
-	  case "${name}" in
+    # Category
+    # Add exception for the following packages
+    case "${name}" in
       "blackarch-config-awesome"|"blackarch-config-fluxbox"|"blackarch-config-openbox"|"blackarch-config-i3"|"blackarch-config-spectrwm"|"blackarch-config-wmii"|"blackarch-config-lxdm"|"blackarch-config-vim"|"blackarch-config-bash"|"blackarch-config-x11"|"blackarch-config-gtk"|"blackarch-mirrorlist"|"blackarch-menus"|"bactl"|"blackarch-config-xfce"|"blackarch-config-zsh"|"blackarch-config-cursor"|"blackarch-config-icons"|"blackarch-config-calamares")
-	      continue
+        continue
         ;;
-	    "truecrack"|"cudahashcat"|"cryptohazemultiforcer")
-		    group="blackarch-cracker"
-		    ;;
-	    "vmcloak"|"malboxes"|"thezoo")
-		    group="blackarch-malware"
-		    ;;
-      "seclists")
-        group="blackarch-exploitation"
+      "truecrack"|"cudahashcat"|"cryptohazemultiforcer")
+        group="blackarch-cracker"
         ;;
       "nuclei-templates")
         group="blackarch-scanner"
         ;;
+      "seclists"|"assetnote-wordlists")
+        group="blackarch-wordlist"
+        ;;
       *)
-      # All the other packages (add '0,/blackarch/s///' for remove first occurrence only
-		  group="$(grep --no-group-separator -A2 '^%GROUPS%$' "${d}"/desc |
-      sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' -e '0,/blackarch/s///' | grep -v '^%GROUPS%$' |
-      tr -s '\n' ' ')"
-	esac
+        # All the other packages (add '0,/blackarch/s///' for remove first occurrence only
+        group="$(grep --no-group-separator -A2 '^%GROUPS%$' "${d}"/desc |
+          sed -e 's/[0-9]\+://' -e 's/-[0-9]\+//' -e '0,/blackarch/s///' |
+          grep -v '^%GROUPS%$' | tr -s '\n' ' ')"
+    esac
 
     # Website url
     url="$(grep --no-group-separator -A2 '^%URL%$' "${d}"/desc |
