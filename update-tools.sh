@@ -54,6 +54,9 @@ parse_db() {
       "seclists"|"assetnote-wordlists")
         group="blackarch-wordlist"
         ;;
+      "vmcloak"|"malboxes"|"thezoo")
+        group="blackarch-malware"
+        ;;
       *)
         # All the other packages (add '0,/blackarch/s///' for remove first occurrence only
         group="$(grep --no-group-separator -A2 '^%GROUPS%$' "${d}"/desc |
