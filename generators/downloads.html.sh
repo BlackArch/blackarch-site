@@ -285,7 +285,7 @@ cat << EOF
               <a href="rsync://ftp.halifax.rwth-aachen.de/blackarch/" target="_blank" itemprop="url">rsync://ftp.halifax.rwth-aachen.de/blackarch/</a><br>
               <a href="http://blackarch.unixpeople.org/" target="_blank" itemprop="url">http://blackarch.unixpeople.org/</a><br>
               <a href="https://blackarch.unixpeople.org/" target="_blank" itemprop="url">https://blackarch.unixpeople.org/</a><br>
-              <a href="rsync://blackarch.unixpeople.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.unixpeople.org/blackarch/</a><br>
+              <a href="rsync://blackarch.unixpeople.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.unixpeople.org/blackarch/</a>
               <br><br>
               <img src="/images/flags/gr.png" alt="Greece" /> Greece<br>
               <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank" itemprop="url">http://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br>
@@ -298,7 +298,7 @@ cat << EOF
               <a href="http://www.mirrorservice.org/sites/blackarch.org/blackarch/" target="_blank" itemprop="url">http://www.mirrorservice.org/sites/blackarch.org/blackarch/</a><br>
               <a href="rsync://rsync.mirrorservice.org/blackarch.org/blackarch/" target="_blank" itemprop="url">rsync://rsync.mirrorservice.org/blackarch.org/blackarch/</a><br>
               <a href="http://mirrors.gethosted.online/blackarch/blackarch/" target="_blank" itemprop="url">http://mirrors.gethosted.online/blackarch/blackarch/</a><br>
-              <a href="https://mirrors.gethosted.online/blackarch/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/blackarch/</a><br>
+              <a href="https://mirrors.gethosted.online/blackarch/blackarch/" target="_blank" itemprop="url">https://mirrors.gethosted.online/blackarch/blackarch/</a>
               <br><br>
               <img src="/images/flags/hu.png" alt="Hungary" /> Hungary<br>
               <a href="http://quantum-mirror.hu/mirrors/pub/blackarch/" target="_blank" itemprop="url">http://quantum-mirror.hu/mirrors/pub/blackarch/</a><br>
@@ -334,7 +334,7 @@ cat << EOF
               <a href="http://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">http://mirror.serverion.com/blackarch/</a><br>
               <a href="https://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">https://mirror.serverion.com/blackarch/</a><br>
               <a href="ftp://mirror.serverion.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.serverion.com/blackarch/</a><br>
-              <a href="rsync://mirror.serverion.com/opnsense" target="_blank" itemprop="url">rsync://mirror.serverion.com/opnsense</a><br>
+              <a href="rsync://mirror.serverion.com/opnsense" target="_blank" itemprop="url">rsync://mirror.serverion.com/opnsense</a>
               <br><br>
               <img src="/images/flags/pl.png" alt="Poland" /> Poland<br>
               <a href="http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">http://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
