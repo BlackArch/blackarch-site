@@ -1348,7 +1348,7 @@ libosmocore|4248.2d10ff20|Collection of common code used in various sub-projects
 libparistraceroute|378.6fb8f48|A library written in C dedicated to active network measurements with examples, such as paris-ping and paris-traceroute.| blackarch-networking |https://github.com/libparistraceroute/libparistraceroute
 libpst|0.6.76|Outlook .pst file converter| blackarch-misc |https://www.five-ten-sg.com/libpst/
 libtins|1305.fe22186|High-level, multiplatform C++ network packet sniffing and crafting library.| blackarch-networking |https://github.com/mfontanini/libtins
-lief|0.13.2|Library to Instrument Executable Formats.| blackarch-disassembler |https://github.com/lief-project/LIEF/
+lief|0.15.1|Library to instrument executable formats.| blackarch-disassembler |https://github.com/lief-project/lief
 liffy|33.89dd4f8|A Local File Inclusion Exploitation tool.| blackarch-webapp |https://github.com/mzfr/liffy/
 lightbulb|88.9e8d6f3|Python framework for auditing web applications firewalls.| blackarch-webapp |https://github.com/lightbulb-framework/lightbulb-framework
 ligolo-ng|v0.7.2.alpha.r7.g311d80d|An advanced, yet simple, tunneling tool that uses a TUN interface.| blackarch-tunnel |https://github.com/nicocha30/ligolo-ng/releases
@@ -1504,7 +1504,7 @@ mitmproxy|11.0.0|SSL-capable man-in-the-middle HTTP proxy| blackarch-proxy |http
 mkbrutus|27.ddd5f8e|Password bruteforcer for MikroTik devices or boxes running RouterOS.| blackarch-cracker |http://mkbrutusproject.github.io/MKBRUTUS/
 mkyara|3.8147f91|Tool to generate YARA rules based on binary code.| blackarch-misc |https://github.com/fox-it/mkYARA
 mobiusft|1.12|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.| blackarch-forensic |http://savannah.nongnu.org/projects/mobiusft
-mobsf|1975.3cf21cec|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/MobSF/Mobile-Security-Framework-MobSF
+mobsf|v4.1.3.r14.g4b394a2|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/MobSF/Mobile-Security-Framework-MobSF
 modifycerttemplate|7.4c35708|Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege escalation.| blackarch-windows |https://github.com/fortalice/modifyCertTemplate
 modlishka|v.1.1.0.r60.g3ebc29e|A powerful and flexible HTTP reverse proxy.| blackarch-proxy |https://github.com/drk1wi/Modlishka
 modscan|0.1|A new tool designed to map a SCADA MODBUS TCP based network.| blackarch-scanner |https://code.google.com/p/modscan/
@@ -1976,6 +1976,7 @@ python-google-streetview|1.2.9|A command line tool and module for Google Street 
 python-ivre|0.9.21.dev21|Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)| blackarch-recon |https://ivre.rocks/
 python-jsbeautifier|1.15.1|JavaScript unobfuscator and beautifier| blackarch-reversing |https://github.com/beautify-web/js-beautify
 python-keylogger|2.7.3|Simple keystroke logger.| blackarch-keylogger |https://github.com/GiacomoLaw/Keylogger
+python-lief|0.15.1|Library to instrument executable formats.| blackarch-disassembler |https://github.com/lief-project/lief
 python-mmbot|78.f5f5478|Powerful malicious file triage tool for cyber responders.| blackarch-malware |https://github.com/egaus/MaliciousMacroBot
 python-oletools|0.60.2|Tools to analyze Microsoft OLE2 files.| blackarch-binary |https://pypi.org/project/oletools/
 python-pcodedmp|1.2.6|A VBA p-code disassembler.| blackarch-disassembler |https://pypi.org/project/pcodedmp/#files
@@ -2019,7 +2020,7 @@ qsreplace|3.0b053d2|Accept URLs on stdin, replace all query string values with a
 quark-engine|21.6.2|An Obfuscation-Neglect Android Malware Scoring System.| blackarch-mobile |https://github.com/quark-engine/quark-engine
 quickrecon|0.3.2|A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.| blackarch-recon |http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html
 quicksand-lite|33.c3edf92|Command line tool for scanning streams within office documents plus xor db attack.| blackarch-defensive |https://github.com/tylabs/quicksand_lite
-quickscope|507.26e9b4e|Statically analyze windows, linux, osx, executables and also APK files.| blackarch-binary |https://github.com/CYB3RMX/Qu1cksc0pe
+quickscope|511.19fe991|Statically analyze windows, linux, osx, executables and also APK files.| blackarch-binary |https://github.com/CYB3RMX/Qu1cksc0pe
 r2ghidra|5.9.4|Deep ghidra decompiler integration for radare2 and iaito| blackarch-reversing |https://github.com/radareorg/r2ghidra
 rabid|v0.1.0.r124.gf67962d|A CLI tool and library allowing to simply decode all kind of BigIP cookies.| blackarch-webapp |https://noraj.github.io/rabid/
 raccoon|187.9cf6c11|A high performance offensive security tool for reconnaissance and vulnerability scanning.| blackarch-recon |https://github.com/evyatarmeged/Raccoon
@@ -2240,6 +2241,7 @@ sh00t|214.8c7321f|A Testing Environment for Manual Security Testers.| blackarch-
 sha1collisiondetection|105.b4a7b0b|Library and command line tool to detect SHA collision in a file| blackarch-crypto |https://github.com/cr-marcstevens/sha1collisiondetection
 shad0w|387.d35b9dc|A modular C2 framework designed to successfully operate on mature environments.| blackarch-windows |https://github.com/bats3c/shad0w
 shadowexplorer|0.9|Browse the Shadow Copies created by the Windows Vista / 7 / 8 / 10 Volume Shadow Copy Service.| blackarch-forensic |https://www.shadowexplorer.com/downloads.html
+shadowfinder|0.5.0.r0.g578d5ac|Find possible locations of shadows around the world.| blackarch-misc |https://github.com/bellingcat/ShadowFinder
 shard|1.5|A command line tool to detect shared passwords.| blackarch-recon |https://github.com/philwantsfish/shard
 shareenum|48.db728dd|Tool to enumerate shares from Windows hosts.| blackarch-scanner |https://github.com/CroweCybersecurity/shareenum
 sharesniffer|58.a0c5ed6|Network share sniffer and auto-mounter for crawling remote file systems.| blackarch-scanner |https://github.com/shirosaidev/sharesniffer
