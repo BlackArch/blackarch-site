@@ -458,6 +458,7 @@ crunch|3.6|A wordlist generator for all combinations/permutations of a given cha
 crypthook|18.690dcae|TCP/UDP symmetric encryption tunnel wrapper.| blackarch-crypto |https://github.com/chokepoint/CryptHook
 cryptohazemultiforcer|1.31a|High performance multihash brute forcer with CUDA support.|blackarch-cracker|http://www.cryptohaze.com/multiforcer.php
 cryptonark|0.5.7|SSL security checker.| blackarch-crypto |http://blog.techstacks.com/cryptonark.html
+csdr|0.18.2.r68.g1f15b8c|A simple DSP library and command-line tool for Software Defined Radio.| blackarch-radio |https://github.com/jketterl/csdr
 csrftester|1.0|The OWASP CSRFTester Project attempts to give developers the ability to test their applications for CSRF flaws.| blackarch-webapp |http://www.owasp.org/index.php/Category:OWASP_CSRFTester_Project
 ct-exposer|24.71252ac|An OSINT tool that discovers sub-domains by searching Certificate Transparency logs.| blackarch-scanner |https://github.com/chris408/ct-exposer
 ctf-party|v3.0.0.r39.gb0c58df|A CLI tool & library to enhance and speed up script/exploit writing for CTF players.| blackarch-misc |https://noraj.github.io/ctf-party/
@@ -1700,6 +1701,7 @@ openscap|1.4.0.r51.gb8d36bebc|Open Source Security Compliance Solution.| blackar
 openstego|0.8.6|A tool implemented in Java for generic steganography, with support for password-based encryption of the data.| blackarch-crypto |https://github.com/syvaidya/openstego/releases
 opensvp|65.df54ed8|A security tool implementing "attacks" to be able to the resistance of firewall to protocol level attack.| blackarch-exploitation |https://github.com/regit/opensvp
 openvas-scanner|22.4.0|The OpenVAS scanning Daemon.| blackarch-scanner |https://github.com/greenbone/openvas-scanner/
+openwebrx|1.2.2.r387.ga9f47be|Open source, multi-user SDR receiver software with a web interface.| blackarch-radio |https://github.com/jketterl/openwebrx
 operative|148.163acdf|Framework based on fingerprint action, this tool is used for get information on a website or a enterprise target with multiple modules (Viadeo search,Linkedin search, Reverse email whois, Reverse ip whois, SQL file forensics ...).| blackarch-fingerprint |https://github.com/graniet/operative-framework
 ophcrack|3.8.0|Windows password cracker based on rainbow tables| blackarch-cracker |http://ophcrack.sourceforge.net
 orakelcrackert|1.00|This tool can crack passwords which are encrypted using Oracle's latest SHA1 based password protection algorithm.| blackarch-windows |http://freeworld.thc.org/thc-orakelcrackert11g/
@@ -1966,10 +1968,40 @@ pyssltest|9.d7703f0|A python multithreaded script to make use of Qualys ssllabs 
 pytacle|alpha2|Automates the task of sniffing GSM frames| blackarch-sniffer |http://packetstormsecurity.com/files/124299/pytacle-alpha2.tar.gz
 pytbull|19.3d82a54|Next generation of pytbull, IDS/IPS testing framework.| blackarch-scanner |https://github.com/netrunn3r/pytbull-ng
 pythem|454.e4fcb8a|Python2 penetration testing framework.| blackarch-scanner |https://github.com/m4n3dw0lf/PytheM
+python-acquire|3.17.r0.gef2e3d1|Quickly gather forensic artifacts from disk images or a live system into a lightweight container.| blackarch-forensic |https://github.com/fox-it/acquire
 python-api-dnsdumpster|79.0f8ba2b|Unofficial Python API for http://dnsdumpster.com/.| blackarch-recon |https://github.com/PaulSec/API-dnsdumpster.com
 python-arsenic|21.8|Async WebDriver implementation for asyncio and asyncio-compatible frameworks.| blackarch-automation |https://github.com/HDE/arsenic/releases
 python-capstone|5.0.3|Lightweight multi-platform, multi-architecture disassembly framework| blackarch-reversing |https://www.capstone-engine.org/index.html
 python-cymruwhois|1.6|Python client for the whois.cymru.com service| blackarch-networking |https://pypi.org/project/cymruwhois/#files
+python-dissect.archive|1.4.r0.gd433633|A Dissect module implementing parsers for various archive and backup formats.| blackarch-forensic |https://github.com/fox-it/dissect.archive
+python-dissect.btrfs|1.6.r0.gfe4bbda|A Dissect module implementing a parser for the btrfs file system.| blackarch-forensic |https://github.com/fox-it/dissect.btrfs
+python-dissect.cim|3.10.r0.g4d1effc|A Dissect module implementing a parser for the Windows Common Information Model (CIM) database, used in the Windows operating system.| blackarch-forensic |https://github.com/fox-it/dissect.cim
+python-dissect.clfs|1.9.r0.gd3e3b7f|A Dissect module implementing a parser for the CLFS (Common Log File System) file system of Windows.| blackarch-forensic |https://github.com/fox-it/dissect.clfs
+python-dissect.cstruct|4.3.r0.ged1daf2|A Dissect module implementing a parser for C-like structures.| blackarch-forensic |https://github.com/fox-it/dissect.cstruct
+python-dissect.esedb|3.14.r0.gb052185|A Dissect module implementing a parser for Microsofts Extensible Storage Engine Database (ESEDB), used for example in Active Directory, Exchange and Windows Update.| blackarch-forensic |https://github.com/fox-it/dissect.esedb
+python-dissect.etl|3.10.r0.g23354d6|A Dissect module implementing a parser for Event Trace Log (ETL) files, used by the Windows operating system to log kernel events.| blackarch-forensic |https://github.com/fox-it/dissect.etl
+python-dissect.eventlog|3.9.r0.g97fdfd7|A Dissect module implementing parsers for the Windows EVT, EVTX and WEVT log file formats.| blackarch-forensic |https://github.com/fox-it/dissect.eventlog
+python-dissect.evidence|3.10.r0.g852ced4|A Dissect module implementing a parsers for various forensic evidence file containers, currently: AD1, ASDF and EWF.| blackarch-forensic |https://github.com/fox-it/dissect.evidence
+python-dissect.executable|1.7.r0.g7bf4930|A Dissect module implementing parsers for various executable formats such as PE, ELF and Macho-O.| blackarch-forensic |https://github.com/fox-it/dissect.executable
+python-dissect.extfs|3.12.r0.g9b0df29|A Dissect module implementing a parser for the ExtFS file system, the native filesystem for Linux operating systems.| blackarch-forensic |https://github.com/fox-it/dissect.extfs
+python-dissect.fat|3.11.r0.gfe9d7dc|A Dissect module implementing parsers for the FAT and exFAT file systems, commonly used on flash memory based storage devices and UEFI partitions.| blackarch-forensic |https://github.com/fox-it/dissect.fat
+python-dissect.ffs|3.10.r0.g498cb70|A Dissect module implementing a parser for the FFS file system, commonly used by BSD operating systems.| blackarch-forensic |https://github.com/fox-it/dissect.ffs
+python-dissect.fve|4.0.r0.g39523e4|A Dissect module implementing a parsers for full volume encryption implementations, currently Microsoft's Bitlocker Disk Encryption (BDE) and Linux Unified Key Setup (LUKS1 and LUKS2).| blackarch-forensic |https://github.com/fox-it/dissect.fve
+python-dissect.hypervisor|3.16.r0.g50464c1|A Dissect module implementing parsers for various hypervisor disk, backup and configuration files.| blackarch-forensic |https://github.com/fox-it/dissect.hypervisor
+python-dissect.jffs|1.3.r0.g21c1617|A Dissect module implementing a parser for the JFFS2 file system, commonly used by router operating systems.| blackarch-forensic |https://github.com/fox-it/dissect.jffs
+python-dissect.ntfs|3.13.r0.gef5529b|A Dissect module implementing a parser for the NTFS file system, used by the Windows operating system.| blackarch-forensic |https://github.com/fox-it/dissect.ntfs
+python-dissect.ole|3.9.r0.ge21455d|A Dissect module implementing a parser for the Object Linking & Embedding (OLE) format, commonly used by document editors on Windows operating systems.| blackarch-forensic |https://github.com/fox-it/dissect.ole
+python-dissect.regf|3.11.r0.g94b58df|A Dissect module implementing a parser for Windows registry file format, used to store application and OS configuration on Windows operating systems.| blackarch-forensic |https://github.com/fox-it/dissect.regf
+python-dissect.shellitem|3.10.r0.g975a812|A Dissect module implementing a parser for the Shellitem structures, commonly used by Microsoft Windows.| blackarch-forensic |https://github.com/fox-it/dissect.shellitem
+python-dissect.sql|3.10.r0.g863d97e|A Dissect module implementing a parsers for the SQLite database file format, commonly used by applications to store configuration data.| blackarch-forensic |https://github.com/fox-it/dissect.sql
+python-dissect.squashfs|1.8.r0.g16bc3de|A Dissect module implementing a parser for the SquashFS file system.| blackarch-forensic |https://github.com/fox-it/dissect.squashfs
+python-dissect.target|3.20.r4.g67d34fe|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).| blackarch-forensic |https://github.com/fox-it/dissect.target
+python-dissect.thumbcache|1.9.r0.gc38995e|A Dissect module implementing a parser for windows thumbcache.| blackarch-forensic |https://github.com/fox-it/dissect.thumbcache
+python-dissect.util|3.19.r0.g2a9439e|A Dissect module implementing various utility functions for the other Dissect modules.| blackarch-forensic |https://github.com/fox-it/dissect.util
+python-dissect.vmfs|3.10.r0.g13e1c48|A Dissect module implementing a parser for the VMFS file system, used by VMware virtualization software.| blackarch-forensic |https://github.com/fox-it/dissect.vmfs
+python-dissect.volume|3.13.r0.gdd3b289|A Dissect module implementing a parser for different disk volume and partition systems, for example LVM2, GPT and MBR.| blackarch-forensic |https://github.com/fox-it/dissect.volume
+python-dissect.xfs|3.11.r0.g5e2c336|A Dissect module implementing a parser for the XFS file system, commonly used by RedHat Linux distributions.| blackarch-forensic |https://github.com/fox-it/dissect.xfs
+python-flow.record|3.18.r0.gc482853|Recordization library.| blackarch-forensic |https://github.com/fox-it/flow.record
 python-frida|15.2.2|Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.| blackarch-reversing |https://pypi.org/project/frida/#files
 python-frida-tools|11.0.0|Frida CLI tools.| blackarch-mobile |https://pypi.org/project/frida-tools/#files
 python-google-streetview|1.2.9|A command line tool and module for Google Street View Image API.| blackarch-misc |https://pypi.org/project/google-streetview/#files
@@ -2944,6 +2976,7 @@ yinjector|0.1|A MySQL injection penetration tool. It has multiple features, prox
 ysoserial|0.0.6|A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.| blackarch-webapp |https://github.com/frohoff/ysoserial
 zackattack|5.1f96c14|A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.| blackarch-networking |https://github.com/urbanesec/ZackAttack/
 zaproxy|2.15.0|Integrated penetration testing tool for finding vulnerabilities in web applications| blackarch-webapp |https://www.zaproxy.org/
+zarn|0.0.9.r26.g5ec7323|A lightweight static security analysis tool for modern Perl Apps.| blackarch-code-audit |https://github.com/htrgouvea/zarn
 zarp|0.1.8|A network attack tool centered around the exploitation of local networks.| blackarch-exploitation |https://defense.ballastsecurity.net/wiki/index.php/Zarp
 zdns|606.87b078f|Fast CLI DNS Lookup Tool.| blackarch-networking |https://github.com/zmap/zdns
 zeek|v7.1.0.dev.r572.g62bc324fe|A powerful network analysis framework that is much different from the typical IDS you may know.| blackarch-networking |https://github.com/zeek/zeek
