@@ -346,6 +346,10 @@ cat << EOF
               <a href="http://eu.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://eu.mirrors.cicku.me/blackarch/</a><br>
               <a href="https://eu.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://eu.mirrors.cicku.me/blackarch/</a>
               <br><br>
+              <img src="/images/flags/ro.png" alt="Romania" /> Romania<br>
+              <a href="http://mirrors.hostico.ro/blackarch/" target="_blank" itemprop="url">http://mirrors.hostico.ro/blackarch/</a><br>
+              <a href="https://mirrors.hostico.ro/blackarch/" target="_blank" itemprop="url">https://mirrors.hostico.ro/blackarch/</a>
+              <br><br>
               <img src="/images/flags/ru.png" alt="Russia" /> Russia<br>
               <a href="https://repository.su/blackarch/" target="_blank" itemprop="url">https://repository.su/blackarch/</a><br>
               <a href="rsync://repository.su/blackarch/" target="_blank" itemprop="url">rsync://repository.su/blackarch/</a><br>
