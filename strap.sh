@@ -1,5 +1,5 @@
 #!/bin/sh
-# strap.sh - install and setup BlackArch Linux keyring
+# strap.sh - setup BlackArch Linux keyring and install initial packages
 
 # mirror file to fetch and write
 MIRROR_F='blackarch-mirrorlist'
@@ -218,6 +218,8 @@ blackarch_setup()
   msg 'updating package databases'
   pacman_update
   reset_umask
+  msg 'installing blackarch-officials meta-package...'
+  pacman -S --noconfirm --needed blackarch-officials
   msg 'BlackArch Linux is ready!'
 }
 
