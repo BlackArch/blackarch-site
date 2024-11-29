@@ -1420,7 +1420,7 @@ mitmf|467.0458300|A Framework for Man-In-The-Middle attacks written in Python.| 
 mkbrutus|27.ddd5f8e|Password bruteforcer for MikroTik devices or boxes running RouterOS.| blackarch-cracker |http://mkbrutusproject.github.io/MKBRUTUS/
 mkyara|3.8147f91|Tool to generate YARA rules based on binary code.| blackarch-misc |https://github.com/fox-it/mkYARA
 mobiusft|1.12|An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.| blackarch-forensic |http://savannah.nongnu.org/projects/mobiusft
-mobsf|v4.1.3.r17.g23cbd41|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/MobSF/Mobile-Security-Framework-MobSF
+mobsf|v4.1.3.r19.ga015df5|An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.| blackarch-mobile |https://github.com/MobSF/Mobile-Security-Framework-MobSF
 modifycerttemplate|7.4c35708|Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege escalation.| blackarch-windows |https://github.com/fortalice/modifyCertTemplate
 modlishka|v.1.1.0.r60.g3ebc29e|A powerful and flexible HTTP reverse proxy.| blackarch-proxy |https://github.com/drk1wi/Modlishka
 modscan|0.1|A new tool designed to map a SCADA MODBUS TCP based network.| blackarch-scanner |https://code.google.com/p/modscan/
@@ -1480,6 +1480,7 @@ nacker|23.b67bb39|A tool to circumvent 802.1x Network Access Control on a wired 
 naft|0.0.9|Network Appliance Forensic Toolkit.| blackarch-forensic |https://blog.didierstevens.com/my-software/#NAFT
 narthex|v1.2.r7.g8b78746|Modular personalized dictionary generator.| blackarch-misc |https://github.com/MichaelDim02/Narthex
 nasnum|5.df5df19|Script to enumerate network attached storages.| blackarch-recon |https://github.com/tcstool/nasnum.git
+navgix|3.6f25c98|Multi-threaded golang tool that will check for nginx alias traversal vulnerabilities.| blackarch-scanner |https://github.com/hakaioffsec/navgix
 nbname|1.0|Decodes and displays all NetBIOS name packets it receives on UDP port 137 and more!| blackarch-windows |http://www.cultdeadcow.com/tools/bo.html
 nbnspoof|1.0|NetBIOS Name Service Spoofer| blackarch-spoof |http://www.mcgrewsecurity.com/tools/nbnspoof/
 nbtenum|3.3|A utility for Windows that can be used to enumerate NetBIOS information from one host or a range of hosts.| blackarch-windows |http://reedarvin.thearvins.com/
@@ -1500,7 +1501,7 @@ netcommander|1.3|An easy-to-use arp spoofing tool.| blackarch-spoof |https://git
 netcon|0.1|A network connection establishment and management script.| blackarch-networking |http://www.paramecium.org/~leendert/
 netdiscover|218.ff28964|An active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.| blackarch-recon |http://nixgeneration.com/~jaime/netdiscover/
 netexec-pingcastle|9.16340d2|NetExec & CrackMapExec module that execute PingCastle on a remote machine.| blackarch-windows |https://github.com/TRIKKSS/CrackMapExec-PingCastle
-netexec|v1.3.0.r87.g05ad3c6b|A Windows / Active Directory environments pentest tool.| blackarch-scanner |https://netexec.wiki/
+netexec|v1.3.0.r89.ge19868ec|A Windows / Active Directory environments pentest tool.| blackarch-scanner |https://netexec.wiki/
 netkit-bsd-finger|0.17|BSD-finger ported to Linux.| blackarch-recon |http://ftp.linux.org.uk/pub/linux/Networking/netkit
 netkit-rusers|0.17|Logged in users; Displays who is logged in to machines on local network.| blackarch-recon |https://packages.debian.org/source/sid/net/netkit-rusers
 netkit-rwho|0.17|Remote who client and server (with Debian patches).| blackarch-recon |http://packages.qa.debian.org/n/netkit-rwho.html
@@ -1565,8 +1566,8 @@ ntlmv1-multi|79.c7bcdc7|NTLMv1 Multitool.| blackarch-crypto |https://github.com/
 ntp-fingerprint|0.1|An active fingerprinting utility specifically designed to identify the OS the NTP server is running on.| blackarch-fingerprint |http://www.hackingciscoexposed.com/?link=tools
 ntp-ip-enum|0.1|Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.| blackarch-recon |http://www.securepla.net/
 ntpdos|4.3fe389b|PoC for distributed NTP reflection DoS (CVE-5211)| blackarch-dos |https://github.com/sepehrdaddev/ntpdos
-nuclei|v3.0.0.r988.g436c38627|A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.| blackarch-scanner |https://github.com/projectdiscovery/nuclei
-nuclei-templates|v10.0.4.r137.g291dcf3398|Community curated list of template files for the nuclei engine.|blackarch-scanner|https://github.com/projectdiscovery/nuclei-templates
+nuclei|v3.0.0.r1000.g1f985459b|A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.| blackarch-scanner |https://github.com/projectdiscovery/nuclei
+nuclei-templates|v10.0.4.r176.gd5e7bf1d27|Community curated list of template files for the nuclei engine.|blackarch-scanner|https://github.com/projectdiscovery/nuclei-templates
 nullinux|124.9f8727a|Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null sessions.| blackarch-recon |https://github.com/m8r0wn/nullinux
 nullscan|1.0.1|A modular framework designed to chain and automate security tests.| blackarch-automation |http://www.nullsecurity.net/tools/automation.html
 nxcrypt|32.6ae06b5|Python backdoor framework.| blackarch-backdoor |https://github.com/Hadi999/NXcrypt
@@ -1938,7 +1939,7 @@ qsreplace|3.0b053d2|Accept URLs on stdin, replace all query string values with a
 quark-engine|21.6.2|An Obfuscation-Neglect Android Malware Scoring System.| blackarch-mobile |https://github.com/quark-engine/quark-engine
 quickrecon|0.3.2|A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.| blackarch-recon |http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html
 quicksand-lite|33.c3edf92|Command line tool for scanning streams within office documents plus xor db attack.| blackarch-defensive |https://github.com/tylabs/quicksand_lite
-quickscope|511.19fe991|Statically analyze windows, linux, osx, executables and also APK files.| blackarch-binary |https://github.com/CYB3RMX/Qu1cksc0pe
+quickscope|517.72b9e66|Statically analyze windows, linux, osx, executables and also APK files.| blackarch-binary |https://github.com/CYB3RMX/Qu1cksc0pe
 rabid|v0.1.0.r124.gf67962d|A CLI tool and library allowing to simply decode all kind of BigIP cookies.| blackarch-webapp |https://noraj.github.io/rabid/
 raccoon|187.9cf6c11|A high performance offensive security tool for reconnaissance and vulnerability scanning.| blackarch-recon |https://github.com/evyatarmeged/Raccoon
 radare2-keystone|892.4d944cc|Keystone assembler plugins for radare2.| blackarch-reversing |https://github.com/radare/radare2-extras/tree/master/unicorn
@@ -2128,7 +2129,7 @@ see-surf|v2.0.r41.g826f05a|A Python based scanner to find potential SSRF paramet
 seeker|376.692e531|Accurately Locate People using Social Engineering.| blackarch-social |https://github.com/thewhiteh4t/seeker
 seekr|0.4.0|A multi-purpose OSINT toolkit with a neat web-interface.| blackarch-recon |https://github.com/seekr-osint/seekr
 sees|67.cd741aa|Increase the success rate of phishing attacks by sending emails to company users as if they are coming from the very same company's domain.| blackarch-social |https://github.com/galkan/sees/
-semgrep|1.96.0|Lightweight static analysis for many languages.| blackarch-code-audit |https://pypi.org/project/semgrep/#files
+semgrep|1.97.0|Lightweight static analysis for many languages.| blackarch-code-audit |https://pypi.org/project/semgrep/
 sensepost-xrdp|16.46d6c19|A rudimentary remote desktop tool for the X11 protocol exploiting unauthenticated x11 sessions.| blackarch-exploitation |https://github.com/sensepost/xrdp
 sentrypeer|v3.0.0.r14.g02173c8|Protect SIP Servers from bad actors.| blackarch-defensive |https://github.com/SentryPeer/SentryPeer
 sergio-proxy|20.8a91bb4|A multi-threaded transparent HTTP proxy for manipulating web traffic.| blackarch-proxy |https://github.com/supernothing/sergio-proxy
@@ -2281,7 +2282,7 @@ socialpwned|v2.0.1.r5.g6af3563|OSINT tool that allows to get the emails, from a 
 socialscan|128.5ae42d0|Check email address and username availability on online platforms.| blackarch-recon |https://github.com/iojw/socialscan
 socketfuzz|26.089add2|Simple socket fuzzer.| blackarch-fuzzer |https://github.com/landw1re/socketfuzz
 sockstat|0.4.1|A tool to let you view information about open connections. It is similar to the tool of the same name that is included in FreeBSD, trying to faithfully reproduce as much functionality as is possible.| blackarch-networking |https://packages.debian.org/unstable/main/sockstat
-sonar-scanner|4.8.0.2856|Generic CLI tool to launch project analysis on SonarQube servers.| blackarch-code-audit |https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
+sonar-scanner|6.2.1.4610|Generic CLI tool to launch project analysis on SonarQube servers.| blackarch-code-audit |https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
 soot|3.4.0|A Java Bytecode Analysis and Transformation Framework.| blackarch-binary |http://www.sable.mcgill.ca/soot
 sooty|335.6236fd1|The SOC Analysts all-in-one CLI tool to automate and speed up workflow.| blackarch-defensive |https://github.com/TheresAFewConors/Sooty
 sourcemapper|37.467916e|Extract JavaScript source trees from Sourcemap files.| blackarch-webapp |https://github.com/denandz/sourcemapper
