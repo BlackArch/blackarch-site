@@ -568,6 +568,7 @@ dnstracer|1.10|Determines where a given DNS server gets its information from, an
 dnstwist|638.b497e05|Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.| blackarch-scanner |https://github.com/elceef/dnstwist
 dnsvalidator|82.146c9b0|Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.| blackarch-networking |https://github.com/vortexau/dnsvalidator
 dnswalk|2.0.2|A DNS debugger and zone-transfer utility.| blackarch-recon |http://sourceforge.net/projects/dnswalk/
+dnswatch|dnswatch.1.r16.gea62872|DNS Traffic Sniffer and Analyzer.| blackarch-sniffer |https://github.com/HalilDeniz/DNSWatch
 dnsx|1041.2e578eb|Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.| blackarch-recon |https://github.com/projectdiscovery/dnsx
 docem|21.59db436|Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids).| blackarch-webapp |https://github.com/whitel1st/docem
 dockerscan|59.590a844|Docker security analysis & hacking tools.| blackarch-scanner |https://github.com/cr0hn/dockerscan
@@ -863,6 +864,7 @@ gloom|93.cd6e927|Linux Penetration Testing Framework.| blackarch-scanner |https:
 glue|380.8703380|A framework for running a series of tools.| blackarch-automation |https://github.com/OWASP/glue
 gmsadumper|18.e03187c|A tool that Reads any gMSA password blobs the user can access and parses the values.| blackarch-misc |https://github.com/micahvandeusen/gMSADumper
 gnutls2|2.12.23|A library which provides a secure layer over a reliable transport layer (Version 2)| blackarch-crypto |http://gnutls.org/
+go-exploitdb|v0.5.0.r1.g7d2fc13|Tool for searching Exploits from Exploit Databases, etc.| blackarch-automation |https://github.com/vulsio/go-exploitdb
 go-windapsearch|v0.3.0.r22.ged05587|Utility to enumerate users, groups and computers from a Windows domain through LDAP queries.| blackarch-recon |https://github.com/ropnop/go-windapsearch
 gobd|82.3bbd17c|A Golang covert backdoor.| blackarch-backdoor |https://github.com/razc411/GoBD
 gobuster|367.308cf9f|Directory/file & DNS busting tool written in Go.| blackarch-webapp |https://github.com/OJ/gobuster
@@ -1245,6 +1247,7 @@ ld-shatner|4.5c215c4|ld-linux code injector.| blackarch-backdoor |https://github
 ldap-brute|21.acc06e3|A semi fast tool to bruteforce values of LDAP injections over HTTP.| blackarch-cracker |https://github.com/droope/ldap-brute
 ldapdomaindump|0.9.4|Active Directory information dumper via LDAP.| blackarch-scanner |https://pypi.org/project/ldapdomaindump/#files
 ldapenum|0.1|Enumerate domain controllers using LDAP.| blackarch-recon |https://gobag.googlecode.com/svn-history/r2/trunk/ldap/ldapenum/
+ldapmonitor|1.4.r12.g498e048|Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration!| blackarch-windows |https://github.com/p0dalirius/ldapmonitor
 ldapscripts|2.0.8|Simple shell scripts to handle POSIX entries in an LDAP directory.| blackarch-automation |https://sourceforge.net/projects/ldapscripts
 ldeep|1.0.74.r0.g38bc7e8|In-depth ldap enumeration utility.| blackarch-recon |https://github.com/franc-pentest/ldeep
 ldsview|47.d8bfcaa|Offline search tool for LDAP directory dumps in LDIF format.| blackarch-forensic |https://github.com/kgoins/ldsview
@@ -1456,6 +1459,7 @@ msf-mpc|35.8007ef2|Msfvenom payload creator.| blackarch-automation |https://gith
 msfdb|16.09c603b|Manage the metasploit framework database.| blackarch-misc |https://github.com/BlackArch/msfdb
 msfenum|36.6c6b77e|A Metasploit auto auxiliary script.| blackarch-automation |https://github.com/wez3/msfenum
 msmailprobe|1.c01c8bf|Office 365 and Exchange Enumeration tool.| blackarch-scanner |https://github.com/busterb/msmailprobe
+mssqlrelay|10.97efa52|Microsoft SQL Relay is an offensive tool for auditing and abusing Microsoft SQL (MSSQL) services.| blackarch-windows |https://github.com/CompassSecurity/mssqlrelay
 mssqlscan|0.8.4|A small multi-threaded tool that scans for Microsoft SQL Servers.| blackarch-scanner |http://www.cqure.net/wp/mssqlscan/
 msvpwn|65.328921b|Bypass Windows' authentication via binary patching.| blackarch-windows |https://bitbucket.org/mrabault/msvpwn
 mtscan|167.099482e|Mikrotik RouterOS wireless scanner.| blackarch-wireless |https://github.com/kkonradpl/mtscan
@@ -1512,6 +1516,7 @@ netripper|84.c763bd0|Smart traffic sniffing for penetration testers.| blackarch-
 netscan|1.0|Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).| blackarch-scanner |http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner.0.html
 netscan2|60.3d02ba1|Active / passive network scanner.| blackarch-scanner |https://github.com/walchko/netscan2
 netsed|1.3|Small and handful utility design to alter the contents of packets forwarded thru network in real time.| blackarch-networking |http://silicone.homelinux.org/projects/netsed/
+netspionage|99.c24f995|Network Forensics CLI utility that performs Network Scanning, OSINT, and Attack Detection.| blackarch-forensic |https://github.com/ANG13T/netspionage
 netstumbler|0.4.0|Well-known wireless AP scanner and sniffer.| blackarch-windows |http://www.netstumbler.com/downloads/
 nettacker|0.4.0.r33.g32d7d988|Automated Penetration Testing Framework.| blackarch-automation |https://github.com/OWASP/Nettacker
 network-app-stress-tester|19.df75391|Network Application Stress Testing Yammer.| blackarch-dos |https://github.com/PherricOxide/Network-App-Stress-Tester
