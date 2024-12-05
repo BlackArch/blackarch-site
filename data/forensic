@@ -44,7 +44,7 @@ lfle|24.f28592c|Recover event log entries from an image by heurisitically lookin
 libfvde|207.03f12f5|Library and tools to access FileVault Drive Encryption (FVDE) encrypted volumes.|https://github.com/libyal/libfvde
 limeaide|305.ce3c9b7|Remotely dump RAM of a Linux client and create a volatility profile for later analysis on your local host.|https://github.com/kd8bny/LiMEaide
 log-file-parser|60.c7a0ae7e|Parser for $LogFile on NTFS.|https://github.com/jschicht/LogFileParser
-loki-scanner|1227.0dc990b|Simple IOC and Incident Response Scanner.|https://github.com/Neo23x0/Loki
+loki-scanner|1255.687e211|Simple IOC and Incident Response Scanner.|https://github.com/Neo23x0/Loki
 mac-robber|1.02|A digital investigation tool that collects data from allocated files in a mounted file system.|http://www.sleuthkit.org/mac-robber/download.php
 magicrescue|1.1.9|Find and recover deleted files on block devices|http://freshmeat.net/projects/magicrescue/
 make-pdf|0.1.7|This tool will embed javascript inside a PDF document.|http://blog.didierstevens.com/programs/pdf-tools/
@@ -82,7 +82,7 @@ pdfresurrect|0.12|A tool aimed at analyzing PDF documents.|http://packetstormsec
 peepdf|0.4.2|A Python tool to explore PDF files in order to find out if the file can be harmful or not.|http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
 pev|0.81|Command line based tool for PE32/PE32+ file analysis.|http://pev.sourceforge.net/
 powermft|5.76574543|Powerful commandline $MFT record editor.|https://github.com/jschicht/PowerMft
-python-acquire|3.17.r0.gef2e3d1|Quickly gather forensic artifacts from disk images or a live system into a lightweight container.|https://github.com/fox-it/acquire
+python-acquire|3.17.r1.gc284e87|Quickly gather forensic artifacts from disk images or a live system into a lightweight container.|https://github.com/fox-it/acquire
 python-dissect.archive|1.4.r0.gd433633|A Dissect module implementing parsers for various archive and backup formats.|https://github.com/fox-it/dissect.archive
 python-dissect.btrfs|1.6.r0.gfe4bbda|A Dissect module implementing a parser for the btrfs file system.|https://github.com/fox-it/dissect.btrfs
 python-dissect.cim|3.10.r0.g4d1effc|A Dissect module implementing a parser for the Windows Common Information Model (CIM) database, used in the Windows operating system.|https://github.com/fox-it/dissect.cim
@@ -97,21 +97,21 @@ python-dissect.extfs|3.12.r0.g9b0df29|A Dissect module implementing a parser for
 python-dissect.fat|3.11.r0.gfe9d7dc|A Dissect module implementing parsers for the FAT and exFAT file systems, commonly used on flash memory based storage devices and UEFI partitions.|https://github.com/fox-it/dissect.fat
 python-dissect.ffs|3.10.r0.g498cb70|A Dissect module implementing a parser for the FFS file system, commonly used by BSD operating systems.|https://github.com/fox-it/dissect.ffs
 python-dissect.fve|4.0.r0.g39523e4|A Dissect module implementing a parsers for full volume encryption implementations, currently Microsoft's Bitlocker Disk Encryption (BDE) and Linux Unified Key Setup (LUKS1 and LUKS2).|https://github.com/fox-it/dissect.fve
-python-dissect.hypervisor|3.16.r0.g50464c1|A Dissect module implementing parsers for various hypervisor disk, backup and configuration files.|https://github.com/fox-it/dissect.hypervisor
-python-dissect.jffs|1.3.r0.g21c1617|A Dissect module implementing a parser for the JFFS2 file system, commonly used by router operating systems.|https://github.com/fox-it/dissect.jffs
+python-dissect.hypervisor|3.16.r1.g54a733b|A Dissect module implementing parsers for various hypervisor disk, backup and configuration files.|https://github.com/fox-it/dissect.hypervisor
+python-dissect.jffs|1.3.r1.gf93add9|A Dissect module implementing a parser for the JFFS2 file system, commonly used by router operating systems.|https://github.com/fox-it/dissect.jffs
 python-dissect.ntfs|3.13.r0.gef5529b|A Dissect module implementing a parser for the NTFS file system, used by the Windows operating system.|https://github.com/fox-it/dissect.ntfs
 python-dissect.ole|3.9.r0.ge21455d|A Dissect module implementing a parser for the Object Linking & Embedding (OLE) format, commonly used by document editors on Windows operating systems.|https://github.com/fox-it/dissect.ole
 python-dissect.regf|3.11.r0.g94b58df|A Dissect module implementing a parser for Windows registry file format, used to store application and OS configuration on Windows operating systems.|https://github.com/fox-it/dissect.regf
 python-dissect.shellitem|3.10.r0.g975a812|A Dissect module implementing a parser for the Shellitem structures, commonly used by Microsoft Windows.|https://github.com/fox-it/dissect.shellitem
 python-dissect.sql|3.10.r0.g863d97e|A Dissect module implementing a parsers for the SQLite database file format, commonly used by applications to store configuration data.|https://github.com/fox-it/dissect.sql
 python-dissect.squashfs|1.8.r0.g16bc3de|A Dissect module implementing a parser for the SquashFS file system.|https://github.com/fox-it/dissect.squashfs
-python-dissect.target|3.20.r4.g67d34fe|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
+python-dissect.target|3.20.r7.gaf1abe4|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
 python-dissect.thumbcache|1.9.r0.gc38995e|A Dissect module implementing a parser for windows thumbcache.|https://github.com/fox-it/dissect.thumbcache
 python-dissect.util|3.19.r0.g2a9439e|A Dissect module implementing various utility functions for the other Dissect modules.|https://github.com/fox-it/dissect.util
 python-dissect.vmfs|3.10.r0.g13e1c48|A Dissect module implementing a parser for the VMFS file system, used by VMware virtualization software.|https://github.com/fox-it/dissect.vmfs
 python-dissect.volume|3.13.r0.gdd3b289|A Dissect module implementing a parser for different disk volume and partition systems, for example LVM2, GPT and MBR.|https://github.com/fox-it/dissect.volume
 python-dissect.xfs|3.11.r0.g5e2c336|A Dissect module implementing a parser for the XFS file system, commonly used by RedHat Linux distributions.|https://github.com/fox-it/dissect.xfs
-python-flow.record|3.18.r0.gc482853|Recordization library.|https://github.com/fox-it/flow.record
+python-flow.record|3.18.r1.g135a7b8|Recordization library.|https://github.com/fox-it/flow.record
 python2-peepdf|0.4.2|A Python tool to explore PDF files in order to find out if the file can be harmful or not.|http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
 rcrdcarver|5.54507d21|Carve RCRD records ($LogFile) from a chunk of data..|https://github.com/jschicht/RcrdCarver
 recentfilecache-parser|2.5e22518|Python parser for the RecentFileCache.bcf on Windows.|https://github.com/prolsen/recentfilecache-parser
