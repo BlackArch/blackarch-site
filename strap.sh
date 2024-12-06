@@ -1,6 +1,8 @@
 #!/bin/sh
 # strap.sh - setup BlackArch Linux keyring and install initial packages
 
+ARCH=$(uname -m)
+
 # mirror file to fetch and write
 MIRROR_F='blackarch-mirrorlist'
 GPG_CONF='/etc/pacman.d/gnupg/gpg.conf'
@@ -218,8 +220,12 @@ blackarch_setup()
   msg 'updating package databases'
   pacman_update
   reset_umask
-  msg 'installing blackarch-officials meta-package...'
-  pacman -S --noconfirm --needed blackarch-officials
+  # we need to skip for aarch64 at the moment
+  # TODO: remove if-clause after `blackarch-officials` was built for aarch64
+  if [[ $ARCH = "x86_64" ]]; then
+    msg 'installing blackarch-officials meta-package...'
+    pacman -S --noconfirm --needed blackarch-officials
+  fi
   msg 'BlackArch Linux is ready!'
 }
 
