@@ -220,12 +220,8 @@ blackarch_setup()
   msg 'updating package databases'
   pacman_update
   reset_umask
-  # we need to skip for aarch64 at the moment
-  # TODO: remove if-clause after `blackarch-officials` was built for aarch64
-  if [[ $ARCH = "x86_64" ]]; then
-    msg 'installing blackarch-officials meta-package...'
-    pacman -S --noconfirm --needed blackarch-officials
-  fi
+  msg 'installing blackarch-officials meta-package...'
+  pacman -S --noconfirm --needed blackarch-officials
   msg 'BlackArch Linux is ready!'
 }
 
