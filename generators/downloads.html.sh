@@ -363,6 +363,10 @@ cat << EOF
               <a href="http://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">http://download.nus.edu.sg/mirror/blackarch/</a><br>
               <a href="https://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">https://download.nus.edu.sg/mirror/blackarch/</a>
               <br><br>
+              <img src="/images/flags/kr.png" alt="South Korea" /> South Korea<br>
+              <a href="http://kr.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://kr.mirrors.cicku.me/blackarch/</a><br>
+              <a href="https://kr.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://kr.mirrors.cicku.me/blackarch/</a>
+              <br><br>
               <img src="/images/flags/se.png" alt="Sweden" /> Sweden<br>
               <a href="http://mirror.zetup.net/blackarch/" target="_blank" itemprop="url">http://mirror.zetup.net/blackarch/</a>
               <br><br>
