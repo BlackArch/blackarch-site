@@ -321,10 +321,6 @@ cat << EOF
               <a href="http://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://ftp.kddilabs.jp/Linux/packages/blackarch/</a><br>
               <a href="https://ftp.kddilabs.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">https://ftp.kddilabs.jp/Linux/packages/blackarch/</a>
               <br><br>
-              <img src="/images/flags/kr.png" alt="South Korea" /> South Korea<br>
-              <a href="http://kr.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://kr.mirrors.cicku.me/blackarch/</a><br>
-              <a href="https://kr.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://kr.mirrors.cicku.me/blackarch/</a>
-              <br><br>
               <img src="/images/flags/md.png" alt="Moldova" /> Moldova<br>
               <a href="http://md.mirrors.hacktegic.com/blackarch/" target="_blank" itemprop="url">http://md.mirrors.hacktegic.com/blackarch/</a><br>
               <a href="https://md.mirrors.hacktegic.com/blackarch/" target="_blank" itemprop="url">https://md.mirrors.hacktegic.com/blackarch/</a><br>
@@ -362,6 +358,10 @@ cat << EOF
               <a href="https://sg.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://sg.mirrors.cicku.me/blackarch/</a><br>
               <a href="http://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">http://download.nus.edu.sg/mirror/blackarch/</a><br>
               <a href="https://download.nus.edu.sg/mirror/blackarch/" target="_blank" itemprop="url">https://download.nus.edu.sg/mirror/blackarch/</a>
+              <br><br>
+              <img src="/images/flags/kr.png" alt="South Korea" /> South Korea<br>
+              <a href="http://kr.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://kr.mirrors.cicku.me/blackarch/</a><br>
+              <a href="https://kr.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://kr.mirrors.cicku.me/blackarch/</a>
               <br><br>
               <img src="/images/flags/se.png" alt="Sweden" /> Sweden<br>
               <a href="http://mirror.zetup.net/blackarch/" target="_blank" itemprop="url">http://mirror.zetup.net/blackarch/</a>
