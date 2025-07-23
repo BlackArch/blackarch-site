@@ -50,7 +50,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://twitter.com/blackarchlinux" target="_blank"><i class="fas fa-twitter fa-5x"></i></a>
+                            <a href="https://twitter.com/blackarchlinux" target="_blank"><i class="fab fa-twitter fa-5x"></i></a>
                         </div>
                         <p>
                             Follow us on Twitter! We mainly tweet about <b>new tools</b>, <b>new mirrors</b>, and major <b>project changes</b>.
@@ -65,7 +65,7 @@ cat <<\EOF
                 </div>
                     <div class="community-body">
                         <div class="community-body-right">
-                            <a href="https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ" target="_blank"><i class="fas fa-youtube fa-5x"></i></a>
+                            <a href="https://www.youtube.com/channel/UChw5hByy70ey2F7QeLEGICQ" target="_blank"><i class="fab fa-youtube fa-5x"></i></a>
                         </div>
                         <p>
                             Follow us and subscribe on our YouTube channel! We mainly upload self-made videos about <b>installation</b>, <b>configuration</b>, and major <b>tool usage</b>.
@@ -99,19 +99,15 @@ cat <<\EOF
                 </div>
                 <br />
                 <div class="community-head">
-                    <b>Blog & News</b>
+                    <b>News</b>
                 </div>
                 <div class="community-body">
                     <div class="community-body-right">
-                        <a href="blog.html"><i class="fas fa-newspaper fa-5x"></i></a>
+                        <a href="news.html"><i class="fas fa-newspaper fa-5x"></i></a>
                     </div>
                     <p>
-					    We have an on-site <a href="blog.html">blog</a>. The posts are usually more detailed than our Twitter posts and focus on more big project issues.
+					    This page list our Twitter posts timeline.
 					</p>
-                    <p>
-                        We also release interesting blog entries about BlackArch Linux, hacking, and security written by users. If you wish to add a blog entry please open a
-                        pull request on <a href="https://github.com/BlackArch/blackarch-site" target="_blank">Github</a>.
-                    </p>
                 </div>
             </div>
         </div>

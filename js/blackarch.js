@@ -3,7 +3,7 @@ home 		= $('#home');
 downloads	= $('#downloads');
 guide		= $('#guide');
 community 	= $('#community');
-blog		= $('#blog');
+news		= $('#news');
 donate		= $('#donate');
 faq		    = $('#faq');
 
@@ -54,9 +54,9 @@ function pop() {
 		community.addClass('lock');
 	}
 
-	else if(gTo === 'blog') {
-		blog.trigger('click');
-		blog.addClass('lock');
+	else if(gTo === 'news') {
+		news.trigger('click');
+		news.addClass('lock');
 	}
 
 	else if(gTo === 'donate') {
@@ -387,12 +387,12 @@ $(document).on('click', '#community', function(e) {
 	});
 });
 
-//Blog
-$(document).off('click', '#blog');
-$(document).on('click', '#blog', function(e) {
+//News
+$(document).off('click', '#news');
+$(document).on('click', '#news', function(e) {
 
 	//Check if isn't lock
-	if($('#blog').hasClass('lock'))
+	if($('#news').hasClass('lock'))
 		return;
 
 	//Load by url, return (don't need to execute the code)
@@ -408,10 +408,10 @@ $(document).on('click', '#blog', function(e) {
 		$('.lock').removeClass();
 
 	//Add lock class for avoid any double load (fast clic or whatever...)
-	$('#blog').addClass('lock');
+	$('#news').addClass('lock');
 
 	//Push the new url
-	history.pushState({}, null, 'blog.html');
+	history.pushState({}, null, 'news.html');
 
 	//Loading
 	spawnLoad('load');
@@ -420,10 +420,10 @@ $(document).on('click', '#blog', function(e) {
 	$('.result').empty().hide();
 
 	//Get the target content
-	$.get('blog.html', function(msg) {
+	$.get('news.html', function(msg) {
 
 		//Replace the new url
-		history.replaceState({}, null, 'blog.html');
+		history.replaceState({}, null, 'news.html');
 
 		//Push the result in the DOM, into a hidden temp container
 		$('<div id=tmp hidden>'+ msg +'</div>').appendTo('body');
@@ -579,16 +579,18 @@ $(document).on('click', '#tools, .tools', function(e) {
 
 // Add tools search
 function searchTools() {
-  var input, filter, table, tr, td, i, txtValue;
+  var input, filter, table, tr, td, i, txtValue, tdDescription, txtDescription;
   input = document.getElementById("searchTools");
   filter = input.value.toUpperCase();
   table = document.getElementById("tbl-minimalist");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
+    tdDescription = tr[i].getElementsByTagName("td")[2];
+    if (td || tdDescription) {
       txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+	  txtDescription = tdDescription.textContent || tdDescription.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1 || txtDescription.toUpperCase().indexOf(filter)> -1) {
         tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";

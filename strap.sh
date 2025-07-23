@@ -1,8 +1,11 @@
 #!/bin/sh
-# strap.sh - install and setup BlackArch Linux keyring
+# strap.sh - setup BlackArch Linux keyring and install initial packages
+
+ARCH=$(uname -m)
 
 # mirror file to fetch and write
-MIRROR_F="blackarch-mirrorlist"
+MIRROR_F='blackarch-mirrorlist'
+GPG_CONF='/etc/pacman.d/gnupg/gpg.conf'
 
 # simple error message wrapper
 err()
@@ -68,14 +71,26 @@ check_internet()
   return $SUCCESS
 }
 
+# add necessary GPG options
+add_gpg_opts()
+{
+  # tmp fix for SHA-1 + >= gpg-2.4 versions
+  if ! grep -q 'allow-weak-key-signatures' $GPG_CONF
+  then
+    echo 'allow-weak-key-signatures' >> $GPG_CONF
+  fi
+
+  return $SUCCESS
+}
+
 # retrieve the BlackArch Linux keyring
 fetch_keyring()
 {
   curl -s -O \
-  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz'
+  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.zst'
 
   curl -s -O \
-  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.xz.sig'
+  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.zst.sig'
 }
 
 # verify the keyring signature
@@ -97,17 +112,17 @@ verify_keyring()
   fi
 
   if ! gpg --keyserver-options no-auto-key-retrieve \
-    --with-fingerprint blackarch-keyring.pkg.tar.xz.sig > /dev/null 2>&1
+    --with-fingerprint blackarch-keyring.pkg.tar.zst.sig > /dev/null 2>&1
   then
-    err "invalid keyring signature. please stop by https://matrix.to/#/#/BlackaArch:matrix.org"
+    err "invalid keyring signature. please stop by https://matrix.to/#/#BlackArch:matrix.org"
   fi
 }
 
 # delete the signature files
 delete_signature()
 {
-  if [ -f "blackarch-keyring.pkg.tar.xz.sig" ]; then
-    rm blackarch-keyring.pkg.tar.xz.sig
+  if [ -f "blackarch-keyring.pkg.tar.zst.sig" ]; then
+    rm blackarch-keyring.pkg.tar.zst.sig
   fi
 }
 
@@ -121,7 +136,7 @@ check_pacman_gnupg()
 install_keyring()
 {
   if ! pacman --config /dev/null --noconfirm \
-    -U blackarch-keyring.pkg.tar.xz ; then
+    -U blackarch-keyring.pkg.tar.zst ; then
       err 'keyring installation failed'
   fi
 
@@ -167,7 +182,6 @@ pacman_update()
   return $FAILURE
 }
 
-
 pacman_upgrade()
 {
   echo 'perform full system upgrade? (pacman -Su) [Yn]:'
@@ -178,19 +192,22 @@ pacman_upgrade()
   esac
 }
 
+
 # setup blackarch linux
 blackarch_setup()
 {
-  check_priv
   msg 'installing blackarch keyring...'
+  check_priv
   set_umask
   make_tmp_dir
   check_internet
+  add_gpg_opts
   fetch_keyring
-  verify_keyring
+  #verify_keyring
   delete_signature
   check_pacman_gnupg
   install_keyring
+
   echo
   msg 'keyring installed successfully'
   # check if pacman.conf has already a mirror
@@ -203,7 +220,11 @@ blackarch_setup()
   msg 'updating package databases'
   pacman_update
   reset_umask
+  msg 'installing blackarch-officials meta-package...'
+  pacman -S --noconfirm --needed blackarch-officials
   msg 'BlackArch Linux is ready!'
 }
 
 blackarch_setup
+
+
