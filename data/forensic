@@ -1,7 +1,7 @@
 afflib|3.7.19|An extensible open format for the storage of disk images and related forensic information.|https://github.com/sshock/AFFLIBv3
 aimage|3.2.5|A program to create aff-images.|http://www.afflib.org
 air|2.0.0|A GUI front-end to dd/dc3dd designed for easily creating forensic images.|https://sourceforge.net/projects/air-imager/
-analyzemft|133.b6ed04f|Parse the MFT file from an NTFS filesystem.|https://github.com/dkovar/analyzeMFT
+analyzemft|437.76f92a8|Parse the MFT file from an NTFS filesystem.|https://github.com/dkovar/analyzeMFT
 autopsy|4.22.1|The forensic browser. A GUI for the Sleuth Kit.|https://github.com/sleuthkit/autopsy
 bmap-tools|3.7|Tool for copying largely sparse files using information from a block map file.|http://git.infradead.org/users/dedekind/bmap-tools.git
 bmc-tools|36.94037ce|RDP Bitmap Cache parser.|https://github.com/ANSSI-FR/bmc-tools
@@ -14,7 +14,7 @@ chromefreak|24.12745b1|A Cross-Platform Forensic Framework for Google Chrome|htt
 dc3dd|7.2.646|A patched version of dd that includes a number of features useful for computer forensics.|http://sourceforge.net/projects/dc3dd
 dcfldd|1.7.1|DCFL (DoD Computer Forensics Lab) dd replacement with hashing.|https://github.com/resurrecting-open-source-projects/dcfldd/
 dfir-ntfs|1.1.19|An NTFS parser for digital forensics & incident response.|https://github.com/msuhanov/dfir_ntfs
-dftimewolf|797.44d9af53|Framework for orchestrating forensic collection, processing and data export.|https://github.com/log2timeline/dftimewolf
+dftimewolf|798.7931a84e|Framework for orchestrating forensic collection, processing and data export.|https://github.com/log2timeline/dftimewolf
 disitool|0.4|Tool to work with Windows executables digital signatures.|https://blog.didierstevens.com/my-software/#disitool
 dmde|4.2.2.816|Disk Editor and Data Recovery Software.|https://dmde.com/download.html
 dmg2img|1.6.7|A CLI tool to uncompress Apple's compressed DMG files to the HFS+ IMG format.|http://vu1tur.eu.org/tools/
@@ -88,7 +88,7 @@ python-dissect.archive|1.6.r1.g21ded21|A Dissect module implementing parsers for
 python-dissect.btrfs|1.7.r1.g615caac|A Dissect module implementing a parser for the btrfs file system.|https://github.com/fox-it/dissect.btrfs
 python-dissect.cim|3.12.r0.g32693de|A Dissect module implementing a parser for the Windows Common Information Model (CIM) database, used in the Windows operating system.|https://github.com/fox-it/dissect.cim
 python-dissect.clfs|1.10.r0.g75f1fbf|A Dissect module implementing a parser for the CLFS (Common Log File System) file system of Windows.|https://github.com/fox-it/dissect.clfs
-python-dissect.cstruct|4.5.r1.g8bb71c9|A Dissect module implementing a parser for C-like structures.|https://github.com/fox-it/dissect.cstruct
+python-dissect.cstruct|4.5.r2.gc1cf4c3|A Dissect module implementing a parser for C-like structures.|https://github.com/fox-it/dissect.cstruct
 python-dissect.esedb|3.16.r0.gca05543|A Dissect module implementing a parser for Microsofts Extensible Storage Engine Database (ESEDB), used for example in Active Directory, Exchange and Windows Update.|https://github.com/fox-it/dissect.esedb
 python-dissect.etl|3.11.r0.gebdea7b|A Dissect module implementing a parser for Event Trace Log (ETL) files, used by the Windows operating system to log kernel events.|https://github.com/fox-it/dissect.etl
 python-dissect.eventlog|3.10.r0.g76983d3|A Dissect module implementing parsers for the Windows EVT, EVTX and WEVT log file formats.|https://github.com/fox-it/dissect.eventlog
@@ -106,13 +106,13 @@ python-dissect.regf|3.13.r0.gc5b1aad|A Dissect module implementing a parser for 
 python-dissect.shellitem|3.11.r1.ga00e1bd|A Dissect module implementing a parser for the Shellitem structures, commonly used by Microsoft Windows.|https://github.com/fox-it/dissect.shellitem
 python-dissect.sql|3.11.r1.gad29eda|A Dissect module implementing a parsers for the SQLite database file format, commonly used by applications to store configuration data.|https://github.com/fox-it/dissect.sql
 python-dissect.squashfs|1.9.r1.gbf660b6|A Dissect module implementing a parser for the SquashFS file system.|https://github.com/fox-it/dissect.squashfs
-python-dissect.target|3.22.r13.g9abc53c|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
+python-dissect.target|3.22.r23.g76c26a1|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
 python-dissect.thumbcache|1.10.r0.g6abc1ab|A Dissect module implementing a parser for windows thumbcache.|https://github.com/fox-it/dissect.thumbcache
-python-dissect.util|3.21.r6.gd9a1ccf|A Dissect module implementing various utility functions for the other Dissect modules.|https://github.com/fox-it/dissect.util
+python-dissect.util|3.21.r7.g44976b5|A Dissect module implementing various utility functions for the other Dissect modules.|https://github.com/fox-it/dissect.util
 python-dissect.vmfs|3.11.r0.gf985a0f|A Dissect module implementing a parser for the VMFS file system, used by VMware virtualization software.|https://github.com/fox-it/dissect.vmfs
 python-dissect.volume|3.15.r1.g148aa42|A Dissect module implementing a parser for different disk volume and partition systems, for example LVM2, GPT and MBR.|https://github.com/fox-it/dissect.volume
 python-dissect.xfs|3.12.r0.gd828e46|A Dissect module implementing a parser for the XFS file system, commonly used by RedHat Linux distributions.|https://github.com/fox-it/dissect.xfs
-python-flow.record|3.20.r4.g8fe4343|Recordization library.|https://github.com/fox-it/flow.record
+python-flow.record|3.20.r5.gd842ba4|Recordization library.|https://github.com/fox-it/flow.record
 python2-peepdf|0.4.2|A Python tool to explore PDF files in order to find out if the file can be harmful or not.|http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
 rcrdcarver|5.54507d21|Carve RCRD records ($LogFile) from a chunk of data..|https://github.com/jschicht/RcrdCarver
 recentfilecache-parser|2.5e22518|Python parser for the RecentFileCache.bcf on Windows.|https://github.com/prolsen/recentfilecache-parser
@@ -138,7 +138,7 @@ tekdefense-automater|88.42548cf|IP URL and MD5 OSINT Analysis|https://github.com
 thumbcacheviewer|1.0.3.7|Extract Windows thumbcache database files.|https://github.com/thumbcacheviewer/thumbcacheviewer
 trid|2.24|An utility designed to identify file types from their binary signatures.|http://mark0.net/soft-trid-e.html
 truehunter|14.0a2895d|Detect TrueCrypt containers using a fast and memory efficient approach.|https://github.com/adoreste/truehunter
-unblob|25.5.26.r43.gd574624|Extract files from any kind of container formats.|https://github.com/onekey-sec/unblob
+unblob|25.5.26.r57.gac609e5|Extract files from any kind of container formats.|https://github.com/onekey-sec/unblob
 undbx|0.21.r3.g5e31c75|Extract e-mail messages from Outlook Express DBX files.|https://github.com/ZungBang/undbx
 usbrip|291.5093c84|USB device artifacts tracker.|https://github.com/snovvcrash/usbrip
 usnjrnl2csv|29.1ecbddc|Parser for $UsnJrnl on NTFS.|https://github.com/jschicht/UsnJrnl2Csv

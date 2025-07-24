@@ -315,6 +315,8 @@ cat << EOF
               <a href="rsync://blackarch.mirror.garr.it/blackarch/" target="_blank">rsync://blackarch.mirror.garr.it/blackarch/</a>
               <br><br>
               <img src="/images/flags/jp.png" alt="Japan" /> Japan<br>
+              <a href="http://www.miraa.jp/blackarch/" target="_blank" itemprop="url">http://www.miraa.jp/blackarch/</a><br>
+              <a href="https://www.miraa.jp/blackarch/" target="_blank" itemprop="url">https://www.miraa.jp/blackarch/</a><br>
               <a href="http://jp.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://jp.mirrors.cicku.me/blackarch/</a><br>
               <a href="https://jp.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://jp.mirrors.cicku.me/blackarch/</a><br>
               <a href="http://www.ftp.ne.jp/Linux/packages/blackarch/" target="_blank" itemprop="url">http://www.ftp.ne.jp/Linux/packages/blackarch/</a><br>
