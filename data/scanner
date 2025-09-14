@@ -2,7 +2,7 @@
 a2sv|140.cb24c4e|Auto Scanning to SSL Vulnerability.|https://github.com/hahwul/a2sv
 admsnmp|0.1|ADM SNMP audit scanner.|
 allthevhosts|1.0|A vhost discovery tool that scrapes various web applications.|http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/
-amass|2556.e545f7bf|In-depth subdomain enumeration written in Go.|https://github.com/OWASP/Amass
+amass|2559.61f53cc9|In-depth subdomain enumeration written in Go.|https://github.com/OWASP/Amass
 anubis-netsec|1.1.3.r10.g52c4d62|Subdomain enumeration and information gathering tool.|https://github.com/jonluca/anubis
 apache-users|2.1|This perl script will enumerate the usernames on a unix system that use the apache module UserDir.|https://labs.portcullis.co.uk/downloads/
 apachetomcatscanner|3.2|Apache Tomcat vulnerability scanner.|https://github.com/p0dalirius/ApacheTomcatScanner
@@ -34,7 +34,7 @@ check-weak-dh-ssh|0.1|Debian OpenSSL weak client Diffie-Hellman Exchange checker
 chiron|48.524abe1|An all-in-one IPv6 Penetration Testing Framework.|http://www.secfu.net/tools-scripts/
 cipherscan|423.30bd239|A very simple way to find out which SSL ciphersuites are supported by a target.|https://github.com/jvehent/cipherscan
 ciscos|1.3|Scans class A, B, and C networks for cisco routers which have telnet open and have not changed the default password from cisco.|
-clair|2090.a35a1281|Vulnerability Static Analysis for Containers.|https://github.com/quay/clair
+clair|2100.6a4937e4|Vulnerability Static Analysis for Containers.|https://github.com/quay/clair
 climber|30.5530a78|Check UNIX/Linux systems for privilege escalation.|https://github.com/raffaele-forte/climber
 cloudflare-enum|10.412387f|Cloudflare DNS Enumeration Tool for Pentesters.|https://github.com/mandatoryprogrammer/cloudflare_enum
 cloudsploit|6621.e8e02eea8|AWS security scanning checks.|https://github.com/cloudsploit/scans
@@ -154,7 +154,7 @@ lotophagi|0.1|a relatively compact Perl script designed to scan remote hosts for
 lunar|967.0b077f9|A UNIX security auditing tool based on several security frameworks.|https://github.com/lateralblast/lunar
 maligno|2.5|An open source penetration testing tool written in python, that serves Metasploit payloads. It generates shellcode with msfvenom and transmits it over HTTP or HTTPS.|http://www.encripto.no/tools/
 manspider|86.499f44f|Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!|https://github.com/blacklanternsecurity/MANSPIDER
-mantra|v3.1.r1.g0eab67b|Hunt down API key leaks in JS files and pages.|https://github.com/MrEmpy/mantra
+mantra|v3.1.r4.g0634a79|Hunt down API key leaks in JS files and pages.|https://github.com/MrEmpy/mantra
 maryam|819.99ae85a|Full-featured Web Identification framework written in Python.|https://github.com/saeeddhqan/Maryam
 mitm6|33.8e75884|Pwning IPv4 via IPv6.|https://github.com/fox-it/mitm6
 modscan|0.1|A new tool designed to map a SCADA MODBUS TCP based network.|https://code.google.com/p/modscan/
@@ -166,7 +166,7 @@ multiscanner|1559.86e0145|Modular file scanning/analysis framework.|https://gith
 naabu|1631.8043530|A fast port scanner written in go with focus on reliability and simplicity.|https://github.com/projectdiscovery/naabu
 navgix|3.6f25c98|Multi-threaded golang tool that will check for nginx alias traversal vulnerabilities.|https://github.com/hakaioffsec/navgix
 netbios-share-scanner|1.0|This tool could be used to check windows workstations and servers if they have accessible shared resources.|http://www.secpoint.com/netbios-share-scanner.html
-netexec|v1.4.0.r845.gcc01381|A Windows / Active Directory environments pentest tool.|https://netexec.wiki/
+netexec|v1.4.0.r940.g027e520|A Windows / Active Directory environments pentest tool.|https://netexec.wiki/
 netscan|1.0|Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).|http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner.0.html
 netscan2|60.3d02ba1|Active / passive network scanner.|https://github.com/walchko/netscan2
 netz|v0.1.0.r8.g3754e56|Discover internet-wide misconfigurations while drinking coffee.|https://github.com/spectralops/netz
@@ -176,8 +176,8 @@ nray|99.f5eeb37|Distributed port scanner.|https://github.com/nray-scanner/nray
 ntlm-challenger|8.bd61ef6|Parse NTLM over HTTP challenge messages.|https://github.com/b17zr/ntlm_challenger
 ntlm-scanner|6.4b29329|A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.|https://github.com/preempt/ntlm-scanner
 ntlmrecon|78.b5778a0|A tool to enumerate information from NTLM authentication enabled web endpoints.|https://github.com/sachinkamath/ntlmrecon
-nuclei|v3.4.7.r56.g48c389b06|A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.|https://github.com/projectdiscovery/nuclei
-nuclei-templates|v10.2.7.r727.gdfe54e0dfe|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates
+nuclei|v3.4.7.r106.g876974f38|A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.|https://github.com/projectdiscovery/nuclei
+nuclei-templates|v10.2.8.r450.ga92c966a81|Community curated list of template files for the nuclei engine.|https://github.com/projectdiscovery/nuclei-templates
 o-saft|7159.92322cab|A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.|https://www.owasp.org/index.php/O-Saft
 ocs|0.2|Compact mass scanner for Cisco routers with default telnet/enable passwords.|http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner.2.html
 onetwopunch|v1.0.0.r2.gd4ab4e8|Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.|https://github.com/superkojiman/onetwopunch
@@ -190,7 +190,7 @@ paranoic|1.7|A simple vulnerability scanner written in Perl.|http://packetstorms
 passhunt|5.332f374|Search drives for documents containing passwords.|https://github.com/Dionach/PassHunt
 pbscan|10.566c3d7|Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.|https://github.com/gvb84/pbscan
 pcredz|100.7bef6cc|A tool that extracts credit card numbers and more from a pcap file or from a live interface.|https://github.com/lgandx/PCredz
-peass|20250827.339b42c6.r0.gcc5ab76|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/PEASS-ng
+peass|20250904.27f4363e.r0.g7c7884f|Privilege Escalation Awesome Scripts SUITE (with colors).|https://github.com/carlospolop/PEASS-ng
 pentestly|1798.93d1b39|Python and Powershell internal penetration testing framework.|https://github.com/praetorian-inc/pentestly
 plcscan|0.1|This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.|http://packetstormsecurity.com/files/119726/PLC-Device-Scanner.html
 pnscan|1.14.1|A parallel network scanner that can be used to survey TCP network services.|http://www.lysator.liu.se/~pen/pnscan/
@@ -213,7 +213,7 @@ rdp-sec-check|11.d0cc143|Script to enumerate security settings of an RDP Service
 relay-scanner|1.7|An SMTP relay scanner.|http://www.cirt.dk
 remote-method-guesser|v5.1.0.r11.g3398ec6|Java RMI vulnerability scanner.|https://github.com/qtc-de/remote-method-guesser
 responder|v3.1.7.0.r0.gfe5f632|A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).|https://github.com/lgandx/Responder
-retire|5.3.0.r1.g200f6df|Scanner detecting the use of JavaScript libraries with known vulnerabilities.|http://retirejs.github.io/retire.js/
+retire|5.3.0.r5.gad272a7|Scanner detecting the use of JavaScript libraries with known vulnerabilities.|http://retirejs.github.io/retire.js/
 routerhunter|21.4da257c|Tool used to find vulnerable routers and devices on the Internet and perform tests.|https://github.com/jh00nbr/Routerhunter.0
 rtlizer|35.5614163|Simple spectrum analyzer.|https://github.com/csete/rtlizer
 rtlsdr-scanner|1013.3c032de|A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.|https://github.com/EarToEarOak/RTLSDR-Scanner
@@ -270,7 +270,7 @@ tachyon-scanner|471.4f1b1a0|Fast Multi-Threaded Web Discovery Tool.|https://gith
 tactical-exploitation|95.7bbcb5d|Modern tactical exploitation toolkit.|https://github.com/0xdea/tactical-exploitation
 taipan|2.9.498.18|Web application security scanner.|https://github.com/enkomio/Taipan
 takeover|98.a058647|Sub-Domain TakeOver Vulnerability Scanner.|https://github.com/m4ll0k/takeover
-tlsx|v1.2.0.r0.g26e1c30|TLS grabber focused on TLS based data collection.|https://github.com/projectdiscovery/tlsx
+tlsx|v1.2.1.r2.gbbc0b1e|TLS grabber focused on TLS based data collection.|https://github.com/projectdiscovery/tlsx
 topera|19.3e230fd|An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.|https://github.com/toperaproject/topera
 traxss|81.48dee2e|Automated XSS Vulnerability Scanner.|https://github.com/M4cs/traxss
 udp-hunter|4.b95cce5|Network assessment tool for various UDP Services covering both IPv4 and IPv6 protocols.|https://github.com/NotSoSecure/udp-hunter
@@ -292,7 +292,7 @@ visql|49.3082e30|Scan SQL vulnerability on target site and sites of on server.|h
 vscan|10.da4e47e|HTTPS / Vulnerability scanner.|https://github.com/pasjtene/Vscan
 vulmap|95.a167c47|Vulmap Online Local Vulnerability Scanners Project|https://github.com/vulmon/Vulmap
 vuls|1106.e3c27e1|Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.|https://github.com/future-architect/vuls
-wafw00f|862.2b94868|Identify and fingerprint Web Application Firewall (WAF) products protecting a website.|https://github.com/EnableSecurity/wafw00f
+wafw00f|870.1899def|Identify and fingerprint Web Application Firewall (WAF) products protecting a website.|https://github.com/EnableSecurity/wafw00f
 webenum|21.24b43b4|Tool to enumerate http responses using dynamically generated queries and more.|https://github.com/sarthakpandit/webenum
 webhunter|12.918b606|Tool for scanning web applications and networks and easily completing the process of collecting knowledge.|https://github.com/peedcorp/WebHunter
 webpwn3r|38.3d75e76|A python based Web Applications Security Scanner.|https://github.com/zigoo0/webpwn3r
