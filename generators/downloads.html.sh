@@ -404,7 +404,7 @@ cat << EOF
               <a href="ftp://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">ftp://mirror.team-cymru.com/blackarch/</a><br>
               <a href="rsync://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.com/blackarch/</a><br>
               <a href="https://ftp2.osuosl.org/pub/blackarch/" target="_blank" itemprop="url">https://ftp2.osuosl.org/pub/blackarch/</a><br>
-              <a href="http://ftp2.osuosl.org/pub/blackarch/" target="_blank" itemprop="url">https://ftp2.osuosl.org/pub/blackarch/</a><br>
+              <a href="http://ftp2.osuosl.org/pub/blackarch/" target="_blank" itemprop="url">https://ftp2.osuosl.org/pub/blackarch/</a>
               <br><br>
               <img src="/images/flags/vn.png" alt="United States" />Vietnam<br>
               <a href="http://mirror.meowsmp.net/blackarch/" target="_blank" itemprop="url">http://mirror.meowsmp.net/blackarch/</a><br>
