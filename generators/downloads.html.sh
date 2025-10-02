@@ -249,6 +249,8 @@ cat << EOF
               <a href="rsync://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.at/blackarch/</a>
               <br><br>
               <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
+              <a href="http://mirror.0xem.ma/blacharch/" target="_blank" itemprop="url">http://mirror.0xem.ma/blacharch/</a><br>
+              <a href="https://mirror.0xem.ma/blacharch/" target="_blank" itemprop="url">https://mirror.0xem.ma/blacharch/</a><br>
               <a href="http://ca.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://ca.mirrors.cicku.me/blackarch/</a><br>
               <a href="https://ca.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://ca.mirrors.cicku.me/blackarch/</a>
               <br><br>
@@ -403,6 +405,10 @@ cat << EOF
               <a href="rsync://mirror.team-cymru.com/blackarch/" target="_blank" itemprop="url">rsync://mirror.team-cymru.com/blackarch/</a><br>
               <a href="https://ftp2.osuosl.org/pub/blackarch/" target="_blank" itemprop="url">https://ftp2.osuosl.org/pub/blackarch/</a><br>
               <a href="http://ftp2.osuosl.org/pub/blackarch/" target="_blank" itemprop="url">https://ftp2.osuosl.org/pub/blackarch/</a><br>
+              <br><br>
+              <img src="/images/flags/vn.png" alt="United States" />Vietnam<br>
+              <a href="http://mirror.meowsmp.net/blackarch/" target="_blank" itemprop="url">http://mirror.meowsmp.net/blackarch/</a><br>
+              <a href="https://mirror.meowsmp.net/blackarch/" target="_blank" itemprop="url">https://mirror.meowsmp.net/blackarch/</a><br>
             </li>
           </ul>
         </div>
