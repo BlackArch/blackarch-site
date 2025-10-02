@@ -252,6 +252,11 @@ background-color: rgba(0, 0, 0, 0.4);
 	margin: 0;
 }
 
+.code-block .command::before {
+  content: '$ ';
+  color: #F4F4F4;
+}
+
 codevar {
 	font-family: inherit;
 	font-size: inherit;

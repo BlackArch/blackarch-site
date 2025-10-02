@@ -90,7 +90,7 @@ cat << EOF
               </p>
               <div class=code-block>
                 <p># Example Image writing<br></p>
-                $ <span> sudo dd bs=512M status=progress if=file.iso of=/dev/sdX </span>
+                <span class="command"> sudo dd bs=512M status=progress if=file.iso of=/dev/sdX </span>
               </div>
               <br>
               <p>
@@ -152,30 +152,30 @@ cat << EOF
               </p>
               <div class=code-block>
                 <p># Run https://blackarch.org/strap.sh as root and follow the instructions.</p>
-                $ <span>curl -O https://blackarch.org/strap.sh</span>
+                <span class="command">curl -O https://blackarch.org/strap.sh</span>
                 <p># Verify the SHA1 sum</p>
-                $ <span>echo ${STRAP_CHECKSUM} | sha1sum -c</span>
+                <span class="command">echo ${STRAP_CHECKSUM} | sha1sum -c</span>
                 <p># Set execute bit</p>
-                $ <span>chmod +x strap.sh</span>
+                <span class="command">chmod +x strap.sh</span>
                 <p># Run strap.sh</p>
-                $ <span>sudo ./strap.sh</span>
+                <span class="command">sudo ./strap.sh</span>
                 <p># Enable multilib following https://wiki.archlinux.org/index.php/Official_repositories#Enabling_multilib and run:</p>
-                $ <span>sudo pacman -Syu</<span>
+                <span class="command">sudo pacman -Syu</<span>
               </div>
               You may now install tools from the blackarch repository.
               <div class=code-block>
                 <p># To list all of the available tools, run </p>
-                $ <span>sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u</span>
+                <span class="command">sudo pacman -Sgg | grep blackarch | cut -d' ' -f2 | sort -u</span>
                 <p># To install a category of tools, run</p>
-                $ <span>sudo pacman -S blackarch-&lt;category&gt;</span>
+                <span class="command">sudo pacman -S blackarch-&lt;category&gt;</span>
                 <p># To see the blackarch categories, run</p>
-                $ <span>sudo pacman -Sg | grep blackarch</span>
+                <span class="command">sudo pacman -Sg | grep blackarch</span>
                 <p># To search for a specific package, run</p>
-                $ <span>pacman -Ss &lt;package_name&gt;</span>
+                <span class="command">pacman -Ss &lt;package_name&gt;</span>
                 <p># Note - it maybe be necessary to overwrite certain packages when installing blackarch tools. If<br>
                    # you experience "failed to commit transaction" errors, use the --needed and --overwrite switches<br>
                    # For example:</p>
-                $ <span>sudo pacman -Syyu --needed --overwrite='*' &lt;wanted-package&gt;</span>
+                <span class="command">sudo pacman -Syyu --needed --overwrite='*' &lt;wanted-package&gt;</span>
               </div>
               <p>The complete tool list of the BlackArch Linux repository can be found <a href="tools.html" target="_blank">here</a>.</p>
             </li>
@@ -190,7 +190,7 @@ cat << EOF
               You can install BlackArch Linux (packages AND environment) using the Full or Netinstall medium.
               <div class="code-block">
                 <p># Run and follow the instructions</p>
-                $ <span>sudo blackarch-install</span>
+                <span class="command">sudo blackarch-install</span>
               </div>
               If you need to be guided step by step, please consult the <a href="blackarch-install.html" title="BlackArch install">blackarch install</a> tutorial.
             </li>
