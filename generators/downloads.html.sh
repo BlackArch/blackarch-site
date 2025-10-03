@@ -249,8 +249,8 @@ cat << EOF
               <a href="rsync://mirror.easyname.at/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.at/blackarch/</a>
               <br><br>
               <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
-              <a href="http://mirror.0xem.ma/blacharch/" target="_blank" itemprop="url">http://mirror.0xem.ma/blacharch/</a><br>
-              <a href="https://mirror.0xem.ma/blacharch/" target="_blank" itemprop="url">https://mirror.0xem.ma/blacharch/</a><br>
+              <a href="http://mirror.0xem.ma/blackarch/" target="_blank" itemprop="url">http://mirror.0xem.ma/blackarch/</a><br>
+              <a href="https://mirror.0xem.ma/blackarch/" target="_blank" itemprop="url">https://mirror.0xem.ma/blackarch/</a><br>
               <a href="http://ca.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://ca.mirrors.cicku.me/blackarch/</a><br>
               <a href="https://ca.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">https://ca.mirrors.cicku.me/blackarch/</a>
               <br><br>
