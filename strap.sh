@@ -1,11 +1,11 @@
 #!/bin/sh
 # strap.sh - setup BlackArch Linux keyring and install initial packages
 
+VERSION=20251011
 ARCH=$(uname -m)
 
 # mirror file to fetch and write
 MIRROR_F='blackarch-mirrorlist'
-GPG_CONF='/etc/pacman.d/gnupg/gpg.conf'
 
 # simple error message wrapper
 err()
@@ -71,26 +71,14 @@ check_internet()
   return $SUCCESS
 }
 
-# add necessary GPG options
-add_gpg_opts()
-{
-  # tmp fix for SHA-1 + >= gpg-2.4 versions
-  if ! grep -q 'allow-weak-key-signatures' $GPG_CONF
-  then
-    echo 'allow-weak-key-signatures' >> $GPG_CONF
-  fi
-
-  return $SUCCESS
-}
-
 # retrieve the BlackArch Linux keyring
 fetch_keyring()
 {
   curl -s -O \
-  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.zst'
+  "https://www.blackarch.org/keyring/blackarch-keyring-$VERSION.tar.gz"
 
   curl -s -O \
-  'https://www.blackarch.org/keyring/blackarch-keyring.pkg.tar.zst.sig'
+  "https://www.blackarch.org/keyring/blackarch-keyring-$VERSION.tar.gz.sig"
 }
 
 # verify the keyring signature
@@ -112,7 +100,8 @@ verify_keyring()
   fi
 
   if ! gpg --keyserver-options no-auto-key-retrieve \
-    --with-fingerprint blackarch-keyring.pkg.tar.zst.sig > /dev/null 2>&1
+    --with-fingerprint "blackarch-keyring-$VERSION.tar.gz.sig" \
+    > /dev/null 2>&1
   then
     err "invalid keyring signature. please stop by https://matrix.to/#/#BlackArch:matrix.org"
   fi
@@ -121,8 +110,8 @@ verify_keyring()
 # delete the signature files
 delete_signature()
 {
-  if [ -f "blackarch-keyring.pkg.tar.zst.sig" ]; then
-    rm blackarch-keyring.pkg.tar.zst.sig
+  if [ -f "blackarch-keyring-$VERSION.tar.gz.sig" ]; then
+    rm "blackarch-keyring-$VERSION.tar.gz.sig"
   fi
 }
 
@@ -135,10 +124,8 @@ check_pacman_gnupg()
 # install the keyring
 install_keyring()
 {
-  if ! pacman --config /dev/null --noconfirm \
-    -U blackarch-keyring.pkg.tar.zst ; then
-      err 'keyring installation failed'
-  fi
+  tar xfz "blackarch-keyring-$VERSION.tar.gz" --strip-components=1 \
+    -C /usr/share/pacman/keyrings/
 
   # just in case
   pacman-key --populate
@@ -201,7 +188,6 @@ blackarch_setup()
   set_umask
   make_tmp_dir
   check_internet
-  add_gpg_opts
   fetch_keyring
   #verify_keyring
   delete_signature
@@ -222,8 +208,12 @@ blackarch_setup()
   reset_umask
   msg 'installing blackarch-mirrorlist package'
   pacman -S --noconfirm blackarch-mirrorlist
-  mv /etc/pacman.d/blackarch-mirrorlist.pacnew \
-    /etc/pacman.d/blackarch-mirrorlist
+  if [ -f /etc/pacman.d/blackarch-mirrorlist.pacnew ]; then
+    mv /etc/pacman.d/blackarch-mirrorlist.pacnew \
+      /etc/pacman.d/blackarch-mirrorlist
+  fi
+  msg 'installing blackarch-officials meta-package...'
+  pacman -S --noconfirm --needed blackarch-officials
   msg 'BlackArch Linux is ready!'
 }
 
