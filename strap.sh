@@ -208,8 +208,10 @@ blackarch_setup()
   reset_umask
   msg 'installing blackarch-mirrorlist package'
   pacman -S --noconfirm blackarch-mirrorlist
-  mv /etc/pacman.d/blackarch-mirrorlist.pacnew \
-    /etc/pacman.d/blackarch-mirrorlist
+  if [ -f /etc/pacman.d/blackarch-mirrorlist.pacnew ]; then
+    mv /etc/pacman.d/blackarch-mirrorlist.pacnew \
+      /etc/pacman.d/blackarch-mirrorlist
+  fi
   msg 'installing blackarch-officials meta-package...'
   pacman -S --noconfirm --needed blackarch-officials
   msg 'BlackArch Linux is ready!'
