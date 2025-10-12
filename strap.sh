@@ -5,6 +5,7 @@ ARCH=$(uname -m)
 
 # mirror file to fetch and write
 MIRROR_F='blackarch-mirrorlist'
+GPG_CONF='/etc/pacman.d/gnupg/gpg.conf'
 
 # simple error message wrapper
 err()
@@ -65,6 +66,18 @@ check_internet()
 
   if ! $tool $tool_opts https://blackarch.org/ > /dev/null 2>&1; then
     err "You don't have an Internet connection!"
+  fi
+
+  return $SUCCESS
+}
+
+# add necessary GPG options
+add_gpg_opts()
+{
+  # tmp fix for SHA-1 + >= gpg-2.4 versions
+  if ! grep -q 'allow-weak-key-signatures' $GPG_CONF
+  then
+    echo 'allow-weak-key-signatures' >> $GPG_CONF
   fi
 
   return $SUCCESS
@@ -188,6 +201,7 @@ blackarch_setup()
   set_umask
   make_tmp_dir
   check_internet
+  add_gpg_opts
   fetch_keyring
   #verify_keyring
   delete_signature
@@ -208,12 +222,8 @@ blackarch_setup()
   reset_umask
   msg 'installing blackarch-mirrorlist package'
   pacman -S --noconfirm blackarch-mirrorlist
-  if [ -f /etc/pacman.d/blackarch-mirrorlist.pacnew ]; then
-    mv /etc/pacman.d/blackarch-mirrorlist.pacnew \
-      /etc/pacman.d/blackarch-mirrorlist
-  fi
-  msg 'installing blackarch-officials meta-package...'
-  pacman -S --noconfirm --needed blackarch-officials
+  mv /etc/pacman.d/blackarch-mirrorlist.pacnew \
+    /etc/pacman.d/blackarch-mirrorlist
   msg 'BlackArch Linux is ready!'
 }
 
