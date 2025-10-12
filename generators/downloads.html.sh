@@ -248,7 +248,7 @@ cat << EOF
               <br><br>
               <img src="/images/flags/ca.png" alt="Canada" /> Canada<br>
               <a href="http://mirror.0xem.ma/blackarch/" target="_blank" itemprop="url">http://mirror.0xem.ma/blackarch/</a><br>
-              <a href="https://mirror.0xem.ma/blackarch/" target="_blank" itemprop="url">https://mirror.0xem.ma/blackarch/</a><br>
+              <a href="https://mirror.0xem.ma/blackarch/" target="_blank" itemprop="url">https://mirror.0xem.ma/blackarch/</a>
               <br><br>
               <img src="/images/flags/cn.png" alt="China" /> China<br>
               <a href="https://mirrors.hust.edu.cn/blackarch/" target="_blank" itemprop="url">https://mirrors.hust.edu.cn/blackarch/</a><br>
@@ -329,8 +329,6 @@ cat << EOF
               <a href="ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">ftp://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
               <a href="rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/</a><br>
               <a href="gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/" target="_blank" itemprop="url">gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/</a>
-              <br><br>
-              <img src="/images/flags/pt.png" alt="Portugal" /> Portugal<br>
               <br><br>
               <img src="/images/flags/ro.png" alt="Romania" /> Romania<br>
               <a href="http://mirrors.hostico.ro/blackarch/" target="_blank" itemprop="url">http://mirrors.hostico.ro/blackarch/</a><br>
