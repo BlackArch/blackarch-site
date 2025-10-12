@@ -40,7 +40,7 @@ cat <<\EOF
     <br />
     <div id=givenow>
     <span class="fa-stack fa-2x" title="Paypal">
-    <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPSCCPXHY8EBQ">
+    <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPSCCPXHY8EBQ" target=_blank>
       <i class="fas fa-square fa-stack-2x"></i>
       <i class="paypal fab fa-paypal fa-stack-1x fa-inverse"></i>
       </a>
@@ -55,81 +55,7 @@ cat <<\EOF
   </div>
   </div>
   </div>
-  <br>
-  <div class="panel panel-default text-left">
-    <div class="panel-heading"><b>List of the donors</b></div>
-    <div class=list-group-item>
-      <p>To be entirely transparent, we will display every donations here, if you have made a donation and wish to see your name and/or the link <i>(hard backlink)</i> of your website or organization displayed, email us or speak to us trough our Matrix channel. In case we receive a donation and nobody claimed it, we will display it as Anonymous</p>
-       <table id=tbl-minimalist class=tbl-donate>
-       <thead>
-        <tr id=idx-tool>
-         <th class=tbl-name>Name</th>
-         <th class=tbl-dversion>Amount</th>
-         <th class=tbl-ddescription>Date</th>
-         <th class=tbl-dhomepage>Website</th>
-        </tr>
-       </thead>
-       <tbody>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">20,00 USD</td>
-         <td class="tbl-ddescription dcat">02 December 2018</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">5,00 USD</td>
-         <td class="tbl-ddescription dcat">01 November 2018</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">20,00 USD</td>
-         <td class="tbl-ddescription dcat">15 October 2018</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">5,00 USD</td>
-         <td class="tbl-ddescription dcat">17 September 2018</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">5,00 USD</td>
-         <td class="tbl-ddescription dcat">03 August 2018</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">100,00 USD</td>
-         <td class="tbl-ddescription dcat">17 October 2017</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">25,00 USD</td>
-         <td class="tbl-ddescription dcat">01 October 2017</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Thomas Cassin</td>
-         <td class="tbl-dversion vcat">22,77 USD</td>
-         <td class="tbl-ddescription dcat">25 August 2017</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-        <tr>
-         <td class=tbl-name>Anonymous</td>
-         <td class="tbl-dversion vcat">5 EUR</td>
-         <td class="tbl-ddescription dcat">03 January 2017</td>
-         <td class=tbl-dhomepage><a href="#" target="_blank"><i class="fas fa-external-link-alt fa-lg"></i></a></td>
-        </tr>
-       </tbody>
-       </table>
-       <p><i>The display of the donator start from January 2017</i></p>
-    </div>
-   </div>
-   <!-- /.row -->
+  <!-- /.row -->
 EOF
 
 cat common/end
