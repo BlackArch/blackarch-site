@@ -63,7 +63,7 @@ androidpincrack|2.ddaf307|Bruteforce the Android Passcode given the hash and sal
 androidsniffer|0.1|A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.| blackarch-mobile |http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html
 androwarn|135.626c02d|Yet another static code analyzer for malicious Android applications.| blackarch-mobile |https://github.com/maaaaz/androwarn
 angr|9.1.11752|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
-angr-management|9.1.11752|This is the GUI for angr.| blackarch-binary |https://pypi.org/project/angr-management/#files
+angr-management|9.2.179|The official angr GUI.| blackarch-binary |https://github.com/angr/angr-management
 angr-py2|7.8.9.26|The next-generation binary analysis platform from UC Santa Barbaras Seclab.| blackarch-binary |https://pypi.org/project/angr/#files
 angrop|408.15616aa|A rop gadget finder and chain builder.| blackarch-exploitation |https://github.com/salls/angrop
 anontwi|1.1b|A free software python client designed to navigate anonymously on social networks. It supports Identi.ca and Twitter.com.| blackarch-social |http://anontwi.sourceforge.net/
@@ -290,6 +290,8 @@ c5scan|30.be8845c|Vulnerability scanner and information gatherer for the Concret
 c7decrypt|0.3.3|Cisco password type encryptor and decryptor.| blackarch-crypto |https://github.com/claudijd/c7decrypt
 cachedump|1.1|A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).| blackarch-windows |https://packetstormsecurity.com/files/36781/cachedump.1.zip.html
 cafebabe|0.1.2|Java bytecode editor & decompiler.| blackarch-decompiler |https://grax.info/
+caido-cli|0.52.0|Intercepting proxy to replay, inject, scan and fuzz HTTP requests.| blackarch-webapp |https://caido.io/
+caido-desktop|0.52.0|Intercepting proxy to replay, inject, scan and fuzz HTTP requests.| blackarch-webapp |https://caido.io/
 cameradar|204.5931bf3|Hacks its way into RTSP videosurveillance cameras.| blackarch-scanner |https://github.com/Ullaakut/cameradar
 camover|94.483befd|A camera exploitation tool that allows to disclosure network camera admin password.| blackarch-exploitation |https://github.com/EntySec/camover
 camscan|1.0057215|A tool which will analyze the CAM table of Cisco switches to look for anamolies.| blackarch-scanner |https://github.com/securestate/camscan
@@ -492,6 +494,7 @@ dcfldd|1.7.1|DCFL (DoD Computer Forensics Lab) dd replacement with hashing.| bla
 dcrawl|7.3273c35|Simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names.| blackarch-scanner |https://github.com/kgretzky/dcrawl
 ddosify|v2.6.0.r31.g0131056|High-performance load testing tool, written in Golang.| blackarch-dos |https://github.com/ddosify/ddosify
 de4dot|2090.b7d5728|.NET deobfuscator and unpacker.| blackarch-windows |https://github.com/de4dot/de4dot
+de4dotex|3.2.3.r0.g3355328|.NET deobfuscator and unpacker.| blackarch-windows |https://github.com/GDATAAdvancedAnalytics/de4dotEx
 deathstar|60.d7bcbfd|Automate getting Domain Admin using Empire.| blackarch-automation |https://github.com/byt3bl33d3r/DeathStar
 debinject|43.d884309|Inject malicious code into *.debs.| blackarch-backdoor |https://github.com/UndeadSec/Debinject
 deblaze|1.0608dc3|Performs method enumeration and interrogation against flash remoting end points.| blackarch-scanner |https://github.com/SpiderLabs/deblaze
@@ -507,6 +510,7 @@ depdep|2.0|A merciless sentinel which will seek sensitive files containing criti
 dependency-check|10.0.2|A tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies.| blackarch-code-audit |https://github.com/jeremylong/DependencyCheck/releases/
 depix|38.f7d1850|A tool for recovering passwords from pixelized screenshots.| blackarch-misc |https://github.com/beurtschipper/Depix
 der-ascii|100.3ea50c4|A reversible DER and BER pretty-printer.| blackarch-misc |https://github.com/google/der-ascii
+deskhpsdr|2.6.59.r19.gac0db31|SDR App for HPSDR protocol and Soapy-API.| blackarch-radio |https://github.com/dl1bz/deskhpsdr
 det|31.417cbce|(extensible) Data Exfiltration Toolkit.| blackarch-networking |https://github.com/sensepost/det
 detect-it-easy|3.10|A program for determining types of files.| blackarch-binary |https://github.com/horsicq/DIE-engine/releases
 detect-secrets|v1.5.0.r49.g50119d6|An enterprise friendly way of detecting and preventing secrets in code.| blackarch-code-audit |https://github.com/Yelp/detect-secrets
@@ -1310,6 +1314,7 @@ ligolo-mp|v2.1.0.r7.gcfd378c|Multiplayer pivoting solution.| blackarch-networkin
 ligolo-ng|v0.8.2.r0.g82bec5b|An advanced, yet simple, tunneling tool that uses a TUN interface.| blackarch-tunnel |https://github.com/nicocha30/ligolo-ng/releases
 limeaide|305.ce3c9b7|Remotely dump RAM of a Linux client and create a volatility profile for later analysis on your local host.| blackarch-forensic |https://github.com/kd8bny/LiMEaide
 limelighter|17.d119dc7|A tool for generating fake code signing certificates or signing real ones.| blackarch-exploitation |https://github.com/Tylous/Limelighter
+limesuite|23.11.0.r19.g524cd2e|Driver and GUI for LMS7002M-based SDR platforms.| blackarch-radio |https://github.com/myriadrf/LimeSuite
 linenum|75.c47f9b2|Scripted Local Linux Enumeration & Privilege Escalation Checks| blackarch-scanner |https://github.com/rebootuser/LinEnum
 linikatz|48.d9cfdbf|Tool to attack AD on UNIX.| blackarch-automation |https://github.com/portcullislabs/linikatz
 linkedin2username|144.8889f30|OSINT Tool: Generate username lists for companies on LinkedIn.| blackarch-social |https://github.com/initstring/linkedin2username
