@@ -13,8 +13,8 @@ chaosmap|1.3|An information gathering tool and dns / whois / web server scanner|
 chromefreak|24.12745b1|A Cross-Platform Forensic Framework for Google Chrome|http://osandamalith.github.io/ChromeFreak/
 dc3dd|7.2.646|A patched version of dd that includes a number of features useful for computer forensics.|http://sourceforge.net/projects/dc3dd
 dcfldd|1.7.1|DCFL (DoD Computer Forensics Lab) dd replacement with hashing.|https://github.com/resurrecting-open-source-projects/dcfldd/
-dfir-ntfs|1.1.19|An NTFS parser for digital forensics & incident response.|https://github.com/msuhanov/dfir_ntfs
-dftimewolf|817.69d64eb7|Framework for orchestrating forensic collection, processing and data export.|https://github.com/log2timeline/dftimewolf
+dfir-ntfs|1.1.20|An NTFS parser for digital forensics & incident response.|https://github.com/msuhanov/dfir_ntfs
+dftimewolf|818.6285930c|Framework for orchestrating forensic collection, processing and data export.|https://github.com/log2timeline/dftimewolf
 disitool|0.4|Tool to work with Windows executables digital signatures.|https://blog.didierstevens.com/my-software/#disitool
 dmde|4.2.2.816|Disk Editor and Data Recovery Software.|https://dmde.com/download.html
 dmg2img|1.6.7|A CLI tool to uncompress Apple's compressed DMG files to the HFS+ IMG format.|http://vu1tur.eu.org/tools/
@@ -26,7 +26,7 @@ evtkit|8.af06db3|Fix acquired .evt - Windows Event Log files (Forensics).|https:
 exiflooter|39.0c9535f|Find geolocation on all image urls and directories also integrates with OpenStreetMap.|https://github.com/aydinnyunus/exifLooter
 ext4magic|0.3.2|File carver used when recovering from disasters or in digital forensics activities.|https://sourceforge.net/projects/ext4magic/
 extractusnjrnl|7.362d4290|Tool to extract the $UsnJrnl from an NTFS volume.|https://github.com/jschicht/ExtractUsnJrnl
-firefox-decrypt|1.1.1.r5.g8a5fdeb|Extract passwords from Mozilla Firefox, Waterfox, Thunderbird, SeaMonkey profiles.|https://github.com/unode/firefox_decrypt
+firefox-decrypt|1.1.1.r7.g4fae303|Extract passwords from Mozilla Firefox, Waterfox, Thunderbird, SeaMonkey profiles.|https://github.com/unode/firefox_decrypt
 fridump|23.3e64ee0|A universal memory dumper using Frida.|https://github.com/Nightbringer21/fridump
 galleta|20040505_1|Examine the contents of the IE's cookie files for forensic purposes|http://www.jonesdykstra.com/
 grokevt|0.5.0|A collection of scripts built for reading Windows® NT/2K/XP/2K eventlog files.|http://code.google.com/p/grokevt/
@@ -98,7 +98,7 @@ python-dissect.executable|1.10.r1.g01df4c2|A Dissect module implementing parsers
 python-dissect.extfs|3.14.r1.gb6d907c|A Dissect module implementing a parser for the ExtFS file system, the native filesystem for Linux operating systems.|https://github.com/fox-it/dissect.extfs
 python-dissect.fat|3.12.r1.g569637f|A Dissect module implementing parsers for the FAT and exFAT file systems, commonly used on flash memory based storage devices and UEFI partitions.|https://github.com/fox-it/dissect.fat
 python-dissect.ffs|3.11.r1.gbb30cb1|A Dissect module implementing a parser for the FFS file system, commonly used by BSD operating systems.|https://github.com/fox-it/dissect.ffs
-python-dissect.fve|4.4.r3.g8d22bb6|A Dissect module implementing a parsers for full volume encryption implementations, currently Microsoft's Bitlocker Disk Encryption (BDE) and Linux Unified Key Setup (LUKS1 and LUKS2).|https://github.com/fox-it/dissect.fve
+python-dissect.fve|4.4.r5.gc7b5720|A Dissect module implementing a parsers for full volume encryption implementations, currently Microsoft's Bitlocker Disk Encryption (BDE) and Linux Unified Key Setup (LUKS1 and LUKS2).|https://github.com/fox-it/dissect.fve
 python-dissect.hypervisor|3.19.r2.g0c89766|A Dissect module implementing parsers for various hypervisor disk, backup and configuration files.|https://github.com/fox-it/dissect.hypervisor
 python-dissect.jffs|1.5.r2.g5101fae|A Dissect module implementing a parser for the JFFS2 file system, commonly used by router operating systems.|https://github.com/fox-it/dissect.jffs
 python-dissect.ntfs|3.14.r2.gcce5fd7|A Dissect module implementing a parser for the NTFS file system, used by the Windows operating system.|https://github.com/fox-it/dissect.ntfs
@@ -107,11 +107,11 @@ python-dissect.regf|3.13.r1.gc0fc829|A Dissect module implementing a parser for 
 python-dissect.shellitem|3.12.r1.g16bf53d|A Dissect module implementing a parser for the Shellitem structures, commonly used by Microsoft Windows.|https://github.com/fox-it/dissect.shellitem
 python-dissect.sql|3.12.r1.g49cc5d7|A Dissect module implementing a parsers for the SQLite database file format, commonly used by applications to store configuration data.|https://github.com/fox-it/dissect.sql
 python-dissect.squashfs|1.10.r1.g1629277|A Dissect module implementing a parser for the SquashFS file system.|https://github.com/fox-it/dissect.squashfs
-python-dissect.target|3.23.1.r28.g9cd1946|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
+python-dissect.target|3.23.1.r34.gaa54396|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
 python-dissect.thumbcache|1.10.r1.g291100e|A Dissect module implementing a parser for windows thumbcache.|https://github.com/fox-it/dissect.thumbcache
-python-dissect.util|3.22.r7.gf4a55fc|A Dissect module implementing various utility functions for the other Dissect modules.|https://github.com/fox-it/dissect.util
-python-dissect.vmfs|3.12.r1.gabb0023|A Dissect module implementing a parser for the VMFS file system, used by VMware virtualization software.|https://github.com/fox-it/dissect.vmfs
-python-dissect.volume|3.16.r3.g3c1d863|A Dissect module implementing a parser for different disk volume and partition systems, for example LVM2, GPT and MBR.|https://github.com/fox-it/dissect.volume
+python-dissect.util|3.22.r9.gf58bb31|A Dissect module implementing various utility functions for the other Dissect modules.|https://github.com/fox-it/dissect.util
+python-dissect.vmfs|3.12.r2.ga7e4b6b|A Dissect module implementing a parser for the VMFS file system, used by VMware virtualization software.|https://github.com/fox-it/dissect.vmfs
+python-dissect.volume|3.16.r4.g711c231|A Dissect module implementing a parser for different disk volume and partition systems, for example LVM2, GPT and MBR.|https://github.com/fox-it/dissect.volume
 python-dissect.xfs|3.12.r1.g3f2d69d|A Dissect module implementing a parser for the XFS file system, commonly used by RedHat Linux distributions.|https://github.com/fox-it/dissect.xfs
 python-flow.record|3.20.r16.gb0cb20a|Recordization library.|https://github.com/fox-it/flow.record
 python2-peepdf|0.4.2|A Python tool to explore PDF files in order to find out if the file can be harmful or not.|http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
@@ -119,7 +119,7 @@ rcrdcarver|5.54507d21|Carve RCRD records ($LogFile) from a chunk of data..|https
 recentfilecache-parser|2.5e22518|Python parser for the RecentFileCache.bcf on Windows.|https://github.com/prolsen/recentfilecache-parser
 recoverdm|0.20|Recover damaged CD DVD and disks with bad sectors.|http://www.vanheusden.com/recoverdm/
 recoverjpeg|2.6.3|Recover jpegs from damaged devices.|https://github.com/samueltardieu/recoverjpeg
-recuperabit|84.dd1389e|A tool for forensic file system reconstruction.|https://github.com/Lazza/RecuperaBit
+recuperabit|85.e05079e|A tool for forensic file system reconstruction.|https://github.com/Lazza/RecuperaBit
 regipy|2.2.2|Library for parsing offline registry hives.|https://github.com/mkorman90/regipy
 reglookup|1.0.1|Command line utility for reading and querying Windows NT registries|http://projects.sentinelchicken.org/reglookup
 regripper|109.bdf7ac2|Open source forensic software used as a Windows Registry data extraction command line or GUI tool.|https://github.com/keydet89/RegRipper3.0
@@ -139,7 +139,7 @@ tekdefense-automater|88.42548cf|IP URL and MD5 OSINT Analysis|https://github.com
 thumbcacheviewer|1.0.3.7|Extract Windows thumbcache database files.|https://github.com/thumbcacheviewer/thumbcacheviewer
 trid|2.24|An utility designed to identify file types from their binary signatures.|http://mark0.net/soft-trid-e.html
 truehunter|14.0a2895d|Detect TrueCrypt containers using a fast and memory efficient approach.|https://github.com/adoreste/truehunter
-unblob|25.5.26.r179.gb4e1b47|Extract files from any kind of container formats.|https://github.com/onekey-sec/unblob
+unblob|25.5.26.r199.gc7aab25|Extract files from any kind of container formats.|https://github.com/onekey-sec/unblob
 undbx|0.21.r3.g5e31c75|Extract e-mail messages from Outlook Express DBX files.|https://github.com/ZungBang/undbx
 usbrip|291.5093c84|USB device artifacts tracker.|https://github.com/snovvcrash/usbrip
 usnjrnl2csv|29.1ecbddc|Parser for $UsnJrnl on NTFS.|https://github.com/jschicht/UsnJrnl2Csv
