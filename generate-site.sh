@@ -4,6 +4,7 @@
 #export THREAT_COUNT=`wc -l < data/threat-model`
 export TOOL_COUNT="$(wc -l < data/tools)"
 export AFORENSIC_COUNT="$(wc -l < data/anti-forensic)"
+export AI_COUNT="$(wc -l < data/ai)"
 export AUTOMATION_COUNT="$(wc -l < data/automation)"
 export AUTOMOBILE_COUNT="$(wc -l < data/automobile)"
 export BACKDOOR_COUNT="$(wc -l < data/backdoor)"
