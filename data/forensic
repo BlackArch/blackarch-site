@@ -1,5 +1,5 @@
-afflib|3.7.19|An extensible open format for the storage of disk images and related forensic information.|https://github.com/sshock/AFFLIBv3
-aimage|3.2.5|A program to create aff-images.|http://www.afflib.org
+afflib|3.7.22|An extensible open format for the storage of disk images and related forensic information.|https://github.com/sshock/AFFLIBv3
+aimage|3.3.0|A tool to create aff-images.|https://pkgs.fedoraproject.org/repo/pkgs/aimage/
 air|2.0.0|A GUI front-end to dd/dc3dd designed for easily creating forensic images.|https://sourceforge.net/projects/air-imager/
 analyzemft|483.d82bc98|Parse the MFT file from an NTFS filesystem.|https://github.com/dkovar/analyzeMFT
 autopsy|4.22.1|The forensic browser. A GUI for the Sleuth Kit.|https://github.com/sleuthkit/autopsy
@@ -38,8 +38,8 @@ indxparse|198.a977192|A Tool suite for inspecting NTFS artifacts.|http://www.wil
 interrogate|5.eb5f071|A proof-of-concept tool for identification of cryptographic keys in binary material (regardless of target operating system), first and foremost for memory dump analysis and forensic usage.|https://github.com/carmaa/interrogate
 iosforensic|1.0|iOS forensic tool.|https://github.com/Flo354/iOSForensic
 ipba2|95.c03bd85|IOS Backup Analyzer.|http://www.ipbackupanalyzer.com/
-iphoneanalyzer|2.1.0|Allows you to forensically examine or recover date from in iOS device.|http://www.crypticbit.com/zen/products/iphoneanalyzer
-jefferson|v0.4.6.r2.g7d93ac1|JFFS2 filesystem extraction tool.|https://github.com/onekey-sec/jefferson
+iphoneanalyzer|2.1.0|Allows you to forensically examine or recover date from in iOS device.|http://downloads.sourceforge.net/project/iphoneanalyzer/
+jefferson|v0.4.6.r6.gbacba15|JFFS2 filesystem extraction tool.|https://github.com/onekey-sec/jefferson
 lazagne|889.858ff6f|An open source application used to retrieve lots of passwords stored on a local computer.|https://github.com/AlessandroZ/LaZagne
 ldsview|47.d8bfcaa|Offline search tool for LDAP directory dumps in LDIF format.|https://github.com/kgoins/ldsview
 lfle|24.f28592c|Recover event log entries from an image by heurisitically looking for record structures.|https://github.com/williballenthin/LfLe
@@ -68,7 +68,7 @@ mxtract|90.0b34376|Memory Extractor & Analyzer.|https://github.com/rek7/mXtract
 myrescue|0.9.8|A hard disk recovery tool that reads undamaged regions first.|http://myrescue.sourceforge.net
 naft|0.0.9|Network Appliance Forensic Toolkit.|https://blog.didierstevens.com/my-software/#NAFT
 netspionage|99.c24f995|Network Forensics CLI utility that performs Network Scanning, OSINT, and Attack Detection.|https://github.com/ANG13T/netspionage
-networkminer|3.0|A Network Forensic Analysis Tool for advanced Network Traffic Analysis, sniffer and packet analyzer.|http://www.netresec.com/
+networkminer|3.1|A Network Forensic Analysis Tool for advanced Network Traffic Analysis, sniffer and packet analyzer.|http://www.netresec.com/
 nfex|2.5|A tool for extracting files from the network in real-time or post-capture from an offline tcpdump pcap savefile.|https://code.google.com/p/nfex/
 ntdsxtract|34.7fa1c8c|Active Directory forensic framework.|https://github.com/csababarta/ntdsxtract
 ntfs-file-extractor|6.f2b23d72|Extract files off NTFS.|https://github.com/jschicht/NtfsFileExtractor
@@ -84,36 +84,36 @@ pdfresurrect|0.12|A tool aimed at analyzing PDF documents.|http://packetstormsec
 peepdf|0.4.2|A Python tool to explore PDF files in order to find out if the file can be harmful or not.|http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
 pev|0.81|Command line based tool for PE32/PE32+ file analysis.|http://pev.sourceforge.net/
 powermft|5.76574543|Powerful commandline $MFT record editor.|https://github.com/jschicht/PowerMft
-python-acquire|3.20.1.r4.gca78bce|Quickly gather forensic artifacts from disk images or a live system into a lightweight container.|https://github.com/fox-it/acquire
-python-dissect.archive|1.7.r1.ga842ff0|A Dissect module implementing parsers for various archive and backup formats.|https://github.com/fox-it/dissect.archive
-python-dissect.btrfs|1.8.r2.gd7b6455|A Dissect module implementing a parser for the btrfs file system.|https://github.com/fox-it/dissect.btrfs
-python-dissect.cim|3.12.r1.g5642f99|A Dissect module implementing a parser for the Windows Common Information Model (CIM) database, used in the Windows operating system.|https://github.com/fox-it/dissect.cim
-python-dissect.clfs|1.10.r1.g7ec7b06|A Dissect module implementing a parser for the CLFS (Common Log File System) file system of Windows.|https://github.com/fox-it/dissect.clfs
-python-dissect.cstruct|4.6.r1.g194b1b5|A Dissect module implementing a parser for C-like structures.|https://github.com/fox-it/dissect.cstruct
-python-dissect.esedb|3.17.r1.ge0d6bf4|A Dissect module implementing a parser for Microsofts Extensible Storage Engine Database (ESEDB), used for example in Active Directory, Exchange and Windows Update.|https://github.com/fox-it/dissect.esedb
-python-dissect.etl|3.13.r1.gfa255a5|A Dissect module implementing a parser for Event Trace Log (ETL) files, used by the Windows operating system to log kernel events.|https://github.com/fox-it/dissect.etl
-python-dissect.eventlog|3.10.r1.ga298fbb|A Dissect module implementing parsers for the Windows EVT, EVTX and WEVT log file formats.|https://github.com/fox-it/dissect.eventlog
-python-dissect.evidence|3.11.r1.g971b899|A Dissect module implementing a parsers for various forensic evidence file containers, currently: AD1, ASDF and EWF.|https://github.com/fox-it/dissect.evidence
-python-dissect.executable|1.10.r1.g01df4c2|A Dissect module implementing parsers for various executable formats such as PE, ELF and Macho-O.|https://github.com/fox-it/dissect.executable
-python-dissect.extfs|3.14.r1.gb6d907c|A Dissect module implementing a parser for the ExtFS file system, the native filesystem for Linux operating systems.|https://github.com/fox-it/dissect.extfs
-python-dissect.fat|3.12.r1.g569637f|A Dissect module implementing parsers for the FAT and exFAT file systems, commonly used on flash memory based storage devices and UEFI partitions.|https://github.com/fox-it/dissect.fat
-python-dissect.ffs|3.11.r1.gbb30cb1|A Dissect module implementing a parser for the FFS file system, commonly used by BSD operating systems.|https://github.com/fox-it/dissect.ffs
-python-dissect.fve|4.4.r5.gc7b5720|A Dissect module implementing a parsers for full volume encryption implementations, currently Microsoft's Bitlocker Disk Encryption (BDE) and Linux Unified Key Setup (LUKS1 and LUKS2).|https://github.com/fox-it/dissect.fve
-python-dissect.hypervisor|3.19.r2.g0c89766|A Dissect module implementing parsers for various hypervisor disk, backup and configuration files.|https://github.com/fox-it/dissect.hypervisor
-python-dissect.jffs|1.5.r2.g5101fae|A Dissect module implementing a parser for the JFFS2 file system, commonly used by router operating systems.|https://github.com/fox-it/dissect.jffs
-python-dissect.ntfs|3.14.r2.gcce5fd7|A Dissect module implementing a parser for the NTFS file system, used by the Windows operating system.|https://github.com/fox-it/dissect.ntfs
-python-dissect.ole|3.11.r1.g1ef4a24|A Dissect module implementing a parser for the Object Linking & Embedding (OLE) format, commonly used by document editors on Windows operating systems.|https://github.com/fox-it/dissect.ole
-python-dissect.regf|3.13.r1.gc0fc829|A Dissect module implementing a parser for Windows registry file format, used to store application and OS configuration on Windows operating systems.|https://github.com/fox-it/dissect.regf
-python-dissect.shellitem|3.12.r1.g16bf53d|A Dissect module implementing a parser for the Shellitem structures, commonly used by Microsoft Windows.|https://github.com/fox-it/dissect.shellitem
-python-dissect.sql|3.12.r1.g49cc5d7|A Dissect module implementing a parsers for the SQLite database file format, commonly used by applications to store configuration data.|https://github.com/fox-it/dissect.sql
-python-dissect.squashfs|1.10.r1.g1629277|A Dissect module implementing a parser for the SquashFS file system.|https://github.com/fox-it/dissect.squashfs
-python-dissect.target|3.23.1.r37.gc86a536|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
-python-dissect.thumbcache|1.10.r1.g291100e|A Dissect module implementing a parser for windows thumbcache.|https://github.com/fox-it/dissect.thumbcache
-python-dissect.util|3.22.r11.geeea00d|A Dissect module implementing various utility functions for the other Dissect modules.|https://github.com/fox-it/dissect.util
-python-dissect.vmfs|3.12.r2.ga7e4b6b|A Dissect module implementing a parser for the VMFS file system, used by VMware virtualization software.|https://github.com/fox-it/dissect.vmfs
-python-dissect.volume|3.16.r4.g711c231|A Dissect module implementing a parser for different disk volume and partition systems, for example LVM2, GPT and MBR.|https://github.com/fox-it/dissect.volume
-python-dissect.xfs|3.12.r1.g3f2d69d|A Dissect module implementing a parser for the XFS file system, commonly used by RedHat Linux distributions.|https://github.com/fox-it/dissect.xfs
-python-flow.record|3.20.r16.gb0cb20a|Recordization library.|https://github.com/fox-it/flow.record
+python-acquire|3.21.r0.g9a1e62f|Quickly gather forensic artifacts from disk images or a live system into a lightweight container.|https://github.com/fox-it/acquire
+python-dissect.archive|1.8.r0.gc0c3ff3|A Dissect module implementing parsers for various archive and backup formats.|https://github.com/fox-it/dissect.archive
+python-dissect.btrfs|1.9.r0.g315ef70|A Dissect module implementing a parser for the btrfs file system.|https://github.com/fox-it/dissect.btrfs
+python-dissect.cim|3.13.r0.g5642f99|A Dissect module implementing a parser for the Windows Common Information Model (CIM) database, used in the Windows operating system.|https://github.com/fox-it/dissect.cim
+python-dissect.clfs|1.11.r0.g7ec7b06|A Dissect module implementing a parser for the CLFS (Common Log File System) file system of Windows.|https://github.com/fox-it/dissect.clfs
+python-dissect.cstruct|4.7.r0.g194b1b5|A Dissect module implementing a parser for C-like structures.|https://github.com/fox-it/dissect.cstruct
+python-dissect.esedb|3.18.r0.gea5efb8|A Dissect module implementing a parser for Microsofts Extensible Storage Engine Database (ESEDB), used for example in Active Directory, Exchange and Windows Update.|https://github.com/fox-it/dissect.esedb
+python-dissect.etl|3.14.r0.gfa255a5|A Dissect module implementing a parser for Event Trace Log (ETL) files, used by the Windows operating system to log kernel events.|https://github.com/fox-it/dissect.etl
+python-dissect.eventlog|3.11.r0.ga298fbb|A Dissect module implementing parsers for the Windows EVT, EVTX and WEVT log file formats.|https://github.com/fox-it/dissect.eventlog
+python-dissect.evidence|3.12.r0.g971b899|A Dissect module implementing a parsers for various forensic evidence file containers, currently: AD1, ASDF and EWF.|https://github.com/fox-it/dissect.evidence
+python-dissect.executable|1.11.r0.g01df4c2|A Dissect module implementing parsers for various executable formats such as PE, ELF and Macho-O.|https://github.com/fox-it/dissect.executable
+python-dissect.extfs|3.15.r0.gb6d907c|A Dissect module implementing a parser for the ExtFS file system, the native filesystem for Linux operating systems.|https://github.com/fox-it/dissect.extfs
+python-dissect.fat|3.13.r0.g569637f|A Dissect module implementing parsers for the FAT and exFAT file systems, commonly used on flash memory based storage devices and UEFI partitions.|https://github.com/fox-it/dissect.fat
+python-dissect.ffs|3.12.r0.gbb30cb1|A Dissect module implementing a parser for the FFS file system, commonly used by BSD operating systems.|https://github.com/fox-it/dissect.ffs
+python-dissect.fve|4.5.r0.g964efee|A Dissect module implementing a parsers for full volume encryption implementations, currently Microsoft's Bitlocker Disk Encryption (BDE) and Linux Unified Key Setup (LUKS1 and LUKS2).|https://github.com/fox-it/dissect.fve
+python-dissect.hypervisor|3.20.r0.g0c89766|A Dissect module implementing parsers for various hypervisor disk, backup and configuration files.|https://github.com/fox-it/dissect.hypervisor
+python-dissect.jffs|1.6.r0.g5101fae|A Dissect module implementing a parser for the JFFS2 file system, commonly used by router operating systems.|https://github.com/fox-it/dissect.jffs
+python-dissect.ntfs|3.15.r1.g4bda3bd|A Dissect module implementing a parser for the NTFS file system, used by the Windows operating system.|https://github.com/fox-it/dissect.ntfs
+python-dissect.ole|3.12.r0.g1ef4a24|A Dissect module implementing a parser for the Object Linking & Embedding (OLE) format, commonly used by document editors on Windows operating systems.|https://github.com/fox-it/dissect.ole
+python-dissect.regf|3.14.r0.gc0fc829|A Dissect module implementing a parser for Windows registry file format, used to store application and OS configuration on Windows operating systems.|https://github.com/fox-it/dissect.regf
+python-dissect.shellitem|3.13.r0.g16bf53d|A Dissect module implementing a parser for the Shellitem structures, commonly used by Microsoft Windows.|https://github.com/fox-it/dissect.shellitem
+python-dissect.sql|3.13.r0.g65a7f61|A Dissect module implementing a parsers for the SQLite database file format, commonly used by applications to store configuration data.|https://github.com/fox-it/dissect.sql
+python-dissect.squashfs|1.11.r1.g6cf7921|A Dissect module implementing a parser for the SquashFS file system.|https://github.com/fox-it/dissect.squashfs
+python-dissect.target|3.24.r4.g3c8e8f6|The Dissect module tying all other Dissect modules together. It provides a programming API and command line tools which allow easy access to various data sources inside disk images or file collections (a.k.a. targets).|https://github.com/fox-it/dissect.target
+python-dissect.thumbcache|1.11.r0.g291100e|A Dissect module implementing a parser for windows thumbcache.|https://github.com/fox-it/dissect.thumbcache
+python-dissect.util|3.23.r0.g94da877|A Dissect module implementing various utility functions for the other Dissect modules.|https://github.com/fox-it/dissect.util
+python-dissect.vmfs|3.13.r0.ga7e4b6b|A Dissect module implementing a parser for the VMFS file system, used by VMware virtualization software.|https://github.com/fox-it/dissect.vmfs
+python-dissect.volume|3.17.r0.g711c231|A Dissect module implementing a parser for different disk volume and partition systems, for example LVM2, GPT and MBR.|https://github.com/fox-it/dissect.volume
+python-dissect.xfs|3.13.r0.ged0ce9f|A Dissect module implementing a parser for the XFS file system, commonly used by RedHat Linux distributions.|https://github.com/fox-it/dissect.xfs
+python-flow.record|3.21.r0.gb0cb20a|Recordization library.|https://github.com/fox-it/flow.record
 python2-peepdf|0.4.2|A Python tool to explore PDF files in order to find out if the file can be harmful or not.|http://eternal-todo.com/tools/peepdf-pdf-analysis-tool
 rcrdcarver|5.54507d21|Carve RCRD records ($LogFile) from a chunk of data..|https://github.com/jschicht/RcrdCarver
 recentfilecache-parser|2.5e22518|Python parser for the RecentFileCache.bcf on Windows.|https://github.com/prolsen/recentfilecache-parser
@@ -124,7 +124,7 @@ regipy|2.2.2|Library for parsing offline registry hives.|https://github.com/mkor
 reglookup|1.0.1|Command line utility for reading and querying Windows NT registries|http://projects.sentinelchicken.org/reglookup
 regripper|109.bdf7ac2|Open source forensic software used as a Windows Registry data extraction command line or GUI tool.|https://github.com/keydet89/RegRipper3.0
 regrippy|2.0.0|Framework for reading and extracting useful forensics data from Windows registry hives.|https://pypi.org/project/regrippy/#files
-rekall|1409.55d1925f|Memory Forensic Framework.|https://github.com/google/rekall
+rekall|1.7.2rc1.r68.g55d1925|Memory Forensic Framework.|https://github.com/google/rekall
 replayproxy|1.1|Forensic tool to replay web-based attacks (and also general HTTP traffic) that were captured in a pcap file.|https://code.google.com/p/replayproxy/
 rifiuti2|0.7.0|A rewrite of rifiuti, a great tool from Foundstone folks for analyzing Windows Recycle Bin INFO2 file.|https://github.com/abelcheung/rifiuti2
 safecopy|1.7|A disk data recovery tool to extract data from damaged media.|http://safecopy.sourceforge.net/
@@ -139,7 +139,7 @@ tekdefense-automater|88.42548cf|IP URL and MD5 OSINT Analysis|https://github.com
 thumbcacheviewer|1.0.3.7|Extract Windows thumbcache database files.|https://github.com/thumbcacheviewer/thumbcacheviewer
 trid|2.24|An utility designed to identify file types from their binary signatures.|http://mark0.net/soft-trid-e.html
 truehunter|14.0a2895d|Detect TrueCrypt containers using a fast and memory efficient approach.|https://github.com/adoreste/truehunter
-unblob|25.5.26.r199.gc7aab25|Extract files from any kind of container formats.|https://github.com/onekey-sec/unblob
+unblob|25.11.25.r0.gaf55495|Extract files from any kind of container formats.|https://github.com/onekey-sec/unblob
 undbx|0.21.r3.g5e31c75|Extract e-mail messages from Outlook Express DBX files.|https://github.com/ZungBang/undbx
 usbrip|291.5093c84|USB device artifacts tracker.|https://github.com/snovvcrash/usbrip
 usnjrnl2csv|29.1ecbddc|Parser for $UsnJrnl on NTFS.|https://github.com/jschicht/UsnJrnl2Csv
