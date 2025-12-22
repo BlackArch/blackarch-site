@@ -2204,7 +2204,7 @@ sharpfuzz|v2.2.0.r6.gfee8d5e|AFL-based fuzz testing for .NET.| blackarch-fuzzer 
 shed|2.0.0|.NET runtime inspector.| blackarch-windows |https://github.com/enkomio/shed
 shellcode-compiler|26.8a25463|Compiles C/C++ style code into a small, position-independent and NULL-free shellcode for Windows & Linux.| blackarch-exploitation |https://github.com/NytroRST/ShellcodeCompiler
 shellcode-factory|96.07ae857|Tool to create and test shellcodes from custom assembly sources.| blackarch-exploitation |https://github.com/danielhenrymantilla/shellcode-factory
-shellcodecs|0.1|A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.| blackarch-exploitation |http://www.blackhatlibrary.net/Shellcodecs
+shellcodecs|0.2|A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.| blackarch-exploitation |http://www.blackhatlibrary.net/Shellcodecs
 shellen|66.c0c5f83|Interactive shellcoding environment to easily craft shellcodes.| blackarch-exploitation |https://github.com/merrychap/shellen
 shellerator|34.c325e3d|Simple command-line tool aimed to help pentesters quickly generate one-liner reverse/bind shells in multiple languages.| blackarch-automation |https://github.com/ShutdownRepo/shellerator
 shellinabox|428.98e6eeb|Implements a web server that can export arbitrary command line tools to a web based terminal emulator.| blackarch-backdoor |https://github.com/shellinabox/shellinabox
@@ -2346,7 +2346,7 @@ sparrow-wifi|219.38b0312|Next-Gen GUI-based WiFi and Bluetooth Analyzer.| blacka
 sparta|21.b0a4514|Python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.| blackarch-scanner |http://sparta.secforce.com/
 spartan|23.babdd7d|Frontpage and Sharepoint fingerprinting and attack tool.| blackarch-fingerprint |https://github.com/sensepost/SPartan
 sparty|0.1|An open source tool written in python to audit web applications using sharepoint and frontpage architecture.| blackarch-webapp |http://sparty.secniche.org/
-spectools|2010_04_R1|Spectrum-Tools is a set of utilities for using the Wi-Spy USB spectrum analyzer hardware. Stable version.| blackarch-wireless |http://www.kismetwireless.net/spectools/
+spectools|3.0|Spectrum-Tools is a set of utilities for using the Wi-Spy USB spectrum analyzer hardware.| blackarch-wireless |https://www.kismetwireless.net/spectools/
 speedpwn|8.3dd2793|An active WPA/2 Bruteforcer, original created to prove weak standard key generation in different ISP labeled routers without a client is connected.| blackarch-cracker |https://gitorious.org/speedpwn/
 spektrum|2.1.0|rtl-sdr spectrum analyzer.| blackarch-radio |https://github.com/pavels/spektrum
 spf|85.344ac2f|A python tool designed to allow for quick recon and deployment of simple social engineering phishing exercises.| blackarch-social |https://github.com/tatanus/SPF
@@ -2392,7 +2392,6 @@ sshscan|1.0|A horizontal SSH scanner that scans large swaths of IPv4 space for a
 sshtrix|0.0.3|A very fast multithreaded SSH login cracker.| blackarch-cracker |http://nullsecurity.net/tools/cracker.html
 ssl-hostname-resolver|1|CN (Common Name) grabber on X.509 Certificates over HTTPS.| blackarch-recon |http://packetstormsecurity.com/files/120634/Common-Name-Grabber-Script.html
 ssl-phuck3r|2.0|All in one script for Man-In-The-Middle attacks.| blackarch-sniffer |https://github.com/zombiesam/ssl_phuck3r
-sslcat|1.0|SSLCat is a simple Unix utility that reads and writes data across an SSL enable network connection.| blackarch-misc |http://www.bindshell.net/tools/sslcat
 sslcaudit|524.f218b9b|Utility to perform security audits of SSL/TLS clients.| blackarch-scanner |https://github.com/grwl/sslcaudit
 ssldump|1.7|An SSLv3/TLS network protocol analyzer.| blackarch-sniffer |http://www.rtfm.com/ssldump/
 ssllabs-scan|251.53cd76a|Command-line client for the SSL Labs APIs| blackarch-scanner |https://github.com/ssllabs/ssllabs-scan
@@ -2484,7 +2483,6 @@ tcpcontrol-fuzzer|0.1|2^6 TCP control bit fuzzer (no ECN or CWR).| blackarch-fuz
 tcpcopy|1285.929511d|A TCP stream replay tool to support real testing of Internet server applications.| blackarch-networking |https://github.com/session-replay-tools/tcpcopy
 tcpdstat|4.be5bd28|Get protocol statistics from tcpdump pcap files.| blackarch-networking |https://github.com/netik/tcpdstat
 tcpextract|1.1|Extracts files from captured TCP sessions. Support live streams and pcap files.| blackarch-networking |https://pypi.python.org/pypi/tcpextract/
-tcpick|0.2.1|TCP stream sniffer and connection tracker| blackarch-sniffer |http://tcpick.sourceforge.net/
 tcpjunk|2.9.03|A general tcp protocols testing and hacking utility.| blackarch-exploitation |http://code.google.com/p/tcpjunk
 tcptrace|6.6.7|A TCP dump file analysis tool.| blackarch-networking |http://tcptrace.org/
 tcptraceroute|1.5beta7|A traceroute implementation using TCP packets.| blackarch-networking |http://michael.toren.net/code/tcptraceroute/
@@ -2695,6 +2693,7 @@ wascan|37.6926338|Web Application Scanner.| blackarch-webapp |https://github.com
 waybackpack|114.c5507a0|Download the entire Wayback Machine archive for a given URL.| blackarch-webapp |https://github.com/jsvine/waybackpack
 waybackurls|11.89da10c|Fetch all the URLs that the Wayback Machine knows about for a domain.| blackarch-recon |https://github.com/tomnomnom/waybackurls
 waymore|v7.1.r0.gc7fdd8d|Find way more from the Wayback Machine, Common Crawl, Alien Vault OTX, URLScan & VirusTotal.| blackarch-recon |https://github.com/xnl-h4ck3r/waymore
+wayparam|0.3.0|Fetch and normalize parameterized URLs from the Wayback CDX API.| blackarch-webapp |https://github.com/aleff-github/wayparam
 wcc|v0.0.11.r34.gdced7e9|The Witchcraft Compiler Collection.| blackarch-binary |https://github.com/endrazine/wcc
 wce|1.41beta|A security tool to list logon sessions and add, change, list and delete associated credentials (ex.: LM/NT hashes, plaintext passwords and Kerberos tickets).| blackarch-windows |http://www.hoobie.net/wce/
 wcvs|2.0.0.r1.g64e6441|Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning.| blackarch-webapp |https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner
