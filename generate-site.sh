@@ -59,6 +59,6 @@ export NET_CHECKSUM="$(cat checksums/net64iso)"
 export OVA_CHECKSUM="$(cat checksums/ova)"
 
 for i in generators/*.sh ; do
-	echo "[*] generating: ${i}"
-	sh $i > $(basename $i .sh)
+  echo "[*] generating: ${i}"
+  sh $i > $(basename $i .sh)
 done
