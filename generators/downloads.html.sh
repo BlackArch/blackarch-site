@@ -293,7 +293,8 @@ cat << EOF
               <a href="https://blackarch.unixpeople.org/" target="_blank" itemprop="url">https://blackarch.unixpeople.org/</a><br>
               <a href="rsync://blackarch.unixpeople.org/blackarch/" target="_blank" itemprop="url">rsync://blackarch.unixpeople.org/blackarch/</a><br>
               <a href="http://mirror.diyarciftci.xyz/blackarch/" target="_blank" itemprop="url">http://mirror.diyarciftci.xyz/blackarch/</a><br>
-              <a href="https://mirror.diyarciftci.xyz/blackarch/" target="_blank" itemprop="url">https://mirror.diyarciftci.xyz/blackarch/</a>
+              <a href="https://mirror.diyarciftci.xyz/blackarch/" target="_blank" itemprop="url">https://mirror.diyarciftci.xyz/blackarch/</a><br>
+              <a href="https://mirror.rabisu.com/mirrors/blackarch/" target="_blank" itemprop="url">https://mirror.rabisu.com/mirrors/blackarch/</a>
               <br><br>
               <img src="/images/flags/gr.png" alt="Greece" /> Greece<br>
               <a href="http://ftp.cc.uoc.gr/mirrors/linux/blackarch/" target="_blank" itemprop="url">http://ftp.cc.uoc.gr/mirrors/linux/blackarch/</a><br>
