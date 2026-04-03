@@ -384,11 +384,11 @@ cat << EOF
               <a href="http://mirror.easyname.ch/blackarch/" target="_blank" itemprop="url">http://mirror.easyname.ch/blackarch/</a><br>
               <a href="ftp://mirror.easyname.ch/blackarch/" target="_blank" itemprop="url">ftp://mirror.easyname.ch/blackarch/</a><br>
               <a href="rsync://mirror.easyname.ch/blackarch/" target="_blank" itemprop="url">rsync://mirror.easyname.ch/blackarch/</a><br>
-              <a href="https://mirror.tillo.ch/ftp/blackarch/" target="_blank" itemprop="url">https://mirror.tillo.ch/ftp/blackarch/</a><br>
-              <a href="http://mirror.tillo.ch/ftp/blackarch/" target="_blank" itemprop="url">http://mirror.tillo.ch/ftp/blackarch/</a><br>
-              <a href="ftpes://mirror.tillo.ch/blackarch/" target="_blank" itemprop="url">ftpes://mirror.tillo.ch/blackarch/</a><br>
-              <a href="ftp://mirror.tillo.ch/blackarch/" target="_blank" itemprop="url">ftp://mirror.tillo.ch/blackarch/</a><br>
-              <a href="rsync://mirror.tillo.ch/blackarch/" target="_blank" itemprop="url">rsync://mirror.tillo.ch/blackarch/</a>
+              <a href="https://mirror.mdapi.ch/ftp/blackarch/" target="_blank" itemprop="url">https://mirror.mdapi.ch/ftp/blackarch/</a><br>
+              <a href="http://mirror.mdapi.ch/ftp/blackarch/" target="_blank" itemprop="url">http://mirror.mdapi.ch/ftp/blackarch/</a><br>
+              <a href="ftpes://mirror.mdapi.ch/blackarch/" target="_blank" itemprop="url">ftpes://mirror.mdapi.ch/blackarch/</a><br>
+              <a href="ftp://mirror.mdapi.ch/blackarch/" target="_blank" itemprop="url">ftp://mirror.mdapi.ch/blackarch/</a><br>
+              <a href="rsync://mirror.mdapi.ch/blackarch/" target="_blank" itemprop="url">rsync://mirror.mdapi.ch/blackarch/</a>
               <br><br>
               <img src="/images/flags/tr.png" alt="Turkey" /> Turkey<br>
               <a href="http://tr.mirrors.cicku.me/blackarch/" target="_blank" itemprop="url">http://tr.mirrors.cicku.me/blackarch/</a><br>
