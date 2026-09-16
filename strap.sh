@@ -2,42 +2,48 @@
 # strap.sh - setup BlackArch Linux keyring and install initial packages
 
 VERSION=20251011
-ARCH=$(uname -m)
+#ARCH=$(uname -m)
+
+SUCCESS=0
+FAILURE=1
 
 # mirror file to fetch and write
 MIRROR_F='blackarch-mirrorlist'
 
 # simple error message wrapper
-err()
-{
-  echo >&2 "$(tput bold; tput setaf 1)[-] ERROR: ${*}$(tput sgr0)"
-
+err() {
+  echo >&2 "$(
+    tput bold
+    tput setaf 1
+  )[-] ERROR: ${*}$(tput sgr0)"
   exit 1337
 }
 
 # simple warning message wrapper
-warn()
-{
-  echo >&2 "$(tput bold; tput setaf 1)[!] WARNING: ${*}$(tput sgr0)"
+warn() {
+  echo >&2 "$(
+    tput bold
+    tput setaf 1
+  )[!] WARNING: ${*}$(tput sgr0)"
 }
 
 # simple echo wrapper
-msg()
-{
-  echo "$(tput bold; tput setaf 2)[+] ${*}$(tput sgr0)"
+msg() {
+  echo "$(
+    tput bold
+    tput setaf 2
+  )[+] ${*}$(tput sgr0)"
 }
 
 # check for root privilege
-check_priv()
-{
+check_priv() {
   if [ "$(id -u)" -ne 0 ]; then
     err "you must be root"
   fi
 }
 
 # make a temporary directory and cd into
-make_tmp_dir()
-{
+make_tmp_dir() {
   tmp="$(mktemp -d /tmp/blackarch_strap.XXXXXXXX)"
 
   trap 'rm -rf $tmp' EXIT
@@ -45,26 +51,23 @@ make_tmp_dir()
   cd "$tmp" || err "Could not enter directory $tmp"
 }
 
-set_umask()
-{
+set_umask() {
   OLD_UMASK=$(umask)
 
   umask 0022
 
-  trap 'reset_umask' TERM
+  trap 'reset_umask' TERM EXIT
 }
 
-reset_umask()
-{
+reset_umask() {
   umask $OLD_UMASK
 }
 
-check_internet()
-{
+check_internet() {
   tool='curl'
   tool_opts='-s --connect-timeout 8'
 
-  if ! $tool $tool_opts https://blackarch.org/ > /dev/null 2>&1; then
+  if ! $tool $tool_opts https://blackarch.org/ >/dev/null 2>&1; then
     err "You don't have an Internet connection!"
   fi
 
@@ -72,58 +75,56 @@ check_internet()
 }
 
 # retrieve the BlackArch Linux keyring
-fetch_keyring()
-{
+fetch_keyring() {
   curl -s -O \
-  "https://www.blackarch.org/keyring/blackarch-keyring-$VERSION.tar.gz"
+    "https://www.blackarch.org/keyring/blackarch-keyring-$VERSION.tar.gz"
 
   curl -s -O \
-  "https://www.blackarch.org/keyring/blackarch-keyring-$VERSION.tar.gz.sig"
+    "https://www.blackarch.org/keyring/blackarch-keyring-$VERSION.tar.gz.sig"
 }
 
 # verify the keyring signature
 # note: this is pointless if you do not verify the key fingerprint
-verify_keyring()
-{
-  if ! gpg --keyserver keyserver.ubuntu.com \
-     --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
-  then
-    if ! gpg --keyserver hkps://keyserver.ubuntu.com:443 \
-       --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
-    then
-      if ! gpg --keyserver hkp://pgp.mit.edu:80 \
-         --recv-keys 4345771566D76038C7FEB43863EC0ADBEA87E4E3 > /dev/null 2>&1
-      then
-        err "could not verify the key. Please check: https://blackarch.org/faq.html"
+verify_keyring() {
+  trusted_keys="
+    4345771566D76038C7FEB43863EC0ADBEA87E4E3
+    CBA3C7D4798912702DCF568E67D8BDF42AD93F4E
+    F9A6E68A711354D84A9B91637533BAFE69A25079
+  "
+  for key in $trusted_keys; do
+    if ! gpg --keyserver keyserver.ubuntu.com \
+      --recv-keys "$key" >/dev/null 2>&1; then
+      if ! gpg --keyserver hkps://keyserver.ubuntu.com:443 \
+        --recv-keys "$key" >/dev/null 2>&1; then
+        if ! gpg --keyserver hkp://pgp.mit.edu:80 \
+          --recv-keys "$key" >/dev/null 2>&1; then
+          warn "could not retrieve GPG key $key, continuing with the rest"
+        fi
       fi
     fi
-  fi
+  done
 
-  if ! gpg --keyserver-options no-auto-key-retrieve \
-    --with-fingerprint "blackarch-keyring-$VERSION.tar.gz.sig" \
-    > /dev/null 2>&1
-  then
+  if ! gpg --verify \
+    "blackarch-keyring-$VERSION.tar.gz.sig" \
+    "blackarch-keyring-$VERSION.tar.gz" >/dev/null 2>&1; then
     err "invalid keyring signature. please stop by https://matrix.to/#/#BlackArch:matrix.org"
   fi
 }
 
 # delete the signature files
-delete_signature()
-{
+delete_signature() {
   if [ -f "blackarch-keyring-$VERSION.tar.gz.sig" ]; then
     rm "blackarch-keyring-$VERSION.tar.gz.sig"
   fi
 }
 
 # make sure /etc/pacman.d/gnupg is usable
-check_pacman_gnupg()
-{
+check_pacman_gnupg() {
   pacman-key --init
 }
 
 # install the keyring
-install_keyring()
-{
+install_keyring() {
   tar xfz "blackarch-keyring-$VERSION.tar.gz" --strip-components=1 \
     -C /usr/share/pacman/keyrings/
 
@@ -132,13 +133,12 @@ install_keyring()
 }
 
 # ask user for mirror
-get_mirror()
-{
+get_mirror() {
   mirror_p="/etc/pacman.d"
   mirror_r="https://blackarch.org"
 
   msg "fetching new mirror list..."
-  if ! curl -s "$mirror_r/$MIRROR_F" -o "$mirror_p/$MIRROR_F" ; then
+  if ! curl -s "$mirror_r/$MIRROR_F" -o "$mirror_p/$MIRROR_F"; then
     err "we couldn't fetch the mirror list from: $mirror_r/$MIRROR_F"
   fi
 
@@ -146,20 +146,19 @@ get_mirror()
 }
 
 # update pacman.conf
-update_pacman_conf()
-{
+update_pacman_conf() {
   # delete blackarch related entries if existing
-  sed -i '/blackarch/{N;d}' /etc/pacman.conf
+  sed -i '/^\[blackarch\]/,/^Include\s*=.*blackarch/d' /etc/pacman.conf
 
-  cat >> "/etc/pacman.conf" << EOF
+  cat >>"/etc/pacman.conf" <<EOF
+
 [blackarch]
 Include = /etc/pacman.d/$MIRROR_F
 EOF
 }
 
 # synchronize and update
-pacman_update()
-{
+pacman_update() {
   if pacman -Syy; then
     return $SUCCESS
   fi
@@ -169,27 +168,24 @@ pacman_update()
   return $FAILURE
 }
 
-pacman_upgrade()
-{
+pacman_upgrade() {
   echo 'perform full system upgrade? (pacman -Su) [Yn]:'
-  read conf < /dev/tty
+  read conf </dev/tty
   case "$conf" in
-    ''|y|Y) pacman -Su ;;
-    n|N) warn 'some blackarch packages may not work without an up-to-date system.' ;;
+  '' | y | Y) pacman -Su ;;
+  n | N) warn 'some blackarch packages may not work without an up-to-date system.' ;;
   esac
 }
 
-
 # setup blackarch linux
-blackarch_setup()
-{
+blackarch_setup() {
   msg 'installing blackarch keyring...'
   check_priv
   set_umask
   make_tmp_dir
   check_internet
   fetch_keyring
-  #verify_keyring
+  verify_keyring
   delete_signature
   check_pacman_gnupg
   install_keyring
@@ -218,5 +214,3 @@ blackarch_setup()
 }
 
 blackarch_setup
-
-
