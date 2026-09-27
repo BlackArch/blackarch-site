@@ -123,10 +123,18 @@ verify_keyring()
     esac
   fi
 
-  case "$KEYRING_SIGNERS" in
-    *"$signer"*) msg "Keyring signed by $signer" ;;
-    *) err "Keyring signed by untrusted key $signer" ;;
-  esac
+  signer_trusted=false
+  for trusted in $KEYRING_SIGNERS; do
+    if [ "$trusted" = "$signer" ]; then
+      signer_trusted=true
+      break
+    fi
+  done
+  if [ "$signer_trusted" = true ]; then
+    msg "Keyring signed by $signer"
+  else
+    err "Keyring signed by untrusted key $signer"
+  fi
 }
 
 # make sure /etc/pacman.d/gnupg is usable
