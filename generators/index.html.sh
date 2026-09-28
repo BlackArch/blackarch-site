@@ -87,7 +87,14 @@ cat <<EOF
                                     <td itemprop="additionalName">noptrix</td>
                                     <td itemprop="email">noptrix@blackarch.org</td>
                                     <td><a href="gpgkeys/noptrix.asc" target="_blank">0xD235838E6231C179</a></td>
-                                    <td itemprop="jobTitle">Noob</td>
+                                    <td itemprop="jobTitle">Leader</td>
+                                </tr>
+                                <tr>
+                                    <td itemprop="givenName">Behruz B.Sh.</td>
+                                    <td itemprop="additionalName">Zen1th53</td>
+                                    <td itemprop="email">Zen1th53@proton.me</td>
+                                    <td>—</td>
+                                    <td itemprop="jobTitle">Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Alia Morozova</td>
