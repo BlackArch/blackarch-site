@@ -90,13 +90,6 @@ cat <<EOF
                                     <td itemprop="jobTitle">Leader</td>
                                 </tr>
                                 <tr>
-                                    <td itemprop="givenName">Behruz B.Sh.</td>
-                                    <td itemprop="additionalName">Zen1th53</td>
-                                    <td itemprop="email">Zen1th53@proton.me</td>
-                                    <td>—</td>
-                                    <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
                                     <td itemprop="givenName">Alia Morozova</td>
                                     <td itemprop="additionalName">anunna</td>
                                     <td itemprop="email">anunna@blackarch.org</td>
