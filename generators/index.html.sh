@@ -90,6 +90,13 @@ cat <<EOF
                                     <td itemprop="jobTitle">Noob</td>
                                 </tr>
                                 <tr>
+                                    <td itemprop="givenName">Antonio Voza</td>
+                                    <td itemprop="additionalName">D3vil0p3r</td>
+                                    <td itemprop="email">d3vil0p3r@blackarch.org</td>
+                                    <td><a href="gpgkeys/d3vil0p3r.asc" target="_blank">0xA3F78B994C2171D5</a></td>
+                                    <td itemprop="jobTitle">Developer</td>
+                                </tr>
+                                <tr>
                                     <td itemprop="givenName">Alia Morozova</td>
                                     <td itemprop="additionalName">anunna</td>
                                     <td itemprop="email">anunna@blackarch.org</td>
@@ -102,20 +109,6 @@ cat <<EOF
                                     <td itemprop="email">psf@blackarch.org</td>
                                     <td><a href="gpgkeys/psf.asc" target="_blank">0xD19B5EDE9A23FDF3</a></td>
                                     <td itemprop="jobTitle">Developer</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Pierre B.</td>
-                                    <td itemprop="additionalName">Pi3rrot</td>
-                                    <td itemprop="email">pi3rrot@blackarch.org</td>
-                                    <td><a href="gpgkeys/pi3rrot.asc" target="_blank">0x1B6EC0AB4ADEDC63</a></td>
-                                    <td itemprop="jobTitle">Developer, Torrent Master</td>
-                                </tr>
-                                <tr>
-                                    <td itemprop="givenName">Sachin S. Kamath</td>
-                                    <td itemprop="additionalName">pwnfoo</td>
-                                    <td itemprop="email">pwnfoo@blackarch.org</td>
-                                    <td><a href="gpgkeys/pwnfoo.asc" target="_blank">0xF16278F70171823A</a></td>
-                                    <td>Developer</td>
                                 </tr>
                                 <tr>
                                     <td itemprop="givenName">Christopher Downs</td>
