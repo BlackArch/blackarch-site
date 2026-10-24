@@ -563,7 +563,6 @@ dns-reverse-proxy|45.e3d33b9|A reverse DNS proxy written in Go.| blackarch-proxy
 dns-spoof|13.81ba29f|Yet another DNS spoof utility.| blackarch-spoof |https://github.com/maurotfilho/dns-spoof
 dns2geoip|0.1|A simple python script that brute forces DNS and subsequently geolocates the found subdomains.| blackarch-scanner |http://packetstormsecurity.com/files/118036/DNS-GeoIP.html
 dns2tcp|0.5.2|A tool for relaying TCP connections over DNS.| blackarch-tunnel |http://www.hsc.fr/ressources/outils/dns2tcp/index.html.en
-dnsa|0.6|A dns security swiss army knife.| blackarch-scanner |http://packetfactory.openwall.net/projects/dnsa/index.html
 dnsbf|0.3|Search for available domain names in an IP range.| blackarch-scanner |https://code.google.com/archive/p/dnsbf/
 dnsbrute|2.b1dc84a|Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.| blackarch-recon |https://github.com/d4rkcat/dnsbrute
 dnscan|209.281721e|A python wordlist-based DNS subdomain scanner.| blackarch-scanner |https://github.com/rbsec/dnscan
@@ -695,7 +694,7 @@ espionage|48.2d57edd|A Network Packet and Traffic Interceptor For Linux. Sniff A
 eternal-scanner|101.3979b0f|An internet scanner for exploit CVE-0144 (Eternal Blue).| blackarch-scanner |https://github.com/peterpt/eternal_scanner
 etherchange|1.1|Can change the Ethernet address of the network adapters in Windows.| blackarch-windows |https://vidstromlabs.com/freetools/etherchange/
 etherflood|1.1|Floods a switched network with Ethernet frames with random hardware addresses.| blackarch-windows |http://ntsecurity.nu/toolbox/etherflood/
-evil-opencode|1.18.35|OpenCode coding-agent fork with LLM prompt guardrails removed and outbound telemetry disabled.| blackarch-ai |https://github.com/winmin/evil-opencode
+evil-opencode|1.19.0|OpenCode coding-agent fork with LLM prompt guardrails removed and outbound telemetry disabled.| blackarch-ai |https://github.com/winmin/evil-opencode
 evil-ssdp|08..beta.r7.g0d41a11|Spoof SSDP replies to phish for NetNTLM challenge/response on a network.| blackarch-spoof |https://gitlab.com/initstring/evil-ssdp
 evil-winrm|v4.1.r0.g64d8e0f|The ultimate WinRM shell for hacking/pentesting.| blackarch-exploitation |https://github.com/Hackplayers/evil-winrm
 evil-winrm-py|1.7.0|WinRM shell for Windows and Active Directory pentesting.| blackarch-windows |https://github.com/adityatelange/evil-winrm-py
@@ -1063,7 +1062,7 @@ http-traceroute|0.5|This is a python script that uses the Max-Forwards header in
 http2smugl|43.ccdf772|Http2Smugl - Tool to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -> HTTP/1.1 conversion.| blackarch-webapp |https://github.com/neex/http2smugl
 httpbog|1.0.0.0|A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.| blackarch-windows |http://sourceforge.net/projects/httpbog/
 httpforge|11.02.01|A set of shell tools that let you manipulate, send, receive, and analyze HTTP messages. These tools can be used to test, discover, and assert the security of Web servers, apps, and sites. An accompanying Python library is available for extensions.| blackarch-webapp |http://packetstormsecurity.com/files/98109/HTTPForge.02.01.html
-httpgrep|4.7|Async HTTP(S) scanner that greps response bodies and headers for strings or regex across hosts, ports, CIDR/ranges and TLS-cert vhosts.| blackarch-webapp |https://nullsecurity.net/tools/scanner.html
+httpgrep|4.8|Async HTTP(S) scanner that greps response bodies and headers for strings or regex across hosts, ports, CIDR/ranges and TLS-cert vhosts.| blackarch-webapp |https://nullsecurity.net/tools/scanner.html
 httppwnly|47.528a664|"Repeater" style XSS post-exploitation tool for mass browser control.| blackarch-webapp |https://github.com/Danladi/HttpPwnly
 httprecon|7.3|Tool for web server fingerprinting, also known as http fingerprinting.| blackarch-windows |http://www.computec.ch/projekte/httprecon/?s=download
 httprint|301|A web server fingerprinting tool.| blackarch-fingerprint |https://www.net-square.com/httprint.html
@@ -2463,6 +2462,7 @@ targetedkerberoast|27.ebed079|Kerberoast with ACL abuse capabilities.| blackarch
 tbear|1.5|Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetooth DoS tool, and a Bluetooth hidden device locator.| blackarch-bluetooth |http://freshmeat.net/projects/t-bear
 tcgetkey|0.1|A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.| blackarch-dos |http://packetstormsecurity.com/files/119146/tcgetkey.1.html
 tchunt-ng|208.b8cf7fc|Reveal encrypted files stored on a filesystem.| blackarch-forensic |https://github.com/antagon/TCHunt-ng
+tcpcat|v1.5.0.r6.g6f93eb0|High-performance network reconnaissance and vulnerability intelligence scanner with an eBPF/AF_XDP engine.| blackarch-scanner |https://github.com/NycolazSec/tcpcat
 tcpcontrol-fuzzer|0.1|2^6 TCP control bit fuzzer (no ECN or CWR).| blackarch-fuzzer |https://www.ee.oulu.fi/research/ouspg/tcpcontrol-fuzzer
 tcpcopy|1285.929511d|A TCP stream replay tool to support real testing of Internet server applications.| blackarch-networking |https://github.com/session-replay-tools/tcpcopy
 tcpdstat|4.be5bd28|Get protocol statistics from tcpdump pcap files.| blackarch-networking |https://github.com/netik/tcpdstat
@@ -2508,7 +2508,7 @@ tinja|1.2.0.r5.g507d903|CLI tool for testing web pages for template injection vu
 titus|v1.2.10.r1.g510c407|High-performance secrets scanner based on NoseyParker.| blackarch-scanner |https://github.com/praetorian-inc/titus
 tls-attacker|9246.931058ef3|A Java-based framework for analyzing TLS libraries.| blackarch-crypto |https://github.com/RUB-NDS/TLS-Attacker
 tls-fingerprinting|257.4b6e878|Tool and scripts to perform TLS Fingerprinting.| blackarch-fingerprint |https://github.com/LeeBrotherston/tls-fingerprinting
-tls-map|v3.3.0.r5.g9c43b3d|CLI & library for TLS cipher suites manipulation.| blackarch-crypto |https://noraj.github.io/tls-map/
+tls-map|v3.4.0.r2.g2051cf4|CLI & library for TLS cipher suites manipulation.| blackarch-crypto |https://noraj.github.io/tls-map/
 tls-prober|286.72b1029|A tool to fingerprint SSL/TLS servers.| blackarch-fingerprint |https://github.com/WestpointLtd/tls_prober
 tlsenum|78.787c88b|A command line tool to enumerate TLS cipher-suites supported by a server.| blackarch-crypto |https://github.com/Ayrx/tlsenum
 tlsfuzzer|1961.5eebc44|SSL and TLS protocol test suite and fuzzer.| blackarch-crypto |https://github.com/tomato42/tlsfuzzer
